@@ -27,6 +27,8 @@ MIN_EDGE = float(os.getenv("MIN_EDGE", 3.0))       # percent
 MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced markets
 MIN_HOURS = float(os.getenv("MIN_HOURS", 1.0))      # skip anything starting sooner
 MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 25))
+MAX_ODDS = float(os.getenv("MAX_ODDS", 10.0))       # long shots carry huge margin: consensus is meaningless
+MAX_EDGE = float(os.getenv("MAX_EDGE", 15.0))       # anything above this is a data artefact, not value
 SPORT_PREFIXES = tuple(os.getenv(
     "SPORT_PREFIXES",
     "soccer,tennis,basketball,americanfootball,icehockey,cricket,rugby,mma,boxing,darts,snooker"
@@ -65,18 +67,36 @@ def consensus(event):
     """
     For each selection, collect every bookmaker's margin-free view of its chance.
     Returns {selection: {book: probability}}.
+
+    Only bookmakers pricing the same set of outcomes are compared. In boxing, for
+    instance, some firms price the draw and some don't, and mixing the two makes a
+    two-way book's prices look wildly generous on a three-way market.
     """
-    views = {}
+    books = []
     for book in event.get("bookmakers", []):
         market = next((m for m in book.get("markets", []) if m["key"] == "h2h"), None)
         if not market:
             continue
         prices = {o["name"]: o["price"] for o in market.get("outcomes", [])
                   if o.get("price", 0) > 1}
-        if len(prices) < 2:
+        if len(prices) >= 2:
+            books.append((book["key"], prices))
+    if not books:
+        return {}
+
+    # the market shape most bookmakers agree on
+    shapes = {}
+    for _, prices in books:
+        shape = tuple(sorted(prices))
+        shapes[shape] = shapes.get(shape, 0) + 1
+    standard = max(shapes, key=shapes.get)
+
+    views = {}
+    for key, prices in books:
+        if tuple(sorted(prices)) != standard:
             continue
         for name, prob in devig(prices).items():
-            views.setdefault(name, {})[book["key"]] = prob
+            views.setdefault(name, {})[key] = prob
     return views
 
 
@@ -126,11 +146,11 @@ def find_value(events, sport_label, sport_key):
                 if not 0 < fair_prob < 1:
                     continue
                 price = price_at(ev, book_key, selection)
-                if not price:
+                if not price or price > MAX_ODDS:
                     continue
                 fair = 1 / fair_prob
                 edge = (price / fair - 1) * 100
-                if edge < MIN_EDGE:
+                if edge < MIN_EDGE or edge > MAX_EDGE:
                     continue
                 found.append({
                     "id": f"{ev['id']}|{book_key}|{selection}",
