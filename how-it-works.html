@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How it works — Over the Odds</title>
+<meta name="description" content="How we find value bets: stripping out bookmaker margin, taking the market consensus, and what value actually means over time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FAF8F4; --card:#FFFFFF; --ink:#141C2B; --soft:#6B7480; --rule:#E4E0D6;
+    --green:#0B7A4B; --amber:#B06A00; --red:#A32B22; --dim:rgba(20,28,43,.05);
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
+      --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+    }
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--bg); color:var(--ink);
+       font:400 17px/1.65 "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+       font-variant-numeric:tabular-nums}
+  .wrap{max-width:660px; margin:0 auto; padding:18px 16px 60px}
+  a{color:var(--ink)}
+  header{display:flex; justify-content:space-between; align-items:baseline; gap:12px;
+         padding-bottom:14px; border-bottom:1px solid var(--rule)}
+  .brand{font-size:19px; font-weight:800; letter-spacing:-.03em; text-decoration:none}
+  .back{font-size:14px; color:var(--soft); text-decoration:none}
+  .back:hover{color:var(--ink)}
+  h1{font-size:30px; font-weight:800; letter-spacing:-.03em; line-height:1.15; margin:28px 0 10px}
+  h2{font-size:20px; font-weight:800; letter-spacing:-.02em; margin:34px 0 8px}
+  p{margin:0 0 15px}
+  .lede{font-size:18px; color:var(--soft); margin-bottom:26px}
+  .example{background:var(--card); border:1px solid var(--rule); border-radius:12px;
+           padding:15px; margin:18px 0}
+  .example table{width:100%; border-collapse:collapse; font-size:15px}
+  .example td{padding:6px 0; border-bottom:1px solid var(--rule)}
+  .example tr:last-child td{border-bottom:0}
+  .example td:last-child{text-align:right; font-weight:700}
+  .example .note{font-size:14px; color:var(--soft); margin:11px 0 0}
+  .sum{font-weight:800; color:var(--amber)}
+  .good{color:var(--green); font-weight:800}
+  strong{font-weight:700}
+  .warn{background:var(--dim); border:1px solid var(--rule); border-radius:12px;
+        padding:15px; margin:22px 0; font-size:15.5px}
+  .warn p:last-child{margin-bottom:0}
+  footer{margin-top:44px; padding-top:16px; border-top:1px solid var(--rule);
+         font-size:13px; color:var(--soft)}
+  footer p{margin:0 0 6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="/">Over the Odds</a>
+    <a class="back" href="/">Back to the board</a>
+  </header>
+
+  <h1>How this works</h1>
+  <p class="lede">We don't predict results. We look for prices that are bigger than they
+     ought to be, by comparing every UK bookmaker against the market as a whole.</p>
+
+  <h2>Every price includes the bookmaker's cut</h2>
+  <p>Think about tossing a coin. Heads and tails are equally likely, so a fair price on
+     each is 2.00 — stake a pound, win a pound.</p>
+  <p>No bookmaker offers 2.00 on both. They'll offer something like 1.90 and 1.90. That
+     gap is their margin, and it's how they make a living. Across enough bets, it's the
+     reason the house comes out ahead.</p>
+  <p>The same thing happens on a football match, just harder to see. Add up what the
+     prices imply and you get more than 100% certainty. The extra is the cut.</p>
+
+  <div class="example">
+    <table>
+      <tr><td>Home win at 2.20</td><td>45.5%</td></tr>
+      <tr><td>Draw at 3.40</td><td>29.4%</td></tr>
+      <tr><td>Away win at 3.60</td><td>27.8%</td></tr>
+      <tr><td>Total</td><td class="sum">102.7%</td></tr>
+    </table>
+    <p class="note">Only one of these can happen, so the true total is 100%. The extra
+       2.7% is the bookmaker's margin.</p>
+  </div>
+
+  <h2>Take the margin out and you see what they really think</h2>
+  <p>Scale those numbers back down to 100% and you get that bookmaker's honest view of
+     each outcome. In the example above, the home win becomes 44.3% rather than 45.5%.</p>
+  <p>We do this for every bookmaker pricing that match, which gives us a dozen or more
+     independent opinions with the sales markup removed.</p>
+
+  <h2>The middle of the market is the best guide we have</h2>
+  <p>Any single firm can be wrong. A dozen firms, all pricing the same match, all with
+     traders watching team news and money coming in, are rarely wrong together.</p>
+  <p>So we take the middle of their opinions as the true chance, and work out what price
+     that chance deserves. We leave the bookmaker being judged out of its own comparison,
+     or a generous price would drag the average toward itself and hide the very thing
+     we're looking for.</p>
+  <p>If fewer than a handful of firms have priced a market, we ignore it. A consensus of
+     two isn't a consensus.</p>
+
+  <div class="example">
+    <table>
+      <tr><td>The market's true price</td><td>3.86</td></tr>
+      <tr><td>One bookmaker is offering</td><td>4.20</td></tr>
+      <tr><td>Value</td><td class="good">+8.8%</td></tr>
+    </table>
+    <p class="note">That firm is slower, or more generous, than the rest of the market.
+       That's the bet.</p>
+  </div>
+
+  <h2>What value actually means</h2>
+  <p>A bet listed at 5% value doesn't win 5% more often. It means that if you could play
+     that same bet a thousand times, you'd expect to end up about 5% ahead of where you
+     started.</p>
+  <p>You can't play it a thousand times. You get one go, and it either wins or it doesn't.
+     Which is why this only makes sense across hundreds of bets, and why anyone judging it
+     over a weekend is judging luck.</p>
+  <p>Losing weeks are normal. Losing months happen. If that sounds like a poor pitch,
+     it's an honest one, and it's the same maths the bookmakers rely on from the other
+     side.</p>
+
+  <h2>Why the prices move</h2>
+  <p>We collect prices twice a day. Bookmakers change theirs constantly, so by the time
+     you look, a price may have shortened or gone entirely. Always check the price before
+     betting — if it's moved, the value may have gone with it.</p>
+  <p>We don't leave dead bets on the board. Every sweep rebuilds the list from scratch,
+     so anything that no longer qualifies simply disappears.</p>
+
+  <h2>Why we publish our record</h2>
+  <p>Anyone can claim an edge. Almost nobody shows their working.</p>
+  <p>Every selection we list is recorded, settled from the result, and counted. Not the
+     good ones. All of them. The Record page shows the strike rate, the return at level
+     stakes, and how often our price beat the market's closing price.</p>
+  <p>That last figure matters most. If we consistently list prices bigger than the market
+     settles on by the start, that's a real edge showing up long before profit does.
+     Above 55% is a genuine signal. Below 50% means we're finding noise, and we'd rather
+     you could see that for yourself.</p>
+
+  <div class="warn">
+    <p><strong>What this isn't.</strong> These aren't tips or predictions, and there's no
+       guarantee attached to any of them. We have no idea who wins a given match. We only
+       know which prices look generous compared with the rest of the market.</p>
+    <p>Bet only what you can afford to lose, and stop if it stops being enjoyable.</p>
+  </div>
+
+  <h2>A note on bookmaker accounts</h2>
+  <p>Bookmakers don't much like customers who consistently take the best price. Accounts
+     get stake-limited or closed, sometimes within weeks. Spreading your bets across
+     several firms and keeping stakes to sensible round numbers helps, but it happens to
+     most people eventually. Worth knowing before you start.</p>
+
+  <footer>
+    <p><a href="/">Back to the board</a></p>
+    <p>18+. Gambling involves risk and losses can exceed winnings. Support at
+       BeGambleAware.org.</p>
+  </footer>
+</div>
+</body>
+</html>
