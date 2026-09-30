@@ -34,8 +34,11 @@ jobs:
       - name: Sweep for value
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          MIN_EDGE: "3"
-          MIN_BOOKS: "5"
+          MIN_EDGE: "2"           # smallest value worth listing, in percent
+          MIN_BOOKS: "4"          # bookmakers needed before a consensus is trusted
+          MAX_ODDS: "15"          # ignore long shots: consensus on them is meaningless
+          MAX_EDGE: "15"          # above this it's a data artefact, not value
+          MIN_HOURS: "1"          # skip anything starting within the hour
           MAX_PER_SPORT: "25"
         run: python sweep.py
 
