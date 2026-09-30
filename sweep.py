@@ -1,0 +1,207 @@
+"""
+sweep.py — build the board.
+
+Fetches UK bookmaker prices from The Odds API, works out what the market as a
+whole thinks each selection's chance is, and writes the bets where one
+bookmaker is out of line into feed.json.
+
+Also records every pick in picks.json and keeps updating its closing price, so
+settle.py can report closing line value later.
+
+Run:  ODDS_API_KEY=xxx python sweep.py
+"""
+import json
+import os
+import statistics
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import requests
+
+API = "https://api.the-odds-api.com/v4"
+OUT = Path(os.getenv("OUT_DIR", "."))
+KEY = os.getenv("ODDS_API_KEY", "")
+
+MIN_EDGE = float(os.getenv("MIN_EDGE", 3.0))       # percent
+MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced markets
+MIN_HOURS = float(os.getenv("MIN_HOURS", 1.0))      # skip anything starting sooner
+MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 25))
+SPORT_PREFIXES = tuple(os.getenv(
+    "SPORT_PREFIXES",
+    "soccer,tennis,basketball,americanfootball,icehockey,cricket,rugby,mma,boxing,darts,snooker"
+).split(","))
+
+
+def active_sports():
+    """The free /sports endpoint tells us what's in season. Costs no credits."""
+    r = requests.get(f"{API}/sports", params={"apiKey": KEY}, timeout=20)
+    r.raise_for_status()
+    return [s["key"] for s in r.json()
+            if s.get("active") and not s.get("has_outrights")
+            and s["key"].startswith(SPORT_PREFIXES)]
+
+
+def fetch_odds(sport):
+    r = requests.get(
+        f"{API}/sports/{sport}/odds",
+        params={"apiKey": KEY, "regions": "uk", "markets": "h2h",
+                "oddsFormat": "decimal", "includeLinks": "true"},
+        timeout=25,
+    )
+    r.raise_for_status()
+    print(f"  {sport}: {r.headers.get('x-requests-remaining')} credits left")
+    return r.json()
+
+
+def devig(prices):
+    """Strip a bookmaker's margin out of its own book to get its true chances."""
+    implied = {name: 1 / price for name, price in prices.items()}
+    total = sum(implied.values())
+    return {name: p / total for name, p in implied.items()}
+
+
+def consensus(event):
+    """
+    For each selection, collect every bookmaker's margin-free view of its chance.
+    Returns {selection: {book: probability}}.
+    """
+    views = {}
+    for book in event.get("bookmakers", []):
+        market = next((m for m in book.get("markets", []) if m["key"] == "h2h"), None)
+        if not market:
+            continue
+        prices = {o["name"]: o["price"] for o in market.get("outcomes", [])
+                  if o.get("price", 0) > 1}
+        if len(prices) < 2:
+            continue
+        for name, prob in devig(prices).items():
+            views.setdefault(name, {})[book["key"]] = prob
+    return views
+
+
+def title_of(book_key, event):
+    for b in event.get("bookmakers", []):
+        if b["key"] == book_key:
+            return b.get("title", book_key)
+    return book_key
+
+
+def link_for(event, book_key, selection):
+    """Deepest link the API gives us: the bet, then the market, then the bookmaker."""
+    for b in event.get("bookmakers", []):
+        if b["key"] != book_key:
+            continue
+        for m in b.get("markets", []):
+            if m["key"] != "h2h":
+                continue
+            for o in m.get("outcomes", []):
+                if o["name"] == selection and o.get("link"):
+                    return o["link"]
+            if m.get("link"):
+                return m["link"]
+        return b.get("link", "")
+    return ""
+
+
+def find_value(events, sport_label, sport_key):
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(hours=MIN_HOURS)
+    found = []
+    for ev in events:
+        start = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+        if start < cutoff:
+            continue
+        views = consensus(ev)
+        name = f"{ev.get('home_team','')} v {ev.get('away_team','')}".strip(" v")
+        for selection, by_book in views.items():
+            if len(by_book) < MIN_BOOKS:
+                continue
+            for book_key, _ in by_book.items():
+                # the market's verdict, excluding the bookmaker being judged
+                others = [p for k, p in by_book.items() if k != book_key]
+                if len(others) < MIN_BOOKS - 1:
+                    continue
+                fair_prob = statistics.median(others)
+                if not 0 < fair_prob < 1:
+                    continue
+                price = price_at(ev, book_key, selection)
+                if not price:
+                    continue
+                fair = 1 / fair_prob
+                edge = (price / fair - 1) * 100
+                if edge < MIN_EDGE:
+                    continue
+                found.append({
+                    "id": f"{ev['id']}|{book_key}|{selection}",
+                    "sport_key": sport_key,
+                    "sport": sport_label,
+                    "event": name,
+                    "start": ev["commence_time"],
+                    "selection": selection,
+                    "book": title_of(book_key, ev),
+                    "odds": round(price, 2),
+                    "fair": round(fair, 2),
+                    "link": link_for(ev, book_key, selection),
+                })
+    found.sort(key=lambda b: b["odds"] / b["fair"], reverse=True)
+    return found[:MAX_PER_SPORT]
+
+
+def price_at(event, book_key, selection):
+    for b in event.get("bookmakers", []):
+        if b["key"] != book_key:
+            continue
+        for m in b.get("markets", []):
+            if m["key"] != "h2h":
+                continue
+            for o in m.get("outcomes", []):
+                if o["name"] == selection:
+                    return o.get("price")
+    return None
+
+
+def load_json(path, default):
+    try:
+        return json.loads((OUT / path).read_text())
+    except Exception:
+        return default
+
+
+def main():
+    if not KEY:
+        sys.exit("Set ODDS_API_KEY first.")
+    bets = []
+    for sport in active_sports():
+        try:
+            events = fetch_odds(sport)
+        except Exception as exc:
+            print(f"  {sport}: skipped ({exc})")
+            continue
+        label = events[0].get("sport_title", sport) if events else sport
+        bets.extend(find_value(events, label, sport))
+
+    # keep a record of every pick, and refresh its closing price each sweep
+    picks = load_json("picks.json", {})
+    for b in bets:
+        entry = picks.setdefault(b["id"], {
+            "sport": b["sport"], "sport_key": b["sport_key"],
+            "event": b["event"], "start": b["start"],
+            "selection": b["selection"], "book": b["book"], "odds": b["odds"],
+            "first_seen": datetime.now(timezone.utc).isoformat(),
+        })
+        entry["close"] = b["fair"]          # latest market verdict before the off
+        entry["close_seen"] = datetime.now(timezone.utc).isoformat()
+
+    feed = {
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key")} for b in bets],
+        "results": load_json("results.json", []),
+    }
+    (OUT / "feed.json").write_text(json.dumps(feed, indent=1))
+    (OUT / "picks.json").write_text(json.dumps(picks, indent=1))
+    print(f"{len(bets)} bets written, {len(picks)} picks tracked")
+
+
+if __name__ == "__main__":
+    main()

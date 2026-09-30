@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Over the Odds — value across every sport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FAF8F4; --card:#FFFFFF; --ink:#141C2B; --soft:#6B7480; --rule:#E4E0D6;
+    --green:#0B7A4B; --amber:#B06A00; --red:#A32B22; --dim:rgba(20,28,43,.05);
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
+      --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
+    --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  html{-webkit-text-size-adjust:100%; scroll-padding-top:env(safe-area-inset-top,0px)}
+  body{margin:0; background:var(--bg); color:var(--ink);
+       font:400 16px/1.5 "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+       font-variant-numeric:tabular-nums}
+  .wrap{max-width:760px; margin:0 auto; padding:16px 15px 96px}
+  a{color:inherit}
+
+  header{display:flex; justify-content:space-between; align-items:baseline; gap:10px}
+  h1{font-size:20px; font-weight:800; letter-spacing:-.03em; margin:0}
+  .stamp{font-size:12px; color:var(--soft)}
+  .lede{color:var(--soft); font-size:14px; margin:6px 0 0; max-width:60ch}
+
+  .controls{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--bg);
+            padding:12px 0 8px; margin-top:12px; border-bottom:1px solid var(--rule)}
+  .chips{display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; -webkit-overflow-scrolling:touch}
+  .chip{white-space:nowrap; border:1px solid var(--rule); background:none; color:var(--soft);
+        border-radius:999px; padding:6px 12px; font:inherit; font-size:13px; font-weight:600; cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink)}
+  .filters{display:flex; gap:10px; align-items:center; margin-top:8px; font-size:13px;
+           color:var(--soft); flex-wrap:wrap}
+  .filters select{padding:5px 8px; font:inherit; font-size:13px; background:var(--card);
+                  color:var(--ink); border:1px solid var(--rule); border-radius:7px; width:auto}
+
+  h2{font-size:13px; font-weight:800; margin:22px 0 8px; display:flex;
+     justify-content:space-between; align-items:baseline; gap:10px}
+  h2 span{font-weight:500; color:var(--soft); font-size:12px}
+
+  .bet{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:12px;
+       margin-bottom:8px; display:flex; flex-direction:column}
+  .bet .top{display:flex; justify-content:space-between; gap:12px; align-items:flex-start}
+  .pickname{font-weight:700; line-height:1.25}
+  .fixture{font-size:12.5px; color:var(--soft); margin-top:2px}
+  .edge{font-size:21px; font-weight:800; letter-spacing:-.02em; white-space:nowrap; color:var(--soft)}
+  .edge.strong{color:var(--green)} .edge.fair{color:var(--amber)}
+  .prices{display:flex; gap:16px; margin-top:10px; align-items:flex-end}
+  .prices .n{font-size:18px; font-weight:700; line-height:1.1}
+  .prices .n.sub{font-weight:500; color:var(--soft)}
+  .prices .l{font-size:11px; color:var(--soft)}
+  .foot{display:flex; justify-content:space-between; align-items:center; gap:10px;
+        margin-top:auto; padding-top:11px; border-top:1px solid var(--rule)}
+  .bet .foot{margin-top:11px}
+  .book{font-size:13px; font-weight:600}
+  .go{background:var(--ink); color:var(--bg); border:0; border-radius:8px; padding:8px 14px;
+      font:inherit; font-size:13px; font-weight:700; text-decoration:none; display:inline-block}
+  .locked{background:var(--dim); border-style:dashed}
+  .locked .pickname,.locked .prices .n{filter:blur(4px); user-select:none}
+  .lockmsg{font-size:12.5px; color:var(--soft)}
+
+  .notice{background:var(--dim); border:1px solid var(--rule); border-radius:10px; padding:11px 12px;
+          font-size:13px; color:var(--soft); margin-bottom:10px}
+  .notice strong{color:var(--ink)}
+  .panel{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:13px; margin-bottom:10px}
+  .panel p{margin:0 0 9px; font-size:13.5px; color:var(--soft)}
+  .panel p:last-child{margin-bottom:0}
+  .line{display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid var(--rule)}
+  .line:last-child{border-bottom:0}
+  .line .k{color:var(--soft); font-size:13px}
+  .line .v{font-weight:700}
+  .up{color:var(--green)} .down{color:var(--red)}
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+  .stat{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:12px}
+  .stat .n{font-size:24px; font-weight:800; letter-spacing:-.02em}
+  .stat .l{font-size:12px; color:var(--soft); margin-top:2px}
+
+  label{display:block; font-size:12px; color:var(--soft); margin-bottom:4px}
+  input[type=email],input[type=number],select,textarea{width:100%; padding:9px 10px; font:inherit;
+    font-size:15px; color:var(--ink); background:var(--bg); border:1px solid var(--rule); border-radius:8px}
+  textarea{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; min-height:110px}
+  .checks{display:flex; flex-wrap:wrap; gap:7px}
+  .checks label{display:flex; align-items:center; gap:6px; font-size:13px; color:var(--ink);
+                border:1px solid var(--rule); border-radius:999px; padding:6px 11px; margin:0; cursor:pointer}
+  .btn{background:var(--ink); color:var(--bg); border:0; border-radius:8px; padding:9px 14px;
+       font:inherit; font-size:13px; font-weight:700; cursor:pointer}
+  .btn.line{background:none; color:var(--ink); border:1px solid var(--rule)}
+  .btnrow{display:flex; gap:7px; margin-top:9px; flex-wrap:wrap}
+  .msg{font-size:12.5px; color:var(--amber); margin-top:8px; min-height:1em}
+  .empty{color:var(--soft); font-size:14px; padding:20px 2px; text-align:center}
+  table{width:100%; border-collapse:collapse; font-size:13.5px}
+  th,td{text-align:right; padding:7px 4px; border-bottom:1px solid var(--rule)}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:11.5px; color:var(--soft); font-weight:600}
+  .scroll{overflow-x:auto}
+
+  footer{margin-top:28px; padding-top:14px; border-top:1px solid var(--rule); font-size:12px; color:var(--soft)}
+  footer p{margin:0 0 6px}
+
+  nav{position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--rule);
+      display:flex; padding-bottom:env(safe-area-inset-bottom,0px); z-index:9}
+  nav button{flex:1; background:none; border:0; color:var(--soft); font:inherit; font-size:13px;
+             font-weight:700; padding:13px 4px; cursor:pointer}
+  nav button[aria-current="page"]{color:var(--ink); box-shadow:inset 0 2px 0 var(--green)}
+  #topnav{display:none}
+  .hidden{display:none}
+  .btn:focus-visible,.chip:focus-visible,.go:focus-visible,nav button:focus-visible,
+  select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--green); outline-offset:2px}
+
+  @media (min-width:900px){
+    .wrap{max-width:1080px; padding:28px 28px 60px}
+    h1{font-size:26px}
+    .board-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+    .bet{margin-bottom:0}
+    .chips{overflow:visible; flex-wrap:wrap}
+    .grid2{grid-template-columns:repeat(4,1fr)}
+    .panel{max-width:820px}
+    #bottomnav{display:none}
+    #topnav{display:flex; position:static; border:1px solid var(--rule); border-radius:999px;
+            width:max-content; margin:14px 0 0; padding:3px; gap:3px}
+    #topnav button{padding:8px 22px; border-radius:999px; flex:none}
+    #topnav button[aria-current="page"]{background:var(--ink); color:var(--bg); box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="brand">Over the Odds</h1>
+    <span class="stamp" id="stamp"></span>
+  </header>
+  <p class="lede" id="lede"></p>
+  <nav id="topnav"></nav>
+
+  <section id="view-board">
+    <div class="controls">
+      <div class="chips" id="chips"></div>
+      <div class="filters">
+        <label for="minEdge" style="margin:0">Value over</label>
+        <select id="minEdge">
+          <option value="0">any</option><option value="2">2%</option>
+          <option value="3">3%</option><option value="4">4%</option><option value="6">6%</option>
+        </select>
+        <label for="sortBy" style="margin:0">Sort</label>
+        <select id="sortBy">
+          <option value="edge">biggest value</option>
+          <option value="time">starting soonest</option>
+        </select>
+        <button class="chip" id="mineBtn" aria-pressed="false" type="button">My bookmakers</button>
+        <button class="chip" id="themeBtn" type="button">Theme</button>
+      </div>
+    </div>
+    <div id="spread"></div>
+    <div id="board"></div>
+  </section>
+
+  <section id="view-record" class="hidden">
+    <h2>Every selection, settled and counted<span id="recRange"></span></h2>
+    <div class="grid2" id="recStats"></div>
+    <div class="panel" style="margin-top:10px">
+      <p id="clvLine"></p>
+      <p>Closing line value compares the price we listed against the price the market had
+         settled on by the off. Beating it consistently is the earliest honest sign of a
+         genuine edge, since profit takes hundreds of bets to separate itself from luck.</p>
+    </div>
+    <h2>By month</h2>
+    <div class="scroll"><table id="byMonth"></table></div>
+    <h2>By sport</h2>
+    <div class="scroll"><table id="bySport"></table></div>
+    <p class="msg" id="recNote"></p>
+  </section>
+
+  <section id="view-yours" class="hidden">
+    <h2>Bookmakers you hold</h2>
+    <div class="panel">
+      <p>Tick the firms you hold an account with and the board will show only the bets you
+         can actually have.</p>
+      <div class="checks" id="bookChecks"></div>
+    </div>
+
+    <h2>Keeping accounts open</h2>
+    <div class="panel" id="spreadPanel"></div>
+
+    <h2>Daily email</h2>
+    <div class="panel">
+      <p>One email a day with anything above your threshold.</p>
+      <label for="alertEmail">Email address</label>
+      <input id="alertEmail" type="email" placeholder="you@example.com" autocomplete="email">
+      <div style="margin-top:9px">
+        <label for="alertEdge">Only tell me about value over</label>
+        <select id="alertEdge">
+          <option value="3">3%</option><option value="4">4%</option>
+          <option value="5">5%</option><option value="7">7%</option>
+        </select>
+      </div>
+      <div class="btnrow"><button class="btn" id="alertBtn" type="button">Sign up</button></div>
+      <p class="msg" id="alertMsg"></p>
+    </div>
+
+    <section id="admin" hidden>
+      <h2>Feed <span>only you see this</span></h2>
+      <div class="panel">
+        <p>Paste the JSON your scanner produces. Bets need sport, event, start, selection,
+           book, odds, fair and link. Results need sport, date, selection, book, odds,
+           close and won.</p>
+        <textarea id="feedBox" spellcheck="false"></textarea>
+        <div class="btnrow">
+          <button class="btn" id="loadBtn" type="button">Load feed</button>
+          <button class="btn line" id="sampleBtn" type="button">Restore sample</button>
+          <button class="btn line" id="copyBtn" type="button">Show current feed</button>
+        </div>
+        <p style="margin-top:10px">Free sport
+          <select id="freePick" style="width:auto; display:inline-block"></select>
+        </p>
+        <p class="msg" id="msg"></p>
+      </div>
+    </section>
+  </section>
+
+  <footer>
+    <p>Sample data for demonstration. Prices move during the day; always check the price
+       before betting.</p>
+    <p>18+. Gambling involves risk and losses can exceed winnings. Support at BeGambleAware.org.</p>
+  </footer>
+</div>
+
+<nav id="bottomnav"></nav>
+
+<script>
+(function(){
+  "use strict";
+  var KEY = "overlay:v3";
+  var SPORTS = ["Football","Tennis","Basketball","American football","Cricket","Darts",
+                "Snooker","Table tennis","Golf","Horse racing"];
+  var FREE_SPORT = "All";
+  var MAX_FEED_AGE_H = 12;
+  var VIEWS = [["board","Board"],["record","Record"],["yours","Yours"]];
+
+  var prefs = { sport:"All", minEdge:3, sort:"edge", mineOnly:false, member:false,
+                theme:null, free:FREE_SPORT, books:[], email:"", alertEdge:5, view:"board" };
+  var taken = [];
+  var feed = sample();
+
+  function save(){ try{ localStorage.setItem(KEY, JSON.stringify({prefs:prefs, taken:taken, feed:feed})); }catch(e){} }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var s = JSON.parse(raw);
+      if(s.prefs) prefs = Object.assign(prefs, s.prefs);
+      if(Array.isArray(s.taken)) taken = s.taken;
+      if(s.feed && s.feed.bets && s.feed.bets.length) feed = s.feed;
+    }catch(e){}
+  }
+  function el(id){ return document.getElementById(id); }
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+    return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]; }); }
+  function pctStr(n){ return (n >= 0 ? "+" : "") + n.toFixed(1) + "%"; }
+  function edgeOf(b){
+    if(typeof b.edge === "number") return b.edge;
+    return (b.odds > 0 && b.fair > 0) ? (b.odds / b.fair - 1) * 100 : 0;
+  }
+  function band(e){ return e >= 4 ? "strong" : e >= 2 ? "fair" : ""; }
+  function kickoff(b){ var t = new Date(b.start).getTime(); return isNaN(t) ? Infinity : t; }
+  function feedTime(){ var t = new Date(feed.updated).getTime(); return isNaN(t) ? Date.now() : t; }
+  function when(b){
+    var t = kickoff(b); if(t === Infinity) return "";
+    var d = new Date(t), diff = t - Date.now();
+    if(diff < 0) return "started";
+    if(diff < 36e5) return "in " + Math.round(diff/6e4) + " min";
+    if(diff < 864e5) return d.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+    return d.toLocaleDateString([], {weekday:"short"}) + " " +
+           d.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+  }
+  function books(){
+    var set = {};
+    feed.bets.forEach(function(b){ set[b.book] = true; });
+    (feed.results || []).forEach(function(r){ set[r.book] = true; });
+    return Object.keys(set).sort();
+  }
+
+  function renderChips(){
+    var present = SPORTS.filter(function(s){ return feed.bets.some(function(b){ return b.sport === s; }); });
+    el("chips").innerHTML = ["All"].concat(present).map(function(s){
+      return '<button class="chip" data-sport="' + esc(s) + '" aria-pressed="' +
+        (prefs.sport === s) + '">' + esc(s) + '</button>';
+    }).join("");
+  }
+
+  function visibleBets(){
+    return feed.bets.filter(function(b){
+      if(prefs.sport !== "All" && b.sport !== prefs.sport) return false;
+      if(edgeOf(b) < prefs.minEdge) return false;
+      if(prefs.mineOnly && prefs.books.length && prefs.books.indexOf(b.book) === -1) return false;
+      return kickoff(b) > Date.now();
+    });
+  }
+
+  function renderBoard(){
+    var ageH = (Date.now() - feedTime()) / 3600000;
+    var waiting = ageH > MAX_FEED_AGE_H
+      ? '<div class="notice">These prices are from the sweep at ' +
+        new Date(feedTime()).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) +
+        '. The next one is due shortly.</div>' : '';
+    var rows = visibleBets();
+    if(!rows.length){
+      el("board").innerHTML = waiting + '<div class="empty">Nothing clears that filter right now. ' +
+        'Try a lower figure, or check back after the next sweep.</div>';
+      return;
+    }
+    var groups = {};
+    rows.forEach(function(b){ (groups[b.sport] = groups[b.sport] || []).push(b); });
+    var order = Object.keys(groups).sort(function(a,b){
+      return Math.max.apply(null, groups[b].map(edgeOf)) - Math.max.apply(null, groups[a].map(edgeOf));
+    });
+    el("board").innerHTML = waiting + order.map(function(sport){
+      var list = groups[sport].sort(function(x,y){
+        return prefs.sort === "time" ? kickoff(x) - kickoff(y) : edgeOf(y) - edgeOf(x); });
+      var best = Math.max.apply(null, list.map(edgeOf));
+      var paid = !prefs.member && prefs.free !== "All" && sport !== prefs.free;
+      return '<h2>' + esc(sport) + '<span>' + list.length + ' bets · best ' + best.toFixed(1) + '%' +
+        (paid ? ' · members' : '') + '</span></h2>' +
+        '<div class="board-grid">' + list.map(row).join("") + '</div>';
+    }).join("");
+  }
+
+  function row(b){
+    var e = edgeOf(b);
+    var locked = !prefs.member && prefs.free !== "All" && b.sport !== prefs.free;
+    var candidate = b.link || b.marketLink || b.bookLink || "";
+    var link = /^https:\/\//.test(candidate) ? candidate : null;
+    var deep = link && link !== b.bookLink;
+    var mine = prefs.books.indexOf(b.book) !== -1;
+    return '<div class="bet' + (locked ? " locked" : "") + '">' +
+      '<div class="top"><div>' +
+        '<div class="pickname">' + esc(locked ? "Selection hidden" : b.selection) + '</div>' +
+        '<div class="fixture">' + esc(b.event) + ' · ' + when(b) + '</div>' +
+      '</div><div class="edge ' + band(e) + '">' + e.toFixed(1) + '%</div></div>' +
+      '<div class="prices">' +
+        '<div><div class="n">' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</div><div class="l">their price</div></div>' +
+        '<div><div class="n sub">' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</div><div class="l">true price</div></div>' +
+      '</div>' +
+      '<div class="foot"><span class="book">' + esc(b.book) + (mine ? ' · yours' : '') + '</span>' +
+        (locked ? '<span class="lockmsg">Members only</span>'
+          : (link ? '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener noreferrer" ' +
+                    'data-book="' + esc(b.book) + '">' + (deep ? "Go to bet" : "Open bookmaker") + '</a>'
+                  : '<span class="lockmsg">No link</span>')) +
+      '</div></div>';
+  }
+
+  function spreadCounts(days){
+    var since = Date.now() - days*864e5, counts = {}, total = 0;
+    taken.forEach(function(t){ if(t.ts > since){ counts[t.book] = (counts[t.book]||0)+1; total++; } });
+    return { counts:counts, total:total };
+  }
+  function renderSpread(){
+    var s = spreadCounts(7);
+    if(s.total < 5){ el("spread").innerHTML = ""; return; }
+    var top = Object.keys(s.counts).sort(function(a,b){ return s.counts[b]-s.counts[a]; })[0];
+    var share = s.counts[top] / s.total;
+    el("spread").innerHTML = share > 0.5
+      ? '<div class="notice"><strong>' + esc(top) + '</strong> has taken ' + Math.round(share*100) +
+        '% of your bets this week. Firms restrict accounts that only ever back the right side, ' +
+        'so put the next few on elsewhere.</div>' : "";
+  }
+  function renderSpreadPanel(){
+    var s = spreadCounts(30);
+    var list = Object.keys(s.counts).sort(function(a,b){ return s.counts[b]-s.counts[a]; });
+    el("spreadPanel").innerHTML =
+      '<p>Where your bets have gone over the last 30 days. Spreading them about keeps accounts ' +
+      'open far longer than hammering whichever firm is pricing loosest.</p>' +
+      (list.length
+        ? list.map(function(b){
+            return '<div class="line"><span class="k">' + esc(b) + '</span><span class="v">' +
+              s.counts[b] + ' bets</span></div>'; }).join("")
+        : '<div class="empty">Nothing logged yet. Tapping through to a bet records it here.</div>') +
+      '<p style="margin-top:10px">Round your stakes as well. A £25 or a £50 looks like a punter; ' +
+      '£43.27 looks like someone with a spreadsheet, and that is what gets you noticed.</p>';
+  }
+
+  function results(){ return (feed.results || []).slice(); }
+  function summarise(list){
+    var stake = 10, turnover = 0, profit = 0, wins = 0, clvSum = 0, clvCount = 0, beat = 0;
+    list.forEach(function(r){
+      turnover += stake;
+      profit += r.won ? stake * (r.odds - 1) : -stake;
+      if(r.won) wins++;
+      if(r.close > 0){
+        clvSum += (r.odds / r.close - 1) * 100; clvCount++;
+        if(r.odds > r.close) beat++;
+      }
+    });
+    return { n:list.length, profit:profit, roi: turnover ? profit/turnover*100 : 0,
+             strike: list.length ? wins/list.length*100 : 0,
+             clv: clvCount ? clvSum/clvCount : 0,
+             beatPct: clvCount ? beat/clvCount*100 : 0 };
+  }
+  function stat(n, l, cls){
+    return '<div class="stat"><div class="n ' + (cls||"") + '">' + n + '</div><div class="l">' + l + '</div></div>';
+  }
+  function table(head, rows){
+    return '<thead><tr>' + head.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join("") +
+      '</tr></thead><tbody>' + rows.map(function(r){
+        return '<tr>' + r.map(function(c){
+          var str = String(c);
+          var cls = str.charAt(0) === "-" ? ' class="down"' : str.charAt(0) === "+" ? ' class="up"' : '';
+          return '<td' + cls + '>' + esc(str) + '</td>'; }).join("") + '</tr>';
+      }).join("") + '</tbody>';
+  }
+  function renderRecord(){
+    var list = results();
+    if(!list.length){
+      el("recStats").innerHTML = '<div class="empty">No settled bets yet.</div>';
+      el("byMonth").innerHTML = ""; el("bySport").innerHTML = "";
+      el("clvLine").textContent = ""; return;
+    }
+    var s = summarise(list);
+    var dates = list.map(function(r){ return r.date; }).sort();
+    el("recRange").textContent = dates[0] + " to " + dates[dates.length-1];
+    el("recStats").innerHTML =
+      stat(String(s.n), "bets settled") +
+      stat(pctStr(s.roi), "return at level stakes", s.roi >= 0 ? "up" : "down") +
+      stat(s.strike.toFixed(0) + "%", "strike rate") +
+      stat(pctStr(s.clv), "average closing line value", s.clv >= 0 ? "up" : "down");
+    el("clvLine").innerHTML = '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
+      '% of selections beat the closing price.</strong> Above 55% points to a genuine edge; ' +
+      'below 50% means the board is finding noise rather than value.';
+
+    var months = {}, sports = {};
+    list.forEach(function(r){
+      (months[r.date.slice(0,7)] = months[r.date.slice(0,7)] || []).push(r);
+      (sports[r.sport] = sports[r.sport] || []).push(r);
+    });
+    el("byMonth").innerHTML = table(["Month","Bets","Return","CLV"],
+      Object.keys(months).sort().reverse().map(function(m){
+        var x = summarise(months[m]); return [m, x.n, pctStr(x.roi), pctStr(x.clv)]; }));
+    el("bySport").innerHTML = table(["Sport","Bets","Return","CLV"],
+      Object.keys(sports).sort(function(a,b){ return sports[b].length - sports[a].length; })
+        .map(function(sp){
+          var x = summarise(sports[sp]);
+          return [sp, x.n, pctStr(x.roi), pctStr(x.clv)]; }));
+    el("recNote").textContent = s.n < 200
+      ? "After " + s.n + " bets the return is still mostly luck. Judge it on closing line value first."
+      : "";
+  }
+
+  function renderBookChecks(){
+    el("bookChecks").innerHTML = books().map(function(b){
+      return '<label><input type="checkbox" data-book="' + esc(b) + '"' +
+        (prefs.books.indexOf(b) !== -1 ? " checked" : "") + '> ' + esc(b) + '</label>';
+    }).join("");
+    el("alertEmail").value = prefs.email || "";
+    el("alertEdge").value = String(prefs.alertEdge);
+  }
+
+  function renderNav(){
+    var html = VIEWS.map(function(v){
+      return '<button data-view="' + v[0] + '"' +
+        (prefs.view === v[0] ? ' aria-current="page"' : '') + '>' + v[1] + '</button>'; }).join("");
+    el("bottomnav").innerHTML = html; el("topnav").innerHTML = html;
+  }
+  function renderStamp(){
+    var base = feedTime(), ageH = (Date.now() - base) / 3600000;
+    el("stamp").textContent = "Priced " +
+      new Date(base).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) +
+      (ageH > 1 ? " · " + Math.round(ageH) + "h ago" : "");
+    el("lede").textContent = "Every day we compare each UK bookmaker against what the whole " +
+      "market says a price should be." +
+      (prefs.free === "All" ? " Free, every sport." : " " + prefs.free + " is free; the rest is for members.");
+  }
+  function show(view){
+    prefs.view = view;
+    VIEWS.forEach(function(v){ el("view-" + v[0]).classList.toggle("hidden", v[0] !== view); });
+    renderNav(); save(); window.scrollTo(0,0);
+    if(view === "record") renderRecord();
+    if(view === "yours"){ renderBookChecks(); renderSpreadPanel(); }
+  }
+  function renderAll(){
+    renderChips(); renderBoard(); renderSpread(); renderStamp(); renderNav();
+    el("minEdge").value = String(prefs.minEdge);
+    el("sortBy").value = prefs.sort;
+    el("mineBtn").setAttribute("aria-pressed", String(prefs.mineOnly));
+    el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(s){
+      return '<option' + (s === prefs.free ? ' selected' : '') + '>' + esc(s) + '</option>'; }).join("");
+  }
+
+  document.addEventListener("click", function(e){
+    var t = e.target;
+    if(!(t instanceof HTMLElement)) return;
+    var nav = t.closest("[data-view]");
+    if(nav){ show(nav.getAttribute("data-view")); return; }
+    var chip = t.closest("[data-sport]");
+    if(chip){ prefs.sport = chip.getAttribute("data-sport"); save(); renderChips(); renderBoard(); return; }
+    var go = t.closest("a.go");
+    if(go){
+      taken.push({ book:go.getAttribute("data-book"), ts:Date.now() });
+      if(taken.length > 400) taken = taken.slice(-400);
+      save(); renderSpread(); return;
+    }
+  });
+
+  el("bookChecks").addEventListener("change", function(e){
+    var box = e.target;
+    if(!box || box.type !== "checkbox") return;
+    var name = box.getAttribute("data-book");
+    var i = prefs.books.indexOf(name);
+    if(box.checked && i === -1) prefs.books.push(name);
+    if(!box.checked && i !== -1) prefs.books.splice(i,1);
+    save(); renderBoard();
+  });
+
+  el("minEdge").onchange = function(){ prefs.minEdge = parseFloat(this.value) || 0; save(); renderBoard(); };
+  el("sortBy").onchange = function(){ prefs.sort = this.value; save(); renderBoard(); };
+  el("mineBtn").onclick = function(){
+    if(!prefs.books.length){ show("yours"); return; }
+    prefs.mineOnly = !prefs.mineOnly;
+    this.setAttribute("aria-pressed", String(prefs.mineOnly)); save(); renderBoard();
+  };
+  el("themeBtn").onclick = function(){
+    var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next); prefs.theme = next; save();
+  };
+  el("alertBtn").onclick = function(){
+    var v = el("alertEmail").value.trim();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){
+      el("alertMsg").textContent = "That doesn't look like an email address."; return; }
+    prefs.email = v; prefs.alertEdge = parseFloat(el("alertEdge").value) || 5; save();
+    el("alertMsg").textContent = "Saved on this device. Once the mailing list is connected, " +
+      "this address gets the " + prefs.alertEdge + "% list daily.";
+  };
+  el("alertEdge").onchange = function(){ prefs.alertEdge = parseFloat(this.value) || 5; save(); };
+
+  el("loadBtn").onclick = function(){
+    try{
+      var incoming = JSON.parse(el("feedBox").value);
+      if(!incoming || !Array.isArray(incoming.bets) || !incoming.bets.length) throw new Error("no bets");
+      feed = { updated: incoming.updated || new Date().toISOString(),
+               bets: incoming.bets, results: incoming.results || [] };
+      save(); renderAll(); renderRecord();
+      el("msg").textContent = incoming.bets.length + " bets and " +
+        (incoming.results ? incoming.results.length : 0) + " results loaded.";
+    }catch(err){
+      el("msg").textContent = "That didn't parse. Send the whole object with a bets array.";
+    }
+  };
+  el("sampleBtn").onclick = function(){ feed = sample(); save(); renderAll(); renderRecord();
+    el("msg").textContent = "Sample restored."; };
+  el("copyBtn").onclick = function(){ el("feedBox").value = JSON.stringify(feed, null, 1);
+    el("feedBox").select(); el("msg").textContent = "Current feed shown above."; };
+  el("freePick").onchange = function(){ prefs.free = this.value; save(); renderAll(); };
+
+  function showAdmin(){ el("admin").hidden = false; }
+  if(/admin/i.test(location.hash) || /admin=1/i.test(location.search)) showAdmin();
+  var taps = 0, tapTimer = null;
+  el("brand").addEventListener("click", function(){
+    taps++; clearTimeout(tapTimer); tapTimer = setTimeout(function(){ taps = 0; }, 1500);
+    if(taps >= 5){ taps = 0; showAdmin(); show("yours"); el("admin").scrollIntoView({behavior:"smooth"}); }
+  });
+
+  function sample(){
+    var h = 3600000, now = Date.now();
+    function b(sport, event, hrs, selection, book, odds, fair, link){
+      return { sport:sport, event:event, start:new Date(now + hrs*h).toISOString(),
+               selection:selection, book:book, odds:odds, fair:fair, link:link };
+    }
+    var bets = [
+      b("Football","Brentford v Crystal Palace",5,"Crystal Palace","Sky Bet",4.20,3.86,"https://www.skybet.com/"),
+      b("Football","Real Sociedad v Girona",27,"Draw","Paddy Power",3.90,3.72,"https://www.paddypower.com/"),
+      b("Football","Celtic v Hibernian",50,"Hibernian","William Hill",6.50,5.90,"https://www.williamhill.com/"),
+      b("Football","Bologna v Lazio",52,"Bologna","Unibet",2.62,2.55,"https://www.unibet.co.uk/"),
+      b("Tennis","Rybakina v Paolini",7,"Paolini","Betfred",2.90,2.66,"https://www.betfred.com/"),
+      b("Tennis","Draper v Fritz",9,"Draper","Sky Bet",1.95,1.88,"https://www.skybet.com/"),
+      b("Basketball","Celtics v Knicks",23,"Knicks +4.5","BetVictor",1.98,1.90,"https://www.betvictor.com/"),
+      b("American football","Bills v Dolphins",31,"Dolphins","William Hill",3.10,2.83,"https://www.williamhill.com/"),
+      b("Cricket","England v India",19,"India","Betfred",1.80,1.72,"https://www.betfred.com/"),
+      b("Darts","Humphries v Littler",4,"Littler","Unibet",2.05,1.90,"https://www.unibet.co.uk/"),
+      b("Darts","Smith v Aspinall",6,"Smith","BetVictor",2.45,2.22,"https://www.betvictor.com/"),
+      b("Snooker","Trump v Brecel",8,"Brecel","Paddy Power",3.40,3.05,"https://www.paddypower.com/"),
+      b("Table tennis","Lin v Fan",3,"Lin","Betfred",3.75,3.30,"https://www.betfred.com/"),
+      b("Golf","Dunhill Links",48,"Fleetwood top 5","Sky Bet",3.75,3.45,"https://www.skybet.com/"),
+      b("Horse racing","14:30 Ascot",6,"Constitution Hill","Paddy Power",2.60,2.50,"https://www.paddypower.com/")
+    ];
+    var pool = ["Football","Tennis","Darts","Snooker","Cricket","Basketball","Table tennis"];
+    var bookPool = ["Sky Bet","Paddy Power","William Hill","BetVictor","Unibet","Betfred"];
+    var res = [], seed = 7;
+    function rnd(){ seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; }
+    for(var i = 0; i < 120; i++){
+      var sport = pool[Math.floor(rnd()*pool.length)];
+      var odds = 1.6 + rnd()*4.4;
+      var close = rnd() < 0.72 ? odds / (1 + 0.005 + rnd()*0.045) : odds * (1 + rnd()*0.03);
+      var d = new Date(now - (i*2 + Math.floor(rnd()*2))*864e5);
+      res.push({ sport:sport, date:d.toISOString().slice(0,10), selection:"Selection " + (i+1),
+        book:bookPool[Math.floor(rnd()*bookPool.length)], odds:Math.round(odds*100)/100,
+        close:Math.round(close*100)/100, won: rnd() < (1/close) });
+    }
+    return { updated:new Date(now).toISOString(), bets:bets, results:res };
+  }
+
+  load();
+  if(prefs.theme) document.documentElement.setAttribute("data-theme", prefs.theme);
+  renderAll();
+  show(prefs.view || "board");
+
+  // On the live site this picks up the file the scanner writes. Locally it just fails
+  // quietly and the sample stays.
+  fetch("feed.json", { cache:"no-store" })
+    .then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+    .then(function(data){
+      if(!data || !Array.isArray(data.bets)) return;
+      feed = { updated:data.updated || new Date().toISOString(),
+               bets:data.bets, results:data.results || [] };
+      save(); renderAll(); if(prefs.view === "record") renderRecord();
+    })
+    .catch(function(){});
+})();
+</script>
+</body>
+</html>
