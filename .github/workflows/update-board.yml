@@ -24,7 +24,9 @@ jobs:
 
       - run: pip install requests
 
+      # Nothing to settle until selections have finished, so never fail on this.
       - name: Settle finished picks
+        continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python settle.py
@@ -41,6 +43,7 @@ jobs:
         run: |
           git config user.name "board-bot"
           git config user.email "board-bot@users.noreply.github.com"
-          git add -A feed.json picks.json results.json 2>/dev/null || git add -A
-          git diff --staged --quiet || git commit -m "Board update $(date -u '+%Y-%m-%d %H:%M')"
+          git add -A
+          git diff --staged --quiet && echo "Nothing changed" && exit 0
+          git commit -m "Board update $(date -u '+%Y-%m-%d %H:%M')"
           git push
