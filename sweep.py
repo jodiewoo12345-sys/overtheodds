@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.
+sweep.py — build the board.   [version 4: exchanges excluded, real closing prices]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -23,15 +23,24 @@ API = "https://api.the-odds-api.com/v4"
 OUT = Path(os.getenv("OUT_DIR", "."))
 KEY = os.getenv("ODDS_API_KEY", "")
 
-MIN_EDGE = float(os.getenv("MIN_EDGE", 3.0))       # percent
+MIN_EDGE = float(os.getenv("MIN_EDGE", 2.0))       # percent
 MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced markets
-MIN_HOURS = float(os.getenv("MIN_HOURS", 1.0))      # skip anything starting sooner
-MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 25))
+MIN_HOURS = float(os.getenv("MIN_HOURS", 2.0))      # skip anything starting sooner
+MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 MAX_ODDS = float(os.getenv("MAX_ODDS", 6.0))       # long shots carry huge margin: consensus is meaningless
-MAX_EDGE = float(os.getenv("MAX_EDGE", 15.0))       # anything above this is a data artefact, not value
+MAX_EDGE = float(os.getenv("MAX_EDGE", 12.0))       # anything above this is a data artefact, not value
+
+# Exchanges carry no margin and charge commission on winnings, so their prices are
+# keener than any bookmaker's and would fill the board every day. They stay in the
+# consensus, where their sharpness is useful, but are never listed as a bet.
+EXCHANGES = tuple(k.strip() for k in os.getenv(
+    "EXCHANGES", "betfair_ex_uk,betfair_ex_au,betfair_ex_eu,matchbook,smarkets,betdaq"
+).split(",") if k.strip())
 SPORT_PREFIXES = tuple(os.getenv(
+    # Four heavily priced competitions. The consensus is most trustworthy where the
+    # most firms are watching, and this fits inside the free API tier.
     "SPORT_PREFIXES",
-    "soccer_epl,soccer_uefa_champs_league,tennis_atp,basketball_nba",
+    "soccer_epl,soccer_uefa_champs_league,tennis_atp,basketball_nba"
 ).split(","))
 
 
@@ -125,9 +134,11 @@ def link_for(event, book_key, selection):
 
 
 def find_value(events, sport_label, sport_key):
+    """Returns (bets worth listing, the market's current true price for every selection)."""
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(hours=MIN_HOURS)
     found = []
+    market_prices = {}
     for ev in events:
         start = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
         if start < cutoff:
@@ -137,7 +148,13 @@ def find_value(events, sport_label, sport_key):
         for selection, by_book in views.items():
             if len(by_book) < MIN_BOOKS:
                 continue
+            # the whole market's view, used later as the closing price
+            whole = statistics.median(list(by_book.values()))
+            if 0 < whole < 1:
+                market_prices[f"{ev['id']}|{selection}"] = round(1 / whole, 2)
             for book_key, _ in by_book.items():
+                if book_key in EXCHANGES:
+                    continue
                 # the market's verdict, excluding the bookmaker being judged
                 others = [p for k, p in by_book.items() if k != book_key]
                 if len(others) < MIN_BOOKS - 1:
@@ -165,7 +182,7 @@ def find_value(events, sport_label, sport_key):
                     "link": link_for(ev, book_key, selection),
                 })
     found.sort(key=lambda b: b["odds"] / b["fair"], reverse=True)
-    return found[:MAX_PER_SPORT]
+    return found[:MAX_PER_SPORT], market_prices
 
 
 def price_at(event, book_key, selection):
@@ -192,6 +209,7 @@ def main():
     if not KEY:
         sys.exit("Set ODDS_API_KEY first.")
     bets = []
+    market_prices = {}
     for sport in active_sports():
         try:
             events = fetch_odds(sport)
@@ -199,19 +217,32 @@ def main():
             print(f"  {sport}: skipped ({exc})")
             continue
         label = events[0].get("sport_title", sport) if events else sport
-        bets.extend(find_value(events, label, sport))
+        sport_bets, sport_prices = find_value(events, label, sport)
+        bets.extend(sport_bets)
+        market_prices.update(sport_prices)
 
-    # keep a record of every pick, and refresh its closing price each sweep
+    # keep a record of every pick
     picks = load_json("picks.json", {})
     for b in bets:
-        entry = picks.setdefault(b["id"], {
+        picks.setdefault(b["id"], {
             "sport": b["sport"], "sport_key": b["sport_key"],
             "event": b["event"], "start": b["start"],
             "selection": b["selection"], "book": b["book"], "odds": b["odds"],
             "first_seen": datetime.now(timezone.utc).isoformat(),
         })
-        entry["close"] = b["fair"]          # latest market verdict before the off
-        entry["close_seen"] = datetime.now(timezone.utc).isoformat()
+
+    # Refresh the closing price on every pick still waiting, qualifying or not.
+    # The last value recorded before the event starts is the closing line, and
+    # comparing it with the price we published is the only honest measure of edge.
+    now_iso = datetime.now(timezone.utc).isoformat()
+    refreshed = 0
+    for pid, pick in picks.items():
+        event_id, _, rest = pid.partition("|")
+        key = f"{event_id}|{pick['selection']}"
+        if key in market_prices:
+            pick["close"] = market_prices[key]
+            pick["close_seen"] = now_iso
+            refreshed += 1
 
     feed = {
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -220,7 +251,8 @@ def main():
     }
     (OUT / "feed.json").write_text(json.dumps(feed, indent=1))
     (OUT / "picks.json").write_text(json.dumps(picks, indent=1))
-    print(f"{len(bets)} bets written, {len(picks)} picks tracked")
+    print(f"{len(bets)} bets written, {len(picks)} picks tracked, "
+          f"{refreshed} closing prices refreshed")
 
 
 if __name__ == "__main__":
