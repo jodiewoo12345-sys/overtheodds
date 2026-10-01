@@ -129,7 +129,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.001999+00:00",
   "close": 10.09,
-  "close_seen": "2026-10-01T06:23:49.524669+00:00"
+  "close_seen": "2026-10-01T11:09:34.942536+00:00"
  },
  "7e365956ef23823565a044a5af18736a|betway|Marshall Thundering Herd": {
   "sport": "NCAAF",
@@ -141,7 +141,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.002004+00:00",
   "close": 7.7,
-  "close_seen": "2026-10-01T06:23:49.524694+00:00"
+  "close_seen": "2026-10-01T11:09:34.942600+00:00"
  },
  "9b2bcb758c7d7f4cb25d5102e4e9068e|matchbook|Charlotte 49ers": {
   "sport": "NCAAF",
@@ -153,7 +153,7 @@
   "odds": 10.0,
   "first_seen": "2026-09-30T20:21:01.002008+00:00",
   "close": 8.74,
-  "close_seen": "2026-10-01T06:23:49.524733+00:00"
+  "close_seen": "2026-10-01T11:09:34.942582+00:00"
  },
  "b36c1d83299d019b7833660a29e9da9c|betfair_ex_uk|Wyoming Cowboys": {
   "sport": "NCAAF",
@@ -164,8 +164,8 @@
   "book": "Betfair",
   "odds": 9.6,
   "first_seen": "2026-09-30T20:21:01.002012+00:00",
-  "close": 8.51,
-  "close_seen": "2026-09-30T20:21:01.002014+00:00"
+  "close": 8.01,
+  "close_seen": "2026-10-01T11:09:34.942531+00:00"
  },
  "e7e3e3bfc3fd7fca7550ecf48cb78666|matchbook|UTEP Miners": {
   "sport": "NCAAF",
@@ -189,7 +189,7 @@
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002020+00:00",
   "close": 5.0,
-  "close_seen": "2026-10-01T06:23:49.524719+00:00"
+  "close_seen": "2026-10-01T11:09:34.942569+00:00"
  },
  "253e389201e449a2984a194e3eebf7f8|betfair_ex_uk|Colorado Buffaloes": {
   "sport": "NCAAF",
@@ -200,8 +200,8 @@
   "book": "Betfair",
   "odds": 5.3,
   "first_seen": "2026-09-30T20:21:01.002024+00:00",
-  "close": 4.93,
-  "close_seen": "2026-10-01T06:23:49.524699+00:00"
+  "close": 4.75,
+  "close_seen": "2026-10-01T11:09:34.942556+00:00"
  },
  "36357c80707ce0c3a645afe495b28bbd|matchbook|Boston College Eagles": {
   "sport": "NCAAF",
@@ -237,7 +237,7 @@
   "odds": 8.8,
   "first_seen": "2026-09-30T20:21:01.002035+00:00",
   "close": 8.01,
-  "close_seen": "2026-09-30T20:21:01.002037+00:00"
+  "close_seen": "2026-10-01T11:09:34.942523+00:00"
  },
  "766a0470521ac4a0fad476df45c1438b|betfair_ex_uk|Bowling Green Falcons": {
   "sport": "NCAAF",
@@ -249,7 +249,7 @@
   "odds": 5.8,
   "first_seen": "2026-09-30T20:21:01.002039+00:00",
   "close": 5.33,
-  "close_seen": "2026-10-01T06:23:49.524707+00:00"
+  "close_seen": "2026-10-01T11:09:34.942560+00:00"
  },
  "e7e3e3bfc3fd7fca7550ecf48cb78666|betway|UTEP Miners": {
   "sport": "NCAAF",
@@ -261,7 +261,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.002042+00:00",
   "close": 11.12,
-  "close_seen": "2026-10-01T06:23:49.524723+00:00"
+  "close_seen": "2026-10-01T11:09:34.942573+00:00"
  },
  "c3437a49d4efdbca5669e7edfb5af569|betway|Ball State Cardinals": {
   "sport": "NCAAF",
@@ -273,7 +273,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.002047+00:00",
   "close": 7.94,
-  "close_seen": "2026-10-01T06:23:49.524737+00:00"
+  "close_seen": "2026-10-01T11:09:34.942540+00:00"
  },
  "932c7f6dfe06be77192fe000e9f3ac9d|betfair_ex_uk|Clemson Tigers": {
   "sport": "NCAAF",
@@ -284,8 +284,8 @@
   "book": "Betfair",
   "odds": 7.2,
   "first_seen": "2026-09-30T20:21:01.002051+00:00",
-  "close": 6.76,
-  "close_seen": "2026-10-01T06:23:49.524740+00:00"
+  "close": 6.77,
+  "close_seen": "2026-10-01T11:09:34.942544+00:00"
  },
  "279230b2d38c4e97187c3f065501a4cf|betfair_ex_uk|Rice Owls": {
   "sport": "NCAAF",
@@ -297,7 +297,7 @@
   "odds": 4.9,
   "first_seen": "2026-09-30T20:21:01.002055+00:00",
   "close": 4.65,
-  "close_seen": "2026-10-01T06:23:49.524748+00:00"
+  "close_seen": "2026-10-01T11:09:34.942585+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|betway|Tennessee Titans": {
   "sport": "NFL",
@@ -308,8 +308,8 @@
   "book": "Betway",
   "odds": 7.0,
   "first_seen": "2026-09-30T20:21:01.002059+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524838+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942680+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|smarkets|Tennessee Titans": {
   "sport": "NFL",
@@ -320,8 +320,8 @@
   "book": "Smarkets",
   "odds": 6.8,
   "first_seen": "2026-09-30T20:21:01.002064+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524785+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942632+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|matchbook|Tennessee Titans": {
   "sport": "NFL",
@@ -332,8 +332,8 @@
   "book": "Matchbook",
   "odds": 6.8,
   "first_seen": "2026-09-30T20:21:01.002068+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524789+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942637+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|smarkets|Miami Dolphins": {
   "sport": "NFL",
@@ -345,7 +345,7 @@
   "odds": 6.2,
   "first_seen": "2026-09-30T20:21:01.002072+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524797+00:00"
+  "close_seen": "2026-10-01T11:09:34.942644+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|matchbook|Miami Dolphins": {
   "sport": "NFL",
@@ -357,7 +357,7 @@
   "odds": 6.2,
   "first_seen": "2026-09-30T20:21:01.002076+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524801+00:00"
+  "close_seen": "2026-10-01T11:09:34.942666+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|betfair_ex_uk|Tennessee Titans": {
   "sport": "NFL",
@@ -368,8 +368,8 @@
   "book": "Betfair",
   "odds": 6.6,
   "first_seen": "2026-09-30T20:21:01.002080+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524793+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942640+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|Miami Dolphins": {
   "sport": "NFL",
@@ -381,7 +381,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002085+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524816+00:00"
+  "close_seen": "2026-10-01T11:09:34.942655+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|sport888|Miami Dolphins": {
   "sport": "NFL",
@@ -393,7 +393,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002092+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524820+00:00"
+  "close_seen": "2026-10-01T11:09:34.942659+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|williamhill|Miami Dolphins": {
   "sport": "NFL",
@@ -405,7 +405,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002096+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524824+00:00"
+  "close_seen": "2026-10-01T11:09:34.942662+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|betfair_ex_uk|Miami Dolphins": {
   "sport": "NFL",
@@ -417,7 +417,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002100+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524827+00:00"
+  "close_seen": "2026-10-01T11:09:34.942669+00:00"
  },
  "573cc0ef39631a4f6673ec843a8bedd4|matchbook|New England Patriots": {
   "sport": "NFL",
@@ -440,8 +440,8 @@
   "book": "Betfair",
   "odds": 3.75,
   "first_seen": "2026-09-30T20:21:01.002125+00:00",
-  "close": 3.62,
-  "close_seen": "2026-09-30T20:21:01.002128+00:00"
+  "close": 3.67,
+  "close_seen": "2026-10-01T11:09:34.942684+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|sport888|Tennessee Titans": {
   "sport": "NFL",
@@ -452,8 +452,8 @@
   "book": "888sport",
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.002133+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524831+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942673+00:00"
  },
  "f01589b0e7e6dd4f4ac1220a1db81f53|williamhill|Tennessee Titans": {
   "sport": "NFL",
@@ -464,8 +464,8 @@
   "book": "William Hill",
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.002137+00:00",
-  "close": 6.33,
-  "close_seen": "2026-10-01T06:23:49.524834+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.942676+00:00"
  },
  "d60e7fc0690e4dff121a086395e24de4|sport888|Miami Heat": {
   "sport": "NBA",
@@ -477,7 +477,7 @@
   "odds": 2.75,
   "first_seen": "2026-09-30T20:21:01.002141+00:00",
   "close": 2.63,
-  "close_seen": "2026-10-01T06:23:49.524847+00:00"
+  "close_seen": "2026-10-01T11:09:34.942704+00:00"
  },
  "d60e7fc0690e4dff121a086395e24de4|unibet_uk|Miami Heat": {
   "sport": "NBA",
@@ -489,7 +489,7 @@
   "odds": 2.75,
   "first_seen": "2026-09-30T20:21:01.002145+00:00",
   "close": 2.63,
-  "close_seen": "2026-10-01T06:23:49.524851+00:00"
+  "close_seen": "2026-10-01T11:09:34.942708+00:00"
  },
  "fa6bba90c3bc8f687e928a30695066c3|paddypower|Draw": {
   "sport": "Boxing",
@@ -645,7 +645,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.002258+00:00",
   "close": 9.76,
-  "close_seen": "2026-10-01T06:23:49.524863+00:00"
+  "close_seen": "2026-10-01T11:09:34.942720+00:00"
  },
  "1d3399765bc3e219fd67da50e03f8830|virginbet|Oliver Zaren": {
   "sport": "Boxing",
@@ -657,7 +657,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.002262+00:00",
   "close": 9.76,
-  "close_seen": "2026-10-01T06:23:49.524867+00:00"
+  "close_seen": "2026-10-01T11:09:34.942724+00:00"
  },
  "1d3399765bc3e219fd67da50e03f8830|livescorebet|Oliver Zaren": {
   "sport": "Boxing",
@@ -669,7 +669,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.002266+00:00",
   "close": 9.76,
-  "close_seen": "2026-10-01T06:23:49.524870+00:00"
+  "close_seen": "2026-10-01T11:09:34.942728+00:00"
  },
  "17b8eb8fcf63b46fb5b3650c98ba0849|betfair_ex_uk|Draw": {
   "sport": "Boxing",
@@ -1676,8 +1676,8 @@
   "book": "Betfair",
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002669+00:00",
-  "close": 4.9,
-  "close_seen": "2026-10-01T06:23:49.524901+00:00"
+  "close": 5.07,
+  "close_seen": "2026-10-01T11:09:34.942796+00:00"
  },
  "76a1ed2645781ce922f06024d5849aed|betfair_ex_uk|Lucas Armand": {
   "sport": "MMA",
@@ -1689,7 +1689,7 @@
   "odds": 5.3,
   "first_seen": "2026-09-30T20:21:01.002673+00:00",
   "close": 4.88,
-  "close_seen": "2026-10-01T06:23:49.524910+00:00"
+  "close_seen": "2026-10-01T11:09:34.942804+00:00"
  },
  "6ef3d90fcb1c708a2d25c4284867142f|matchbook|Bruce Whitehead": {
   "sport": "MMA",
@@ -1701,7 +1701,7 @@
   "odds": 7.6,
   "first_seen": "2026-09-30T20:21:01.002677+00:00",
   "close": 6.82,
-  "close_seen": "2026-10-01T06:23:49.524897+00:00"
+  "close_seen": "2026-10-01T11:09:34.942792+00:00"
  },
  "695fcee69269ceddce48f88971461ded|matchbook|Andrey Pulyaev": {
   "sport": "MMA",
@@ -1784,8 +1784,8 @@
   "book": "Betfair",
   "odds": 5.4,
   "first_seen": "2026-09-30T20:21:01.002706+00:00",
-  "close": 5.02,
-  "close_seen": "2026-10-01T06:23:49.524946+00:00"
+  "close": 4.94,
+  "close_seen": "2026-10-01T11:09:34.942833+00:00"
  },
  "fd73ff6279d08f38434fb0c4fca0f065|smarkets|CA Tigre BA": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -1796,8 +1796,8 @@
   "book": "Smarkets",
   "odds": 5.3,
   "first_seen": "2026-09-30T20:21:01.002710+00:00",
-  "close": 5.02,
-  "close_seen": "2026-10-01T06:23:49.524954+00:00"
+  "close": 4.94,
+  "close_seen": "2026-10-01T11:09:34.942837+00:00"
  },
  "82be231269013917c7649f4143004dde|betfair_ex_uk|Estudiantes de R\u00edo Cuarto": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -1808,8 +1808,8 @@
   "book": "Betfair",
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.002714+00:00",
-  "close": 4.32,
-  "close_seen": "2026-10-01T06:23:49.524950+00:00"
+  "close": 4.34,
+  "close_seen": "2026-10-01T11:09:34.942845+00:00"
  },
  "d6d153e51e6a634e23ea438909779061|betfair_ex_uk|Barracas Central": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -1821,7 +1821,7 @@
   "odds": 4.9,
   "first_seen": "2026-09-30T20:21:01.002718+00:00",
   "close": 4.75,
-  "close_seen": "2026-10-01T06:23:49.524995+00:00"
+  "close_seen": "2026-10-01T11:09:34.942849+00:00"
  },
  "8ad2d54a071a210a01483dceac45b888|betfair_ex_uk|Operario PR": {
   "sport": "Brazil S\u00e9rie B",
@@ -1832,8 +1832,8 @@
   "book": "Betfair",
   "odds": 5.6,
   "first_seen": "2026-09-30T20:21:01.002722+00:00",
-  "close": 5.04,
-  "close_seen": "2026-10-01T06:23:49.525026+00:00"
+  "close": 5.08,
+  "close_seen": "2026-10-01T11:09:34.942910+00:00"
  },
  "8ad2d54a071a210a01483dceac45b888|matchbook|Operario PR": {
   "sport": "Brazil S\u00e9rie B",
@@ -1844,8 +1844,8 @@
   "book": "Matchbook",
   "odds": 5.6,
   "first_seen": "2026-09-30T20:21:01.002727+00:00",
-  "close": 5.04,
-  "close_seen": "2026-10-01T06:23:49.525030+00:00"
+  "close": 5.08,
+  "close_seen": "2026-10-01T11:09:34.942913+00:00"
  },
  "2a42fc2dbde835ff11aa67b6f47c7fe8|matchbook|Goi\u00e1s": {
   "sport": "Brazil S\u00e9rie B",
@@ -1856,8 +1856,8 @@
   "book": "Matchbook",
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002733+00:00",
-  "close": 5.46,
-  "close_seen": "2026-10-01T06:23:49.525037+00:00"
+  "close": 5.51,
+  "close_seen": "2026-10-01T11:09:34.942902+00:00"
  },
  "2a42fc2dbde835ff11aa67b6f47c7fe8|betfair_ex_uk|Goi\u00e1s": {
   "sport": "Brazil S\u00e9rie B",
@@ -1868,8 +1868,8 @@
   "book": "Betfair",
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002737+00:00",
-  "close": 5.46,
-  "close_seen": "2026-10-01T06:23:49.525041+00:00"
+  "close": 5.51,
+  "close_seen": "2026-10-01T11:09:34.942917+00:00"
  },
  "8ad2d54a071a210a01483dceac45b888|smarkets|Operario PR": {
   "sport": "Brazil S\u00e9rie B",
@@ -1880,8 +1880,8 @@
   "book": "Smarkets",
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002741+00:00",
-  "close": 5.04,
-  "close_seen": "2026-10-01T06:23:49.525022+00:00"
+  "close": 5.08,
+  "close_seen": "2026-10-01T11:09:34.942906+00:00"
  },
  "2a42fc2dbde835ff11aa67b6f47c7fe8|smarkets|Goi\u00e1s": {
   "sport": "Brazil S\u00e9rie B",
@@ -1892,8 +1892,8 @@
   "book": "Smarkets",
   "odds": 5.9,
   "first_seen": "2026-09-30T20:21:01.002745+00:00",
-  "close": 5.46,
-  "close_seen": "2026-10-01T06:23:49.525018+00:00"
+  "close": 5.51,
+  "close_seen": "2026-10-01T11:09:34.942899+00:00"
  },
  "ac6c8a4fa9f7c3f6caf15b1e3b5c77d4|matchbook|Am\u00e9rica Mineiro": {
   "sport": "Brazil S\u00e9rie B",
@@ -1905,7 +1905,7 @@
   "odds": 9.0,
   "first_seen": "2026-09-30T20:21:01.002749+00:00",
   "close": 8.34,
-  "close_seen": "2026-10-01T06:23:49.525045+00:00"
+  "close_seen": "2026-10-01T11:09:34.942891+00:00"
  },
  "8bf10103e8eea18dc1511825ec1240ab|matchbook|Nautico PE": {
   "sport": "Brazil S\u00e9rie B",
@@ -1917,7 +1917,7 @@
   "odds": 5.0,
   "first_seen": "2026-09-30T20:21:01.002753+00:00",
   "close": 4.7,
-  "close_seen": "2026-10-01T06:23:49.525056+00:00"
+  "close_seen": "2026-10-01T11:09:34.942925+00:00"
  },
  "650866b10c18149fc1b528c4f2e263a5|casumo|Ponte Preta": {
   "sport": "Brazil S\u00e9rie B",
@@ -1953,7 +1953,7 @@
   "odds": 4.9,
   "first_seen": "2026-09-30T20:21:01.002768+00:00",
   "close": 4.7,
-  "close_seen": "2026-10-01T06:23:49.525070+00:00"
+  "close_seen": "2026-10-01T11:09:34.942940+00:00"
  },
  "8bf10103e8eea18dc1511825ec1240ab|betfair_ex_uk|Nautico PE": {
   "sport": "Brazil S\u00e9rie B",
@@ -1965,7 +1965,7 @@
   "odds": 4.9,
   "first_seen": "2026-09-30T20:21:01.002772+00:00",
   "close": 4.7,
-  "close_seen": "2026-10-01T06:23:49.525052+00:00"
+  "close_seen": "2026-10-01T11:09:34.942921+00:00"
  },
  "ac6c8a4fa9f7c3f6caf15b1e3b5c77d4|betfair_ex_uk|Am\u00e9rica Mineiro": {
   "sport": "Brazil S\u00e9rie B",
@@ -1977,7 +1977,7 @@
   "odds": 8.8,
   "first_seen": "2026-09-30T20:21:01.002776+00:00",
   "close": 8.34,
-  "close_seen": "2026-10-01T06:23:49.525048+00:00"
+  "close_seen": "2026-10-01T11:09:34.942887+00:00"
  },
  "ac6c8a4fa9f7c3f6caf15b1e3b5c77d4|betfair_ex_uk|Draw": {
   "sport": "Brazil S\u00e9rie B",
@@ -1989,7 +1989,7 @@
   "odds": 5.0,
   "first_seen": "2026-09-30T20:21:01.002780+00:00",
   "close": 4.83,
-  "close_seen": "2026-10-01T06:23:49.525059+00:00"
+  "close_seen": "2026-10-01T11:09:34.942936+00:00"
  },
  "ac6c8a4fa9f7c3f6caf15b1e3b5c77d4|matchbook|Draw": {
   "sport": "Brazil S\u00e9rie B",
@@ -2001,7 +2001,7 @@
   "odds": 5.0,
   "first_seen": "2026-09-30T20:21:01.002783+00:00",
   "close": 4.83,
-  "close_seen": "2026-10-01T06:23:49.525063+00:00"
+  "close_seen": "2026-10-01T11:09:34.942928+00:00"
  },
  "91a0993b451be4a3a88dd1f1a5af88d3|betfair_ex_uk|Vasco da Gama": {
   "sport": "Copa Sudamericana",
@@ -2037,7 +2037,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.002796+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.525085+00:00"
+  "close_seen": "2026-10-01T11:09:34.942949+00:00"
  },
  "29d04f0dddd5b30cd51de9acb7925795|skybet|Fleetwood Town": {
   "sport": "EFL Cup",
@@ -2073,7 +2073,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.002807+00:00",
   "close": 11.29,
-  "close_seen": "2026-10-01T06:23:49.525093+00:00"
+  "close_seen": "2026-10-01T11:09:34.942960+00:00"
  },
  "4bd3d723b4eecb873f4c045ac2385726|betfair_ex_uk|Peterborough United": {
   "sport": "EFL Cup",
@@ -2085,7 +2085,7 @@
   "odds": 4.6,
   "first_seen": "2026-09-30T20:21:01.002813+00:00",
   "close": 4.43,
-  "close_seen": "2026-10-01T06:23:49.525096+00:00"
+  "close_seen": "2026-10-01T11:09:34.942963+00:00"
  },
  "8aca943e9201ced10ad488d028c05ef3|smarkets|Draw": {
   "sport": "League 1",
@@ -2097,7 +2097,7 @@
   "odds": 4.0,
   "first_seen": "2026-09-30T20:21:01.002817+00:00",
   "close": 3.69,
-  "close_seen": "2026-10-01T06:23:49.525100+00:00"
+  "close_seen": "2026-10-01T11:09:34.942967+00:00"
  },
  "46565a1cbc6f2e15ba0b2223a5a1fde8|betfred_uk|Draw": {
   "sport": "League 1",
@@ -2109,7 +2109,7 @@
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002821+00:00",
   "close": 5.09,
-  "close_seen": "2026-10-01T06:23:49.525104+00:00"
+  "close_seen": "2026-10-01T11:09:34.942971+00:00"
  },
  "b2d9692f329a99ad8744ae111b4ebbfc|matchbook|Crewe Alexandra": {
   "sport": "League 2",
@@ -2133,7 +2133,7 @@
   "odds": 5.1,
   "first_seen": "2026-09-30T20:21:01.002830+00:00",
   "close": 4.93,
-  "close_seen": "2026-10-01T06:23:49.525111+00:00"
+  "close_seen": "2026-10-01T11:09:34.942975+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|betfair_ex_uk|Leeds United": {
   "sport": "EPL",
@@ -2145,7 +2145,7 @@
   "odds": 9.2,
   "first_seen": "2026-09-30T20:21:01.002834+00:00",
   "close": 8.18,
-  "close_seen": "2026-10-01T06:23:49.525135+00:00"
+  "close_seen": "2026-10-01T11:09:34.942991+00:00"
  },
  "bf2142d1ca76ba2fc9e61afce80f86c0|paddypower|Ipswich Town": {
   "sport": "EPL",
@@ -2157,7 +2157,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.002838+00:00",
   "close": 11.85,
-  "close_seen": "2026-10-01T06:23:49.525139+00:00"
+  "close_seen": "2026-10-01T11:09:34.942986+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|smarkets|Leeds United": {
   "sport": "EPL",
@@ -2169,7 +2169,7 @@
   "odds": 8.8,
   "first_seen": "2026-09-30T20:21:01.002850+00:00",
   "close": 8.18,
-  "close_seen": "2026-10-01T06:23:49.525142+00:00"
+  "close_seen": "2026-10-01T11:09:34.942994+00:00"
  },
  "bf2142d1ca76ba2fc9e61afce80f86c0|betfair_ex_uk|Draw": {
   "sport": "EPL",
@@ -2180,8 +2180,8 @@
   "book": "Betfair",
   "odds": 7.2,
   "first_seen": "2026-09-30T20:21:01.002855+00:00",
-  "close": 6.72,
-  "close_seen": "2026-10-01T06:23:49.525146+00:00"
+  "close": 6.82,
+  "close_seen": "2026-10-01T11:09:34.942998+00:00"
  },
  "bf2142d1ca76ba2fc9e61afce80f86c0|betfair_ex_uk|Ipswich Town": {
   "sport": "EPL",
@@ -2193,7 +2193,7 @@
   "odds": 12.5,
   "first_seen": "2026-09-30T20:21:01.002858+00:00",
   "close": 11.85,
-  "close_seen": "2026-10-01T06:23:49.525150+00:00"
+  "close_seen": "2026-10-01T11:09:34.943002+00:00"
  },
  "45d4a466e32cd2b4ea535207923ceaf5|betfair_ex_uk|Bournemouth": {
   "sport": "EPL",
@@ -2205,7 +2205,7 @@
   "odds": 4.7,
   "first_seen": "2026-09-30T20:21:01.002862+00:00",
   "close": 4.48,
-  "close_seen": "2026-10-01T06:23:49.525154+00:00"
+  "close_seen": "2026-10-01T11:09:34.943018+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|betfair_ex_uk|Draw": {
   "sport": "EPL",
@@ -2217,7 +2217,7 @@
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002866+00:00",
   "close": 5.28,
-  "close_seen": "2026-10-01T06:23:49.525162+00:00"
+  "close_seen": "2026-10-01T11:09:34.943006+00:00"
  },
  "f696a248965373d9071dc0662e5c58a8|betfair_ex_uk|Nottingham Forest": {
   "sport": "EPL",
@@ -2229,7 +2229,7 @@
   "odds": 6.2,
   "first_seen": "2026-09-30T20:21:01.002871+00:00",
   "close": 5.96,
-  "close_seen": "2026-10-01T06:23:49.525166+00:00"
+  "close_seen": "2026-10-01T11:09:34.943010+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|paddypower|Leeds United": {
   "sport": "EPL",
@@ -2253,7 +2253,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.002879+00:00",
   "close": 8.18,
-  "close_seen": "2026-10-01T06:23:49.525174+00:00"
+  "close_seen": "2026-10-01T11:09:34.943014+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|betfair_sb_uk|Leeds United": {
   "sport": "EPL",
@@ -2288,8 +2288,8 @@
   "book": "Smarkets",
   "odds": 14.99,
   "first_seen": "2026-09-30T20:21:01.002891+00:00",
-  "close": 11.86,
-  "close_seen": "2026-09-30T20:21:01.002893+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943029+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|smarkets|Le Mans FC": {
   "sport": "Ligue 1 - France",
@@ -2336,8 +2336,8 @@
   "book": "888sport",
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.002910+00:00",
-  "close": 12.68,
-  "close_seen": "2026-10-01T06:23:49.525227+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943045+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|williamhill|Draw": {
   "sport": "Ligue 1 - France",
@@ -2348,8 +2348,8 @@
   "book": "William Hill",
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.002914+00:00",
-  "close": 12.68,
-  "close_seen": "2026-10-01T06:23:49.525231+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943048+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|betway|Draw": {
   "sport": "Ligue 1 - France",
@@ -2360,8 +2360,8 @@
   "book": "Betway",
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.002918+00:00",
-  "close": 12.68,
-  "close_seen": "2026-10-01T06:23:49.525235+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943052+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|betfred_uk|Le Mans FC": {
   "sport": "Ligue 1 - France",
@@ -2384,8 +2384,8 @@
   "book": "Betfair",
   "odds": 7.6,
   "first_seen": "2026-09-30T20:21:01.002925+00:00",
-  "close": 7.2,
-  "close_seen": "2026-10-01T06:23:49.525193+00:00"
+  "close": 7.1,
+  "close_seen": "2026-10-01T11:09:34.943037+00:00"
  },
  "2c173b3bd3a1491f17fcad1012019c4f|betfred_uk|Le Havre": {
   "sport": "Ligue 1 - France",
@@ -2396,8 +2396,8 @@
   "book": "Betfred (UK)",
   "odds": 7.5,
   "first_seen": "2026-09-30T20:21:01.002929+00:00",
-  "close": 7.2,
-  "close_seen": "2026-10-01T06:23:49.525196+00:00"
+  "close": 7.1,
+  "close_seen": "2026-10-01T11:09:34.943041+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|Strasbourg": {
   "sport": "Ligue 1 - France",
@@ -2408,8 +2408,8 @@
   "book": "Betfred (UK)",
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.002933+00:00",
-  "close": 6.28,
-  "close_seen": "2026-10-01T06:23:49.525200+00:00"
+  "close": 6.36,
+  "close_seen": "2026-10-01T11:09:34.943066+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|paddypower|Strasbourg": {
   "sport": "Ligue 1 - France",
@@ -2420,8 +2420,8 @@
   "book": "Paddy Power",
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.002937+00:00",
-  "close": 6.28,
-  "close_seen": "2026-10-01T06:23:49.525204+00:00"
+  "close": 6.36,
+  "close_seen": "2026-10-01T11:09:34.943069+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|skybet|Strasbourg": {
   "sport": "Ligue 1 - France",
@@ -2432,8 +2432,8 @@
   "book": "Sky Bet",
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.002941+00:00",
-  "close": 6.28,
-  "close_seen": "2026-10-01T06:23:49.525208+00:00"
+  "close": 6.36,
+  "close_seen": "2026-10-01T11:09:34.943073+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|betfair_ex_uk|Draw": {
   "sport": "Bundesliga - Germany",
@@ -2445,7 +2445,7 @@
   "odds": 8.8,
   "first_seen": "2026-09-30T20:21:01.002945+00:00",
   "close": 7.94,
-  "close_seen": "2026-10-01T06:23:49.525248+00:00"
+  "close_seen": "2026-10-01T11:09:34.943077+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|betfred_uk|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2457,7 +2457,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.002950+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525252+00:00"
+  "close_seen": "2026-10-01T11:09:34.943080+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|smarkets|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2469,7 +2469,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.002956+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525256+00:00"
+  "close_seen": "2026-10-01T11:09:34.943084+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|betfair_ex_uk|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2481,7 +2481,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.002960+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525259+00:00"
+  "close_seen": "2026-10-01T11:09:34.943088+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|betfair_sb_uk|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2493,7 +2493,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.002963+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525263+00:00"
+  "close_seen": "2026-10-01T11:09:34.943091+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|smarkets|Draw": {
   "sport": "Bundesliga - Germany",
@@ -2505,7 +2505,7 @@
   "odds": 8.6,
   "first_seen": "2026-09-30T20:21:01.002968+00:00",
   "close": 7.94,
-  "close_seen": "2026-10-01T06:23:49.525267+00:00"
+  "close_seen": "2026-10-01T11:09:34.943095+00:00"
  },
  "3fb63658405d468954f57745cd115118|betfred_uk|Werder Bremen": {
   "sport": "Bundesliga - Germany",
@@ -2517,7 +2517,7 @@
   "odds": 8.0,
   "first_seen": "2026-09-30T20:21:01.002972+00:00",
   "close": 7.68,
-  "close_seen": "2026-10-01T06:23:49.525270+00:00"
+  "close_seen": "2026-10-01T11:09:34.943099+00:00"
  },
  "3fb63658405d468954f57745cd115118|betfair_ex_uk|Werder Bremen": {
   "sport": "Bundesliga - Germany",
@@ -2529,7 +2529,7 @@
   "odds": 8.0,
   "first_seen": "2026-09-30T20:21:01.002976+00:00",
   "close": 7.68,
-  "close_seen": "2026-10-01T06:23:49.525279+00:00"
+  "close_seen": "2026-10-01T11:09:34.943103+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|grosvenor|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2541,7 +2541,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.002980+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525286+00:00"
+  "close_seen": "2026-10-01T11:09:34.943106+00:00"
  },
  "3b71160ad20dba786c4f92e33c987d80|skybet|Augsburg": {
   "sport": "Bundesliga - Germany",
@@ -2553,7 +2553,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.002986+00:00",
   "close": 10.14,
-  "close_seen": "2026-10-01T06:23:49.525290+00:00"
+  "close_seen": "2026-10-01T11:09:34.943110+00:00"
  },
  "221916b8b36706ec52aa655a64e5f1d2|betfair_ex_uk|Hamburger SV": {
   "sport": "Bundesliga - Germany",
@@ -2565,7 +2565,7 @@
   "odds": 4.0,
   "first_seen": "2026-09-30T20:21:01.002989+00:00",
   "close": 3.87,
-  "close_seen": "2026-10-01T06:23:49.525294+00:00"
+  "close_seen": "2026-10-01T11:09:34.943114+00:00"
  },
  "9a64448205fdc4b95f45641bb946706c|betfred_uk|RB Leipzig": {
   "sport": "Bundesliga - Germany",
@@ -2577,7 +2577,7 @@
   "odds": 10.0,
   "first_seen": "2026-09-30T20:21:01.002993+00:00",
   "close": 9.7,
-  "close_seen": "2026-10-01T06:23:49.525297+00:00"
+  "close_seen": "2026-10-01T11:09:34.943117+00:00"
  },
  "9f4ec9268f60113db2c80d6ac41b8ca4|betfair_sb_uk|OFI Crete": {
   "sport": "Super League - Greece",
@@ -2613,7 +2613,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003006+00:00",
   "close": 11.19,
-  "close_seen": "2026-10-01T06:23:49.525309+00:00"
+  "close_seen": "2026-10-01T11:09:34.943136+00:00"
  },
  "9f4ec9268f60113db2c80d6ac41b8ca4|williamhill|OFI Crete": {
   "sport": "Super League - Greece",
@@ -2637,7 +2637,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003014+00:00",
   "close": 11.19,
-  "close_seen": "2026-10-01T06:23:49.525316+00:00"
+  "close_seen": "2026-10-01T11:09:34.943140+00:00"
  },
  "16becef7f9b957a6f7a70b19750c4bc3|sport888|Iraklis FC": {
   "sport": "Super League - Greece",
@@ -2649,7 +2649,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003018+00:00",
   "close": 11.24,
-  "close_seen": "2026-10-01T06:23:49.525320+00:00"
+  "close_seen": "2026-10-01T11:09:34.943144+00:00"
  },
  "16becef7f9b957a6f7a70b19750c4bc3|williamhill|Iraklis FC": {
   "sport": "Super League - Greece",
@@ -2661,7 +2661,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003022+00:00",
   "close": 11.24,
-  "close_seen": "2026-10-01T06:23:49.525324+00:00"
+  "close_seen": "2026-10-01T11:09:34.943147+00:00"
  },
  "f40ae071331963b9ec6978059989842b|sport888|Kalamata FC": {
   "sport": "Super League - Greece",
@@ -2673,7 +2673,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003026+00:00",
   "close": 12.26,
-  "close_seen": "2026-10-01T06:23:49.525328+00:00"
+  "close_seen": "2026-10-01T11:09:34.943151+00:00"
  },
  "f40ae071331963b9ec6978059989842b|paddypower|Kalamata FC": {
   "sport": "Super League - Greece",
@@ -2685,7 +2685,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003030+00:00",
   "close": 12.26,
-  "close_seen": "2026-10-01T06:23:49.525332+00:00"
+  "close_seen": "2026-10-01T11:09:34.943155+00:00"
  },
  "f40ae071331963b9ec6978059989842b|williamhill|Kalamata FC": {
   "sport": "Super League - Greece",
@@ -2697,7 +2697,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003034+00:00",
   "close": 12.26,
-  "close_seen": "2026-10-01T06:23:49.525335+00:00"
+  "close_seen": "2026-10-01T11:09:34.943159+00:00"
  },
  "f40ae071331963b9ec6978059989842b|betfair_sb_uk|Kalamata FC": {
   "sport": "Super League - Greece",
@@ -2709,7 +2709,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003037+00:00",
   "close": 12.26,
-  "close_seen": "2026-10-01T06:23:49.525339+00:00"
+  "close_seen": "2026-10-01T11:09:34.943162+00:00"
  },
  "1a01b0611dacd334e1558a5097e05023|betfair_ex_uk|Draw": {
   "sport": "Serie A - Italy",
@@ -2721,7 +2721,7 @@
   "odds": 9.8,
   "first_seen": "2026-09-30T20:21:01.003042+00:00",
   "close": 8.55,
-  "close_seen": "2026-10-01T06:23:49.525355+00:00"
+  "close_seen": "2026-10-01T11:09:34.943178+00:00"
  },
  "1a01b0611dacd334e1558a5097e05023|grosvenor|Parma": {
   "sport": "Serie A - Italy",
@@ -2781,7 +2781,7 @@
   "odds": 11.5,
   "first_seen": "2026-09-30T20:21:01.003065+00:00",
   "close": 10.22,
-  "close_seen": "2026-10-01T06:23:49.525359+00:00"
+  "close_seen": "2026-10-01T11:09:34.943186+00:00"
  },
  "1a01b0611dacd334e1558a5097e05023|smarkets|Draw": {
   "sport": "Serie A - Italy",
@@ -2793,7 +2793,7 @@
   "odds": 9.6,
   "first_seen": "2026-09-30T20:21:01.003069+00:00",
   "close": 8.55,
-  "close_seen": "2026-10-01T06:23:49.525362+00:00"
+  "close_seen": "2026-10-01T11:09:34.943190+00:00"
  },
  "c0f72699f32ec193b64fd54092fe268d|betfair_ex_uk|Monza": {
   "sport": "Serie A - Italy",
@@ -2804,8 +2804,8 @@
   "book": "Betfair",
   "odds": 6.2,
   "first_seen": "2026-09-30T20:21:01.003073+00:00",
-  "close": 5.58,
-  "close_seen": "2026-10-01T06:23:49.525351+00:00"
+  "close": 5.66,
+  "close_seen": "2026-10-01T11:09:34.943183+00:00"
  },
  "18d478f469da3bcc654dd4555b85c7e3|betfred_uk|Genoa": {
   "sport": "Serie A - Italy",
@@ -2817,7 +2817,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003078+00:00",
   "close": 10.22,
-  "close_seen": "2026-10-01T06:23:49.525373+00:00"
+  "close_seen": "2026-10-01T11:09:34.943209+00:00"
  },
  "18d478f469da3bcc654dd4555b85c7e3|smarkets|Genoa": {
   "sport": "Serie A - Italy",
@@ -2829,7 +2829,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003082+00:00",
   "close": 10.22,
-  "close_seen": "2026-10-01T06:23:49.525377+00:00"
+  "close_seen": "2026-10-01T11:09:34.943212+00:00"
  },
  "c0f72699f32ec193b64fd54092fe268d|smarkets|Monza": {
   "sport": "Serie A - Italy",
@@ -2840,8 +2840,8 @@
   "book": "Smarkets",
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.003086+00:00",
-  "close": 5.58,
-  "close_seen": "2026-10-01T06:23:49.525366+00:00"
+  "close": 5.66,
+  "close_seen": "2026-10-01T11:09:34.943204+00:00"
  },
  "1a01b0611dacd334e1558a5097e05023|skybet|Parma": {
   "sport": "Serie A - Italy",
@@ -2877,7 +2877,7 @@
   "odds": 5.7,
   "first_seen": "2026-09-30T20:21:01.003098+00:00",
   "close": 5.36,
-  "close_seen": "2026-10-01T06:23:49.525381+00:00"
+  "close_seen": "2026-10-01T11:09:34.943220+00:00"
  },
  "407f7d03157d1dfad384876e6a6bc910|smarkets|Cagliari": {
   "sport": "Serie A - Italy",
@@ -2889,7 +2889,7 @@
   "odds": 6.8,
   "first_seen": "2026-09-30T20:21:01.003101+00:00",
   "close": 6.43,
-  "close_seen": "2026-10-01T06:23:49.525385+00:00"
+  "close_seen": "2026-10-01T11:09:34.943234+00:00"
  },
  "407f7d03157d1dfad384876e6a6bc910|betfair_ex_uk|Cagliari": {
   "sport": "Serie A - Italy",
@@ -2901,7 +2901,7 @@
   "odds": 6.8,
   "first_seen": "2026-09-30T20:21:01.003118+00:00",
   "close": 6.43,
-  "close_seen": "2026-10-01T06:23:49.525388+00:00"
+  "close_seen": "2026-10-01T11:09:34.943238+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betfair_ex_uk|Venezia": {
   "sport": "Serie A - Italy",
@@ -2913,7 +2913,7 @@
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.003122+00:00",
   "close": 5.22,
-  "close_seen": "2026-10-01T06:23:49.525392+00:00"
+  "close_seen": "2026-10-01T11:09:34.943216+00:00"
  },
  "4c4026e2782f09d6f0ff2bde2a390513|smarkets|Lazio": {
   "sport": "Serie A - Italy",
@@ -2925,7 +2925,7 @@
   "odds": 5.6,
   "first_seen": "2026-09-30T20:21:01.003126+00:00",
   "close": 5.36,
-  "close_seen": "2026-09-30T20:21:01.003127+00:00"
+  "close_seen": "2026-10-01T11:09:34.943242+00:00"
  },
  "946716d7e5e52822f08be8cb95193d9d|betfair_ex_uk|Lecce": {
   "sport": "Serie A - Italy",
@@ -2937,7 +2937,7 @@
   "odds": 4.3,
   "first_seen": "2026-09-30T20:21:01.003129+00:00",
   "close": 4.14,
-  "close_seen": "2026-10-01T06:23:49.525396+00:00"
+  "close_seen": "2026-10-01T11:09:34.943224+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|smarkets|Venezia": {
   "sport": "Serie A - Italy",
@@ -2949,7 +2949,7 @@
   "odds": 5.4,
   "first_seen": "2026-09-30T20:21:01.003133+00:00",
   "close": 5.22,
-  "close_seen": "2026-10-01T06:23:49.525399+00:00"
+  "close_seen": "2026-10-01T11:09:34.943256+00:00"
  },
  "5d3dff37b4525ccc6f8dd17248a05917|unibet_uk|NEC Nijmegen": {
   "sport": "Dutch Eredivisie",
@@ -2961,7 +2961,7 @@
   "odds": 9.5,
   "first_seen": "2026-09-30T20:21:01.003138+00:00",
   "close": 8.75,
-  "close_seen": "2026-10-01T06:23:49.525412+00:00"
+  "close_seen": "2026-10-01T11:09:34.943274+00:00"
  },
  "217aec5dbea235fb2716756cd089c458|grosvenor|Heerenveen": {
   "sport": "Dutch Eredivisie",
@@ -2973,7 +2973,7 @@
   "odds": 10.0,
   "first_seen": "2026-09-30T20:21:01.003142+00:00",
   "close": 9.27,
-  "close_seen": "2026-10-01T06:23:49.525416+00:00"
+  "close_seen": "2026-10-01T11:09:34.943278+00:00"
  },
  "a1f3194e9a44992733f2bad0cb6b857b|williamhill|Kristiansund BK": {
   "sport": "Eliteserien - Norway",
@@ -3009,7 +3009,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003154+00:00",
   "close": 11.51,
-  "close_seen": "2026-10-01T06:23:49.525434+00:00"
+  "close_seen": "2026-10-01T11:09:34.943293+00:00"
  },
  "a1f3194e9a44992733f2bad0cb6b857b|betfair_sb_uk|Draw": {
   "sport": "Eliteserien - Norway",
@@ -3021,7 +3021,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003161+00:00",
   "close": 11.51,
-  "close_seen": "2026-10-01T06:23:49.525437+00:00"
+  "close_seen": "2026-10-01T11:09:34.943296+00:00"
  },
  "a1f3194e9a44992733f2bad0cb6b857b|paddypower|Kristiansund BK": {
   "sport": "Eliteserien - Norway",
@@ -3045,7 +3045,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003168+00:00",
   "close": 11.51,
-  "close_seen": "2026-10-01T06:23:49.525441+00:00"
+  "close_seen": "2026-10-01T11:09:34.943304+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|sport888|Vit\u00f3ria SC": {
   "sport": "Primeira Liga - Portugal",
@@ -3081,7 +3081,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003189+00:00",
   "close": 10.33,
-  "close_seen": "2026-10-01T06:23:49.525453+00:00"
+  "close_seen": "2026-10-01T11:09:34.943308+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|ladbrokes_uk|Vit\u00f3ria SC": {
   "sport": "Primeira Liga - Portugal",
@@ -3093,7 +3093,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003193+00:00",
   "close": 10.33,
-  "close_seen": "2026-10-01T06:23:49.525456+00:00"
+  "close_seen": "2026-10-01T11:09:34.943311+00:00"
  },
  "edb80d633a1906e5865ab70cc9b540ea|betfair_sb_uk|Getafe": {
   "sport": "La Liga - Spain",
@@ -3200,8 +3200,8 @@
   "book": "Betfair",
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003230+00:00",
-  "close": 10.3,
-  "close_seen": "2026-09-30T20:21:01.003232+00:00"
+  "close": 10.8,
+  "close_seen": "2026-10-01T11:09:34.943319+00:00"
  },
  "edb80d633a1906e5865ab70cc9b540ea|casumo|Getafe": {
   "sport": "La Liga - Spain",
@@ -3236,8 +3236,8 @@
   "book": "Smarkets",
   "odds": 11.49,
   "first_seen": "2026-09-30T20:21:01.003243+00:00",
-  "close": 10.3,
-  "close_seen": "2026-10-01T06:23:49.525460+00:00"
+  "close": 10.8,
+  "close_seen": "2026-10-01T11:09:34.943345+00:00"
  },
  "846e496fc232b2fc20214754836727d0|betfair_ex_uk|Draw": {
   "sport": "La Liga - Spain",
@@ -3248,8 +3248,8 @@
   "book": "Betfair",
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.003249+00:00",
-  "close": 5.4,
-  "close_seen": "2026-10-01T06:23:49.525464+00:00"
+  "close": 5.39,
+  "close_seen": "2026-10-01T11:09:34.943315+00:00"
  },
  "551f242223b1625f458d1a2ea212a0c3|grosvenor|Villarreal": {
   "sport": "La Liga - Spain",
@@ -3261,7 +3261,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003253+00:00",
   "close": 7.66,
-  "close_seen": "2026-10-01T06:23:49.525468+00:00"
+  "close_seen": "2026-10-01T11:09:34.943323+00:00"
  },
  "551f242223b1625f458d1a2ea212a0c3|casumo|Villarreal": {
   "sport": "La Liga - Spain",
@@ -3273,7 +3273,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003257+00:00",
   "close": 7.66,
-  "close_seen": "2026-10-01T06:23:49.525472+00:00"
+  "close_seen": "2026-10-01T11:09:34.943327+00:00"
  },
  "551f242223b1625f458d1a2ea212a0c3|smarkets|Villarreal": {
   "sport": "La Liga - Spain",
@@ -3285,7 +3285,7 @@
   "odds": 8.4,
   "first_seen": "2026-09-30T20:21:01.003261+00:00",
   "close": 7.66,
-  "close_seen": "2026-10-01T06:23:49.525475+00:00"
+  "close_seen": "2026-10-01T11:09:34.943330+00:00"
  },
  "eccd63bf768e2f2a358b871d3f33a63d|betfair_ex_uk|Draw": {
   "sport": "La Liga - Spain",
@@ -3297,7 +3297,7 @@
   "odds": 7.2,
   "first_seen": "2026-09-30T20:21:01.003265+00:00",
   "close": 6.58,
-  "close_seen": "2026-10-01T06:23:49.525479+00:00"
+  "close_seen": "2026-10-01T11:09:34.943334+00:00"
  },
  "eccd63bf768e2f2a358b871d3f33a63d|betfred_uk|Sevilla": {
   "sport": "La Liga - Spain",
@@ -3321,7 +3321,7 @@
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.003273+00:00",
   "close": 4.25,
-  "close_seen": "2026-10-01T06:23:49.525494+00:00"
+  "close_seen": "2026-10-01T11:09:34.943349+00:00"
  },
  "846e496fc232b2fc20214754836727d0|smarkets|Draw": {
   "sport": "La Liga - Spain",
@@ -3332,8 +3332,8 @@
   "book": "Smarkets",
   "odds": 5.7,
   "first_seen": "2026-09-30T20:21:01.003277+00:00",
-  "close": 5.4,
-  "close_seen": "2026-10-01T06:23:49.525483+00:00"
+  "close": 5.39,
+  "close_seen": "2026-10-01T11:09:34.943338+00:00"
  },
  "551f242223b1625f458d1a2ea212a0c3|betfred_uk|Villarreal": {
   "sport": "La Liga - Spain",
@@ -3345,7 +3345,7 @@
   "odds": 8.0,
   "first_seen": "2026-09-30T20:21:01.003281+00:00",
   "close": 7.66,
-  "close_seen": "2026-10-01T06:23:49.525497+00:00"
+  "close_seen": "2026-10-01T11:09:34.943353+00:00"
  },
  "551f242223b1625f458d1a2ea212a0c3|livescorebet|Villarreal": {
   "sport": "La Liga - Spain",
@@ -3357,7 +3357,7 @@
   "odds": 8.0,
   "first_seen": "2026-09-30T20:21:01.003285+00:00",
   "close": 7.66,
-  "close_seen": "2026-10-01T06:23:49.525501+00:00"
+  "close_seen": "2026-10-01T11:09:34.943357+00:00"
  },
  "edb80d633a1906e5865ab70cc9b540ea|betfred_uk|Getafe": {
   "sport": "La Liga - Spain",
@@ -3405,7 +3405,7 @@
   "odds": 6.0,
   "first_seen": "2026-09-30T20:21:01.003303+00:00",
   "close": 5.73,
-  "close_seen": "2026-10-01T06:23:49.525532+00:00"
+  "close_seen": "2026-10-01T11:09:34.943410+00:00"
  },
  "973746780f7c2d027194eba7204674b2|betfair_ex_uk|AD Ceuta FC": {
   "sport": "La Liga 2 - Spain",
@@ -3417,7 +3417,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003307+00:00",
   "close": 10.42,
-  "close_seen": "2026-10-01T06:23:49.525524+00:00"
+  "close_seen": "2026-10-01T11:09:34.943406+00:00"
  },
  "a679281aa699ceac83444302fb168715|matchbook|Burgos CF": {
   "sport": "La Liga 2 - Spain",
@@ -3429,7 +3429,7 @@
   "odds": 5.7,
   "first_seen": "2026-09-30T20:21:01.003311+00:00",
   "close": 5.44,
-  "close_seen": "2026-10-01T06:23:49.525528+00:00"
+  "close_seen": "2026-10-01T11:09:34.943403+00:00"
  },
  "672b72aadaf61287e9a244945c61d0d8|betfred_uk|Kilmarnock": {
   "sport": "Premiership - Scotland",
@@ -3489,7 +3489,7 @@
   "odds": 12.5,
   "first_seen": "2026-09-30T20:21:01.003337+00:00",
   "close": 11.2,
-  "close_seen": "2026-10-01T06:23:49.525573+00:00"
+  "close_seen": "2026-10-01T11:09:34.943443+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|smarkets|Draw": {
   "sport": "UEFA Champions League",
@@ -3501,7 +3501,7 @@
   "odds": 12.5,
   "first_seen": "2026-09-30T20:21:01.003340+00:00",
   "close": 11.2,
-  "close_seen": "2026-10-01T06:23:49.525577+00:00"
+  "close_seen": "2026-10-01T11:09:34.943446+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|betfred_uk|Viking FK": {
   "sport": "UEFA Champions League",
@@ -3525,7 +3525,7 @@
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003348+00:00",
   "close": 10.21,
-  "close_seen": "2026-10-01T06:23:49.525580+00:00"
+  "close_seen": "2026-10-01T11:09:34.943483+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|paddypower|Draw": {
   "sport": "UEFA Champions League",
@@ -3537,7 +3537,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003352+00:00",
   "close": 11.2,
-  "close_seen": "2026-10-01T06:23:49.525584+00:00"
+  "close_seen": "2026-10-01T11:09:34.943450+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|betfair_sb_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -3549,7 +3549,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003357+00:00",
   "close": 11.2,
-  "close_seen": "2026-10-01T06:23:49.525587+00:00"
+  "close_seen": "2026-10-01T11:09:34.943454+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|betway|Draw": {
   "sport": "UEFA Champions League",
@@ -3561,7 +3561,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003360+00:00",
   "close": 11.2,
-  "close_seen": "2026-10-01T06:23:49.525591+00:00"
+  "close_seen": "2026-10-01T11:09:34.943457+00:00"
  },
  "93177465a42a0fb7802f1c8b06d6ee3a|betfair_ex_uk|Lille": {
   "sport": "UEFA Champions League",
@@ -3573,7 +3573,7 @@
   "odds": 12.5,
   "first_seen": "2026-09-30T20:21:01.003365+00:00",
   "close": 11.73,
-  "close_seen": "2026-10-01T06:23:49.525594+00:00"
+  "close_seen": "2026-10-01T11:09:34.943515+00:00"
  },
  "93177465a42a0fb7802f1c8b06d6ee3a|smarkets|Lille": {
   "sport": "UEFA Champions League",
@@ -3585,7 +3585,7 @@
   "odds": 12.5,
   "first_seen": "2026-09-30T20:21:01.003368+00:00",
   "close": 11.73,
-  "close_seen": "2026-10-01T06:23:49.525598+00:00"
+  "close_seen": "2026-10-01T11:09:34.943518+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|boylesports|\u0160K Slovan Bratislava": {
   "sport": "UEFA Champions League",
@@ -3596,8 +3596,8 @@
   "book": "BoyleSports",
   "odds": 9.0,
   "first_seen": "2026-09-30T20:21:01.003373+00:00",
-  "close": 8.47,
-  "close_seen": "2026-10-01T06:23:49.525602+00:00"
+  "close": 8.59,
+  "close_seen": "2026-10-01T11:09:34.943461+00:00"
  },
  "8a9d20b23417357011c10585a99335e9|betfair_ex_uk|Viking FK": {
   "sport": "UEFA Champions League",
@@ -3621,7 +3621,7 @@
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.003381+00:00",
   "close": 6.35,
-  "close_seen": "2026-10-01T06:23:49.525637+00:00"
+  "close_seen": "2026-10-01T11:09:34.943497+00:00"
  },
  "dd431688ed5c8f383b6434fd4f01e883|betvictor|Draw": {
   "sport": "UEFA Champions League",
@@ -3633,7 +3633,7 @@
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.003384+00:00",
   "close": 6.35,
-  "close_seen": "2026-10-01T06:23:49.525641+00:00"
+  "close_seen": "2026-10-01T11:09:34.943501+00:00"
  },
  "2903ee092f7e08c549b130a3d394ac3c|livescorebet|LASK": {
   "sport": "UEFA Champions League",
@@ -3645,7 +3645,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.003388+00:00",
   "close": 10.18,
-  "close_seen": "2026-10-01T06:23:49.525619+00:00"
+  "close_seen": "2026-10-01T11:09:34.943473+00:00"
  },
  "2903ee092f7e08c549b130a3d394ac3c|virginbet|LASK": {
   "sport": "UEFA Champions League",
@@ -3657,7 +3657,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.003392+00:00",
   "close": 10.18,
-  "close_seen": "2026-10-01T06:23:49.525622+00:00"
+  "close_seen": "2026-10-01T11:09:34.943476+00:00"
  },
  "2903ee092f7e08c549b130a3d394ac3c|grosvenor|LASK": {
   "sport": "UEFA Champions League",
@@ -3669,7 +3669,7 @@
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.003395+00:00",
   "close": 10.18,
-  "close_seen": "2026-10-01T06:23:49.525626+00:00"
+  "close_seen": "2026-10-01T11:09:34.943480+00:00"
  },
  "1ec1e91715390c359da942323953f11a|betfair_ex_uk|Leuven": {
   "sport": "UEFA Champions League Women",
@@ -3681,7 +3681,7 @@
   "odds": 16.5,
   "first_seen": "2026-09-30T20:21:01.003400+00:00",
   "close": 14.28,
-  "close_seen": "2026-09-30T20:21:01.003402+00:00"
+  "close_seen": "2026-10-01T11:09:34.943546+00:00"
  },
  "1ec1e91715390c359da942323953f11a|smarkets|Leuven": {
   "sport": "UEFA Champions League Women",
@@ -3704,8 +3704,8 @@
   "book": "Betfair",
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.003410+00:00",
-  "close": 9.29,
-  "close_seen": "2026-10-01T06:23:49.525676+00:00"
+  "close": 9.0,
+  "close_seen": "2026-10-01T11:09:34.943561+00:00"
  },
  "569ba3f14347105c50c8164a0ecfe28e|smarkets|Servette FC": {
   "sport": "UEFA Champions League Women",
@@ -3716,8 +3716,8 @@
   "book": "Smarkets",
   "odds": 10.5,
   "first_seen": "2026-09-30T20:21:01.003416+00:00",
-  "close": 9.29,
-  "close_seen": "2026-10-01T06:23:49.525668+00:00"
+  "close": 9.0,
+  "close_seen": "2026-10-01T11:09:34.943568+00:00"
  },
  "569ba3f14347105c50c8164a0ecfe28e|grosvenor|Servette FC": {
   "sport": "UEFA Champions League Women",
@@ -3752,8 +3752,8 @@
   "book": "Smarkets",
   "odds": 7.8,
   "first_seen": "2026-09-30T20:21:01.003427+00:00",
-  "close": 7.19,
-  "close_seen": "2026-10-01T06:23:49.525660+00:00"
+  "close": 7.3,
+  "close_seen": "2026-10-01T11:09:34.943530+00:00"
  },
  "1ec1e91715390c359da942323953f11a|casumo|Leuven": {
   "sport": "UEFA Champions League Women",
@@ -3764,8 +3764,8 @@
   "book": "Casumo",
   "odds": 15.0,
   "first_seen": "2026-09-30T20:21:01.003431+00:00",
-  "close": 14.61,
-  "close_seen": "2026-10-01T06:23:49.525680+00:00"
+  "close": 14.28,
+  "close_seen": "2026-10-01T11:09:34.943550+00:00"
  },
  "1ec1e91715390c359da942323953f11a|grosvenor|Leuven": {
   "sport": "UEFA Champions League Women",
@@ -3776,8 +3776,8 @@
   "book": "Grosvenor",
   "odds": 15.0,
   "first_seen": "2026-09-30T20:21:01.003435+00:00",
-  "close": 14.61,
-  "close_seen": "2026-10-01T06:23:49.525685+00:00"
+  "close": 14.28,
+  "close_seen": "2026-10-01T11:09:34.943553+00:00"
  },
  "5ff465ad69bca8753070b0d3bb7dd3d5|coral|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -3908,8 +3908,8 @@
   "book": "Paddy Power",
   "odds": 14.0,
   "first_seen": "2026-09-30T20:21:01.003479+00:00",
-  "close": 12.94,
-  "close_seen": "2026-10-01T06:23:49.525726+00:00"
+  "close": 12.21,
+  "close_seen": "2026-10-01T11:09:34.943572+00:00"
  },
  "7bf486aef9b23c3917856eb0897eba2a|betfred_uk|FC Thun": {
   "sport": "UEFA Europa Conference League",
@@ -3921,7 +3921,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003483+00:00",
   "close": 11.44,
-  "close_seen": "2026-10-01T06:23:49.525711+00:00"
+  "close_seen": "2026-10-01T11:09:34.943576+00:00"
  },
  "7bf486aef9b23c3917856eb0897eba2a|betfair_ex_uk|FC Thun": {
   "sport": "UEFA Europa Conference League",
@@ -3933,7 +3933,7 @@
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003487+00:00",
   "close": 11.44,
-  "close_seen": "2026-10-01T06:23:49.525715+00:00"
+  "close_seen": "2026-10-01T11:09:34.943580+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|betfair_ex_uk|FK Borac Banja Luka": {
   "sport": "UEFA Europa Conference League",
@@ -3945,7 +3945,7 @@
   "odds": 11.5,
   "first_seen": "2026-09-30T20:21:01.003491+00:00",
   "close": 10.16,
-  "close_seen": "2026-09-30T20:21:01.003495+00:00"
+  "close_seen": "2026-10-01T11:09:34.943584+00:00"
  },
  "e2578ec1dbe113dc7d40bcd7e0fd1d9f|betfred_uk|Pafos FC": {
   "sport": "UEFA Europa Conference League",
@@ -3957,7 +3957,7 @@
   "odds": 7.5,
   "first_seen": "2026-09-30T20:21:01.003497+00:00",
   "close": 6.81,
-  "close_seen": "2026-10-01T06:23:49.525719+00:00"
+  "close_seen": "2026-10-01T11:09:34.943588+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|betfred_uk|FK Borac Banja Luka": {
   "sport": "UEFA Europa Conference League",
@@ -3968,8 +3968,8 @@
   "book": "Betfred (UK)",
   "odds": 11.0,
   "first_seen": "2026-09-30T20:21:01.003501+00:00",
-  "close": 10.01,
-  "close_seen": "2026-10-01T06:23:49.525722+00:00"
+  "close": 10.16,
+  "close_seen": "2026-10-01T11:09:34.943591+00:00"
  },
  "7de91b956526f0f5f519d7d50fb4f453|betfred_uk|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -3981,7 +3981,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003505+00:00",
   "close": 7.88,
-  "close_seen": "2026-10-01T06:23:49.525730+00:00"
+  "close_seen": "2026-10-01T11:09:34.943595+00:00"
  },
  "7de91b956526f0f5f519d7d50fb4f453|coral|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -3993,7 +3993,7 @@
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003511+00:00",
   "close": 7.88,
-  "close_seen": "2026-10-01T06:23:49.525733+00:00"
+  "close_seen": "2026-10-01T11:09:34.943599+00:00"
  },
  "1425f07b2aa42fe7c1ba0cb919a1a283|betfred_uk|FK Jablonec": {
   "sport": "UEFA Europa Conference League",
@@ -4005,7 +4005,7 @@
   "odds": 9.5,
   "first_seen": "2026-09-30T20:21:01.003518+00:00",
   "close": 8.82,
-  "close_seen": "2026-10-01T06:23:49.525737+00:00"
+  "close_seen": "2026-10-01T11:09:34.943603+00:00"
  },
  "7de91b956526f0f5f519d7d50fb4f453|betfair_ex_uk|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -4017,7 +4017,7 @@
   "odds": 8.4,
   "first_seen": "2026-09-30T20:21:01.003522+00:00",
   "close": 7.88,
-  "close_seen": "2026-10-01T06:23:49.525741+00:00"
+  "close_seen": "2026-10-01T11:09:34.943607+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -4041,7 +4041,7 @@
   "odds": 6.4,
   "first_seen": "2026-09-30T20:21:01.003530+00:00",
   "close": 6.04,
-  "close_seen": "2026-10-01T06:23:49.525744+00:00"
+  "close_seen": "2026-10-01T11:09:34.943611+00:00"
  },
  "7bf486aef9b23c3917856eb0897eba2a|paddypower|FC Thun": {
   "sport": "UEFA Europa Conference League",
@@ -4053,7 +4053,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003534+00:00",
   "close": 11.44,
-  "close_seen": "2026-10-01T06:23:49.525755+00:00"
+  "close_seen": "2026-10-01T11:09:34.943614+00:00"
  },
  "b712f6ee1a8b3f7ea8c6cad4929a2728|betfair_ex_uk|FC Iberia 1999": {
   "sport": "UEFA Europa Conference League",
@@ -4065,7 +4065,7 @@
   "odds": 8.6,
   "first_seen": "2026-09-30T20:21:01.003538+00:00",
   "close": 8.22,
-  "close_seen": "2026-10-01T06:23:49.525759+00:00"
+  "close_seen": "2026-10-01T11:09:34.943618+00:00"
  },
  "1172b90edbecfce831c2c0356f67a84c|betfair_ex_uk|PFC CSKA Sofia": {
   "sport": "UEFA Europa Conference League",
@@ -4077,7 +4077,7 @@
   "odds": 6.6,
   "first_seen": "2026-09-30T20:21:01.003542+00:00",
   "close": 6.38,
-  "close_seen": "2026-10-01T06:23:49.525763+00:00"
+  "close_seen": "2026-10-01T11:09:34.943622+00:00"
  },
  "0def5b7ac0c0a816aa080774d7082c9b|paddypower|SK Sturm Graz": {
   "sport": "UEFA Europa League",
@@ -4088,8 +4088,8 @@
   "book": "Paddy Power",
   "odds": 14.0,
   "first_seen": "2026-09-30T20:21:01.003546+00:00",
-  "close": 12.38,
-  "close_seen": "2026-10-01T06:23:49.525774+00:00"
+  "close": 12.93,
+  "close_seen": "2026-10-01T11:09:34.943661+00:00"
  },
  "b03dd3e42a0894b49f11ac599d2eb3b1|betfair_ex_uk|FC Ararat-Armenia": {
   "sport": "UEFA Europa League",
@@ -4113,7 +4113,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003554+00:00",
   "close": 11.27,
-  "close_seen": "2026-10-01T06:23:49.525781+00:00"
+  "close_seen": "2026-10-01T11:09:34.943670+00:00"
  },
  "571499e2d0a5fccc92b7801aa4d6c124|betfair_ex_uk|Hapoel Be'er Sheva": {
   "sport": "UEFA Europa League",
@@ -4125,7 +4125,7 @@
   "odds": 9.8,
   "first_seen": "2026-09-30T20:21:01.003558+00:00",
   "close": 9.21,
-  "close_seen": "2026-10-01T06:23:49.525785+00:00"
+  "close_seen": "2026-10-01T11:09:34.943673+00:00"
  },
  "b03dd3e42a0894b49f11ac599d2eb3b1|smarkets|FC Ararat-Armenia": {
   "sport": "UEFA Europa League",
@@ -4149,7 +4149,7 @@
   "odds": 6.5,
   "first_seen": "2026-09-30T20:21:01.003566+00:00",
   "close": 6.19,
-  "close_seen": "2026-10-01T06:23:49.525792+00:00"
+  "close_seen": "2026-10-01T11:09:34.943686+00:00"
  },
  "0def5b7ac0c0a816aa080774d7082c9b|betano_uk|SK Sturm Graz": {
   "sport": "UEFA Europa League",
@@ -4197,7 +4197,7 @@
   "odds": 9.0,
   "first_seen": "2026-09-30T20:21:01.003583+00:00",
   "close": 8.58,
-  "close_seen": "2026-10-01T06:23:49.525807+00:00"
+  "close_seen": "2026-10-01T11:09:34.943691+00:00"
  },
  "571499e2d0a5fccc92b7801aa4d6c124|smarkets|Hapoel Be'er Sheva": {
   "sport": "UEFA Europa League",
@@ -4209,7 +4209,7 @@
   "odds": 9.6,
   "first_seen": "2026-09-30T20:21:01.003587+00:00",
   "close": 9.21,
-  "close_seen": "2026-10-01T06:23:49.525810+00:00"
+  "close_seen": "2026-10-01T11:09:34.943695+00:00"
  },
  "571499e2d0a5fccc92b7801aa4d6c124|betfair_ex_uk|Draw": {
   "sport": "UEFA Europa League",
@@ -4221,7 +4221,7 @@
   "odds": 5.8,
   "first_seen": "2026-09-30T20:21:01.003591+00:00",
   "close": 5.58,
-  "close_seen": "2026-10-01T06:23:49.525814+00:00"
+  "close_seen": "2026-10-01T11:09:34.943702+00:00"
  },
  "a1b75fa94c18a201e6feec4cd04a2d56|matchbook|Czech Republic": {
   "sport": "UEFA Nations League",
@@ -4244,8 +4244,8 @@
   "book": "Matchbook",
   "odds": 13.0,
   "first_seen": "2026-09-30T20:21:01.003604+00:00",
-  "close": 10.4,
-  "close_seen": "2026-09-30T20:21:01.003606+00:00"
+  "close": 11.47,
+  "close_seen": "2026-10-01T11:09:34.943710+00:00"
  },
  "a1b75fa94c18a201e6feec4cd04a2d56|unibet_uk|Czech Republic": {
   "sport": "UEFA Nations League",
@@ -4281,7 +4281,7 @@
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003617+00:00",
   "close": 11.47,
-  "close_seen": "2026-10-01T06:23:49.525827+00:00"
+  "close_seen": "2026-10-01T11:09:34.943714+00:00"
  },
  "05615ea2e80df56ae5b887dec1ca2f52|unibet_uk|San Marino": {
   "sport": "UEFA Nations League",
@@ -4376,8 +4376,8 @@
   "book": "888sport",
   "odds": 12.0,
   "first_seen": "2026-09-30T20:21:01.003650+00:00",
-  "close": 11.19,
-  "close_seen": "2026-09-30T20:21:01.003652+00:00"
+  "close": 11.49,
+  "close_seen": "2026-10-01T11:09:34.943813+00:00"
  },
  "a902c361d1a8c4fd596ffb93d71ab378|matchbook|Draw": {
   "sport": "UEFA Nations League",
@@ -4484,8 +4484,8 @@
   "book": "Coral",
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003686+00:00",
-  "close": 8.03,
-  "close_seen": "2026-10-01T06:23:49.525854+00:00"
+  "close": 8.56,
+  "close_seen": "2026-10-01T11:09:34.943769+00:00"
  },
  "0fc933670b2cf487a5ac2878f500492f|ladbrokes_uk|Draw": {
   "sport": "UEFA Nations League",
@@ -4496,8 +4496,8 @@
   "book": "Ladbrokes",
   "odds": 8.5,
   "first_seen": "2026-09-30T20:21:01.003689+00:00",
-  "close": 8.24,
-  "close_seen": "2026-09-30T20:21:01.003691+00:00"
+  "close": 8.56,
+  "close_seen": "2026-10-01T11:09:34.943773+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|betfair_ex_uk|Draw": {
   "sport": "MLS",
@@ -4508,8 +4508,8 @@
   "book": "Betfair",
   "odds": 5.3,
   "first_seen": "2026-09-30T20:21:01.003694+00:00",
-  "close": 4.89,
-  "close_seen": "2026-10-01T06:23:49.525940+00:00"
+  "close": 4.93,
+  "close_seen": "2026-10-01T11:09:34.943832+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|matchbook|Draw": {
   "sport": "MLS",
@@ -4520,8 +4520,8 @@
   "book": "Matchbook",
   "odds": 5.3,
   "first_seen": "2026-09-30T20:21:01.003697+00:00",
-  "close": 4.89,
-  "close_seen": "2026-10-01T06:23:49.525943+00:00"
+  "close": 4.93,
+  "close_seen": "2026-10-01T11:09:34.943836+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|matchbook|Sporting Kansas City": {
   "sport": "MLS",
@@ -4532,8 +4532,8 @@
   "book": "Matchbook",
   "odds": 5.9,
   "first_seen": "2026-09-30T20:21:01.003701+00:00",
-  "close": 5.51,
-  "close_seen": "2026-10-01T06:23:49.525936+00:00"
+  "close": 5.86,
+  "close_seen": "2026-10-01T11:09:34.943847+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|smarkets|Draw": {
   "sport": "MLS",
@@ -4544,8 +4544,8 @@
   "book": "Smarkets",
   "odds": 5.2,
   "first_seen": "2026-09-30T20:21:01.003705+00:00",
-  "close": 4.89,
-  "close_seen": "2026-10-01T06:23:49.525928+00:00"
+  "close": 4.93,
+  "close_seen": "2026-10-01T11:09:34.943828+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|betfair_ex_uk|Sporting Kansas City": {
   "sport": "MLS",
@@ -4556,8 +4556,8 @@
   "book": "Betfair",
   "odds": 5.8,
   "first_seen": "2026-09-30T20:21:01.003708+00:00",
-  "close": 5.51,
-  "close_seen": "2026-10-01T06:23:49.525932+00:00"
+  "close": 5.86,
+  "close_seen": "2026-10-01T11:09:34.943843+00:00"
  },
  "c68442e0bfc400d8e7ee97ec662e13e0|smarkets|Sporting Kansas City": {
   "sport": "MLS",
@@ -4568,32 +4568,8 @@
   "book": "Smarkets",
   "odds": 5.7,
   "first_seen": "2026-09-30T20:21:01.003712+00:00",
-  "close": 5.51,
-  "close_seen": "2026-10-01T06:23:49.525925+00:00"
- },
- "baf8f73b47a664fcede53262ff09e26d|sport888|Cameron Norrie": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Alexander Zverev v Cameron Norrie",
-  "start": "2026-10-01T07:00:00Z",
-  "selection": "Cameron Norrie",
-  "book": "888sport",
-  "odds": 9.0,
-  "first_seen": "2026-09-30T20:21:01.003716+00:00",
-  "close": 7.82,
-  "close_seen": "2026-09-30T20:21:01.003718+00:00"
- },
- "baf8f73b47a664fcede53262ff09e26d|williamhill|Cameron Norrie": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Alexander Zverev v Cameron Norrie",
-  "start": "2026-10-01T07:00:00Z",
-  "selection": "Cameron Norrie",
-  "book": "William Hill",
-  "odds": 9.0,
-  "first_seen": "2026-09-30T20:21:01.003720+00:00",
-  "close": 7.82,
-  "close_seen": "2026-09-30T20:21:01.003721+00:00"
+  "close": 5.86,
+  "close_seen": "2026-10-01T11:09:34.943839+00:00"
  },
  "4deffc5f47794803f6891c113e45383e|betway|Bu Yunchaokete": {
   "sport": "ATP China Open",
@@ -4616,8 +4592,8 @@
   "book": "Betfair",
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.003737+00:00",
-  "close": 4.31,
-  "close_seen": "2026-10-01T06:23:49.525947+00:00"
+  "close": 4.29,
+  "close_seen": "2026-10-01T11:09:34.943851+00:00"
  },
  "d66f1937da5272c6644a583eaa98d7ce|matchbook|Pablo Carreno Busta": {
   "sport": "ATP China Open",
@@ -4628,8 +4604,8 @@
   "book": "Matchbook",
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.003743+00:00",
-  "close": 4.31,
-  "close_seen": "2026-10-01T06:23:49.525950+00:00"
+  "close": 4.29,
+  "close_seen": "2026-10-01T11:09:34.943858+00:00"
  },
  "4deffc5f47794803f6891c113e45383e|betfair_ex_uk|Bu Yunchaokete": {
   "sport": "ATP China Open",
@@ -4640,8 +4616,8 @@
   "book": "Betfair",
   "odds": 3.95,
   "first_seen": "2026-09-30T20:21:01.003746+00:00",
-  "close": 3.83,
-  "close_seen": "2026-10-01T06:23:49.525965+00:00"
+  "close": 3.89,
+  "close_seen": "2026-10-01T11:09:34.943865+00:00"
  },
  "c83a68420401e6b8f8010e3050bed2ea|betfair_ex_uk|Alex Molcan": {
   "sport": "ATP China Open",
@@ -4667,102 +4643,6 @@
   "close": 2.43,
   "close_seen": "2026-09-30T20:21:01.003756+00:00"
  },
- "150be9ac3e148ecdc824890bed898996|matchbook|Kei Nishikori": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Kei Nishikori v Frances Tiafoe",
-  "start": "2026-10-01T03:10:00Z",
-  "selection": "Kei Nishikori",
-  "book": "Matchbook",
-  "odds": 5.1,
-  "first_seen": "2026-09-30T20:21:01.003758+00:00",
-  "close": 4.44,
-  "close_seen": "2026-09-30T20:21:01.003760+00:00"
- },
- "150be9ac3e148ecdc824890bed898996|betfair_ex_uk|Kei Nishikori": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Kei Nishikori v Frances Tiafoe",
-  "start": "2026-10-01T03:10:00Z",
-  "selection": "Kei Nishikori",
-  "book": "Betfair",
-  "odds": 5.0,
-  "first_seen": "2026-09-30T20:21:01.003762+00:00",
-  "close": 4.44,
-  "close_seen": "2026-09-30T20:21:01.003763+00:00"
- },
- "d700980c8b97f7b97b85b0698f5b3824|matchbook|Alex Michelsen": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Carlos Alcaraz v Alex Michelsen",
-  "start": "2026-10-01T07:00:00Z",
-  "selection": "Alex Michelsen",
-  "book": "Matchbook",
-  "odds": 5.8,
-  "first_seen": "2026-09-30T20:21:01.003773+00:00",
-  "close": 5.36,
-  "close_seen": "2026-09-30T20:21:01.003775+00:00"
- },
- "d700980c8b97f7b97b85b0698f5b3824|betfair_ex_uk|Alex Michelsen": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Carlos Alcaraz v Alex Michelsen",
-  "start": "2026-10-01T07:00:00Z",
-  "selection": "Alex Michelsen",
-  "book": "Betfair",
-  "odds": 5.8,
-  "first_seen": "2026-09-30T20:21:01.003777+00:00",
-  "close": 5.36,
-  "close_seen": "2026-09-30T20:21:01.003779+00:00"
- },
- "f4c24c41c66d5ecb136d40ee73c7d089|matchbook|Sho Shimabukuro": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Denis Shapovalov v Sho Shimabukuro",
-  "start": "2026-10-01T05:40:00Z",
-  "selection": "Sho Shimabukuro",
-  "book": "Matchbook",
-  "odds": 3.75,
-  "first_seen": "2026-09-30T20:21:01.003796+00:00",
-  "close": 3.62,
-  "close_seen": "2026-09-30T20:21:01.003798+00:00"
- },
- "f4c24c41c66d5ecb136d40ee73c7d089|betfair_ex_uk|Sho Shimabukuro": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Denis Shapovalov v Sho Shimabukuro",
-  "start": "2026-10-01T05:40:00Z",
-  "selection": "Sho Shimabukuro",
-  "book": "Betfair",
-  "odds": 3.75,
-  "first_seen": "2026-09-30T20:21:01.003800+00:00",
-  "close": 3.62,
-  "close_seen": "2026-09-30T20:21:01.003801+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|betfair_ex_uk|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "Betfair",
-  "odds": 14.5,
-  "first_seen": "2026-09-30T20:21:01.003803+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003805+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|matchbook|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "Matchbook",
-  "odds": 14.5,
-  "first_seen": "2026-09-30T20:21:01.003807+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003809+00:00"
- },
  "d335a62e23f27b87cc79d2e6c6589617|betfair_ex_uk|Yihan Qu": {
   "sport": "WTA China Open",
   "sport_key": "tennis_wta_china_open",
@@ -4786,54 +4666,6 @@
   "first_seen": "2026-09-30T20:21:01.003814+00:00",
   "close": 9.76,
   "close_seen": "2026-09-30T20:21:01.003818+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|smarkets|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "Smarkets",
-  "odds": 13.0,
-  "first_seen": "2026-09-30T20:21:01.003820+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003822+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|paddypower|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "Paddy Power",
-  "odds": 13.0,
-  "first_seen": "2026-09-30T20:21:01.003824+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003825+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|skybet|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "Sky Bet",
-  "odds": 13.0,
-  "first_seen": "2026-09-30T20:21:01.003829+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003831+00:00"
- },
- "982ff3992a464e7e52910a12f402a08b|boylesports|Yu Jun Lin": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yu Jun Lin v Storm Hunter",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yu Jun Lin",
-  "book": "BoyleSports",
-  "odds": 13.0,
-  "first_seen": "2026-09-30T20:21:01.003833+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003835+00:00"
  },
  "b37042990194a603e165f3ffaa66d3e4|betway|Renata Zarazua": {
   "sport": "WTA China Open",
@@ -4907,30 +4739,6 @@
   "close": 6.86,
   "close_seen": "2026-09-30T20:21:01.003857+00:00"
  },
- "1b26a19876c9aaf7be957f87c1e4e7a2|matchbook|Yushan Shao": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yushan Shao v Anastasia Zakharova",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yushan Shao",
-  "book": "Matchbook",
-  "odds": 12.0,
-  "first_seen": "2026-09-30T20:21:01.003869+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003871+00:00"
- },
- "1b26a19876c9aaf7be957f87c1e4e7a2|betfair_ex_uk|Yushan Shao": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Yushan Shao v Anastasia Zakharova",
-  "start": "2026-10-01T06:00:00Z",
-  "selection": "Yushan Shao",
-  "book": "Betfair",
-  "odds": 12.0,
-  "first_seen": "2026-09-30T20:21:01.003873+00:00",
-  "close": 10.52,
-  "close_seen": "2026-09-30T20:21:01.003875+00:00"
- },
  "d335a62e23f27b87cc79d2e6c6589617|boylesports|Yihan Qu": {
   "sport": "WTA China Open",
   "sport_key": "tennis_wta_china_open",
@@ -4942,30 +4750,6 @@
   "first_seen": "2026-09-30T20:21:01.003876+00:00",
   "close": 9.76,
   "close_seen": "2026-09-30T20:21:01.003878+00:00"
- },
- "c61cca87a103a35f8e1889747b27f171|matchbook|Aoi Ito": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Aoi Ito v Kimberly Birrell",
-  "start": "2026-10-01T04:10:00Z",
-  "selection": "Aoi Ito",
-  "book": "Matchbook",
-  "odds": 4.2,
-  "first_seen": "2026-09-30T20:21:01.003880+00:00",
-  "close": 3.73,
-  "close_seen": "2026-09-30T20:21:01.003882+00:00"
- },
- "c61cca87a103a35f8e1889747b27f171|betfair_ex_uk|Aoi Ito": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Aoi Ito v Kimberly Birrell",
-  "start": "2026-10-01T04:10:00Z",
-  "selection": "Aoi Ito",
-  "book": "Betfair",
-  "odds": 4.2,
-  "first_seen": "2026-09-30T20:21:01.003883+00:00",
-  "close": 3.73,
-  "close_seen": "2026-09-30T20:21:01.003885+00:00"
  },
  "b37042990194a603e165f3ffaa66d3e4|paddypower|Renata Zarazua": {
   "sport": "WTA China Open",
@@ -4988,8 +4772,8 @@
   "book": "Paddy Power",
   "odds": 10.0,
   "first_seen": "2026-09-30T20:21:01.003892+00:00",
-  "close": 8.94,
-  "close_seen": "2026-09-30T20:21:01.003894+00:00"
+  "close": 10.43,
+  "close_seen": "2026-10-01T11:09:34.943890+00:00"
  },
  "e4249631b25378db4350945e30d1e9a1|skybet|Yue Yuan": {
   "sport": "WTA China Open",
@@ -5000,8 +4784,8 @@
   "book": "Sky Bet",
   "odds": 10.0,
   "first_seen": "2026-09-30T20:21:01.003896+00:00",
-  "close": 8.94,
-  "close_seen": "2026-09-30T20:21:01.003898+00:00"
+  "close": 10.43,
+  "close_seen": "2026-10-01T11:09:34.943894+00:00"
  },
  "0e62429ed73f84f87f603d376477749c|betfair_ex_uk|Maryland Terrapins": {
   "sport": "NCAAF",
@@ -5013,7 +4797,7 @@
   "odds": 6.6,
   "first_seen": "2026-10-01T06:23:49.524679+00:00",
   "close": 5.91,
-  "close_seen": "2026-10-01T06:23:49.524682+00:00"
+  "close_seen": "2026-10-01T11:09:34.942548+00:00"
  },
  "9dcccf34095cde7b0fe36250bb5be6f6|betway|Rutgers Scarlet Knights": {
   "sport": "NCAAF",
@@ -5036,8 +4820,8 @@
   "book": "Matchbook",
   "odds": 8.8,
   "first_seen": "2026-10-01T06:23:49.524709+00:00",
-  "close": 8.09,
-  "close_seen": "2026-10-01T06:23:49.524711+00:00"
+  "close": 8.01,
+  "close_seen": "2026-10-01T11:09:34.942589+00:00"
  },
  "4c84a699496b71ee1e626e3c7f5689c9|betfair_ex_uk|UL Monroe Warhawks": {
   "sport": "NCAAF",
@@ -5048,8 +4832,8 @@
   "book": "Betfair",
   "odds": 5.8,
   "first_seen": "2026-10-01T06:23:49.524713+00:00",
-  "close": 5.37,
-  "close_seen": "2026-10-01T06:23:49.524715+00:00"
+  "close": 5.42,
+  "close_seen": "2026-10-01T11:09:34.942553+00:00"
  },
  "ff98b80b07e2f42c76c2c255e6611247|betfair_ex_uk|Arkansas Razorbacks": {
   "sport": "NCAAF",
@@ -5061,7 +4845,7 @@
   "odds": 5.8,
   "first_seen": "2026-10-01T06:23:49.524727+00:00",
   "close": 5.39,
-  "close_seen": "2026-10-01T06:23:49.524729+00:00"
+  "close_seen": "2026-10-01T11:09:34.942578+00:00"
  },
  "f981648dba0e71d8517d47d31aa2633d|matchbook|Washington Huskies": {
   "sport": "NCAAF",
@@ -5097,7 +4881,7 @@
   "odds": 6.2,
   "first_seen": "2026-10-01T06:23:49.524754+00:00",
   "close": 5.91,
-  "close_seen": "2026-10-01T06:23:49.524758+00:00"
+  "close_seen": "2026-10-01T11:09:34.942565+00:00"
  },
  "0cdf52fe0d6bfe0664b76a2102f8b605|betfair_ex_uk|Purdue Boilermakers": {
   "sport": "NCAAF",
@@ -5109,7 +4893,7 @@
   "odds": 4.2,
   "first_seen": "2026-10-01T06:23:49.524760+00:00",
   "close": 4.03,
-  "close_seen": "2026-10-01T06:23:49.524762+00:00"
+  "close_seen": "2026-10-01T11:09:34.942592+00:00"
  },
  "8ef32c906348e926ca0fabcc25635c11|matchbook|Stanford Cardinal": {
   "sport": "NCAAF",
@@ -5121,7 +4905,7 @@
   "odds": 5.2,
   "first_seen": "2026-10-01T06:23:49.524764+00:00",
   "close": 5.0,
-  "close_seen": "2026-10-01T06:23:49.524773+00:00"
+  "close_seen": "2026-10-01T11:09:34.942597+00:00"
  },
  "f2defdeeb6cb3aa4a86b01a7a5b1ece4|betfair_ex_uk|Auburn Tigers": {
   "sport": "NCAAF",
@@ -5133,7 +4917,7 @@
   "odds": 3.45,
   "first_seen": "2026-10-01T06:23:49.524775+00:00",
   "close": 3.33,
-  "close_seen": "2026-10-01T06:23:49.524777+00:00"
+  "close_seen": "2026-10-01T11:09:34.942604+00:00"
  },
  "932c7f6dfe06be77192fe000e9f3ac9d|betway|Clemson Tigers": {
   "sport": "NCAAF",
@@ -5144,8 +4928,8 @@
   "book": "Betway",
   "odds": 7.0,
   "first_seen": "2026-10-01T06:23:49.524779+00:00",
-  "close": 6.76,
-  "close_seen": "2026-10-01T06:23:49.524781+00:00"
+  "close": 6.77,
+  "close_seen": "2026-10-01T11:09:34.942609+00:00"
  },
  "c4647ca1201e6768501877267ca8251b|betfred_uk|Miami Dolphins": {
   "sport": "NFL",
@@ -5157,7 +4941,7 @@
   "odds": 4.8,
   "first_seen": "2026-10-01T06:23:49.524803+00:00",
   "close": 4.61,
-  "close_seen": "2026-10-01T06:23:49.524805+00:00"
+  "close_seen": "2026-10-01T11:09:34.942648+00:00"
  },
  "1b4f2e60ce83fa1d63a5dff83769d27c|matchbook|Philadelphia Eagles": {
   "sport": "NFL",
@@ -5181,7 +4965,7 @@
   "odds": 2.56,
   "first_seen": "2026-10-01T06:23:49.524810+00:00",
   "close": 2.46,
-  "close_seen": "2026-10-01T06:23:49.524812+00:00"
+  "close_seen": "2026-10-01T11:09:34.942652+00:00"
  },
  "19d33b8516e96a36f0ec5ba4fc85f78d|sport888|Maccabi Tel Aviv": {
   "sport": "Basketball Euroleague",
@@ -5193,7 +4977,7 @@
   "odds": 6.0,
   "first_seen": "2026-10-01T06:23:49.524842+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.524844+00:00"
+  "close_seen": "2026-10-01T11:09:34.942687+00:00"
  },
  "ee2b184fd8957e70d5dfe20da80f01c5|betfair_ex_uk|Indiana Fever": {
   "sport": "WNBA",
@@ -5204,8 +4988,8 @@
   "book": "Betfair",
   "odds": 2.68,
   "first_seen": "2026-10-01T06:23:49.524853+00:00",
-  "close": 2.6,
-  "close_seen": "2026-10-01T06:23:49.524855+00:00"
+  "close": 2.67,
+  "close_seen": "2026-10-01T11:09:34.942712+00:00"
  },
  "ee2b184fd8957e70d5dfe20da80f01c5|matchbook|Indiana Fever": {
   "sport": "WNBA",
@@ -5216,8 +5000,8 @@
   "book": "Matchbook",
   "odds": 2.68,
   "first_seen": "2026-10-01T06:23:49.524857+00:00",
-  "close": 2.6,
-  "close_seen": "2026-10-01T06:23:49.524859+00:00"
+  "close": 2.67,
+  "close_seen": "2026-10-01T11:09:34.942716+00:00"
  },
  "56fa71c0b3588b56095c3ba1cf11a673|paddypower|Conor Wallace": {
   "sport": "Boxing",
@@ -5229,7 +5013,7 @@
   "odds": 7.5,
   "first_seen": "2026-10-01T06:23:49.524872+00:00",
   "close": 7.29,
-  "close_seen": "2026-10-01T06:23:49.524874+00:00"
+  "close_seen": "2026-10-01T11:09:34.942731+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|ladbrokes_uk|West Indies": {
   "sport": "One Day Internationals",
@@ -5277,7 +5061,7 @@
   "odds": 7.5,
   "first_seen": "2026-10-01T06:23:49.524903+00:00",
   "close": 6.82,
-  "close_seen": "2026-10-01T06:23:49.524906+00:00"
+  "close_seen": "2026-10-01T11:09:34.942787+00:00"
  },
  "96e3358cd42ab238e7b471c8fedc75f2|sport888|Deiveson Figueiredo": {
   "sport": "MMA",
@@ -5289,7 +5073,7 @@
   "odds": 6.1,
   "first_seen": "2026-10-01T06:23:49.524919+00:00",
   "close": 5.91,
-  "close_seen": "2026-10-01T06:23:49.524921+00:00"
+  "close_seen": "2026-10-01T11:09:34.942812+00:00"
  },
  "6ef3d90fcb1c708a2d25c4284867142f|unibet_uk|Bruce Whitehead": {
   "sport": "MMA",
@@ -5301,7 +5085,7 @@
   "odds": 7.0,
   "first_seen": "2026-10-01T06:23:49.524923+00:00",
   "close": 6.82,
-  "close_seen": "2026-10-01T06:23:49.524925+00:00"
+  "close_seen": "2026-10-01T11:09:34.942817+00:00"
  },
  "e831957ecc850d7e3b1b0748f33b2db5|betfair_ex_uk|Roman Kopylov": {
   "sport": "MMA",
@@ -5312,8 +5096,8 @@
   "book": "Betfair",
   "odds": 2.92,
   "first_seen": "2026-10-01T06:23:49.524927+00:00",
-  "close": 2.86,
-  "close_seen": "2026-10-01T06:23:49.524928+00:00"
+  "close": 2.87,
+  "close_seen": "2026-10-01T11:09:34.942808+00:00"
  },
  "1507425376d8bf9c482d9761e8be72b0|boylesports|Estudiantes de R\u00edo Cuarto": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5325,7 +5109,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.524931+00:00",
   "close": 13.58,
-  "close_seen": "2026-10-01T06:23:49.524933+00:00"
+  "close_seen": "2026-10-01T11:09:34.942825+00:00"
  },
  "1507425376d8bf9c482d9761e8be72b0|betfred_uk|Estudiantes de R\u00edo Cuarto": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5337,7 +5121,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.524935+00:00",
   "close": 13.58,
-  "close_seen": "2026-10-01T06:23:49.524936+00:00"
+  "close_seen": "2026-10-01T11:09:34.942829+00:00"
  },
  "aa690fd7e46982c83048052821dc9cc6|betfair_ex_uk|Aldosivi Mar del Plata": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5349,7 +5133,7 @@
   "odds": 6.4,
   "first_seen": "2026-10-01T06:23:49.524938+00:00",
   "close": 5.91,
-  "close_seen": "2026-10-01T06:23:49.524942+00:00"
+  "close_seen": "2026-10-01T11:09:34.942853+00:00"
  },
  "aa690fd7e46982c83048052821dc9cc6|smarkets|Aldosivi Mar del Plata": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5372,8 +5156,8 @@
   "book": "Smarkets",
   "odds": 4.5,
   "first_seen": "2026-10-01T06:23:49.524960+00:00",
-  "close": 4.32,
-  "close_seen": "2026-10-01T06:23:49.524962+00:00"
+  "close": 4.34,
+  "close_seen": "2026-10-01T11:09:34.942856+00:00"
  },
  "0c3b2822c323d49c67dfb118d2bd66c8|smarkets|San Lorenzo": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5409,7 +5193,7 @@
   "odds": 6.4,
   "first_seen": "2026-10-01T06:23:49.524973+00:00",
   "close": 6.18,
-  "close_seen": "2026-10-01T06:23:49.524974+00:00"
+  "close_seen": "2026-10-01T11:09:34.942841+00:00"
  },
  "d6d153e51e6a634e23ea438909779061|smarkets|Barracas Central": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5421,7 +5205,7 @@
   "odds": 4.9,
   "first_seen": "2026-10-01T06:23:49.524989+00:00",
   "close": 4.75,
-  "close_seen": "2026-10-01T06:23:49.524991+00:00"
+  "close_seen": "2026-10-01T11:09:34.942864+00:00"
  },
  "a2d74fa3b2e3d3d3f8cada446c2108b4|betfair_ex_uk|Gimnasia La Plata": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5433,7 +5217,7 @@
   "odds": 4.6,
   "first_seen": "2026-10-01T06:23:49.524997+00:00",
   "close": 4.47,
-  "close_seen": "2026-10-01T06:23:49.524999+00:00"
+  "close_seen": "2026-10-01T11:09:34.942868+00:00"
  },
  "a918e9889e7c0c7126a1d2bb437d1fbb|betfair_ex_uk|Platense": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5444,8 +5228,8 @@
   "book": "Betfair",
   "odds": 5.0,
   "first_seen": "2026-10-01T06:23:49.525001+00:00",
-  "close": 4.86,
-  "close_seen": "2026-10-01T06:23:49.525003+00:00"
+  "close": 4.87,
+  "close_seen": "2026-10-01T11:09:34.942872+00:00"
  },
  "e87f6e4beae72a0c9132d3f03543b144|betfair_ex_uk|Central C\u00f3rdoba": {
   "sport": "Primera Divisi\u00f3n - Argentina",
@@ -5457,7 +5241,7 @@
   "odds": 5.0,
   "first_seen": "2026-10-01T06:23:49.525005+00:00",
   "close": 4.9,
-  "close_seen": "2026-10-01T06:23:49.525007+00:00"
+  "close_seen": "2026-10-01T11:09:34.942876+00:00"
  },
  "4e3982f14172b814682bc1c3ad9e48db|betfair_ex_uk|RAAL La Louvi\u00e8re": {
   "sport": "Belgium First Div",
@@ -5469,7 +5253,7 @@
   "odds": 8.4,
   "first_seen": "2026-10-01T06:23:49.525008+00:00",
   "close": 8.01,
-  "close_seen": "2026-10-01T06:23:49.525010+00:00"
+  "close_seen": "2026-10-01T11:09:34.942880+00:00"
  },
  "4e3982f14172b814682bc1c3ad9e48db|smarkets|RAAL La Louvi\u00e8re": {
   "sport": "Belgium First Div",
@@ -5481,7 +5265,7 @@
   "odds": 8.2,
   "first_seen": "2026-10-01T06:23:49.525012+00:00",
   "close": 8.01,
-  "close_seen": "2026-10-01T06:23:49.525014+00:00"
+  "close_seen": "2026-10-01T11:09:34.942884+00:00"
  },
  "650866b10c18149fc1b528c4f2e263a5|matchbook|Draw": {
   "sport": "Brazil S\u00e9rie B",
@@ -5505,7 +5289,7 @@
   "odds": 8.6,
   "first_seen": "2026-10-01T06:23:49.525064+00:00",
   "close": 8.34,
-  "close_seen": "2026-10-01T06:23:49.525066+00:00"
+  "close_seen": "2026-10-01T11:09:34.942895+00:00"
  },
  "8d77dc41ad9775cc840dba0a026fd3ca|casumo|Montevideo City Torque": {
   "sport": "Copa Sudamericana",
@@ -5517,7 +5301,7 @@
   "odds": 8.0,
   "first_seen": "2026-10-01T06:23:49.525079+00:00",
   "close": 7.79,
-  "close_seen": "2026-10-01T06:23:49.525081+00:00"
+  "close_seen": "2026-10-01T11:09:34.942944+00:00"
  },
  "838aaa8567409b87835ad22ed9255e61|smarkets|Queens Park Rangers": {
   "sport": "Championship",
@@ -5529,7 +5313,7 @@
   "odds": 5.9,
   "first_seen": "2026-10-01T06:23:49.525087+00:00",
   "close": 5.78,
-  "close_seen": "2026-10-01T06:23:49.525089+00:00"
+  "close_seen": "2026-10-01T11:09:34.942956+00:00"
  },
  "9061d3dcffac63f6214dfafa0194e015|smarkets|Draw": {
   "sport": "League 1",
@@ -5588,8 +5372,8 @@
   "book": "Betfair Sportsbook",
   "odds": 4.33,
   "first_seen": "2026-10-01T06:23:49.525127+00:00",
-  "close": 4.23,
-  "close_seen": "2026-10-01T06:23:49.525130+00:00"
+  "close": 4.22,
+  "close_seen": "2026-10-01T11:09:34.942979+00:00"
  },
  "bf2142d1ca76ba2fc9e61afce80f86c0|smarkets|Draw": {
   "sport": "EPL",
@@ -5600,8 +5384,8 @@
   "book": "Smarkets",
   "odds": 7.0,
   "first_seen": "2026-10-01T06:23:49.525156+00:00",
-  "close": 6.72,
-  "close_seen": "2026-10-01T06:23:49.525158+00:00"
+  "close": 6.82,
+  "close_seen": "2026-10-01T11:09:34.943022+00:00"
  },
  "45d4a466e32cd2b4ea535207923ceaf5|smarkets|Bournemouth": {
   "sport": "EPL",
@@ -5625,7 +5409,7 @@
   "odds": 5.4,
   "first_seen": "2026-10-01T06:23:49.525183+00:00",
   "close": 5.28,
-  "close_seen": "2026-10-01T06:23:49.525185+00:00"
+  "close_seen": "2026-10-01T11:09:34.943025+00:00"
  },
  "22c9b2c43cbe1334381269550dab78e6|betfair_ex_uk|Draw": {
   "sport": "EPL",
@@ -5649,7 +5433,7 @@
   "odds": 5.5,
   "first_seen": "2026-10-01T06:23:49.525210+00:00",
   "close": 5.35,
-  "close_seen": "2026-10-01T06:23:49.525212+00:00"
+  "close_seen": "2026-10-01T11:09:34.943062+00:00"
  },
  "34f584ab922e220dc4f3b81217959d6d|betfred_uk|Auxerre": {
   "sport": "Ligue 1 - France",
@@ -5684,8 +5468,8 @@
   "book": "Smarkets",
   "odds": 7.4,
   "first_seen": "2026-10-01T06:23:49.525221+00:00",
-  "close": 7.2,
-  "close_seen": "2026-10-01T06:23:49.525223+00:00"
+  "close": 7.1,
+  "close_seen": "2026-10-01T11:09:34.943033+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|paddypower|Draw": {
   "sport": "Ligue 1 - France",
@@ -5696,8 +5480,8 @@
   "book": "Paddy Power",
   "odds": 13.0,
   "first_seen": "2026-10-01T06:23:49.525237+00:00",
-  "close": 12.68,
-  "close_seen": "2026-10-01T06:23:49.525238+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943055+00:00"
  },
  "2849460eb4d15adbb20ec15927a0fd4a|betfair_sb_uk|Draw": {
   "sport": "Ligue 1 - France",
@@ -5708,8 +5492,8 @@
   "book": "Betfair Sportsbook",
   "odds": 13.0,
   "first_seen": "2026-10-01T06:23:49.525242+00:00",
-  "close": 12.68,
-  "close_seen": "2026-10-01T06:23:49.525244+00:00"
+  "close": 12.63,
+  "close_seen": "2026-10-01T11:09:34.943059+00:00"
  },
  "9a422e1aad1053828eaf629a58d901de|betfair_ex_uk|Draw": {
   "sport": "Bundesliga - Germany",
@@ -5733,7 +5517,7 @@
   "odds": 3.95,
   "first_seen": "2026-10-01T06:23:49.525299+00:00",
   "close": 3.87,
-  "close_seen": "2026-10-01T06:23:49.525301+00:00"
+  "close_seen": "2026-10-01T11:09:34.943125+00:00"
  },
  "16becef7f9b957a6f7a70b19750c4bc3|boylesports|Draw": {
   "sport": "Super League - Greece",
@@ -5745,7 +5529,7 @@
   "odds": 5.5,
   "first_seen": "2026-10-01T06:23:49.525341+00:00",
   "close": 5.34,
-  "close_seen": "2026-10-01T06:23:49.525343+00:00"
+  "close_seen": "2026-10-01T11:09:34.943170+00:00"
  },
  "9f4ec9268f60113db2c80d6ac41b8ca4|betfair_sb_uk|Draw": {
   "sport": "Super League - Greece",
@@ -5756,8 +5540,8 @@
   "book": "Betfair Sportsbook",
   "odds": 6.5,
   "first_seen": "2026-10-01T06:23:49.525345+00:00",
-  "close": 6.32,
-  "close_seen": "2026-10-01T06:23:49.525347+00:00"
+  "close": 6.31,
+  "close_seen": "2026-10-01T11:09:34.943166+00:00"
  },
  "40c1bd70fee927f9bfa8901edab02b48|grosvenor|Frosinone": {
   "sport": "Serie A - Italy",
@@ -5768,8 +5552,8 @@
   "book": "Grosvenor",
   "odds": 7.5,
   "first_seen": "2026-10-01T06:23:49.525368+00:00",
-  "close": 6.93,
-  "close_seen": "2026-10-01T06:23:49.525370+00:00"
+  "close": 6.75,
+  "close_seen": "2026-10-01T11:09:34.943193+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|Draw": {
   "sport": "Serie A - Italy",
@@ -5805,7 +5589,7 @@
   "odds": 6.1,
   "first_seen": "2026-10-01T06:23:49.525418+00:00",
   "close": 5.93,
-  "close_seen": "2026-10-01T06:23:49.525420+00:00"
+  "close_seen": "2026-10-01T11:09:34.943282+00:00"
  },
  "217aec5dbea235fb2716756cd089c458|casumo|Heerenveen": {
   "sport": "Dutch Eredivisie",
@@ -5817,7 +5601,7 @@
   "odds": 9.5,
   "first_seen": "2026-10-01T06:23:49.525422+00:00",
   "close": 9.27,
-  "close_seen": "2026-10-01T06:23:49.525425+00:00"
+  "close_seen": "2026-10-01T11:09:34.943285+00:00"
  },
  "217aec5dbea235fb2716756cd089c458|betfred_uk|Heerenveen": {
   "sport": "Dutch Eredivisie",
@@ -5829,7 +5613,7 @@
   "odds": 9.5,
   "first_seen": "2026-10-01T06:23:49.525428+00:00",
   "close": 9.27,
-  "close_seen": "2026-10-01T06:23:49.525430+00:00"
+  "close_seen": "2026-10-01T11:09:34.943289+00:00"
  },
  "3869391e3dbdcaa74153b11df56a3fe5|smarkets|Alav\u00e9s": {
   "sport": "La Liga - Spain",
@@ -5841,7 +5625,7 @@
   "odds": 4.5,
   "first_seen": "2026-10-01T06:23:49.525488+00:00",
   "close": 4.25,
-  "close_seen": "2026-10-01T06:23:49.525490+00:00"
+  "close_seen": "2026-10-01T11:09:34.943380+00:00"
  },
  "6436925dd15916d7041ba32b60000d48|betfair_ex_uk|Espanyol": {
   "sport": "La Liga - Spain",
@@ -5865,7 +5649,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525507+00:00",
   "close": 14.44,
-  "close_seen": "2026-10-01T06:23:49.525509+00:00"
+  "close_seen": "2026-10-01T11:09:34.943369+00:00"
  },
  "edb80d633a1906e5865ab70cc9b540ea|williamhill|Draw": {
   "sport": "La Liga - Spain",
@@ -5877,7 +5661,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525511+00:00",
   "close": 14.44,
-  "close_seen": "2026-10-01T06:23:49.525513+00:00"
+  "close_seen": "2026-10-01T11:09:34.943372+00:00"
  },
  "edb80d633a1906e5865ab70cc9b540ea|betfair_sb_uk|Draw": {
   "sport": "La Liga - Spain",
@@ -5889,7 +5673,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525515+00:00",
   "close": 14.44,
-  "close_seen": "2026-10-01T06:23:49.525516+00:00"
+  "close_seen": "2026-10-01T11:09:34.943376+00:00"
  },
  "eccd63bf768e2f2a358b871d3f33a63d|smarkets|Draw": {
   "sport": "La Liga - Spain",
@@ -5901,7 +5685,7 @@
   "odds": 6.8,
   "first_seen": "2026-10-01T06:23:49.525518+00:00",
   "close": 6.58,
-  "close_seen": "2026-10-01T06:23:49.525520+00:00"
+  "close_seen": "2026-10-01T11:09:34.943384+00:00"
  },
  "26e3612cb3a4a4cd144af369bd303dcd|betfair_ex_uk|Andorra CF": {
   "sport": "La Liga 2 - Spain",
@@ -5913,7 +5697,7 @@
   "odds": 3.8,
   "first_seen": "2026-10-01T06:23:49.525533+00:00",
   "close": 3.68,
-  "close_seen": "2026-10-01T06:23:49.525535+00:00"
+  "close_seen": "2026-10-01T11:09:34.943414+00:00"
  },
  "a679281aa699ceac83444302fb168715|smarkets|Burgos CF": {
   "sport": "La Liga 2 - Spain",
@@ -5925,7 +5709,7 @@
   "odds": 5.6,
   "first_seen": "2026-10-01T06:23:49.525537+00:00",
   "close": 5.44,
-  "close_seen": "2026-10-01T06:23:49.525539+00:00"
+  "close_seen": "2026-10-01T11:09:34.943395+00:00"
  },
  "a679281aa699ceac83444302fb168715|betfair_ex_uk|Burgos CF": {
   "sport": "La Liga 2 - Spain",
@@ -5937,7 +5721,7 @@
   "odds": 5.6,
   "first_seen": "2026-10-01T06:23:49.525541+00:00",
   "close": 5.44,
-  "close_seen": "2026-10-01T06:23:49.525543+00:00"
+  "close_seen": "2026-10-01T11:09:34.943399+00:00"
  },
  "672b72aadaf61287e9a244945c61d0d8|williamhill|Kilmarnock": {
   "sport": "Premiership - Scotland",
@@ -5949,7 +5733,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525545+00:00",
   "close": 14.68,
-  "close_seen": "2026-10-01T06:23:49.525547+00:00"
+  "close_seen": "2026-10-01T11:09:34.943421+00:00"
  },
  "672b72aadaf61287e9a244945c61d0d8|boylesports|Kilmarnock": {
   "sport": "Premiership - Scotland",
@@ -5961,7 +5745,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525549+00:00",
   "close": 14.68,
-  "close_seen": "2026-10-01T06:23:49.525551+00:00"
+  "close_seen": "2026-10-01T11:09:34.943425+00:00"
  },
  "672b72aadaf61287e9a244945c61d0d8|sport888|Kilmarnock": {
   "sport": "Premiership - Scotland",
@@ -5973,7 +5757,7 @@
   "odds": 15.0,
   "first_seen": "2026-10-01T06:23:49.525553+00:00",
   "close": 14.68,
-  "close_seen": "2026-10-01T06:23:49.525555+00:00"
+  "close_seen": "2026-10-01T11:09:34.943428+00:00"
  },
  "eff2c3d60eb0c1e5c079cc6096e47905|boylesports|Kasimpasa SK": {
   "sport": "Turkey Super League",
@@ -5985,7 +5769,7 @@
   "odds": 11.0,
   "first_seen": "2026-10-01T06:23:49.525557+00:00",
   "close": 10.7,
-  "close_seen": "2026-10-01T06:23:49.525559+00:00"
+  "close_seen": "2026-10-01T11:09:34.943432+00:00"
  },
  "eff2c3d60eb0c1e5c079cc6096e47905|betfair_sb_uk|Kasimpasa SK": {
   "sport": "Turkey Super League",
@@ -5997,7 +5781,7 @@
   "odds": 11.0,
   "first_seen": "2026-10-01T06:23:49.525560+00:00",
   "close": 10.7,
-  "close_seen": "2026-10-01T06:23:49.525562+00:00"
+  "close_seen": "2026-10-01T11:09:34.943436+00:00"
  },
  "eff2c3d60eb0c1e5c079cc6096e47905|betfred_uk|Kasimpasa SK": {
   "sport": "Turkey Super League",
@@ -6009,7 +5793,7 @@
   "odds": 11.0,
   "first_seen": "2026-10-01T06:23:49.525564+00:00",
   "close": 10.7,
-  "close_seen": "2026-10-01T06:23:49.525568+00:00"
+  "close_seen": "2026-10-01T11:09:34.943439+00:00"
  },
  "dd431688ed5c8f383b6434fd4f01e883|betfair_ex_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -6021,7 +5805,7 @@
   "odds": 6.6,
   "first_seen": "2026-10-01T06:23:49.525604+00:00",
   "close": 6.35,
-  "close_seen": "2026-10-01T06:23:49.525606+00:00"
+  "close_seen": "2026-10-01T11:09:34.943469+00:00"
  },
  "3f3cb74e560dfcc3e795b667ed9ebdef|smarkets|Fenerbahce": {
   "sport": "UEFA Champions League",
@@ -6057,7 +5841,7 @@
   "odds": 10.5,
   "first_seen": "2026-10-01T06:23:49.525628+00:00",
   "close": 10.21,
-  "close_seen": "2026-10-01T06:23:49.525630+00:00"
+  "close_seen": "2026-10-01T11:09:34.943487+00:00"
  },
  "ca3f4b075d835413f9cb7bd3c439fdd0|betvictor|Club Brugge": {
   "sport": "UEFA Champions League",
@@ -6069,7 +5853,7 @@
   "odds": 10.5,
   "first_seen": "2026-10-01T06:23:49.525631+00:00",
   "close": 10.21,
-  "close_seen": "2026-10-01T06:23:49.525633+00:00"
+  "close_seen": "2026-10-01T11:09:34.943490+00:00"
  },
  "2903ee092f7e08c549b130a3d394ac3c|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -6081,7 +5865,7 @@
   "odds": 6.5,
   "first_seen": "2026-10-01T06:23:49.525643+00:00",
   "close": 6.35,
-  "close_seen": "2026-10-01T06:23:49.525645+00:00"
+  "close_seen": "2026-10-01T11:09:34.943507+00:00"
  },
  "2903ee092f7e08c549b130a3d394ac3c|coral|Draw": {
   "sport": "UEFA Champions League",
@@ -6093,7 +5877,7 @@
   "odds": 6.5,
   "first_seen": "2026-10-01T06:23:49.525646+00:00",
   "close": 6.35,
-  "close_seen": "2026-10-01T06:23:49.525649+00:00"
+  "close_seen": "2026-10-01T11:09:34.943510+00:00"
  },
  "93177465a42a0fb7802f1c8b06d6ee3a|boylesports|Lille": {
   "sport": "UEFA Champions League",
@@ -6105,7 +5889,7 @@
   "odds": 12.0,
   "first_seen": "2026-10-01T06:23:49.525650+00:00",
   "close": 11.73,
-  "close_seen": "2026-10-01T06:23:49.525652+00:00"
+  "close_seen": "2026-10-01T11:09:34.943522+00:00"
  },
  "93177465a42a0fb7802f1c8b06d6ee3a|betvictor|Lille": {
   "sport": "UEFA Champions League",
@@ -6117,7 +5901,7 @@
   "odds": 12.0,
   "first_seen": "2026-10-01T06:23:49.525654+00:00",
   "close": 11.73,
-  "close_seen": "2026-10-01T06:23:49.525656+00:00"
+  "close_seen": "2026-10-01T11:09:34.943526+00:00"
  },
  "1ec1e91715390c359da942323953f11a|betfair_ex_uk|Draw": {
   "sport": "UEFA Champions League Women",
@@ -6128,8 +5912,8 @@
   "book": "Betfair",
   "odds": 7.6,
   "first_seen": "2026-10-01T06:23:49.525670+00:00",
-  "close": 7.19,
-  "close_seen": "2026-10-01T06:23:49.525672+00:00"
+  "close": 7.3,
+  "close_seen": "2026-10-01T11:09:34.943534+00:00"
  },
  "1ec1e91715390c359da942323953f11a|betvictor|Leuven": {
   "sport": "UEFA Champions League Women",
@@ -6188,8 +5972,8 @@
   "book": "Betfair",
   "odds": 5.7,
   "first_seen": "2026-10-01T06:23:49.525702+00:00",
-  "close": 5.59,
-  "close_seen": "2026-10-01T06:23:49.525704+00:00"
+  "close": 5.43,
+  "close_seen": "2026-10-01T11:09:34.943557+00:00"
  },
  "569ba3f14347105c50c8164a0ecfe28e|smarkets|Draw": {
   "sport": "UEFA Champions League Women",
@@ -6200,8 +5984,8 @@
   "book": "Smarkets",
   "odds": 5.7,
   "first_seen": "2026-10-01T06:23:49.525705+00:00",
-  "close": 5.59,
-  "close_seen": "2026-10-01T06:23:49.525707+00:00"
+  "close": 5.43,
+  "close_seen": "2026-10-01T11:09:34.943564+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|livescorebet|FK Borac Banja Luka": {
   "sport": "UEFA Europa Conference League",
@@ -6212,8 +5996,8 @@
   "book": "LiveScore Bet",
   "odds": 10.5,
   "first_seen": "2026-10-01T06:23:49.525746+00:00",
-  "close": 10.01,
-  "close_seen": "2026-10-01T06:23:49.525748+00:00"
+  "close": 10.16,
+  "close_seen": "2026-10-01T11:09:34.943625+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|virginbet|FK Borac Banja Luka": {
   "sport": "UEFA Europa Conference League",
@@ -6224,8 +6008,8 @@
   "book": "Virgin Bet",
   "odds": 10.5,
   "first_seen": "2026-10-01T06:23:49.525750+00:00",
-  "close": 10.01,
-  "close_seen": "2026-10-01T06:23:49.525752+00:00"
+  "close": 10.16,
+  "close_seen": "2026-10-01T11:09:34.943629+00:00"
  },
  "c88779b8088f864930fe423c5e0523ce|betfred_uk|AGF Aarhus": {
   "sport": "UEFA Europa Conference League",
@@ -6249,7 +6033,7 @@
   "odds": 7.4,
   "first_seen": "2026-10-01T06:23:49.525768+00:00",
   "close": 7.23,
-  "close_seen": "2026-10-01T06:23:49.525770+00:00"
+  "close_seen": "2026-10-01T11:09:34.943645+00:00"
  },
  "feda75190a774fb92164059453b037be|betfair_ex_uk|Celtic": {
   "sport": "UEFA Europa League",
@@ -6261,7 +6045,7 @@
   "odds": 11.5,
   "first_seen": "2026-10-01T06:23:49.525816+00:00",
   "close": 11.27,
-  "close_seen": "2026-10-01T06:23:49.525818+00:00"
+  "close_seen": "2026-10-01T11:09:34.943666+00:00"
  },
  "feda75190a774fb92164059453b037be|grosvenor|Celtic": {
   "sport": "UEFA Europa League",
@@ -6273,7 +6057,7 @@
   "odds": 11.5,
   "first_seen": "2026-10-01T06:23:49.525819+00:00",
   "close": 11.27,
-  "close_seen": "2026-10-01T06:23:49.525821+00:00"
+  "close_seen": "2026-10-01T11:09:34.943706+00:00"
  },
  "a902c361d1a8c4fd596ffb93d71ab378|betfair_ex_uk|Draw": {
   "sport": "UEFA Nations League",
@@ -6284,8 +6068,8 @@
   "book": "Betfair",
   "odds": 4.7,
   "first_seen": "2026-10-01T06:23:49.525838+00:00",
-  "close": 4.36,
-  "close_seen": "2026-10-01T06:23:49.525840+00:00"
+  "close": 4.27,
+  "close_seen": "2026-10-01T11:09:34.943730+00:00"
  },
  "16d310e835713f3457023deb98fb9f74|betfair_ex_uk|Wales": {
   "sport": "UEFA Nations League",
@@ -6296,8 +6080,8 @@
   "book": "Betfair",
   "odds": 7.4,
   "first_seen": "2026-10-01T06:23:49.525856+00:00",
-  "close": 7.01,
-  "close_seen": "2026-10-01T06:23:49.525858+00:00"
+  "close": 6.88,
+  "close_seen": "2026-10-01T11:09:34.943734+00:00"
  },
  "16d310e835713f3457023deb98fb9f74|matchbook|Wales": {
   "sport": "UEFA Nations League",
@@ -6308,8 +6092,8 @@
   "book": "Matchbook",
   "odds": 7.4,
   "first_seen": "2026-10-01T06:23:49.525859+00:00",
-  "close": 7.01,
-  "close_seen": "2026-10-01T06:23:49.525861+00:00"
+  "close": 6.88,
+  "close_seen": "2026-10-01T11:09:34.943793+00:00"
  },
  "e5ef3c5aba98aed80abcb9eb0d592bff|betfair_ex_uk|Italy": {
   "sport": "UEFA Nations League",
@@ -6333,7 +6117,7 @@
   "odds": 12.0,
   "first_seen": "2026-10-01T06:23:49.525873+00:00",
   "close": 11.47,
-  "close_seen": "2026-10-01T06:23:49.525874+00:00"
+  "close_seen": "2026-10-01T11:09:34.943797+00:00"
  },
  "d4cee9aa708870095e23599afb35bce0|betfair_ex_uk|Denmark": {
   "sport": "UEFA Nations League",
@@ -6416,8 +6200,8 @@
   "book": "Betano (UK)",
   "odds": 11.5,
   "first_seen": "2026-10-01T06:23:49.525912+00:00",
-  "close": 11.19,
-  "close_seen": "2026-10-01T06:23:49.525914+00:00"
+  "close": 11.49,
+  "close_seen": "2026-10-01T11:09:34.943817+00:00"
  },
  "8de611cbeea26af7bae8f076d9237fd4|betvictor|Serbia": {
   "sport": "UEFA Nations League",
@@ -6428,8 +6212,8 @@
   "book": "Bet Victor",
   "odds": 11.5,
   "first_seen": "2026-10-01T06:23:49.525915+00:00",
-  "close": 11.19,
-  "close_seen": "2026-10-01T06:23:49.525917+00:00"
+  "close": 11.49,
+  "close_seen": "2026-10-01T11:09:34.943821+00:00"
  },
  "9ea179b94f97b5ab62469564ac823b7c|betfair_sb_uk|Real Salt Lake": {
   "sport": "MLS",
@@ -6441,7 +6225,7 @@
   "odds": 8.5,
   "first_seen": "2026-10-01T06:23:49.525919+00:00",
   "close": 8.03,
-  "close_seen": "2026-10-01T06:23:49.525921+00:00"
+  "close_seen": "2026-10-01T11:09:34.943825+00:00"
  },
  "d66f1937da5272c6644a583eaa98d7ce|smarkets|Pablo Carreno Busta": {
   "sport": "ATP China Open",
@@ -6452,8 +6236,8 @@
   "book": "Smarkets",
   "odds": 4.6,
   "first_seen": "2026-10-01T06:23:49.525952+00:00",
-  "close": 4.31,
-  "close_seen": "2026-10-01T06:23:49.525954+00:00"
+  "close": 4.29,
+  "close_seen": "2026-10-01T11:09:34.943855+00:00"
  },
  "8e1b1ccdaf9bc406f149cfba186e0337|matchbook|Alexander Bublik": {
   "sport": "ATP China Open",
@@ -6596,8 +6380,8 @@
   "book": "BoyleSports",
   "odds": 10.0,
   "first_seen": "2026-10-01T06:23:49.526012+00:00",
-  "close": 8.94,
-  "close_seen": "2026-10-01T06:23:49.526013+00:00"
+  "close": 10.43,
+  "close_seen": "2026-10-01T11:09:34.943897+00:00"
  },
  "c28011197ff658cb74359f160ce3a8c0|betfair_ex_uk|Elena Gabriela Ruse": {
   "sport": "WTA China Open",
@@ -6608,8 +6392,8 @@
   "book": "Betfair",
   "odds": 4.5,
   "first_seen": "2026-10-01T06:23:49.526015+00:00",
-  "close": 4.2,
-  "close_seen": "2026-10-01T06:23:49.526017+00:00"
+  "close": 4.17,
+  "close_seen": "2026-10-01T11:09:34.943887+00:00"
  },
  "c28011197ff658cb74359f160ce3a8c0|matchbook|Elena Gabriela Ruse": {
   "sport": "WTA China Open",
@@ -6620,8 +6404,8 @@
   "book": "Matchbook",
   "odds": 4.5,
   "first_seen": "2026-10-01T06:23:49.526019+00:00",
-  "close": 4.2,
-  "close_seen": "2026-10-01T06:23:49.526022+00:00"
+  "close": 4.17,
+  "close_seen": "2026-10-01T11:09:34.943927+00:00"
  },
  "a761717bbb7fdd5111fab1c9044a8360|matchbook|Janice Tjen": {
   "sport": "WTA China Open",
@@ -6644,8 +6428,8 @@
   "book": "Betfair",
   "odds": 3.6,
   "first_seen": "2026-10-01T06:23:49.526027+00:00",
-  "close": 3.37,
-  "close_seen": "2026-10-01T06:23:49.526029+00:00"
+  "close": 3.41,
+  "close_seen": "2026-10-01T11:09:34.943883+00:00"
  },
  "e4249631b25378db4350945e30d1e9a1|betway|Yue Yuan": {
   "sport": "WTA China Open",
@@ -6862,5 +6646,1037 @@
   "first_seen": "2026-10-01T06:23:49.526091+00:00",
   "close": 2.93,
   "close_seen": "2026-10-01T06:23:49.526093+00:00"
+ },
+ "932c7f6dfe06be77192fe000e9f3ac9d|matchbook|Clemson Tigers": {
+  "sport": "NCAAF",
+  "sport_key": "americanfootball_ncaaf",
+  "event": "Clemson Tigers v Miami Hurricanes",
+  "start": "2026-10-03T23:30:00Z",
+  "selection": "Clemson Tigers",
+  "book": "Matchbook",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.942611+00:00",
+  "close": 6.77,
+  "close_seen": "2026-10-01T11:09:34.942612+00:00"
+ },
+ "4c84a699496b71ee1e626e3c7f5689c9|matchbook|UL Monroe Warhawks": {
+  "sport": "NCAAF",
+  "sport_key": "americanfootball_ncaaf",
+  "event": "South Alabama Jaguars v UL Monroe Warhawks",
+  "start": "2026-10-03T23:00:00Z",
+  "selection": "UL Monroe Warhawks",
+  "book": "Matchbook",
+  "odds": 5.6,
+  "first_seen": "2026-10-01T11:09:34.942614+00:00",
+  "close": 5.42,
+  "close_seen": "2026-10-01T11:09:34.942616+00:00"
+ },
+ "279230b2d38c4e97187c3f065501a4cf|matchbook|Rice Owls": {
+  "sport": "NCAAF",
+  "sport_key": "americanfootball_ncaaf",
+  "event": "Rice Owls v UTSA Roadrunners",
+  "start": "2026-10-03T23:00:00Z",
+  "selection": "Rice Owls",
+  "book": "Matchbook",
+  "odds": 4.8,
+  "first_seen": "2026-10-01T11:09:34.942618+00:00",
+  "close": 4.65,
+  "close_seen": "2026-10-01T11:09:34.942620+00:00"
+ },
+ "253e389201e449a2984a194e3eebf7f8|matchbook|Colorado Buffaloes": {
+  "sport": "NCAAF",
+  "sport_key": "americanfootball_ncaaf",
+  "event": "Colorado Buffaloes v Texas Tech Red Raiders",
+  "start": "2026-10-03T23:31:00Z",
+  "selection": "Colorado Buffaloes",
+  "book": "Matchbook",
+  "odds": 4.9,
+  "first_seen": "2026-10-01T11:09:34.942622+00:00",
+  "close": 4.75,
+  "close_seen": "2026-10-01T11:09:34.942624+00:00"
+ },
+ "7583f2e5f52107921d6e38a7c1961dab|betfair_ex_uk|Hapoel Tel Aviv": {
+  "sport": "Basketball Euroleague",
+  "sport_key": "basketball_euroleague",
+  "event": "Hapoel Tel Aviv v Real Madrid",
+  "start": "2026-10-01T16:00:00Z",
+  "selection": "Hapoel Tel Aviv",
+  "book": "Betfair",
+  "odds": 2.36,
+  "first_seen": "2026-10-01T11:09:34.942689+00:00",
+  "close": 2.29,
+  "close_seen": "2026-10-01T11:09:34.942691+00:00"
+ },
+ "392a93eaf1ea0b908993ca97f7805539|betfair_ex_uk|Anadolu Efes": {
+  "sport": "Basketball Euroleague",
+  "sport_key": "basketball_euroleague",
+  "event": "KK Crvena zvezda v Anadolu Efes",
+  "start": "2026-10-01T18:00:00Z",
+  "selection": "Anadolu Efes",
+  "book": "Betfair",
+  "odds": 2.32,
+  "first_seen": "2026-10-01T11:09:34.942693+00:00",
+  "close": 2.26,
+  "close_seen": "2026-10-01T11:09:34.942695+00:00"
+ },
+ "7583f2e5f52107921d6e38a7c1961dab|smarkets|Hapoel Tel Aviv": {
+  "sport": "Basketball Euroleague",
+  "sport_key": "basketball_euroleague",
+  "event": "Hapoel Tel Aviv v Real Madrid",
+  "start": "2026-10-01T16:00:00Z",
+  "selection": "Hapoel Tel Aviv",
+  "book": "Smarkets",
+  "odds": 2.34,
+  "first_seen": "2026-10-01T11:09:34.942697+00:00",
+  "close": 2.29,
+  "close_seen": "2026-10-01T11:09:34.942698+00:00"
+ },
+ "56fa71c0b3588b56095c3ba1cf11a673|betway|Conor Wallace": {
+  "sport": "Boxing",
+  "sport_key": "boxing_boxing",
+  "event": "Ben Whittaker v Conor Wallace",
+  "start": "2026-10-03T21:00:00Z",
+  "selection": "Conor Wallace",
+  "book": "Betway",
+  "odds": 7.5,
+  "first_seen": "2026-10-01T11:09:34.942733+00:00",
+  "close": 7.29,
+  "close_seen": "2026-10-01T11:09:34.942736+00:00"
+ },
+ "fd5a73a467bdf52881aac58d5fb71b58|betfair_ex_uk|Vancouver Canucks": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "event": "Vancouver Canucks v Edmonton Oilers",
+  "start": "2026-10-02T02:10:00Z",
+  "selection": "Vancouver Canucks",
+  "book": "Betfair",
+  "odds": 2.92,
+  "first_seen": "2026-10-01T11:09:34.942738+00:00",
+  "close": 2.82,
+  "close_seen": "2026-10-01T11:09:34.942740+00:00"
+ },
+ "fd5a73a467bdf52881aac58d5fb71b58|smarkets|Vancouver Canucks": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "event": "Vancouver Canucks v Edmonton Oilers",
+  "start": "2026-10-02T02:10:00Z",
+  "selection": "Vancouver Canucks",
+  "book": "Smarkets",
+  "odds": 2.9,
+  "first_seen": "2026-10-01T11:09:34.942770+00:00",
+  "close": 2.82,
+  "close_seen": "2026-10-01T11:09:34.942775+00:00"
+ },
+ "fd5a73a467bdf52881aac58d5fb71b58|matchbook|Vancouver Canucks": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "event": "Vancouver Canucks v Edmonton Oilers",
+  "start": "2026-10-02T02:10:00Z",
+  "selection": "Vancouver Canucks",
+  "book": "Matchbook",
+  "odds": 2.9,
+  "first_seen": "2026-10-01T11:09:34.942777+00:00",
+  "close": 2.82,
+  "close_seen": "2026-10-01T11:09:34.942779+00:00"
+ },
+ "8a8b903b0a86cfd0f72d8fc4deff64cc|sport888|Malm\u00f6 Redhawks": {
+  "sport": "SHL",
+  "sport_key": "icehockey_sweden_hockey_league",
+  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
+  "start": "2026-10-01T17:00:00Z",
+  "selection": "Malm\u00f6 Redhawks",
+  "book": "888sport",
+  "odds": 3.6,
+  "first_seen": "2026-10-01T11:09:34.942781+00:00",
+  "close": 3.52,
+  "close_seen": "2026-10-01T11:09:34.942783+00:00"
+ },
+ "96e3358cd42ab238e7b471c8fedc75f2|betfair_ex_uk|Deiveson Figueiredo": {
+  "sport": "MMA",
+  "sport_key": "mma_mixed_martial_arts",
+  "event": "Deiveson Figueiredo v Payton Talbott",
+  "start": "2026-10-04T01:45:00Z",
+  "selection": "Deiveson Figueiredo",
+  "book": "Betfair",
+  "odds": 6.2,
+  "first_seen": "2026-10-01T11:09:34.942798+00:00",
+  "close": 5.91,
+  "close_seen": "2026-10-01T11:09:34.942800+00:00"
+ },
+ "fbd72b9ed9f11e1f0180eaf505ea092f|betfair_ex_uk|Wang Cong": {
+  "sport": "MMA",
+  "sport_key": "mma_mixed_martial_arts",
+  "event": "Natalia Silva v Wang Cong",
+  "start": "2026-10-04T02:15:00Z",
+  "selection": "Wang Cong",
+  "book": "Betfair",
+  "odds": 2.84,
+  "first_seen": "2026-10-01T11:09:34.942819+00:00",
+  "close": 2.77,
+  "close_seen": "2026-10-01T11:09:34.942821+00:00"
+ },
+ "18b5e381f47a18bc09b563be159c8410|smarkets|Union Santa Fe": {
+  "sport": "Primera Divisi\u00f3n - Argentina",
+  "sport_key": "soccer_argentina_primera_division",
+  "event": "Boca Juniors v Union Santa Fe",
+  "start": "2026-10-03T00:30:00Z",
+  "selection": "Union Santa Fe",
+  "book": "Smarkets",
+  "odds": 6.4,
+  "first_seen": "2026-10-01T11:09:34.942858+00:00",
+  "close": 6.18,
+  "close_seen": "2026-10-01T11:09:34.942860+00:00"
+ },
+ "ac6c8a4fa9f7c3f6caf15b1e3b5c77d4|smarkets|Draw": {
+  "sport": "Brazil S\u00e9rie B",
+  "sport_key": "soccer_brazil_serie_b",
+  "event": "Atletico Goianiense v Am\u00e9rica Mineiro",
+  "start": "2026-10-03T19:00:00Z",
+  "selection": "Draw",
+  "book": "Smarkets",
+  "odds": 5.0,
+  "first_seen": "2026-10-01T11:09:34.942930+00:00",
+  "close": 4.83,
+  "close_seen": "2026-10-01T11:09:34.942932+00:00"
+ },
+ "7be9430a9ed662defe81be045c2be501|smarkets|Rochdale": {
+  "sport": "League 2",
+  "sport_key": "soccer_england_league2",
+  "event": "Rochdale v Swindon Town",
+  "start": "2026-10-03T14:00:00Z",
+  "selection": "Rochdale",
+  "book": "Smarkets",
+  "odds": 2.46,
+  "first_seen": "2026-10-01T11:09:34.942980+00:00",
+  "close": 2.4,
+  "close_seen": "2026-10-01T11:09:34.942982+00:00"
+ },
+ "9a64448205fdc4b95f45641bb946706c|betfair_ex_uk|RB Leipzig": {
+  "sport": "Bundesliga - Germany",
+  "sport_key": "soccer_germany_bundesliga",
+  "event": "Bayern Munich v RB Leipzig",
+  "start": "2026-10-17T16:30:00Z",
+  "selection": "RB Leipzig",
+  "book": "Betfair",
+  "odds": 10.0,
+  "first_seen": "2026-10-01T11:09:34.943119+00:00",
+  "close": 9.7,
+  "close_seen": "2026-10-01T11:09:34.943121+00:00"
+ },
+ "74861382d9dcdc64d47fe4611147535f|sport888|Draw": {
+  "sport": "Frauen-Bundesliga",
+  "sport_key": "soccer_germany_bundesliga_women",
+  "event": "VfL Wolfsburg v Hamburger SV",
+  "start": "2026-10-04T11:45:00Z",
+  "selection": "Draw",
+  "book": "888sport",
+  "odds": 8.5,
+  "first_seen": "2026-10-01T11:09:34.943126+00:00",
+  "close": 8.29,
+  "close_seen": "2026-10-01T11:09:34.943128+00:00"
+ },
+ "74861382d9dcdc64d47fe4611147535f|williamhill|Draw": {
+  "sport": "Frauen-Bundesliga",
+  "sport_key": "soccer_germany_bundesliga_women",
+  "event": "VfL Wolfsburg v Hamburger SV",
+  "start": "2026-10-04T11:45:00Z",
+  "selection": "Draw",
+  "book": "William Hill",
+  "odds": 8.5,
+  "first_seen": "2026-10-01T11:09:34.943130+00:00",
+  "close": 8.29,
+  "close_seen": "2026-10-01T11:09:34.943132+00:00"
+ },
+ "c0f72699f32ec193b64fd54092fe268d|betfair_sb_uk|Monza": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Lazio v Monza",
+  "start": "2026-10-11T13:00:00Z",
+  "selection": "Monza",
+  "book": "Betfair Sportsbook",
+  "odds": 6.5,
+  "first_seen": "2026-10-01T11:09:34.943172+00:00",
+  "close": 5.66,
+  "close_seen": "2026-10-01T11:09:34.943174+00:00"
+ },
+ "40c1bd70fee927f9bfa8901edab02b48|casumo|Frosinone": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Napoli v Frosinone",
+  "start": "2026-10-10T18:45:00Z",
+  "selection": "Frosinone",
+  "book": "Casumo",
+  "odds": 7.5,
+  "first_seen": "2026-10-01T11:09:34.943195+00:00",
+  "close": 6.75,
+  "close_seen": "2026-10-01T11:09:34.943197+00:00"
+ },
+ "c0f72699f32ec193b64fd54092fe268d|skybet|Monza": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Lazio v Monza",
+  "start": "2026-10-11T13:00:00Z",
+  "selection": "Monza",
+  "book": "Sky Bet",
+  "odds": 6.25,
+  "first_seen": "2026-10-01T11:09:34.943199+00:00",
+  "close": 5.66,
+  "close_seen": "2026-10-01T11:09:34.943201+00:00"
+ },
+ "c0f72699f32ec193b64fd54092fe268d|paddypower|Monza": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Lazio v Monza",
+  "start": "2026-10-11T13:00:00Z",
+  "selection": "Monza",
+  "book": "Paddy Power",
+  "odds": 6.0,
+  "first_seen": "2026-10-01T11:09:34.943225+00:00",
+  "close": 5.66,
+  "close_seen": "2026-10-01T11:09:34.943227+00:00"
+ },
+ "40c1bd70fee927f9bfa8901edab02b48|livescorebet|Frosinone": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Napoli v Frosinone",
+  "start": "2026-10-10T18:45:00Z",
+  "selection": "Frosinone",
+  "book": "LiveScore Bet",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943244+00:00",
+  "close": 6.75,
+  "close_seen": "2026-10-01T11:09:34.943245+00:00"
+ },
+ "40c1bd70fee927f9bfa8901edab02b48|virginbet|Frosinone": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Napoli v Frosinone",
+  "start": "2026-10-10T18:45:00Z",
+  "selection": "Frosinone",
+  "book": "Virgin Bet",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943247+00:00",
+  "close": 6.75,
+  "close_seen": "2026-10-01T11:09:34.943249+00:00"
+ },
+ "40c1bd70fee927f9bfa8901edab02b48|betfair_sb_uk|Frosinone": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Napoli v Frosinone",
+  "start": "2026-10-10T18:45:00Z",
+  "selection": "Frosinone",
+  "book": "Betfair Sportsbook",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943251+00:00",
+  "close": 6.75,
+  "close_seen": "2026-10-01T11:09:34.943252+00:00"
+ },
+ "ce94aca384a20f6af459366da6e1dd21|betfair_ex_uk|Monza": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Monza v Cagliari",
+  "start": "2026-10-19T16:30:00Z",
+  "selection": "Monza",
+  "book": "Betfair",
+  "odds": 2.34,
+  "first_seen": "2026-10-01T11:09:34.943258+00:00",
+  "close": 2.28,
+  "close_seen": "2026-10-01T11:09:34.943259+00:00"
+ },
+ "7d3160040958fe21778fd5ee485666c3|betfair_ex_uk|Draw": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Frosinone v Sassuolo",
+  "start": "2026-10-16T18:45:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 3.8,
+  "first_seen": "2026-10-01T11:09:34.943261+00:00",
+  "close": 3.71,
+  "close_seen": "2026-10-01T11:09:34.943263+00:00"
+ },
+ "40c1bd70fee927f9bfa8901edab02b48|grosvenor|Draw": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "event": "Napoli v Frosinone",
+  "start": "2026-10-10T18:45:00Z",
+  "selection": "Draw",
+  "book": "Grosvenor",
+  "odds": 5.1,
+  "first_seen": "2026-10-01T11:09:34.943265+00:00",
+  "close": 4.98,
+  "close_seen": "2026-10-01T11:09:34.943267+00:00"
+ },
+ "9395310b961bef64848d22603bbcb67f|betfair_ex_uk|Dundalk": {
+  "sport": "League of Ireland",
+  "sport_key": "soccer_league_of_ireland",
+  "event": "Dundalk v Bohemians",
+  "start": "2026-10-02T18:45:00Z",
+  "selection": "Dundalk",
+  "book": "Betfair",
+  "odds": 3.6,
+  "first_seen": "2026-10-01T11:09:34.943269+00:00",
+  "close": 3.52,
+  "close_seen": "2026-10-01T11:09:34.943270+00:00"
+ },
+ "038e3b46c2f199a363b3cde44ce31ec9|betfair_sb_uk|Sandefjord": {
+  "sport": "Eliteserien - Norway",
+  "sport_key": "soccer_norway_eliteserien",
+  "event": "Rosenborg v Sandefjord",
+  "start": "2026-10-10T16:00:00Z",
+  "selection": "Sandefjord",
+  "book": "Betfair Sportsbook",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943298+00:00",
+  "close": 6.69,
+  "close_seen": "2026-10-01T11:09:34.943300+00:00"
+ },
+ "eccd63bf768e2f2a358b871d3f33a63d|grosvenor|Sevilla": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "event": "Real Madrid v Sevilla",
+  "start": "2026-10-18T19:00:00Z",
+  "selection": "Sevilla",
+  "book": "Grosvenor",
+  "odds": 11.5,
+  "first_seen": "2026-10-01T11:09:34.943339+00:00",
+  "close": 10.8,
+  "close_seen": "2026-10-01T11:09:34.943341+00:00"
+ },
+ "551f242223b1625f458d1a2ea212a0c3|betfair_ex_uk|Villarreal": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "event": "Real Madrid v Villarreal",
+  "start": "2026-10-10T19:00:00Z",
+  "selection": "Villarreal",
+  "book": "Betfair",
+  "odds": 8.0,
+  "first_seen": "2026-10-01T11:09:34.943359+00:00",
+  "close": 7.66,
+  "close_seen": "2026-10-01T11:09:34.943361+00:00"
+ },
+ "551f242223b1625f458d1a2ea212a0c3|betfair_ex_uk|Draw": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "event": "Real Madrid v Villarreal",
+  "start": "2026-10-10T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 6.4,
+  "first_seen": "2026-10-01T11:09:34.943363+00:00",
+  "close": 6.14,
+  "close_seen": "2026-10-01T11:09:34.943365+00:00"
+ },
+ "846e496fc232b2fc20214754836727d0|paddypower|Draw": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "event": "Real Betis v Barcelona",
+  "start": "2026-10-17T16:30:00Z",
+  "selection": "Draw",
+  "book": "Paddy Power",
+  "odds": 5.5,
+  "first_seen": "2026-10-01T11:09:34.943386+00:00",
+  "close": 5.39,
+  "close_seen": "2026-10-01T11:09:34.943387+00:00"
+ },
+ "846e496fc232b2fc20214754836727d0|skybet|Draw": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "event": "Real Betis v Barcelona",
+  "start": "2026-10-17T16:30:00Z",
+  "selection": "Draw",
+  "book": "Sky Bet",
+  "odds": 5.5,
+  "first_seen": "2026-10-01T11:09:34.943389+00:00",
+  "close": 5.39,
+  "close_seen": "2026-10-01T11:09:34.943391+00:00"
+ },
+ "26e3612cb3a4a4cd144af369bd303dcd|matchbook|Andorra CF": {
+  "sport": "La Liga 2 - Spain",
+  "sport_key": "soccer_spain_segunda_division",
+  "event": "Sabadell FC v Andorra CF",
+  "start": "2026-10-03T16:30:00Z",
+  "selection": "Andorra CF",
+  "book": "Matchbook",
+  "odds": 3.85,
+  "first_seen": "2026-10-01T11:09:34.943415+00:00",
+  "close": 3.68,
+  "close_seen": "2026-10-01T11:09:34.943417+00:00"
+ },
+ "ca3f4b075d835413f9cb7bd3c439fdd0|betfair_ex_uk|Draw": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "event": "Inter Milan v Club Brugge",
+  "start": "2026-10-13T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 6.2,
+  "first_seen": "2026-10-01T11:09:34.943463+00:00",
+  "close": 5.95,
+  "close_seen": "2026-10-01T11:09:34.943465+00:00"
+ },
+ "d7576351b8cb2396e32cc3de0446f3de|betfair_ex_uk|\u0160K Slovan Bratislava": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
+  "start": "2026-10-14T19:00:00Z",
+  "selection": "\u0160K Slovan Bratislava",
+  "book": "Betfair",
+  "odds": 8.8,
+  "first_seen": "2026-10-01T11:09:34.943492+00:00",
+  "close": 8.59,
+  "close_seen": "2026-10-01T11:09:34.943494+00:00"
+ },
+ "7230f1ccede51bbb72f0c6cada82dec8|betfair_ex_uk|Draw": {
+  "sport": "UEFA Champions League Women",
+  "sport_key": "soccer_uefa_champs_league_women",
+  "event": "Manchester City v Real Madrid",
+  "start": "2026-10-01T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 4.7,
+  "first_seen": "2026-10-01T11:09:34.943536+00:00",
+  "close": 4.46,
+  "close_seen": "2026-10-01T11:09:34.943538+00:00"
+ },
+ "7230f1ccede51bbb72f0c6cada82dec8|smarkets|Draw": {
+  "sport": "UEFA Champions League Women",
+  "sport_key": "soccer_uefa_champs_league_women",
+  "event": "Manchester City v Real Madrid",
+  "start": "2026-10-01T19:00:00Z",
+  "selection": "Draw",
+  "book": "Smarkets",
+  "odds": 4.7,
+  "first_seen": "2026-10-01T11:09:34.943540+00:00",
+  "close": 4.46,
+  "close_seen": "2026-10-01T11:09:34.943542+00:00"
+ },
+ "1769158b7ef34227fc6d6822eaa918ba|betano_uk|FK Borac Banja Luka": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "event": "Panathinaikos FC v FK Borac Banja Luka",
+  "start": "2026-10-15T16:45:00Z",
+  "selection": "FK Borac Banja Luka",
+  "book": "Betano (UK)",
+  "odds": 10.5,
+  "first_seen": "2026-10-01T11:09:34.943630+00:00",
+  "close": 10.16,
+  "close_seen": "2026-10-01T11:09:34.943632+00:00"
+ },
+ "1769158b7ef34227fc6d6822eaa918ba|betvictor|FK Borac Banja Luka": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "event": "Panathinaikos FC v FK Borac Banja Luka",
+  "start": "2026-10-15T16:45:00Z",
+  "selection": "FK Borac Banja Luka",
+  "book": "Bet Victor",
+  "odds": 10.5,
+  "first_seen": "2026-10-01T11:09:34.943634+00:00",
+  "close": 10.16,
+  "close_seen": "2026-10-01T11:09:34.943637+00:00"
+ },
+ "e2578ec1dbe113dc7d40bcd7e0fd1d9f|betfair_ex_uk|Pafos FC": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "event": "Atalanta BC v Pafos FC",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Pafos FC",
+  "book": "Betfair",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943639+00:00",
+  "close": 6.81,
+  "close_seen": "2026-10-01T11:09:34.943641+00:00"
+ },
+ "0def5b7ac0c0a816aa080774d7082c9b|betfair_ex_uk|SK Sturm Graz": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Bournemouth v SK Sturm Graz",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "SK Sturm Graz",
+  "book": "Betfair",
+  "odds": 14.5,
+  "first_seen": "2026-10-01T11:09:34.943647+00:00",
+  "close": 12.93,
+  "close_seen": "2026-10-01T11:09:34.943649+00:00"
+ },
+ "0def5b7ac0c0a816aa080774d7082c9b|betfair_ex_uk|Draw": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Bournemouth v SK Sturm Graz",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 7.6,
+  "first_seen": "2026-10-01T11:09:34.943650+00:00",
+  "close": 7.01,
+  "close_seen": "2026-10-01T11:09:34.943652+00:00"
+ },
+ "0def5b7ac0c0a816aa080774d7082c9b|smarkets|SK Sturm Graz": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Bournemouth v SK Sturm Graz",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "SK Sturm Graz",
+  "book": "Smarkets",
+  "odds": 14.01,
+  "first_seen": "2026-10-01T11:09:34.943654+00:00",
+  "close": 12.93,
+  "close_seen": "2026-10-01T11:09:34.943658+00:00"
+ },
+ "0def5b7ac0c0a816aa080774d7082c9b|smarkets|Draw": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Bournemouth v SK Sturm Graz",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Draw",
+  "book": "Smarkets",
+  "odds": 7.4,
+  "first_seen": "2026-10-01T11:09:34.943675+00:00",
+  "close": 7.01,
+  "close_seen": "2026-10-01T11:09:34.943677+00:00"
+ },
+ "9b2bf9bed21283dcad774dd5be7ba1da|betfair_ex_uk|OFI Crete": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Rennes v OFI Crete",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "OFI Crete",
+  "book": "Betfair",
+  "odds": 9.6,
+  "first_seen": "2026-10-01T11:09:34.943679+00:00",
+  "close": 9.14,
+  "close_seen": "2026-10-01T11:09:34.943683+00:00"
+ },
+ "9b2bf9bed21283dcad774dd5be7ba1da|smarkets|OFI Crete": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "event": "Rennes v OFI Crete",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "OFI Crete",
+  "book": "Smarkets",
+  "odds": 9.4,
+  "first_seen": "2026-10-01T11:09:34.943696+00:00",
+  "close": 9.14,
+  "close_seen": "2026-10-01T11:09:34.943699+00:00"
+ },
+ "1156265e39cc2b943da422a53d2a832a|betfair_ex_uk|North Macedonia": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "North Macedonia v Scotland",
+  "start": "2026-10-03T18:45:00Z",
+  "selection": "North Macedonia",
+  "book": "Betfair",
+  "odds": 5.4,
+  "first_seen": "2026-10-01T11:09:34.943716+00:00",
+  "close": 4.93,
+  "close_seen": "2026-10-01T11:09:34.943718+00:00"
+ },
+ "05615ea2e80df56ae5b887dec1ca2f52|betway|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Belarus v San Marino",
+  "start": "2026-10-03T16:00:00Z",
+  "selection": "Draw",
+  "book": "Betway",
+  "odds": 11.0,
+  "first_seen": "2026-10-01T11:09:34.943720+00:00",
+  "close": 10.13,
+  "close_seen": "2026-10-01T11:09:34.943722+00:00"
+ },
+ "b6048b1da7816b2a0944013e6c139609|betfair_ex_uk|Slovenia": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Switzerland v Slovenia",
+  "start": "2026-10-03T18:45:00Z",
+  "selection": "Slovenia",
+  "book": "Betfair",
+  "odds": 10.5,
+  "first_seen": "2026-10-01T11:09:34.943724+00:00",
+  "close": 9.73,
+  "close_seen": "2026-10-01T11:09:34.943726+00:00"
+ },
+ "fdb1dbf27fe19575c7ce64fdfd4bcaa9|betfair_ex_uk|Romania": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Poland v Romania",
+  "start": "2026-10-02T18:45:00Z",
+  "selection": "Romania",
+  "book": "Betfair",
+  "odds": 6.4,
+  "first_seen": "2026-10-01T11:09:34.943736+00:00",
+  "close": 5.99,
+  "close_seen": "2026-10-01T11:09:34.943738+00:00"
+ },
+ "32c438139763280b8efb86423e5b911e|betfair_ex_uk|Latvia": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Latvia v Montenegro",
+  "start": "2026-10-02T16:00:00Z",
+  "selection": "Latvia",
+  "book": "Betfair",
+  "odds": 5.0,
+  "first_seen": "2026-10-01T11:09:34.943740+00:00",
+  "close": 4.68,
+  "close_seen": "2026-10-01T11:09:34.943757+00:00"
+ },
+ "a7769e85ee3c914abe40a277de800869|betfair_ex_uk|Faroe Islands": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Faroe Islands v Slovakia",
+  "start": "2026-10-02T18:45:00Z",
+  "selection": "Faroe Islands",
+  "book": "Betfair",
+  "odds": 6.4,
+  "first_seen": "2026-10-01T11:09:34.943760+00:00",
+  "close": 6.06,
+  "close_seen": "2026-10-01T11:09:34.943762+00:00"
+ },
+ "d2f1973a0c6e22f7846864e97db3e78d|leovegas|Turkey": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Italy v Turkey",
+  "start": "2026-10-05T18:45:00Z",
+  "selection": "Turkey",
+  "book": "LeoVegas",
+  "odds": 5.5,
+  "first_seen": "2026-10-01T11:09:34.943764+00:00",
+  "close": 5.21,
+  "close_seen": "2026-10-01T11:09:34.943765+00:00"
+ },
+ "0fc933670b2cf487a5ac2878f500492f|betvictor|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Azerbaijan v Liechtenstein",
+  "start": "2026-10-01T16:00:00Z",
+  "selection": "Draw",
+  "book": "Bet Victor",
+  "odds": 9.0,
+  "first_seen": "2026-10-01T11:09:34.943775+00:00",
+  "close": 8.56,
+  "close_seen": "2026-10-01T11:09:34.943776+00:00"
+ },
+ "0fc933670b2cf487a5ac2878f500492f|betway|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Azerbaijan v Liechtenstein",
+  "start": "2026-10-01T16:00:00Z",
+  "selection": "Draw",
+  "book": "Betway",
+  "odds": 9.0,
+  "first_seen": "2026-10-01T11:09:34.943778+00:00",
+  "close": 8.56,
+  "close_seen": "2026-10-01T11:09:34.943780+00:00"
+ },
+ "0fc933670b2cf487a5ac2878f500492f|betano_uk|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Azerbaijan v Liechtenstein",
+  "start": "2026-10-01T16:00:00Z",
+  "selection": "Draw",
+  "book": "Betano (UK)",
+  "odds": 9.0,
+  "first_seen": "2026-10-01T11:09:34.943782+00:00",
+  "close": 8.56,
+  "close_seen": "2026-10-01T11:09:34.943783+00:00"
+ },
+ "a2b54d223ce491ac52af34a462de0140|betfair_ex_uk|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Malta v Gibraltar",
+  "start": "2026-10-01T18:45:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 5.7,
+  "first_seen": "2026-10-01T11:09:34.943785+00:00",
+  "close": 5.44,
+  "close_seen": "2026-10-01T11:09:34.943789+00:00"
+ },
+ "a1b75fa94c18a201e6feec4cd04a2d56|paddypower|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Spain v Czech Republic",
+  "start": "2026-10-03T18:45:00Z",
+  "selection": "Draw",
+  "book": "Paddy Power",
+  "odds": 12.0,
+  "first_seen": "2026-10-01T11:09:34.943799+00:00",
+  "close": 11.47,
+  "close_seen": "2026-10-01T11:09:34.943801+00:00"
+ },
+ "a1b75fa94c18a201e6feec4cd04a2d56|betfair_sb_uk|Draw": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Spain v Czech Republic",
+  "start": "2026-10-03T18:45:00Z",
+  "selection": "Draw",
+  "book": "Betfair Sportsbook",
+  "odds": 12.0,
+  "first_seen": "2026-10-01T11:09:34.943803+00:00",
+  "close": 11.47,
+  "close_seen": "2026-10-01T11:09:34.943806+00:00"
+ },
+ "8de611cbeea26af7bae8f076d9237fd4|boylesports|Serbia": {
+  "sport": "UEFA Nations League",
+  "sport_key": "soccer_uefa_nations_league",
+  "event": "Netherlands v Serbia",
+  "start": "2026-10-04T18:45:00Z",
+  "selection": "Serbia",
+  "book": "BoyleSports",
+  "odds": 12.0,
+  "first_seen": "2026-10-01T11:09:34.943808+00:00",
+  "close": 11.49,
+  "close_seen": "2026-10-01T11:09:34.943810+00:00"
+ },
+ "5f4504b72130e8d059ce2358912bc609|betfair_ex_uk|Quentin Halys": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "event": "Alex de Minaur v Quentin Halys",
+  "start": "2026-10-03T03:00:00Z",
+  "selection": "Quentin Halys",
+  "book": "Betfair",
+  "odds": 3.8,
+  "first_seen": "2026-10-01T11:09:34.943860+00:00",
+  "close": 3.65,
+  "close_seen": "2026-10-01T11:09:34.943862+00:00"
+ },
+ "5f4504b72130e8d059ce2358912bc609|matchbook|Quentin Halys": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "event": "Alex de Minaur v Quentin Halys",
+  "start": "2026-10-03T03:00:00Z",
+  "selection": "Quentin Halys",
+  "book": "Matchbook",
+  "odds": 3.75,
+  "first_seen": "2026-10-01T11:09:34.943867+00:00",
+  "close": 3.65,
+  "close_seen": "2026-10-01T11:09:34.943869+00:00"
+ },
+ "44fcdd07c482fa1615fc60d12fa24698|skybet|Katerina Siniakova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Katerina Siniakova v Elina Svitolina",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Katerina Siniakova",
+  "book": "Sky Bet",
+  "odds": 4.0,
+  "first_seen": "2026-10-01T11:09:34.943871+00:00",
+  "close": 3.72,
+  "close_seen": "2026-10-01T11:09:34.943872+00:00"
+ },
+ "8958206624b4a33ec8d4b659f80725c8|betfair_ex_uk|Maria Timofeeva": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Maria Timofeeva v Naomi Osaka",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Maria Timofeeva",
+  "book": "Betfair",
+  "odds": 4.3,
+  "first_seen": "2026-10-01T11:09:34.943874+00:00",
+  "close": 4.07,
+  "close_seen": "2026-10-01T11:09:34.943876+00:00"
+ },
+ "bcac7e4c1b1ca7bc85a4860550ff4af6|betfair_ex_uk|Linda Fruhvirtova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Linda Fruhvirtova v Liudmila Samsonova",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Linda Fruhvirtova",
+  "book": "Betfair",
+  "odds": 5.1,
+  "first_seen": "2026-10-01T11:09:34.943877+00:00",
+  "close": 4.83,
+  "close_seen": "2026-10-01T11:09:34.943879+00:00"
+ },
+ "657bc17d8194a0c05f205cb6436f9051|paddypower|Anastasia Zakharova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Belinda Bencic v Anastasia Zakharova",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Anastasia Zakharova",
+  "book": "Paddy Power",
+  "odds": 4.5,
+  "first_seen": "2026-10-01T11:09:34.943899+00:00",
+  "close": 4.3,
+  "close_seen": "2026-10-01T11:09:34.943901+00:00"
+ },
+ "d9e7e7e626da14e6c7e3fc511b56e194|betfair_ex_uk|Ashlyn Krueger": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Ashlyn Krueger v Ann Li",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Ashlyn Krueger",
+  "book": "Betfair",
+  "odds": 2.1,
+  "first_seen": "2026-10-01T11:09:34.943902+00:00",
+  "close": 2.02,
+  "close_seen": "2026-10-01T11:09:34.943904+00:00"
+ },
+ "bcac7e4c1b1ca7bc85a4860550ff4af6|matchbook|Linda Fruhvirtova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Linda Fruhvirtova v Liudmila Samsonova",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Linda Fruhvirtova",
+  "book": "Matchbook",
+  "odds": 5.0,
+  "first_seen": "2026-10-01T11:09:34.943906+00:00",
+  "close": 4.83,
+  "close_seen": "2026-10-01T11:09:34.943908+00:00"
+ },
+ "44fcdd07c482fa1615fc60d12fa24698|betfair_ex_uk|Katerina Siniakova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Katerina Siniakova v Elina Svitolina",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Katerina Siniakova",
+  "book": "Betfair",
+  "odds": 3.85,
+  "first_seen": "2026-10-01T11:09:34.943909+00:00",
+  "close": 3.72,
+  "close_seen": "2026-10-01T11:09:34.943911+00:00"
+ },
+ "8958206624b4a33ec8d4b659f80725c8|matchbook|Maria Timofeeva": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Maria Timofeeva v Naomi Osaka",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Maria Timofeeva",
+  "book": "Matchbook",
+  "odds": 4.2,
+  "first_seen": "2026-10-01T11:09:34.943913+00:00",
+  "close": 4.07,
+  "close_seen": "2026-10-01T11:09:34.943915+00:00"
+ },
+ "8958206624b4a33ec8d4b659f80725c8|paddypower|Maria Timofeeva": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Maria Timofeeva v Naomi Osaka",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Maria Timofeeva",
+  "book": "Paddy Power",
+  "odds": 4.2,
+  "first_seen": "2026-10-01T11:09:34.943918+00:00",
+  "close": 4.07,
+  "close_seen": "2026-10-01T11:09:34.943920+00:00"
+ },
+ "c28011197ff658cb74359f160ce3a8c0|smarkets|Elena Gabriela Ruse": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Linda Noskova v Elena Gabriela Ruse",
+  "start": "2026-10-02T04:10:00Z",
+  "selection": "Elena Gabriela Ruse",
+  "book": "Smarkets",
+  "odds": 4.3,
+  "first_seen": "2026-10-01T11:09:34.943921+00:00",
+  "close": 4.17,
+  "close_seen": "2026-10-01T11:09:34.943923+00:00"
+ },
+ "0642ea82817d319579dab471f14fc8f4|paddypower|Storm Hunter": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Maria Sakkari v Storm Hunter",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Storm Hunter",
+  "book": "Paddy Power",
+  "odds": 3.1,
+  "first_seen": "2026-10-01T11:09:34.943928+00:00",
+  "close": 3.01,
+  "close_seen": "2026-10-01T11:09:34.943930+00:00"
+ },
+ "c7bfd02f55913334369753aa2e15ffd0|skybet|Polina Kudermetova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Clara Tauson v Polina Kudermetova",
+  "start": "2026-10-02T06:00:00Z",
+  "selection": "Polina Kudermetova",
+  "book": "Sky Bet",
+  "odds": 2.88,
+  "first_seen": "2026-10-01T11:09:34.943932+00:00",
+  "close": 2.8,
+  "close_seen": "2026-10-01T11:09:34.943934+00:00"
+ },
+ "7449c032f470f787af442e344e67fa30|smarkets|Maddison Inglis": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Sara Bejlek v Maddison Inglis",
+  "start": "2026-10-02T06:30:00Z",
+  "selection": "Maddison Inglis",
+  "book": "Smarkets",
+  "odds": 3.8,
+  "first_seen": "2026-10-01T11:09:34.943935+00:00",
+  "close": 3.71,
+  "close_seen": "2026-10-01T11:09:34.943937+00:00"
+ },
+ "7449c032f470f787af442e344e67fa30|matchbook|Maddison Inglis": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Sara Bejlek v Maddison Inglis",
+  "start": "2026-10-02T06:30:00Z",
+  "selection": "Maddison Inglis",
+  "book": "Matchbook",
+  "odds": 3.8,
+  "first_seen": "2026-10-01T11:09:34.943939+00:00",
+  "close": 3.71,
+  "close_seen": "2026-10-01T11:09:34.943940+00:00"
+ },
+ "ecfecd80927a50500f83832f5cb4bdcc|betway|Anna Kalinskaya": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Qinwen Zheng v Anna Kalinskaya",
+  "start": "2026-10-02T03:00:00Z",
+  "selection": "Anna Kalinskaya",
+  "book": "Betway",
+  "odds": 2.75,
+  "first_seen": "2026-10-01T11:09:34.943942+00:00",
+  "close": 2.69,
+  "close_seen": "2026-10-01T11:09:34.943944+00:00"
+ },
+ "89255a6b6bc525c2a25cb4950252e042|betway|Katie Boulter": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Karolina Muchova v Katie Boulter",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Katie Boulter",
+  "book": "Betway",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943945+00:00",
+  "close": 6.86,
+  "close_seen": "2026-10-01T11:09:34.943949+00:00"
+ },
+ "89255a6b6bc525c2a25cb4950252e042|paddypower|Katie Boulter": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Karolina Muchova v Katie Boulter",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Katie Boulter",
+  "book": "Paddy Power",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943951+00:00",
+  "close": 6.86,
+  "close_seen": "2026-10-01T11:09:34.943952+00:00"
+ },
+ "89255a6b6bc525c2a25cb4950252e042|skybet|Katie Boulter": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Karolina Muchova v Katie Boulter",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Katie Boulter",
+  "book": "Sky Bet",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943954+00:00",
+  "close": 6.86,
+  "close_seen": "2026-10-01T11:09:34.943956+00:00"
+ },
+ "89255a6b6bc525c2a25cb4950252e042|boylesports|Katie Boulter": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "event": "Karolina Muchova v Katie Boulter",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Katie Boulter",
+  "book": "BoyleSports",
+  "odds": 7.0,
+  "first_seen": "2026-10-01T11:09:34.943957+00:00",
+  "close": 6.86,
+  "close_seen": "2026-10-01T11:09:34.943959+00:00"
  }
 }

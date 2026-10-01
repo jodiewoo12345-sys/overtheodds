@@ -187,5 +187,167 @@
   "odds": 9.2,
   "close": 8.01,
   "won": false
+ },
+ {
+  "sport": "ATP China Open",
+  "date": "2026-10-01",
+  "selection": "Cameron Norrie",
+  "book": "888sport",
+  "odds": 9.0,
+  "close": 7.82,
+  "won": false
+ },
+ {
+  "sport": "ATP China Open",
+  "date": "2026-10-01",
+  "selection": "Cameron Norrie",
+  "book": "William Hill",
+  "odds": 9.0,
+  "close": 7.82,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Kei Nishikori",
+  "book": "Matchbook",
+  "odds": 5.1,
+  "close": 4.44,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Kei Nishikori",
+  "book": "Betfair",
+  "odds": 5.0,
+  "close": 4.44,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Alex Michelsen",
+  "book": "Matchbook",
+  "odds": 5.8,
+  "close": 5.36,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Alex Michelsen",
+  "book": "Betfair",
+  "odds": 5.8,
+  "close": 5.36,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Sho Shimabukuro",
+  "book": "Matchbook",
+  "odds": 3.75,
+  "close": 3.62,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Sho Shimabukuro",
+  "book": "Betfair",
+  "odds": 3.75,
+  "close": 3.62,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "Betfair",
+  "odds": 14.5,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "Matchbook",
+  "odds": 14.5,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "Smarkets",
+  "odds": 13.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "Paddy Power",
+  "odds": 13.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "Sky Bet",
+  "odds": 13.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yu Jun Lin",
+  "book": "BoyleSports",
+  "odds": 13.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yushan Shao",
+  "book": "Matchbook",
+  "odds": 12.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Yushan Shao",
+  "book": "Betfair",
+  "odds": 12.0,
+  "close": 10.52,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Aoi Ito",
+  "book": "Matchbook",
+  "odds": 4.2,
+  "close": 3.73,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Aoi Ito",
+  "book": "Betfair",
+  "odds": 4.2,
+  "close": 3.73,
+  "won": false
  }
 ]
