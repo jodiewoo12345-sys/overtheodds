@@ -1367,306 +1367,6 @@
   "close": 2.35,
   "close_seen": "2026-09-30T20:21:01.002563+00:00"
  },
- "8a8b903b0a86cfd0f72d8fc4deff64cc|casumo|Malm\u00f6 Redhawks": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Malm\u00f6 Redhawks",
-  "book": "Casumo",
-  "odds": 5.5,
-  "first_seen": "2026-09-30T20:21:01.002566+00:00",
-  "close": 3.8,
-  "close_seen": "2026-09-30T20:21:01.002568+00:00"
- },
- "8a8b903b0a86cfd0f72d8fc4deff64cc|grosvenor|Malm\u00f6 Redhawks": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Malm\u00f6 Redhawks",
-  "book": "Grosvenor",
-  "odds": 5.5,
-  "first_seen": "2026-09-30T20:21:01.002570+00:00",
-  "close": 3.8,
-  "close_seen": "2026-09-30T20:21:01.002572+00:00"
- },
- "8a8b903b0a86cfd0f72d8fc4deff64cc|unibet_uk|Malm\u00f6 Redhawks": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Malm\u00f6 Redhawks",
-  "book": "Unibet (UK)",
-  "odds": 5.4,
-  "first_seen": "2026-09-30T20:21:01.002573+00:00",
-  "close": 3.8,
-  "close_seen": "2026-09-30T20:21:01.002575+00:00"
- },
- "7848ff05fe7f95941e1d2cc5f93b2d76|casumo|Timr\u00e5 IK": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "R\u00f6gle BK v Timr\u00e5 IK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Timr\u00e5 IK",
-  "book": "Casumo",
-  "odds": 4.3,
-  "first_seen": "2026-09-30T20:21:01.002578+00:00",
-  "close": 3.07,
-  "close_seen": "2026-09-30T20:21:01.002580+00:00"
- },
- "7848ff05fe7f95941e1d2cc5f93b2d76|grosvenor|Timr\u00e5 IK": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "R\u00f6gle BK v Timr\u00e5 IK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Timr\u00e5 IK",
-  "book": "Grosvenor",
-  "odds": 4.3,
-  "first_seen": "2026-09-30T20:21:01.002581+00:00",
-  "close": 3.07,
-  "close_seen": "2026-09-30T20:21:01.002583+00:00"
- },
- "8a8b903b0a86cfd0f72d8fc4deff64cc|betway|Malm\u00f6 Redhawks": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Malm\u00f6 Redhawks",
-  "book": "Betway",
-  "odds": 5.25,
-  "first_seen": "2026-09-30T20:21:01.002585+00:00",
-  "close": 3.8,
-  "close_seen": "2026-09-30T20:21:01.002587+00:00"
- },
- "7848ff05fe7f95941e1d2cc5f93b2d76|unibet_uk|Timr\u00e5 IK": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "R\u00f6gle BK v Timr\u00e5 IK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Timr\u00e5 IK",
-  "book": "Unibet (UK)",
-  "odds": 4.1,
-  "first_seen": "2026-09-30T20:21:01.002589+00:00",
-  "close": 3.07,
-  "close_seen": "2026-09-30T20:21:01.002591+00:00"
- },
- "7848ff05fe7f95941e1d2cc5f93b2d76|betway|Timr\u00e5 IK": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "R\u00f6gle BK v Timr\u00e5 IK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Timr\u00e5 IK",
-  "book": "Betway",
-  "odds": 4.0,
-  "first_seen": "2026-09-30T20:21:01.002593+00:00",
-  "close": 3.07,
-  "close_seen": "2026-09-30T20:21:01.002595+00:00"
- },
- "188c793eb36be694158d00d12ee39498|betway|Djurg\u00e5rdens IF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Djurg\u00e5rdens IF v F\u00e4rjestad BK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Djurg\u00e5rdens IF",
-  "book": "Betway",
-  "odds": 3.5,
-  "first_seen": "2026-09-30T20:21:01.002597+00:00",
-  "close": 2.69,
-  "close_seen": "2026-09-30T20:21:01.002599+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|casumo|Link\u00f6ping HC": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Link\u00f6ping HC",
-  "book": "Casumo",
-  "odds": 2.6,
-  "first_seen": "2026-09-30T20:21:01.002601+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002603+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|grosvenor|Link\u00f6ping HC": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Link\u00f6ping HC",
-  "book": "Grosvenor",
-  "odds": 2.6,
-  "first_seen": "2026-09-30T20:21:01.002605+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002607+00:00"
- },
- "d7120ad6645d32d60e7c877e037844bc|casumo|IF Bj\u00f6rkl\u00f6ven": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "IF Bj\u00f6rkl\u00f6ven v V\u00e4xj\u00f6 Lakers",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "IF Bj\u00f6rkl\u00f6ven",
-  "book": "Casumo",
-  "odds": 3.05,
-  "first_seen": "2026-09-30T20:21:01.002609+00:00",
-  "close": 2.38,
-  "close_seen": "2026-09-30T20:21:01.002611+00:00"
- },
- "d7120ad6645d32d60e7c877e037844bc|grosvenor|IF Bj\u00f6rkl\u00f6ven": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "IF Bj\u00f6rkl\u00f6ven v V\u00e4xj\u00f6 Lakers",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "IF Bj\u00f6rkl\u00f6ven",
-  "book": "Grosvenor",
-  "odds": 3.05,
-  "first_seen": "2026-09-30T20:21:01.002613+00:00",
-  "close": 2.38,
-  "close_seen": "2026-09-30T20:21:01.002615+00:00"
- },
- "188c793eb36be694158d00d12ee39498|grosvenor|Djurg\u00e5rdens IF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Djurg\u00e5rdens IF v F\u00e4rjestad BK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Djurg\u00e5rdens IF",
-  "book": "Grosvenor",
-  "odds": 3.4,
-  "first_seen": "2026-09-30T20:21:01.002617+00:00",
-  "close": 2.69,
-  "close_seen": "2026-09-30T20:21:01.002619+00:00"
- },
- "188c793eb36be694158d00d12ee39498|casumo|Djurg\u00e5rdens IF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Djurg\u00e5rdens IF v F\u00e4rjestad BK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Djurg\u00e5rdens IF",
-  "book": "Casumo",
-  "odds": 3.4,
-  "first_seen": "2026-09-30T20:21:01.002621+00:00",
-  "close": 2.69,
-  "close_seen": "2026-09-30T20:21:01.002624+00:00"
- },
- "d7120ad6645d32d60e7c877e037844bc|betway|IF Bj\u00f6rkl\u00f6ven": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "IF Bj\u00f6rkl\u00f6ven v V\u00e4xj\u00f6 Lakers",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "IF Bj\u00f6rkl\u00f6ven",
-  "book": "Betway",
-  "odds": 3.0,
-  "first_seen": "2026-09-30T20:21:01.002628+00:00",
-  "close": 2.38,
-  "close_seen": "2026-09-30T20:21:01.002630+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|betway|Link\u00f6ping HC": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Link\u00f6ping HC",
-  "book": "Betway",
-  "odds": 2.5,
-  "first_seen": "2026-09-30T20:21:01.002632+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002634+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|unibet_uk|Link\u00f6ping HC": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Link\u00f6ping HC",
-  "book": "Unibet (UK)",
-  "odds": 2.5,
-  "first_seen": "2026-09-30T20:21:01.002636+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002638+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|betway|Lule\u00e5 HF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Lule\u00e5 HF",
-  "book": "Betway",
-  "odds": 2.5,
-  "first_seen": "2026-09-30T20:21:01.002639+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002641+00:00"
- },
- "68b4f244a3f69c8313b060be2974af11|unibet_uk|Bryn\u00e4s IF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Fr\u00f6lunda HC v Bryn\u00e4s IF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Bryn\u00e4s IF",
-  "book": "Unibet (UK)",
-  "odds": 2.75,
-  "first_seen": "2026-09-30T20:21:01.002644+00:00",
-  "close": 2.21,
-  "close_seen": "2026-09-30T20:21:01.002647+00:00"
- },
- "68b4f244a3f69c8313b060be2974af11|betway|Bryn\u00e4s IF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Fr\u00f6lunda HC v Bryn\u00e4s IF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Bryn\u00e4s IF",
-  "book": "Betway",
-  "odds": 2.75,
-  "first_seen": "2026-09-30T20:21:01.002649+00:00",
-  "close": 2.21,
-  "close_seen": "2026-09-30T20:21:01.002651+00:00"
- },
- "f95e1dd9dc6e574b2c933af8681cbe64|unibet_uk|\u00d6rebro HK": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "HV71 v \u00d6rebro HK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "\u00d6rebro HK",
-  "book": "Unibet (UK)",
-  "odds": 2.55,
-  "first_seen": "2026-09-30T20:21:01.002653+00:00",
-  "close": 2.06,
-  "close_seen": "2026-09-30T20:21:01.002655+00:00"
- },
- "f95e1dd9dc6e574b2c933af8681cbe64|betway|HV71": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "HV71 v \u00d6rebro HK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "HV71",
-  "book": "Betway",
-  "odds": 2.4,
-  "first_seen": "2026-09-30T20:21:01.002657+00:00",
-  "close": 1.94,
-  "close_seen": "2026-09-30T20:21:01.002660+00:00"
- },
- "f95e1dd9dc6e574b2c933af8681cbe64|unibet_uk|HV71": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "HV71 v \u00d6rebro HK",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "HV71",
-  "book": "Unibet (UK)",
-  "odds": 2.38,
-  "first_seen": "2026-09-30T20:21:01.002662+00:00",
-  "close": 1.94,
-  "close_seen": "2026-09-30T20:21:01.002664+00:00"
- },
- "cf1721eac92b3132418abd32609447fe|unibet_uk|Lule\u00e5 HF": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Link\u00f6ping HC v Lule\u00e5 HF",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Lule\u00e5 HF",
-  "book": "Unibet (UK)",
-  "odds": 2.45,
-  "first_seen": "2026-09-30T20:21:01.002665+00:00",
-  "close": 2.0,
-  "close_seen": "2026-09-30T20:21:01.002668+00:00"
- },
  "695fcee69269ceddce48f88971461ded|betfair_ex_uk|Andrey Pulyaev": {
   "sport": "MMA",
   "sport_key": "mma_mixed_martial_arts",
@@ -2205,7 +1905,7 @@
   "odds": 4.7,
   "first_seen": "2026-09-30T20:21:01.002862+00:00",
   "close": 4.48,
-  "close_seen": "2026-10-01T11:09:34.943018+00:00"
+  "close_seen": "2026-10-01T19:28:09.176466+00:00"
  },
  "b870dcfba5e5920d3f1551a3aa1ea435|betfair_ex_uk|Draw": {
   "sport": "EPL",
@@ -2217,7 +1917,7 @@
   "odds": 5.5,
   "first_seen": "2026-09-30T20:21:01.002866+00:00",
   "close": 5.28,
-  "close_seen": "2026-10-01T11:09:34.943006+00:00"
+  "close_seen": "2026-10-01T19:28:09.176462+00:00"
  },
  "f696a248965373d9071dc0662e5c58a8|betfair_ex_uk|Nottingham Forest": {
   "sport": "EPL",
@@ -3695,54 +3395,6 @@
   "close": 14.28,
   "close_seen": "2026-09-30T20:21:01.003408+00:00"
  },
- "569ba3f14347105c50c8164a0ecfe28e|betfair_ex_uk|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "Betfair",
-  "odds": 10.5,
-  "first_seen": "2026-09-30T20:21:01.003410+00:00",
-  "close": 9.0,
-  "close_seen": "2026-10-01T11:09:34.943561+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|smarkets|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "Smarkets",
-  "odds": 10.5,
-  "first_seen": "2026-09-30T20:21:01.003416+00:00",
-  "close": 9.0,
-  "close_seen": "2026-10-01T11:09:34.943568+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|grosvenor|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "Grosvenor",
-  "odds": 10.0,
-  "first_seen": "2026-09-30T20:21:01.003420+00:00",
-  "close": 9.29,
-  "close_seen": "2026-09-30T20:21:01.003422+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|casumo|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "Casumo",
-  "odds": 10.0,
-  "first_seen": "2026-09-30T20:21:01.003423+00:00",
-  "close": 9.29,
-  "close_seen": "2026-10-01T06:23:49.525664+00:00"
- },
  "1ec1e91715390c359da942323953f11a|smarkets|Draw": {
   "sport": "UEFA Champions League Women",
   "sport_key": "soccer_uefa_champs_league_women",
@@ -4343,18 +3995,6 @@
   "close": 6.13,
   "close_seen": "2026-10-01T06:23:49.525830+00:00"
  },
- "0fc933670b2cf487a5ac2878f500492f|boylesports|Liechtenstein": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Liechtenstein",
-  "book": "BoyleSports",
-  "odds": 23.0,
-  "first_seen": "2026-09-30T20:21:01.003643+00:00",
-  "close": 21.36,
-  "close_seen": "2026-09-30T20:21:01.003644+00:00"
- },
  "429e47b7c49fba99d5cbcba70b9c48c5|matchbook|Turkey": {
   "sport": "UEFA Nations League",
   "sport_key": "soccer_uefa_nations_league",
@@ -4475,30 +4115,6 @@
   "close": 4.31,
   "close_seen": "2026-10-01T06:23:49.525889+00:00"
  },
- "0fc933670b2cf487a5ac2878f500492f|coral|Draw": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Draw",
-  "book": "Coral",
-  "odds": 8.5,
-  "first_seen": "2026-09-30T20:21:01.003686+00:00",
-  "close": 8.56,
-  "close_seen": "2026-10-01T11:09:34.943769+00:00"
- },
- "0fc933670b2cf487a5ac2878f500492f|ladbrokes_uk|Draw": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Draw",
-  "book": "Ladbrokes",
-  "odds": 8.5,
-  "first_seen": "2026-09-30T20:21:01.003689+00:00",
-  "close": 8.56,
-  "close_seen": "2026-10-01T11:09:34.943773+00:00"
- },
  "c68442e0bfc400d8e7ee97ec662e13e0|betfair_ex_uk|Draw": {
   "sport": "MLS",
   "sport_key": "soccer_usa_mls",
@@ -4592,8 +4208,8 @@
   "book": "Betfair",
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.003737+00:00",
-  "close": 4.29,
-  "close_seen": "2026-10-01T11:09:34.943851+00:00"
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176481+00:00"
  },
  "d66f1937da5272c6644a583eaa98d7ce|matchbook|Pablo Carreno Busta": {
   "sport": "ATP China Open",
@@ -4604,8 +4220,8 @@
   "book": "Matchbook",
   "odds": 4.5,
   "first_seen": "2026-09-30T20:21:01.003743+00:00",
-  "close": 4.29,
-  "close_seen": "2026-10-01T11:09:34.943858+00:00"
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176484+00:00"
  },
  "4deffc5f47794803f6891c113e45383e|betfair_ex_uk|Bu Yunchaokete": {
   "sport": "ATP China Open",
@@ -4642,30 +4258,6 @@
   "first_seen": "2026-09-30T20:21:01.003754+00:00",
   "close": 2.43,
   "close_seen": "2026-09-30T20:21:01.003756+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|betfair_ex_uk|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "Betfair",
-  "odds": 13.0,
-  "first_seen": "2026-09-30T20:21:01.003810+00:00",
-  "close": 9.76,
-  "close_seen": "2026-09-30T20:21:01.003812+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|matchbook|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "Matchbook",
-  "odds": 12.5,
-  "first_seen": "2026-09-30T20:21:01.003814+00:00",
-  "close": 9.76,
-  "close_seen": "2026-09-30T20:21:01.003818+00:00"
  },
  "b37042990194a603e165f3ffaa66d3e4|betway|Renata Zarazua": {
   "sport": "WTA China Open",
@@ -4738,18 +4330,6 @@
   "first_seen": "2026-09-30T20:21:01.003855+00:00",
   "close": 6.86,
   "close_seen": "2026-09-30T20:21:01.003857+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|boylesports|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "BoyleSports",
-  "odds": 11.0,
-  "first_seen": "2026-09-30T20:21:01.003876+00:00",
-  "close": 9.76,
-  "close_seen": "2026-09-30T20:21:01.003878+00:00"
  },
  "b37042990194a603e165f3ffaa66d3e4|paddypower|Renata Zarazua": {
   "sport": "WTA China Open",
@@ -5409,7 +4989,7 @@
   "odds": 5.4,
   "first_seen": "2026-10-01T06:23:49.525183+00:00",
   "close": 5.28,
-  "close_seen": "2026-10-01T11:09:34.943025+00:00"
+  "close_seen": "2026-10-01T19:28:09.176470+00:00"
  },
  "22c9b2c43cbe1334381269550dab78e6|betfair_ex_uk|Draw": {
   "sport": "EPL",
@@ -5939,54 +5519,6 @@
   "close": 14.61,
   "close_seen": "2026-10-01T06:23:49.525693+00:00"
  },
- "569ba3f14347105c50c8164a0ecfe28e|livescorebet|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "LiveScore Bet",
-  "odds": 9.5,
-  "first_seen": "2026-10-01T06:23:49.525694+00:00",
-  "close": 9.29,
-  "close_seen": "2026-10-01T06:23:49.525696+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|virginbet|Servette FC": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Servette FC",
-  "book": "Virgin Bet",
-  "odds": 9.5,
-  "first_seen": "2026-10-01T06:23:49.525698+00:00",
-  "close": 9.29,
-  "close_seen": "2026-10-01T06:23:49.525700+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|betfair_ex_uk|Draw": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Draw",
-  "book": "Betfair",
-  "odds": 5.7,
-  "first_seen": "2026-10-01T06:23:49.525702+00:00",
-  "close": 5.43,
-  "close_seen": "2026-10-01T11:09:34.943557+00:00"
- },
- "569ba3f14347105c50c8164a0ecfe28e|smarkets|Draw": {
-  "sport": "UEFA Champions League Women",
-  "sport_key": "soccer_uefa_champs_league_women",
-  "event": "HB K\u00f8ge v Servette FC",
-  "start": "2026-10-01T16:45:00Z",
-  "selection": "Draw",
-  "book": "Smarkets",
-  "odds": 5.7,
-  "first_seen": "2026-10-01T06:23:49.525705+00:00",
-  "close": 5.43,
-  "close_seen": "2026-10-01T11:09:34.943564+00:00"
- },
  "1769158b7ef34227fc6d6822eaa918ba|livescorebet|FK Borac Banja Luka": {
   "sport": "UEFA Europa Conference League",
   "sport_key": "soccer_uefa_europa_conference_league",
@@ -6236,32 +5768,8 @@
   "book": "Smarkets",
   "odds": 4.6,
   "first_seen": "2026-10-01T06:23:49.525952+00:00",
-  "close": 4.29,
-  "close_seen": "2026-10-01T11:09:34.943855+00:00"
- },
- "8e1b1ccdaf9bc406f149cfba186e0337|matchbook|Alexander Bublik": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Alexander Bublik v Jakub Mensik",
-  "start": "2026-10-01T12:30:00Z",
-  "selection": "Alexander Bublik",
-  "book": "Matchbook",
-  "odds": 2.66,
-  "first_seen": "2026-10-01T06:23:49.525956+00:00",
-  "close": 2.56,
-  "close_seen": "2026-10-01T06:23:49.525957+00:00"
- },
- "8e1b1ccdaf9bc406f149cfba186e0337|betfair_ex_uk|Alexander Bublik": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Alexander Bublik v Jakub Mensik",
-  "start": "2026-10-01T12:30:00Z",
-  "selection": "Alexander Bublik",
-  "book": "Betfair",
-  "odds": 2.66,
-  "first_seen": "2026-10-01T06:23:49.525959+00:00",
-  "close": 2.56,
-  "close_seen": "2026-10-01T06:23:49.525961+00:00"
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176487+00:00"
  },
  "4deffc5f47794803f6891c113e45383e|matchbook|Bu Yunchaokete": {
   "sport": "ATP China Open",
@@ -6274,90 +5782,6 @@
   "first_seen": "2026-10-01T06:23:49.525966+00:00",
   "close": 3.83,
   "close_seen": "2026-10-01T06:23:49.525968+00:00"
- },
- "ef3f453a337c9dae404be4cbf6772441|matchbook|Tallon Griekspoor": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Tallon Griekspoor v Andrey Ruble",
-  "start": "2026-10-01T08:00:00Z",
-  "selection": "Tallon Griekspoor",
-  "book": "Matchbook",
-  "odds": 2.64,
-  "first_seen": "2026-10-01T06:23:49.525970+00:00",
-  "close": 2.56,
-  "close_seen": "2026-10-01T06:23:49.525972+00:00"
- },
- "ef3f453a337c9dae404be4cbf6772441|betfair_ex_uk|Tallon Griekspoor": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Tallon Griekspoor v Andrey Ruble",
-  "start": "2026-10-01T08:00:00Z",
-  "selection": "Tallon Griekspoor",
-  "book": "Betfair",
-  "odds": 2.64,
-  "first_seen": "2026-10-01T06:23:49.525973+00:00",
-  "close": 2.56,
-  "close_seen": "2026-10-01T06:23:49.525987+00:00"
- },
- "8e1b1ccdaf9bc406f149cfba186e0337|smarkets|Alexander Bublik": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "event": "Alexander Bublik v Jakub Mensik",
-  "start": "2026-10-01T12:30:00Z",
-  "selection": "Alexander Bublik",
-  "book": "Smarkets",
-  "odds": 2.62,
-  "first_seen": "2026-10-01T06:23:49.525989+00:00",
-  "close": 2.56,
-  "close_seen": "2026-10-01T06:23:49.525993+00:00"
- },
- "07374dce8b25328307e583cea38d3b07|matchbook|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Adolfo Daniel Vallejo v Rafael Jodar",
-  "start": "2026-10-01T08:10:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Matchbook",
-  "odds": 5.0,
-  "first_seen": "2026-10-01T06:23:49.525994+00:00",
-  "close": 4.5,
-  "close_seen": "2026-10-01T06:23:49.525996+00:00"
- },
- "07374dce8b25328307e583cea38d3b07|betfair_ex_uk|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Adolfo Daniel Vallejo v Rafael Jodar",
-  "start": "2026-10-01T08:10:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Betfair",
-  "odds": 4.9,
-  "first_seen": "2026-10-01T06:23:49.525998+00:00",
-  "close": 4.5,
-  "close_seen": "2026-10-01T06:23:49.526000+00:00"
- },
- "07374dce8b25328307e583cea38d3b07|unibet_uk|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Adolfo Daniel Vallejo v Rafael Jodar",
-  "start": "2026-10-01T08:10:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Unibet (UK)",
-  "odds": 4.6,
-  "first_seen": "2026-10-01T06:23:49.526001+00:00",
-  "close": 4.5,
-  "close_seen": "2026-10-01T06:23:49.526003+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|betway|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "Betway",
-  "odds": 12.0,
-  "first_seen": "2026-10-01T06:23:49.526005+00:00",
-  "close": 10.52,
-  "close_seen": "2026-10-01T06:23:49.526007+00:00"
  },
  "e4249631b25378db4350945e30d1e9a1|betfair_ex_uk|Yue Yuan": {
   "sport": "WTA China Open",
@@ -6443,30 +5867,6 @@
   "close": 8.94,
   "close_seen": "2026-10-01T06:23:49.526033+00:00"
  },
- "8e6bcabf08e118f69eedc8e1f8690acb|matchbook|Sun Xinran": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Eva Lys v Sun Xinran",
-  "start": "2026-10-01T11:00:00Z",
-  "selection": "Sun Xinran",
-  "book": "Matchbook",
-  "odds": 3.25,
-  "first_seen": "2026-10-01T06:23:49.526034+00:00",
-  "close": 3.06,
-  "close_seen": "2026-10-01T06:23:49.526036+00:00"
- },
- "8e6bcabf08e118f69eedc8e1f8690acb|betfair_ex_uk|Sun Xinran": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Eva Lys v Sun Xinran",
-  "start": "2026-10-01T11:00:00Z",
-  "selection": "Sun Xinran",
-  "book": "Betfair",
-  "odds": 3.25,
-  "first_seen": "2026-10-01T06:23:49.526038+00:00",
-  "close": 3.06,
-  "close_seen": "2026-10-01T06:23:49.526040+00:00"
- },
  "7449c032f470f787af442e344e67fa30|casumo|Maddison Inglis": {
   "sport": "WTA China Open",
   "sport_key": "tennis_wta_china_open",
@@ -6514,42 +5914,6 @@
   "first_seen": "2026-10-01T06:23:49.526052+00:00",
   "close": 3.44,
   "close_seen": "2026-10-01T06:23:49.526053+00:00"
- },
- "8e6bcabf08e118f69eedc8e1f8690acb|smarkets|Sun Xinran": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Eva Lys v Sun Xinran",
-  "start": "2026-10-01T11:00:00Z",
-  "selection": "Sun Xinran",
-  "book": "Smarkets",
-  "odds": 3.2,
-  "first_seen": "2026-10-01T06:23:49.526055+00:00",
-  "close": 3.06,
-  "close_seen": "2026-10-01T06:23:49.526057+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|sport888|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "888sport",
-  "odds": 11.0,
-  "first_seen": "2026-10-01T06:23:49.526059+00:00",
-  "close": 10.52,
-  "close_seen": "2026-10-01T06:23:49.526062+00:00"
- },
- "d335a62e23f27b87cc79d2e6c6589617|williamhill|Yihan Qu": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "event": "Harriet Dart v Yihan Qu",
-  "start": "2026-10-01T07:30:00Z",
-  "selection": "Yihan Qu",
-  "book": "William Hill",
-  "odds": 11.0,
-  "first_seen": "2026-10-01T06:23:49.526064+00:00",
-  "close": 10.52,
-  "close_seen": "2026-10-01T06:23:49.526065+00:00"
  },
  "a761717bbb7fdd5111fab1c9044a8360|betway|Janice Tjen": {
   "sport": "WTA China Open",
@@ -6695,18 +6059,6 @@
   "close": 4.75,
   "close_seen": "2026-10-01T11:09:34.942624+00:00"
  },
- "7583f2e5f52107921d6e38a7c1961dab|betfair_ex_uk|Hapoel Tel Aviv": {
-  "sport": "Basketball Euroleague",
-  "sport_key": "basketball_euroleague",
-  "event": "Hapoel Tel Aviv v Real Madrid",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Hapoel Tel Aviv",
-  "book": "Betfair",
-  "odds": 2.36,
-  "first_seen": "2026-10-01T11:09:34.942689+00:00",
-  "close": 2.29,
-  "close_seen": "2026-10-01T11:09:34.942691+00:00"
- },
  "392a93eaf1ea0b908993ca97f7805539|betfair_ex_uk|Anadolu Efes": {
   "sport": "Basketball Euroleague",
   "sport_key": "basketball_euroleague",
@@ -6718,18 +6070,6 @@
   "first_seen": "2026-10-01T11:09:34.942693+00:00",
   "close": 2.26,
   "close_seen": "2026-10-01T11:09:34.942695+00:00"
- },
- "7583f2e5f52107921d6e38a7c1961dab|smarkets|Hapoel Tel Aviv": {
-  "sport": "Basketball Euroleague",
-  "sport_key": "basketball_euroleague",
-  "event": "Hapoel Tel Aviv v Real Madrid",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Hapoel Tel Aviv",
-  "book": "Smarkets",
-  "odds": 2.34,
-  "first_seen": "2026-10-01T11:09:34.942697+00:00",
-  "close": 2.29,
-  "close_seen": "2026-10-01T11:09:34.942698+00:00"
  },
  "56fa71c0b3588b56095c3ba1cf11a673|betway|Conor Wallace": {
   "sport": "Boxing",
@@ -6778,18 +6118,6 @@
   "first_seen": "2026-10-01T11:09:34.942777+00:00",
   "close": 2.82,
   "close_seen": "2026-10-01T11:09:34.942779+00:00"
- },
- "8a8b903b0a86cfd0f72d8fc4deff64cc|sport888|Malm\u00f6 Redhawks": {
-  "sport": "SHL",
-  "sport_key": "icehockey_sweden_hockey_league",
-  "event": "Skellefte\u00e5 AIK v Malm\u00f6 Redhawks",
-  "start": "2026-10-01T17:00:00Z",
-  "selection": "Malm\u00f6 Redhawks",
-  "book": "888sport",
-  "odds": 3.6,
-  "first_seen": "2026-10-01T11:09:34.942781+00:00",
-  "close": 3.52,
-  "close_seen": "2026-10-01T11:09:34.942783+00:00"
  },
  "96e3358cd42ab238e7b471c8fedc75f2|betfair_ex_uk|Deiveson Figueiredo": {
   "sport": "MMA",
@@ -7343,42 +6671,6 @@
   "close": 5.21,
   "close_seen": "2026-10-01T11:09:34.943765+00:00"
  },
- "0fc933670b2cf487a5ac2878f500492f|betvictor|Draw": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Draw",
-  "book": "Bet Victor",
-  "odds": 9.0,
-  "first_seen": "2026-10-01T11:09:34.943775+00:00",
-  "close": 8.56,
-  "close_seen": "2026-10-01T11:09:34.943776+00:00"
- },
- "0fc933670b2cf487a5ac2878f500492f|betway|Draw": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Draw",
-  "book": "Betway",
-  "odds": 9.0,
-  "first_seen": "2026-10-01T11:09:34.943778+00:00",
-  "close": 8.56,
-  "close_seen": "2026-10-01T11:09:34.943780+00:00"
- },
- "0fc933670b2cf487a5ac2878f500492f|betano_uk|Draw": {
-  "sport": "UEFA Nations League",
-  "sport_key": "soccer_uefa_nations_league",
-  "event": "Azerbaijan v Liechtenstein",
-  "start": "2026-10-01T16:00:00Z",
-  "selection": "Draw",
-  "book": "Betano (UK)",
-  "odds": 9.0,
-  "first_seen": "2026-10-01T11:09:34.943782+00:00",
-  "close": 8.56,
-  "close_seen": "2026-10-01T11:09:34.943783+00:00"
- },
  "a2b54d223ce491ac52af34a462de0140|betfair_ex_uk|Draw": {
   "sport": "UEFA Nations League",
   "sport_key": "soccer_uefa_nations_league",
@@ -7678,5 +6970,173 @@
   "first_seen": "2026-10-01T11:09:34.943957+00:00",
   "close": 6.86,
   "close_seen": "2026-10-01T11:09:34.943959+00:00"
+ },
+ "164cc0396837d5ff433215ffd3279283|livescorebet|Milwaukee Bucks": {
+  "sport": "NBA",
+  "sport_key": "basketball_nba",
+  "event": "Washington Wizards v Milwaukee Bucks",
+  "start": "2026-10-21T23:10:00Z",
+  "selection": "Milwaukee Bucks",
+  "book": "LiveScore Bet",
+  "odds": 2.95,
+  "first_seen": "2026-10-01T19:28:09.176441+00:00",
+  "close": 2.84,
+  "close_seen": "2026-10-01T19:28:09.176452+00:00"
+ },
+ "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
+  "sport": "NBA",
+  "sport_key": "basketball_nba",
+  "event": "Washington Wizards v Milwaukee Bucks",
+  "start": "2026-10-21T23:10:00Z",
+  "selection": "Milwaukee Bucks",
+  "book": "Virgin Bet",
+  "odds": 2.9,
+  "first_seen": "2026-10-01T19:28:09.176455+00:00",
+  "close": 2.84,
+  "close_seen": "2026-10-01T19:28:09.176458+00:00"
+ },
+ "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
+  "start": "2026-10-14T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfred (UK)",
+  "odds": 6.0,
+  "first_seen": "2026-10-01T19:28:09.176472+00:00",
+  "close": 5.87,
+  "close_seen": "2026-10-01T19:28:09.176474+00:00"
+ },
+ "d7576351b8cb2396e32cc3de0446f3de|betfair_ex_uk|Draw": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
+  "start": "2026-10-14T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfair",
+  "odds": 6.0,
+  "first_seen": "2026-10-01T19:28:09.176476+00:00",
+  "close": 5.87,
+  "close_seen": "2026-10-01T19:28:09.176477+00:00"
+ },
+ "d66f1937da5272c6644a583eaa98d7ce|paddypower|Pablo Carreno Busta": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "event": "Daniil Medvedev v Pablo Carreno Busta",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Pablo Carreno Busta",
+  "book": "Paddy Power",
+  "odds": 4.5,
+  "first_seen": "2026-10-01T19:28:09.176489+00:00",
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176490+00:00"
+ },
+ "d66f1937da5272c6644a583eaa98d7ce|betfair_sb_uk|Pablo Carreno Busta": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "event": "Daniil Medvedev v Pablo Carreno Busta",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Pablo Carreno Busta",
+  "book": "Betfair Sportsbook",
+  "odds": 4.5,
+  "first_seen": "2026-10-01T19:28:09.176492+00:00",
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176494+00:00"
+ },
+ "d66f1937da5272c6644a583eaa98d7ce|skybet|Pablo Carreno Busta": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "event": "Daniil Medvedev v Pablo Carreno Busta",
+  "start": "2026-10-02T07:00:00Z",
+  "selection": "Pablo Carreno Busta",
+  "book": "Sky Bet",
+  "odds": 4.5,
+  "first_seen": "2026-10-01T19:28:09.176495+00:00",
+  "close": 4.31,
+  "close_seen": "2026-10-01T19:28:09.176497+00:00"
+ },
+ "908dd14275f11b8588bccce4d87aae14|betway|Frances Tiafoe": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Arthur Fils v Frances Tiafoe",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Frances Tiafoe",
+  "book": "Betway",
+  "odds": 3.5,
+  "first_seen": "2026-10-01T19:28:09.176499+00:00",
+  "close": 3.24,
+  "close_seen": "2026-10-01T19:28:09.176501+00:00"
+ },
+ "908dd14275f11b8588bccce4d87aae14|matchbook|Frances Tiafoe": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Arthur Fils v Frances Tiafoe",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Frances Tiafoe",
+  "book": "Matchbook",
+  "odds": 3.4,
+  "first_seen": "2026-10-01T19:28:09.176502+00:00",
+  "close": 3.24,
+  "close_seen": "2026-10-01T19:28:09.176504+00:00"
+ },
+ "908dd14275f11b8588bccce4d87aae14|betfair_ex_uk|Frances Tiafoe": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Arthur Fils v Frances Tiafoe",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Frances Tiafoe",
+  "book": "Betfair",
+  "odds": 3.4,
+  "first_seen": "2026-10-01T19:28:09.176505+00:00",
+  "close": 3.24,
+  "close_seen": "2026-10-01T19:28:09.176507+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|livescorebet|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "LiveScore Bet",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:28:09.176508+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:28:09.176510+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|casumo|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Casumo",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:28:09.176511+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:28:09.176513+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|grosvenor|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Grosvenor",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:28:09.176514+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:28:09.176516+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|virginbet|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Virgin Bet",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:28:09.176517+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:28:09.176519+00:00"
  }
 }
