@@ -27,11 +27,11 @@ MIN_EDGE = float(os.getenv("MIN_EDGE", 3.0))       # percent
 MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced markets
 MIN_HOURS = float(os.getenv("MIN_HOURS", 1.0))      # skip anything starting sooner
 MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 25))
-MAX_ODDS = float(os.getenv("MAX_ODDS", 10.0))       # long shots carry huge margin: consensus is meaningless
+MAX_ODDS = float(os.getenv("MAX_ODDS", 6.0))       # long shots carry huge margin: consensus is meaningless
 MAX_EDGE = float(os.getenv("MAX_EDGE", 15.0))       # anything above this is a data artefact, not value
 SPORT_PREFIXES = tuple(os.getenv(
     "SPORT_PREFIXES",
-    "soccer,tennis,basketball,americanfootball,icehockey,cricket,rugby,mma,boxing,darts,snooker"
+    "soccer_epl,soccer_uefa_champs_league,tennis_atp,basketball_nba",
 ).split(","))
 
 
