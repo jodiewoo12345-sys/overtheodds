@@ -1,0 +1,98 @@
+{
+ "164cc0396837d5ff433215ffd3279283|livescorebet|Milwaukee Bucks": {
+  "sport": "NBA",
+  "sport_key": "basketball_nba",
+  "event": "Washington Wizards v Milwaukee Bucks",
+  "start": "2026-10-21T23:10:00Z",
+  "selection": "Milwaukee Bucks",
+  "book": "LiveScore Bet",
+  "odds": 2.95,
+  "first_seen": "2026-10-01T19:39:59.899630+00:00",
+  "close": 2.91,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
+  "sport": "NBA",
+  "sport_key": "basketball_nba",
+  "event": "Washington Wizards v Milwaukee Bucks",
+  "start": "2026-10-21T23:10:00Z",
+  "selection": "Milwaukee Bucks",
+  "book": "Virgin Bet",
+  "odds": 2.9,
+  "first_seen": "2026-10-01T19:39:59.899643+00:00",
+  "close": 2.91,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
+  "start": "2026-10-14T19:00:00Z",
+  "selection": "Draw",
+  "book": "Betfred (UK)",
+  "odds": 6.0,
+  "first_seen": "2026-10-01T19:39:59.899646+00:00",
+  "close": 5.89,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "908dd14275f11b8588bccce4d87aae14|betway|Frances Tiafoe": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Arthur Fils v Frances Tiafoe",
+  "start": "2026-10-02T08:10:00Z",
+  "selection": "Frances Tiafoe",
+  "book": "Betway",
+  "odds": 3.5,
+  "first_seen": "2026-10-01T19:39:59.899649+00:00",
+  "close": 3.28,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|livescorebet|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "LiveScore Bet",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:39:59.899651+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|casumo|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Casumo",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:39:59.899654+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|grosvenor|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Grosvenor",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:39:59.899656+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ },
+ "7b880c1411425677c923489ced32b94e|virginbet|Adolfo Daniel Vallejo": {
+  "sport": "ATP Japan Open",
+  "sport_key": "tennis_atp_japan_open",
+  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
+  "start": "2026-10-03T02:00:00Z",
+  "selection": "Adolfo Daniel Vallejo",
+  "book": "Virgin Bet",
+  "odds": 2.5,
+  "first_seen": "2026-10-01T19:39:59.899658+00:00",
+  "close": 2.43,
+  "close_seen": "2026-10-01T19:39:59.899660+00:00"
+ }
+}
