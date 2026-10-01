@@ -1,1 +1,191 @@
-[]
+[
+ {
+  "sport": "WNBA",
+  "date": "2026-09-30",
+  "selection": "Washington Mystics",
+  "book": "Betfair",
+  "odds": 2.46,
+  "close": 2.36,
+  "won": false
+ },
+ {
+  "sport": "WNBA",
+  "date": "2026-09-30",
+  "selection": "Washington Mystics",
+  "book": "Matchbook",
+  "odds": 2.46,
+  "close": 2.36,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-10-01",
+  "selection": "Los Angeles Kings",
+  "book": "Casumo",
+  "odds": 3.65,
+  "close": 2.76,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-10-01",
+  "selection": "Los Angeles Kings",
+  "book": "Grosvenor",
+  "odds": 3.65,
+  "close": 2.76,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-09-30",
+  "selection": "Pittsburgh Penguins",
+  "book": "Casumo",
+  "odds": 3.0,
+  "close": 2.31,
+  "won": true
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-09-30",
+  "selection": "Pittsburgh Penguins",
+  "book": "Grosvenor",
+  "odds": 3.0,
+  "close": 2.31,
+  "won": true
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-09-30",
+  "selection": "New York Islanders",
+  "book": "Grosvenor",
+  "odds": 2.8,
+  "close": 2.2,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-09-30",
+  "selection": "New York Islanders",
+  "book": "Casumo",
+  "odds": 2.8,
+  "close": 2.2,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-10-01",
+  "selection": "Los Angeles Kings",
+  "book": "Unibet (UK)",
+  "odds": 3.5,
+  "close": 2.76,
+  "won": false
+ },
+ {
+  "sport": "NHL",
+  "date": "2026-09-30",
+  "selection": "Pittsburgh Penguins",
+  "book": "Unibet (UK)",
+  "odds": 2.9,
+  "close": 2.31,
+  "won": true
+ },
+ {
+  "sport": "ATP China Open",
+  "date": "2026-10-01",
+  "selection": "Mariano Navone",
+  "book": "Matchbook",
+  "odds": 4.7,
+  "close": 4.48,
+  "won": false
+ },
+ {
+  "sport": "ATP China Open",
+  "date": "2026-10-01",
+  "selection": "Mariano Navone",
+  "book": "Betfair",
+  "odds": 4.7,
+  "close": 4.48,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Jaume Munar",
+  "book": "Betfair",
+  "odds": 3.8,
+  "close": 3.48,
+  "won": true
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Jaume Munar",
+  "book": "Matchbook",
+  "odds": 3.8,
+  "close": 3.48,
+  "won": true
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Kyrian Jacquet",
+  "book": "Matchbook",
+  "odds": 2.68,
+  "close": 2.56,
+  "won": true
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Kyrian Jacquet",
+  "book": "Betfair",
+  "odds": 2.68,
+  "close": 2.56,
+  "won": true
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Tomas Martin Etcheverry",
+  "book": "Betfair",
+  "odds": 3.7,
+  "close": 3.54,
+  "won": false
+ },
+ {
+  "sport": "ATP Japan Open",
+  "date": "2026-10-01",
+  "selection": "Tomas Martin Etcheverry",
+  "book": "Matchbook",
+  "odds": 3.7,
+  "close": 3.54,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Shi Han",
+  "book": "Betfair",
+  "odds": 9.2,
+  "close": 8.01,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Shi Han",
+  "book": "Smarkets",
+  "odds": 9.2,
+  "close": 8.01,
+  "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "date": "2026-10-01",
+  "selection": "Shi Han",
+  "book": "Matchbook",
+  "odds": 9.2,
+  "close": 8.01,
+  "won": false
+ }
+]
