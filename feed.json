@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T20:01:18.240689+00:00",
+ "updated": "2026-10-02T06:04:59.661620+00:00",
  "bets": [
   {
    "sport": "NBA",
@@ -9,7 +9,7 @@
    "selection": "Milwaukee Bucks",
    "book": "LiveScore Bet",
    "odds": 2.95,
-   "fair": 2.84,
+   "fair": 2.77,
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206"
   },
   {
@@ -20,7 +20,7 @@
    "selection": "Milwaukee Bucks",
    "book": "Virgin Bet",
    "odds": 2.9,
-   "fair": 2.84,
+   "fair": 2.77,
    "link": "https://www.virginbet.com/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206"
   },
   {
@@ -31,63 +31,8 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 6.0,
-   "fair": 5.87,
+   "fair": 5.82,
    "link": "https://www.betfred.com/sports/football/event/36864952"
-  },
-  {
-   "sport": "ATP Japan Open",
-   "market": "Match odds",
-   "event": "Arthur Fils v Frances Tiafoe",
-   "start": "2026-10-02T08:10:00Z",
-   "selection": "Frances Tiafoe",
-   "book": "Betway",
-   "odds": 3.5,
-   "fair": 3.24,
-   "link": "https://betway.com/en/sports/evt/17295598"
-  },
-  {
-   "sport": "ATP Japan Open",
-   "market": "Match odds",
-   "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-   "start": "2026-10-03T02:00:00Z",
-   "selection": "Adolfo Daniel Vallejo",
-   "book": "LiveScore Bet",
-   "odds": 2.5,
-   "fair": 2.43,
-   "link": "https://www.livescorebet.com/uk/sports/tennis/atp-tokyo/matteo-berrettini-adolfo-daniel-vallejo/SBTE_2_1029338510"
-  },
-  {
-   "sport": "ATP Japan Open",
-   "market": "Match odds",
-   "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-   "start": "2026-10-03T02:00:00Z",
-   "selection": "Adolfo Daniel Vallejo",
-   "book": "Casumo",
-   "odds": 2.5,
-   "fair": 2.43,
-   "link": "https://www.casumo.com/en-gb/sports/#event/1029338510"
-  },
-  {
-   "sport": "ATP Japan Open",
-   "market": "Match odds",
-   "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-   "start": "2026-10-03T02:00:00Z",
-   "selection": "Adolfo Daniel Vallejo",
-   "book": "Grosvenor",
-   "odds": 2.5,
-   "fair": 2.43,
-   "link": "https://www.grosvenorcasinos.com/sport#event/1029338510"
-  },
-  {
-   "sport": "ATP Japan Open",
-   "market": "Match odds",
-   "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-   "start": "2026-10-03T02:00:00Z",
-   "selection": "Adolfo Daniel Vallejo",
-   "book": "Virgin Bet",
-   "odds": 2.5,
-   "fair": 2.43,
-   "link": "https://www.virginbet.com/sports/tennis/atp-tokyo/matteo-berrettini-adolfo-daniel-vallejo/SBTE_2_1029338510"
   }
  ],
  "results": []
