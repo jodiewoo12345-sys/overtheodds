@@ -1,9 +1,12 @@
 {
- "updated": "2026-10-02T08:12:10.815828+00:00",
+ "updated": "2026-10-02T08:33:24.282143+00:00",
  "scanned": {
   "events": 96,
   "selections": 174,
-  "sports": 6
+  "sports": 6,
+  "by_market": {
+   "h2h": 174
+  }
  },
  "bets": [
   {
