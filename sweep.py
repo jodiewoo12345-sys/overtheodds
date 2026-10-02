@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 9: totals compared line by line]
+sweep.py — build the board.   [version 10: full recommendation record]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -207,6 +207,7 @@ def find_value(events, sport_label, sport_key):
                     "book": title_of(book_key, ev),
                     "odds": round(price, 2),
                     "fair": round(fair, 2),
+                    "books": len(by_book),
                     "link": link_for(ev, book_key, market_key, selection),
                 })
     scanned["events"] += len(events)
@@ -290,7 +291,12 @@ def main():
             "sport": b["sport"], "sport_key": b["sport_key"],
             "market_key": b["market_key"], "market": b["market"],
             "event": b["event"], "start": b["start"],
-            "selection": b["selection"], "book": b["book"], "odds": b["odds"],
+            "selection": b["selection"], "book": b["book"],
+            "odds": b["odds"],                      # the price we published
+            "fair": b["fair"],                      # our consensus at that moment
+            "edge": round((b["odds"] / b["fair"] - 1) * 100, 2),
+            "books": b.get("books", 0),             # how many firms the consensus rested on
+            "detected": datetime.now(timezone.utc).isoformat(),
             "first_seen": datetime.now(timezone.utc).isoformat(),
         })
 
@@ -310,7 +316,7 @@ def main():
     feed = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "scanned": scanned,
-        "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key")}
+        "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key", "books")}
                  for b in bets],
         "results": load_json("results.json", []),
     }
