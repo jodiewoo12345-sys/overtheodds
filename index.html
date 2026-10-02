@@ -15,147 +15,187 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  /* A betting paper's form page: hairline rules, tabular figures, no card soup. */
   :root{
-    --bg:#FAF8F4; --card:#FFFFFF; --ink:#141C2B; --soft:#6B7480; --rule:#E4E0D6;
-    --green:#0B7A4B; --amber:#B06A00; --red:#A32B22; --dim:rgba(20,28,43,.05);
+    --paper:#F6F4EF; --ink:#16171B; --soft:#6E6A62; --rule:#D8D3C8; --hair:#E8E4DB;
+    --green:#1A6B3C; --red:#9B2C20; --amber:#9A6B10; --wash:#EFEBE2;
     box-sizing:border-box;
     padding-top:env(safe-area-inset-top,0px);
     padding-bottom:env(safe-area-inset-bottom,0px);
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
-      --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+      --paper:#15161A; --ink:#EDEAE3; --soft:#948F86; --rule:#2E3036; --hair:#232529;
+      --green:#5FC489; --red:#E08C80; --amber:#D7A64A; --wash:#1B1D22;
     }
   }
   :root[data-theme="dark"]{
-    --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
-    --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+    --paper:#15161A; --ink:#EDEAE3; --soft:#948F86; --rule:#2E3036; --hair:#232529;
+    --green:#5FC489; --red:#E08C80; --amber:#D7A64A; --wash:#1B1D22;
   }
   *,*::before,*::after{box-sizing:inherit}
   html{-webkit-text-size-adjust:100%; scroll-padding-top:env(safe-area-inset-top,0px)}
-  body{margin:0; background:var(--bg); color:var(--ink);
-       font:400 16px/1.5 "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
-       font-variant-numeric:tabular-nums}
-  .wrap{max-width:760px; margin:0 auto; padding:16px 15px 96px}
+  body{margin:0; background:var(--paper); color:var(--ink);
+       font:400 16px/1.5 "Inter Tight", system-ui, -apple-system, "Segoe UI", sans-serif;
+       font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1}
+  .wrap{max-width:900px; margin:0 auto; padding:14px 16px 96px}
   a{color:inherit}
 
-  header{display:flex; justify-content:space-between; align-items:baseline; gap:10px}
-  h1{font-size:20px; font-weight:800; letter-spacing:-.03em; margin:0}
-  .stamp{font-size:12px; color:var(--soft)}
-  .lede{color:var(--soft); font-size:14px; margin:6px 0 0; max-width:60ch}
+  /* masthead */
+  header{display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
+         padding-bottom:9px}
+  h1{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:34px;
+     line-height:1; letter-spacing:-.01em; margin:0; display:flex; align-items:center; gap:10px}
+  .mark{width:30px; height:30px; flex:none; overflow:visible;
+        stroke:currentColor; stroke-width:2; stroke-linecap:round; fill:none}
+  .mark .dot{fill:var(--green); stroke:none}
+  .stamp{font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--soft);
+         white-space:nowrap; padding-bottom:3px}
+  .masthead-rule{height:3px; background:var(--ink); margin-bottom:9px}
+  .lede{color:var(--soft); font-size:14.5px; margin:0 0 4px; max-width:62ch}
+  .lede a{color:var(--ink); text-decoration-color:var(--rule); text-underline-offset:3px}
 
-  .controls{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--bg);
-            padding:12px 0 8px; margin-top:12px; border-bottom:1px solid var(--rule)}
-  .chips{display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; -webkit-overflow-scrolling:touch}
-  .chip{white-space:nowrap; border:1px solid var(--rule); background:none; color:var(--soft);
-        border-radius:999px; padding:6px 12px; font:inherit; font-size:13px; font-weight:600; cursor:pointer}
-  .chip[aria-pressed="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink)}
-  .filters{display:flex; gap:10px; align-items:center; margin-top:8px; font-size:13px;
-           color:var(--soft); flex-wrap:wrap}
-  .filters select{padding:5px 8px; font:inherit; font-size:13px; background:var(--card);
-                  color:var(--ink); border:1px solid var(--rule); border-radius:7px; width:auto}
+  /* section tabs, as underlined words */
+  nav{display:flex; gap:22px; border-bottom:1px solid var(--rule); margin-top:14px}
+  nav button{background:none; border:0; padding:9px 0 8px; font:inherit; font-size:13px;
+             letter-spacing:.1em; text-transform:uppercase; color:var(--soft); cursor:pointer;
+             border-bottom:2px solid transparent; margin-bottom:-1px}
+  nav button[aria-current="page"]{color:var(--ink); border-bottom-color:var(--ink); font-weight:600}
+  #topnav{display:none}
+  #bottomnav{position:fixed; left:0; right:0; bottom:0; z-index:9; background:var(--paper);
+             border-top:1px solid var(--rule); border-bottom:0; margin:0;
+             padding:0 16px env(safe-area-inset-bottom,0px); justify-content:space-around}
+  #bottomnav button{padding:13px 0 12px}
 
-  h2{font-size:13px; font-weight:800; margin:22px 0 8px; display:flex;
-     justify-content:space-between; align-items:baseline; gap:10px}
-  h2 span{font-weight:500; color:var(--soft); font-size:12px}
-  h3{font-size:12px; font-weight:700; color:var(--soft); letter-spacing:.04em;
-     text-transform:uppercase; margin:14px 0 7px; display:flex; gap:8px; align-items:baseline}
-  h3 span{font-weight:500; text-transform:none; letter-spacing:0; opacity:.75}
+  /* filter bar */
+  .controls{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--paper);
+            border-bottom:1px solid var(--rule); padding:9px 0}
+  .chips{display:flex; gap:14px; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:2px}
+  .chip{white-space:nowrap; border:0; background:none; padding:2px 0; font:inherit; font-size:13px;
+        color:var(--soft); cursor:pointer; border-bottom:2px solid transparent}
+  .chip[aria-pressed="true"]{color:var(--ink); font-weight:600; border-bottom-color:var(--green)}
+  .filters{display:flex; gap:8px 16px; align-items:center; margin-top:8px; flex-wrap:wrap;
+           font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft)}
+  .filters select{font:inherit; font-size:12px; letter-spacing:0; text-transform:none;
+                  background:none; color:var(--ink); border:0; border-bottom:1px solid var(--rule);
+                  padding:2px 14px 2px 2px; border-radius:0; width:auto; cursor:pointer}
 
-  .bet{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:12px;
-       margin-bottom:8px; display:flex; flex-direction:column}
-  .bet .top{display:flex; justify-content:space-between; gap:12px; align-items:flex-start}
-  .pickname{font-weight:700; line-height:1.25}
-  .fixture{font-size:12.5px; color:var(--soft); margin-top:2px}
-  .edge{font-size:21px; font-weight:800; letter-spacing:-.02em; white-space:nowrap; color:var(--soft)}
+  /* headings */
+  h2{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:23px;
+     margin:26px 0 0; display:flex; justify-content:space-between; align-items:baseline; gap:12px;
+     border-bottom:1px solid var(--ink); padding-bottom:5px}
+  h2 span{font-family:"Inter Tight", sans-serif; font-size:11px; letter-spacing:.08em;
+          text-transform:uppercase; color:var(--soft)}
+  h3{font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--soft);
+     font-weight:600; margin:16px 0 0; padding-bottom:4px; border-bottom:1px solid var(--hair);
+     display:flex; justify-content:space-between}
+  h3 span{letter-spacing:.08em}
+
+  /* the form line: one bet, one row */
+  .bet{display:grid; grid-template-columns:1fr auto auto; gap:2px 14px;
+       padding:11px 0 10px; border-bottom:1px solid var(--hair); align-items:baseline}
+  .bet:hover{background:var(--wash)}
+  .pickname{font-weight:600; font-size:16px; line-height:1.25; grid-column:1}
+  .edge{grid-column:3; grid-row:1 / span 2; align-self:center; text-align:right;
+        font-size:21px; font-weight:700; letter-spacing:-.01em; color:var(--soft); min-width:62px}
   .edge.strong{color:var(--green)} .edge.fair{color:var(--amber)}
-  .prices{display:flex; gap:16px; margin-top:10px; align-items:flex-end}
-  .prices .n{font-size:18px; font-weight:700; line-height:1.1}
-  .prices .n.sub{font-weight:500; color:var(--soft)}
-  .prices .l{font-size:11px; color:var(--soft)}
-  .foot{display:flex; justify-content:space-between; align-items:center; gap:10px;
-        margin-top:auto; padding-top:11px; border-top:1px solid var(--rule)}
-  .bet .foot{margin-top:11px}
-  .book{font-size:13px; font-weight:600}
-  .go{background:var(--ink); color:var(--bg); border:0; border-radius:8px; padding:8px 14px;
-      font:inherit; font-size:13px; font-weight:700; text-decoration:none; display:inline-block}
-  .locked{background:var(--dim); border-style:dashed}
-  .locked .pickname,.locked .prices .n{filter:blur(4px); user-select:none}
-  .lockmsg{font-size:12.5px; color:var(--soft)}
+  .prices{grid-column:2; grid-row:1 / span 2; align-self:center; text-align:right; white-space:nowrap}
+  .prices b{font-size:19px; font-weight:700; letter-spacing:-.01em}
+  .prices i{font-style:normal; font-size:13px; color:var(--soft); margin-left:7px}
+  .fixture{grid-column:1; font-size:13px; color:var(--soft)}
+  .foot{grid-column:1 / -1; display:flex; justify-content:space-between; align-items:baseline;
+        gap:12px; margin-top:6px; flex-wrap:wrap}
+  .book{font-size:13px}
+  .book b{font-weight:600}
+  .also{color:var(--soft); font-size:12.5px}
+  .go{font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:600;
+      text-decoration:none; color:var(--ink); border-bottom:2px solid var(--green);
+      padding-bottom:2px; white-space:nowrap}
+  .go:hover{color:var(--green)}
+  .locked .pickname,.locked .prices b{filter:blur(4px); user-select:none}
+  .lockmsg{font-size:12px; color:var(--soft); text-transform:uppercase; letter-spacing:.08em}
 
-  .notice{background:var(--dim); border:1px solid var(--rule); border-radius:10px; padding:11px 12px;
-          font-size:13px; color:var(--soft); margin-bottom:10px}
-  .notice strong{color:var(--ink)}
-  .panel{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:13px; margin-bottom:10px}
-  .panel p{margin:0 0 9px; font-size:13.5px; color:var(--soft)}
-  .panel p:last-child{margin-bottom:0}
-  .line{display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid var(--rule)}
-  .line:last-child{border-bottom:0}
-  .line .k{color:var(--soft); font-size:13px}
-  .line .v{font-weight:700}
-  .up{color:var(--green)} .down{color:var(--red)}
-  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
-  .stat{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:12px}
-  .stat .n{font-size:24px; font-weight:800; letter-spacing:-.02em}
-  .stat .l{font-size:12px; color:var(--soft); margin-top:2px}
-
-  label{display:block; font-size:12px; color:var(--soft); margin-bottom:4px}
-  input[type=email],input[type=number],select,textarea{width:100%; padding:9px 10px; font:inherit;
-    font-size:15px; color:var(--ink); background:var(--bg); border:1px solid var(--rule); border-radius:8px}
-  textarea{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; min-height:110px}
-  .checks{display:flex; flex-wrap:wrap; gap:7px}
-  .checks label{display:flex; align-items:center; gap:6px; font-size:13px; color:var(--ink);
-                border:1px solid var(--rule); border-radius:999px; padding:6px 11px; margin:0; cursor:pointer}
-  .btn{background:var(--ink); color:var(--bg); border:0; border-radius:8px; padding:9px 14px;
-       font:inherit; font-size:13px; font-weight:700; cursor:pointer}
-  .btn.line{background:none; color:var(--ink); border:1px solid var(--rule)}
-  .btnrow{display:flex; gap:7px; margin-top:9px; flex-wrap:wrap}
-  .msg{font-size:12.5px; color:var(--amber); margin-top:8px; min-height:1em}
-  .empty{color:var(--soft); font-size:14px; padding:20px 2px; text-align:center}
-  table{width:100%; border-collapse:collapse; font-size:13.5px}
-  th,td{text-align:right; padding:7px 4px; border-bottom:1px solid var(--rule)}
+  /* record */
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:0; border-top:1px solid var(--hair); margin-top:12px}
+  .stat{padding:13px 0; border-bottom:1px solid var(--hair)}
+  .stat:nth-child(odd){padding-right:14px; border-right:1px solid var(--hair)}
+  .stat:nth-child(even){padding-left:14px}
+  .stat .n{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:32px;
+           line-height:1.05; letter-spacing:-.01em}
+  .stat .l{font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft); margin-top:4px}
+  table{width:100%; border-collapse:collapse; font-size:14px}
+  th,td{text-align:right; padding:8px 4px; border-bottom:1px solid var(--hair)}
   th:first-child,td:first-child{text-align:left}
-  th{font-size:11.5px; color:var(--soft); font-weight:600}
+  th{font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--soft); font-weight:600}
   .scroll{overflow-x:auto}
+  .up{color:var(--green)} .down{color:var(--red)} .good{color:var(--green)}
 
-  footer{margin-top:28px; padding-top:14px; border-top:1px solid var(--rule); font-size:12px; color:var(--soft)}
+  /* panels and forms */
+  .notice{border-left:3px solid var(--amber); background:var(--wash); padding:10px 13px;
+          font-size:13.5px; color:var(--soft); margin:12px 0}
+  .notice strong{color:var(--ink)}
+  .panel{border-top:1px solid var(--hair); padding:13px 0; margin-bottom:6px}
+  .panel p{margin:0 0 9px; font-size:14px; color:var(--soft)}
+  .panel p:last-child{margin-bottom:0}
+  .line{display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid var(--hair)}
+  .line:last-child{border-bottom:0}
+  .line .k{color:var(--soft); font-size:13.5px}
+  .line .v{font-weight:600}
+  label{display:block; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+        color:var(--soft); margin-bottom:5px}
+  input[type=email],input[type=number],select,textarea{width:100%; padding:8px 0; font:inherit;
+    font-size:15px; color:var(--ink); background:none; border:0; border-bottom:1px solid var(--rule);
+    border-radius:0}
+  textarea{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; min-height:110px;
+           border:1px solid var(--rule); padding:9px}
+  .checks{display:flex; flex-wrap:wrap; gap:6px 16px}
+  .checks label{display:flex; align-items:center; gap:7px; font-size:13.5px; letter-spacing:0;
+                text-transform:none; color:var(--ink); margin:0; cursor:pointer}
+  .btn{background:var(--ink); color:var(--paper); border:0; padding:9px 16px; font:inherit;
+       font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:600; cursor:pointer}
+  .btn.line{background:none; color:var(--ink); border:1px solid var(--rule)}
+  .btnrow{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap}
+  .msg{font-size:12.5px; color:var(--amber); margin-top:8px; min-height:1em}
+  .empty{color:var(--soft); font-size:14px; padding:26px 0; text-align:center;
+         border-bottom:1px solid var(--hair)}
+  footer{margin-top:34px; padding-top:12px; border-top:3px solid var(--ink);
+         font-size:12px; color:var(--soft)}
   footer p{margin:0 0 6px}
 
-  nav{position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--rule);
-      display:flex; padding-bottom:env(safe-area-inset-bottom,0px); z-index:9}
-  nav button{flex:1; background:none; border:0; color:var(--soft); font:inherit; font-size:13px;
-             font-weight:700; padding:13px 4px; cursor:pointer}
-  nav button[aria-current="page"]{color:var(--ink); box-shadow:inset 0 2px 0 var(--green)}
-  #topnav{display:none}
   .hidden{display:none}
   .btn:focus-visible,.chip:focus-visible,.go:focus-visible,nav button:focus-visible,
-  select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--green); outline-offset:2px}
+  select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--green); outline-offset:3px}
 
+  @media (max-width:560px){
+    h1{font-size:28px; gap:8px}
+    .mark{width:25px; height:25px}
+    .bet{grid-template-columns:1fr auto}
+    .edge{grid-column:2; grid-row:1; align-self:baseline; font-size:19px}
+    .prices{grid-column:1 / -1; grid-row:3; text-align:left; margin-top:5px}
+    .prices b{font-size:17px}
+    .fixture{grid-column:1 / -1; grid-row:2}
+  }
   @media (min-width:900px){
-    .wrap{max-width:1080px; padding:28px 28px 60px}
-    h1{font-size:26px}
-    .board-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px}
-    .bet{margin-bottom:0}
-    .chips{overflow:visible; flex-wrap:wrap}
+    .wrap{padding:22px 24px 60px}
+    h1{font-size:42px; gap:13px}
+    .mark{width:37px; height:37px}
     .grid2{grid-template-columns:repeat(4,1fr)}
-    .panel{max-width:820px}
+    .stat:nth-child(odd),.stat:nth-child(even){padding:13px 16px; border-right:1px solid var(--hair)}
+    .stat:last-child{border-right:0}
     #bottomnav{display:none}
-    #topnav{display:flex; position:static; border:1px solid var(--rule); border-radius:999px;
-            width:max-content; margin:14px 0 0; padding:3px; gap:3px}
-    #topnav button{padding:8px 22px; border-radius:999px; flex:none}
-    #topnav button[aria-current="page"]{background:var(--ink); color:var(--bg); box-shadow:none}
+    #topnav{display:flex}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1 id="brand">Over the Odds</h1>
+    <h1 id="brand"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 16h20" /><path d="M6 16v-3" /><path d="M12 16v-6" /><path d="M18 16v-11" /><circle cx="18" cy="3.6" r="1.9" class="dot" /></svg>Over the Odds</h1>
     <span class="stamp" id="stamp"></span>
   </header>
+  <div class="masthead-rule"></div>
   <p class="lede" id="lede"></p>
   <nav id="topnav"></nav>
 
@@ -186,9 +226,10 @@
     <div class="grid2" id="recStats"></div>
     <div class="panel" style="margin-top:10px">
       <p id="clvLine"></p>
-      <p>Closing line value compares the price we listed against the price the market had
-         settled on by the off. Beating it consistently is the earliest honest sign of a
-         genuine edge, since profit takes hundreds of bets to separate itself from luck.</p>
+      <p>Closing line value compares the price we published against the market's margin-free
+         consensus roughly ten minutes before the event starts. Only selections with a
+         verified snapshot from that window count toward the figure; where no reliable
+         closing price could be captured, the selection is left out rather than guessed at.</p>
     </div>
     <h2>By month</h2>
     <div class="scroll"><table id="byMonth"></table></div>
@@ -210,18 +251,12 @@
 
     <h2>Daily email</h2>
     <div class="panel">
-      <p>One email a day with anything above your threshold.</p>
-      <label for="alertEmail">Email address</label>
-      <input id="alertEmail" type="email" placeholder="you@example.com" autocomplete="email">
-      <div style="margin-top:9px">
-        <label for="alertEdge">Only tell me about value over</label>
-        <select id="alertEdge">
-          <option value="3">3%</option><option value="4">4%</option>
-          <option value="5">5%</option><option value="7">7%</option>
-        </select>
+      <p>A daily email of the biggest edges is planned but not running yet. Rather than take
+         your address and sit on it, we will put the form here when the list actually sends.</p>
+      <div class="hidden">
+        <input id="alertEmail" type="email"><select id="alertEdge"><option value="5">5%</option></select>
+        <button id="alertBtn" type="button"></button><span id="alertMsg"></span>
       </div>
-      <div class="btnrow"><button class="btn" id="alertBtn" type="button">Sign up</button></div>
-      <p class="msg" id="alertMsg"></p>
     </div>
 
     <section id="admin" hidden>
@@ -265,30 +300,47 @@
 
   var prefs = { sport:"All", minEdge:3, sort:"edge", mineOnly:false, member:false,
                 theme:null, free:FREE_SPORT, books:[], email:"", alertEdge:5, view:"board" };
-  var taken = [];
-  var feed = sample();
+  var visits = [];                       // bookmaker links opened, not bets placed
+  var feed = { updated:null, bets:[], results:[] };
+  var feedState = "loading";             // loading | live | unavailable
 
-  function save(){ try{ localStorage.setItem(KEY, JSON.stringify({prefs:prefs, taken:taken, feed:feed})); }catch(e){} }
+  function save(){ try{ localStorage.setItem(KEY, JSON.stringify({prefs:prefs, visits:visits})); }catch(e){} }
   function load(){
     try{
       var raw = localStorage.getItem(KEY); if(!raw) return;
       var s = JSON.parse(raw);
       if(s.prefs) prefs = Object.assign(prefs, s.prefs);
-      if(Array.isArray(s.taken)) taken = s.taken;
-      if(s.feed && s.feed.bets && s.feed.bets.length) feed = s.feed;
+      if(Array.isArray(s.visits)) visits = s.visits;
+      else if(Array.isArray(s.taken)) visits = s.taken;      // older saves
     }catch(e){}
   }
   function el(id){ return document.getElementById(id); }
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
     return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]; }); }
   function pctStr(n){ return (n >= 0 ? "+" : "") + n.toFixed(1) + "%"; }
+  function validate(bets){
+    var kept = [], dropped = 0;
+    (bets || []).forEach(function(b){
+      var ok = b && typeof b === "object" &&
+        b.selection && b.event && b.book &&
+        Number(b.odds) > 1 && Number(b.fair) > 1 &&
+        isFinite(Number(b.odds)) && isFinite(Number(b.fair)) &&
+        !isNaN(new Date(b.start).getTime());
+      if(ok) kept.push(b); else dropped++;
+    });
+    return { bets:kept, dropped:dropped };
+  }
+
   function edgeOf(b){
     if(typeof b.edge === "number") return b.edge;
     return (b.odds > 0 && b.fair > 0) ? (b.odds / b.fair - 1) * 100 : 0;
   }
   function band(e){ return e >= 4 ? "strong" : e >= 2 ? "fair" : ""; }
   function kickoff(b){ var t = new Date(b.start).getTime(); return isNaN(t) ? Infinity : t; }
-  function feedTime(){ var t = new Date(feed.updated).getTime(); return isNaN(t) ? Date.now() : t; }
+  function feedTime(){
+    var t = feed.updated ? new Date(feed.updated).getTime() : NaN;
+    return isNaN(t) ? null : t;
+  }
   function when(b){
     var t = kickoff(b); if(t === Infinity) return "";
     var d = new Date(t), diff = t - Date.now();
@@ -323,15 +375,38 @@
   }
 
   function renderBoard(){
-    var ageH = (Date.now() - feedTime()) / 3600000;
+    if(feedState === "loading"){
+      el("board").innerHTML = '<div class="empty">Loading today\'s prices…</div>';
+      return;
+    }
+    if(feedState === "unavailable"){
+      el("board").innerHTML = '<div class="empty">Live prices are temporarily unavailable. ' +
+        'The next sweep runs each morning.</div>';
+      return;
+    }
+    var stamp = feedTime();
+    if(stamp === null){
+      el("board").innerHTML = '<div class="notice">Price feed timestamp unavailable, so these ' +
+        'prices cannot be dated. Treat them as stale until the next sweep.</div>' +
+        '<div class="empty">Nothing shown.</div>';
+      return;
+    }
+    var ageH = (Date.now() - stamp) / 3600000;
     var waiting = ageH > MAX_FEED_AGE_H
       ? '<div class="notice">These prices are from the sweep at ' +
-        new Date(feedTime()).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) +
+        new Date(stamp).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) +
         '. The next one is due shortly.</div>' : '';
     var rows = visibleBets();
     if(!rows.length){
       el("board").innerHTML = waiting + '<div class="empty">Nothing clears that filter right now. ' +
         'Try a lower figure, or check back after the next sweep.</div>';
+      return;
+    }
+    if(prefs.sort === "time"){
+      el("board").innerHTML = waiting +
+        '<h2>Starting soonest<span>' + rows.length + ' bets</span></h2>' +
+        rows.sort(function(x,y){ return kickoff(x) - kickoff(y); })
+            .map(function(b){ return row(b, true); }).join("");
       return;
     }
     var groups = {};
@@ -361,12 +436,12 @@
           var cards = byMarket[m].sort(function(x,y){
             return prefs.sort === "time" ? kickoff(x) - kickoff(y) : edgeOf(y) - edgeOf(x); });
           return '<h3>' + esc(m) + '<span>' + cards.length + '</span></h3>' +
-                 '<div class="board-grid">' + cards.map(row).join("") + '</div>';
+                 cards.map(row).join("");
         }).join("");
     }).join("");
   }
 
-  function row(b){
+  function row(b, withSport){
     var e = edgeOf(b);
     var locked = !prefs.member && prefs.free !== "All" && b.sport !== prefs.free;
     var candidate = b.link || b.marketLink || b.bookLink || "";
@@ -374,15 +449,17 @@
     var deep = link && link !== b.bookLink;
     var mine = prefs.books.indexOf(b.book) !== -1;
     return '<div class="bet' + (locked ? " locked" : "") + '">' +
-      '<div class="top"><div>' +
-        '<div class="pickname">' + esc(locked ? "Selection hidden" : b.selection) + '</div>' +
-        '<div class="fixture">' + esc(b.event) + ' · ' + when(b) + '</div>' +
-      '</div><div class="edge ' + band(e) + '">' + e.toFixed(1) + '%</div></div>' +
-      '<div class="prices">' +
-        '<div><div class="n">' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</div><div class="l">their price</div></div>' +
-        '<div><div class="n sub">' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</div><div class="l">true price</div></div>' +
-      '</div>' +
-      '<div class="foot"><span class="book">' + esc(b.book) + (mine ? ' · yours' : '') + '</span>' +
+      '<div class="pickname">' + esc(locked ? "Selection hidden" : b.selection) + '</div>' +
+      '<div class="fixture">' + esc(b.event) + ' · ' + when(b) +
+        (withSport ? ' · ' + esc(b.sport || "") : '') + '</div>' +
+      '<div class="prices"><b>' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</b>' +
+        '<i>v ' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</i></div>' +
+      '<div class="edge ' + band(e) + '">' + e.toFixed(1) + '%</div>' +
+      '<div class="foot"><span class="book"><b>' + esc(b.book) + '</b>' + (mine ? ' · yours' : '') +
+        (b.also && b.also.length ? '<span class="also">' + b.also.map(function(a){
+            return a && a.book ? esc(a.book) + " " + Number(a.odds).toFixed(2) : esc(a);
+          }).join(" · ") + ' · fair ' + Number(b.fair).toFixed(2) + '</span>' : '') +
+      '</span>' +
         (locked ? '<span class="lockmsg">Members only</span>'
           : (link ? '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener noreferrer" ' +
                     'data-book="' + esc(b.book) + '">' + (deep ? "Go to bet" : "Open bookmaker") + '</a>'
@@ -392,7 +469,7 @@
 
   function spreadCounts(days){
     var since = Date.now() - days*864e5, counts = {}, total = 0;
-    taken.forEach(function(t){ if(t.ts > since){ counts[t.book] = (counts[t.book]||0)+1; total++; } });
+    visits.forEach(function(t){ if(t.ts > since){ counts[t.book] = (counts[t.book]||0)+1; total++; } });
     return { counts:counts, total:total };
   }
   function renderSpread(){
@@ -401,23 +478,24 @@
     var top = Object.keys(s.counts).sort(function(a,b){ return s.counts[b]-s.counts[a]; })[0];
     var share = s.counts[top] / s.total;
     el("spread").innerHTML = share > 0.5
-      ? '<div class="notice"><strong>' + esc(top) + '</strong> has taken ' + Math.round(share*100) +
-        '% of your bets this week. Firms restrict accounts that only ever back the right side, ' +
-        'so put the next few on elsewhere.</div>' : "";
+      ? '<div class="notice">You have opened <strong>' + esc(top) + '</strong> for ' +
+        Math.round(share*100) + '% of the bets you followed this week. Firms restrict accounts ' +
+        'that only ever back the right side, so it is worth spreading the next few about.</div>' : "";
   }
   function renderSpreadPanel(){
     var s = spreadCounts(30);
     var list = Object.keys(s.counts).sort(function(a,b){ return s.counts[b]-s.counts[a]; });
     el("spreadPanel").innerHTML =
-      '<p>Where your bets have gone over the last 30 days. Spreading them about keeps accounts ' +
-      'open far longer than hammering whichever firm is pricing loosest.</p>' +
+      '<p>Which bookmakers you have opened from the board over the last 30 days. These are link ' +
+      'clicks rather than confirmed bets, so treat them as a rough guide.</p>' +
       (list.length
         ? list.map(function(b){
             return '<div class="line"><span class="k">' + esc(b) + '</span><span class="v">' +
-              s.counts[b] + ' bets</span></div>'; }).join("")
+              s.counts[b] + ' opened</span></div>'; }).join("")
         : '<div class="empty">Nothing logged yet. Tapping through to a bet records it here.</div>') +
-      '<p style="margin-top:10px">Round your stakes as well. A £25 or a £50 looks like a punter; ' +
-      '£43.27 looks like someone with a spreadsheet, and that is what gets you noticed.</p>';
+      '<p style="margin-top:10px">Bookmakers sometimes restrict or close accounts, ' +
+      'particularly where a customer\'s betting is consistently unprofitable for them. ' +
+      'Holding accounts with several firms means one restriction costs you less.</p>';
   }
 
   function results(){ return (feed.results || []).slice(); }
@@ -464,9 +542,13 @@
       stat(pctStr(s.roi), "return at level stakes", s.roi >= 0 ? "up" : "down") +
       stat(s.strike.toFixed(0) + "%", "strike rate") +
       stat(pctStr(s.clv), "average closing line value", s.clv >= 0 ? "up" : "down");
+    var confidence = s.n < 100 ? "far too few to read anything into"
+                   : s.n < 400 ? "enough to be suggestive, not enough to be sure"
+                   : "a reasonable sample";
     el("clvLine").innerHTML = '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
-      '% of selections beat the closing price.</strong> Above 55% points to a genuine edge; ' +
-      'below 50% means the board is finding noise rather than value.';
+      '% of selections beat the closing price</strong>, from ' + s.n + ' settled selections — ' +
+      confidence + '. Consistently beating the close is what an edge looks like before it ' +
+      'shows up as profit; consistently missing it means the board is finding noise.';
 
     var months = {}, sports = {};
     list.forEach(function(r){
@@ -502,13 +584,24 @@
     el("bottomnav").innerHTML = html; el("topnav").innerHTML = html;
   }
   function renderStamp(){
-    var base = feedTime(), ageH = (Date.now() - base) / 3600000;
-    el("stamp").textContent = "Priced " +
-      new Date(base).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) +
-      (ageH > 1 ? " · " + Math.round(ageH) + "h ago" : "");
-    el("lede").textContent = "Every day we compare each UK bookmaker against what the whole " +
-      "market says a price should be." +
-      (prefs.free === "All" ? " Free, every sport." : " " + prefs.free + " is free; the rest is for members.");
+    var base = feedTime();
+    if(feedState === "loading"){ el("stamp").textContent = "Loading…"; }
+    else if(feedState === "unavailable"){ el("stamp").textContent = "Feed unavailable"; }
+    else if(base === null){ el("stamp").textContent = "Timestamp unavailable"; }
+    else {
+      var ageH = (Date.now() - base) / 3600000;
+      var checked = feed.scanned && feed.scanned.selections
+        ? feed.scanned.selections + " prices checked · " : "";
+      el("stamp").textContent =
+        new Date(base).toLocaleDateString([], {day:"numeric", month:"short"}) + " · " +
+        new Date(base).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) + " · " +
+        checked + (feed.bets ? feed.bets.length : 0) + " bets" +
+        (ageH > 14 ? " · overdue" : "");
+    }
+    el("lede").innerHTML = "Every day we compare each UK bookmaker against what the whole market " +
+      "says a price should be." +
+      (prefs.free === "All" ? " Free, every sport." : " " + esc(prefs.free) + " is free; the rest is for members.") +
+      ' <a href="/how-it-works.html">How this works</a>';
   }
   function show(view){
     prefs.view = view;
@@ -535,8 +628,8 @@
     if(chip){ prefs.sport = chip.getAttribute("data-sport"); save(); renderChips(); renderBoard(); return; }
     var go = t.closest("a.go");
     if(go){
-      taken.push({ book:go.getAttribute("data-book"), ts:Date.now() });
-      if(taken.length > 400) taken = taken.slice(-400);
+      visits.push({ book:go.getAttribute("data-book"), ts:Date.now() });
+      if(visits.length > 400) visits = visits.slice(-400);
       save(); renderSpread(); return;
     }
   });
@@ -575,18 +668,24 @@
   el("loadBtn").onclick = function(){
     try{
       var incoming = JSON.parse(el("feedBox").value);
-      if(!incoming || !Array.isArray(incoming.bets) || !incoming.bets.length) throw new Error("no bets");
+      if(!incoming || !Array.isArray(incoming.bets)) throw new Error("no bets");
+      var checked = validate(incoming.bets);
       feed = { updated: incoming.updated || new Date().toISOString(),
-               bets: incoming.bets, results: incoming.results || [] };
-      save(); renderAll(); renderRecord();
-      el("msg").textContent = incoming.bets.length + " bets and " +
-        (incoming.results ? incoming.results.length : 0) + " results loaded.";
+               bets: checked.bets, results: incoming.results || [],
+               scanned: incoming.scanned || null };
+      feedState = "live";
+      renderAll(); renderRecord();
+      el("msg").textContent = checked.bets.length + " bets and " +
+        (incoming.results ? incoming.results.length : 0) + " results loaded" +
+        (checked.dropped ? ", " + checked.dropped + " malformed records ignored" : "") + ".";
     }catch(err){
       el("msg").textContent = "That didn't parse. Send the whole object with a bets array.";
     }
   };
-  el("sampleBtn").onclick = function(){ feed = sample(); save(); renderAll(); renderRecord();
-    el("msg").textContent = "Sample restored."; };
+  el("sampleBtn").onclick = function(){
+    var demo = sample(); feed = { updated:demo.updated, bets:demo.bets, results:demo.results };
+    feedState = "live"; renderAll(); renderRecord();
+    el("msg").textContent = "Demo data loaded into this browser only. Reload to return to live prices."; };
   el("copyBtn").onclick = function(){ el("feedBox").value = JSON.stringify(feed, null, 1);
     el("feedBox").select(); el("msg").textContent = "Current feed shown above."; };
   el("freePick").onchange = function(){ prefs.free = this.value; save(); renderAll(); };
@@ -643,17 +742,26 @@
   renderAll();
   show(prefs.view || "board");
 
-  // On the live site this picks up the file the scanner writes. Locally it just fails
-  // quietly and the sample stays.
+  // The live feed. Nothing is shown until it arrives, and if it fails we say so
+  // rather than quietly showing yesterday's or invented prices.
   fetch("feed.json", { cache:"no-store" })
-    .then(function(r){ return r.ok ? r.json() : Promise.reject(); })
+    .then(function(r){ return r.ok ? r.json() : Promise.reject(new Error("no feed")); })
     .then(function(data){
-      if(!data || !Array.isArray(data.bets)) return;
-      feed = { updated:data.updated || new Date().toISOString(),
-               bets:data.bets, results:data.results || [] };
-      save(); renderAll(); if(prefs.view === "record") renderRecord();
+      if(!data || !Array.isArray(data.bets)) throw new Error("malformed");
+      var checked = validate(data.bets);
+      feed = { updated:data.updated || null, bets:checked.bets,
+               results:Array.isArray(data.results) ? data.results : [],
+               scanned:data.scanned || null };
+      feedState = "live";
+      if(checked.dropped) console.warn(checked.dropped + " malformed records ignored");
+      renderAll();
+      if(prefs.view === "record") renderRecord();
     })
-    .catch(function(){});
+    .catch(function(){
+      feedState = "unavailable";
+      renderAll();
+    });
+
 })();
 </script>
 </body>
