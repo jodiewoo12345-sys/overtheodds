@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 12: wider coverage on the paid tier]
+sweep.py — build the board.   [version 13: markets actually requested, and reported]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -100,13 +100,26 @@ def active_sports():
 def fetch_odds(sport):
     r = requests.get(
         f"{API}/sports/{sport}/odds",
-        params={"apiKey": KEY, "regions": "uk", "markets": "h2h",
+        params={"apiKey": KEY, "regions": "uk", "markets": ",".join(MARKETS),
                 "oddsFormat": "decimal", "includeLinks": "true"},
         timeout=25,
     )
     r.raise_for_status()
-    print(f"  {sport}: {r.headers.get('x-requests-remaining')} credits left")
-    return r.json()
+    events = r.json()
+
+    # Report what came back against what was asked for. A sport that only returns
+    # h2h when three markets were requested is either out of scope for totals and
+    # handicaps or unavailable on this plan, and it should be visible rather than
+    # quietly producing an empty board section.
+    returned = {}
+    for ev in events:
+        for bm in ev.get("bookmakers", []):
+            for m in bm.get("markets", []):
+                returned[m["key"]] = returned.get(m["key"], 0) + 1
+    missing = [m for m in MARKETS if m not in returned]
+    print(f"  {sport}: {r.headers.get('x-requests-remaining')} credits left"
+          + (f", no {'/'.join(missing)} returned" if missing else ""))
+    return events
 
 
 def devig(prices):
