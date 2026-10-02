@@ -133,11 +133,16 @@ def main():
         verified = bool(pick.get("close_final"))
         results.append({
             "sport": pick["sport"],
+            "league": pick.get("sport_key", ""),
             "market": pick.get("market", "Match odds"),
             "date": pick["start"][:10],
+            "detected": pick.get("detected", ""),
             "selection": pick["selection"],
             "book": pick["book"],
             "odds": pick["odds"],
+            "fair": pick.get("fair", 0),
+            "edge": pick.get("edge", 0),
+            "books": pick.get("books", 0),
             "close": pick.get("close", 0) if verified else 0,
             "close_books": pick.get("close_books", 0) if verified else 0,
             "close_minutes": pick.get("close_minutes_before") if verified else None,
