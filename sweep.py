@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 8: closing prices handled by close.py]
+sweep.py — build the board.   [version 9: totals compared line by line]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -92,29 +92,36 @@ def consensus(event):
     For each market and selection, collect every bookmaker's margin-free view.
     Returns {(market_key, selection): {book: probability}}.
 
-    Bookmakers are only compared with others offering the same set of outcomes at
-    the same line. One firm pricing over 2.5 goals and another over 3.5 are not the
-    same bet, and mixing them would invent value that isn't there.
+    Totals and handicaps are grouped by their line, not by the market as a whole.
+    Over 2.5 at one firm and over 3.5 at another are different bets, so each line
+    is priced against the firms offering that same line. Without this, a market
+    where bookmakers disagree about the main line produces no comparable prices
+    at all, which is what was quietly happening to every totals market.
     """
-    per_market = {}
+    groups = {}          # (market_key, line) -> [(book, {selection: price})]
     for book in event.get("bookmakers", []):
         for market in book.get("markets", []):
             if market["key"] not in MARKETS:
                 continue
-            prices = {}
+            lines = {}
             for o in market.get("outcomes", []):
-                if o.get("price", 0) > 1:
-                    prices[label_for(market["key"], o)] = o["price"]
-            if len(prices) >= 2:
-                per_market.setdefault(market["key"], []).append((book["key"], prices))
+                if not o.get("price", 0) > 1:
+                    continue
+                point = o.get("point")
+                # handicaps mirror: -1.5 and +1.5 are the same line
+                line = None if point is None else abs(float(point))
+                lines.setdefault(line, {})[label_for(market["key"], o)] = o["price"]
+            for line, prices in lines.items():
+                if len(prices) >= 2:
+                    groups.setdefault((market["key"], line), []).append((book["key"], prices))
 
     views = {}
-    for market_key, books in per_market.items():
+    for (market_key, _line), books in groups.items():
         shapes = {}
         for _, prices in books:
             shape = tuple(sorted(prices))
             shapes[shape] = shapes.get(shape, 0) + 1
-        standard = max(shapes, key=shapes.get)      # the line most firms agree on
+        standard = max(shapes, key=shapes.get)
         for book_key, prices in books:
             if tuple(sorted(prices)) != standard:
                 continue
@@ -147,7 +154,7 @@ def link_for(event, book_key, market_key, selection):
     return ""
 
 
-scanned = {"events": 0, "selections": 0, "sports": 0}
+scanned = {"events": 0, "selections": 0, "sports": 0, "by_market": {}}
 
 
 def find_value(events, sport_label, sport_key):
@@ -166,6 +173,7 @@ def find_value(events, sport_label, sport_key):
             if len(by_book) < MIN_BOOKS:
                 continue
             scanned["selections"] += 1
+            scanned["by_market"][market_key] = scanned["by_market"].get(market_key, 0) + 1
             # the whole market's view, used later as the closing price
             whole = statistics.median(list(by_book.values()))
             if 0 < whole < 1:
@@ -308,9 +316,14 @@ def main():
     }
     (OUT / "feed.json").write_text(json.dumps(feed, indent=1))
     (OUT / "picks.json").write_text(json.dumps(picks, indent=1))
+    per_market = ", ".join(f"{k}: {v}" for k, v in sorted(scanned["by_market"].items()))
+    found_per_market = {}
+    for b in bets:
+        found_per_market[b["market_key"]] = found_per_market.get(b["market_key"], 0) + 1
     print(f"{len(bets)} bets written, {len(picks)} picks tracked, "
-          f"{refreshed} closing prices refreshed, "
-          f"{scanned['selections']} selections across {scanned['events']} events")
+          f"{refreshed} prices refreshed")
+    print(f"  priced: {per_market}")
+    print(f"  qualifying: {found_per_market or 'none'}")
 
 
 if __name__ == "__main__":
