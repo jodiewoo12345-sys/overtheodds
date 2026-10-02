@@ -227,6 +227,7 @@
     <div class="grid2" id="recStats"></div>
     <div class="panel" style="margin-top:10px">
       <p id="clvLine"></p>
+      <p id="captureLine" style="font-size:13px"></p>
       <p>Closing line value compares the price we published against the market's margin-free
          consensus roughly ten minutes before the event starts. Only selections with a
          verified snapshot from that window count toward the figure; where no reliable
@@ -540,6 +541,19 @@
     var confidence = s.n < 100 ? "far too few to read anything into"
                    : s.n < 400 ? "enough to be suggestive, not enough to be sure"
                    : "a reasonable sample";
+    var withClose = list.filter(function(r){ return r.close > 0; }).length;
+    var failures = {};
+    list.forEach(function(r){
+      var st = r.close_status || (r.close > 0 ? "final" : "unknown");
+      if(st !== "final") failures[st] = (failures[st] || 0) + 1;
+    });
+    var failText = Object.keys(failures).map(function(k){
+      return failures[k] + " " + k.replace(/_/g, " ");
+    }).join(", ");
+    el("captureLine").innerHTML = withClose + " of " + list.length +
+      ' selections have a verified closing snapshot' +
+      (failText ? ' · ' + esc(failText) : '') + '.';
+
     el("clvLine").innerHTML = '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
       '% of selections beat the closing price</strong>, from ' + s.n + ' settled selections — ' +
       confidence + '. Consistently beating the close is what an edge looks like before it ' +
