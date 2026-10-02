@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 10: full recommendation record]
+sweep.py — build the board.   [version 10: full recommendation record, model stamped]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -32,6 +32,11 @@ MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 # is 2 credits. Add "spreads" when you can afford 3.
 MARKETS = tuple(k.strip() for k in os.getenv("MARKETS", "h2h,totals").split(",") if k.strip())
 MARKET_NAMES = {"h2h": "Match odds", "totals": "Totals", "spreads": "Handicap"}
+
+# Stamped onto every recommendation. Bump this whenever the pricing method, the
+# minimum book count, the market set or the competition list changes, so later
+# analysis can compare configurations instead of mixing them into one soup.
+MODEL_VERSION = os.getenv("MODEL_VERSION", "v10")
 MAX_ODDS = float(os.getenv("MAX_ODDS", 6.0))       # long shots carry huge margin: consensus is meaningless
 MAX_EDGE = float(os.getenv("MAX_EDGE", 12.0))       # anything above this is a data artefact, not value
 
@@ -298,6 +303,10 @@ def main():
             "books": b.get("books", 0),             # how many firms the consensus rested on
             "detected": datetime.now(timezone.utc).isoformat(),
             "first_seen": datetime.now(timezone.utc).isoformat(),
+            "model_version": MODEL_VERSION,
+            "config": {"min_edge": MIN_EDGE, "min_books": MIN_BOOKS,
+                       "max_odds": MAX_ODDS, "markets": list(MARKETS)},
+            "close_status": "pending",
         })
 
     # Keep a running market price on every pick still waiting. This is useful for
