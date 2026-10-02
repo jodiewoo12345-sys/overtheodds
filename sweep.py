@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 11: model and config stamped separately]
+sweep.py — build the board.   [version 12: wider coverage on the paid tier]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -30,7 +30,7 @@ MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 
 # Which markets to scan. Each one costs a credit per sport per run, so h2h + totals
 # is 2 credits. Add "spreads" when you can afford 3.
-MARKETS = tuple(k.strip() for k in os.getenv("MARKETS", "h2h,totals").split(",") if k.strip())
+MARKETS = tuple(k.strip() for k in os.getenv("MARKETS", "h2h,totals,spreads").split(",") if k.strip())
 
 
 def scanner_config():
@@ -59,10 +59,32 @@ EXCHANGES = tuple(k.strip() for k in os.getenv(
     "EXCHANGES", "betfair_ex_uk,betfair_ex_au,betfair_ex_eu,matchbook,smarkets,betdaq"
 ).split(",") if k.strip())
 SPORT_PREFIXES = tuple(os.getenv(
-    # Four heavily priced competitions. The consensus is most trustworthy where the
-    # most firms are watching, and this fits inside the free API tier.
+    # Competitions where enough UK firms price the same markets for a consensus to
+    # mean something. Heavily priced leagues first, then the rest of the big five,
+    # then sports with reliable settlement.
     "SPORT_PREFIXES",
-    "soccer_epl,soccer_uefa_champs_league,tennis_atp,basketball_nba"
+    "soccer_epl,"
+    "soccer_efl_champ,"
+    "soccer_england_league1,"
+    "soccer_england_efl_cup,"
+    "soccer_fa_cup,"
+    "soccer_uefa_champs_league,"
+    "soccer_uefa_europa,"
+    "soccer_spain_la_liga,"
+    "soccer_italy_serie_a,"
+    "soccer_germany_bundesliga,"
+    "soccer_france_ligue_one,"
+    "soccer_netherlands_eredivisie,"
+    "soccer_portugal_primeira_liga,"
+    "soccer_spl,"
+    "tennis_atp,"
+    "tennis_wta,"
+    "basketball_nba,"
+    "icehockey_nhl,"
+    "americanfootball_nfl,"
+    "cricket,"
+    "darts,"
+    "snooker"
 ).split(","))
 
 

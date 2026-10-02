@@ -1,22 +1,23 @@
-name: Update board
+name: Closing prices
 
-# Two sweeps a day. 06:00 UTC catches overnight prices before the day's events,
-# 11:00 refreshes before the afternoon and evening cards.
+# Every quarter of an hour, freeze the closing price for any selection about to
+# start. Most runs do nothing and cost nothing: the script only calls the API when
+# a published bet is inside the T-16 to T-4 window, and stops once it has spent
+# its daily credit budget.
 on:
   schedule:
-    - cron: "0 6 * * *"
-    - cron: "0 11 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: board-writes          # never collide with the closing-price job
+  group: board-writes          # never collide with the daily sweep
   cancel-in-progress: false
 
 jobs:
-  update:
+  close:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,17 +28,11 @@ jobs:
 
       - run: pip install requests
 
-      - name: Settle finished picks
-        continue-on-error: true
+      - name: Freeze closing prices
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python settle.py
-
-      # Thresholds live in sweep.py's defaults; scanner_config records whatever ran.
-      - name: Sweep for value
-        env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python sweep.py
+          CLOSE_DAILY_CREDITS: "240"    # ceiling on what this job may spend per day
+        run: python close.py
 
       - name: Publish
         run: |
@@ -46,5 +41,5 @@ jobs:
           git pull --rebase --autostash
           git add -A
           git diff --staged --quiet && echo "Nothing changed" && exit 0
-          git commit -m "Board update $(date -u '+%Y-%m-%d %H:%M')"
+          git commit -m "Closing prices $(date -u '+%Y-%m-%d %H:%M')"
           git push
