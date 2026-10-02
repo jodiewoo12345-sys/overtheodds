@@ -150,7 +150,8 @@
     border-radius:0}
   textarea{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; min-height:110px;
            border:1px solid var(--rule); padding:9px}
-  .checks{display:flex; flex-wrap:wrap; gap:6px 16px}
+  .checks{display:grid; grid-template-columns:1fr 1fr; gap:7px 18px}
+  @media (min-width:700px){ .checks{grid-template-columns:repeat(3,1fr)} }
   .checks label{display:flex; align-items:center; gap:7px; font-size:13.5px; letter-spacing:0;
                 text-transform:none; color:var(--ink); margin:0; cursor:pointer}
   .btn{background:var(--ink); color:var(--paper); border:0; padding:9px 16px; font:inherit;
@@ -241,8 +242,8 @@
   <section id="view-yours" class="hidden">
     <h2>Bookmakers you hold</h2>
     <div class="panel">
-      <p>Tick the firms you hold an account with and the board will show only the bets you
-         can actually have.</p>
+      <p>Tick the firms you hold an account with, then the My bookmakers filter on the board
+         shows only the bets you can actually have.</p>
       <div class="checks" id="bookChecks"></div>
     </div>
 
@@ -259,24 +260,7 @@
       </div>
     </div>
 
-    <section id="admin" hidden>
-      <h2>Feed <span>only you see this</span></h2>
-      <div class="panel">
-        <p>Paste the JSON your scanner produces. Bets need sport, event, start, selection,
-           book, odds, fair and link. Results need sport, date, selection, book, odds,
-           close and won.</p>
-        <textarea id="feedBox" spellcheck="false"></textarea>
-        <div class="btnrow">
-          <button class="btn" id="loadBtn" type="button">Load feed</button>
-          <button class="btn line" id="sampleBtn" type="button">Restore sample</button>
-          <button class="btn line" id="copyBtn" type="button">Show current feed</button>
-        </div>
-        <p style="margin-top:10px">Free sport
-          <select id="freePick" style="width:auto; display:inline-block"></select>
-        </p>
-        <p class="msg" id="msg"></p>
-      </div>
-    </section>
+    <div id="adminSlot"></div>
   </section>
 
   <footer>
@@ -297,6 +281,12 @@
   var FREE_SPORT = "All";
   var MAX_FEED_AGE_H = 12;
   var VIEWS = [["board","Board"],["record","Record"],["yours","Yours"]];
+  // The firms a UK punter might hold, so the list is useful on a quiet day.
+  var UK_BOOKS = ["888sport","Bet365","BetVictor","Betfair Sportsbook","Betfred","Betway",
+    "BoyleSports","Casumo","Coral","Grosvenor","Ladbrokes","LeoVegas","LiveScore Bet",
+    "Paddy Power","Parimatch","Sky Bet","Spreadex","Unibet","Virgin Bet","William Hill"];
+  // Exchanges are used in the pricing but never listed as a bet, so they don't belong here.
+  var EXCHANGES = ["Betfair","Matchbook","Smarkets","Betdaq","Betfair Exchange"];
 
   var prefs = { sport:"All", minEdge:3, sort:"edge", mineOnly:false, member:false,
                 theme:null, free:FREE_SPORT, books:[], email:"", alertEdge:5, view:"board" };
@@ -352,9 +342,11 @@
   }
   function books(){
     var set = {};
-    feed.bets.forEach(function(b){ set[b.book] = true; });
-    (feed.results || []).forEach(function(r){ set[r.book] = true; });
-    return Object.keys(set).sort();
+    UK_BOOKS.forEach(function(b){ set[b] = true; });
+    (feed.bets || []).forEach(function(b){ if(b.book) set[b.book] = true; });
+    (feed.results || []).forEach(function(r){ if(r.book) set[r.book] = true; });
+    EXCHANGES.forEach(function(x){ delete set[x]; });
+    return Object.keys(set).sort(function(a,b){ return a.localeCompare(b); });
   }
 
   function renderChips(){
@@ -469,7 +461,10 @@
 
   function spreadCounts(days){
     var since = Date.now() - days*864e5, counts = {}, total = 0;
-    visits.forEach(function(t){ if(t.ts > since){ counts[t.book] = (counts[t.book]||0)+1; total++; } });
+    visits.forEach(function(t){
+      if(t.ts <= since || EXCHANGES.indexOf(t.book) !== -1) return;   // exchanges aren't accounts
+      counts[t.book] = (counts[t.book]||0)+1; total++;
+    });
     return { counts:counts, total:total };
   }
   function renderSpread(){
@@ -615,8 +610,10 @@
     el("minEdge").value = String(prefs.minEdge);
     el("sortBy").value = prefs.sort;
     el("mineBtn").setAttribute("aria-pressed", String(prefs.mineOnly));
-    el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(s){
-      return '<option' + (s === prefs.free ? ' selected' : '') + '>' + esc(s) + '</option>'; }).join("");
+    if(el("freePick")){
+      el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(x){
+        return '<option' + (x === prefs.free ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join("");
+    }
   }
 
   document.addEventListener("click", function(e){
@@ -665,6 +662,7 @@
   };
   el("alertEdge").onchange = function(){ prefs.alertEdge = parseFloat(this.value) || 5; save(); };
 
+  function wireAdmin(){
   el("loadBtn").onclick = function(){
     try{
       var incoming = JSON.parse(el("feedBox").value);
@@ -689,8 +687,25 @@
   el("copyBtn").onclick = function(){ el("feedBox").value = JSON.stringify(feed, null, 1);
     el("feedBox").select(); el("msg").textContent = "Current feed shown above."; };
   el("freePick").onchange = function(){ prefs.free = this.value; save(); renderAll(); };
+  el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(x){
+    return '<option' + (x === prefs.free ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join("");
+  }
 
-  function showAdmin(){ el("admin").hidden = false; }
+  function showAdmin(){
+    if(el("admin")) return;
+    el("adminSlot").innerHTML =
+      '<section id="admin"><h2>Feed<span>local only</span></h2><div class="panel">' +
+      '<p>Paste a scanner feed to preview it in this browser. Nothing here touches the live site.</p>' +
+      '<textarea id="feedBox" spellcheck="false"></textarea>' +
+      '<div class="btnrow">' +
+        '<button class="btn" id="loadBtn" type="button">Load feed</button>' +
+        '<button class="btn line" id="sampleBtn" type="button">Demo data</button>' +
+        '<button class="btn line" id="copyBtn" type="button">Show current feed</button>' +
+      '</div>' +
+      '<p style="margin-top:10px">Free sport <select id="freePick"></select></p>' +
+      '<p class="msg" id="msg"></p></div></section>';
+    wireAdmin();
+  }
   if(/admin/i.test(location.hash) || /admin=1/i.test(location.search)) showAdmin();
   var taps = 0, tapTimer = null;
   el("brand").addEventListener("click", function(){
