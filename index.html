@@ -224,6 +224,7 @@
 
   <section id="view-record" class="hidden">
     <h2>Every selection, settled and counted<span id="recRange"></span></h2>
+    <div id="recWarn"></div>
     <div class="grid2" id="recStats"></div>
     <div class="panel" style="margin-top:10px">
       <p id="clvLine"></p>
@@ -503,17 +504,30 @@
     return r && r.close_status === "final" && Number(r.close) > 1 ? Number(r.close) : 0;
   }
 
+  // Settlement is handled by explicit case, never by falling through to "loss".
+  // An unexpected status is excluded and counted, so a scanner change shows up as
+  // a warning on the page rather than quietly eating the return.
+  var VOID_STATUSES = ["void", "push", "cancelled", "canceled", "abandoned"];
+
   function summarise(list){
-    var stake = 10, turnover = 0, profit = 0, wins = 0, voids = 0, clvSum = 0, clvCount = 0, beat = 0;
+    var stake = 10, turnover = 0, profit = 0, wins = 0, losses = 0, voids = 0, unknown = 0;
+    var clvSum = 0, clvCount = 0, beat = 0;
     list.forEach(function(r){
-      // a void returns the stake, so it belongs in neither the win nor the loss column
-      var status = r.status || (r.won ? "win" : "loss");
-      if(status === "void"){ voids++; }
-      else {
+      var status = r.status || (typeof r.won === "boolean" ? (r.won ? "win" : "loss") : "unknown");
+
+      if(status === "win"){
         turnover += stake;
-        profit += typeof r.profit === "number" ? r.profit
-                : (status === "win" ? stake * (r.odds - 1) : -stake);
-        if(status === "win") wins++;
+        profit += typeof r.profit === "number" ? r.profit : stake * (r.odds - 1);
+        wins++;
+      } else if(status === "loss"){
+        turnover += stake;
+        profit += typeof r.profit === "number" ? r.profit : -stake;
+        losses++;
+      } else if(VOID_STATUSES.indexOf(status) !== -1){
+        voids++;                       // stake returned: no turnover, no profit, no strike rate
+      } else {
+        unknown++;                     // never guessed at
+        return;                        // and never allowed into the CLV figures either
       }
       var close = verifiedClose(r);
       if(close){
@@ -521,8 +535,8 @@
         if(r.odds > close) beat++;
       }
     });
-    var counted = list.length - voids;
-    return { n:list.length, voids:voids, profit:profit,
+    var counted = wins + losses;
+    return { n:list.length, voids:voids, unknown:unknown, profit:profit,
              roi: turnover ? profit/turnover*100 : 0,
              strike: counted ? wins/counted*100 : 0,
              clvN: clvCount,                       // CLV rests on this many, not on n
@@ -569,6 +583,12 @@
     var failText = Object.keys(failures).map(function(k){
       return failures[k] + " " + k.replace(/_/g, " ");
     }).join(", ");
+    el("recWarn").innerHTML = s.unknown
+      ? '<div class="notice"><strong>' + s.unknown + ' selections have an unrecognised ' +
+        'settlement status</strong> and have been left out of every figure on this page. ' +
+        'That is a fault worth chasing, not a rounding issue.</div>'
+      : '';
+
     el("captureLine").innerHTML = s.clvN + " of " + list.length +
       ' settled selections have a verified closing snapshot' +
       (failText ? ' · ' + esc(failText) : '') + '.';
