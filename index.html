@@ -504,19 +504,27 @@
   }
 
   function summarise(list){
-    var stake = 10, turnover = 0, profit = 0, wins = 0, clvSum = 0, clvCount = 0, beat = 0;
+    var stake = 10, turnover = 0, profit = 0, wins = 0, voids = 0, clvSum = 0, clvCount = 0, beat = 0;
     list.forEach(function(r){
-      turnover += stake;
-      profit += r.won ? stake * (r.odds - 1) : -stake;
-      if(r.won) wins++;
+      // a void returns the stake, so it belongs in neither the win nor the loss column
+      var status = r.status || (r.won ? "win" : "loss");
+      if(status === "void"){ voids++; }
+      else {
+        turnover += stake;
+        profit += typeof r.profit === "number" ? r.profit
+                : (status === "win" ? stake * (r.odds - 1) : -stake);
+        if(status === "win") wins++;
+      }
       var close = verifiedClose(r);
       if(close){
         clvSum += (r.odds / close - 1) * 100; clvCount++;
         if(r.odds > close) beat++;
       }
     });
-    return { n:list.length, profit:profit, roi: turnover ? profit/turnover*100 : 0,
-             strike: list.length ? wins/list.length*100 : 0,
+    var counted = list.length - voids;
+    return { n:list.length, voids:voids, profit:profit,
+             roi: turnover ? profit/turnover*100 : 0,
+             strike: counted ? wins/counted*100 : 0,
              clvN: clvCount,                       // CLV rests on this many, not on n
              clv: clvCount ? clvSum/clvCount : 0,
              beatPct: clvCount ? beat/clvCount*100 : 0 };
@@ -544,7 +552,7 @@
     var dates = list.map(function(r){ return r.date; }).sort();
     el("recRange").textContent = dates[0] + " to " + dates[dates.length-1];
     el("recStats").innerHTML =
-      stat(String(s.n), "bets settled") +
+      stat(String(s.n), s.voids ? "settled, " + s.voids + " void" : "bets settled") +
       stat(pctStr(s.roi), "return at level stakes", s.roi >= 0 ? "up" : "down") +
       stat(s.strike.toFixed(0) + "%", "strike rate") +
       stat(s.clvN ? pctStr(s.clv) : "—",

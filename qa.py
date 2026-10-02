@@ -136,7 +136,8 @@ def main():
 
     # ---- cuts for later ----------------------------------------------------
     for label, key in (("By market", "market"), ("By league", "league"),
-                       ("By bookmaker", "book"), ("By model version", "model_version")):
+                       ("By bookmaker", "book"), ("By model version", "model_version"),
+                       ("By scanner config", "scanner_config")):
         groups = defaultdict(list)
         for r in with_close:
             if r.get(key):
@@ -148,10 +149,16 @@ def main():
 
     heading("Level stakes")
     stake = 10
-    profit = sum(stake * (r["odds"] - 1) if r["won"] else -stake for r in results)
-    print(f"£{stake} per bet: {len(results)} bets, "
-          f"{'+' if profit >= 0 else '-'}£{abs(profit):.2f}, "
-          f"ROI {100*profit/(stake*len(results)):+.1f}%")
+    def status_of(r):
+        return r.get("status") or ("win" if r.get("won") else "loss")
+    staked = [r for r in results if status_of(r) != "void"]
+    voids = len(results) - len(staked)
+    profit = sum(r.get("profit", stake * (r["odds"] - 1) if status_of(r) == "win" else -stake)
+                 for r in staked)
+    print(f"£{stake} per bet: {len(staked)} staked"
+          + (f", {voids} void" if voids else "") +
+          f", {'+' if profit >= 0 else '-'}£{abs(profit):.2f}, "
+          f"ROI {100*profit/(stake*len(staked)):+.1f}%" if staked else "nothing staked")
     print("Treat this as secondary. CLV tells you the same thing far sooner.")
 
 

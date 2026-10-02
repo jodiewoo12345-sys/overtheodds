@@ -22,6 +22,7 @@ API = "https://api.the-odds-api.com/v4"
 OUT = Path(os.getenv("OUT_DIR", "."))
 KEY = os.getenv("ODDS_API_KEY", "")
 DAYS_BACK = int(os.getenv("DAYS_BACK", 3))
+STAKE = float(os.getenv("LEVEL_STAKE", 10))     # notional level stake for the public record
 
 
 def load(path, default):
@@ -52,9 +53,12 @@ def tally_of(game):
 
 def settle_pick(pick, tally):
     """
-    True if the selection won, False if it lost, None if it's a push or we can't
-    tell. A push (the line landing exactly) is dropped rather than counted, which
-    is how a bookmaker would treat it.
+    Returns "win", "loss", "void", or None when the result can't be determined.
+
+    "void" covers a push — the line landing exactly — which a bookmaker returns
+    as a stake-back rather than a loss. Recording it explicitly matters: treating
+    a push as a loser would understate the record, and integer totals lines make
+    pushes a routine occurrence rather than an edge case.
     """
     market = pick.get("market_key", "h2h")
     selection = pick["selection"]
@@ -63,7 +67,7 @@ def settle_pick(pick, tally):
         best = max(tally.values())
         leaders = [name for name, score in tally.items() if score == best]
         result = "Draw" if len(leaders) > 1 else leaders[0]
-        return result == selection
+        return "win" if result == selection else "loss"
 
     if market == "totals":
         side, _, line = selection.rpartition(" ")
@@ -73,8 +77,10 @@ def settle_pick(pick, tally):
             return None
         total = sum(tally.values())
         if total == line:
-            return None
-        return total > line if side.lower() == "over" else total < line
+            return "void"                      # the line landed exactly: stake back
+        over = total > line
+        won = over if side.lower() == "over" else not over
+        return "win" if won else "loss"
 
     if market == "spreads":
         team, _, point = selection.rpartition(" ")
@@ -87,8 +93,8 @@ def settle_pick(pick, tally):
         theirs = max(score for name, score in tally.items() if name != team)
         margin = tally[team] + point - theirs
         if margin == 0:
-            return None
-        return margin > 0
+            return "void"                      # handicap landed exactly
+        return "win" if margin > 0 else "loss"
 
     return None
 
@@ -120,7 +126,7 @@ def main():
         game = games.get(event_id)
         tally = tally_of(game) if game else None
         result = settle_pick(pick, tally) if tally else None
-        if result is None:
+        if result not in ("win", "loss", "void"):
             # give up on anything too old to appear in the scores window
             # a push, or too old to appear in the scores window
             start = datetime.fromisoformat(pick["start"].replace("Z", "+00:00"))
@@ -152,7 +158,13 @@ def main():
             "close_status": status,
             "close_attempts": pick.get("close_attempts", 0),
             "model_version": pick.get("model_version", ""),
-            "won": bool(result),
+            "scanner_config": pick.get("scanner_config", ""),
+            "min_edge_at_detection": pick.get("min_edge_at_detection"),
+            "status": result,                                  # win | loss | void
+            "stake": STAKE,
+            "profit": round(STAKE * (pick["odds"] - 1), 2) if result == "win"
+                      else (0.0 if result == "void" else -float(STAKE)),
+            "won": result == "win",                            # kept for older readers
         })
         picks.pop(pid)
         settled += 1

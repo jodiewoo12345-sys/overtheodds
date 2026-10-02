@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 10: full recommendation record, model stamped]
+sweep.py — build the board.   [version 11: model and config stamped separately]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -31,12 +31,24 @@ MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 # Which markets to scan. Each one costs a credit per sport per run, so h2h + totals
 # is 2 credits. Add "spreads" when you can afford 3.
 MARKETS = tuple(k.strip() for k in os.getenv("MARKETS", "h2h,totals").split(",") if k.strip())
+
+
+def scanner_config():
+    """A short, self-describing label for the rules that produced a recommendation."""
+    return os.getenv("SCANNER_CONFIG") or (
+        f"edge{MIN_EDGE:g}-books{MIN_BOOKS}-odds{MAX_ODDS:g}-" + "+".join(MARKETS))
 MARKET_NAMES = {"h2h": "Match odds", "totals": "Totals", "spreads": "Handicap"}
 
-# Stamped onto every recommendation. Bump this whenever the pricing method, the
-# minimum book count, the market set or the competition list changes, so later
-# analysis can compare configurations instead of mixing them into one soup.
-MODEL_VERSION = os.getenv("MODEL_VERSION", "v10")
+# Two separate stamps, because they change for different reasons.
+#
+# MODEL_VERSION moves only when the maths changes: how margin is removed, how the
+# consensus is taken, how lines are grouped. Bump it when a number would come out
+# differently from the same prices.
+#
+# SCANNER_CONFIG records the selection rules in force: thresholds, book minimums,
+# competitions, markets. It regenerates itself from the settings below, so it can
+# never drift out of step with what actually ran.
+MODEL_VERSION = os.getenv("MODEL_VERSION", "1.0")
 MAX_ODDS = float(os.getenv("MAX_ODDS", 6.0))       # long shots carry huge margin: consensus is meaningless
 MAX_EDGE = float(os.getenv("MAX_EDGE", 12.0))       # anything above this is a data artefact, not value
 
@@ -304,6 +316,8 @@ def main():
             "detected": datetime.now(timezone.utc).isoformat(),
             "first_seen": datetime.now(timezone.utc).isoformat(),
             "model_version": MODEL_VERSION,
+            "scanner_config": scanner_config(),
+            "min_edge_at_detection": MIN_EDGE,
             "config": {"min_edge": MIN_EDGE, "min_books": MIN_BOOKS,
                        "max_odds": MAX_ODDS, "markets": list(MARKETS)},
             "close_status": "pending",
@@ -339,6 +353,7 @@ def main():
           f"{refreshed} prices refreshed")
     print(f"  priced: {per_market}")
     print(f"  qualifying: {found_per_market or 'none'}")
+    print(f"  model {MODEL_VERSION}, config {scanner_config()}")
 
 
 if __name__ == "__main__":
