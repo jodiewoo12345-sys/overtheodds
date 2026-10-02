@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -39,19 +39,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
- },
- "908dd14275f11b8588bccce4d87aae14|betway|Frances Tiafoe": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Arthur Fils v Frances Tiafoe",
-  "start": "2026-10-02T08:10:00Z",
-  "selection": "Frances Tiafoe",
-  "book": "Betway",
-  "odds": 3.5,
-  "first_seen": "2026-10-01T19:39:59.899649+00:00",
-  "close": 3.17,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|livescorebet|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -64,8 +52,8 @@
   "first_seen": "2026-10-01T19:39:59.899651+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|casumo|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -78,8 +66,8 @@
   "first_seen": "2026-10-01T19:39:59.899654+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|grosvenor|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -92,8 +80,8 @@
   "first_seen": "2026-10-01T19:39:59.899656+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|virginbet|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -106,8 +94,8 @@
   "first_seen": "2026-10-01T19:39:59.899658+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -123,7 +111,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -139,7 +127,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -155,21 +143,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
- },
- "908dd14275f11b8588bccce4d87aae14|betway|h2h|Frances Tiafoe": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Arthur Fils v Frances Tiafoe",
-  "start": "2026-10-02T08:10:00Z",
-  "selection": "Frances Tiafoe",
-  "book": "Betway",
-  "odds": 3.5,
-  "first_seen": "2026-10-01T20:01:18.240660+00:00",
-  "close": 3.17,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00"
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|livescorebet|h2h|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -184,8 +158,8 @@
   "first_seen": "2026-10-01T20:01:18.240662+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|casumo|h2h|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -200,8 +174,8 @@
   "first_seen": "2026-10-01T20:01:18.240665+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|grosvenor|h2h|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -216,8 +190,8 @@
   "first_seen": "2026-10-01T20:01:18.240667+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  },
  "7b880c1411425677c923489ced32b94e|virginbet|h2h|Adolfo Daniel Vallejo": {
   "sport": "ATP Japan Open",
@@ -232,7 +206,423 @@
   "first_seen": "2026-10-01T20:01:18.240669+00:00",
   "close": 2.44,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.43,
-  "latest_seen": "2026-10-02T08:33:24.282127+00:00"
+  "latest_fair": 2.48,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|h2h|Miami Dolphins": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Minnesota Vikings v Miami Dolphins",
+  "start": "2026-10-04T20:05:00Z",
+  "selection": "Miami Dolphins",
+  "book": "Unibet (UK)",
+  "odds": 6.0,
+  "fair": 5.78,
+  "edge": 3.81,
+  "books": 14,
+  "detected": "2026-10-02T16:56:37.936844+00:00",
+  "first_seen": "2026-10-02T16:56:37.936852+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.78,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "065b68a0db1926f7e3bff7ebd93e7624|paddypower|h2h|St Louis Blues": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Colorado Avalanche v St Louis Blues",
+  "start": "2026-10-04T01:10:00Z",
+  "selection": "St Louis Blues",
+  "book": "Paddy Power",
+  "odds": 3.5,
+  "fair": 3.41,
+  "edge": 2.64,
+  "books": 5,
+  "detected": "2026-10-02T16:56:37.936890+00:00",
+  "first_seen": "2026-10-02T16:56:37.936892+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.56,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
+  "sport": "League 1",
+  "sport_key": "soccer_england_league1",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Leicester City v Peterborough United",
+  "start": "2026-10-10T14:00:00Z",
+  "selection": "Peterborough United",
+  "book": "Betfred (UK)",
+  "odds": 5.5,
+  "fair": 5.22,
+  "edge": 5.36,
+  "books": 9,
+  "detected": "2026-10-02T16:56:37.936899+00:00",
+  "first_seen": "2026-10-02T16:56:37.936901+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.26,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
+  "sport": "Ligue 1 - France",
+  "sport_key": "soccer_france_ligue_one",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Angers v Marseille",
+  "start": "2026-10-18T13:00:00Z",
+  "selection": "Draw",
+  "book": "Betfred (UK)",
+  "odds": 4.0,
+  "fair": 3.87,
+  "edge": 3.36,
+  "books": 13,
+  "detected": "2026-10-02T16:56:37.936914+00:00",
+  "first_seen": "2026-10-02T16:56:37.936916+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.87,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
+  "sport": "Ligue 1 - France",
+  "sport_key": "soccer_france_ligue_one",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Strasbourg v Paris Saint Germain",
+  "start": "2026-10-17T15:15:00Z",
+  "selection": "Draw",
+  "book": "Betfred (UK)",
+  "odds": 5.5,
+  "fair": 5.34,
+  "edge": 3.0,
+  "books": 14,
+  "detected": "2026-10-02T16:56:37.936923+00:00",
+  "first_seen": "2026-10-02T16:56:37.936925+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.35,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Fiorentina v Como",
+  "start": "2026-10-18T13:00:00Z",
+  "selection": "Fiorentina",
+  "book": "Grosvenor",
+  "odds": 3.65,
+  "fair": 3.53,
+  "edge": 3.4,
+  "books": 15,
+  "detected": "2026-10-02T16:56:37.936931+00:00",
+  "first_seen": "2026-10-02T16:56:37.936933+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.55,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Bologna v Inter Milan",
+  "start": "2026-10-17T16:00:00Z",
+  "selection": "Draw",
+  "book": "Sky Bet",
+  "odds": 4.33,
+  "fair": 4.22,
+  "edge": 2.61,
+  "books": 14,
+  "detected": "2026-10-02T16:56:37.936939+00:00",
+  "first_seen": "2026-10-02T16:56:37.936940+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.22,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
+  "sport": "Primeira Liga - Portugal",
+  "sport_key": "soccer_portugal_primeira_liga",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Benfica v Vit\u00f3ria SC",
+  "start": "2026-10-11T17:00:00Z",
+  "selection": "Draw",
+  "book": "William Hill",
+  "odds": 5.8,
+  "fair": 5.61,
+  "edge": 3.39,
+  "books": 11,
+  "detected": "2026-10-02T16:56:37.936947+00:00",
+  "first_seen": "2026-10-02T16:56:37.936948+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.72,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Real Betis v CA Osasuna",
+  "start": "2026-10-11T16:30:00Z",
+  "selection": "CA Osasuna",
+  "book": "Grosvenor",
+  "odds": 5.2,
+  "fair": 5.1,
+  "edge": 1.96,
+  "books": 19,
+  "detected": "2026-10-02T16:56:37.936954+00:00",
+  "first_seen": "2026-10-02T16:56:37.936956+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.13,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "KuPS Kuopio v Trabzonspor",
+  "start": "2026-10-15T16:45:00Z",
+  "selection": "KuPS Kuopio",
+  "book": "Betfred (UK)",
+  "odds": 6.0,
+  "fair": 5.78,
+  "edge": 3.81,
+  "books": 15,
+  "detected": "2026-10-02T16:56:37.936969+00:00",
+  "first_seen": "2026-10-02T16:56:37.936971+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.78,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Panathinaikos FC v FK Borac Banja Luka",
+  "start": "2026-10-15T16:45:00Z",
+  "selection": "Draw",
+  "book": "Ladbrokes",
+  "odds": 6.0,
+  "fair": 5.8,
+  "edge": 3.45,
+  "books": 15,
+  "detected": "2026-10-02T16:56:37.936977+00:00",
+  "first_seen": "2026-10-02T16:56:37.936979+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.83,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "84fefb7009232a1bafbed2450065664a|betway|h2h|Jan-Lennard Struff": {
+  "sport": "ATP China Open",
+  "sport_key": "tennis_atp_china_open",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Daniil Medvedev v Jan-Lennard Struff",
+  "start": "2026-10-03T09:00:00Z",
+  "selection": "Jan-Lennard Struff",
+  "book": "Betway",
+  "odds": 5.5,
+  "fair": 5.39,
+  "edge": 2.04,
+  "books": 20,
+  "detected": "2026-10-02T16:56:37.936984+00:00",
+  "first_seen": "2026-10-02T16:56:37.936986+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.39,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+ },
+ "86d5be8c100a0589e1b1b737111770ae|grosvenor|h2h|Nikola Bartunkova": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Nikola Bartunkova v Aryna Sabalenka",
+  "start": "2026-10-04T03:00:00Z",
+  "selection": "Nikola Bartunkova",
+  "book": "Grosvenor",
+  "odds": 5.0,
+  "fair": 4.78,
+  "edge": 4.6,
+  "books": 14,
+  "detected": "2026-10-02T16:56:37.936992+00:00",
+  "first_seen": "2026-10-02T16:56:37.936993+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.81,
+  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
  }
 }
