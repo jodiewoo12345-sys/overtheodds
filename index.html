@@ -237,6 +237,8 @@
     <div class="scroll"><table id="byMonth"></table></div>
     <h2>By sport</h2>
     <div class="scroll"><table id="bySport"></table></div>
+    <h2>By market</h2>
+    <div class="scroll"><table id="byMarket"></table></div>
     <p class="msg" id="recNote"></p>
   </section>
 
@@ -495,19 +497,27 @@
   }
 
   function results(){ return (feed.results || []).slice(); }
+  // A closing price only counts when it was frozen near the off and marked final.
+  // Anything else is an unverified number and must not reach the CLV figures.
+  function verifiedClose(r){
+    return r && r.close_status === "final" && Number(r.close) > 1 ? Number(r.close) : 0;
+  }
+
   function summarise(list){
     var stake = 10, turnover = 0, profit = 0, wins = 0, clvSum = 0, clvCount = 0, beat = 0;
     list.forEach(function(r){
       turnover += stake;
       profit += r.won ? stake * (r.odds - 1) : -stake;
       if(r.won) wins++;
-      if(r.close > 0){
-        clvSum += (r.odds / r.close - 1) * 100; clvCount++;
-        if(r.odds > r.close) beat++;
+      var close = verifiedClose(r);
+      if(close){
+        clvSum += (r.odds / close - 1) * 100; clvCount++;
+        if(r.odds > close) beat++;
       }
     });
     return { n:list.length, profit:profit, roi: turnover ? profit/turnover*100 : 0,
              strike: list.length ? wins/list.length*100 : 0,
+             clvN: clvCount,                       // CLV rests on this many, not on n
              clv: clvCount ? clvSum/clvCount : 0,
              beatPct: clvCount ? beat/clvCount*100 : 0 };
   }
@@ -537,11 +547,12 @@
       stat(String(s.n), "bets settled") +
       stat(pctStr(s.roi), "return at level stakes", s.roi >= 0 ? "up" : "down") +
       stat(s.strike.toFixed(0) + "%", "strike rate") +
-      stat(pctStr(s.clv), "average closing line value", s.clv >= 0 ? "up" : "down");
-    var confidence = s.n < 100 ? "far too few to read anything into"
-                   : s.n < 400 ? "enough to be suggestive, not enough to be sure"
+      stat(s.clvN ? pctStr(s.clv) : "—",
+           s.clvN ? "closing line value, " + s.clvN + " bets" : "closing line value",
+           s.clv >= 0 ? "up" : "down");
+    var confidence = s.clvN < 100 ? "far too few to read anything into"
+                   : s.clvN < 400 ? "enough to be suggestive, not enough to be sure"
                    : "a reasonable sample";
-    var withClose = list.filter(function(r){ return r.close > 0; }).length;
     var failures = {};
     list.forEach(function(r){
       var st = r.close_status || (r.close > 0 ? "final" : "unknown");
@@ -550,14 +561,17 @@
     var failText = Object.keys(failures).map(function(k){
       return failures[k] + " " + k.replace(/_/g, " ");
     }).join(", ");
-    el("captureLine").innerHTML = withClose + " of " + list.length +
-      ' selections have a verified closing snapshot' +
+    el("captureLine").innerHTML = s.clvN + " of " + list.length +
+      ' settled selections have a verified closing snapshot' +
       (failText ? ' · ' + esc(failText) : '') + '.';
 
-    el("clvLine").innerHTML = '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
-      '% of selections beat the closing price</strong>, from ' + s.n + ' settled selections — ' +
-      confidence + '. Consistently beating the close is what an edge looks like before it ' +
-      'shows up as profit; consistently missing it means the board is finding noise.';
+    el("clvLine").innerHTML = s.clvN
+      ? '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
+        '% beat the closing price</strong>, measured on the ' + s.clvN +
+        ' selections with a verified snapshot — ' + confidence +
+        '. Consistently beating the close is what an edge looks like before it shows up ' +
+        'as profit; consistently missing it means the board is finding noise.'
+      : 'No verified closing snapshots yet, so closing line value cannot be measured.';
 
     var months = {}, sports = {};
     list.forEach(function(r){
@@ -566,12 +580,24 @@
     });
     el("byMonth").innerHTML = table(["Month","Bets","Return","CLV"],
       Object.keys(months).sort().reverse().map(function(m){
-        var x = summarise(months[m]); return [m, x.n, pctStr(x.roi), pctStr(x.clv)]; }));
-    el("bySport").innerHTML = table(["Sport","Bets","Return","CLV"],
+        var x = summarise(months[m]);
+        return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—"]; }));
+    el("bySport").innerHTML = table(["Sport","Bets","Return","CLV","CLV bets"],
       Object.keys(sports).sort(function(a,b){ return sports[b].length - sports[a].length; })
         .map(function(sp){
           var x = summarise(sports[sp]);
-          return [sp, x.n, pctStr(x.roi), pctStr(x.clv)]; }));
+          return [sp, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—", x.clvN]; }));
+
+    var markets = {};
+    list.forEach(function(r){
+      var m = r.market || "Match odds";
+      (markets[m] = markets[m] || []).push(r);
+    });
+    el("byMarket").innerHTML = table(["Market","Bets","Return","CLV","CLV bets"],
+      Object.keys(markets).sort(function(a,b){ return markets[b].length - markets[a].length; })
+        .map(function(m){
+          var x = summarise(markets[m]);
+          return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—", x.clvN]; }));
     el("recNote").textContent = s.n < 200
       ? "After " + s.n + " bets the return is still mostly luck. Judge it on closing line value first."
       : "";
@@ -676,95 +702,28 @@
   };
   el("alertEdge").onchange = function(){ prefs.alertEdge = parseFloat(this.value) || 5; save(); };
 
-  function wireAdmin(){
-  el("loadBtn").onclick = function(){
-    try{
-      var incoming = JSON.parse(el("feedBox").value);
-      if(!incoming || !Array.isArray(incoming.bets)) throw new Error("no bets");
-      var checked = validate(incoming.bets);
-      feed = { updated: incoming.updated || new Date().toISOString(),
-               bets: checked.bets, results: incoming.results || [],
-               scanned: incoming.scanned || null };
-      feedState = "live";
-      renderAll(); renderRecord();
-      el("msg").textContent = checked.bets.length + " bets and " +
-        (incoming.results ? incoming.results.length : 0) + " results loaded" +
-        (checked.dropped ? ", " + checked.dropped + " malformed records ignored" : "") + ".";
-    }catch(err){
-      el("msg").textContent = "That didn't parse. Send the whole object with a bets array.";
-    }
-  };
-  el("sampleBtn").onclick = function(){
-    var demo = sample(); feed = { updated:demo.updated, bets:demo.bets, results:demo.results };
-    feedState = "live"; renderAll(); renderRecord();
-    el("msg").textContent = "Demo data loaded into this browser only. Reload to return to live prices."; };
-  el("copyBtn").onclick = function(){ el("feedBox").value = JSON.stringify(feed, null, 1);
-    el("feedBox").select(); el("msg").textContent = "Current feed shown above."; };
-  el("freePick").onchange = function(){ prefs.free = this.value; save(); renderAll(); };
-  el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(x){
-    return '<option' + (x === prefs.free ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join("");
-  }
-
+  // Development tools live in admin.js and are never part of the public page.
   function showAdmin(){
-    if(el("admin")) return;
-    el("adminSlot").innerHTML =
-      '<section id="admin"><h2>Feed<span>local only</span></h2><div class="panel">' +
-      '<p>Paste a scanner feed to preview it in this browser. Nothing here touches the live site.</p>' +
-      '<textarea id="feedBox" spellcheck="false"></textarea>' +
-      '<div class="btnrow">' +
-        '<button class="btn" id="loadBtn" type="button">Load feed</button>' +
-        '<button class="btn line" id="sampleBtn" type="button">Demo data</button>' +
-        '<button class="btn line" id="copyBtn" type="button">Show current feed</button>' +
-      '</div>' +
-      '<p style="margin-top:10px">Free sport <select id="freePick"></select></p>' +
-      '<p class="msg" id="msg"></p></div></section>';
-    wireAdmin();
+    if(el("admin") || window.__otoAdminLoading) return;
+    window.__otoAdminLoading = true;
+    window.__otoAdmin = {
+      el: el, esc: esc, SPORTS: SPORTS, prefs: prefs, show: show,
+      validate: validate, save: save,
+      setFeed: function(f){ feed = f; feedState = "live"; },
+      refresh: function(){ renderAll(); renderRecord(); },
+      current: function(){ return feed; }
+    };
+    var tag = document.createElement("script");
+    tag.src = "/admin.js";
+    tag.onerror = function(){ console.warn("admin.js not deployed"); };
+    document.body.appendChild(tag);
   }
   if(/admin/i.test(location.hash) || /admin=1/i.test(location.search)) showAdmin();
   var taps = 0, tapTimer = null;
   el("brand").addEventListener("click", function(){
     taps++; clearTimeout(tapTimer); tapTimer = setTimeout(function(){ taps = 0; }, 1500);
-    if(taps >= 5){ taps = 0; showAdmin(); show("yours"); el("admin").scrollIntoView({behavior:"smooth"}); }
+    if(taps >= 5){ taps = 0; showAdmin(); }
   });
-
-  function sample(){
-    var h = 3600000, now = Date.now();
-    function b(sport, event, hrs, selection, book, odds, fair, link){
-      return { sport:sport, event:event, start:new Date(now + hrs*h).toISOString(),
-               selection:selection, book:book, odds:odds, fair:fair, link:link };
-    }
-    var bets = [
-      b("Football","Brentford v Crystal Palace",5,"Crystal Palace","Sky Bet",4.20,3.86,"https://www.skybet.com/"),
-      b("Football","Real Sociedad v Girona",27,"Draw","Paddy Power",3.90,3.72,"https://www.paddypower.com/"),
-      b("Football","Celtic v Hibernian",50,"Hibernian","William Hill",6.50,5.90,"https://www.williamhill.com/"),
-      b("Football","Bologna v Lazio",52,"Bologna","Unibet",2.62,2.55,"https://www.unibet.co.uk/"),
-      b("Tennis","Rybakina v Paolini",7,"Paolini","Betfred",2.90,2.66,"https://www.betfred.com/"),
-      b("Tennis","Draper v Fritz",9,"Draper","Sky Bet",1.95,1.88,"https://www.skybet.com/"),
-      b("Basketball","Celtics v Knicks",23,"Knicks +4.5","BetVictor",1.98,1.90,"https://www.betvictor.com/"),
-      b("American football","Bills v Dolphins",31,"Dolphins","William Hill",3.10,2.83,"https://www.williamhill.com/"),
-      b("Cricket","England v India",19,"India","Betfred",1.80,1.72,"https://www.betfred.com/"),
-      b("Darts","Humphries v Littler",4,"Littler","Unibet",2.05,1.90,"https://www.unibet.co.uk/"),
-      b("Darts","Smith v Aspinall",6,"Smith","BetVictor",2.45,2.22,"https://www.betvictor.com/"),
-      b("Snooker","Trump v Brecel",8,"Brecel","Paddy Power",3.40,3.05,"https://www.paddypower.com/"),
-      b("Table tennis","Lin v Fan",3,"Lin","Betfred",3.75,3.30,"https://www.betfred.com/"),
-      b("Golf","Dunhill Links",48,"Fleetwood top 5","Sky Bet",3.75,3.45,"https://www.skybet.com/"),
-      b("Horse racing","14:30 Ascot",6,"Constitution Hill","Paddy Power",2.60,2.50,"https://www.paddypower.com/")
-    ];
-    var pool = ["Football","Tennis","Darts","Snooker","Cricket","Basketball","Table tennis"];
-    var bookPool = ["Sky Bet","Paddy Power","William Hill","BetVictor","Unibet","Betfred"];
-    var res = [], seed = 7;
-    function rnd(){ seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; }
-    for(var i = 0; i < 120; i++){
-      var sport = pool[Math.floor(rnd()*pool.length)];
-      var odds = 1.6 + rnd()*4.4;
-      var close = rnd() < 0.72 ? odds / (1 + 0.005 + rnd()*0.045) : odds * (1 + rnd()*0.03);
-      var d = new Date(now - (i*2 + Math.floor(rnd()*2))*864e5);
-      res.push({ sport:sport, date:d.toISOString().slice(0,10), selection:"Selection " + (i+1),
-        book:bookPool[Math.floor(rnd()*bookPool.length)], odds:Math.round(odds*100)/100,
-        close:Math.round(close*100)/100, won: rnd() < (1/close) });
-    }
-    return { updated:new Date(now).toISOString(), bets:bets, results:res };
-  }
 
   load();
   if(prefs.theme) document.documentElement.setAttribute("data-theme", prefs.theme);
