@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 5: match odds, totals and handicaps]
+sweep.py — build the board.   [version 8: closing prices handled by close.py]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -147,6 +147,9 @@ def link_for(event, book_key, market_key, selection):
     return ""
 
 
+scanned = {"events": 0, "selections": 0, "sports": 0}
+
+
 def find_value(events, sport_label, sport_key):
     """Returns (bets worth listing, the market's current true price for every selection)."""
     now = datetime.now(timezone.utc)
@@ -162,6 +165,7 @@ def find_value(events, sport_label, sport_key):
         for (market_key, selection), by_book in views.items():
             if len(by_book) < MIN_BOOKS:
                 continue
+            scanned["selections"] += 1
             # the whole market's view, used later as the closing price
             whole = statistics.median(list(by_book.values()))
             if 0 < whole < 1:
@@ -197,8 +201,41 @@ def find_value(events, sport_label, sport_key):
                     "fair": round(fair, 2),
                     "link": link_for(ev, book_key, market_key, selection),
                 })
+    scanned["events"] += len(events)
+    found = merge_duplicates(found)
     found.sort(key=lambda b: b["odds"] / b["fair"], reverse=True)
     return found[:MAX_PER_SPORT], market_prices
+
+
+def merge_duplicates(bets):
+    """
+    The same bet offered by several firms is one opportunity, not several. Keep the
+    best price and list the others, so the board stays readable and you can see
+    where else to get on if an account is restricted.
+    """
+    best = {}
+    for b in bets:
+        key = (b["event"], b["market_key"], b["selection"])
+        current = best.get(key)
+        if current is None or b["odds"] > current["odds"]:
+            if current:
+                b.setdefault("also", []).extend(
+                    current.get("also", []) + [{"book": current["book"], "odds": current["odds"]}])
+            best[key] = b
+        else:
+            current.setdefault("also", []).append({"book": b["book"], "odds": b["odds"]})
+    out = []
+    for b in best.values():
+        if b.get("also"):
+            seen, rows = set(), []
+            for a in sorted(b["also"], key=lambda x: -x["odds"]):
+                if a["book"] in seen:
+                    continue
+                seen.add(a["book"])
+                rows.append(a)
+            b["also"] = rows[:4]
+        out.append(b)
+    return out
 
 
 def price_at(event, book_key, market_key, selection):
@@ -233,6 +270,7 @@ def main():
             print(f"  {sport}: skipped ({exc})")
             continue
         label = events[0].get("sport_title", sport) if events else sport
+        scanned["sports"] += 1
         sport_bets, sport_prices = find_value(events, label, sport)
         bets.extend(sport_bets)
         market_prices.update(sport_prices)
@@ -248,21 +286,22 @@ def main():
             "first_seen": datetime.now(timezone.utc).isoformat(),
         })
 
-    # Refresh the closing price on every pick still waiting, qualifying or not.
-    # The last value recorded before the event starts is the closing line, and
-    # comparing it with the price we published is the only honest measure of edge.
+    # Keep a running market price on every pick still waiting. This is useful for
+    # tracking drift, but it is NOT the closing line: close.py freezes that near
+    # the off and marks it close_final, which is the only version the record uses.
     now_iso = datetime.now(timezone.utc).isoformat()
     refreshed = 0
     for pid, pick in picks.items():
         event_id = pid.split("|")[0]
         key = f"{event_id}|{pick.get('market_key','h2h')}|{pick['selection']}"
-        if key in market_prices:
-            pick["close"] = market_prices[key]
-            pick["close_seen"] = now_iso
+        if key in market_prices and not pick.get("close_final"):
+            pick["latest_fair"] = market_prices[key]
+            pick["latest_seen"] = now_iso
             refreshed += 1
 
     feed = {
         "updated": datetime.now(timezone.utc).isoformat(),
+        "scanned": scanned,
         "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key")}
                  for b in bets],
         "results": load_json("results.json", []),
@@ -270,7 +309,8 @@ def main():
     (OUT / "feed.json").write_text(json.dumps(feed, indent=1))
     (OUT / "picks.json").write_text(json.dumps(picks, indent=1))
     print(f"{len(bets)} bets written, {len(picks)} picks tracked, "
-          f"{refreshed} closing prices refreshed")
+          f"{refreshed} closing prices refreshed, "
+          f"{scanned['selections']} selections across {scanned['events']} events")
 
 
 if __name__ == "__main__":
