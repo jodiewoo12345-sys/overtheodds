@@ -1,5 +1,10 @@
 {
- "updated": "2026-10-02T06:04:59.661620+00:00",
+ "updated": "2026-10-02T08:12:10.815828+00:00",
+ "scanned": {
+  "events": 96,
+  "selections": 174,
+  "sports": 6
+ },
  "bets": [
   {
    "sport": "NBA",
@@ -10,18 +15,13 @@
    "book": "LiveScore Bet",
    "odds": 2.95,
    "fair": 2.77,
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Washington Wizards v Milwaukee Bucks",
-   "start": "2026-10-21T23:10:00Z",
-   "selection": "Milwaukee Bucks",
-   "book": "Virgin Bet",
-   "odds": 2.9,
-   "fair": 2.77,
-   "link": "https://www.virginbet.com/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206"
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.9
+    }
+   ]
   },
   {
    "sport": "UEFA Champions League",
