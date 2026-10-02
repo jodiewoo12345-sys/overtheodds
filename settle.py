@@ -128,6 +128,9 @@ def main():
                 picks.pop(pid)
                 dropped += 1
             continue
+        # only a snapshot taken near the off counts as a closing price; a stale
+        # one from the morning sweep would flatter the figures
+        verified = bool(pick.get("close_final"))
         results.append({
             "sport": pick["sport"],
             "market": pick.get("market", "Match odds"),
@@ -135,7 +138,9 @@ def main():
             "selection": pick["selection"],
             "book": pick["book"],
             "odds": pick["odds"],
-            "close": pick.get("close", 0),
+            "close": pick.get("close", 0) if verified else 0,
+            "close_books": pick.get("close_books", 0) if verified else 0,
+            "close_minutes": pick.get("close_minutes_before") if verified else None,
             "won": bool(result),
         })
         picks.pop(pid)
