@@ -131,6 +131,9 @@ def main():
         # only a snapshot taken near the off counts as a closing price; a stale
         # one from the morning sweep would flatter the figures
         verified = bool(pick.get("close_final"))
+        status = pick.get("close_status", "pending")
+        if not verified and status in ("pending", "final"):
+            status = "missed_window"      # the event came and went without a usable snapshot
         results.append({
             "sport": pick["sport"],
             "league": pick.get("sport_key", ""),
@@ -146,6 +149,9 @@ def main():
             "close": pick.get("close", 0) if verified else 0,
             "close_books": pick.get("close_books", 0) if verified else 0,
             "close_minutes": pick.get("close_minutes_before") if verified else None,
+            "close_status": status,
+            "close_attempts": pick.get("close_attempts", 0),
+            "model_version": pick.get("model_version", ""),
             "won": bool(result),
         })
         picks.pop(pid)
