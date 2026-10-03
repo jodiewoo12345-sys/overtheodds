@@ -1,35 +1,16 @@
 {
- "updated": "2026-10-02T16:56:37.937025+00:00",
+ "updated": "2026-10-03T06:10:18.983148+00:00",
  "scanned": {
-  "events": 366,
-  "selections": 853,
+  "events": 355,
+  "selections": 975,
   "sports": 25,
   "by_market": {
-   "h2h": 853
+   "h2h": 831,
+   "totals": 100,
+   "spreads": 44
   }
  },
  "bets": [
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Minnesota Vikings v Miami Dolphins",
-   "start": "2026-10-04T20:05:00Z",
-   "selection": "Miami Dolphins",
-   "book": "Unibet (UK)",
-   "odds": 6.0,
-   "fair": 5.78,
-   "link": "https://www.unibet.co.uk/betting/odds/americanfootball/nfl/minnesota-vikings-vs-miami-dolphins/19023a128031153fdd7f390d6339baee",
-   "also": [
-    {
-     "book": "888sport",
-     "odds": 6.0
-    },
-    {
-     "book": "William Hill",
-     "odds": 6.0
-    }
-   ]
-  },
   {
    "sport": "NBA",
    "market": "Match odds",
@@ -48,15 +29,105 @@
    ]
   },
   {
-   "sport": "NHL",
+   "sport": "One Day Internationals",
    "market": "Match odds",
-   "event": "Colorado Avalanche v St Louis Blues",
-   "start": "2026-10-04T01:10:00Z",
-   "selection": "St Louis Blues",
-   "book": "Paddy Power",
-   "odds": 3.5,
-   "fair": 3.41,
-   "link": "https://www.paddypower.com/ice-hockey/nhl/st.-louis-blues-@-colorado-avalanche-36144332"
+   "event": "India v West Indies",
+   "start": "2026-10-03T08:30:00Z",
+   "selection": "West Indies",
+   "book": "BoyleSports",
+   "odds": 6.0,
+   "fair": 5.82,
+   "link": "https://www.boylesports.com/sports/cricket/event/international-odis/india-v-west-indies"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Seattle Kraken",
+   "start": "2026-10-03T23:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Grosvenor",
+   "odds": 2.2,
+   "fair": 2.0,
+   "link": "https://www.grosvenorcasinos.com/sport#event/1028411141",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.2
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.2
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 2.2
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Seattle Kraken",
+   "start": "2026-10-03T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.76,
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500369/seattle-kraken-edmonton-oilers",
+   "also": [
+    {
+     "book": "Ladbrokes",
+     "odds": 1.85
+    },
+    {
+     "book": "Coral",
+     "odds": 1.85
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Handicap",
+   "event": "Nashville Predators v Dallas Stars",
+   "start": "2026-10-04T00:10:00Z",
+   "selection": "Dallas Stars -1.5",
+   "book": "Casumo",
+   "odds": 3.0,
+   "fair": 2.87,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028411107"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Pittsburgh Penguins v Montr\u00e9al Canadiens",
+   "start": "2026-10-03T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.73,
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40488675/montreal-canadiens-pittsburgh-penguins"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vancouver Canucks v Calgary Flames",
+   "start": "2026-10-04T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.73,
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40501530/calgary-flames-vancouver-canucks"
+  },
+  {
+   "sport": "NHL",
+   "market": "Handicap",
+   "event": "Minnesota Wild v Boston Bruins",
+   "start": "2026-10-04T00:10:00Z",
+   "selection": "Minnesota Wild -1.5",
+   "book": "Casumo",
+   "odds": 2.4,
+   "fair": 2.31,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028398369"
   },
   {
    "sport": "League 1",
@@ -70,6 +141,17 @@
    "link": "https://www.betfred.com/sports/football/event/37048732"
   },
   {
+   "sport": "EPL",
+   "market": "Match odds",
+   "event": "Fulham v Hull City",
+   "start": "2026-10-17T14:00:00Z",
+   "selection": "Hull City",
+   "book": "Betfred (UK)",
+   "odds": 5.0,
+   "fair": 4.9,
+   "link": "https://www.betfred.com/sports/football/event/36966133"
+  },
+  {
    "sport": "Ligue 1 - France",
    "market": "Match odds",
    "event": "Angers v Marseille",
@@ -77,19 +159,19 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 4.0,
-   "fair": 3.87,
+   "fair": 3.85,
    "link": "https://www.betfred.com/sports/football/event/36978480"
   },
   {
-   "sport": "Ligue 1 - France",
+   "sport": "Serie A - Italy",
    "market": "Match odds",
-   "event": "Strasbourg v Paris Saint Germain",
-   "start": "2026-10-17T15:15:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
+   "event": "Atalanta BC v Venezia",
+   "start": "2026-10-12T16:30:00Z",
+   "selection": "Venezia",
+   "book": "Betway",
    "odds": 5.5,
-   "fair": 5.34,
-   "link": "https://www.betfred.com/sports/football/event/36978464"
+   "fair": 5.28,
+   "link": "https://betway.com/en/sports/evt/17254174"
   },
   {
    "sport": "Serie A - Italy",
@@ -99,7 +181,7 @@
    "selection": "Fiorentina",
    "book": "Grosvenor",
    "odds": 3.65,
-   "fair": 3.53,
+   "fair": 3.52,
    "link": "https://www.grosvenorcasinos.com/sport#event/1027911668"
   },
   {
@@ -110,25 +192,8 @@
    "selection": "Draw",
    "book": "Sky Bet",
    "odds": 4.33,
-   "fair": 4.22,
+   "fair": 4.23,
    "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.385459759"
-  },
-  {
-   "sport": "Primeira Liga - Portugal",
-   "market": "Match odds",
-   "event": "Benfica v Vit\u00f3ria SC",
-   "start": "2026-10-11T17:00:00Z",
-   "selection": "Draw",
-   "book": "William Hill",
-   "odds": 5.8,
-   "fair": 5.61,
-   "link": "https://sports.williamhill.com/betting/en-gb/football/OB_EV41281560/benfica-vs-guimaraes",
-   "also": [
-    {
-     "book": "888sport",
-     "odds": 5.75
-    }
-   ]
   },
   {
    "sport": "La Liga - Spain",
@@ -205,48 +270,31 @@
    ]
   },
   {
-   "sport": "ATP China Open",
-   "market": "Match odds",
-   "event": "Daniil Medvedev v Jan-Lennard Struff",
-   "start": "2026-10-03T09:00:00Z",
-   "selection": "Jan-Lennard Struff",
-   "book": "Betway",
-   "odds": 5.5,
-   "fair": 5.39,
-   "link": "https://betway.com/en/sports/evt/17300693",
-   "also": [
-    {
-     "book": "Coral",
-     "odds": 5.5
-    },
-    {
-     "book": "Ladbrokes",
-     "odds": 5.5
-    }
-   ]
-  },
-  {
    "sport": "WTA China Open",
    "market": "Match odds",
    "event": "Nikola Bartunkova v Aryna Sabalenka",
    "start": "2026-10-04T03:00:00Z",
    "selection": "Nikola Bartunkova",
-   "book": "Grosvenor",
-   "odds": 5.0,
-   "fair": 4.78,
-   "link": "https://www.grosvenorcasinos.com/sport#event/1029351126",
+   "book": "Paddy Power",
+   "odds": 6.0,
+   "fair": 5.39,
+   "link": "https://www.paddypower.com/tennis/wta-beijing-2026/nikol-bartunkova-v-a-sabalenka-36142978",
    "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 5.0
+     "book": "Sky Bet",
+     "odds": 6.0
     },
     {
-     "book": "LiveScore Bet",
-     "odds": 5.0
+     "book": "Coral",
+     "odds": 5.75
     },
     {
-     "book": "Casumo",
-     "odds": 5.0
+     "book": "Ladbrokes",
+     "odds": 5.75
+    },
+    {
+     "book": "BoyleSports",
+     "odds": 5.5
     }
    ]
   }
