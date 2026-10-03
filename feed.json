@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-03T06:10:18.983148+00:00",
+ "updated": "2026-10-03T12:49:13.976493+00:00",
  "scanned": {
-  "events": 355,
-  "selections": 975,
-  "sports": 25,
+  "events": 380,
+  "selections": 942,
+  "sports": 26,
   "by_market": {
-   "h2h": 831,
-   "totals": 100,
-   "spreads": 44
+   "h2h": 814,
+   "totals": 110,
+   "spreads": 18
   }
  },
  "bets": [
@@ -29,42 +29,6 @@
    ]
   },
   {
-   "sport": "One Day Internationals",
-   "market": "Match odds",
-   "event": "India v West Indies",
-   "start": "2026-10-03T08:30:00Z",
-   "selection": "West Indies",
-   "book": "BoyleSports",
-   "odds": 6.0,
-   "fair": 5.82,
-   "link": "https://www.boylesports.com/sports/cricket/event/international-odis/india-v-west-indies"
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Edmonton Oilers v Seattle Kraken",
-   "start": "2026-10-03T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Grosvenor",
-   "odds": 2.2,
-   "fair": 2.0,
-   "link": "https://www.grosvenorcasinos.com/sport#event/1028411141",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.2
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.2
-    }
-   ]
-  },
-  {
    "sport": "NHL",
    "market": "Totals",
    "event": "Edmonton Oilers v Seattle Kraken",
@@ -73,28 +37,7 @@
    "book": "William Hill",
    "odds": 1.91,
    "fair": 1.76,
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500369/seattle-kraken-edmonton-oilers",
-   "also": [
-    {
-     "book": "Ladbrokes",
-     "odds": 1.85
-    },
-    {
-     "book": "Coral",
-     "odds": 1.85
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Handicap",
-   "event": "Nashville Predators v Dallas Stars",
-   "start": "2026-10-04T00:10:00Z",
-   "selection": "Dallas Stars -1.5",
-   "book": "Casumo",
-   "odds": 3.0,
-   "fair": 2.87,
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028411107"
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500369/seattle-kraken-edmonton-oilers"
   },
   {
    "sport": "NHL",
@@ -110,6 +53,17 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Tampa Bay Lightning v Washington Capitals",
+   "start": "2026-10-03T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.73,
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40488674/washington-capitals-tampa-bay-lightning"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Vancouver Canucks v Calgary Flames",
    "start": "2026-10-04T02:10:00Z",
    "selection": "Under 6.5",
@@ -117,17 +71,6 @@
    "odds": 1.8,
    "fair": 1.73,
    "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40501530/calgary-flames-vancouver-canucks"
-  },
-  {
-   "sport": "NHL",
-   "market": "Handicap",
-   "event": "Minnesota Wild v Boston Bruins",
-   "start": "2026-10-04T00:10:00Z",
-   "selection": "Minnesota Wild -1.5",
-   "book": "Casumo",
-   "odds": 2.4,
-   "fair": 2.31,
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028398369"
   },
   {
    "sport": "League 1",
@@ -161,6 +104,23 @@
    "odds": 4.0,
    "fair": 3.85,
    "link": "https://www.betfred.com/sports/football/event/36978480"
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "market": "Match odds",
+   "event": "SV Darmstadt 98 v FC Energie Cottbus",
+   "start": "2026-10-10T11:00:00Z",
+   "selection": "FC Energie Cottbus",
+   "book": "Casumo",
+   "odds": 3.2,
+   "fair": 3.12,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028231119",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.2
+    }
+   ]
   },
   {
    "sport": "Serie A - Italy",
@@ -198,12 +158,23 @@
   {
    "sport": "La Liga - Spain",
    "market": "Match odds",
+   "event": "Getafe v Rayo Vallecano",
+   "start": "2026-10-19T19:00:00Z",
+   "selection": "Rayo Vallecano",
+   "book": "Grosvenor",
+   "odds": 2.95,
+   "fair": 2.85,
+   "link": "https://www.grosvenorcasinos.com/sport#event/1028209209"
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
    "event": "Real Betis v CA Osasuna",
    "start": "2026-10-11T16:30:00Z",
    "selection": "CA Osasuna",
    "book": "Grosvenor",
    "odds": 5.2,
-   "fair": 5.1,
+   "fair": 5.07,
    "link": "https://www.grosvenorcasinos.com/sport#event/1028209247",
    "also": [
     {
@@ -222,6 +193,23 @@
    "odds": 6.0,
    "fair": 5.82,
    "link": "https://www.betfred.com/sports/football/event/36864952"
+  },
+  {
+   "sport": "UEFA Europa Conference League",
+   "market": "Match odds",
+   "event": "Panathinaikos FC v FK Borac Banja Luka",
+   "start": "2026-10-15T16:45:00Z",
+   "selection": "Draw",
+   "book": "Ladbrokes",
+   "odds": 6.0,
+   "fair": 5.76,
+   "link": "https://sports.ladbrokes.com/event/football/uefa-club-competitions/uefa-conference-league/panathinaikos-fc-v-fk-borac-banja-luka/258389924/main-markets",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 6.0
+    }
+   ]
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -253,23 +241,6 @@
    ]
   },
   {
-   "sport": "UEFA Europa Conference League",
-   "market": "Match odds",
-   "event": "Panathinaikos FC v FK Borac Banja Luka",
-   "start": "2026-10-15T16:45:00Z",
-   "selection": "Draw",
-   "book": "Ladbrokes",
-   "odds": 6.0,
-   "fair": 5.8,
-   "link": "https://sports.ladbrokes.com/event/football/uefa-club-competitions/uefa-conference-league/panathinaikos-fc-v-fk-borac-banja-luka/258389924/main-markets",
-   "also": [
-    {
-     "book": "Coral",
-     "odds": 6.0
-    }
-   ]
-  },
-  {
    "sport": "WTA China Open",
    "market": "Match odds",
    "event": "Nikola Bartunkova v Aryna Sabalenka",
@@ -277,26 +248,25 @@
    "selection": "Nikola Bartunkova",
    "book": "Paddy Power",
    "odds": 6.0,
-   "fair": 5.39,
+   "fair": 5.82,
    "link": "https://www.paddypower.com/tennis/wta-beijing-2026/nikol-bartunkova-v-a-sabalenka-36142978",
    "also": [
     {
      "book": "Sky Bet",
      "odds": 6.0
-    },
-    {
-     "book": "Coral",
-     "odds": 5.75
-    },
-    {
-     "book": "Ladbrokes",
-     "odds": 5.75
-    },
-    {
-     "book": "BoyleSports",
-     "odds": 5.5
     }
    ]
+  },
+  {
+   "sport": "WTA China Open",
+   "market": "Match odds",
+   "event": "Sara Bejlek v Naomi Osaka",
+   "start": "2026-10-04T11:00:00Z",
+   "selection": "Sara Bejlek",
+   "book": "Sky Bet",
+   "odds": 3.75,
+   "fair": 3.65,
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=35737965&bsmId=930.387682415"
   }
  ],
  "results": [
@@ -345,6 +315,231 @@
    "model_version": "",
    "scanner_config": "",
    "min_edge_at_detection": null,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "LiveScore Bet",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Casumo",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Grosvenor",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Virgin Bet",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "LiveScore Bet",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Casumo",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Grosvenor",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP Japan Open",
+   "league": "tennis_atp_japan_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "",
+   "selection": "Adolfo Daniel Vallejo",
+   "book": "Virgin Bet",
+   "odds": 2.5,
+   "fair": 0,
+   "edge": 0,
+   "books": 0,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "",
+   "scanner_config": "",
+   "min_edge_at_detection": null,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.0,
+   "won": true
+  },
+  {
+   "sport": "ATP China Open",
+   "league": "tennis_atp_china_open",
+   "market": "Match odds",
+   "date": "2026-10-03",
+   "detected": "2026-10-02T16:56:37.936984+00:00",
+   "selection": "Jan-Lennard Struff",
+   "book": "Betway",
+   "odds": 5.5,
+   "fair": 5.39,
+   "edge": 2.04,
+   "books": 20,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+   "min_edge_at_detection": 2.0,
    "status": "loss",
    "stake": 10.0,
    "profit": -10.0,

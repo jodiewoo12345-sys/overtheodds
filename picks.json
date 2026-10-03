@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -39,63 +39,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
- },
- "7b880c1411425677c923489ced32b94e|livescorebet|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "LiveScore Bet",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T19:39:59.899651+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|casumo|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Casumo",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T19:39:59.899654+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|grosvenor|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Grosvenor",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T19:39:59.899656+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|virginbet|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Virgin Bet",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T19:39:59.899658+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -111,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -127,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -143,71 +87,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
- },
- "7b880c1411425677c923489ced32b94e|livescorebet|h2h|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "LiveScore Bet",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T20:01:18.240662+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|casumo|h2h|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Casumo",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T20:01:18.240665+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|grosvenor|h2h|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Grosvenor",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T20:01:18.240667+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
- },
- "7b880c1411425677c923489ced32b94e|virginbet|h2h|Adolfo Daniel Vallejo": {
-  "sport": "ATP Japan Open",
-  "sport_key": "tennis_atp_japan_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Matteo Berrettini v Adolfo Daniel Vallejo",
-  "start": "2026-10-03T02:00:00Z",
-  "selection": "Adolfo Daniel Vallejo",
-  "book": "Virgin Bet",
-  "odds": 2.5,
-  "first_seen": "2026-10-01T20:01:18.240669+00:00",
-  "close": 2.44,
-  "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 2.48,
-  "latest_seen": "2026-10-02T16:56:37.936998+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -239,7 +119,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.49,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "065b68a0db1926f7e3bff7ebd93e7624|paddypower|h2h|St Louis Blues": {
   "sport": "NHL",
@@ -270,8 +150,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.46,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 3.44,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
@@ -303,7 +183,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.26,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -335,7 +215,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.85,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -367,7 +247,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.42,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
   "sport": "Serie A - Italy",
@@ -399,7 +279,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.55,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -431,7 +311,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
   "sport": "Primeira Liga - Portugal",
@@ -463,7 +343,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.52,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -494,8 +374,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.13,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 5.08,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -527,7 +407,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -558,40 +438,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.83,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
- },
- "84fefb7009232a1bafbed2450065664a|betway|h2h|Jan-Lennard Struff": {
-  "sport": "ATP China Open",
-  "sport_key": "tennis_atp_china_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Daniil Medvedev v Jan-Lennard Struff",
-  "start": "2026-10-03T09:00:00Z",
-  "selection": "Jan-Lennard Struff",
-  "book": "Betway",
-  "odds": 5.5,
-  "fair": 5.39,
-  "edge": 2.04,
-  "books": 20,
-  "detected": "2026-10-02T16:56:37.936984+00:00",
-  "first_seen": "2026-10-02T16:56:37.936986+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 5.82,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 5.76,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "86d5be8c100a0589e1b1b737111770ae|grosvenor|h2h|Nikola Bartunkova": {
   "sport": "WTA China Open",
@@ -622,8 +470,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.43,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 5.82,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|boylesports|h2h|West Indies": {
   "sport": "One Day Internationals",
@@ -686,8 +534,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.15,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 2.31,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "d8e6871b9b420af1492a655c1058244c|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -718,8 +566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 1.87,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 1.76,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "17a149453fbdb9bad7efa57f7481a07f|casumo|spreads|Dallas Stars -1.5": {
   "sport": "NHL",
@@ -783,7 +631,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "45d984ff127ce23fde997b0182b6336b|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -815,7 +663,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "3a9af73961ea2f2322255a6fca4d421e|casumo|spreads|Minnesota Wild -1.5": {
   "sport": "NHL",
@@ -879,7 +727,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.92,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betway|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -911,7 +759,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.32,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  },
  "86d5be8c100a0589e1b1b737111770ae|paddypower|h2h|Nikola Bartunkova": {
   "sport": "WTA China Open",
@@ -942,7 +790,135 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.43,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
+  "latest_fair": 5.82,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+ },
+ "25079431893a620763e5a454d7991922|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Tampa Bay Lightning v Washington Capitals",
+  "start": "2026-10-03T23:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.8,
+  "fair": 1.73,
+  "edge": 4.05,
+  "books": 6,
+  "detected": "2026-10-03T12:49:13.976337+00:00",
+  "first_seen": "2026-10-03T12:49:13.976339+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.73,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+ },
+ "3c813baeb4f415e152409b8dafc46366|casumo|h2h|FC Energie Cottbus": {
+  "sport": "Bundesliga 2 - Germany",
+  "sport_key": "soccer_germany_bundesliga2",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "SV Darmstadt 98 v FC Energie Cottbus",
+  "start": "2026-10-10T11:00:00Z",
+  "selection": "FC Energie Cottbus",
+  "book": "Casumo",
+  "odds": 3.2,
+  "fair": 3.12,
+  "edge": 2.56,
+  "books": 14,
+  "detected": "2026-10-03T12:49:13.976378+00:00",
+  "first_seen": "2026-10-03T12:49:13.976380+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.12,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+ },
+ "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Getafe v Rayo Vallecano",
+  "start": "2026-10-19T19:00:00Z",
+  "selection": "Rayo Vallecano",
+  "book": "Grosvenor",
+  "odds": 2.95,
+  "fair": 2.85,
+  "edge": 3.51,
+  "books": 13,
+  "detected": "2026-10-03T12:49:13.976410+00:00",
+  "first_seen": "2026-10-03T12:49:13.976411+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.85,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+ },
+ "fad08200c67499089c261f6170814604|skybet|h2h|Sara Bejlek": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Sara Bejlek v Naomi Osaka",
+  "start": "2026-10-04T11:00:00Z",
+  "selection": "Sara Bejlek",
+  "book": "Sky Bet",
+  "odds": 3.75,
+  "fair": 3.65,
+  "edge": 2.74,
+  "books": 19,
+  "detected": "2026-10-03T12:49:13.976457+00:00",
+  "first_seen": "2026-10-03T12:49:13.976458+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.65,
+  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
  }
 }
