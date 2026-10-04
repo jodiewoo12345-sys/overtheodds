@@ -31,10 +31,14 @@ API = "https://api.the-odds-api.com/v4"
 OUT = Path(os.getenv("OUT_DIR", "."))
 KEY = os.getenv("ODDS_API_KEY", "")
 
-# T-10 is the primary snapshot, T-5 the backup. The window covers both without
-# firing at kick-off itself, when bookmakers are suspending markets.
-WINDOW_FROM = float(os.getenv("CLOSE_FROM_MIN", 4))     # minutes before the off
-WINDOW_TO = float(os.getenv("CLOSE_TO_MIN", 16))
+# GitHub's scheduler runs late under load and sometimes skips a slot entirely, so
+# a narrow window round T-10 misses most events. We accept anything from T-45 down
+# to T-3 and keep taking fresher snapshots as the off approaches: the last one
+# recorded is the closest to the off we managed to get. close_minutes_before says
+# exactly how close that was, so a T-40 snapshot is never mistaken for a T-5 one.
+WINDOW_FROM = float(os.getenv("CLOSE_FROM_MIN", 3))     # minutes before the off
+WINDOW_TO = float(os.getenv("CLOSE_TO_MIN", 45))
+IMPROVE_BY = float(os.getenv("CLOSE_IMPROVE_BY", 4))    # only re-snap if this much closer
 MIN_BOOKS = int(os.getenv("CLOSE_MIN_BOOKS", 4))
 DAILY_BUDGET = int(os.getenv("CLOSE_DAILY_CREDITS", 60))
 
@@ -96,15 +100,20 @@ def main():
     # which sports have something starting inside the window and no closing snapshot yet
     due = {}
     for pid, pick in picks.items():
-        if pick.get("close_final"):
+        taken_at = pick.get("close_minutes_before")
+        # a snapshot already close to the off is good enough; otherwise try to better it
+        if pick.get("close_final") and taken_at is not None and taken_at <= 12:
             continue
         try:
             start = datetime.fromisoformat(pick["start"].replace("Z", "+00:00"))
         except Exception:
             continue
         minutes = (start - now).total_seconds() / 60
-        if WINDOW_FROM <= minutes <= WINDOW_TO:
-            due.setdefault(pick.get("sport_key", ""), []).append((pid, pick, minutes))
+        if not (WINDOW_FROM <= minutes <= WINDOW_TO):
+            continue
+        if taken_at is not None and minutes > taken_at - IMPROVE_BY:
+            continue                      # wouldn't be meaningfully closer than what we have
+        due.setdefault(pick.get("sport_key", ""), []).append((pid, pick, minutes))
 
     if not due:
         print("Nothing in the closing window.")
@@ -144,7 +153,7 @@ def main():
             pick["close_books"] = books
             pick["close_at"] = now.isoformat()
             pick["close_minutes_before"] = round(minutes, 1)
-            pick["close_final"] = True          # don't overwrite a good snapshot
+            pick["close_final"] = True
             pick["close_status"] = "final"
             frozen += 1
             print(f"  froze {pick['selection']} at {fair} "
