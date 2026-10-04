@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -39,7 +39,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -55,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -71,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -87,7 +87,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -119,39 +119,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.49,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "065b68a0db1926f7e3bff7ebd93e7624|paddypower|h2h|St Louis Blues": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Colorado Avalanche v St Louis Blues",
-  "start": "2026-10-04T01:10:00Z",
-  "selection": "St Louis Blues",
-  "book": "Paddy Power",
-  "odds": 3.5,
-  "fair": 3.41,
-  "edge": 2.64,
-  "books": 5,
-  "detected": "2026-10-02T16:56:37.936890+00:00",
-  "first_seen": "2026-10-02T16:56:37.936892+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 3.44,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
@@ -182,8 +150,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.26,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.27,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -215,7 +183,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.85,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -246,8 +214,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.42,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.45,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
   "sport": "Serie A - Italy",
@@ -279,7 +247,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.55,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -311,7 +279,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
   "sport": "Primeira Liga - Portugal",
@@ -343,7 +311,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.52,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -374,8 +342,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.08,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.13,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -407,7 +375,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -438,40 +406,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.76,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "86d5be8c100a0589e1b1b737111770ae|grosvenor|h2h|Nikola Bartunkova": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Nikola Bartunkova v Aryna Sabalenka",
-  "start": "2026-10-04T03:00:00Z",
-  "selection": "Nikola Bartunkova",
-  "book": "Grosvenor",
-  "odds": 5.0,
-  "fair": 4.78,
-  "edge": 4.6,
-  "books": 14,
-  "detected": "2026-10-02T16:56:37.936992+00:00",
-  "first_seen": "2026-10-02T16:56:37.936993+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 5.82,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.77,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|boylesports|h2h|West Indies": {
   "sport": "One Day Internationals",
@@ -505,198 +441,6 @@
   "latest_fair": 6.01,
   "latest_seen": "2026-10-03T06:10:18.983112+00:00"
  },
- "d8e6871b9b420af1492a655c1058244c|grosvenor|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Edmonton Oilers v Seattle Kraken",
-  "start": "2026-10-03T23:10:00Z",
-  "selection": "Over 6.5",
-  "book": "Grosvenor",
-  "odds": 2.2,
-  "fair": 2.0,
-  "edge": 10.0,
-  "books": 8,
-  "detected": "2026-10-03T06:10:18.982975+00:00",
-  "first_seen": "2026-10-03T06:10:18.982977+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.31,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "d8e6871b9b420af1492a655c1058244c|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Edmonton Oilers v Seattle Kraken",
-  "start": "2026-10-03T23:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.91,
-  "fair": 1.76,
-  "edge": 8.52,
-  "books": 8,
-  "detected": "2026-10-03T06:10:18.982984+00:00",
-  "first_seen": "2026-10-03T06:10:18.982986+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.76,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "17a149453fbdb9bad7efa57f7481a07f|casumo|spreads|Dallas Stars -1.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "spreads",
-  "market": "Handicap",
-  "event": "Nashville Predators v Dallas Stars",
-  "start": "2026-10-04T00:10:00Z",
-  "selection": "Dallas Stars -1.5",
-  "book": "Casumo",
-  "odds": 3.0,
-  "fair": 2.87,
-  "edge": 4.53,
-  "books": 5,
-  "detected": "2026-10-03T06:10:18.982994+00:00",
-  "first_seen": "2026-10-03T06:10:18.982996+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.91,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
- },
- "53b58ae0f99c8172ebee3bd82e7c83a7|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Pittsburgh Penguins v Montr\u00e9al Canadiens",
-  "start": "2026-10-03T23:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.8,
-  "fair": 1.73,
-  "edge": 4.05,
-  "books": 6,
-  "detected": "2026-10-03T06:10:18.983002+00:00",
-  "first_seen": "2026-10-03T06:10:18.983005+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.73,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "45d984ff127ce23fde997b0182b6336b|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Vancouver Canucks v Calgary Flames",
-  "start": "2026-10-04T02:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.8,
-  "fair": 1.73,
-  "edge": 4.05,
-  "books": 6,
-  "detected": "2026-10-03T06:10:18.983011+00:00",
-  "first_seen": "2026-10-03T06:10:18.983012+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.73,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "3a9af73961ea2f2322255a6fca4d421e|casumo|spreads|Minnesota Wild -1.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "spreads",
-  "market": "Handicap",
-  "event": "Minnesota Wild v Boston Bruins",
-  "start": "2026-10-04T00:10:00Z",
-  "selection": "Minnesota Wild -1.5",
-  "book": "Casumo",
-  "odds": 2.4,
-  "fair": 2.31,
-  "edge": 3.9,
-  "books": 5,
-  "detected": "2026-10-03T06:10:18.983019+00:00",
-  "first_seen": "2026-10-03T06:10:18.983021+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.32,
-  "latest_seen": "2026-10-03T06:10:18.983112+00:00"
- },
  "7895f97f2f9577f3b13287a3d086859d|betfred_uk|h2h|Hull City": {
   "sport": "EPL",
   "sport_key": "soccer_epl",
@@ -726,8 +470,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.92,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.08,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betway|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -758,72 +502,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.32,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "86d5be8c100a0589e1b1b737111770ae|paddypower|h2h|Nikola Bartunkova": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Nikola Bartunkova v Aryna Sabalenka",
-  "start": "2026-10-04T03:00:00Z",
-  "selection": "Nikola Bartunkova",
-  "book": "Paddy Power",
-  "odds": 6.0,
-  "fair": 5.39,
-  "edge": 11.32,
-  "books": 16,
-  "detected": "2026-10-03T06:10:18.983106+00:00",
-  "first_seen": "2026-10-03T06:10:18.983108+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 5.82,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
- },
- "25079431893a620763e5a454d7991922|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Tampa Bay Lightning v Washington Capitals",
-  "start": "2026-10-03T23:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.8,
-  "fair": 1.73,
-  "edge": 4.05,
-  "books": 6,
-  "detected": "2026-10-03T12:49:13.976337+00:00",
-  "first_seen": "2026-10-03T12:49:13.976339+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.73,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 5.49,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "3c813baeb4f415e152409b8dafc46366|casumo|h2h|FC Energie Cottbus": {
   "sport": "Bundesliga 2 - Germany",
@@ -855,7 +535,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.12,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -886,8 +566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.85,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 2.81,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  },
  "fad08200c67499089c261f6170814604|skybet|h2h|Sara Bejlek": {
   "sport": "WTA China Open",
@@ -920,5 +600,293 @@
   "close_status": "pending",
   "latest_fair": 3.65,
   "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+ },
+ "259b5df9aa0d10257f56de78523495e0|betway|h2h|Tampa Bay Buccaneers": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Dallas Cowboys v Tampa Bay Buccaneers",
+  "start": "2026-10-09T00:15:00Z",
+  "selection": "Tampa Bay Buccaneers",
+  "book": "Betway",
+  "odds": 5.0,
+  "fair": 4.75,
+  "edge": 5.26,
+  "books": 9,
+  "detected": "2026-10-04T11:12:41.724411+00:00",
+  "first_seen": "2026-10-04T11:12:41.724420+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.75,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "c4647ca1201e6768501877267ca8251b|betfred_uk|h2h|Miami Dolphins": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Miami Dolphins v Cincinnati Bengals",
+  "start": "2026-10-11T17:00:00Z",
+  "selection": "Miami Dolphins",
+  "book": "Betfred (UK)",
+  "odds": 4.8,
+  "fair": 4.68,
+  "edge": 2.56,
+  "books": 7,
+  "detected": "2026-10-04T11:12:41.724440+00:00",
+  "first_seen": "2026-10-04T11:12:41.724442+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.75,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "e3cb10ced3e8190f557f9ac8ed99d966|boylesports|h2h|West Indies": {
+  "sport": "International Twenty20",
+  "sport_key": "cricket_international_t20",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "India v West Indies",
+  "start": "2026-10-06T13:30:00Z",
+  "selection": "West Indies",
+  "book": "BoyleSports",
+  "odds": 5.0,
+  "fair": 4.75,
+  "edge": 5.26,
+  "books": 10,
+  "detected": "2026-10-04T11:12:41.724460+00:00",
+  "first_seen": "2026-10-04T11:12:41.724461+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.75,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "6cac1fc86136075a23655625562fd8dc|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Anaheim Ducks v Florida Panthers",
+  "start": "2026-10-05T00:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.91,
+  "fair": 1.79,
+  "edge": 6.7,
+  "books": 6,
+  "detected": "2026-10-04T11:12:41.724467+00:00",
+  "first_seen": "2026-10-04T11:12:41.724468+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.79,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "25c7d39ef0b719e54043c88173c61d2b|casumo|h2h|Wycombe Wanderers": {
+  "sport": "League 1",
+  "sport_key": "soccer_england_league1",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Wycombe Wanderers v Luton",
+  "start": "2026-10-10T14:00:00Z",
+  "selection": "Wycombe Wanderers",
+  "book": "Casumo",
+  "odds": 2.95,
+  "fair": 2.81,
+  "edge": 4.98,
+  "books": 16,
+  "detected": "2026-10-04T11:12:41.724474+00:00",
+  "first_seen": "2026-10-04T11:12:41.724475+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.82,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "46565a1cbc6f2e15ba0b2223a5a1fde8|betfred_uk|h2h|Draw": {
+  "sport": "League 1",
+  "sport_key": "soccer_england_league1",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Stockport County FC v Barnsley",
+  "start": "2026-10-10T14:00:00Z",
+  "selection": "Draw",
+  "book": "Betfred (UK)",
+  "odds": 5.5,
+  "fair": 5.37,
+  "edge": 2.42,
+  "books": 15,
+  "detected": "2026-10-04T11:12:41.724481+00:00",
+  "first_seen": "2026-10-04T11:12:41.724483+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.39,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "4b8073cec520357770ab792d0a47a049|grosvenor|h2h|1. FC N\u00fcrnberg": {
+  "sport": "Frauen-Bundesliga",
+  "sport_key": "soccer_germany_bundesliga_women",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "1. FC N\u00fcrnberg v TSG Hoffenheim",
+  "start": "2026-10-04T16:30:00Z",
+  "selection": "1. FC N\u00fcrnberg",
+  "book": "Grosvenor",
+  "odds": 3.45,
+  "fair": 3.3,
+  "edge": 4.55,
+  "books": 7,
+  "detected": "2026-10-04T11:12:41.724501+00:00",
+  "first_seen": "2026-10-04T11:12:41.724503+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.3,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "e2578ec1dbe113dc7d40bcd7e0fd1d9f|williamhill|h2h|Draw": {
+  "sport": "UEFA Europa Conference League",
+  "sport_key": "soccer_uefa_europa_conference_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Atalanta BC v Pafos FC",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Draw",
+  "book": "William Hill",
+  "odds": 5.0,
+  "fair": 4.82,
+  "edge": 3.73,
+  "books": 15,
+  "detected": "2026-10-04T11:12:41.724548+00:00",
+  "first_seen": "2026-10-04T11:12:41.724550+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.82,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+ },
+ "431fc65e67cd737bceb5827118d3f7eb|casumo|h2h|Salzburg": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Salzburg v AC Milan",
+  "start": "2026-10-15T16:45:00Z",
+  "selection": "Salzburg",
+  "book": "Casumo",
+  "odds": 4.2,
+  "fair": 4.11,
+  "edge": 2.19,
+  "books": 18,
+  "detected": "2026-10-04T11:12:41.724555+00:00",
+  "first_seen": "2026-10-04T11:12:41.724556+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.12,
+  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
  }
 }
