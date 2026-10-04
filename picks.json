@@ -696,11 +696,11 @@
   "close_status": "final",
   "latest_fair": 1.79,
   "latest_seen": "2026-10-04T17:36:40.191956+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 1.79,
   "close_books": 6,
-  "close_at": "2026-10-04T23:33:29.135723+00:00",
-  "close_minutes_before": 36.5,
+  "close_at": "2026-10-04T23:49:21.396656+00:00",
+  "close_minutes_before": 20.6,
   "close_final": true
  },
  "25c7d39ef0b719e54043c88173c61d2b|casumo|h2h|Wycombe Wanderers": {
