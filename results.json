@@ -523,5 +523,30 @@
   "stake": 10.0,
   "profit": 8.0,
   "won": true
+ },
+ {
+  "sport": "WTA China Open",
+  "league": "tennis_wta_china_open",
+  "market": "Match odds",
+  "date": "2026-10-04",
+  "detected": "2026-10-03T12:49:13.976457+00:00",
+  "selection": "Sara Bejlek",
+  "book": "Sky Bet",
+  "odds": 3.75,
+  "fair": 3.65,
+  "edge": 2.74,
+  "books": 19,
+  "close": 0,
+  "close_books": 0,
+  "close_minutes": null,
+  "close_status": "missed_window",
+  "close_attempts": 0,
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "status": "loss",
+  "stake": 10.0,
+  "profit": -10.0,
+  "won": false
  }
 ]

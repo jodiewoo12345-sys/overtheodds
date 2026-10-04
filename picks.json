@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -39,7 +39,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -55,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -71,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -87,7 +87,7 @@
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -118,8 +118,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.49,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_fair": 5.24,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
@@ -151,7 +151,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.27,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -183,7 +183,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.85,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -215,7 +215,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.45,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
   "sport": "Serie A - Italy",
@@ -247,7 +247,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.55,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -279,7 +279,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
   "sport": "Primeira Liga - Portugal",
@@ -310,8 +310,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.52,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_fair": 5.72,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -342,8 +342,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.13,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_fair": 5.1,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -375,7 +375,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -407,7 +407,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.77,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|boylesports|h2h|West Indies": {
   "sport": "One Day Internationals",
@@ -471,7 +471,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.08,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betway|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -503,7 +503,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.49,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "3c813baeb4f415e152409b8dafc46366|casumo|h2h|FC Energie Cottbus": {
   "sport": "Bundesliga 2 - Germany",
@@ -535,7 +535,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.12,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -566,40 +566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.81,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
- },
- "fad08200c67499089c261f6170814604|skybet|h2h|Sara Bejlek": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Sara Bejlek v Naomi Osaka",
-  "start": "2026-10-04T11:00:00Z",
-  "selection": "Sara Bejlek",
-  "book": "Sky Bet",
-  "odds": 3.75,
-  "fair": 3.65,
-  "edge": 2.74,
-  "books": 19,
-  "detected": "2026-10-03T12:49:13.976457+00:00",
-  "first_seen": "2026-10-03T12:49:13.976458+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 3.65,
-  "latest_seen": "2026-10-03T12:49:13.976463+00:00"
+  "latest_fair": 2.84,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "259b5df9aa0d10257f56de78523495e0|betway|h2h|Tampa Bay Buccaneers": {
   "sport": "NFL",
@@ -695,7 +663,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.75,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "6cac1fc86136075a23655625562fd8dc|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -727,7 +695,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.79,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "25c7d39ef0b719e54043c88173c61d2b|casumo|h2h|Wycombe Wanderers": {
   "sport": "League 1",
@@ -759,7 +727,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.82,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "46565a1cbc6f2e15ba0b2223a5a1fde8|betfred_uk|h2h|Draw": {
   "sport": "League 1",
@@ -790,8 +758,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.39,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_fair": 5.23,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "4b8073cec520357770ab792d0a47a049|grosvenor|h2h|1. FC N\u00fcrnberg": {
   "sport": "Frauen-Bundesliga",
@@ -854,8 +822,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.82,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_fair": 4.81,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
  "431fc65e67cd737bceb5827118d3f7eb|casumo|h2h|Salzburg": {
   "sport": "UEFA Europa League",
@@ -887,6 +855,38 @@
   },
   "close_status": "pending",
   "latest_fair": 4.12,
-  "latest_seen": "2026-10-04T11:12:41.724560+00:00"
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
+ },
+ "4cfd3c3636333951706a205b96dc1db3|paddypower|h2h|Besiktas JK": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "TSG Hoffenheim v Besiktas JK",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Besiktas JK",
+  "book": "Paddy Power",
+  "odds": 3.7,
+  "fair": 3.49,
+  "edge": 6.02,
+  "books": 18,
+  "detected": "2026-10-04T17:36:40.191942+00:00",
+  "first_seen": "2026-10-04T17:36:40.191944+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.49,
+  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  }
 }
