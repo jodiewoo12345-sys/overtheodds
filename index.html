@@ -229,10 +229,11 @@
     <div class="panel" style="margin-top:10px">
       <p id="clvLine"></p>
       <p id="captureLine" style="font-size:13px"></p>
-      <p>Closing line value compares the price we published against the market's margin-free
-         consensus roughly ten minutes before the event starts. Only selections with a
-         verified snapshot from that window count toward the figure; where no reliable
-         closing price could be captured, the selection is left out rather than guessed at.</p>
+      <p>Shortly before each event starts, we check what the whole market has settled on and
+         compare it with the price we published. If our price was bigger, we got on at better
+         odds than the market ended up offering. We only count bets where we managed that
+         check in time, and we never estimate one we missed.
+         <a href="/methodology.html">The full rules</a>.</p>
     </div>
     <h2>By month</h2>
     <div class="scroll"><table id="byMonth"></table></div>
@@ -454,7 +455,7 @@
       '<div class="foot"><span class="book"><b>' + esc(b.book) + '</b>' + (mine ? ' · yours' : '') +
         (b.also && b.also.length ? '<span class="also">' + b.also.map(function(a){
             return a && a.book ? esc(a.book) + " " + Number(a.odds).toFixed(2) : esc(a);
-          }).join(" · ") + ' · fair ' + Number(b.fair).toFixed(2) + '</span>' : '') +
+          }).join(" · ") + ' · market ' + Number(b.fair).toFixed(2) + '</span>' : '') +
       '</span>' +
         (locked ? '<span class="lockmsg">Members only</span>'
           : (link ? '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener noreferrer" ' +
@@ -567,14 +568,15 @@
     el("recRange").textContent = dates[0] + " to " + dates[dates.length-1];
     el("recStats").innerHTML =
       stat(String(s.n), s.voids ? "settled, " + s.voids + " void" : "bets settled") +
-      stat(pctStr(s.roi), "return at level stakes", s.roi >= 0 ? "up" : "down") +
-      stat(s.strike.toFixed(0) + "%", "strike rate") +
+      stat(pctStr(s.roi), "profit on £10 a bet", s.roi >= 0 ? "up" : "down") +
+      stat(s.strike.toFixed(0) + "%", "winners") +
       stat(s.clvN ? pctStr(s.clv) : "—",
-           s.clvN ? "closing line value, " + s.clvN + " bets" : "closing line value",
+           s.clvN ? "better than the final price, " + s.clvN + " checked"
+                  : "better than the final price",
            s.clv >= 0 ? "up" : "down");
-    var confidence = s.clvN < 100 ? "far too few to read anything into"
-                   : s.clvN < 400 ? "enough to be suggestive, not enough to be sure"
-                   : "a reasonable sample";
+    var confidence = s.clvN < 100 ? "nowhere near enough to tell us anything yet"
+                   : s.clvN < 400 ? "enough to be interesting, not enough to be sure"
+                   : "a decent number to judge by";
     var failures = {};
     list.forEach(function(r){
       var st = r.close_status || (r.close > 0 ? "final" : "unknown");
@@ -589,17 +591,20 @@
         'That is a fault worth chasing, not a rounding issue.</div>'
       : '';
 
-    el("captureLine").innerHTML = s.clvN + " of " + list.length +
-      ' settled selections have a verified closing snapshot' +
-      (failText ? ' · ' + esc(failText) : '') + '.';
+    el("captureLine").innerHTML = 'We managed to check the final price on ' + s.clvN +
+      ' of ' + list.length + ' finished bets' +
+      (failText ? ' (' + esc(failText.replace(/missed window/g, "started before we could check")
+                                     .replace(/insufficient books/g, "too few bookmakers left")
+                                     .replace(/unavailable/g, "market had gone")) + ')' : '') + '.';
 
     el("clvLine").innerHTML = s.clvN
       ? '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
-        '% beat the closing price</strong>, measured on the ' + s.clvN +
-        ' selections with a verified snapshot — ' + confidence +
-        '. Consistently beating the close is what an edge looks like before it shows up ' +
-        'as profit; consistently missing it means the board is finding noise.'
-      : 'No verified closing snapshots yet, so closing line value cannot be measured.';
+        '% of our prices were better than the market\'s final price</strong>, from the ' +
+        s.clvN + ' we could check — ' + confidence +
+        '. This is the earliest sign of whether the board is any good: getting a better ' +
+        'price than the market settles on is the whole point, and it shows up long before ' +
+        'profit does. Below half and we are just finding noise.'
+      : 'We have not been able to check a final price yet, so there is nothing to judge.';
 
     var months = {}, sports = {};
     list.forEach(function(r){
@@ -662,9 +667,10 @@
         (ageH > 14 ? " · overdue" : "");
     }
     el("lede").innerHTML = "Every day we compare each UK bookmaker against what the whole market " +
-      "says a price should be." +
+      "says the price should be." +
       (prefs.free === "All" ? " Free, every sport." : " " + esc(prefs.free) + " is free; the rest is for members.") +
-      ' <a href="/how-it-works.html">How this works</a>';
+      ' <a href="/how-it-works.html">How this works</a> · ' +
+      '<a href="/methodology.html">Our rules</a>';
   }
   function show(view){
     prefs.view = view;

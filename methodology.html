@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Our rules — Over the Odds</title>
+<link rel="icon" href="/favicon.png">
+<meta name="description" content="Exactly how Over the Odds picks what goes on the board: the thresholds, the checks, and what we throw away.">
+<meta property="og:title" content="Our rules — Over the Odds">
+<meta property="og:description" content="Exactly how Over the Odds picks what goes on the board: the thresholds, the checks, and what we throw away.">
+<meta property="og:image" content="https://overtheodds.co.uk/preview.png">
+<meta property="og:url" content="https://overtheodds.co.uk/methodology.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F4EF; --ink:#16171B; --soft:#6E6A62; --rule:#D8D3C8; --hair:#E8E4DB;
+    --green:#1A6B3C; --amber:#9A6B10; --wash:#EFEBE2;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#15161A; --ink:#EDEAE3; --soft:#948F86; --rule:#2E3036; --hair:#232529;
+      --green:#5FC489; --amber:#D7A64A; --wash:#1B1D22;
+    }
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink);
+       font:400 17px/1.65 "Inter Tight", system-ui, -apple-system, "Segoe UI", sans-serif;
+       font-variant-numeric:tabular-nums}
+  .wrap{max-width:680px; margin:0 auto; padding:16px 16px 60px}
+  a{color:inherit}
+  header{display:flex; justify-content:space-between; align-items:center; gap:12px;
+         padding-bottom:10px}
+  .brand{font-family:"Instrument Serif", Georgia, serif; font-size:21px; text-decoration:none;
+         display:flex; align-items:center; gap:9px}
+  .mark{width:23px; height:23px; flex:none; overflow:visible;
+        stroke:currentColor; stroke-width:2; stroke-linecap:round; fill:none}
+  .mark .dot{fill:var(--green); stroke:none}
+  .back{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft);
+        text-decoration:none}
+  .masthead-rule{height:3px; background:var(--ink); margin-bottom:22px}
+  h1{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:34px;
+     line-height:1.1; margin:0 0 10px}
+  h2{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:24px;
+     margin:36px 0 10px; border-bottom:1px solid var(--ink); padding-bottom:5px}
+  p{margin:0 0 15px}
+  .lede{font-size:18px; color:var(--soft); margin-bottom:8px}
+  table{width:100%; border-collapse:collapse; font-size:15.5px; margin:8px 0 18px}
+  th,td{text-align:left; padding:10px 8px 10px 0; border-bottom:1px solid var(--hair);
+        vertical-align:top}
+  th{font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--soft)}
+  td:first-child{font-weight:600; width:38%}
+  .note{background:var(--wash); border-left:3px solid var(--amber); padding:13px 15px;
+        font-size:15.5px; margin:20px 0}
+  .note p:last-child{margin-bottom:0}
+  footer{margin-top:40px; padding-top:14px; border-top:3px solid var(--ink);
+         font-size:12.5px; color:var(--soft)}
+  footer p{margin:0 0 6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="/"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16h20"/><path d="M6 16v-3"/><path d="M12 16v-6"/><path d="M18 16v-11"/><circle cx="18" cy="3.6" r="1.9" class="dot"/></svg>Over the Odds</a>
+    <a class="back" href="/">Back to the board</a>
+  </header>
+  <div class="masthead-rule"></div>
+
+  <h1>Our rules</h1>
+  <p class="lede">Everything the board does, written down. No secret sauce, because the rules
+     aren't the clever bit — doing them the same way every single day is.</p>
+  <p>If you want the idea behind it rather than the settings,
+     <a href="/how-it-works.html">start here</a> instead.</p>
+
+  <h2>What gets on the board</h2>
+  <p>Twice a day we collect prices from every UK bookmaker we can reach, work out what the
+     market as a whole thinks each outcome is worth, and list anything priced generously
+     against that. A bet only appears if it clears all of these:</p>
+
+  <table>
+    <tr><th>Rule</th><th>What it means</th></tr>
+    <tr>
+      <td>At least 5 bookmakers</td>
+      <td>If fewer than five firms have priced a market, we ignore it. Two or three
+          bookmakers aren't a market, they're a rumour.</td>
+    </tr>
+    <tr>
+      <td>At least 2% better</td>
+      <td>The price has to beat what the market says by this much. Anything smaller is
+          within the noise.</td>
+    </tr>
+    <tr>
+      <td>Nothing above 6.00</td>
+      <td>Long shots carry enormous margin and the market agrees with itself least on
+          them, so the maths is least trustworthy exactly where it looks most exciting.</td>
+    </tr>
+    <tr>
+      <td>Nothing above 12%</td>
+      <td>In a market with a dozen firms, a genuine 15% edge doesn't exist. If our sums
+          produce one, our sums are wrong, so we bin it.</td>
+    </tr>
+    <tr>
+      <td>Starting in over 2 hours</td>
+      <td>Prices move fastest near the off. If we can't give you a fair chance of still
+          getting it, we don't list it.</td>
+    </tr>
+    <tr>
+      <td>Same line only</td>
+      <td>Over 2.5 goals at one firm and over 3.5 at another are different bets. We only
+          compare firms offering the same thing.</td>
+    </tr>
+    <tr>
+      <td>One row per bet</td>
+      <td>Where several firms offer the same selection, we show the best price and list
+          the others underneath, rather than filling the page with the same bet.</td>
+    </tr>
+  </table>
+
+  <h2>Where the "market price" comes from</h2>
+  <p>Every bookmaker's prices add up to more than certainty, and the extra is their cut.
+     We strip that out of each firm's prices separately, which leaves their honest view of
+     the chances. Then we take the middle of all those views.</p>
+  <p>Two details that matter. We leave a firm out of the calculation when we're judging
+     that same firm, or a generous price would drag the average towards itself and hide the
+     thing we're looking for. And we use the betting exchanges in the calculation, because
+     their prices are sharp, but we never list an exchange as a bet — they charge
+     commission and plenty of people don't hold an account.</p>
+
+  <h2>How we check whether any of it works</h2>
+  <p>Between about 45 and 3 minutes before each event starts, we go back and look at what
+     the whole market has settled on. That's the fairest test available: did the price we
+     published beat the price the market ended up at?</p>
+  <p>We take the closest check we manage. If the market had already closed, or too few
+     firms were left pricing it, we record that the check failed and leave the bet out of
+     the figures entirely. We never estimate a price we didn't see.</p>
+  <p>This is a better early test than profit. Profit over fifty bets is luck. Beating the
+     market's final price, consistently, is the thing that eventually turns into profit.</p>
+
+  <h2>How results are settled</h2>
+  <table>
+    <tr><th>Outcome</th><th>How we count it</th></tr>
+    <tr><td>Won</td><td>Profit at the price we published, on a notional £10.</td></tr>
+    <tr><td>Lost</td><td>Minus the £10.</td></tr>
+    <tr><td>Push</td><td>Stake back. It counts as neither a winner nor a loser, exactly as
+        a bookmaker would treat it. Lines like over 2.0 goals finishing 1-1 do this.</td></tr>
+    <tr><td>Anything else</td><td>Left out of every figure and flagged on the record page
+        as unrecognised, rather than quietly counted as a loss.</td></tr>
+  </table>
+  <p>Results come from the same data provider as the prices, and nothing is settled by hand.</p>
+
+  <h2>What we never do</h2>
+  <p>We don't remove a bet from the record because it lost. We don't change the price we
+     published after the event. We don't drop a bad month, a bad sport or a bad week.
+     Every selection that goes on the board ends up in the record, win or lose.</p>
+  <p>If we change how any of this works — a different threshold, a new sport, a change to
+     the sums — the date and the settings are stored against every bet, so the before and
+     after can be compared rather than blended together.</p>
+
+  <div class="note">
+    <p><strong>What this is not.</strong> These aren't tips. We have no idea who wins. We
+       only know which prices look generous against the rest of the market, and we might
+       be wrong about that. There are losing weeks and losing months in any approach like
+       this, and no amount of good process changes it.</p>
+    <p>Bookmakers also restrict or close accounts, usually the ones that cost them money.
+       Holding accounts with several firms softens that, but it happens to most people
+       eventually.</p>
+  </div>
+
+  <footer>
+    <p><a href="/">Back to the board</a> · <a href="/how-it-works.html">How this works</a></p>
+    <p>18+. Gambling involves risk and losses can exceed winnings. Support at
+       BeGambleAware.org.</p>
+  </footer>
+</div>
+</body>
+</html>

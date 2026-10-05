@@ -39,7 +39,11 @@
   a{color:var(--ink)}
   header{display:flex; justify-content:space-between; align-items:baseline; gap:12px;
          padding-bottom:14px; border-bottom:1px solid var(--rule)}
-  .brand{font-size:19px; font-weight:800; letter-spacing:-.03em; text-decoration:none}
+  .brand{font-size:19px; font-weight:800; letter-spacing:-.03em; text-decoration:none;
+         display:flex; align-items:center; gap:8px}
+  .mark{width:22px; height:22px; flex:none; overflow:visible;
+        stroke:currentColor; stroke-width:2; stroke-linecap:round; fill:none}
+  .mark .dot{fill:var(--green); stroke:none}
   .back{font-size:14px; color:var(--soft); text-decoration:none}
   .back:hover{color:var(--ink)}
   h1{font-size:30px; font-weight:800; letter-spacing:-.03em; line-height:1.15; margin:28px 0 10px}
@@ -67,13 +71,15 @@
 <body>
 <div class="wrap">
   <header>
-    <a class="brand" href="/">Over the Odds</a>
+    <a class="brand" href="/"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 16h20" /><path d="M6 16v-3" /><path d="M12 16v-6" /><path d="M18 16v-11" /><circle cx="18" cy="3.6" r="1.9" class="dot" /></svg>Over the Odds</a>
     <a class="back" href="/">Back to the board</a>
   </header>
 
   <h1>How this works</h1>
   <p class="lede">We don't predict results. We look for prices that are bigger than they
-     ought to be, by comparing every UK bookmaker against the market as a whole.</p>
+     ought to be, by comparing every UK bookmaker against the rest of the market.
+     If you want the exact rules and thresholds, <a href="/methodology.html">they're all
+     written down here</a>.</p>
 
   <h2>Every price includes the bookmaker's cut</h2>
   <p>Think about tossing a coin. Heads and tails are equally likely, so a fair price on
@@ -95,7 +101,7 @@
        2.7% is the bookmaker's margin.</p>
   </div>
 
-  <h2>Take the margin out and you see what they really think</h2>
+  <h2>Take the cut out and you see what they really think</h2>
   <p>Scale those numbers back down to 100% and you get that bookmaker's honest view of
      each outcome. In the example above, the home win becomes 44.3% rather than 45.5%.</p>
   <p>We do this for every bookmaker pricing that match, which gives us a dozen or more
@@ -134,7 +140,7 @@
 
   <h2>Why the prices move</h2>
   <p>We collect prices twice a day. Bookmakers change theirs constantly, so by the time
-     you look, a price may have shortened or gone entirely. Always check the price before
+     you look, a price may have shortened or gone altogether. Always check the price before
      betting — if it's moved, the value may have gone with it.</p>
   <p>We don't leave dead bets on the board. Every sweep rebuilds the list from scratch,
      so anything that no longer qualifies simply disappears.</p>
@@ -163,7 +169,7 @@
      most people eventually. Worth knowing before you start.</p>
 
   <footer>
-    <p><a href="/">Back to the board</a></p>
+    <p><a href="/">Back to the board</a> · <a href="/methodology.html">Our rules</a></p>
     <p>18+. Gambling involves risk and losses can exceed winnings. Support at
        BeGambleAware.org.</p>
   </footer>
