@@ -885,9 +885,11 @@
     "spreads"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 3.28,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T07:06:49.606580+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-05T23:00:35.622269+00:00"
  },
  "3da179dc46d7f7a5f06637fcd97ce367|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -917,9 +919,15 @@
     "spreads"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.76,
-  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00",
+  "close_attempts": 1,
+  "close": 1.77,
+  "close_books": 6,
+  "close_at": "2026-10-05T23:00:35.622269+00:00",
+  "close_minutes_before": 39.4,
+  "close_final": true
  },
  "9fa271d4bc9f3d18ae48c60f4a029374|livescorebet|h2h|Sheffield Wednesday": {
   "sport": "League 1",
