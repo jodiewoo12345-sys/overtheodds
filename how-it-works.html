@@ -15,65 +15,78 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#FAF8F4; --card:#FFFFFF; --ink:#141C2B; --soft:#6B7480; --rule:#E4E0D6;
-    --green:#0B7A4B; --amber:#B06A00; --red:#A32B22; --dim:rgba(20,28,43,.05);
+    --paper:#F6F4EF; --ink:#16171B; --soft:#6E6A62; --rule:#D8D3C8; --hair:#E8E4DB;
+    --green:#1A6B3C; --amber:#9A6B10; --wash:#EFEBE2;
     box-sizing:border-box;
     padding-top:env(safe-area-inset-top,0px);
     padding-bottom:env(safe-area-inset-bottom,0px);
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#12151A; --card:#1A1F26; --ink:#ECEDEA; --soft:#949CA6; --rule:#2A313A;
-      --green:#4FC08A; --amber:#E3A54A; --red:#EE8C84; --dim:rgba(255,255,255,.05);
+      --paper:#15161A; --ink:#EDEAE3; --soft:#948F86; --rule:#2E3036; --hair:#232529;
+      --green:#5FC489; --amber:#D7A64A; --wash:#1B1D22;
     }
   }
   *,*::before,*::after{box-sizing:inherit}
   html{-webkit-text-size-adjust:100%}
-  body{margin:0; background:var(--bg); color:var(--ink);
-       font:400 17px/1.65 "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  body{margin:0; background:var(--paper); color:var(--ink);
+       font:400 17px/1.65 "Inter Tight", system-ui, -apple-system, "Segoe UI", sans-serif;
        font-variant-numeric:tabular-nums}
-  .wrap{max-width:660px; margin:0 auto; padding:18px 16px 60px}
-  a{color:var(--ink)}
-  header{display:flex; justify-content:space-between; align-items:baseline; gap:12px;
-         padding-bottom:14px; border-bottom:1px solid var(--rule)}
-  .brand{font-size:19px; font-weight:800; letter-spacing:-.03em; text-decoration:none;
-         display:flex; align-items:center; gap:8px}
-  .mark{width:22px; height:22px; flex:none; overflow:visible;
+  .wrap{max-width:680px; margin:0 auto; padding:16px 16px 60px}
+  a{color:inherit}
+  header{display:flex; justify-content:space-between; align-items:center; gap:12px;
+         padding-bottom:10px}
+  .brand{font-family:"Instrument Serif", Georgia, serif; font-size:21px; text-decoration:none;
+         display:flex; align-items:center; gap:9px}
+  .mark{width:23px; height:23px; flex:none; overflow:visible;
         stroke:currentColor; stroke-width:2; stroke-linecap:round; fill:none}
   .mark .dot{fill:var(--green); stroke:none}
-  .back{font-size:14px; color:var(--soft); text-decoration:none}
-  .back:hover{color:var(--ink)}
-  h1{font-size:30px; font-weight:800; letter-spacing:-.03em; line-height:1.15; margin:28px 0 10px}
-  h2{font-size:20px; font-weight:800; letter-spacing:-.02em; margin:34px 0 8px}
+  .back{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft);
+        text-decoration:none}
+  .masthead-rule{height:3px; background:var(--ink); margin-bottom:22px}
+  h1{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:34px;
+     line-height:1.1; margin:0 0 10px}
+  h2{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:24px;
+     margin:36px 0 10px; border-bottom:1px solid var(--ink); padding-bottom:5px}
   p{margin:0 0 15px}
-  .lede{font-size:18px; color:var(--soft); margin-bottom:26px}
-  .example{background:var(--card); border:1px solid var(--rule); border-radius:12px;
-           padding:15px; margin:18px 0}
-  .example table{width:100%; border-collapse:collapse; font-size:15px}
-  .example td{padding:6px 0; border-bottom:1px solid var(--rule)}
-  .example tr:last-child td{border-bottom:0}
-  .example td:last-child{text-align:right; font-weight:700}
-  .example .note{font-size:14px; color:var(--soft); margin:11px 0 0}
-  .sum{font-weight:800; color:var(--amber)}
-  .good{color:var(--green); font-weight:800}
-  strong{font-weight:700}
-  .warn{background:var(--dim); border:1px solid var(--rule); border-radius:12px;
-        padding:15px; margin:22px 0; font-size:15.5px}
-  .warn p:last-child{margin-bottom:0}
-  footer{margin-top:44px; padding-top:16px; border-top:1px solid var(--rule);
-         font-size:13px; color:var(--soft)}
+  .lede{font-size:18px; color:var(--soft); margin-bottom:8px}
+  table{width:100%; border-collapse:collapse; font-size:15.5px; margin:8px 0 18px}
+  th,td{text-align:left; padding:10px 8px 10px 0; border-bottom:1px solid var(--hair);
+        vertical-align:top}
+  th{font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--soft)}
+  td:first-child{font-weight:600; width:38%}
+  .note{background:var(--wash); border-left:3px solid var(--amber); padding:13px 15px;
+        font-size:15.5px; margin:20px 0}
+  .note p:last-child{margin-bottom:0}
+  footer{margin-top:40px; padding-top:14px; border-top:3px solid var(--ink);
+         font-size:12.5px; color:var(--soft)}
   footer p{margin:0 0 6px}
+  .example{border-top:1px solid var(--hair); border-bottom:1px solid var(--hair);
+           padding:4px 0; margin:20px 0}
+  .example table{margin:0}
+  .example td{padding:9px 0; border-bottom:1px solid var(--hair)}
+  .example tr:last-child td{border-bottom:0}
+  .example td:last-child{text-align:right; font-weight:700; width:auto}
+  .example td:first-child{font-weight:400; width:auto}
+  .example .note{background:none; border:0; padding:0; margin:9px 0 2px;
+                 font-size:14px; color:var(--soft)}
+  .sum{font-weight:700; color:var(--amber)}
+  .good{color:var(--green); font-weight:700}
+  .warn{background:var(--wash); border-left:3px solid var(--amber); padding:13px 15px;
+        font-size:15.5px; margin:22px 0}
+  .warn p:last-child{margin-bottom:0}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <a class="brand" href="/"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 16h20" /><path d="M6 16v-3" /><path d="M12 16v-6" /><path d="M18 16v-11" /><circle cx="18" cy="3.6" r="1.9" class="dot" /></svg>Over the Odds</a>
+    <a class="brand" href="/"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16h20"/><path d="M6 16v-3"/><path d="M12 16v-6"/><path d="M18 16v-11"/><circle cx="18" cy="3.6" r="1.9" class="dot"/></svg>Over the Odds</a>
     <a class="back" href="/">Back to the board</a>
   </header>
+  <div class="masthead-rule"></div>
 
   <h1>How this works</h1>
   <p class="lede">We don't predict results. We look for prices that are bigger than they
