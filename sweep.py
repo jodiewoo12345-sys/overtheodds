@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 14: per-sport market fallback]
+sweep.py — build the board.   [version 15: rejected outliers kept for review]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -239,6 +239,7 @@ def find_value(events, sport_label, sport_key):
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(hours=MIN_HOURS)
     found = []
+    rejected = []
     market_prices = {}
     for ev in events:
         start = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
@@ -270,7 +271,20 @@ def find_value(events, sport_label, sport_key):
                     continue
                 fair = 1 / fair_prob
                 edge = (price / fair - 1) * 100
-                if edge < MIN_EDGE or edge > MAX_EDGE:
+                if edge < MIN_EDGE:
+                    continue
+                if edge > MAX_EDGE:
+                    # Too good to be true, so it doesn't go on the board. But it is kept
+                    # here so we can see later whether these are our own comparison
+                    # mistakes or genuine bookmaker errors, rather than assuming.
+                    rejected.append({
+                        "sport": sport_label, "event": name, "market": MARKET_NAMES.get(market_key, market_key),
+                        "selection": selection, "book": title_of(book_key, ev),
+                        "odds": round(price, 2), "fair": round(fair, 2),
+                        "edge": round(edge, 1), "books": len(by_book),
+                        "start": ev["commence_time"],
+                        "seen": datetime.now(timezone.utc).isoformat(),
+                    })
                     continue
                 found.append({
                     "id": f"{ev['id']}|{book_key}|{market_key}|{selection}",
@@ -290,7 +304,7 @@ def find_value(events, sport_label, sport_key):
     scanned["events"] += len(events)
     found = merge_duplicates(found)
     found.sort(key=lambda b: b["odds"] / b["fair"], reverse=True)
-    return found[:MAX_PER_SPORT], market_prices
+    return found[:MAX_PER_SPORT], market_prices, rejected
 
 
 def merge_duplicates(bets):
@@ -348,6 +362,7 @@ def main():
     if not KEY:
         sys.exit("Set ODDS_API_KEY first.")
     bets = []
+    outliers = []
     market_prices = {}
     for sport in active_sports():
         try:
@@ -357,9 +372,10 @@ def main():
             continue
         label = events[0].get("sport_title", sport) if events else sport
         scanned["sports"] += 1
-        sport_bets, sport_prices = find_value(events, label, sport)
+        sport_bets, sport_prices, sport_rejected = find_value(events, label, sport)
         bets.extend(sport_bets)
         market_prices.update(sport_prices)
+        outliers.extend(sport_rejected)
 
     # keep a record of every pick
     picks = load_json("picks.json", {})
@@ -403,6 +419,12 @@ def main():
                  for b in bets],
         "results": load_json("results.json", []),
     }
+    # a rolling fortnight of rejected outliers, for review rather than publication
+    history = load_json("outliers.json", [])
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).isoformat()
+    history = [o for o in history if o.get("seen", "") >= cutoff] + outliers
+    (OUT / "outliers.json").write_text(json.dumps(history[-500:], indent=1))
+
     (OUT / "feed.json").write_text(json.dumps(feed, indent=1))
     (OUT / "picks.json").write_text(json.dumps(picks, indent=1))
     per_market = ", ".join(f"{k}: {v}" for k, v in sorted(scanned["by_market"].items()))
@@ -414,6 +436,11 @@ def main():
     print(f"  priced: {per_market}")
     print(f"  qualifying: {found_per_market or 'none'}")
     print(f"  model {MODEL_VERSION}, config {scanner_config()}")
+    if outliers:
+        print(f"  {len(outliers)} rejected as too good to be true (see outliers.json):")
+        for o in sorted(outliers, key=lambda x: -x["edge"])[:5]:
+            print(f"    {o['edge']}% {o['selection']} ({o['market']}) "
+                  f"{o['odds']} v {o['fair']} at {o['book']} — {o['books']} books")
 
 
 if __name__ == "__main__":
