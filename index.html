@@ -235,11 +235,11 @@
          check in time, and we never estimate one we missed.
          <a href="/methodology.html">The full rules</a>.</p>
     </div>
-    <h2>By month</h2>
+    <h2>By month<span>profit is noisy early on</span></h2>
     <div class="scroll"><table id="byMonth"></table></div>
-    <h2>By sport</h2>
+    <h2>By sport<span>checked = how many we got a final price for</span></h2>
     <div class="scroll"><table id="bySport"></table></div>
-    <h2>By market</h2>
+    <h2>By market<span>match odds, totals, handicaps</span></h2>
     <div class="scroll"><table id="byMarket"></table></div>
     <p class="msg" id="recNote"></p>
   </section>
@@ -611,11 +611,11 @@
       (months[r.date.slice(0,7)] = months[r.date.slice(0,7)] || []).push(r);
       (sports[r.sport] = sports[r.sport] || []).push(r);
     });
-    el("byMonth").innerHTML = table(["Month","Bets","Return","CLV"],
+    el("byMonth").innerHTML = table(["Month","Bets","Profit","Beat final price by"],
       Object.keys(months).sort().reverse().map(function(m){
         var x = summarise(months[m]);
         return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—"]; }));
-    el("bySport").innerHTML = table(["Sport","Bets","Return","CLV","CLV bets"],
+    el("bySport").innerHTML = table(["Sport","Bets","Profit","Beat final price by","Checked"],
       Object.keys(sports).sort(function(a,b){ return sports[b].length - sports[a].length; })
         .map(function(sp){
           var x = summarise(sports[sp]);
@@ -626,13 +626,15 @@
       var m = r.market || "Match odds";
       (markets[m] = markets[m] || []).push(r);
     });
-    el("byMarket").innerHTML = table(["Market","Bets","Return","CLV","CLV bets"],
+    el("byMarket").innerHTML = table(["Market","Bets","Profit","Beat final price by","Checked"],
       Object.keys(markets).sort(function(a,b){ return markets[b].length - markets[a].length; })
         .map(function(m){
           var x = summarise(markets[m]);
           return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—", x.clvN]; }));
     el("recNote").textContent = s.n < 200
-      ? "After " + s.n + " bets the return is still mostly luck. Judge it on closing line value first."
+      ? "Profit over " + s.n + " bets is still mostly luck — a couple of winners at long odds " +
+        "can make a bad week look brilliant. The column worth watching is how often we beat " +
+        "the final price, and how many we managed to check."
       : "";
   }
 
