@@ -64,7 +64,11 @@ def scanner_config():
     """
     if os.getenv("SCANNER_CONFIG"):
         return os.getenv("SCANNER_CONFIG")
-    blob = json.dumps(config_rules(), sort_keys=True).encode()
+    # Canonical form: keys sorted, and every list sorted too, so reordering the
+    # competition list without changing its contents doesn't invent a new config.
+    rules = {k: (sorted(v) if isinstance(v, list) else v)
+             for k, v in config_rules().items()}
+    blob = json.dumps(rules, sort_keys=True, separators=(",", ":")).encode()
     return "cfg-" + hashlib.sha1(blob).hexdigest()[:8]
 MARKET_NAMES = {"h2h": "Match odds", "totals": "Totals", "spreads": "Handicap"}
 
