@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 15: rejected outliers kept for review]
+sweep.py — build the board.   [version 16: board carries its own evidence]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -299,6 +299,7 @@ def find_value(events, sport_label, sport_key):
                     "odds": round(price, 2),
                     "fair": round(fair, 2),
                     "books": len(by_book),
+                    "detected": datetime.now(timezone.utc).isoformat(),
                     "link": link_for(ev, book_key, market_key, selection),
                 })
     scanned["events"] += len(events)
@@ -415,7 +416,7 @@ def main():
     feed = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "scanned": scanned,
-        "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key", "books")}
+        "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key")}
                  for b in bets],
         "results": load_json("results.json", []),
     }

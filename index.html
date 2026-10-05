@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Over the Odds — value across every sport</title>
+<title>Over the Odds | UK value betting with closing-line tracking</title>
 <link rel="icon" href="/favicon.png">
-<meta name="description" content="Daily value bets across every sport. Every UK bookmaker compared against what the whole market says a price should be. Free to use.">
+<meta name="description" content="We compare every UK bookmaker against the market consensus and publish the prices that are bigger than they should be. Every selection is tracked against the market's final price and the result. Free, no tips, no predictions.">
 <meta property="og:title" content="Over the Odds">
-<meta property="og:description" content="Daily value bets across every sport. Every UK bookmaker compared against what the whole market says a price should be. Free to use.">
+<meta property="og:description" content="Every UK bookmaker compared against the market consensus, with every selection tracked against the final price and result.">
 <meta property="og:image" content="https://overtheodds.co.uk/preview.png">
 <meta property="og:url" content="https://overtheodds.co.uk/">
 <meta property="og:type" content="website">
@@ -105,6 +105,24 @@
   .prices b{font-size:19px; font-weight:700; letter-spacing:-.01em}
   .prices i{font-style:normal; font-size:13px; color:var(--soft); margin-left:7px}
   .fixture{grid-column:1; font-size:13px; color:var(--soft)}
+  .evidence{grid-column:1; font-size:11.5px; color:var(--soft); opacity:.75; margin-top:2px}
+
+  /* the ledger: one line per settled bet, openable */
+  .led{border-bottom:1px solid var(--hair)}
+  .led summary{display:grid; grid-template-columns:1fr auto auto; gap:2px 12px;
+               padding:10px 0; cursor:pointer; list-style:none; align-items:baseline}
+  .led summary::-webkit-details-marker{display:none}
+  .led summary:hover{background:var(--wash)}
+  .led .sel{font-weight:600}
+  .led .meta{grid-column:1; font-size:12.5px; color:var(--soft)}
+  .led .px{text-align:right; white-space:nowrap; font-size:14px}
+  .led .res{text-align:right; font-weight:700; min-width:58px; white-space:nowrap}
+  .led .detail{padding:4px 0 14px; font-size:13.5px; color:var(--soft)}
+  .led .detail div{display:flex; justify-content:space-between; gap:12px; padding:4px 0;
+                   border-bottom:1px solid var(--hair)}
+  .led .detail div:last-child{border-bottom:0}
+  .led .detail span:last-child{color:var(--ink); font-weight:600}
+  .win{color:var(--green)} .lose{color:var(--red)} .voided{color:var(--soft)}
   .foot{grid-column:1 / -1; display:flex; justify-content:space-between; align-items:baseline;
         gap:12px; margin-top:6px; flex-wrap:wrap}
   .book{font-size:13px}
@@ -164,6 +182,8 @@
   footer{margin-top:34px; padding-top:12px; border-top:3px solid var(--ink);
          font-size:12px; color:var(--soft)}
   footer p{margin:0 0 6px}
+  footer .flinks{font-size:12.5px; margin-bottom:10px}
+  footer .flinks a{text-decoration-color:var(--rule); text-underline-offset:3px}
 
   .hidden{display:none}
   .btn:focus-visible,.chip:focus-visible,.go:focus-visible,nav button:focus-visible,
@@ -177,6 +197,7 @@
     .prices{grid-column:1 / -1; grid-row:3; text-align:left; margin-top:5px}
     .prices b{font-size:17px}
     .fixture{grid-column:1 / -1; grid-row:2}
+    .evidence{grid-column:1 / -1; grid-row:4}
   }
   @media (min-width:900px){
     .wrap{padding:22px 24px 60px}
@@ -245,6 +266,13 @@
     <div class="scroll"><table id="byMarket"></table></div>
     <p class="msg" id="recNote"></p>
     <div id="earlierNote"></div>
+
+    <h2>Every selection<span id="ledgerCount"></span></h2>
+    <p style="font-size:13.5px;color:var(--soft);margin:0 0 6px">
+      Every bet we have published since we started checking final prices, newest first.
+      Tap one to see what we knew at the time. Nothing is edited after the event.</p>
+    <div id="ledger"></div>
+    <div class="btnrow"><button class="btn line" id="moreBtn" type="button">Show more</button></div>
   </section>
 
   <section id="view-yours" class="hidden">
@@ -255,25 +283,20 @@
       <div class="checks" id="bookChecks"></div>
     </div>
 
-    <h2>Keeping accounts open</h2>
+    <h2>Bookmaker availability</h2>
     <div class="panel" id="spreadPanel"></div>
-
-    <h2>Daily email</h2>
-    <div class="panel">
-      <p>A daily email of the biggest edges is planned but not running yet. Rather than take
-         your address and sit on it, we will put the form here when the list actually sends.</p>
-      <div class="hidden">
-        <input id="alertEmail" type="email"><select id="alertEdge"><option value="5">5%</option></select>
-        <button id="alertBtn" type="button"></button><span id="alertMsg"></span>
-      </div>
-    </div>
 
     <div id="adminSlot"></div>
   </section>
 
   <footer>
-    <p>Prices are collected each morning and move constantly through the day. Always
-       check the price before betting.</p>
+    <p class="flinks">
+      <a href="/how-it-works.html">How this works</a> ·
+      <a href="/methodology.html">Our rules</a> ·
+      <a href="https://www.begambleaware.org" rel="noopener noreferrer" target="_blank">Safer gambling</a>
+    </p>
+    <p>Prices are collected twice a day and move constantly. Always check the price before
+       betting. We publish prices, not predictions, and we have no idea who wins.</p>
     <p>18+. Gambling involves risk and losses can exceed winnings. Support at BeGambleAware.org.</p>
   </footer>
 </div>
@@ -292,7 +315,7 @@
   // it is kept and shown, but separately, so the headline figures rest on bets we could
   // actually measure.
   var MEASURING_FROM = "2026-10-05";
-  var VIEWS = [["board","Board"],["record","Record"],["yours","Yours"]];
+  var VIEWS = [["board","Board"],["record","Record"],["yours","My books"]];
   // The firms a UK punter might hold, so the list is useful on a quiet day.
   var UK_BOOKS = ["888sport","Bet365","BetVictor","Betfair Sportsbook","Betfred","Betway",
     "BoyleSports","Casumo","Coral","Grosvenor","Ladbrokes","LeoVegas","LiveScore Bet",
@@ -343,6 +366,16 @@
     var t = feed.updated ? new Date(feed.updated).getTime() : NaN;
     return isNaN(t) ? null : t;
   }
+  // how long ago we spotted a price, so nobody has to guess how stale it is
+  function found(iso){
+    var t = new Date(iso).getTime();
+    if(isNaN(t)) return "";
+    var mins = Math.round((Date.now() - t) / 60000);
+    if(mins < 60) return mins + " min ago";
+    var hrs = mins / 60;
+    return hrs < 10 ? hrs.toFixed(hrs < 2 ? 1 : 0) + "h ago" : "this morning";
+  }
+
   function when(b){
     var t = kickoff(b); if(t === Infinity) return "";
     var d = new Date(t), diff = t - Date.now();
@@ -456,6 +489,9 @@
       '<div class="pickname">' + esc(locked ? "Selection hidden" : b.selection) + '</div>' +
       '<div class="fixture">' + esc(b.event) + ' · ' + when(b) +
         (withSport ? ' · ' + esc(b.sport || "") : '') + '</div>' +
+      '<div class="evidence">' + esc(b.sport || "") +
+        (b.books ? ' · ' + b.books + ' bookmakers compared' : '') +
+        (b.detected ? ' · found ' + found(b.detected) : '') + '</div>' +
       '<div class="prices"><b>' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</b>' +
         '<i>v ' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</i></div>' +
       '<div class="edge ' + band(e) + '">' + e.toFixed(1) + '%</div>' +
@@ -613,7 +649,9 @@
         'That is a fault worth chasing, not a rounding issue.</div>'
       : '';
 
-    el("captureLine").innerHTML = 'We managed to check the final price on ' + s.clvN +
+    var rate = list.length ? Math.round(100 * s.clvN / list.length) : 0;
+    el("captureLine").innerHTML = '<strong style="color:var(--ink)">' + rate +
+      '% captured.</strong> We managed to check the final price on ' + s.clvN +
       ' of ' + list.length + ' finished bets' +
       (failText ? ' (' + esc(failText.replace(/missed window/g, "started before we could check")
                                      .replace(/insufficient books/g, "too few bookmakers left")
@@ -653,6 +691,7 @@
         .map(function(m){
           var x = summarise(markets[m]);
           return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—", x.clvN]; }));
+    renderLedger(list);
     el("recNote").textContent = s.n < 200
       ? "Profit over " + s.n + " bets is still mostly luck — a couple of winners at long odds " +
         "can make a bad week look brilliant. The column worth watching is how often we beat " +
@@ -660,13 +699,69 @@
       : "";
   }
 
+  var ledgerShown = 25;
+
+  function money(n){ return (n >= 0 ? "+£" : "−£") + Math.abs(n).toFixed(2); }
+
+  function ledgerRow(r){
+    var status = r.status || (typeof r.won === "boolean" ? (r.won ? "win" : "loss") : "unknown");
+    var cls = status === "win" ? "win" : status === "loss" ? "lose" : "voided";
+    var profit = typeof r.profit === "number" ? r.profit
+               : (status === "win" ? 10 * (r.odds - 1) : status === "loss" ? -10 : 0);
+    var close = verifiedClose(r);
+    var clv = close ? (r.odds / close - 1) * 100 : null;
+    var label = status === "win" ? "Won" : status === "loss" ? "Lost"
+              : status === "unknown" ? "Unknown" : "Void";
+
+    var rows = [
+      ["Date", esc(r.date || "")],
+      ["Sport", esc(r.sport || "") + (r.league ? " · " + esc(r.league) : "")],
+      ["Market", esc(r.market || "Match odds")],
+      ["Bookmaker", esc(r.book || "")],
+      ["Price we published", Number(r.odds).toFixed(2)],
+      ["Market price at the time", r.fair ? Number(r.fair).toFixed(2) : "—"],
+      ["How much better", r.edge ? pctStr(Number(r.edge)) : "—"],
+      ["Bookmakers compared", r.books || "—"],
+      ["Market's final price", close ? close.toFixed(2) : "not captured"],
+      ["Better than final price by", clv === null ? "—" : pctStr(clv)],
+      ["Final price checked", r.close_minutes != null
+        ? Math.round(r.close_minutes) + " min before the off, " +
+          (r.close_books || "?") + " bookmakers"
+        : esc((r.close_status || "not checked").replace(/_/g, " ")
+              .replace("missed window", "started before we could check"))],
+      ["Result", label + ", " + money(profit) + " on £10"],
+      ["Rules in force", esc(r.scanner_config || "—")]
+    ];
+
+    return '<details class="led"><summary>' +
+      '<span class="sel">' + esc(r.selection || "") + '</span>' +
+      '<span class="px">' + Number(r.odds).toFixed(2) +
+        (close ? ' <span style="color:var(--soft)">v ' + close.toFixed(2) + '</span>' : '') + '</span>' +
+      '<span class="res ' + cls + '">' + label + '</span>' +
+      '<span class="meta">' + esc(r.date || "") + ' · ' + esc(r.sport || "") +
+        ' · ' + esc(r.market || "Match odds") + ' · ' + esc(r.book || "") +
+        (clv === null ? '' : ' · ' + pctStr(clv) + ' v final') + '</span>' +
+      '</summary><div class="detail">' +
+      rows.map(function(kv){ return '<div><span>' + kv[0] + '</span><span>' + kv[1] + '</span></div>'; }).join("") +
+      '</div></details>';
+  }
+
+  function renderLedger(list){
+    var sorted = list.slice().sort(function(a, b){
+      return (b.date || "").localeCompare(a.date || "");
+    });
+    el("ledgerCount").textContent = sorted.length + " published, all kept";
+    el("ledger").innerHTML = sorted.slice(0, ledgerShown).map(ledgerRow).join("");
+    el("moreBtn").style.display = sorted.length > ledgerShown ? "" : "none";
+    el("moreBtn").textContent = "Show more (" + (sorted.length - ledgerShown) + " left)";
+  }
+
   function renderBookChecks(){
     el("bookChecks").innerHTML = books().map(function(b){
       return '<label><input type="checkbox" data-book="' + esc(b) + '"' +
         (prefs.books.indexOf(b) !== -1 ? " checked" : "") + '> ' + esc(b) + '</label>';
     }).join("");
-    el("alertEmail").value = prefs.email || "";
-    el("alertEdge").value = String(prefs.alertEdge);
+
   }
 
   function renderNav(){
@@ -691,7 +786,8 @@
         (ageH > 14 ? " · overdue" : "");
     }
     el("lede").innerHTML = "Every day we compare each UK bookmaker against what the whole market " +
-      "says the price should be." +
+      "says the price should be. When a firm is well above that, it appears here — and every " +
+      "selection is then tracked against the market\'s final price and the result." +
       (prefs.free === "All" ? " Free, every sport." : " " + esc(prefs.free) + " is free; the rest is for members.") +
       ' <a href="/how-it-works.html">How this works</a> · ' +
       '<a href="/methodology.html">Our rules</a>';
@@ -739,6 +835,7 @@
     save(); renderBoard();
   });
 
+  el("moreBtn").onclick = function(){ ledgerShown += 50; renderRecord(); };
   el("minEdge").onchange = function(){ prefs.minEdge = parseFloat(this.value) || 0; save(); renderBoard(); };
   el("sortBy").onchange = function(){ prefs.sort = this.value; save(); renderBoard(); };
   el("mineBtn").onclick = function(){
@@ -750,15 +847,6 @@
     var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next); prefs.theme = next; save();
   };
-  el("alertBtn").onclick = function(){
-    var v = el("alertEmail").value.trim();
-    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){
-      el("alertMsg").textContent = "That doesn't look like an email address."; return; }
-    prefs.email = v; prefs.alertEdge = parseFloat(el("alertEdge").value) || 5; save();
-    el("alertMsg").textContent = "Saved on this device. Once the mailing list is connected, " +
-      "this address gets the " + prefs.alertEdge + "% list daily.";
-  };
-  el("alertEdge").onchange = function(){ prefs.alertEdge = parseFloat(this.value) || 5; save(); };
 
   // Development tools live in admin.js and are never part of the public page.
   function showAdmin(){
