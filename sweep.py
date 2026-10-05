@@ -1,5 +1,5 @@
 """
-sweep.py — build the board.   [version 16: board carries its own evidence]
+sweep.py — build the board.   [version 17: stale markets rejected, config fully recorded]
 
 Fetches UK bookmaker prices from The Odds API, works out what the market as a
 whole thinks each selection's chance is, and writes the bets where one
@@ -10,6 +10,7 @@ settle.py can report closing line value later.
 
 Run:  ODDS_API_KEY=xxx python sweep.py
 """
+import hashlib
 import json
 import os
 import statistics
@@ -28,15 +29,43 @@ MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced marke
 MIN_HOURS = float(os.getenv("MIN_HOURS", 2.0))      # skip anything starting sooner
 MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 
+# A suspended or closed market keeps its last price but stops updating, and a frozen
+# price looks wonderfully generous next to firms still trading. Anything not updated
+# within this many minutes is left out of the consensus and can't be recommended.
+# Watch the real feed before trusting any particular number here.
+MAX_PRICE_AGE_MIN = float(os.getenv("MAX_PRICE_AGE_MIN", 20))
+
 # Which markets to scan. Each one costs a credit per sport per run, so h2h + totals
 # is 2 credits. Add "spreads" when you can afford 3.
 MARKETS = tuple(k.strip() for k in os.getenv("MARKETS", "h2h,totals,spreads").split(",") if k.strip())
 
 
+def config_rules():
+    """Every setting that decides which bets appear. Stored with each recommendation."""
+    return {
+        "min_edge": MIN_EDGE,
+        "max_edge": MAX_EDGE,
+        "min_books": MIN_BOOKS,
+        "max_odds": MAX_ODDS,
+        "min_hours": MIN_HOURS,
+        "max_per_sport": MAX_PER_SPORT,
+        "max_price_age_min": MAX_PRICE_AGE_MIN,
+        "markets": list(MARKETS),
+        "competitions": list(SPORT_PREFIXES),
+        "exchanges_excluded": list(EXCHANGES),
+    }
+
+
 def scanner_config():
-    """A short, self-describing label for the rules that produced a recommendation."""
-    return os.getenv("SCANNER_CONFIG") or (
-        f"edge{MIN_EDGE:g}-books{MIN_BOOKS}-odds{MAX_ODDS:g}-" + "+".join(MARKETS))
+    """
+    A short label that changes whenever any selection rule changes. It's a hash of
+    the settings above rather than a hand-written name, so it can never claim the
+    scanner was running rules it wasn't.
+    """
+    if os.getenv("SCANNER_CONFIG"):
+        return os.getenv("SCANNER_CONFIG")
+    blob = json.dumps(config_rules(), sort_keys=True).encode()
+    return "cfg-" + hashlib.sha1(blob).hexdigest()[:8]
 MARKET_NAMES = {"h2h": "Match odds", "totals": "Totals", "spreads": "Handicap"}
 
 # Two separate stamps, because they change for different reasons.
@@ -176,10 +205,20 @@ def consensus(event):
     at all, which is what was quietly happening to every totals market.
     """
     groups = {}          # (market_key, line) -> [(book, {selection: price})]
+    now = datetime.now(timezone.utc)
     for book in event.get("bookmakers", []):
         for market in book.get("markets", []):
             if market["key"] not in MARKETS:
                 continue
+            stamp = market.get("last_update") or book.get("last_update")
+            if stamp:
+                try:
+                    age = (now - datetime.fromisoformat(stamp.replace("Z", "+00:00"))).total_seconds() / 60
+                except ValueError:
+                    age = 0
+                if age > MAX_PRICE_AGE_MIN:
+                    scanned["stale_dropped"] += 1
+                    continue        # frozen price: probably suspended, not generous
             lines = {}
             for o in market.get("outcomes", []):
                 if not o.get("price", 0) > 1:
@@ -231,7 +270,7 @@ def link_for(event, book_key, market_key, selection):
     return ""
 
 
-scanned = {"events": 0, "selections": 0, "sports": 0, "by_market": {}}
+scanned = {"events": 0, "selections": 0, "sports": 0, "by_market": {}, "stale_dropped": 0}
 
 
 def find_value(events, sport_label, sport_key):
@@ -395,8 +434,7 @@ def main():
             "model_version": MODEL_VERSION,
             "scanner_config": scanner_config(),
             "min_edge_at_detection": MIN_EDGE,
-            "config": {"min_edge": MIN_EDGE, "min_books": MIN_BOOKS,
-                       "max_odds": MAX_ODDS, "markets": list(MARKETS)},
+            "config": config_rules(),
             "close_status": "pending",
         })
 
@@ -416,6 +454,9 @@ def main():
     feed = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "scanned": scanned,
+        "model_version": MODEL_VERSION,
+        "scanner_config": scanner_config(),
+        "config": config_rules(),
         "bets": [{k: v for k, v in b.items() if k not in ("id", "sport_key", "market_key")}
                  for b in bets],
         "results": load_json("results.json", []),
@@ -437,6 +478,9 @@ def main():
     print(f"  priced: {per_market}")
     print(f"  qualifying: {found_per_market or 'none'}")
     print(f"  model {MODEL_VERSION}, config {scanner_config()}")
+    if scanned["stale_dropped"]:
+        print(f"  {scanned['stale_dropped']} markets ignored as stale "
+              f"(no update in {MAX_PRICE_AGE_MIN:g} min)")
     if outliers:
         print(f"  {len(outliers)} rejected as too good to be true (see outliers.json):")
         for o in sorted(outliers, key=lambda x: -x["edge"])[:5]:

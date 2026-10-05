@@ -366,14 +366,16 @@
     var t = feed.updated ? new Date(feed.updated).getTime() : NaN;
     return isNaN(t) ? null : t;
   }
-  // how long ago we spotted a price, so nobody has to guess how stale it is
-  function found(iso){
+  // how long ago we last saw this price, so nobody has to guess how stale it is
+  function ago(iso){
     var t = new Date(iso).getTime();
     if(isNaN(t)) return "";
     var mins = Math.round((Date.now() - t) / 60000);
     if(mins < 60) return mins + " min ago";
     var hrs = mins / 60;
-    return hrs < 10 ? hrs.toFixed(hrs < 2 ? 1 : 0) + "h ago" : "this morning";
+    if(hrs < 2) return hrs.toFixed(1) + "h ago";
+    if(hrs < 24) return Math.round(hrs) + "h ago";
+    return "over a day ago";
   }
 
   function when(b){
@@ -418,7 +420,7 @@
     }
     if(feedState === "unavailable"){
       el("board").innerHTML = '<div class="empty">Live prices are temporarily unavailable. ' +
-        'The next sweep runs each morning.</div>';
+        'The next check runs within a few hours.</div>';
       return;
     }
     var stamp = feedTime();
@@ -491,7 +493,7 @@
         (withSport ? ' · ' + esc(b.sport || "") : '') + '</div>' +
       '<div class="evidence">' + esc(b.sport || "") +
         (b.books ? ' · ' + b.books + ' bookmakers compared' : '') +
-        (b.detected ? ' · found ' + found(b.detected) : '') + '</div>' +
+        (b.detected ? ' · checked ' + ago(b.detected) : '') + '</div>' +
       '<div class="prices"><b>' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</b>' +
         '<i>v ' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</i></div>' +
       '<div class="edge ' + band(e) + '">' + e.toFixed(1) + '%</div>' +
@@ -603,9 +605,26 @@
     var all = results();
     var list = all.filter(function(r){ return (r.date || "") >= MEASURING_FROM; });
     var earlier = all.filter(function(r){ return (r.date || "") < MEASURING_FROM; });
+
     if(!list.length && earlier.length){
-      // nothing measured yet, so show the early period rather than an empty page
-      list = earlier; earlier = [];
+      // the early bets are disclosed, but they never become the headline figures
+      var e0 = summarise(earlier);
+      el("recStats").innerHTML = '<div class="empty">Nothing from the tracked period has ' +
+        'settled yet. The first results will appear here within a day or two.</div>';
+      el("recRange").textContent = "from " + MEASURING_FROM;
+      el("clvLine").textContent = "";
+      el("captureLine").textContent = "";
+      el("byMonth").innerHTML = ""; el("bySport").innerHTML = ""; el("byMarket").innerHTML = "";
+      el("ledger").innerHTML = ""; el("ledgerCount").textContent = "";
+      el("moreBtn").style.display = "none";
+      el("recWarn").innerHTML = "";
+      el("recNote").textContent = "";
+      el("earlierNote").innerHTML = '<div class="notice">Before ' + MEASURING_FROM +
+        ' we published bets without checking the final price, so they cannot be judged ' +
+        'properly and are not counted anywhere on this page. For completeness: ' + e0.n +
+        ' selections, ' + pctStr(e0.roi) + ' on £10 a bet, ' + e0.strike.toFixed(0) +
+        '% winners. Shown only so nothing is hidden.</div>';
+      return;
     }
     if(!list.length){
       el("recStats").innerHTML = '<div class="empty">No settled bets yet.</div>';
