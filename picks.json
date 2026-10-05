@@ -89,38 +89,6 @@
   "latest_fair": 5.87,
   "latest_seen": "2026-10-04T17:36:40.191956+00:00"
  },
- "c327223d76a3b7b0db8c6c104442f44b|unibet_uk|h2h|Miami Dolphins": {
-  "sport": "NFL",
-  "sport_key": "americanfootball_nfl",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Minnesota Vikings v Miami Dolphins",
-  "start": "2026-10-04T20:05:00Z",
-  "selection": "Miami Dolphins",
-  "book": "Unibet (UK)",
-  "odds": 6.0,
-  "fair": 5.78,
-  "edge": 3.81,
-  "books": 14,
-  "detected": "2026-10-02T16:56:37.936844+00:00",
-  "first_seen": "2026-10-02T16:56:37.936852+00:00",
-  "model_version": "1.0",
-  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 5.24,
-  "latest_seen": "2026-10-04T17:36:40.191956+00:00"
- },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
   "sport_key": "soccer_england_league1",

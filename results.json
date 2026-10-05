@@ -548,5 +548,30 @@
   "stake": 10.0,
   "profit": -10.0,
   "won": false
+ },
+ {
+  "sport": "NFL",
+  "league": "americanfootball_nfl",
+  "market": "Match odds",
+  "date": "2026-10-04",
+  "detected": "2026-10-02T16:56:37.936844+00:00",
+  "selection": "Miami Dolphins",
+  "book": "Unibet (UK)",
+  "odds": 6.0,
+  "fair": 5.78,
+  "edge": 3.81,
+  "books": 14,
+  "close": 0,
+  "close_books": 0,
+  "close_minutes": null,
+  "close_status": "missed_window",
+  "close_attempts": 0,
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "status": "loss",
+  "stake": 10.0,
+  "profit": -10.0,
+  "won": false
  }
 ]
