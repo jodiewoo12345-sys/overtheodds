@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -38,8 +38,8 @@
   "first_seen": "2026-10-01T19:39:59.899646+00:00",
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 5.87,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.82,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -55,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -71,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -86,8 +86,8 @@
   "first_seen": "2026-10-01T20:01:18.240657+00:00",
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 5.87,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.82,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
@@ -118,8 +118,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.18,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.2,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -151,7 +151,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.92,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -182,8 +182,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.45,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.42,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
   "sport": "Serie A - Italy",
@@ -215,7 +215,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.55,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -246,8 +246,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.23,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 4.22,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
   "sport": "Primeira Liga - Portugal",
@@ -278,8 +278,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.07,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 6.16,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -310,8 +310,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.31,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.42,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -343,7 +343,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -374,8 +374,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.77,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.76,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|boylesports|h2h|West Indies": {
   "sport": "One Day Internationals",
@@ -438,8 +438,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.09,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 4.93,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betway|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -470,8 +470,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.52,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.44,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "3c813baeb4f415e152409b8dafc46366|casumo|h2h|FC Energie Cottbus": {
   "sport": "Bundesliga 2 - Germany",
@@ -502,8 +502,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.12,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 3.1,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -535,7 +535,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.84,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "259b5df9aa0d10257f56de78523495e0|betway|h2h|Tampa Bay Buccaneers": {
   "sport": "NFL",
@@ -566,8 +566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.24,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.27,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "c4647ca1201e6768501877267ca8251b|betfred_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -599,7 +599,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.2,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "e3cb10ced3e8190f557f9ac8ed99d966|boylesports|h2h|West Indies": {
   "sport": "International Twenty20",
@@ -631,7 +631,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.75,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "25c7d39ef0b719e54043c88173c61d2b|casumo|h2h|Wycombe Wanderers": {
   "sport": "League 1",
@@ -663,7 +663,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "46565a1cbc6f2e15ba0b2223a5a1fde8|betfred_uk|h2h|Draw": {
   "sport": "League 1",
@@ -694,8 +694,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.25,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.05,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "e2578ec1dbe113dc7d40bcd7e0fd1d9f|williamhill|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -726,8 +726,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.78,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 4.73,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "431fc65e67cd737bceb5827118d3f7eb|casumo|h2h|Salzburg": {
   "sport": "UEFA Europa League",
@@ -758,8 +758,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.09,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 4.12,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "4cfd3c3636333951706a205b96dc1db3|paddypower|h2h|Besiktas JK": {
   "sport": "UEFA Europa League",
@@ -790,8 +790,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.49,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 3.51,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "d60e7fc0690e4dff121a086395e24de4|sport888|h2h|Miami Heat": {
   "sport": "NBA",
@@ -822,8 +822,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 2.62,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "0a9a518e657dd711c1688e735158b6ba|virginbet|h2h|Australia": {
   "sport": "Test Matches",
@@ -854,8 +854,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.06,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 2.07,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "65b60049b3c77a94c346f74d8b897e4b|casumo|spreads|Ottawa Senators -1.5": {
   "sport": "NHL",
@@ -919,7 +919,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.76,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "9fa271d4bc9f3d18ae48c60f4a029374|livescorebet|h2h|Sheffield Wednesday": {
   "sport": "League 1",
@@ -951,7 +951,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.27,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "9fc08b390a49c4434f7cf631a0bb88fb|betfred_uk|h2h|Crystal Palace": {
   "sport": "EPL",
@@ -982,8 +982,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.38,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.12,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "007dc2ff845c33e3e18f2bd2bc126304|grosvenor|h2h|Angers": {
   "sport": "Ligue 1 - France",
@@ -1015,7 +1015,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.78,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|betfred_uk|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -1046,8 +1046,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.31,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.42,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "bd4d71c36db8e457d45721651426c225|boylesports|h2h|Sinja Kraus": {
   "sport": "WTA China Open",
@@ -1078,8 +1078,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.03,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.0,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  },
  "8e342ed13dfa9c4efd0c536a65900b4b|betway|h2h|Daria Snigur": {
   "sport": "WTA China Open",
@@ -1110,7 +1110,167 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.87,
-  "latest_seen": "2026-10-05T07:06:49.606580+00:00"
+  "latest_fair": 5.91,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+ },
+ "c4647ca1201e6768501877267ca8251b|betway|h2h|Miami Dolphins": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Miami Dolphins v Cincinnati Bengals",
+  "start": "2026-10-11T17:00:00Z",
+  "selection": "Miami Dolphins",
+  "book": "Betway",
+  "odds": 4.5,
+  "fair": 4.2,
+  "edge": 7.14,
+  "books": 12,
+  "detected": "2026-10-05T11:10:46.711458+00:00",
+  "first_seen": "2026-10-05T11:10:46.711467+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.2,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+ },
+ "9fc08b390a49c4434f7cf631a0bb88fb|casumo|h2h|Crystal Palace": {
+  "sport": "EPL",
+  "sport_key": "soccer_epl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Brighton and Hove Albion v Crystal Palace",
+  "start": "2026-10-18T13:00:00Z",
+  "selection": "Crystal Palace",
+  "book": "Casumo",
+  "odds": 5.5,
+  "fair": 5.11,
+  "edge": 7.63,
+  "books": 15,
+  "detected": "2026-10-05T11:10:46.711517+00:00",
+  "first_seen": "2026-10-05T11:10:46.711519+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.12,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+ },
+ "53f5fe7ed0ba0fbf6345c73270e4cd00|grosvenor|h2h|Lorient": {
+  "sport": "Ligue 1 - France",
+  "sport_key": "soccer_france_ligue_one",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Lorient v AS Monaco",
+  "start": "2026-10-18T15:15:00Z",
+  "selection": "Lorient",
+  "book": "Grosvenor",
+  "odds": 3.65,
+  "fair": 3.55,
+  "edge": 2.82,
+  "books": 15,
+  "detected": "2026-10-05T11:10:46.711532+00:00",
+  "first_seen": "2026-10-05T11:10:46.711533+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.55,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+ },
+ "2997b68cc93f62d8a1dee9f06bedbefd|betfair_sb_uk|h2h|Deportivo La Coru\u00f1a": {
+  "sport": "La Liga - Spain",
+  "sport_key": "soccer_spain_la_liga",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Real Sociedad v Deportivo La Coru\u00f1a",
+  "start": "2026-10-11T14:15:00Z",
+  "selection": "Deportivo La Coru\u00f1a",
+  "book": "Betfair Sportsbook",
+  "odds": 5.0,
+  "fair": 4.89,
+  "edge": 2.25,
+  "books": 18,
+  "detected": "2026-10-05T11:10:46.711566+00:00",
+  "first_seen": "2026-10-05T11:10:46.711568+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.89,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
+ },
+ "8ddf5799d5cf59e20a7340e60481d105|paddypower|h2h|Alina Charaeva": {
+  "sport": "WTA China Open",
+  "sport_key": "tennis_wta_china_open",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Alina Charaeva v Qinwen Zheng",
+  "start": "2026-10-07T03:00:00Z",
+  "selection": "Alina Charaeva",
+  "book": "Paddy Power",
+  "odds": 4.5,
+  "fair": 4.31,
+  "edge": 4.41,
+  "books": 14,
+  "detected": "2026-10-05T11:10:46.711606+00:00",
+  "first_seen": "2026-10-05T11:10:46.711607+00:00",
+  "model_version": "1.0",
+  "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.31,
+  "latest_seen": "2026-10-05T11:10:46.711612+00:00"
  }
 }
