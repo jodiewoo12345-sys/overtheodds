@@ -1,12 +1,344 @@
 {
- "updated": "2026-10-05T06:08:50.856064+00:00",
+ "updated": "2026-10-05T07:06:49.606622+00:00",
  "scanned": {
-  "events": 0,
-  "selections": 0,
-  "sports": 0,
-  "by_market": {}
+  "events": 314,
+  "selections": 906,
+  "sports": 25,
+  "by_market": {
+   "h2h": 744,
+   "totals": 120,
+   "spreads": 42
+  }
  },
- "bets": [],
+ "bets": [
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Washington Wizards v Milwaukee Bucks",
+   "start": "2026-10-21T23:10:00Z",
+   "selection": "Milwaukee Bucks",
+   "book": "LiveScore Bet",
+   "odds": 2.95,
+   "fair": 2.75,
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.9
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Boston Celtics v Miami Heat",
+   "start": "2026-12-25T19:30:00Z",
+   "selection": "Miami Heat",
+   "book": "888sport",
+   "odds": 2.75,
+   "fair": 2.67,
+   "link": "https://www.888sport.com/basketball/united-states/nba/miami-heat-boston-celtics-e-8066244/",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 2.75
+    },
+    {
+     "book": "William Hill",
+     "odds": 2.75
+    }
+   ]
+  },
+  {
+   "sport": "International Twenty20",
+   "market": "Match odds",
+   "event": "India v West Indies",
+   "start": "2026-10-06T13:30:00Z",
+   "selection": "West Indies",
+   "book": "BoyleSports",
+   "odds": 5.0,
+   "fair": 4.75,
+   "link": "https://www.boylesports.com/sports/cricket/event/international-t20s/india-v-west-indies"
+  },
+  {
+   "sport": "Test Matches",
+   "market": "Match odds",
+   "event": "South Africa v Australia",
+   "start": "2026-10-09T08:00:00Z",
+   "selection": "Australia",
+   "book": "Virgin Bet",
+   "odds": 2.1,
+   "fair": 2.06,
+   "link": "https://www.virginbet.com/sports/cricket/test-matches/south-africa-australia/SBTE_2_1029349275",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 2.1
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.1
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.1
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Handicap",
+   "event": "Boston Bruins v Ottawa Senators",
+   "start": "2026-10-05T23:40:00Z",
+   "selection": "Ottawa Senators -1.5",
+   "book": "Casumo",
+   "odds": 3.35,
+   "fair": 3.21,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409892"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Pittsburgh Penguins v Winnipeg Jets",
+   "start": "2026-10-05T23:40:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.76,
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500362/winnipeg-jets-pittsburgh-penguins"
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Huddersfield Town v Sheffield Wednesday",
+   "start": "2026-10-10T14:00:00Z",
+   "selection": "Sheffield Wednesday",
+   "book": "LiveScore Bet",
+   "odds": 4.4,
+   "fair": 4.27,
+   "link": "https://www.livescorebet.com/uk/sports/football/england-league-one/huddersfield-town-sheffield-wednesday/SBTE_2_1028143506",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 4.4
+    }
+   ]
+  },
+  {
+   "sport": "EPL",
+   "market": "Match odds",
+   "event": "Brighton and Hove Albion v Crystal Palace",
+   "start": "2026-10-18T13:00:00Z",
+   "selection": "Crystal Palace",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.35,
+   "link": "https://www.betfred.com/sports/football/event/36966179",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 5.5
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 5.5
+    }
+   ]
+  },
+  {
+   "sport": "Ligue 1 - France",
+   "market": "Match odds",
+   "event": "Brest v Angers",
+   "start": "2026-10-10T18:45:00Z",
+   "selection": "Angers",
+   "book": "Grosvenor",
+   "odds": 3.9,
+   "fair": 3.77,
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027973958"
+  },
+  {
+   "sport": "Ligue 1 - France",
+   "market": "Match odds",
+   "event": "Angers v Marseille",
+   "start": "2026-10-18T13:00:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 4.0,
+   "fair": 3.9,
+   "link": "https://www.betfred.com/sports/football/event/36978480"
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "market": "Match odds",
+   "event": "SV Darmstadt 98 v FC Energie Cottbus",
+   "start": "2026-10-10T11:00:00Z",
+   "selection": "FC Energie Cottbus",
+   "book": "Casumo",
+   "odds": 3.2,
+   "fair": 3.12,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028231119",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.2
+    }
+   ]
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Fiorentina v Como",
+   "start": "2026-10-18T13:00:00Z",
+   "selection": "Fiorentina",
+   "book": "Grosvenor",
+   "odds": 3.65,
+   "fair": 3.52,
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027911668"
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Bologna v Inter Milan",
+   "start": "2026-10-17T16:00:00Z",
+   "selection": "Draw",
+   "book": "Sky Bet",
+   "odds": 4.33,
+   "fair": 4.23,
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.385459759"
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
+   "event": "Real Betis v CA Osasuna",
+   "start": "2026-10-11T16:30:00Z",
+   "selection": "CA Osasuna",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.28,
+   "link": "https://www.betfred.com/sports/football/event/36941904"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
+   "start": "2026-10-14T19:00:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.82,
+   "link": "https://www.betfred.com/sports/football/event/36864952"
+  },
+  {
+   "sport": "UEFA Europa Conference League",
+   "market": "Match odds",
+   "event": "Panathinaikos FC v FK Borac Banja Luka",
+   "start": "2026-10-15T16:45:00Z",
+   "selection": "Draw",
+   "book": "Ladbrokes",
+   "odds": 6.0,
+   "fair": 5.77,
+   "link": "https://sports.ladbrokes.com/event/football/uefa-club-competitions/uefa-conference-league/panathinaikos-fc-v-fk-borac-banja-luka/258389924/main-markets",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Europa Conference League",
+   "market": "Match odds",
+   "event": "KuPS Kuopio v Trabzonspor",
+   "start": "2026-10-15T16:45:00Z",
+   "selection": "KuPS Kuopio",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.78,
+   "link": "https://www.betfred.com/sports/football/event/36743645",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 6.0
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 6.0
+    },
+    {
+     "book": "Coral",
+     "odds": 6.0
+    },
+    {
+     "book": "Betano (UK)",
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Europa League",
+   "market": "Match odds",
+   "event": "TSG Hoffenheim v Besiktas JK",
+   "start": "2026-10-15T19:00:00Z",
+   "selection": "Besiktas JK",
+   "book": "Paddy Power",
+   "odds": 3.7,
+   "fair": 3.49,
+   "link": "https://www.paddypower.com/football/uefa-europa-league/hoffenheim-v-besiktas-36104466"
+  },
+  {
+   "sport": "UEFA Europa League",
+   "market": "Match odds",
+   "event": "Salzburg v AC Milan",
+   "start": "2026-10-15T16:45:00Z",
+   "selection": "Salzburg",
+   "book": "Casumo",
+   "odds": 4.2,
+   "fair": 4.07,
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028946377"
+  },
+  {
+   "sport": "WTA China Open",
+   "market": "Match odds",
+   "event": "Sinja Kraus v Nikola Bartunkova",
+   "start": "2026-10-06T03:00:00Z",
+   "selection": "Sinja Kraus",
+   "book": "BoyleSports",
+   "odds": 5.5,
+   "fair": 5.02,
+   "link": "https://www.boylesports.com/sports/tennis/event/wta-beijing/sinja-kraus-v-nikola-bartunkova",
+   "also": [
+    {
+     "book": "Betway",
+     "odds": 5.25
+    }
+   ]
+  },
+  {
+   "sport": "WTA China Open",
+   "market": "Match odds",
+   "event": "Daria Snigur v Mirra Andreeva",
+   "start": "2026-10-06T03:00:00Z",
+   "selection": "Daria Snigur",
+   "book": "Betway",
+   "odds": 6.0,
+   "fair": 5.85,
+   "link": "https://betway.com/en/sports/evt/17309531",
+   "also": [
+    {
+     "book": "Paddy Power",
+     "odds": 6.0
+    },
+    {
+     "book": "Sky Bet",
+     "odds": 6.0
+    },
+    {
+     "book": "BoyleSports",
+     "odds": 6.0
+    }
+   ]
+  }
+ ],
  "results": [
   {
    "sport": "ATP Japan Open",
@@ -570,6 +902,56 @@
    "fair": 5.78,
    "edge": 3.81,
    "books": 14,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "market": "Totals",
+   "date": "2026-10-05",
+   "detected": "2026-10-04T11:12:41.724467+00:00",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.79,
+   "edge": 6.7,
+   "books": 6,
+   "close": 1.79,
+   "close_books": 6,
+   "close_minutes": 10.7,
+   "close_status": "final",
+   "close_attempts": 3,
+   "model_version": "1.0",
+   "scanner_config": "edge2-books5-odds6-h2h+totals+spreads",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 9.1,
+   "won": true
+  },
+  {
+   "sport": "Frauen-Bundesliga",
+   "league": "soccer_germany_bundesliga_women",
+   "market": "Match odds",
+   "date": "2026-10-04",
+   "detected": "2026-10-04T11:12:41.724501+00:00",
+   "selection": "1. FC N\u00fcrnberg",
+   "book": "Grosvenor",
+   "odds": 3.45,
+   "fair": 3.3,
+   "edge": 4.55,
+   "books": 7,
    "close": 0,
    "close_books": 0,
    "close_minutes": null,
