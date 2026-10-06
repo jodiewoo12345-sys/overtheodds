@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-06T06:05:40.328203+00:00",
+ "updated": "2026-10-06T11:10:45.467267+00:00",
  "scanned": {
-  "events": 329,
-  "selections": 961,
-  "sports": 26,
+  "events": 332,
+  "selections": 925,
+  "sports": 27,
   "by_market": {
    "h2h": 807,
-   "totals": 126,
-   "spreads": 28
+   "totals": 102,
+   "spreads": 16
   },
   "stale_dropped": 0
  },
@@ -70,7 +70,7 @@
    "odds": 2.95,
    "fair": 2.75,
    "books": 12,
-   "detected": "2026-10-06T06:05:38.042112+00:00",
+   "detected": "2026-10-06T11:10:42.842671+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
    "also": [
     {
@@ -89,7 +89,7 @@
    "odds": 2.37,
    "fair": 2.32,
    "books": 12,
-   "detected": "2026-10-06T06:05:38.042398+00:00",
+   "detected": "2026-10-06T11:10:42.842949+00:00",
    "link": "https://sports.ladbrokes.com/event/basketball/american/nba/brooklyn-nets-v-charlotte-hornets/257924417/main-markets",
    "also": [
     {
@@ -108,8 +108,59 @@
    "odds": 2.48,
    "fair": 2.43,
    "books": 9,
-   "detected": "2026-10-06T06:05:38.044305+00:00",
+   "detected": "2026-10-06T11:10:42.844785+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/philadelphia-76ers-cleveland-cavaliers/SBTE_2_1028736318"
+  },
+  {
+   "sport": "International Twenty20",
+   "market": "Match odds",
+   "event": "Pakistan v Sri Lanka",
+   "start": "2026-10-09T15:00:00Z",
+   "selection": "Sri Lanka",
+   "book": "Paddy Power",
+   "odds": 2.75,
+   "fair": 2.51,
+   "books": 7,
+   "detected": "2026-10-06T11:10:43.085922+00:00",
+   "link": "https://www.paddypower.com/cricket/international-twenty20-matches/pakistan-v-sri-lanka-36147716",
+   "also": [
+    {
+     "book": "BoyleSports",
+     "odds": 2.75
+    }
+   ]
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Doncaster Rovers v Burton Albion",
+   "start": "2026-10-10T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 4.33,
+   "fair": 4.11,
+   "books": 19,
+   "detected": "2026-10-06T11:10:43.673245+00:00",
+   "link": "https://betway.com/en/sports/evt/17300490"
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Leicester City v Peterborough United",
+   "start": "2026-10-10T14:00:00Z",
+   "selection": "Peterborough United",
+   "book": "LiveScore Bet",
+   "odds": 5.2,
+   "fair": 5.09,
+   "books": 20,
+   "detected": "2026-10-06T11:10:43.673807+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/football/england-league-one/leicester-city-peterborough-united/SBTE_2_1028143504",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 5.2
+    }
+   ]
   },
   {
    "sport": "EPL",
@@ -119,9 +170,9 @@
    "selection": "Crystal Palace",
    "book": "Casumo",
    "odds": 5.5,
-   "fair": 5.14,
+   "fair": 5.15,
    "books": 15,
-   "detected": "2026-10-06T06:05:38.822895+00:00",
+   "detected": "2026-10-06T11:10:43.778570+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028072690",
    "also": [
     {
@@ -133,38 +184,19 @@
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Spalding United FC v Bury Town FC",
+   "event": "Wingate and Finchley FC v Bedford Town FC",
    "start": "2026-10-06T18:45:00Z",
-   "selection": "Bury Town FC",
-   "book": "Betano (UK)",
-   "odds": 4.5,
-   "fair": 4.19,
-   "books": 10,
-   "detected": "2026-10-06T06:05:38.907997+00:00",
-   "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842756252",
+   "selection": "Wingate and Finchley FC",
+   "book": "Betfred (UK)",
+   "odds": 3.3,
+   "fair": 3.23,
+   "books": 8,
+   "detected": "2026-10-06T11:10:43.860866+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37139625",
    "also": [
     {
-     "book": "Bet Victor",
-     "odds": 4.5
-    }
-   ]
-  },
-  {
-   "sport": "FA Cup",
-   "market": "Match odds",
-   "event": "Halesowen Town FC v Stafford Rangers FC",
-   "start": "2026-10-06T18:45:00Z",
-   "selection": "Stafford Rangers FC",
-   "book": "Betano (UK)",
-   "odds": 4.33,
-   "fair": 4.23,
-   "books": 10,
-   "detected": "2026-10-06T06:05:38.908260+00:00",
-   "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842759231",
-   "also": [
-    {
-     "book": "Bet Victor",
-     "odds": 4.33
+     "book": "BoyleSports",
+     "odds": 3.3
     }
    ]
   },
@@ -176,10 +208,23 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 4.0,
-   "fair": 3.89,
+   "fair": 3.87,
    "books": 15,
-   "detected": "2026-10-06T06:05:38.992887+00:00",
+   "detected": "2026-10-06T11:10:43.964512+00:00",
    "link": "https://www.betfred.com/sports/football/event/36978480"
+  },
+  {
+   "sport": "Ligue 1 - France",
+   "market": "Match odds",
+   "event": "Lorient v AS Monaco",
+   "start": "2026-10-18T15:15:00Z",
+   "selection": "Lorient",
+   "book": "Grosvenor",
+   "odds": 3.65,
+   "fair": 3.54,
+   "books": 15,
+   "detected": "2026-10-06T11:10:43.964922+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027973853"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -191,40 +236,8 @@
    "odds": 5.5,
    "fair": 5.28,
    "books": 21,
-   "detected": "2026-10-06T06:05:39.077284+00:00",
+   "detected": "2026-10-06T11:10:44.058323+00:00",
    "link": "https://www.betfred.com/sports/football/event/36906895"
-  },
-  {
-   "sport": "Bundesliga 2 - Germany",
-   "market": "Match odds",
-   "event": "SV Darmstadt 98 v FC Energie Cottbus",
-   "start": "2026-10-10T11:00:00Z",
-   "selection": "FC Energie Cottbus",
-   "book": "Casumo",
-   "odds": 3.2,
-   "fair": 3.08,
-   "books": 18,
-   "detected": "2026-10-06T06:05:39.233950+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028231119",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 3.2
-    }
-   ]
-  },
-  {
-   "sport": "Serie A - Italy",
-   "market": "Match odds",
-   "event": "Fiorentina v Como",
-   "start": "2026-10-18T13:00:00Z",
-   "selection": "Fiorentina",
-   "book": "Grosvenor",
-   "odds": 3.65,
-   "fair": 3.53,
-   "books": 15,
-   "detected": "2026-10-06T06:05:39.327789+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1027911668"
   },
   {
    "sport": "Serie A - Italy",
@@ -236,69 +249,29 @@
    "odds": 4.33,
    "fair": 4.23,
    "books": 15,
-   "detected": "2026-10-06T06:05:39.327104+00:00",
+   "detected": "2026-10-06T11:10:44.260393+00:00",
    "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.385459759"
   },
   {
-   "sport": "UEFA Champions League",
+   "sport": "Primeira Liga - Portugal",
    "market": "Match odds",
-   "event": "\u0160K Slovan Bratislava v VfB Stuttgart",
-   "start": "2026-10-14T19:00:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.82,
-   "books": 18,
-   "detected": "2026-10-06T06:05:39.876367+00:00",
-   "link": "https://www.betfred.com/sports/football/event/36864952"
-  },
-  {
-   "sport": "UEFA Europa Conference League",
-   "market": "Match odds",
-   "event": "Panathinaikos FC v FK Borac Banja Luka",
-   "start": "2026-10-15T16:45:00Z",
-   "selection": "Draw",
-   "book": "Ladbrokes",
-   "odds": 6.0,
-   "fair": 5.76,
-   "books": 15,
-   "detected": "2026-10-06T06:05:39.944504+00:00",
-   "link": "https://sports.ladbrokes.com/event/football/uefa-club-competitions/uefa-conference-league/panathinaikos-fc-v-fk-borac-banja-luka/258389924/main-markets",
+   "event": "Famalic\u00e3o v Alverca",
+   "start": "2026-10-12T19:15:00Z",
+   "selection": "Alverca",
+   "book": "BoyleSports",
+   "odds": 4.5,
+   "fair": 4.35,
+   "books": 17,
+   "detected": "2026-10-06T11:10:44.534467+00:00",
+   "link": "https://www.boylesports.com/sports/football/event/portugal-primeira-liga/famalicao-v-alverca",
    "also": [
     {
      "book": "Coral",
-     "odds": 6.0
-    }
-   ]
-  },
-  {
-   "sport": "UEFA Europa Conference League",
-   "market": "Match odds",
-   "event": "KuPS Kuopio v Trabzonspor",
-   "start": "2026-10-15T16:45:00Z",
-   "selection": "KuPS Kuopio",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.78,
-   "books": 15,
-   "detected": "2026-10-06T06:05:39.945114+00:00",
-   "link": "https://www.betfred.com/sports/football/event/36743645",
-   "also": [
-    {
-     "book": "Unibet (UK)",
-     "odds": 6.0
+     "odds": 4.5
     },
     {
      "book": "Ladbrokes",
-     "odds": 6.0
-    },
-    {
-     "book": "Coral",
-     "odds": 6.0
-    },
-    {
-     "book": "Betano (UK)",
-     "odds": 6.0
+     "odds": 4.5
     }
    ]
   },
@@ -312,7 +285,7 @@
    "odds": 3.7,
    "fair": 3.54,
    "books": 18,
-   "detected": "2026-10-06T06:05:40.034046+00:00",
+   "detected": "2026-10-06T11:10:45.032745+00:00",
    "link": "https://www.paddypower.com/football/uefa-europa-league/hoffenheim-v-besiktas-36104466"
   },
   {
@@ -325,75 +298,8 @@
    "odds": 4.2,
    "fair": 4.11,
    "books": 18,
-   "detected": "2026-10-06T06:05:40.031177+00:00",
+   "detected": "2026-10-06T11:10:45.030009+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028946377"
-  },
-  {
-   "sport": "ATP Shanghai Masters",
-   "market": "Match odds",
-   "event": "Hubert Hurkacz v James Duckworth",
-   "start": "2026-10-07T04:00:00Z",
-   "selection": "James Duckworth",
-   "book": "Betway",
-   "odds": 3.5,
-   "fair": 3.37,
-   "books": 8,
-   "detected": "2026-10-06T06:05:40.255719+00:00",
-   "link": "https://betway.com/en/sports/evt/17313348"
-  },
-  {
-   "sport": "WTA China Open",
-   "market": "Match odds",
-   "event": "Sinja Kraus v Nikola Bartunkova",
-   "start": "2026-10-06T08:10:00Z",
-   "selection": "Sinja Kraus",
-   "book": "Virgin Bet",
-   "odds": 4.9,
-   "fair": 4.75,
-   "books": 20,
-   "detected": "2026-10-06T06:05:40.325653+00:00",
-   "link": "https://www.virginbet.com/sports/tennis/wta-beijing/sinja-kraus-nikola-bartunkova/SBTE_2_1029371052",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 4.9
-    },
-    {
-     "book": "Casumo",
-     "odds": 4.9
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 4.9
-    }
-   ]
-  },
-  {
-   "sport": "WTA China Open",
-   "market": "Match odds",
-   "event": "Coco Gauff v Elise Mertens",
-   "start": "2026-10-07T03:00:00Z",
-   "selection": "Elise Mertens",
-   "book": "Virgin Bet",
-   "odds": 4.6,
-   "fair": 4.46,
-   "books": 18,
-   "detected": "2026-10-06T06:05:40.326621+00:00",
-   "link": "https://www.virginbet.com/sports/tennis/wta-beijing/coco-gauff-elise-mertens/SBTE_2_1029388811",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 4.6
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 4.6
-    },
-    {
-     "book": "Casumo",
-     "odds": 4.6
-    }
-   ]
   }
  ],
  "results": [
