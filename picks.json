@@ -1389,9 +1389,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.76,
-  "latest_seen": "2026-10-06T11:10:45.467216+00:00"
+  "latest_seen": "2026-10-06T11:10:45.467216+00:00",
+  "close_attempts": 1,
+  "close": 3.35,
+  "close_books": 10,
+  "close_at": "2026-10-06T18:21:20.733419+00:00",
+  "close_minutes_before": 23.7,
+  "close_final": true
  },
  "fc13f218b78403a801d3c10b6565f1f4|betano_uk|h2h|Stafford Rangers FC": {
   "sport": "FA Cup",
@@ -1457,9 +1463,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.79,
-  "latest_seen": "2026-10-06T11:10:45.467216+00:00"
+  "latest_seen": "2026-10-06T11:10:45.467216+00:00",
+  "close_attempts": 1,
+  "close": 3.16,
+  "close_books": 10,
+  "close_at": "2026-10-06T18:21:20.733419+00:00",
+  "close_minutes_before": 23.7,
+  "close_final": true
  },
  "01cb7a67c8ae71201ec27297455fc0e8|betfred_uk|h2h|Eintracht Frankfurt": {
   "sport": "Bundesliga - Germany",
@@ -2007,9 +2019,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.26,
-  "latest_seen": "2026-10-06T11:10:45.467216+00:00"
+  "latest_seen": "2026-10-06T11:10:45.467216+00:00",
+  "close_attempts": 1,
+  "close": 3.33,
+  "close_books": 8,
+  "close_at": "2026-10-06T18:21:20.733419+00:00",
+  "close_minutes_before": 23.7,
+  "close_final": true
  },
  "789c3dd95a7fcef675ce5a40b07371a2|boylesports|h2h|Alverca": {
   "sport": "Primeira Liga - Portugal",
