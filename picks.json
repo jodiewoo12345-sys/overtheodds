@@ -1658,11 +1658,11 @@
   "close_status": "final",
   "latest_fair": 4.75,
   "latest_seen": "2026-10-06T06:05:40.328131+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 4.75,
   "close_books": 20,
-  "close_at": "2026-10-06T07:26:36.447122+00:00",
-  "close_minutes_before": 43.4,
+  "close_at": "2026-10-06T07:45:21.161898+00:00",
+  "close_minutes_before": 24.6,
   "close_final": true
  },
  "64e1b6c212f584a22df9d6376314746c|virginbet|h2h|Elise Mertens": {
