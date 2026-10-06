@@ -629,9 +629,15 @@
     "spreads"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.44,
-  "latest_seen": "2026-10-06T11:10:45.467216+00:00"
+  "latest_seen": "2026-10-06T11:10:45.467216+00:00",
+  "close_attempts": 1,
+  "close": 4.48,
+  "close_books": 11,
+  "close_at": "2026-10-06T13:02:27.227183+00:00",
+  "close_minutes_before": 27.5,
+  "close_final": true
  },
  "25c7d39ef0b719e54043c88173c61d2b|casumo|h2h|Wycombe Wanderers": {
   "sport": "League 1",
