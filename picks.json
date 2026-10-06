@@ -1088,11 +1088,11 @@
   "close_status": "final",
   "latest_fair": 5.0,
   "latest_seen": "2026-10-05T11:10:46.711612+00:00",
-  "close_attempts": 2,
+  "close_attempts": 3,
   "close": 4.75,
   "close_books": 19,
-  "close_at": "2026-10-06T02:36:27.925863+00:00",
-  "close_minutes_before": 23.5,
+  "close_at": "2026-10-06T02:53:02.023394+00:00",
+  "close_minutes_before": 7.0,
   "close_final": true
  },
  "8e342ed13dfa9c4efd0c536a65900b4b|betway|h2h|Daria Snigur": {
@@ -1126,11 +1126,11 @@
   "close_status": "final",
   "latest_fair": 5.91,
   "latest_seen": "2026-10-05T11:10:46.711612+00:00",
-  "close_attempts": 2,
+  "close_attempts": 3,
   "close": 5.33,
   "close_books": 20,
-  "close_at": "2026-10-06T02:36:27.925863+00:00",
-  "close_minutes_before": 23.5,
+  "close_at": "2026-10-06T02:53:02.023394+00:00",
+  "close_minutes_before": 7.0,
   "close_final": true
  },
  "c4647ca1201e6768501877267ca8251b|betway|h2h|Miami Dolphins": {
