@@ -1188,11 +1188,11 @@
   "close_status": "final",
   "latest_fair": 4.16,
   "latest_seen": "2026-10-06T11:10:45.467216+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 4.03,
   "close_books": 20,
-  "close_at": "2026-10-07T02:35:04.324010+00:00",
-  "close_minutes_before": 24.9,
+  "close_at": "2026-10-07T02:52:09.815586+00:00",
+  "close_minutes_before": 7.8,
   "close_final": true
  },
  "47cc511bb5ce50f715e3625ce5ef77ee|ladbrokes_uk|h2h|Brooklyn Nets": {
@@ -1756,11 +1756,11 @@
   "close_status": "final",
   "latest_fair": 4.44,
   "latest_seen": "2026-10-06T11:10:45.467216+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 4.23,
   "close_books": 19,
-  "close_at": "2026-10-07T02:35:04.324010+00:00",
-  "close_minutes_before": 24.9,
+  "close_at": "2026-10-07T02:52:09.815586+00:00",
+  "close_minutes_before": 7.8,
   "close_final": true
  },
  "e33d4772daf4acf3265b763829c9cb12|paddypower|h2h|Sri Lanka": {
