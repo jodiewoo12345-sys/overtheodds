@@ -825,5 +825,31 @@
   "stake": 10.0,
   "profit": -10.0,
   "won": false
+ },
+ {
+  "sport": "WTA China Open",
+  "league": "tennis_wta_china_open",
+  "event": "Coco Gauff v Elise Mertens",
+  "market": "Match odds",
+  "date": "2026-10-07",
+  "detected": "2026-10-06T06:05:40.328110+00:00",
+  "selection": "Elise Mertens",
+  "book": "Virgin Bet",
+  "odds": 4.6,
+  "fair": 4.46,
+  "edge": 3.14,
+  "books": 18,
+  "close": 4.23,
+  "close_books": 19,
+  "close_minutes": 7.8,
+  "close_status": "final",
+  "close_attempts": 2,
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "status": "win",
+  "stake": 10.0,
+  "profit": 36.0,
+  "won": true
  }
 ]
