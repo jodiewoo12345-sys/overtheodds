@@ -114,6 +114,7 @@
   .led summary::-webkit-details-marker{display:none}
   .led summary:hover{background:var(--wash)}
   .led .sel{font-weight:600}
+  .led .fix{grid-column:1; font-size:13.5px}
   .led .meta{grid-column:1; font-size:12.5px; color:var(--soft)}
   .led .px{text-align:right; white-space:nowrap; font-size:14px}
   .led .res{text-align:right; font-weight:700; min-width:58px; white-space:nowrap}
@@ -246,31 +247,31 @@
   <section id="view-record" class="hidden">
     <h2>Every selection, settled and counted<span id="recRange"></span></h2>
     <p class="panel" style="border:0;padding:0;margin:0 0 4px;font-size:13.5px;color:var(--soft)">
-      Counted from the day we started checking final prices. Nothing is ever removed.</p>
+      Tracked from the day final-price checking began.</p>
     <div id="recWarn"></div>
     <div class="grid2" id="recStats"></div>
     <div class="panel" style="margin-top:10px">
       <p id="clvLine"></p>
       <p id="captureLine" style="font-size:13px"></p>
-      <p>Shortly before each event starts, we check what the whole market has settled on and
-         compare it with the price we published. If our price was bigger, we got on at better
-         odds than the market ended up offering. We only count bets where we managed that
-         check in time, and we never estimate one we missed.
-         <a href="/methodology.html">The full rules</a>.</p>
+      <p>Shortly before each event starts we check the wider market again. If the price we
+         published was bigger than the market's final price, the value was real at the time.
+         We only measure this where a reliable final price was captured, and a missed one is
+         never estimated. <a href="/methodology.html">The full rules</a>.</p>
     </div>
-    <h2>By month<span>profit is noisy early on</span></h2>
+    <h2>By month<span>early returns are noisy</span></h2>
     <div class="scroll"><table id="byMonth"></table></div>
-    <h2>By sport<span>checked = how many we got a final price for</span></h2>
+    <h2>By competition<span>how each league and tournament performs</span></h2>
     <div class="scroll"><table id="bySport"></table></div>
-    <h2>By market<span>match odds, totals, handicaps</span></h2>
+    <h2>By market<span>match odds, totals and handicaps</span></h2>
     <div class="scroll"><table id="byMarket"></table></div>
     <p class="msg" id="recNote"></p>
 
 
     <h2>Every selection<span id="ledgerCount"></span></h2>
     <p style="font-size:13.5px;color:var(--soft);margin:0 0 6px">
-      Every bet we have published since we started checking final prices, newest first.
-      Tap one to see what we knew at the time. Nothing is edited after the event.</p>
+      Every selection published since final-price tracking began, newest first. Tap one to
+      see the original price, the market comparison and the result. Nothing is deleted or
+      back-edited.</p>
     <div id="ledger"></div>
     <div class="btnrow"><button class="btn line" id="moreBtn" type="button">Show more</button></div>
   </section>
@@ -632,15 +633,15 @@
 
     el("recStats").innerHTML =
       stat(String(s.n), s.voids ? "settled, " + s.voids + " void" : "bets settled") +
-      stat(pctStr(s.roi), "profit on £10 a bet", s.roi >= 0 ? "up" : "down") +
+      stat(pctStr(s.roi), "return at £10 level stakes", s.roi >= 0 ? "up" : "down") +
       stat(s.strike.toFixed(0) + "%", "winners") +
       stat(s.clvN ? pctStr(s.clv) : "—",
-           s.clvN ? "better than the final price, " + s.clvN + " checked"
+           s.clvN ? "better than the final price · " + s.clvN + " checked"
                   : "better than the final price",
            s.clv >= 0 ? "up" : "down");
-    var confidence = s.clvN < 100 ? "nowhere near enough to tell us anything yet"
-                   : s.clvN < 400 ? "enough to be interesting, not enough to be sure"
-                   : "a decent number to judge by";
+    var confidence = s.clvN < 30 ? "far too few to read anything into"
+                   : s.clvN < 100 ? "still too few to draw conclusions from"
+                   : "enough to be interesting, not enough to be sure";
     var failures = {};
     list.forEach(function(r){
       var st = r.close_status || (r.close > 0 ? "final" : "unknown");
@@ -655,33 +656,33 @@
         'That is a fault worth chasing, not a rounding issue.</div>'
       : '';
 
-    var rate = list.length ? Math.round(100 * s.clvN / list.length) : 0;
-    el("captureLine").innerHTML = '<strong style="color:var(--ink)">' + rate +
-      '% captured.</strong> We managed to check the final price on ' + s.clvN +
-      ' of ' + list.length + ' finished bets' +
-      (failText ? ' (' + esc(failText.replace(/missed window/g, "started before we could check")
-                                     .replace(/insufficient books/g, "too few bookmakers left")
-                                     .replace(/unavailable/g, "market had gone")) + ')' : '') + '.';
+    el("captureLine").innerHTML = 'Final price captured on ' + s.clvN + ' of ' +
+      list.length + ' bets' +
+      (failText ? '. The rest could not be measured: ' +
+        esc(failText.replace(/missed window/g, "started before we could check")
+                    .replace(/insufficient books/g, "too few bookmakers still pricing it")
+                    .replace(/unavailable/g, "market had gone")) : '') + '.';
 
+    var beatN = Math.round(s.beatPct * s.clvN / 100);
     el("clvLine").innerHTML = s.clvN
-      ? '<strong style="color:var(--ink)">' + s.beatPct.toFixed(0) +
-        '% of our prices were better than the market\'s final price</strong>, from the ' +
-        s.clvN + ' we could check — ' + confidence +
-        '. This is the earliest sign of whether the board is any good: getting a better ' +
-        'price than the market settles on is the whole point, and it shows up long before ' +
-        'profit does. Below half and we are just finding noise.'
-      : 'We have not been able to check a final price yet, so there is nothing to judge.';
+      ? '<strong style="color:var(--ink)">' + beatN + ' of ' + s.clvN +
+        ' checked prices beat the final market.</strong> The average difference was ' +
+        pctStr(s.clv) + '. ' + (s.clvN < 100
+          ? 'That is ' + confidence + ' — this figure only becomes useful as the sample grows.'
+          : 'Beating the final market consistently is what an edge looks like, and it ' +
+            'shows up long before profit does.')
+      : 'No final price has been captured yet, so there is nothing to judge.';
 
     var months = {}, sports = {};
     list.forEach(function(r){
       (months[r.date.slice(0,7)] = months[r.date.slice(0,7)] || []).push(r);
       (sports[r.sport] = sports[r.sport] || []).push(r);
     });
-    el("byMonth").innerHTML = table(["Month","Bets","Profit","Beat final price by"],
+    el("byMonth").innerHTML = table(["Month","Bets","Return","Beat final price by"],
       Object.keys(months).sort().reverse().map(function(m){
         var x = summarise(months[m]);
         return [m, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—"]; }));
-    el("bySport").innerHTML = table(["Sport","Bets","Profit","Beat final price by","Checked"],
+    el("bySport").innerHTML = table(["Competition","Bets","Return","Beat final price by","Checked"],
       Object.keys(sports).sort(function(a,b){ return sports[b].length - sports[a].length; })
         .map(function(sp){
           var x = summarise(sports[sp]);
@@ -692,7 +693,7 @@
       var m = r.market || "Match odds";
       (markets[m] = markets[m] || []).push(r);
     });
-    el("byMarket").innerHTML = table(["Market","Bets","Profit","Beat final price by","Checked"],
+    el("byMarket").innerHTML = table(["Market","Bets","Return","Beat final price by","Checked"],
       Object.keys(markets).sort(function(a,b){ return markets[b].length - markets[a].length; })
         .map(function(m){
           var x = summarise(markets[m]);
@@ -721,7 +722,8 @@
 
     var rows = [
       ["Date", esc(r.date || "")],
-      ["Sport", esc(r.sport || "") + (r.league ? " · " + esc(r.league) : "")],
+      ["Event", esc(r.event || "—")],
+      ["Competition", esc(r.sport || "") + (r.league ? " · " + esc(r.league) : "")],
       ["Market", esc(r.market || "Match odds")],
       ["Bookmaker", esc(r.book || "")],
       ["Price we published", Number(r.odds).toFixed(2)],
@@ -744,9 +746,11 @@
       '<span class="px">' + Number(r.odds).toFixed(2) +
         (close ? ' <span style="color:var(--soft)">v ' + close.toFixed(2) + '</span>' : '') + '</span>' +
       '<span class="res ' + cls + '">' + label + '</span>' +
+      (r.event ? '<span class="fix">' + esc(r.event) + '</span>' : '') +
       '<span class="meta">' + esc(r.date || "") + ' · ' + esc(r.sport || "") +
         ' · ' + esc(r.market || "Match odds") + ' · ' + esc(r.book || "") +
-        (clv === null ? '' : ' · ' + pctStr(clv) + ' v final') + '</span>' +
+        (clv === null ? ' · final price not captured' : ' · ' + pctStr(clv) + ' vs final') +
+      '</span>' +
       '</summary><div class="detail">' +
       rows.map(function(kv){ return '<div><span>' + kv[0] + '</span><span>' + kv[1] + '</span></div>'; }).join("") +
       '</div></details>';
@@ -756,7 +760,7 @@
     var sorted = list.slice().sort(function(a, b){
       return (b.date || "").localeCompare(a.date || "");
     });
-    el("ledgerCount").textContent = sorted.length + " published, all kept";
+    el("ledgerCount").textContent = sorted.length + " published";
     el("ledger").innerHTML = sorted.slice(0, ledgerShown).map(ledgerRow).join("");
     el("moreBtn").style.display = sorted.length > ledgerShown ? "" : "none";
     el("moreBtn").textContent = "Show more (" + (sorted.length - ledgerShown) + " left)";
@@ -791,10 +795,11 @@
         checked + (feed.bets ? feed.bets.length : 0) + " bets" +
         (ageH > 14 ? " · overdue" : "");
     }
-    el("lede").innerHTML = "Every day we compare each UK bookmaker against what the whole market " +
-      "says the price should be. When a firm is well above that, it appears here — and every " +
-      "selection is then tracked against the market\'s final price and the result." +
-      (prefs.free === "All" ? " Free, every sport." : " " + esc(prefs.free) + " is free; the rest is for members.") +
+    el("lede").innerHTML = "We compare UK bookmaker prices with the wider market to find prices " +
+      "that look too big. When we find one, we publish it and keep the original price on " +
+      "record. Every selection is then tracked against the market\'s final price and the " +
+      "result, so you can see whether the value was real." +
+      (prefs.free === "All" ? " Free to use." : " " + esc(prefs.free) + " is free; the rest is for members.") +
       ' <a href="/how-it-works.html">How this works</a> · ' +
       '<a href="/methodology.html">Our rules</a>';
   }

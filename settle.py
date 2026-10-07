@@ -143,6 +143,7 @@ def main():
         results.append({
             "sport": pick["sport"],
             "league": pick.get("sport_key", ""),
+            "event": pick.get("event", ""),
             "market": pick.get("market", "Match odds"),
             "date": pick["start"][:10],
             "detected": pick.get("detected", ""),
