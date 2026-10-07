@@ -1614,11 +1614,11 @@
   "close_status": "final",
   "latest_fair": 3.48,
   "latest_seen": "2026-10-06T11:10:45.467216+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 3.02,
   "close_books": 17,
-  "close_at": "2026-10-07T03:36:05.792101+00:00",
-  "close_minutes_before": 23.9,
+  "close_at": "2026-10-07T03:54:08.594590+00:00",
+  "close_minutes_before": 5.9,
   "close_final": true
  },
  "bd4d71c36db8e457d45721651426c225|virginbet|h2h|Sinja Kraus": {
