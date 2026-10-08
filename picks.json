@@ -3099,9 +3099,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.66,
-  "latest_seen": "2026-10-08T06:06:35.983837+00:00"
+  "latest_seen": "2026-10-08T06:06:35.983837+00:00",
+  "close_attempts": 1,
+  "close": 2.74,
+  "close_books": 20,
+  "close_at": "2026-10-08T10:37:02.556632+00:00",
+  "close_minutes_before": 33.0,
+  "close_final": true
  },
  "ffe256b7d5ecc81af36b822714191ded|virginbet|h2h|Elise Mertens": {
   "sport": "WTA China Open",
