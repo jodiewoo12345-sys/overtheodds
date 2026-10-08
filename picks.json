@@ -568,11 +568,11 @@
   "close_status": "final",
   "latest_fair": 4.75,
   "latest_seen": "2026-10-08T11:10:40.481893+00:00",
-  "close_attempts": 1,
-  "close": 4.9,
+  "close_attempts": 2,
+  "close": 4.96,
   "close_books": 15,
-  "close_at": "2026-10-08T23:35:55.515232+00:00",
-  "close_minutes_before": 39.1,
+  "close_at": "2026-10-08T23:51:26.276858+00:00",
+  "close_minutes_before": 23.6,
   "close_final": true
  },
  "c4647ca1201e6768501877267ca8251b|betfred_uk|h2h|Miami Dolphins": {
