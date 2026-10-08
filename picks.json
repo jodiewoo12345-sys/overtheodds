@@ -2203,9 +2203,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.39,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00"
+  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
+  "close_attempts": 1,
+  "close": 2.36,
+  "close_books": 6,
+  "close_at": "2026-10-08T22:25:21.147059+00:00",
+  "close_minutes_before": 44.6,
+  "close_final": true
  },
  "89c5018d1ea1a2a1b79d4e805e10be46|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -2271,9 +2277,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.72,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00"
+  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
+  "close_attempts": 1,
+  "close": 1.73,
+  "close_books": 6,
+  "close_at": "2026-10-08T22:25:21.147059+00:00",
+  "close_minutes_before": 44.6,
+  "close_final": true
  },
  "100868f90e5446c13a23eb2b7710724d|casumo|spreads|Utah Mammoth -1.5": {
   "sport": "NHL",
@@ -2339,9 +2351,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 3.07,
-  "latest_seen": "2026-10-08T06:06:35.983837+00:00"
+  "latest_seen": "2026-10-08T06:06:35.983837+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-08T22:25:21.147059+00:00"
  },
  "d8eac776adb07b0e7f01d8736d097291|grosvenor|h2h|Union Berlin": {
   "sport": "Bundesliga - Germany",
