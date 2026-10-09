@@ -2147,9 +2147,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.04,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00"
+  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
+  "close_attempts": 1,
+  "close": 4.5,
+  "close_books": 14,
+  "close_at": "2026-10-09T05:36:17.292546+00:00",
+  "close_minutes_before": 23.7,
+  "close_final": true
  },
  "89c5018d1ea1a2a1b79d4e805e10be46|grosvenor|totals|Over 6.5": {
   "sport": "NHL",
