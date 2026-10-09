@@ -1940,11 +1940,11 @@
   "close_status": "final",
   "latest_fair": 3.62,
   "latest_seen": "2026-10-08T11:10:40.481893+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 3.65,
   "close_books": 19,
-  "close_at": "2026-10-09T03:36:42.717831+00:00",
-  "close_minutes_before": 23.3,
+  "close_at": "2026-10-09T03:55:04.688861+00:00",
+  "close_minutes_before": 4.9,
   "close_final": true
  },
  "21b26266f3d78af02eb672e606275d95|betway|h2h|Philadelphia Eagles": {
@@ -2912,11 +2912,11 @@
   "close_status": "final",
   "latest_fair": 4.89,
   "latest_seen": "2026-10-08T11:10:40.481893+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 5.0,
   "close_books": 19,
-  "close_at": "2026-10-09T03:36:42.717831+00:00",
-  "close_minutes_before": 23.3,
+  "close_at": "2026-10-09T03:55:04.688861+00:00",
+  "close_minutes_before": 4.9,
   "close_final": true
  },
  "e4ee78c7ad5031e88f5b5c2cc49f68cb|betway|h2h|Dalibor Svrcina": {
