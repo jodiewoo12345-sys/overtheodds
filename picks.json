@@ -3181,9 +3181,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00"
+  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
+  "close_attempts": 1,
+  "close": 1.79,
+  "close_books": 4,
+  "close_at": "2026-10-09T00:50:16.996063+00:00",
+  "close_minutes_before": 19.7,
+  "close_final": true
  },
  "3fb63658405d468954f57745cd115118|grosvenor|h2h|Draw": {
   "sport": "Bundesliga - Germany",
