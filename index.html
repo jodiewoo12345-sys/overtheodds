@@ -76,6 +76,11 @@
   .chip{white-space:nowrap; border:0; background:none; padding:2px 0; font:inherit; font-size:13px;
         color:var(--soft); cursor:pointer; border-bottom:2px solid transparent}
   .chip[aria-pressed="true"]{color:var(--ink); font-weight:600; border-bottom-color:var(--green)}
+  /* the two action chips are buttons, not labels, so they carry a visible edge */
+  #mineBtn,#themeBtn{border:1px solid var(--rule); border-radius:999px; padding:5px 11px;
+                     font-size:12px; letter-spacing:.02em}
+  #mineBtn:hover,#themeBtn:hover{border-color:var(--ink); color:var(--ink)}
+  #mineBtn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
   .filters{display:flex; gap:8px 16px; align-items:center; margin-top:8px; flex-wrap:wrap;
            font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft)}
   .filters select{font:inherit; font-size:12px; letter-spacing:0; text-transform:none;
@@ -107,6 +112,15 @@
   .fixture{grid-column:1; font-size:13px; color:var(--soft)}
   .evidence{grid-column:1; font-size:11.5px; color:var(--soft); opacity:.75; margin-top:2px}
 
+  /* the ledger's day divider, with that day's tally on the right */
+  .day{display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap;
+       gap:2px 14px; margin:26px 0 0; padding-bottom:5px;
+       border-bottom:1px solid var(--ink);
+       font-size:11px; letter-spacing:.12em; text-transform:uppercase; font-weight:600}
+  .day:first-child{margin-top:6px}
+  .day span{font-weight:400; letter-spacing:.07em; color:var(--soft); font-variant-numeric:tabular-nums}
+  .day span.up{color:var(--green)} .day span.down{color:var(--red)}
+
   /* the ledger: one line per settled bet, openable */
   .led{border-bottom:1px solid var(--hair)}
   .led summary{display:grid; grid-template-columns:1fr auto auto; gap:2px 12px;
@@ -117,22 +131,28 @@
   .led .fix{grid-column:1; font-size:13.5px}
   .led .meta{grid-column:1; font-size:12.5px; color:var(--soft)}
   .led .px{text-align:right; white-space:nowrap; font-size:14px}
-  .led .res{text-align:right; font-weight:700; min-width:58px; white-space:nowrap}
+  .led .res{text-align:right; font-weight:700; min-width:70px; white-space:nowrap}
+  .led .res::after{content:"›"; color:var(--soft); font-weight:400; display:inline-block;
+                   margin-left:7px; transition:transform .15s}
+  .led[open] .res::after{transform:rotate(90deg)}
   .led .detail{padding:4px 0 14px; font-size:13.5px; color:var(--soft)}
   .led .detail div{display:flex; justify-content:space-between; gap:12px; padding:4px 0;
                    border-bottom:1px solid var(--hair)}
   .led .detail div:last-child{border-bottom:0}
   .led .detail span:last-child{color:var(--ink); font-weight:600}
   .win{color:var(--green)} .lose{color:var(--red)} .voided{color:var(--soft)}
-  .foot{grid-column:1 / -1; display:flex; justify-content:space-between; align-items:baseline;
-        gap:12px; margin-top:6px; flex-wrap:wrap}
+  /* book details and the action never share a wrapping line: the action keeps its
+     own column so it sits in the same place on every row */
+  .foot{grid-column:1 / -1; display:grid; grid-template-columns:1fr auto;
+        align-items:end; gap:4px 14px; margin-top:11px}
   .book{font-size:13px}
   .book b{font-weight:600}
   .also{color:var(--soft); font-size:12.5px; margin-left:9px}
-  .go{font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:600;
-      text-decoration:none; color:var(--ink); border-bottom:2px solid var(--green);
-      padding-bottom:2px; white-space:nowrap}
+  .go{justify-self:end; font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+      font-weight:600; text-decoration:none; color:var(--ink); white-space:nowrap;
+      padding:9px 2px 7px; border-bottom:2px solid var(--green); display:inline-block}
   .go:hover{color:var(--green)}
+  .lockmsg{justify-self:end}
   .locked .pickname,.locked .prices b{filter:blur(4px); user-select:none}
   .lockmsg{font-size:12px; color:var(--soft); text-transform:uppercase; letter-spacing:.08em}
 
@@ -191,14 +211,27 @@
   select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--green); outline-offset:3px}
 
   @media (max-width:560px){
-    h1{font-size:28px; gap:8px}
-    .mark{width:25px; height:25px}
+    /* wordmark on one line, dateline underneath rather than squeezed beside it */
+    header{flex-direction:column; align-items:flex-start; gap:3px; padding-bottom:7px}
+    h1{font-size:25px; gap:7px; white-space:nowrap}
+    .mark{width:22px; height:22px}
+    /* the dateline is the only thing forcing the page wider than a small phone,
+       so let it wrap rather than push a horizontal scrollbar onto every view */
+    .stamp{padding-bottom:0; font-size:10.5px; white-space:normal}
+    /* five-column comparison tables do not fit a 320px screen; tighten them
+       rather than let the whole page scroll sideways */
+    table{font-size:13px}
+    th,td{padding:8px 2px}
     .bet{grid-template-columns:1fr auto}
     .edge{grid-column:2; grid-row:1; align-self:baseline; font-size:19px}
     .prices{grid-column:1 / -1; grid-row:3; text-align:left; margin-top:5px}
     .prices b{font-size:17px}
     .fixture{grid-column:1 / -1; grid-row:2}
     .evidence{grid-column:1 / -1; grid-row:4}
+    /* the comparison line gets the full width and the action sits underneath it,
+       right-aligned, in the same spot on every row */
+    .foot{grid-template-columns:1fr}
+    .go,.lockmsg{justify-self:end; margin-top:2px}
   }
   @media (min-width:900px){
     .wrap{padding:22px 24px 60px}
@@ -308,8 +341,6 @@
 (function(){
   "use strict";
   var KEY = "overlay:v3";
-  var SPORTS = ["Football","Tennis","Basketball","American football","Cricket","Darts",
-                "Snooker","Table tennis","Golf","Horse racing"];
   var FREE_SPORT = "All";
   var MAX_FEED_AGE_H = 12;
   // Closing prices were only being captured reliably from this date. Everything before
@@ -344,6 +375,9 @@
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
     return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]; }); }
   function pctStr(n){ return (n >= 0 ? "+" : "") + n.toFixed(1) + "%"; }
+  /* "1 bet" rather than "1 bets". A small thing, but the board will often hold
+     exactly one of something and the slip is the sort that looks unfinished. */
+  function plural(n, one, many){ return n + " " + (n === 1 ? one : (many || one + "s")); }
   function validate(bets){
     var kept = [], dropped = 0;
     (bets || []).forEach(function(b){
@@ -371,7 +405,7 @@
   function ago(iso){
     var t = new Date(iso).getTime();
     if(isNaN(t)) return "";
-    var mins = Math.round((Date.now() - t) / 60000);
+    var mins = Math.max(0, Math.round((Date.now() - t) / 60000));
     if(mins < 60) return mins + " min ago";
     var hrs = mins / 60;
     if(hrs < 2) return hrs.toFixed(1) + "h ago";
@@ -397,12 +431,41 @@
     return Object.keys(set).sort(function(a,b){ return a.localeCompare(b); });
   }
 
+  // The only list of competitions is the one the feed actually carries. Nothing is
+  // hardcoded: the API names its own competitions ("Bundesliga - Germany", "WTA China
+  // Open") and any fixed list here would simply never match them.
+  function competitions(){
+    var seen = {}, present = [];
+    (feed.bets || []).forEach(function(b){
+      var name = b && b.sport ? String(b.sport) : "";
+      if(name && !seen[name]){ seen[name] = true; present.push(name); }
+    });
+    present.sort(function(a,b){ return a.localeCompare(b); });
+    return present;
+  }
+
   function renderChips(){
-    var present = SPORTS.filter(function(s){ return feed.bets.some(function(b){ return b.sport === s; }); });
-    el("chips").innerHTML = ["All"].concat(present).map(function(s){
+    var present = competitions();
+    /* Only drop a saved filter once we have a feed to judge it against. This runs
+       once before the fetch resolves, and resetting then would clear the visitor's
+       choice every single load. */
+    if(feedState === "live" && prefs.sport !== "All" &&
+       present.indexOf(prefs.sport) === -1){
+      prefs.sport = "All"; save();
+    }
+    var box = el("chips");
+    box.innerHTML = ["All"].concat(present).map(function(s){
       return '<button class="chip" data-sport="' + esc(s) + '" aria-pressed="' +
         (prefs.sport === s) + '">' + esc(s) + '</button>';
     }).join("");
+    /* Competition names are long enough that the active one can sit off the right
+       of a phone screen, which makes the filter row look as though "All" is still
+       selected. Nudge the strip, never the page. */
+    var active = box.querySelector('.chip[aria-pressed="true"]');
+    if(active && box.scrollWidth > box.clientWidth){
+      box.scrollLeft = Math.max(0, active.offsetLeft -
+        (box.clientWidth - active.offsetWidth) / 2);
+    }
   }
 
   function visibleBets(){
@@ -444,7 +507,7 @@
     }
     if(prefs.sort === "time"){
       el("board").innerHTML = waiting +
-        '<h2>Starting soonest<span>' + rows.length + ' bets</span></h2>' +
+        '<h2>Starting soonest<span>' + plural(rows.length, "bet") + '</span></h2>' +
         rows.sort(function(x,y){ return kickoff(x) - kickoff(y); })
             .map(function(b){ return row(b, true); }).join("");
       return;
@@ -470,18 +533,18 @@
                Math.max.apply(null, byMarket[a].map(edgeOf));
       });
 
-      return '<h2>' + esc(sport) + '<span>' + list.length + ' bets · best ' + best.toFixed(1) + '%' +
+      return '<h2>' + esc(sport) + '<span>' + plural(list.length, "bet") + ' · best ' + best.toFixed(1) + '%' +
         (paid ? ' · members' : '') + '</span></h2>' +
         markets.map(function(m){
           var cards = byMarket[m].sort(function(x,y){
             return prefs.sort === "time" ? kickoff(x) - kickoff(y) : edgeOf(y) - edgeOf(x); });
           return '<h3>' + esc(m) + '<span>' + cards.length + '</span></h3>' +
-                 cards.map(row).join("");
+                 cards.map(function(b){ return row(b); }).join("");
         }).join("");
     }).join("");
   }
 
-  function row(b, withSport){
+  function row(b, showSport){
     var e = edgeOf(b);
     var locked = !prefs.member && prefs.free !== "All" && b.sport !== prefs.free;
     var candidate = b.link || b.marketLink || b.bookLink || "";
@@ -490,10 +553,9 @@
     var mine = prefs.books.indexOf(b.book) !== -1;
     return '<div class="bet' + (locked ? " locked" : "") + '">' +
       '<div class="pickname">' + esc(locked ? "Selection hidden" : b.selection) + '</div>' +
-      '<div class="fixture">' + esc(b.event) + ' · ' + when(b) +
-        (withSport ? ' · ' + esc(b.sport || "") : '') + '</div>' +
-      '<div class="evidence">' + esc(b.sport || "") +
-        (b.books ? ' · ' + b.books + ' bookmakers compared' : '') +
+      '<div class="fixture">' + esc(b.event) + ' · ' + when(b) + '</div>' +
+      '<div class="evidence">' + (showSport ? esc(b.sport || "") + ' · ' : '') +
+        (b.books ? b.books + ' bookmakers compared' : '') +
         (b.detected ? ' · checked ' + ago(b.detected) : '') + '</div>' +
       '<div class="prices"><b>' + (locked ? "&nbsp;" : Number(b.odds).toFixed(2)) + '</b>' +
         '<i>v ' + (locked ? "&nbsp;" : Number(b.fair).toFixed(2)) + '</i></div>' +
@@ -525,8 +587,8 @@
     var share = s.counts[top] / s.total;
     el("spread").innerHTML = share > 0.5
       ? '<div class="notice">You have opened <strong>' + esc(top) + '</strong> for ' +
-        Math.round(share*100) + '% of the bets you followed this week. Firms restrict accounts ' +
-        'that only ever back the right side, so it is worth spreading the next few about.</div>' : "";
+        Math.round(share*100) + '% of the selections you followed this week. ' +
+        'This is based on bookmaker-link clicks, not confirmed bets.</div>' : "";
   }
   function renderSpreadPanel(){
     var s = spreadCounts(30);
@@ -539,9 +601,9 @@
             return '<div class="line"><span class="k">' + esc(b) + '</span><span class="v">' +
               s.counts[b] + ' opened</span></div>'; }).join("")
         : '<div class="empty">Nothing logged yet. Tapping through to a bet records it here.</div>') +
-      '<p style="margin-top:10px">Bookmakers sometimes restrict or close accounts, ' +
-      'particularly where a customer\'s betting is consistently unprofitable for them. ' +
-      'Holding accounts with several firms means one restriction costs you less.</p>';
+      '<p style="margin-top:10px">Bookmaker availability can change over time. ' +
+      'This page records which firms you opened from the board; it does not know whether ' +
+      'a bet was placed or accepted.</p>';
   }
 
   function results(){ return (feed.results || []).slice(); }
@@ -556,11 +618,20 @@
   // a warning on the page rather than quietly eating the return.
   var VOID_STATUSES = ["void", "push", "cancelled", "canceled", "abandoned"];
 
+  function statusOf(r){
+    return r.status || (typeof r.won === "boolean" ? (r.won ? "win" : "loss") : "unknown");
+  }
+
+  function isCountedResult(r){
+    var status = statusOf(r);
+    return status === "win" || status === "loss" || VOID_STATUSES.indexOf(status) !== -1;
+  }
+
   function summarise(list){
     var stake = 10, turnover = 0, profit = 0, wins = 0, losses = 0, voids = 0, unknown = 0;
     var clvSum = 0, clvCount = 0, beat = 0;
     list.forEach(function(r){
-      var status = r.status || (typeof r.won === "boolean" ? (r.won ? "win" : "loss") : "unknown");
+      var status = statusOf(r);
 
       if(status === "win"){
         turnover += stake;
@@ -583,7 +654,8 @@
       }
     });
     var counted = wins + losses;
-    return { n:list.length, voids:voids, unknown:unknown, profit:profit,
+    var settled = counted + voids;
+    return { n:settled, voids:voids, unknown:unknown, profit:profit,
              roi: turnover ? profit/turnover*100 : 0,
              strike: counted ? wins/counted*100 : 0,
              clvN: clvCount,                       // CLV rests on this many, not on n
@@ -623,8 +695,12 @@
     }
     if(!list.length){
       el("recStats").innerHTML = '<div class="empty">No settled bets yet.</div>';
-      el("byMonth").innerHTML = ""; el("bySport").innerHTML = "";
-      el("clvLine").textContent = ""; return;
+      el("byMonth").innerHTML = ""; el("bySport").innerHTML = ""; el("byMarket").innerHTML = "";
+      el("clvLine").textContent = ""; el("captureLine").textContent = "";
+      el("ledger").innerHTML = ""; el("ledgerCount").textContent = "";
+      el("moreBtn").style.display = "none";
+      el("recWarn").innerHTML = ""; el("recNote").textContent = "";
+      return;
     }
     var s = summarise(list);
     var dates = list.map(function(r){ return r.date; }).sort();
@@ -642,22 +718,26 @@
     var confidence = s.clvN < 30 ? "far too few to read anything into"
                    : s.clvN < 100 ? "still too few to draw conclusions from"
                    : "enough to be interesting, not enough to be sure";
+    var countedList = list.filter(isCountedResult);
     var failures = {};
-    list.forEach(function(r){
-      var st = r.close_status || (r.close > 0 ? "final" : "unknown");
+    countedList.forEach(function(r){
+      var st = r.close_status || "unknown";
       if(st !== "final") failures[st] = (failures[st] || 0) + 1;
     });
     var failText = Object.keys(failures).map(function(k){
       return failures[k] + " " + k.replace(/_/g, " ");
     }).join(", ");
     el("recWarn").innerHTML = s.unknown
-      ? '<div class="notice"><strong>' + s.unknown + ' selections have an unrecognised ' +
-        'settlement status</strong> and have been left out of every figure on this page. ' +
+      ? '<div class="notice"><strong>' + s.unknown +
+        (s.unknown === 1 ? ' selection has' : ' selections have') +
+        ' an unrecognised settlement status</strong> and ' +
+        (s.unknown === 1 ? 'has' : 'have') +
+        ' been left out of every figure on this page. ' +
         'That is a fault worth chasing, not a rounding issue.</div>'
       : '';
 
     el("captureLine").innerHTML = 'Final price captured on ' + s.clvN + ' of ' +
-      list.length + ' bets' +
+      plural(s.n, "settled bet") +
       (failText ? '. The rest could not be measured: ' +
         esc(failText.replace(/missed window/g, "started before we could check")
                     .replace(/insufficient books/g, "too few bookmakers still pricing it")
@@ -665,8 +745,9 @@
 
     var beatN = Math.round(s.beatPct * s.clvN / 100);
     el("clvLine").innerHTML = s.clvN
-      ? '<strong style="color:var(--ink)">' + beatN + ' of ' + s.clvN +
-        ' checked prices beat the final market.</strong> The average difference was ' +
+      ? '<strong style="color:var(--ink)">' + beatN + ' of ' +
+        plural(s.clvN, "checked price") +
+        ' beat the final market.</strong> The average difference was ' +
         pctStr(s.clv) + '. ' + (s.clvN < 100
           ? 'That is ' + confidence + ' — this figure only becomes useful as the sample grows.'
           : 'Beating the final market consistently is what an edge looks like, and it ' +
@@ -674,7 +755,7 @@
       : 'No final price has been captured yet, so there is nothing to judge.';
 
     var months = {}, sports = {};
-    list.forEach(function(r){
+    countedList.forEach(function(r){
       (months[r.date.slice(0,7)] = months[r.date.slice(0,7)] || []).push(r);
       (sports[r.sport] = sports[r.sport] || []).push(r);
     });
@@ -689,7 +770,7 @@
           return [sp, x.n, pctStr(x.roi), x.clvN ? pctStr(x.clv) : "—", x.clvN]; }));
 
     var markets = {};
-    list.forEach(function(r){
+    countedList.forEach(function(r){
       var m = r.market || "Match odds";
       (markets[m] = markets[m] || []).push(r);
     });
@@ -711,14 +792,17 @@
   function money(n){ return (n >= 0 ? "+£" : "−£") + Math.abs(n).toFixed(2); }
 
   function ledgerRow(r){
-    var status = r.status || (typeof r.won === "boolean" ? (r.won ? "win" : "loss") : "unknown");
+    var status = statusOf(r);
     var cls = status === "win" ? "win" : status === "loss" ? "lose" : "voided";
     var profit = typeof r.profit === "number" ? r.profit
                : (status === "win" ? 10 * (r.odds - 1) : status === "loss" ? -10 : 0);
     var close = verifiedClose(r);
     var clv = close ? (r.odds / close - 1) * 100 : null;
+    /* "Void" is reserved for the statuses the figures actually treat as void.
+       Anything else unrecognised reads as Unknown, so the ledger and the totals
+       above it never disagree about what a row is. */
     var label = status === "win" ? "Won" : status === "loss" ? "Lost"
-              : status === "unknown" ? "Unknown" : "Void";
+              : VOID_STATUSES.indexOf(status) !== -1 ? "Void" : "Unknown";
 
     var rows = [
       ["Date", esc(r.date || "")],
@@ -747,7 +831,9 @@
         (close ? ' <span style="color:var(--soft)">v ' + close.toFixed(2) + '</span>' : '') + '</span>' +
       '<span class="res ' + cls + '">' + label + '</span>' +
       (r.event ? '<span class="fix">' + esc(r.event) + '</span>' : '') +
-      '<span class="meta">' + esc(r.date || "") + ' · ' + esc(r.sport || "") +
+      /* No date here: the day heading above the row already carries it, and the
+         expanded detail repeats it in full. */
+      '<span class="meta">' + esc(r.sport || "") +
         ' · ' + esc(r.market || "Match odds") + ' · ' + esc(r.book || "") +
         (clv === null ? ' · final price not captured' : ' · ' + pctStr(clv) + ' vs final') +
       '</span>' +
@@ -756,12 +842,63 @@
       '</div></details>';
   }
 
+  /* "Tuesday 7 October", with the year only when it isn't this one. Built from the
+     date parts rather than Date.parse, because "2026-10-07" parses as UTC midnight
+     and would show as the 6th to anyone reading from the Americas. */
+  function dayLabel(iso){
+    var p = String(iso || "").split("-");
+    if(p.length !== 3) return "Undated";
+    var d = new Date(+p[0], +p[1] - 1, +p[2]);
+    if(isNaN(d.getTime())) return "Undated";
+    var opts = { weekday:"long", day:"numeric", month:"long" };
+    if(d.getFullYear() !== new Date().getFullYear()) opts.year = "numeric";
+    return d.toLocaleDateString("en-GB", opts);
+  }
+
+  /* A day's tally. Only results that count towards the figures are added up, so a
+     day holding nothing but unrecognised statuses shows a count and no false £0.00. */
+  function dayTally(rows){
+    var profit = 0, voids = 0, staked = 0, unknown = 0;
+    rows.forEach(function(r){
+      var st = statusOf(r);
+      if(!isCountedResult(r)){ unknown++; return; }
+      if(VOID_STATUSES.indexOf(st) !== -1){ voids++; return; }
+      staked++;
+      profit += typeof r.profit === "number" ? r.profit
+              : (st === "win" ? 10 * (r.odds - 1) : -10);
+    });
+    var bits = [plural(rows.length, "bet")];
+    if(staked) bits.push('<span class="' + (profit >= 0 ? "up" : "down") + '">' +
+                         esc(money(profit)) + '</span>');
+    if(voids) bits.push(plural(voids, "void"));
+    /* Say so on the day itself, not only in the warning at the top of the page. */
+    if(unknown) bits.push(unknown + " not counted");
+    return bits.join(" · ");
+  }
+
   function renderLedger(list){
     var sorted = list.slice().sort(function(a, b){
       return (b.date || "").localeCompare(a.date || "");
     });
-    el("ledgerCount").textContent = sorted.length + " published";
-    el("ledger").innerHTML = sorted.slice(0, ledgerShown).map(ledgerRow).join("");
+    var allDays = {};
+    sorted.forEach(function(r){ allDays[r.date || ""] = true; });
+    el("ledgerCount").textContent = sorted.length + " published · " +
+      plural(Object.keys(allDays).length, "day");
+
+    /* Group only what is on screen, so revealing more simply extends the last day
+       or starts the next one. */
+    var groups = [], at = {};
+    sorted.slice(0, ledgerShown).forEach(function(r){
+      var key = r.date || "";
+      if(!(key in at)){ at[key] = groups.length; groups.push({ date:key, rows:[] }); }
+      groups[at[key]].rows.push(r);
+    });
+
+    el("ledger").innerHTML = groups.map(function(g){
+      return '<div class="day">' + esc(dayLabel(g.date)) +
+             '<span>' + dayTally(g.rows) + '</span></div>' +
+             g.rows.map(ledgerRow).join("");
+    }).join("");
     el("moreBtn").style.display = sorted.length > ledgerShown ? "" : "none";
     el("moreBtn").textContent = "Show more (" + (sorted.length - ledgerShown) + " left)";
   }
@@ -788,11 +925,11 @@
     else {
       var ageH = (Date.now() - base) / 3600000;
       var checked = feed.scanned && feed.scanned.selections
-        ? feed.scanned.selections + " prices checked · " : "";
+        ? feed.scanned.selections + " selections checked · " : "";
       el("stamp").textContent =
         new Date(base).toLocaleDateString([], {day:"numeric", month:"short"}) + " · " +
         new Date(base).toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"}) + " · " +
-        checked + (feed.bets ? feed.bets.length : 0) + " bets" +
+        checked + plural(feed.bets ? feed.bets.length : 0, "bet") +
         (ageH > 14 ? " · overdue" : "");
     }
     el("lede").innerHTML = "We compare UK bookmaker prices with the wider market to find prices " +
@@ -816,7 +953,7 @@
     el("sortBy").value = prefs.sort;
     el("mineBtn").setAttribute("aria-pressed", String(prefs.mineOnly));
     if(el("freePick")){
-      el("freePick").innerHTML = ["All"].concat(SPORTS).map(function(x){
+      el("freePick").innerHTML = ["All"].concat(competitions()).map(function(x){
         return '<option' + (x === prefs.free ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join("");
     }
   }
@@ -855,7 +992,10 @@
     this.setAttribute("aria-pressed", String(prefs.mineOnly)); save(); renderBoard();
   };
   el("themeBtn").onclick = function(){
-    var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    var explicit = document.documentElement.getAttribute("data-theme");
+    var current = explicit || ((window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light");
+    var next = current === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next); prefs.theme = next; save();
   };
 
@@ -864,7 +1004,7 @@
     if(el("admin") || window.__otoAdminLoading) return;
     window.__otoAdminLoading = true;
     window.__otoAdmin = {
-      el: el, esc: esc, SPORTS: SPORTS, prefs: prefs, show: show,
+      el: el, esc: esc, SPORTS: competitions(), prefs: prefs, show: show,
       validate: validate, save: save,
       setFeed: function(f){ feed = f; feedState = "live"; },
       refresh: function(){ renderAll(); renderRecord(); },
