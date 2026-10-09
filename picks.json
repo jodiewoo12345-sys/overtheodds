@@ -3650,8 +3650,8 @@
   "close_status": "insufficient_books",
   "latest_fair": 3.07,
   "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 1,
-  "close_checked_at": "2026-10-09T23:33:08.090414+00:00"
+  "close_attempts": 2,
+  "close_checked_at": "2026-10-09T23:50:42.411659+00:00"
  },
  "30e778f30fcb48f94af24793f5bd201a|casumo|spreads|Detroit Red Wings -1.5": {
   "sport": "NHL",
@@ -3790,11 +3790,11 @@
   "close_status": "final",
   "latest_fair": 1.73,
   "latest_seen": "2026-10-09T08:09:39.879063+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 1.73,
   "close_books": 6,
-  "close_at": "2026-10-09T23:33:08.090414+00:00",
-  "close_minutes_before": 36.9,
+  "close_at": "2026-10-09T23:50:42.411659+00:00",
+  "close_minutes_before": 19.3,
   "close_final": true
  },
  "a46c19cc6ee20067da4e68356f247bfb|grosvenor|h2h|Draw": {
