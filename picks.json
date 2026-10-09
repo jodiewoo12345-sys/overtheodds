@@ -3057,9 +3057,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.58,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00"
+  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
+  "close_attempts": 1,
+  "close": 4.6,
+  "close_books": 20,
+  "close_at": "2026-10-09T04:36:46.688339+00:00",
+  "close_minutes_before": 23.2,
+  "close_final": true
  },
  "21b26266f3d78af02eb672e606275d95|williamhill|h2h|Philadelphia Eagles": {
   "sport": "NFL",
