@@ -3499,9 +3499,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.83,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 1.82,
+  "close_books": 6,
+  "close_at": "2026-10-09T22:34:45.955065+00:00",
+  "close_minutes_before": 35.2,
+  "close_final": true
  },
  "1eb386b963ae5a82eba436c25e50cf24|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -3567,9 +3573,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.21,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 2.21,
+  "close_books": 6,
+  "close_at": "2026-10-09T22:34:45.955065+00:00",
+  "close_minutes_before": 35.2,
+  "close_final": true
  },
  "48ce8ebb422982764994cd25c5f253c7|casumo|spreads|Winnipeg Jets -1.5": {
   "sport": "NHL",
@@ -3703,9 +3715,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 2.75,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-09T22:34:45.955065+00:00"
  },
  "48ce8ebb422982764994cd25c5f253c7|williamhill|totals|Under 6.5": {
   "sport": "NHL",
