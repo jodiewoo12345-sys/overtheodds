@@ -2807,9 +2807,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 5.6,
+  "close_books": 21,
+  "close_at": "2026-10-09T18:00:01.242029+00:00",
+  "close_minutes_before": 30.0,
+  "close_final": true
  },
  "78773ce49c803868efcc014fce7299c2|betfair_sb_uk|h2h|1. FC Kaiserslautern": {
   "sport": "Bundesliga 2 - Germany",
