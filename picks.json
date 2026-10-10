@@ -504,11 +504,11 @@
   "close_status": "final",
   "latest_fair": 3.01,
   "latest_seen": "2026-10-10T06:05:03.751897+00:00",
-  "close_attempts": 1,
-  "close": 3.22,
+  "close_attempts": 2,
+  "close": 3.24,
   "close_books": 19,
-  "close_at": "2026-10-10T10:27:12.633550+00:00",
-  "close_minutes_before": 32.8,
+  "close_at": "2026-10-10T10:44:15.379227+00:00",
+  "close_minutes_before": 15.7,
   "close_final": true
  },
  "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
@@ -3718,11 +3718,11 @@
   "close_status": "final",
   "latest_fair": 3.79,
   "latest_seen": "2026-10-10T06:05:03.751897+00:00",
-  "close_attempts": 1,
-  "close": 3.89,
-  "close_books": 19,
-  "close_at": "2026-10-10T10:27:12.633550+00:00",
-  "close_minutes_before": 42.8,
+  "close_attempts": 2,
+  "close": 3.7,
+  "close_books": 20,
+  "close_at": "2026-10-10T10:44:15.379227+00:00",
+  "close_minutes_before": 25.7,
   "close_final": true
  },
  "35d3bfa7ed91441f9c3a617d9a61b31e|livescorebet|h2h|West Indies": {
