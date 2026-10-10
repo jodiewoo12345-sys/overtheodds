@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -38,8 +38,8 @@
   "first_seen": "2026-10-01T19:39:59.899646+00:00",
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 6.14,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -55,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -71,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -86,8 +86,8 @@
   "first_seen": "2026-10-01T20:01:18.240657+00:00",
   "close": 5.87,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
-  "latest_fair": 6.14,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|betfred_uk|h2h|Peterborough United": {
   "sport": "League 1",
@@ -118,8 +118,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.07,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.1,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -151,7 +151,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.86,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "f3034246520a2ee4ff0ac0d5074966f8|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -183,7 +183,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.51,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "3ea32a0aa44a5f0ef7fd088155430087|grosvenor|h2h|Fiorentina": {
   "sport": "Serie A - Italy",
@@ -215,7 +215,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.55,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "bfefc309177723410230fee52f650315|skybet|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -246,8 +246,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.28,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.27,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "5696ee371ba00ede3dc8a64d24ce79f1|williamhill|h2h|Draw": {
   "sport": "Primeira Liga - Portugal",
@@ -278,8 +278,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.84,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 7.01,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|grosvenor|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -310,8 +310,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.1,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -342,8 +342,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.31,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.22,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "1769158b7ef34227fc6d6822eaa918ba|ladbrokes_uk|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -375,7 +375,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "3fbdf5ef9e517e3250f7eda297024ef9|boylesports|h2h|West Indies": {
   "sport": "One Day Internationals",
@@ -438,8 +438,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.1,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.09,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betway|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -470,8 +470,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.77,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.64,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "3c813baeb4f415e152409b8dafc46366|casumo|h2h|FC Energie Cottbus": {
   "sport": "Bundesliga 2 - Germany",
@@ -502,8 +502,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.99,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.01,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "4a88bc4de574d43ef34677fd8d78722f|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -534,8 +534,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.8,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 2.74,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "c4647ca1201e6768501877267ca8251b|betfred_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -566,8 +566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.69,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.8,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e3cb10ced3e8190f557f9ac8ed99d966|boylesports|h2h|West Indies": {
   "sport": "International Twenty20",
@@ -636,8 +636,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.78,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 2.81,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "46565a1cbc6f2e15ba0b2223a5a1fde8|betfred_uk|h2h|Draw": {
   "sport": "League 1",
@@ -668,8 +668,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.31,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.34,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e2578ec1dbe113dc7d40bcd7e0fd1d9f|williamhill|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -701,7 +701,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.85,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "431fc65e67cd737bceb5827118d3f7eb|casumo|h2h|Salzburg": {
   "sport": "UEFA Europa League",
@@ -732,8 +732,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.15,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.16,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "4cfd3c3636333951706a205b96dc1db3|paddypower|h2h|Besiktas JK": {
   "sport": "UEFA Europa League",
@@ -765,7 +765,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.61,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "d60e7fc0690e4dff121a086395e24de4|sport888|h2h|Miami Heat": {
   "sport": "NBA",
@@ -797,7 +797,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.68,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "0a9a518e657dd711c1688e735158b6ba|virginbet|h2h|Australia": {
   "sport": "Test Matches",
@@ -860,8 +860,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.56,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.7,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "9fc08b390a49c4434f7cf631a0bb88fb|betfred_uk|h2h|Crystal Palace": {
   "sport": "EPL",
@@ -892,8 +892,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.2,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.14,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "007dc2ff845c33e3e18f2bd2bc126304|grosvenor|h2h|Angers": {
   "sport": "Ligue 1 - France",
@@ -924,8 +924,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.78,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.8,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|betfred_uk|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -956,8 +956,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.1,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "c4647ca1201e6768501877267ca8251b|betway|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -988,8 +988,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.69,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.8,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "9fc08b390a49c4434f7cf631a0bb88fb|casumo|h2h|Crystal Palace": {
   "sport": "EPL",
@@ -1020,8 +1020,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.2,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.14,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "53f5fe7ed0ba0fbf6345c73270e4cd00|grosvenor|h2h|Lorient": {
   "sport": "Ligue 1 - France",
@@ -1052,8 +1052,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.58,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.51,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "2997b68cc93f62d8a1dee9f06bedbefd|betfair_sb_uk|h2h|Deportivo La Coru\u00f1a": {
   "sport": "La Liga - Spain",
@@ -1084,8 +1084,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.74,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.81,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "47cc511bb5ce50f715e3625ce5ef77ee|ladbrokes_uk|h2h|Brooklyn Nets": {
   "sport": "NBA",
@@ -1153,7 +1153,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.18,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "110e33c79c5ec8c0377702aff685f83b|livescorebet|h2h|Cleveland Cavaliers": {
   "sport": "NBA",
@@ -1221,7 +1221,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.43,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "01cb7a67c8ae71201ec27297455fc0e8|betfred_uk|h2h|Eintracht Frankfurt": {
   "sport": "Bundesliga - Germany",
@@ -1288,8 +1288,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.1,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.25,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e33d4772daf4acf3265b763829c9cb12|paddypower|h2h|Sri Lanka": {
   "sport": "International Twenty20",
@@ -1430,8 +1430,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.14,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|livescorebet|h2h|Peterborough United": {
   "sport": "League 1",
@@ -1498,8 +1498,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.07,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.1,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "789c3dd95a7fcef675ce5a40b07371a2|boylesports|h2h|Alverca": {
   "sport": "Primeira Liga - Portugal",
@@ -1566,8 +1566,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.62,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.61,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "6e370faecd2f841fc843ec49c641a9e3|casumo|h2h|Lincoln City": {
   "sport": "Championship",
@@ -1634,8 +1634,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.62,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.53,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "bda45e4adb060dba4f588c53b32f6492|casumo|h2h|Peterborough United": {
   "sport": "League 1",
@@ -1702,8 +1702,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.07,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.1,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "984691837d31fd0c59c088f377f55f75|betfair_sb_uk|h2h|CA Osasuna": {
   "sport": "La Liga - Spain",
@@ -1770,8 +1770,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 6.1,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 6.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "349c47668fdd909039a9408c14cad8bc|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -1838,8 +1838,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.85,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 2.84,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "21b26266f3d78af02eb672e606275d95|betway|h2h|Philadelphia Eagles": {
   "sport": "NFL",
@@ -1907,7 +1907,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.2,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e6d00eedd87d367e510314bd8cab8f6f|betway|h2h|Buffalo Bills": {
   "sport": "NFL",
@@ -1974,8 +1974,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.56,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 2.57,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "3aeff30de01b67a9e18738bc591c1b5e|boylesports|h2h|Afghanistan": {
   "sport": "Test Matches",
@@ -2116,8 +2116,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.84,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.85,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "eaf509fb37413b7d055cd394667792b3|betfair_sb_uk|h2h|FC Schalke 04": {
   "sport": "Bundesliga - Germany",
@@ -2184,8 +2184,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.28,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.64,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "221916b8b36706ec52aa655a64e5f1d2|grosvenor|h2h|Hamburger SV": {
   "sport": "Bundesliga - Germany",
@@ -2252,8 +2252,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.98,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.96,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "a8273db43fe2d76ba5342e37a10f9e93|grosvenor|h2h|AZ Alkmaar": {
   "sport": "Dutch Eredivisie",
@@ -2320,8 +2320,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.08,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.18,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "f5f058db1f3692fe9aff846162be3065|unibet_uk|h2h|Draw": {
   "sport": "Dutch Eredivisie",
@@ -2388,8 +2388,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.63,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.67,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "3f3cb74e560dfcc3e795b667ed9ebdef|skybet|h2h|Fenerbahce": {
   "sport": "UEFA Champions League",
@@ -2456,8 +2456,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.93,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.92,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "c88779b8088f864930fe423c5e0523ce|betfred_uk|h2h|AGF Aarhus": {
   "sport": "UEFA Europa Conference League",
@@ -2525,155 +2525,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.26,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
- },
- "28d2881b2a6fd12a3dd67402513f1793|casumo|h2h|Yi Zhou": {
-  "sport": "ATP Shanghai Masters",
-  "sport_key": "tennis_atp_shanghai_masters",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Yi Zhou v Lorenzo Musetti",
-  "start": "2026-10-09T04:00:00Z",
-  "selection": "Yi Zhou",
-  "book": "Casumo",
-  "odds": 5.3,
-  "fair": 4.85,
-  "edge": 9.28,
-  "books": 18,
-  "detected": "2026-10-08T06:06:35.983770+00:00",
-  "first_seen": "2026-10-08T06:06:35.983772+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 4.89,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
-  "close_attempts": 2,
-  "close": 5.0,
-  "close_books": 19,
-  "close_at": "2026-10-09T03:55:04.688861+00:00",
-  "close_minutes_before": 4.9,
-  "close_final": true
- },
- "ffe256b7d5ecc81af36b822714191ded|virginbet|h2h|Elise Mertens": {
-  "sport": "WTA China Open",
-  "sport_key": "tennis_wta_china_open",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Elise Mertens v Iga Swiatek",
-  "start": "2026-10-09T05:00:00Z",
-  "selection": "Elise Mertens",
-  "book": "Virgin Bet",
-  "odds": 4.7,
-  "fair": 4.56,
-  "edge": 3.07,
-  "books": 20,
-  "detected": "2026-10-08T06:06:35.983816+00:00",
-  "first_seen": "2026-10-08T06:06:35.983817+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 4.58,
-  "latest_seen": "2026-10-08T11:10:40.481893+00:00",
-  "close_attempts": 2,
-  "close": 4.6,
-  "close_books": 20,
-  "close_at": "2026-10-09T04:54:30.629251+00:00",
-  "close_minutes_before": 5.5,
-  "close_final": true
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "21b26266f3d78af02eb672e606275d95|williamhill|h2h|Philadelphia Eagles": {
   "sport": "NFL",
@@ -2741,155 +2593,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.2,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
- },
- "3fb63658405d468954f57745cd115118|grosvenor|h2h|Draw": {
-  "sport": "Bundesliga - Germany",
-  "sport_key": "soccer_germany_bundesliga",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Borussia Dortmund v Werder Bremen",
-  "start": "2026-10-09T18:30:00Z",
-  "selection": "Draw",
-  "book": "Grosvenor",
-  "odds": 6.0,
-  "fair": 5.83,
-  "edge": 2.92,
-  "books": 21,
-  "detected": "2026-10-08T11:10:40.481458+00:00",
-  "first_seen": "2026-10-08T11:10:40.481460+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 5.87,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 2,
-  "close": 5.65,
-  "close_books": 21,
-  "close_at": "2026-10-09T18:23:09.968902+00:00",
-  "close_minutes_before": 6.8,
-  "close_final": true
- },
- "78773ce49c803868efcc014fce7299c2|betfair_sb_uk|h2h|1. FC Kaiserslautern": {
-  "sport": "Bundesliga 2 - Germany",
-  "sport_key": "soccer_germany_bundesliga2",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "1. FC Heidenheim v 1. FC Kaiserslautern",
-  "start": "2026-10-09T16:30:00Z",
-  "selection": "1. FC Kaiserslautern",
-  "book": "Betfair Sportsbook",
-  "odds": 4.1,
-  "fair": 4.01,
-  "edge": 2.24,
-  "books": 19,
-  "detected": "2026-10-08T11:10:40.481482+00:00",
-  "first_seen": "2026-10-08T11:10:40.481484+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 4.01,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 3,
-  "close": 3.51,
-  "close_books": 19,
-  "close_at": "2026-10-09T16:25:42.998512+00:00",
-  "close_minutes_before": 4.3,
-  "close_final": true
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "0f2e7ff90b994f31d5cd48a9680943e1|betfair_sb_uk|h2h|Venezia": {
   "sport": "Serie A - Italy",
@@ -2956,8 +2660,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.77,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.64,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "ce94aca384a20f6af459366da6e1dd21|grosvenor|h2h|Cagliari": {
   "sport": "Serie A - Italy",
@@ -3025,7 +2729,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.56,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "883135d737b3dce356ccd04a9e6d2124|grosvenor|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
@@ -3092,8 +2796,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.36,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 4.39,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "4568ee08a32d34347100042cc7868839|grosvenor|h2h|FC Zwolle": {
   "sport": "Dutch Eredivisie",
@@ -3161,7 +2865,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.95,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "d1d3c9da05a1c64da18dd5e5ee3e820e|grosvenor|h2h|Groningen": {
   "sport": "Dutch Eredivisie",
@@ -3229,7 +2933,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.69,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e6e26f542ae70879e6846cf1721d2f08|betway|h2h|Sebastian Baez": {
   "sport": "ATP Shanghai Masters",
@@ -3453,368 +3157,6 @@
   "close_minutes_before": 6.7,
   "close_final": true
  },
- "1eb386b963ae5a82eba436c25e50cf24|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Columbus Blue Jackets v Pittsburgh Penguins",
-  "start": "2026-10-09T23:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.91,
-  "fair": 1.73,
-  "edge": 10.4,
-  "books": 8,
-  "detected": "2026-10-09T08:09:39.878769+00:00",
-  "first_seen": "2026-10-09T08:09:39.878770+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 1.83,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 2,
-  "close": 1.81,
-  "close_books": 6,
-  "close_at": "2026-10-09T22:52:30.464465+00:00",
-  "close_minutes_before": 17.5,
-  "close_final": true
- },
- "1eb386b963ae5a82eba436c25e50cf24|livescorebet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Columbus Blue Jackets v Pittsburgh Penguins",
-  "start": "2026-10-09T23:10:00Z",
-  "selection": "Over 6.5",
-  "book": "LiveScore Bet",
-  "odds": 2.25,
-  "fair": 2.05,
-  "edge": 9.76,
-  "books": 8,
-  "detected": "2026-10-09T08:09:39.878782+00:00",
-  "first_seen": "2026-10-09T08:09:39.878783+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 2.21,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 2,
-  "close": 2.24,
-  "close_books": 6,
-  "close_at": "2026-10-09T22:52:30.464465+00:00",
-  "close_minutes_before": 17.5,
-  "close_final": true
- },
- "48ce8ebb422982764994cd25c5f253c7|casumo|spreads|Winnipeg Jets -1.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "spreads",
-  "market": "Handicap",
-  "event": "Winnipeg Jets v Anaheim Ducks",
-  "start": "2026-10-10T00:10:00Z",
-  "selection": "Winnipeg Jets -1.5",
-  "book": "Casumo",
-  "odds": 3.2,
-  "fair": 3.03,
-  "edge": 5.61,
-  "books": 5,
-  "detected": "2026-10-09T08:09:39.878796+00:00",
-  "first_seen": "2026-10-09T08:09:39.878797+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "insufficient_books",
-  "latest_fair": 3.07,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 2,
-  "close_checked_at": "2026-10-09T23:50:42.411659+00:00"
- },
- "30e778f30fcb48f94af24793f5bd201a|casumo|spreads|Detroit Red Wings -1.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "spreads",
-  "market": "Handicap",
-  "event": "Detroit Red Wings v Seattle Kraken",
-  "start": "2026-10-09T23:10:00Z",
-  "selection": "Detroit Red Wings -1.5",
-  "book": "Casumo",
-  "odds": 2.88,
-  "fair": 2.75,
-  "edge": 4.73,
-  "books": 5,
-  "detected": "2026-10-09T08:09:39.878808+00:00",
-  "first_seen": "2026-10-09T08:09:39.878809+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "insufficient_books",
-  "latest_fair": 2.75,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
-  "close_attempts": 2,
-  "close_checked_at": "2026-10-09T22:52:30.464465+00:00"
- },
- "48ce8ebb422982764994cd25c5f253c7|williamhill|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Winnipeg Jets v Anaheim Ducks",
-  "start": "2026-10-10T00:10:00Z",
-  "selection": "Under 6.5",
-  "book": "William Hill",
-  "odds": 1.8,
-  "fair": 1.73,
-  "edge": 4.05,
-  "books": 6,
-  "detected": "2026-10-09T08:09:39.878820+00:00",
-  "first_seen": "2026-10-09T08:09:39.878821+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-ddc173fb",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 5,
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "soccer_epl",
-    "soccer_efl_champ",
-    "soccer_england_league1",
-    "soccer_england_efl_cup",
-    "soccer_fa_cup",
-    "soccer_uefa_champs_league",
-    "soccer_uefa_europa",
-    "soccer_spain_la_liga",
-    "soccer_italy_serie_a",
-    "soccer_germany_bundesliga",
-    "soccer_france_ligue_one",
-    "soccer_netherlands_eredivisie",
-    "soccer_portugal_primeira_liga",
-    "soccer_spl",
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "final",
-  "latest_fair": 1.73,
-  "latest_seen": "2026-10-09T08:09:39.879063+00:00",
-  "close_attempts": 2,
-  "close": 1.73,
-  "close_books": 6,
-  "close_at": "2026-10-09T23:50:42.411659+00:00",
-  "close_minutes_before": 19.3,
-  "close_final": true
- },
  "a46c19cc6ee20067da4e68356f247bfb|grosvenor|h2h|Draw": {
   "sport": "Dutch Eredivisie",
   "sport_key": "soccer_netherlands_eredivisie",
@@ -3881,7 +3223,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "49d62e8cae430b679acc50c2e26f391e|williamhill|h2h|Fortuna Sittard": {
   "sport": "Dutch Eredivisie",
@@ -3948,8 +3290,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.8,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.81,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "1425f07b2aa42fe7c1ba0cb919a1a283|coral|h2h|Draw": {
   "sport": "UEFA Europa Conference League",
@@ -4016,8 +3358,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.69,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.65,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "53f263949a01c4a81c3836741dc47fcb|betway|h2h|Jan-Lennard Struff": {
   "sport": "ATP Shanghai Masters",
@@ -4233,7 +3575,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.81,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e6003c91bfcfdd647a80a0852a7460c8|paddypower|h2h|Quentin Halys": {
   "sport": "ATP Shanghai Masters",
@@ -4300,8 +3642,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.58,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 5.91,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  },
  "e6e26f542ae70879e6846cf1721d2f08|skybet|h2h|Sebastian Baez": {
   "sport": "ATP Shanghai Masters",
@@ -4368,7 +3710,1095 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.43,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_fair": 3.79,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "35d3bfa7ed91441f9c3a617d9a61b31e|livescorebet|h2h|West Indies": {
+  "sport": "International Twenty20",
+  "sport_key": "cricket_international_t20",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "India v West Indies",
+  "start": "2026-10-11T13:30:00Z",
+  "selection": "West Indies",
+  "book": "LiveScore Bet",
+  "odds": 3.9,
+  "fair": 3.78,
+  "edge": 3.17,
+  "books": 10,
+  "detected": "2026-10-10T06:05:03.751092+00:00",
+  "first_seen": "2026-10-10T06:05:03.751095+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.84,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "525f2399515c855c7a1ae5b984deeb6a|casumo|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Colorado Avalanche v Toronto Maple Leafs",
+  "start": "2026-10-10T23:10:00Z",
+  "selection": "Over 6.5",
+  "book": "Casumo",
+  "odds": 2.15,
+  "fair": 2.0,
+  "edge": 7.5,
+  "books": 8,
+  "detected": "2026-10-10T06:05:03.751124+00:00",
+  "first_seen": "2026-10-10T06:05:03.751127+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.12,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "525f2399515c855c7a1ae5b984deeb6a|ladbrokes_uk|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Colorado Avalanche v Toronto Maple Leafs",
+  "start": "2026-10-10T23:10:00Z",
+  "selection": "Under 6.5",
+  "book": "Ladbrokes",
+  "odds": 1.91,
+  "fair": 1.79,
+  "edge": 6.7,
+  "books": 8,
+  "detected": "2026-10-10T06:05:03.751152+00:00",
+  "first_seen": "2026-10-10T06:05:03.751154+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.89,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "08385500bdc8f9cbcab43927a7d21671|casumo|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "San Jose Sharks v Edmonton Oilers",
+  "start": "2026-10-10T20:10:00Z",
+  "selection": "Over 6.5",
+  "book": "Casumo",
+  "odds": 2.12,
+  "fair": 2.0,
+  "edge": 6.0,
+  "books": 8,
+  "detected": "2026-10-10T06:05:03.751180+00:00",
+  "first_seen": "2026-10-10T06:05:03.751182+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.11,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "08385500bdc8f9cbcab43927a7d21671|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "San Jose Sharks v Edmonton Oilers",
+  "start": "2026-10-10T20:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.91,
+  "fair": 1.81,
+  "edge": 5.52,
+  "books": 8,
+  "detected": "2026-10-10T06:05:03.751205+00:00",
+  "first_seen": "2026-10-10T06:05:03.751208+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.9,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "5ea535b759f889f989e5c6ed8f046bf7|casumo|spreads|St Louis Blues -1.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "spreads",
+  "market": "Handicap",
+  "event": "St Louis Blues v Columbus Blue Jackets",
+  "start": "2026-10-10T23:10:00Z",
+  "selection": "St Louis Blues -1.5",
+  "book": "Casumo",
+  "odds": 3.0,
+  "fair": 2.87,
+  "edge": 4.53,
+  "books": 5,
+  "detected": "2026-10-10T06:05:03.751230+00:00",
+  "first_seen": "2026-10-10T06:05:03.751232+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.91,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "7ff1567200cc7c7c7d901f32f81ad4d4|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Calgary Flames v Anaheim Ducks",
+  "start": "2026-10-11T02:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.8,
+  "fair": 1.73,
+  "edge": 4.05,
+  "books": 6,
+  "detected": "2026-10-10T06:05:03.751260+00:00",
+  "first_seen": "2026-10-10T06:05:03.751283+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.73,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "1e0601b21b573df36bc79e769dcd5e4b|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Pittsburgh Penguins v Dallas Stars",
+  "start": "2026-10-10T23:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.8,
+  "fair": 1.76,
+  "edge": 2.27,
+  "books": 6,
+  "detected": "2026-10-10T06:05:03.751315+00:00",
+  "first_seen": "2026-10-10T06:05:03.751317+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.76,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "46565a1cbc6f2e15ba0b2223a5a1fde8|skybet|h2h|Draw": {
+  "sport": "League 1",
+  "sport_key": "soccer_england_league1",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Stockport County FC v Barnsley",
+  "start": "2026-10-10T14:00:00Z",
+  "selection": "Draw",
+  "book": "Sky Bet",
+  "odds": 5.5,
+  "fair": 5.34,
+  "edge": 3.0,
+  "books": 21,
+  "detected": "2026-10-10T06:05:03.751342+00:00",
+  "first_seen": "2026-10-10T06:05:03.751344+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.34,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "f03c08c0ae5fd66c2d2df2053115bb94|unibet_uk|h2h|Draw": {
+  "sport": "Bundesliga - Germany",
+  "sport_key": "soccer_germany_bundesliga",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "TSG Hoffenheim v Hamburger SV",
+  "start": "2026-10-10T13:30:00Z",
+  "selection": "Draw",
+  "book": "Unibet (UK)",
+  "odds": 5.5,
+  "fair": 5.34,
+  "edge": 3.0,
+  "books": 21,
+  "detected": "2026-10-10T06:05:03.751443+00:00",
+  "first_seen": "2026-10-10T06:05:03.751445+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.34,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "946716d7e5e52822f08be8cb95193d9d|betfair_sb_uk|h2h|Lecce": {
+  "sport": "Serie A - Italy",
+  "sport_key": "soccer_italy_serie_a",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Lecce v Bologna",
+  "start": "2026-10-11T13:00:00Z",
+  "selection": "Lecce",
+  "book": "Betfair Sportsbook",
+  "odds": 4.75,
+  "fair": 4.39,
+  "edge": 8.2,
+  "books": 21,
+  "detected": "2026-10-10T06:05:03.751467+00:00",
+  "first_seen": "2026-10-10T06:05:03.751469+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.43,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "53fe5171e2c7a834388133b06b571727|skybet|h2h|Draw": {
+  "sport": "Premiership - Scotland",
+  "sport_key": "soccer_spl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Hearts v St Mirren",
+  "start": "2026-10-10T14:00:00Z",
+  "selection": "Draw",
+  "book": "Sky Bet",
+  "odds": 5.5,
+  "fair": 5.07,
+  "edge": 8.48,
+  "books": 20,
+  "detected": "2026-10-10T06:05:03.751707+00:00",
+  "first_seen": "2026-10-10T06:05:03.751709+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.07,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "09e41b63d1d59bd4d971c54ffce154d3|grosvenor|h2h|Napoli": {
+  "sport": "UEFA Champions League",
+  "sport_key": "soccer_uefa_champs_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Villarreal v Napoli",
+  "start": "2026-10-13T19:00:00Z",
+  "selection": "Napoli",
+  "book": "Grosvenor",
+  "odds": 3.3,
+  "fair": 3.23,
+  "edge": 2.17,
+  "books": 20,
+  "detected": "2026-10-10T06:05:03.751756+00:00",
+  "first_seen": "2026-10-10T06:05:03.751758+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.23,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "3ee605005bdc62da54d42a0ec3e1a930|casumo|h2h|Anderlecht": {
+  "sport": "UEFA Europa League",
+  "sport_key": "soccer_uefa_europa_league",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Dinamo Zagreb v Anderlecht",
+  "start": "2026-10-15T19:00:00Z",
+  "selection": "Anderlecht",
+  "book": "Casumo",
+  "odds": 4.0,
+  "fair": 3.83,
+  "edge": 4.44,
+  "books": 19,
+  "detected": "2026-10-10T06:05:03.751829+00:00",
+  "first_seen": "2026-10-10T06:05:03.751831+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.85,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "ed0f82f195d0edeb15e0672bf51496a0|virginbet|h2h|Rei Sakamoto": {
+  "sport": "ATP Shanghai Masters",
+  "sport_key": "tennis_atp_shanghai_masters",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Alex de Minaur v Rei Sakamoto",
+  "start": "2026-10-11T04:00:00Z",
+  "selection": "Rei Sakamoto",
+  "book": "Virgin Bet",
+  "odds": 3.3,
+  "fair": 3.15,
+  "edge": 4.76,
+  "books": 17,
+  "detected": "2026-10-10T06:05:03.751852+00:00",
+  "first_seen": "2026-10-10T06:05:03.751854+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.15,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
+ },
+ "e6003c91bfcfdd647a80a0852a7460c8|leovegas|h2h|Quentin Halys": {
+  "sport": "ATP Shanghai Masters",
+  "sport_key": "tennis_atp_shanghai_masters",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Alexander Zverev v Quentin Halys",
+  "start": "2026-10-11T04:00:00Z",
+  "selection": "Quentin Halys",
+  "book": "LeoVegas",
+  "odds": 6.0,
+  "fair": 5.85,
+  "edge": 2.56,
+  "books": 19,
+  "detected": "2026-10-10T06:05:03.751876+00:00",
+  "first_seen": "2026-10-10T06:05:03.751878+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.91,
+  "latest_seen": "2026-10-10T06:05:03.751897+00:00"
  }
 }

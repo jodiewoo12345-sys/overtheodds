@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-09T11:10:23.424354+00:00",
+ "updated": "2026-10-10T06:05:03.751985+00:00",
  "scanned": {
-  "events": 346,
-  "selections": 1049,
-  "sports": 24,
+  "events": 354,
+  "selections": 1090,
+  "sports": 23,
   "by_market": {
-   "h2h": 837,
-   "totals": 192,
-   "spreads": 20
+   "h2h": 842,
+   "totals": 210,
+   "spreads": 38
   },
   "stale_dropped": 0
  },
@@ -61,19 +61,6 @@
  },
  "bets": [
   {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Jacksonville Jaguars v Philadelphia Eagles",
-   "start": "2026-10-11T13:30:00Z",
-   "selection": "Philadelphia Eagles",
-   "book": "Betway",
-   "odds": 4.5,
-   "fair": 4.2,
-   "books": 15,
-   "detected": "2026-10-09T11:10:21.209391+00:00",
-   "link": "https://betway.com/en/sports/evt/17312961"
-  },
-  {
    "sport": "NBA",
    "market": "Match odds",
    "event": "Washington Wizards v Milwaukee Bucks",
@@ -83,7 +70,7 @@
    "odds": 2.88,
    "fair": 2.76,
    "books": 12,
-   "detected": "2026-10-09T11:10:21.381296+00:00",
+   "detected": "2026-10-10T06:05:01.125528+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
    "also": [
     {
@@ -102,58 +89,187 @@
    "odds": 2.48,
    "fair": 2.43,
    "books": 9,
-   "detected": "2026-10-09T11:10:21.383923+00:00",
+   "detected": "2026-10-10T06:05:01.128217+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/philadelphia-76ers-cleveland-cavaliers/SBTE_2_1028736318"
   },
   {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Columbus Blue Jackets v Pittsburgh Penguins",
-   "start": "2026-10-09T23:10:00Z",
-   "selection": "Under 6.5",
-   "book": "William Hill",
-   "odds": 1.91,
-   "fair": 1.73,
-   "books": 8,
-   "detected": "2026-10-09T11:10:21.758193+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500342/pittsburgh-penguins-columbus-blue-jackets",
+   "sport": "International Twenty20",
+   "market": "Match odds",
+   "event": "India v West Indies",
+   "start": "2026-10-11T13:30:00Z",
+   "selection": "West Indies",
+   "book": "LiveScore Bet",
+   "odds": 3.9,
+   "fair": 3.78,
+   "books": 10,
+   "detected": "2026-10-10T06:05:01.358540+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/cricket/international-twenty20/india-west-indies/SBTE_2_1027588068",
    "also": [
     {
-     "book": "Coral",
-     "odds": 1.8
+     "book": "Virgin Bet",
+     "odds": 3.9
     },
     {
-     "book": "Ladbrokes",
-     "odds": 1.8
+     "book": "Grosvenor",
+     "odds": 3.9
+    },
+    {
+     "book": "Casumo",
+     "odds": 3.9
     }
    ]
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Columbus Blue Jackets v Pittsburgh Penguins",
-   "start": "2026-10-09T23:10:00Z",
+   "event": "Colorado Avalanche v Toronto Maple Leafs",
+   "start": "2026-10-10T23:10:00Z",
    "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.25,
-   "fair": 2.06,
+   "book": "Casumo",
+   "odds": 2.15,
+   "fair": 2.0,
    "books": 8,
-   "detected": "2026-10-09T11:10:21.758140+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/columbus-blue-jackets-pittsburgh-penguins/SBTE_2_1028409944",
+   "detected": "2026-10-10T06:05:01.650171+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409956",
    "also": [
     {
-     "book": "Casumo",
-     "odds": 2.25
+     "book": "Grosvenor",
+     "odds": 2.15
     },
     {
      "book": "Virgin Bet",
-     "odds": 2.25
+     "odds": 2.15
     },
     {
-     "book": "Grosvenor",
-     "odds": 2.25
+     "book": "LiveScore Bet",
+     "odds": 2.15
     }
    ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Colorado Avalanche v Toronto Maple Leafs",
+   "start": "2026-10-10T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "Ladbrokes",
+   "odds": 1.91,
+   "fair": 1.79,
+   "books": 8,
+   "detected": "2026-10-10T06:05:01.650212+00:00",
+   "link": "https://sports.ladbrokes.com/event/ice-hockey/usa/nhl/colorado-avalanche-v-toronto-maple-leafs/259068710/main-markets",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 1.91
+    },
+    {
+     "book": "William Hill",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "San Jose Sharks v Edmonton Oilers",
+   "start": "2026-10-10T20:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Casumo",
+   "odds": 2.12,
+   "fair": 2.0,
+   "books": 8,
+   "detected": "2026-10-10T06:05:01.649153+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409906",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 2.12
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.12
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 2.12
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "San Jose Sharks v Edmonton Oilers",
+   "start": "2026-10-10T20:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.81,
+   "books": 8,
+   "detected": "2026-10-10T06:05:01.649200+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500337/edmonton-oilers-san-jose-sharks",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 1.91
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Handicap",
+   "event": "St Louis Blues v Columbus Blue Jackets",
+   "start": "2026-10-10T23:10:00Z",
+   "selection": "St Louis Blues -1.5",
+   "book": "Casumo",
+   "odds": 3.0,
+   "fair": 2.87,
+   "books": 5,
+   "detected": "2026-10-10T06:05:01.650477+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409958"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Calgary Flames v Anaheim Ducks",
+   "start": "2026-10-11T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.73,
+   "books": 6,
+   "detected": "2026-10-10T06:05:01.651881+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40501583/anaheim-ducks-calgary-flames"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Pittsburgh Penguins v Dallas Stars",
+   "start": "2026-10-10T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.76,
+   "books": 6,
+   "detected": "2026-10-10T06:05:01.650913+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500334/dallas-stars-pittsburgh-penguins"
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Stockport County FC v Barnsley",
+   "start": "2026-10-10T14:00:00Z",
+   "selection": "Draw",
+   "book": "Sky Bet",
+   "odds": 5.5,
+   "fair": 5.34,
+   "books": 21,
+   "detected": "2026-10-10T06:05:01.973777+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.386553112"
   },
   {
    "sport": "Ligue 1 - France",
@@ -165,7 +281,7 @@
    "odds": 4.0,
    "fair": 3.86,
    "books": 15,
-   "detected": "2026-10-09T11:10:22.296714+00:00",
+   "detected": "2026-10-10T06:05:02.220721+00:00",
    "link": "https://www.betfred.com/sports/football/event/36978480"
   },
   {
@@ -176,9 +292,9 @@
    "selection": "Union Berlin",
    "book": "Grosvenor",
    "odds": 5.2,
-   "fair": 4.82,
-   "books": 15,
-   "detected": "2026-10-09T11:10:22.388890+00:00",
+   "fair": 4.85,
+   "books": 16,
+   "detected": "2026-10-10T06:05:02.412120+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028230632",
    "also": [
     {
@@ -199,23 +315,46 @@
    "selection": "Hamburger SV",
    "book": "Grosvenor",
    "odds": 4.1,
-   "fair": 3.97,
+   "fair": 3.95,
    "books": 19,
-   "detected": "2026-10-09T11:10:22.389404+00:00",
+   "detected": "2026-10-10T06:05:02.412673+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028230635"
   },
   {
    "sport": "Bundesliga - Germany",
    "market": "Match odds",
-   "event": "Borussia Dortmund v Werder Bremen",
-   "start": "2026-10-09T18:30:00Z",
+   "event": "TSG Hoffenheim v Hamburger SV",
+   "start": "2026-10-10T13:30:00Z",
    "selection": "Draw",
-   "book": "Grosvenor",
-   "odds": 6.0,
-   "fair": 5.86,
+   "book": "Unibet (UK)",
+   "odds": 5.5,
+   "fair": 5.34,
    "books": 21,
-   "detected": "2026-10-09T11:10:22.385327+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1028230297"
+   "detected": "2026-10-10T06:05:02.409837+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/football/germany/bundesliga/hoffenheim-vs-hamburger/65176a43a254c2856e051d9e8911c519"
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Lecce v Bologna",
+   "start": "2026-10-11T13:00:00Z",
+   "selection": "Lecce",
+   "book": "Betfair Sportsbook",
+   "odds": 4.75,
+   "fair": 4.39,
+   "books": 21,
+   "detected": "2026-10-10T06:05:02.663737+00:00",
+   "link": "https://www.betfair.com/betting/football/italian-serie-a/lecce-v-bologna/e-36099832",
+   "also": [
+    {
+     "book": "Paddy Power",
+     "odds": 4.5
+    },
+    {
+     "book": "Sky Bet",
+     "odds": 4.5
+    }
+   ]
   },
   {
    "sport": "Serie A - Italy",
@@ -225,9 +364,9 @@
    "selection": "Venezia",
    "book": "Betfair Sportsbook",
    "odds": 6.0,
-   "fair": 5.71,
+   "fair": 5.64,
    "books": 21,
-   "detected": "2026-10-09T11:10:22.577062+00:00",
+   "detected": "2026-10-10T06:05:02.665196+00:00",
    "link": "https://www.betfair.com/betting/football/italian-serie-a/atalanta-v-venezia/e-36099821"
   },
   {
@@ -238,23 +377,10 @@
    "selection": "Fiorentina",
    "book": "Grosvenor",
    "odds": 3.65,
-   "fair": 3.53,
+   "fair": 3.54,
    "books": 15,
-   "detected": "2026-10-09T11:10:22.579022+00:00",
+   "detected": "2026-10-10T06:05:02.667067+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027911668"
-  },
-  {
-   "sport": "Serie A - Italy",
-   "market": "Match odds",
-   "event": "Lazio v Monza",
-   "start": "2026-10-11T13:00:00Z",
-   "selection": "Monza",
-   "book": "Betfair Sportsbook",
-   "odds": 6.0,
-   "fair": 5.81,
-   "books": 21,
-   "detected": "2026-10-09T11:10:22.575972+00:00",
-   "link": "https://www.betfair.com/betting/football/italian-serie-a/lazio-v-ac-monza/e-36099823"
   },
   {
    "sport": "Serie A - Italy",
@@ -266,7 +392,7 @@
    "odds": 3.6,
    "fair": 3.52,
    "books": 15,
-   "detected": "2026-10-09T11:10:22.579678+00:00",
+   "detected": "2026-10-10T06:05:02.667738+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027911656"
   },
   {
@@ -279,40 +405,21 @@
    "odds": 5.8,
    "fair": 5.53,
    "books": 12,
-   "detected": "2026-10-09T11:10:22.657864+00:00",
+   "detected": "2026-10-10T06:05:02.780097+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027976584"
   },
   {
    "sport": "Dutch Eredivisie",
    "market": "Match odds",
-   "event": "FC Twente Enschede v FC Utrecht",
-   "start": "2026-10-18T18:00:00Z",
-   "selection": "Draw",
-   "book": "Unibet (UK)",
-   "odds": 5.75,
-   "fair": 5.51,
-   "books": 12,
-   "detected": "2026-10-09T11:10:22.658215+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/football/netherlands/eredivisie/twente-vs-utrecht/69cd4b406d3e8d9c57e2b479983aade9"
-  },
-  {
-   "sport": "Dutch Eredivisie",
-   "market": "Match odds",
-   "event": "NEC Nijmegen v Fortuna Sittard",
-   "start": "2026-10-18T18:00:00Z",
-   "selection": "Fortuna Sittard",
-   "book": "William Hill",
-   "odds": 6.0,
-   "fair": 5.79,
-   "books": 12,
-   "detected": "2026-10-09T11:10:22.658332+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/football/OB_EV41261297/nec-nijmegen-vs-fortuna-sittard",
-   "also": [
-    {
-     "book": "888sport",
-     "odds": 6.0
-    }
-   ]
+   "event": "Go Ahead Eagles v Sparta Rotterdam",
+   "start": "2026-10-10T14:30:00Z",
+   "selection": "Sparta Rotterdam",
+   "book": "Grosvenor",
+   "odds": 4.6,
+   "fair": 4.39,
+   "books": 20,
+   "detected": "2026-10-10T06:05:02.776618+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027976514"
   },
   {
    "sport": "Dutch Eredivisie",
@@ -321,10 +428,10 @@
    "start": "2026-10-10T16:45:00Z",
    "selection": "AZ Alkmaar",
    "book": "Grosvenor",
-   "odds": 4.2,
-   "fair": 4.06,
-   "books": 19,
-   "detected": "2026-10-09T11:10:22.654631+00:00",
+   "odds": 4.35,
+   "fair": 4.18,
+   "books": 20,
+   "detected": "2026-10-10T06:05:02.776899+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027976512"
   },
   {
@@ -337,34 +444,79 @@
    "odds": 3.05,
    "fair": 2.95,
    "books": 12,
-   "detected": "2026-10-09T11:10:22.657390+00:00",
+   "detected": "2026-10-10T06:05:02.779851+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027976536"
   },
   {
    "sport": "Dutch Eredivisie",
    "market": "Match odds",
-   "event": "Excelsior v Groningen",
-   "start": "2026-10-11T14:45:00Z",
-   "selection": "Groningen",
-   "book": "Grosvenor",
-   "odds": 2.75,
-   "fair": 2.69,
-   "books": 19,
-   "detected": "2026-10-09T11:10:22.656469+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1027976552"
+   "event": "FC Twente Enschede v FC Utrecht",
+   "start": "2026-10-18T18:00:00Z",
+   "selection": "Draw",
+   "book": "Unibet (UK)",
+   "odds": 5.75,
+   "fair": 5.6,
+   "books": 12,
+   "detected": "2026-10-10T06:05:02.780643+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/football/netherlands/eredivisie/twente-vs-utrecht/69cd4b406d3e8d9c57e2b479983aade9"
   },
   {
    "sport": "La Liga - Spain",
    "market": "Match odds",
-   "event": "Real Sociedad v Deportivo La Coru\u00f1a",
-   "start": "2026-10-11T14:15:00Z",
-   "selection": "Deportivo La Coru\u00f1a",
-   "book": "Betfair Sportsbook",
-   "odds": 6.0,
-   "fair": 5.74,
+   "event": "Getafe v Rayo Vallecano",
+   "start": "2026-10-19T19:00:00Z",
+   "selection": "Rayo Vallecano",
+   "book": "Grosvenor",
+   "odds": 2.8,
+   "fair": 2.74,
+   "books": 12,
+   "detected": "2026-10-10T06:05:03.008686+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1028209209"
+  },
+  {
+   "sport": "Premiership - Scotland",
+   "market": "Match odds",
+   "event": "Hearts v St Mirren",
+   "start": "2026-10-10T14:00:00Z",
+   "selection": "Draw",
+   "book": "Sky Bet",
+   "odds": 5.5,
+   "fair": 5.07,
+   "books": 20,
+   "detected": "2026-10-10T06:05:03.104607+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.388305426"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Aston Villa v Fenerbahce",
+   "start": "2026-10-14T19:00:00Z",
+   "selection": "Fenerbahce",
+   "book": "Sky Bet",
+   "odds": 5.0,
+   "fair": 4.89,
    "books": 19,
-   "detected": "2026-10-09T11:10:22.831762+00:00",
-   "link": "https://www.betfair.com/betting/football/spanish-la-liga/real-sociedad-v-deportivo/e-36100483"
+   "detected": "2026-10-10T06:05:03.282128+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=46726&bsmId=930.383574929",
+   "also": [
+    {
+     "book": "Paddy Power",
+     "odds": 5.0
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Villarreal v Napoli",
+   "start": "2026-10-13T19:00:00Z",
+   "selection": "Napoli",
+   "book": "Grosvenor",
+   "odds": 3.3,
+   "fair": 3.23,
+   "books": 20,
+   "detected": "2026-10-10T06:05:03.279851+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1029087577"
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -376,7 +528,7 @@
    "odds": 5.5,
    "fair": 5.26,
    "books": 15,
-   "detected": "2026-10-09T11:10:23.105011+00:00",
+   "detected": "2026-10-10T06:05:03.399445+00:00",
    "link": "https://www.betfred.com/sports/football/event/36743627"
   },
   {
@@ -389,7 +541,7 @@
    "odds": 5.75,
    "fair": 5.56,
    "books": 15,
-   "detected": "2026-10-09T11:10:23.106518+00:00",
+   "detected": "2026-10-10T06:05:03.400920+00:00",
    "link": "https://sports.ladbrokes.com/event/football/uefa-club-competitions/uefa-conference-league/panathinaikos-fc-v-fk-borac-banja-luka/258389924/main-markets",
    "also": [
     {
@@ -399,40 +551,63 @@
    ]
   },
   {
+   "sport": "UEFA Europa League",
+   "market": "Match odds",
+   "event": "Dinamo Zagreb v Anderlecht",
+   "start": "2026-10-15T19:00:00Z",
+   "selection": "Anderlecht",
+   "book": "Casumo",
+   "odds": 4.0,
+   "fair": 3.83,
+   "books": 19,
+   "detected": "2026-10-10T06:05:03.530430+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028946366"
+  },
+  {
    "sport": "ATP Shanghai Masters",
    "market": "Match odds",
-   "event": "Alexander Zverev v Quentin Halys",
+   "event": "Alex de Minaur v Rei Sakamoto",
    "start": "2026-10-11T04:00:00Z",
-   "selection": "Quentin Halys",
-   "book": "Paddy Power",
-   "odds": 6.0,
-   "fair": 5.36,
-   "books": 10,
-   "detected": "2026-10-09T11:10:23.343829+00:00",
-   "link": "https://www.paddypower.com/tennis/atp-shanghai-2026/a-zverev-v-halys-36170856",
+   "selection": "Rei Sakamoto",
+   "book": "Virgin Bet",
+   "odds": 3.3,
+   "fair": 3.15,
+   "books": 17,
+   "detected": "2026-10-10T06:05:03.657949+00:00",
+   "link": "https://www.virginbet.com/sports/tennis/atp-shanghai/alex-de-minaur-rei-sakamoto/SBTE_2_1029430855",
    "also": [
     {
-     "book": "Sky Bet",
-     "odds": 6.0
+     "book": "Casumo",
+     "odds": 3.3
     },
     {
-     "book": "Unibet (UK)",
-     "odds": 5.5
+     "book": "LiveScore Bet",
+     "odds": 3.3
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 3.3
     }
    ]
   },
   {
    "sport": "ATP Shanghai Masters",
    "market": "Match odds",
-   "event": "Sebastian Baez v Valentin Vacherot",
-   "start": "2026-10-10T11:10:00Z",
-   "selection": "Sebastian Baez",
-   "book": "Sky Bet",
-   "odds": 3.5,
-   "fair": 3.43,
+   "event": "Alexander Zverev v Quentin Halys",
+   "start": "2026-10-11T04:00:00Z",
+   "selection": "Quentin Halys",
+   "book": "LeoVegas",
+   "odds": 6.0,
+   "fair": 5.85,
    "books": 19,
-   "detected": "2026-10-09T11:10:23.343422+00:00",
-   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=11285506&bsmId=930.388881757"
+   "detected": "2026-10-10T06:05:03.658518+00:00",
+   "link": "https://leovegas.co.uk/betting#/events/2450761",
+   "also": [
+    {
+     "book": "BoyleSports",
+     "odds": 6.0
+    }
+   ]
   }
  ],
  "results": [
@@ -1756,6 +1931,240 @@
    "stake": 10.0,
    "profit": -10.0,
    "won": false
+  },
+  {
+   "sport": "ATP Shanghai Masters",
+   "league": "tennis_atp_shanghai_masters",
+   "event": "Yi Zhou v Lorenzo Musetti",
+   "market": "Match odds",
+   "date": "2026-10-09",
+   "detected": "2026-10-08T06:06:35.983770+00:00",
+   "selection": "Yi Zhou",
+   "book": "Casumo",
+   "odds": 5.3,
+   "fair": 4.85,
+   "edge": 9.28,
+   "books": 18,
+   "close": 5.0,
+   "close_books": 19,
+   "close_minutes": 4.9,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 43.0,
+   "won": true
+  },
+  {
+   "sport": "WTA China Open",
+   "league": "tennis_wta_china_open",
+   "event": "Elise Mertens v Iga Swiatek",
+   "market": "Match odds",
+   "date": "2026-10-09",
+   "detected": "2026-10-08T06:06:35.983816+00:00",
+   "selection": "Elise Mertens",
+   "book": "Virgin Bet",
+   "odds": 4.7,
+   "fair": 4.56,
+   "edge": 3.07,
+   "books": 20,
+   "close": 4.6,
+   "close_books": 20,
+   "close_minutes": 5.5,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 37.0,
+   "won": true
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "league": "soccer_germany_bundesliga",
+   "event": "Borussia Dortmund v Werder Bremen",
+   "market": "Match odds",
+   "date": "2026-10-09",
+   "detected": "2026-10-08T11:10:40.481458+00:00",
+   "selection": "Draw",
+   "book": "Grosvenor",
+   "odds": 6.0,
+   "fair": 5.83,
+   "edge": 2.92,
+   "books": 21,
+   "close": 5.65,
+   "close_books": 21,
+   "close_minutes": 6.8,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 50.0,
+   "won": true
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "league": "soccer_germany_bundesliga2",
+   "event": "1. FC Heidenheim v 1. FC Kaiserslautern",
+   "market": "Match odds",
+   "date": "2026-10-09",
+   "detected": "2026-10-08T11:10:40.481482+00:00",
+   "selection": "1. FC Kaiserslautern",
+   "book": "Betfair Sportsbook",
+   "odds": 4.1,
+   "fair": 4.01,
+   "edge": 2.24,
+   "books": 19,
+   "close": 3.51,
+   "close_books": 19,
+   "close_minutes": 4.3,
+   "close_status": "final",
+   "close_attempts": 3,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Columbus Blue Jackets v Pittsburgh Penguins",
+   "market": "Totals",
+   "date": "2026-10-09",
+   "detected": "2026-10-09T08:09:39.878769+00:00",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.73,
+   "edge": 10.4,
+   "books": 8,
+   "close": 1.81,
+   "close_books": 6,
+   "close_minutes": 17.5,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 9.1,
+   "won": true
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Columbus Blue Jackets v Pittsburgh Penguins",
+   "market": "Totals",
+   "date": "2026-10-09",
+   "detected": "2026-10-09T08:09:39.878782+00:00",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.25,
+   "fair": 2.05,
+   "edge": 9.76,
+   "books": 8,
+   "close": 2.24,
+   "close_books": 6,
+   "close_minutes": 17.5,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Winnipeg Jets v Anaheim Ducks",
+   "market": "Handicap",
+   "date": "2026-10-10",
+   "detected": "2026-10-09T08:09:39.878796+00:00",
+   "selection": "Winnipeg Jets -1.5",
+   "book": "Casumo",
+   "odds": 3.2,
+   "fair": 3.03,
+   "edge": 5.61,
+   "books": 5,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "insufficient_books",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Detroit Red Wings v Seattle Kraken",
+   "market": "Handicap",
+   "date": "2026-10-09",
+   "detected": "2026-10-09T08:09:39.878808+00:00",
+   "selection": "Detroit Red Wings -1.5",
+   "book": "Casumo",
+   "odds": 2.88,
+   "fair": 2.75,
+   "edge": 4.73,
+   "books": 5,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "insufficient_books",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Winnipeg Jets v Anaheim Ducks",
+   "market": "Totals",
+   "date": "2026-10-10",
+   "detected": "2026-10-09T08:09:39.878820+00:00",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.73,
+   "edge": 4.05,
+   "books": 6,
+   "close": 1.73,
+   "close_books": 6,
+   "close_minutes": 19.3,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 8.0,
+   "won": true
   }
  ]
 }
