@@ -3718,11 +3718,11 @@
   "close_status": "final",
   "latest_fair": 3.79,
   "latest_seen": "2026-10-10T06:05:03.751897+00:00",
-  "close_attempts": 2,
-  "close": 3.7,
+  "close_attempts": 3,
+  "close": 3.72,
   "close_books": 20,
-  "close_at": "2026-10-10T10:44:15.379227+00:00",
-  "close_minutes_before": 25.7,
+  "close_at": "2026-10-10T10:58:12.829970+00:00",
+  "close_minutes_before": 11.8,
   "close_final": true
  },
  "35d3bfa7ed91441f9c3a617d9a61b31e|livescorebet|h2h|West Indies": {
