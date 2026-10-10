@@ -4157,9 +4157,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.69,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 3.52,
+  "close_books": 19,
+  "close_at": "2026-10-10T05:50:59.477712+00:00",
+  "close_minutes_before": 29.0,
+  "close_final": true
  },
  "c0f72699f32ec193b64fd54092fe268d|betfair_sb_uk|h2h|Monza": {
   "sport": "Serie A - Italy",
