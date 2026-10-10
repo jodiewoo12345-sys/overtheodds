@@ -3295,9 +3295,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.43,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 3.79,
+  "close_books": 19,
+  "close_at": "2026-10-10T03:35:51.015460+00:00",
+  "close_minutes_before": 24.1,
+  "close_final": true
  },
  "0a4906a9969f8d393827e3f7139c07b3|skybet|h2h|Nuno Borges": {
   "sport": "ATP Shanghai Masters",
@@ -3363,9 +3369,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.46,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 3.37,
+  "close_books": 20,
+  "close_at": "2026-10-10T03:35:51.015460+00:00",
+  "close_minutes_before": 24.1,
+  "close_final": true
  },
  "0ba9530b1d1041cc4c380ad01c4274f7|paddypower|h2h|Pablo Carreno Busta": {
   "sport": "ATP Shanghai Masters",
@@ -3431,9 +3443,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.54,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 2.56,
+  "close_books": 19,
+  "close_at": "2026-10-10T03:35:51.015460+00:00",
+  "close_minutes_before": 24.1,
+  "close_final": true
  },
  "1eb386b963ae5a82eba436c25e50cf24|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -4065,9 +4083,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.82,
-  "latest_seen": "2026-10-09T11:10:23.424269+00:00"
+  "latest_seen": "2026-10-09T11:10:23.424269+00:00",
+  "close_attempts": 1,
+  "close": 6.09,
+  "close_books": 20,
+  "close_at": "2026-10-10T03:35:51.015460+00:00",
+  "close_minutes_before": 24.1,
+  "close_final": true
  },
  "4d08f2ba5bba7246b62dd126b7d80b12|skybet|h2h|Zachary Svajda": {
   "sport": "ATP Shanghai Masters",
