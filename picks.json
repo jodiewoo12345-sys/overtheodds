@@ -862,11 +862,11 @@
   "close_status": "final",
   "latest_fair": 5.62,
   "latest_seen": "2026-10-11T11:08:20.541004+00:00",
-  "close_attempts": 1,
-  "close": 4.95,
+  "close_attempts": 2,
+  "close": 4.8,
   "close_books": 19,
-  "close_at": "2026-10-11T13:43:11.032044+00:00",
-  "close_minutes_before": 31.8,
+  "close_at": "2026-10-11T13:58:38.537792+00:00",
+  "close_minutes_before": 16.4,
   "close_final": true
  },
  "47cc511bb5ce50f715e3625ce5ef77ee|ladbrokes_uk|h2h|Brooklyn Nets": {
