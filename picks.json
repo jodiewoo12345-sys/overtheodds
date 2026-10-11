@@ -1631,9 +1631,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.09,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 5.36,
+  "close_books": 21,
+  "close_at": "2026-10-11T14:52:24.876981+00:00",
+  "close_minutes_before": 37.6,
+  "close_final": true
  },
  "221916b8b36706ec52aa655a64e5f1d2|grosvenor|h2h|Hamburger SV": {
   "sport": "Bundesliga - Germany",
@@ -4195,9 +4201,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.09,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 5.36,
+  "close_books": 21,
+  "close_at": "2026-10-11T14:52:24.876981+00:00",
+  "close_minutes_before": 37.6,
+  "close_final": true
  },
  "1cf64166dda1e0da8b325161deb39662|grosvenor|h2h|Sassuolo": {
   "sport": "Serie A - Italy",
