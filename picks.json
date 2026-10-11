@@ -2252,11 +2252,11 @@
   "close_status": "final",
   "latest_fair": 2.69,
   "latest_seen": "2026-10-11T11:08:20.541004+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 2.64,
   "close_books": 20,
-  "close_at": "2026-10-11T14:17:29.011207+00:00",
-  "close_minutes_before": 27.5,
+  "close_at": "2026-10-11T14:35:54.556766+00:00",
+  "close_minutes_before": 9.1,
   "close_final": true
  },
  "a46c19cc6ee20067da4e68356f247bfb|grosvenor|h2h|Draw": {
