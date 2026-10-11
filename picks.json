@@ -3050,11 +3050,11 @@
   "close_status": "final",
   "latest_fair": 4.89,
   "latest_seen": "2026-10-11T08:58:31.229843+00:00",
-  "close_attempts": 1,
-  "close": 4.8,
+  "close_attempts": 2,
+  "close": 4.81,
   "close_books": 20,
-  "close_at": "2026-10-11T10:33:59.319423+00:00",
-  "close_minutes_before": 26.0,
+  "close_at": "2026-10-11T10:51:34.314925+00:00",
+  "close_minutes_before": 8.4,
   "close_final": true
  },
  "2caea57b1e5cfbba1334cfbfd46f6771|sport888|totals|Under 46.5": {
@@ -3396,11 +3396,11 @@
   "close_status": "final",
   "latest_fair": 5.79,
   "latest_seen": "2026-10-11T08:58:31.229843+00:00",
-  "close_attempts": 1,
-  "close": 5.98,
+  "close_attempts": 2,
+  "close": 6.03,
   "close_books": 21,
-  "close_at": "2026-10-11T10:33:59.319423+00:00",
-  "close_minutes_before": 26.0,
+  "close_at": "2026-10-11T10:51:34.314925+00:00",
+  "close_minutes_before": 8.4,
   "close_final": true
  },
  "c12dc476d773ac521742384d8d8d1481|betfred_uk|h2h|Preston North End": {
@@ -3946,11 +3946,11 @@
   "close_status": "final",
   "latest_fair": 5.38,
   "latest_seen": "2026-10-11T08:58:31.229843+00:00",
-  "close_attempts": 1,
-  "close": 5.4,
+  "close_attempts": 2,
+  "close": 5.36,
   "close_books": 20,
-  "close_at": "2026-10-11T10:33:59.319423+00:00",
-  "close_minutes_before": 26.0,
+  "close_at": "2026-10-11T10:51:34.314925+00:00",
+  "close_minutes_before": 8.4,
   "close_final": true
  },
  "e2578ec1dbe113dc7d40bcd7e0fd1d9f|betfred_uk|h2h|Draw": {
