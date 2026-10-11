@@ -3421,9 +3421,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 1.74,
+  "close_books": 6,
+  "close_at": "2026-10-11T20:35:52.197149+00:00",
+  "close_minutes_before": 34.1,
+  "close_final": true
  },
  "e0fe5ad17865ef24994316c5e46dc8b1|paddypower|h2h|Portsmouth": {
   "sport": "Championship",
