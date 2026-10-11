@@ -2503,9 +2503,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.04,
-  "latest_seen": "2026-10-11T08:58:31.229843+00:00"
+  "latest_seen": "2026-10-11T08:58:31.229843+00:00",
+  "close_attempts": 1,
+  "close": 5.01,
+  "close_books": 21,
+  "close_at": "2026-10-11T12:22:43.932592+00:00",
+  "close_minutes_before": 37.3,
+  "close_final": true
  },
  "e6003c91bfcfdd647a80a0852a7460c8|paddypower|h2h|Quentin Halys": {
   "sport": "ATP Shanghai Masters",
@@ -2707,9 +2713,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.28,
-  "latest_seen": "2026-10-11T08:58:31.229843+00:00"
+  "latest_seen": "2026-10-11T08:58:31.229843+00:00",
+  "close_attempts": 1,
+  "close": 4.2,
+  "close_books": 21,
+  "close_at": "2026-10-11T12:22:43.932592+00:00",
+  "close_minutes_before": 37.3,
+  "close_final": true
  },
  "09e41b63d1d59bd4d971c54ffce154d3|grosvenor|h2h|Napoli": {
   "sport": "UEFA Champions League",
