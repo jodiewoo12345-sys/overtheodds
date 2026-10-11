@@ -3350,11 +3350,11 @@
   "close_status": "final",
   "latest_fair": 2.53,
   "latest_seen": "2026-10-11T11:08:20.541004+00:00",
-  "close_attempts": 1,
-  "close": 2.5,
+  "close_attempts": 2,
+  "close": 2.48,
   "close_books": 14,
-  "close_at": "2026-10-11T19:41:53.528319+00:00",
-  "close_minutes_before": 43.1,
+  "close_at": "2026-10-11T19:58:27.841163+00:00",
+  "close_minutes_before": 26.5,
   "close_final": true
  },
  "12a90ee4a941f857d0fc417663fb00c1|williamhill|totals|Under 6.5": {
