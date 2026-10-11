@@ -4275,9 +4275,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.27,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 4.14,
+  "close_books": 21,
+  "close_at": "2026-10-11T15:28:10.876115+00:00",
+  "close_minutes_before": 31.8,
+  "close_final": true
  },
  "921e7dc3692cc85772fc69fb8de17359|paddypower|h2h|FC Kairat": {
   "sport": "UEFA Europa Conference League",
