@@ -277,9 +277,15 @@
     "spreads"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.78,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 6.95,
+  "close_books": 20,
+  "close_at": "2026-10-11T15:46:30.193101+00:00",
+  "close_minutes_before": 43.5,
+  "close_final": true
  },
  "9a6664f72b5892098311f3518ab1b084|betfred_uk|h2h|KuPS Kuopio": {
   "sport": "UEFA Europa Conference League",
@@ -731,9 +737,15 @@
     "spreads"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.78,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 6.95,
+  "close_books": 20,
+  "close_at": "2026-10-11T15:46:30.193101+00:00",
+  "close_minutes_before": 43.5,
+  "close_final": true
  },
  "c4647ca1201e6768501877267ca8251b|betway|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -1211,9 +1223,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.78,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 6.95,
+  "close_books": 20,
+  "close_at": "2026-10-11T15:46:30.193101+00:00",
+  "close_minutes_before": 43.5,
+  "close_final": true
  },
  "349c47668fdd909039a9408c14cad8bc|grosvenor|h2h|Rayo Vallecano": {
   "sport": "La Liga - Spain",
@@ -4278,11 +4296,11 @@
   "close_status": "final",
   "latest_fair": 4.27,
   "latest_seen": "2026-10-11T11:08:20.541004+00:00",
-  "close_attempts": 1,
-  "close": 4.14,
+  "close_attempts": 2,
+  "close": 4.24,
   "close_books": 21,
-  "close_at": "2026-10-11T15:28:10.876115+00:00",
-  "close_minutes_before": 31.8,
+  "close_at": "2026-10-11T15:46:30.193101+00:00",
+  "close_minutes_before": 13.5,
   "close_final": true
  },
  "921e7dc3692cc85772fc69fb8de17359|paddypower|h2h|FC Kairat": {
