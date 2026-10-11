@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-11T08:58:31.229920+00:00",
+ "updated": "2026-10-11T11:08:20.541078+00:00",
  "scanned": {
   "events": 323,
-  "selections": 969,
+  "selections": 901,
   "sports": 25,
   "by_market": {
-   "h2h": 781,
-   "totals": 164,
-   "spreads": 24
+   "h2h": 735,
+   "totals": 150,
+   "spreads": 16
   },
   "stale_dropped": 0
  },
@@ -70,7 +70,7 @@
    "odds": 4.5,
    "fair": 4.2,
    "books": 15,
-   "detected": "2026-10-11T08:58:28.830447+00:00",
+   "detected": "2026-10-11T11:08:17.783182+00:00",
    "link": "https://betway.com/en/sports/evt/17312961"
   },
   {
@@ -83,7 +83,7 @@
    "odds": 2.1,
    "fair": 2.0,
    "books": 7,
-   "detected": "2026-10-11T08:58:28.830868+00:00",
+   "detected": "2026-10-11T11:08:17.783520+00:00",
    "link": "https://www.888sport.com/american-football/united-states/nfl/chicago-bears-green-bay-packers-e-7628194/"
   },
   {
@@ -96,21 +96,21 @@
    "odds": 4.2,
    "fair": 4.0,
    "books": 5,
-   "detected": "2026-10-11T08:58:28.835762+00:00",
+   "detected": "2026-10-11T11:08:17.788513+00:00",
    "link": "https://www.betfred.com/sports/american-football/event/35448809"
   },
   {
    "sport": "NFL",
    "market": "Match odds",
-   "event": "Seattle Seahawks v San Francisco 49ers",
-   "start": "2026-10-11T20:25:00Z",
-   "selection": "San Francisco 49ers",
+   "event": "Miami Dolphins v Cincinnati Bengals",
+   "start": "2026-10-11T17:00:00Z",
+   "selection": "Miami Dolphins",
    "book": "Betway",
-   "odds": 2.55,
-   "fair": 2.48,
-   "books": 14,
-   "detected": "2026-10-11T08:58:28.833645+00:00",
-   "link": "https://betway.com/en/sports/evt/17312984"
+   "odds": 4.0,
+   "fair": 3.87,
+   "books": 15,
+   "detected": "2026-10-11T11:08:17.783822+00:00",
+   "link": "https://betway.com/en/sports/evt/17312963"
   },
   {
    "sport": "NBA",
@@ -122,7 +122,7 @@
    "odds": 2.88,
    "fair": 2.76,
    "books": 12,
-   "detected": "2026-10-11T08:58:28.920427+00:00",
+   "detected": "2026-10-11T11:08:17.889476+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
    "also": [
     {
@@ -141,14 +141,8 @@
    "odds": 2.48,
    "fair": 2.4,
    "books": 12,
-   "detected": "2026-10-11T08:58:28.923100+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/philadelphia-76ers-cleveland-cavaliers/SBTE_2_1028736318",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.45
-    }
-   ]
+   "detected": "2026-10-11T11:08:17.892201+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/philadelphia-76ers-cleveland-cavaliers/SBTE_2_1028736318"
   },
   {
    "sport": "NHL",
@@ -158,42 +152,10 @@
    "selection": "Under 6.5",
    "book": "William Hill",
    "odds": 1.8,
-   "fair": 1.75,
+   "fair": 1.73,
    "books": 6,
-   "detected": "2026-10-11T08:58:29.370747+00:00",
+   "detected": "2026-10-11T11:08:18.422801+00:00",
    "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40501006/seattle-kraken-washington-capitals"
-  },
-  {
-   "sport": "Championship",
-   "market": "Match odds",
-   "event": "Southampton v Portsmouth",
-   "start": "2026-10-11T11:00:00Z",
-   "selection": "Portsmouth",
-   "book": "Paddy Power",
-   "odds": 6.0,
-   "fair": 5.78,
-   "books": 21,
-   "detected": "2026-10-11T08:58:29.487337+00:00",
-   "link": "https://www.paddypower.com/football/english-sky-bet-championship/southampton-v-portsmouth-36092353",
-   "also": [
-    {
-     "book": "Betfair Sportsbook",
-     "odds": 6.0
-    }
-   ]
-  },
-  {
-   "sport": "Championship",
-   "market": "Match odds",
-   "event": "Birmingham City v Preston North End",
-   "start": "2026-10-13T19:00:00Z",
-   "selection": "Preston North End",
-   "book": "Betfred (UK)",
-   "odds": 5.5,
-   "fair": 5.37,
-   "books": 21,
-   "detected": "2026-10-11T08:58:29.490023+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37208979"
   },
   {
    "sport": "League 1",
@@ -205,7 +167,7 @@
    "odds": 5.25,
    "fair": 4.86,
    "books": 15,
-   "detected": "2026-10-11T08:58:29.681737+00:00",
+   "detected": "2026-10-11T11:08:18.768246+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028143447",
    "also": [
     {
@@ -226,9 +188,9 @@
    "selection": "Doncaster Rovers",
    "book": "Casumo",
    "odds": 4.25,
-   "fair": 4.15,
+   "fair": 4.04,
    "books": 15,
-   "detected": "2026-10-11T08:58:29.680768+00:00",
+   "detected": "2026-10-11T11:08:18.767281+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028143485",
    "also": [
     {
@@ -240,6 +202,19 @@
   {
    "sport": "EPL",
    "market": "Match odds",
+   "event": "Brighton and Hove Albion v Crystal Palace",
+   "start": "2026-10-18T13:00:00Z",
+   "selection": "Crystal Palace",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.39,
+   "books": 19,
+   "detected": "2026-10-11T11:08:18.965496+00:00",
+   "link": "https://www.betfred.com/sports/football/event/36966179"
+  },
+  {
+   "sport": "EPL",
+   "market": "Match odds",
    "event": "Arsenal v Everton",
    "start": "2026-10-24T14:00:00Z",
    "selection": "Draw",
@@ -247,7 +222,7 @@
    "odds": 5.0,
    "fair": 4.9,
    "books": 10,
-   "detected": "2026-10-11T08:58:29.931077+00:00",
+   "detected": "2026-10-11T11:08:18.967201+00:00",
    "link": "https://www.betfred.com/sports/football/event/37210020"
   },
   {
@@ -258,10 +233,16 @@
    "selection": "Brest",
    "book": "Grosvenor",
    "odds": 5.25,
-   "fair": 5.04,
-   "books": 18,
-   "detected": "2026-10-11T08:58:30.115519+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1027973873"
+   "fair": 4.92,
+   "books": 20,
+   "detected": "2026-10-11T11:08:19.067446+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027973873",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 5.1
+    }
+   ]
   },
   {
    "sport": "Ligue 1 - France",
@@ -271,9 +252,9 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 4.0,
-   "fair": 3.88,
-   "books": 16,
-   "detected": "2026-10-11T08:58:30.116177+00:00",
+   "fair": 3.92,
+   "books": 18,
+   "detected": "2026-10-11T11:08:19.068201+00:00",
    "link": "https://www.betfred.com/sports/football/event/36978480"
   },
   {
@@ -286,7 +267,7 @@
    "odds": 5.2,
    "fair": 4.85,
    "books": 21,
-   "detected": "2026-10-11T08:58:30.195065+00:00",
+   "detected": "2026-10-11T11:08:19.172358+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028230632",
    "also": [
     {
@@ -309,21 +290,21 @@
    "odds": 4.1,
    "fair": 3.95,
    "books": 21,
-   "detected": "2026-10-11T08:58:30.195755+00:00",
+   "detected": "2026-10-11T11:08:19.173063+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028230635"
   },
   {
-   "sport": "Serie A - Italy",
+   "sport": "Bundesliga - Germany",
    "market": "Match odds",
-   "event": "Fiorentina v Como",
-   "start": "2026-10-18T13:00:00Z",
-   "selection": "Fiorentina",
+   "event": "SC Freiburg v FC Schalke 04",
+   "start": "2026-10-11T15:30:00Z",
+   "selection": "FC Schalke 04",
    "book": "Grosvenor",
-   "odds": 3.65,
-   "fair": 3.51,
-   "books": 15,
-   "detected": "2026-10-11T08:58:30.410514+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1027911668"
+   "odds": 5.25,
+   "fair": 5.09,
+   "books": 21,
+   "detected": "2026-10-11T11:08:19.171227+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1028230305"
   },
   {
    "sport": "Serie A - Italy",
@@ -333,10 +314,23 @@
    "selection": "Cagliari",
    "book": "Grosvenor",
    "odds": 3.65,
-   "fair": 3.51,
+   "fair": 3.48,
    "books": 15,
-   "detected": "2026-10-11T08:58:30.411209+00:00",
+   "detected": "2026-10-11T11:08:19.356198+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027911656"
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Sassuolo v AC Milan",
+   "start": "2026-10-11T16:00:00Z",
+   "selection": "Sassuolo",
+   "book": "Grosvenor",
+   "odds": 4.4,
+   "fair": 4.27,
+   "books": 21,
+   "detected": "2026-10-11T11:08:19.352289+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1027911681"
   },
   {
    "sport": "Dutch Eredivisie",
@@ -348,21 +342,8 @@
    "odds": 5.8,
    "fair": 5.53,
    "books": 12,
-   "detected": "2026-10-11T08:58:30.499003+00:00",
+   "detected": "2026-10-11T11:08:19.452618+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1027976584"
-  },
-  {
-   "sport": "Dutch Eredivisie",
-   "market": "Match odds",
-   "event": "FC Twente Enschede v FC Utrecht",
-   "start": "2026-10-18T18:00:00Z",
-   "selection": "Draw",
-   "book": "Unibet (UK)",
-   "odds": 5.75,
-   "fair": 5.6,
-   "books": 12,
-   "detected": "2026-10-11T08:58:30.499368+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/football/netherlands/eredivisie/twente-vs-utrecht/69cd4b406d3e8d9c57e2b479983aade9"
   },
   {
    "sport": "Premiership - Scotland",
@@ -374,7 +355,7 @@
    "odds": 5.5,
    "fair": 5.31,
    "books": 13,
-   "detected": "2026-10-11T08:58:30.730407+00:00",
+   "detected": "2026-10-11T11:08:19.813630+00:00",
    "link": "https://www.betfred.com/sports/football/event/36966796"
   },
   {
@@ -385,37 +366,16 @@
    "selection": "Aberdeen",
    "book": "Virgin Bet",
    "odds": 2.05,
-   "fair": 1.98,
+   "fair": 1.99,
    "books": 13,
-   "detected": "2026-10-11T08:58:30.729921+00:00",
+   "detected": "2026-10-11T11:08:19.813122+00:00",
    "link": "https://www.virginbet.com/sports/football/scotland-premiership/aberdeen-st-mirren/SBTE_2_1028061402",
    "also": [
     {
      "book": "LiveScore Bet",
      "odds": 2.05
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.02
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.02
     }
    ]
-  },
-  {
-   "sport": "Premiership - Scotland",
-   "market": "Match odds",
-   "event": "Motherwell v Celtic",
-   "start": "2026-10-11T11:00:00Z",
-   "selection": "Motherwell",
-   "book": "Betfred (UK)",
-   "odds": 5.5,
-   "fair": 5.37,
-   "books": 20,
-   "detected": "2026-10-11T08:58:30.729279+00:00",
-   "link": "https://www.betfred.com/sports/football/event/36941064"
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -427,21 +387,21 @@
    "odds": 5.5,
    "fair": 5.26,
    "books": 15,
-   "detected": "2026-10-11T08:58:30.895476+00:00",
+   "detected": "2026-10-11T11:08:20.021076+00:00",
    "link": "https://www.betfred.com/sports/football/event/36743627"
   },
   {
    "sport": "UEFA Europa Conference League",
    "market": "Match odds",
-   "event": "Atalanta BC v Pafos FC",
-   "start": "2026-10-15T19:00:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 5.0,
-   "fair": 4.83,
-   "books": 15,
-   "detected": "2026-10-11T08:58:30.897851+00:00",
-   "link": "https://www.betfred.com/sports/football/event/36743656"
+   "event": "Riga FC v FC Kairat",
+   "start": "2026-10-15T16:45:00Z",
+   "selection": "FC Kairat",
+   "book": "Paddy Power",
+   "odds": 4.33,
+   "fair": 4.15,
+   "books": 13,
+   "detected": "2026-10-11T11:08:20.021794+00:00",
+   "link": "https://www.paddypower.com/football/uefa-conference-league/fk-riga-v-kairat-almaty-36018393"
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -453,7 +413,7 @@
    "odds": 5.75,
    "fair": 5.62,
    "books": 15,
-   "detected": "2026-10-11T08:58:30.899366+00:00",
+   "detected": "2026-10-11T11:08:20.024949+00:00",
    "link": "https://sports.coral.co.uk/event/football/football-uefa-club-competitions/uefa-conference-league/sc-freiburg-v-fk-jablonec/46018351/main-markets"
   },
   {
@@ -464,22 +424,66 @@
    "selection": "Anderlecht",
    "book": "Casumo",
    "odds": 4.0,
-   "fair": 3.81,
+   "fair": 3.8,
    "books": 19,
-   "detected": "2026-10-11T08:58:30.994356+00:00",
+   "detected": "2026-10-11T11:08:20.125456+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028946366"
   },
   {
    "sport": "WTA Wuhan Open",
    "market": "Match odds",
+   "event": "Mayar Sherif v Maja Chwalinska",
+   "start": "2026-10-13T02:00:00Z",
+   "selection": "Mayar Sherif",
+   "book": "Betway",
+   "odds": 4.25,
+   "fair": 4.05,
+   "books": 11,
+   "detected": "2026-10-11T11:08:20.539143+00:00",
+   "link": "https://betway.com/en/sports/evt/17335926",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 4.2
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 4.2
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 4.2
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 4.2
+    }
+   ]
+  },
+  {
+   "sport": "WTA Wuhan Open",
+   "market": "Match odds",
+   "event": "Katie Boulter v Diana Shnaider",
+   "start": "2026-10-13T02:00:00Z",
+   "selection": "Katie Boulter",
+   "book": "Betway",
+   "odds": 4.25,
+   "fair": 4.06,
+   "books": 11,
+   "detected": "2026-10-11T11:08:20.538520+00:00",
+   "link": "https://betway.com/en/sports/evt/17335924"
+  },
+  {
+   "sport": "WTA Wuhan Open",
+   "market": "Match odds",
    "event": "Lilli Tagger v Nikola Bartunkova",
-   "start": "2026-10-12T02:00:00Z",
+   "start": "2026-10-13T02:00:00Z",
    "selection": "Lilli Tagger",
    "book": "Casumo",
    "odds": 3.05,
    "fair": 2.96,
    "books": 11,
-   "detected": "2026-10-11T08:58:31.227895+00:00",
+   "detected": "2026-10-11T11:08:20.538948+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1029447864",
    "also": [
     {
@@ -493,6 +497,33 @@
     {
      "book": "Virgin Bet",
      "odds": 3.05
+    }
+   ]
+  },
+  {
+   "sport": "WTA Wuhan Open",
+   "market": "Match odds",
+   "event": "Clara Tauson v Marie Bouzkova",
+   "start": "2026-10-12T04:10:00Z",
+   "selection": "Clara Tauson",
+   "book": "Casumo",
+   "odds": 3.2,
+   "fair": 3.12,
+   "books": 12,
+   "detected": "2026-10-11T11:08:20.537161+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1029447861",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.2
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.2
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.2
     }
    ]
   }
