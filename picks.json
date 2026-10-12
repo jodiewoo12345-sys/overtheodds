@@ -4187,9 +4187,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.96,
-  "latest_seen": "2026-10-11T11:08:20.541004+00:00"
+  "latest_seen": "2026-10-11T11:08:20.541004+00:00",
+  "close_attempts": 1,
+  "close": 3.21,
+  "close_books": 16,
+  "close_at": "2026-10-12T01:16:39.140351+00:00",
+  "close_minutes_before": 43.3,
+  "close_final": true
  },
  "eaf509fb37413b7d055cd394667792b3|grosvenor|h2h|FC Schalke 04": {
   "sport": "Bundesliga - Germany",
