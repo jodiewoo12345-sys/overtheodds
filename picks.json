@@ -11,7 +11,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|Milwaukee Bucks": {
   "sport": "NBA",
@@ -25,7 +25,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|Draw": {
   "sport": "UEFA Champions League",
@@ -55,7 +55,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "164cc0396837d5ff433215ffd3279283|virginbet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -71,7 +71,7 @@
   "close": 2.84,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "d7576351b8cb2396e32cc3de0446f3de|betfred_uk|h2h|Draw": {
   "sport": "UEFA Champions League",
@@ -541,7 +541,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.68,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "0a9a518e657dd711c1688e735158b6ba|virginbet|h2h|Australia": {
   "sport": "Test Matches",
@@ -737,7 +737,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.18,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "110e33c79c5ec8c0377702aff685f83b|livescorebet|h2h|Cleveland Cavaliers": {
   "sport": "NBA",
@@ -805,7 +805,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.41,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "e33d4772daf4acf3265b763829c9cb12|paddypower|h2h|Sri Lanka": {
   "sport": "International Twenty20",
@@ -1082,8 +1082,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.57,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_fair": 2.61,
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "3aeff30de01b67a9e18738bc591c1b5e|boylesports|h2h|Afghanistan": {
   "sport": "Test Matches",
@@ -2251,7 +2251,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.36,
-  "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  },
  "c12dc476d773ac521742384d8d8d1481|betfred_uk|h2h|Preston North End": {
   "sport": "Championship",
@@ -3624,5 +3624,73 @@
   "close_status": "pending",
   "latest_fair": 4.01,
   "latest_seen": "2026-10-12T06:08:24.006390+00:00"
+ },
+ "20fefae8c296247460ba5773caa42218|betway|h2h|Los Angeles Chargers": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Kansas City Chiefs v Los Angeles Chargers",
+  "start": "2026-10-18T20:25:00Z",
+  "selection": "Los Angeles Chargers",
+  "book": "Betway",
+  "odds": 4.75,
+  "fair": 4.43,
+  "edge": 7.22,
+  "books": 11,
+  "detected": "2026-10-12T11:12:42.409968+00:00",
+  "first_seen": "2026-10-12T11:12:42.409978+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-ddc173fb",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 5,
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.44,
+  "latest_seen": "2026-10-12T11:12:42.410106+00:00"
  }
 }
