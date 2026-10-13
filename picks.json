@@ -3285,9 +3285,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.79,
-  "latest_seen": "2026-10-13T13:34:47.556143+00:00"
+  "latest_seen": "2026-10-13T13:34:47.556143+00:00",
+  "close_attempts": 1,
+  "close": 1.77,
+  "close_books": 6,
+  "close_at": "2026-10-13T23:51:20.597564+00:00",
+  "close_minutes_before": 18.7,
+  "close_final": true
  },
  "52b4edae40c883606966ff2b620547a5|williamhill|totals|Under 6.5": {
   "sport": "NHL",
