@@ -3214,11 +3214,11 @@
   "close_status": "final",
   "latest_fair": 1.76,
   "latest_seen": "2026-10-13T13:34:47.556143+00:00",
-  "close_attempts": 1,
-  "close": 1.76,
+  "close_attempts": 2,
+  "close": 1.73,
   "close_books": 6,
-  "close_at": "2026-10-13T21:59:47.530042+00:00",
-  "close_minutes_before": 40.2,
+  "close_at": "2026-10-13T22:28:17.448309+00:00",
+  "close_minutes_before": 11.7,
   "close_final": true
  },
  "11760a5fc0040c4da450ea890d491b7b|williamhill|totals|Under 6.5": {
