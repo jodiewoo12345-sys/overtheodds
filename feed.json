@@ -1,14 +1,10 @@
 {
- "updated": "2026-10-12T11:12:42.410153+00:00",
+ "updated": "2026-10-13T06:08:11.200959+00:00",
  "scanned": {
-  "events": 65,
-  "selections": 140,
-  "sports": 3,
-  "by_market": {
-   "h2h": 74,
-   "totals": 48,
-   "spreads": 18
-  },
+  "events": 0,
+  "selections": 0,
+  "sports": 0,
+  "by_market": {},
   "stale_dropped": 0
  },
  "model_version": "1.0",
@@ -59,40 +55,7 @@
    "betdaq"
   ]
  },
- "bets": [
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Kansas City Chiefs v Los Angeles Chargers",
-   "start": "2026-10-18T20:25:00Z",
-   "selection": "Los Angeles Chargers",
-   "book": "Betway",
-   "odds": 4.75,
-   "fair": 4.43,
-   "books": 11,
-   "detected": "2026-10-12T11:12:40.279730+00:00",
-   "link": "https://betway.com/en/sports/evt/17343284"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Washington Wizards v Milwaukee Bucks",
-   "start": "2026-10-21T23:00:00Z",
-   "selection": "Milwaukee Bucks",
-   "book": "LiveScore Bet",
-   "odds": 2.88,
-   "fair": 2.76,
-   "books": 12,
-   "detected": "2026-10-12T11:12:40.375829+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.85
-    }
-   ]
-  }
- ],
+ "bets": [],
  "results": [
   {
    "sport": "ATP Japan Open",
@@ -3156,6 +3119,32 @@
    "stake": 10.0,
    "profit": -10.0,
    "won": false
+  },
+  {
+   "sport": "NFL",
+   "league": "americanfootball_nfl",
+   "event": "Los Angeles Rams v Buffalo Bills",
+   "market": "Match odds",
+   "date": "2026-10-13",
+   "detected": "2026-10-08T06:06:35.983222+00:00",
+   "selection": "Buffalo Bills",
+   "book": "Betway",
+   "odds": 2.55,
+   "fair": 2.45,
+   "edge": 4.08,
+   "books": 12,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 15.5,
+   "won": true
   }
  ]
 }
