@@ -1774,11 +1774,11 @@
   "close_status": "final",
   "latest_fair": 3.58,
   "latest_seen": "2026-10-13T13:34:47.556143+00:00",
-  "close_attempts": 1,
-  "close": 3.51,
+  "close_attempts": 2,
+  "close": 3.47,
   "close_books": 20,
-  "close_at": "2026-10-13T18:18:28.997423+00:00",
-  "close_minutes_before": 41.5,
+  "close_at": "2026-10-13T18:49:20.333161+00:00",
+  "close_minutes_before": 10.7,
   "close_final": true
  },
  "3ee605005bdc62da54d42a0ec3e1a930|casumo|h2h|Anderlecht": {
@@ -2052,11 +2052,11 @@
   "close_status": "final",
   "latest_fair": 6.76,
   "latest_seen": "2026-10-13T13:34:47.556143+00:00",
-  "close_attempts": 1,
-  "close": 6.78,
+  "close_attempts": 2,
+  "close": 6.61,
   "close_books": 21,
-  "close_at": "2026-10-13T18:18:28.997423+00:00",
-  "close_minutes_before": 41.5,
+  "close_at": "2026-10-13T18:49:20.333161+00:00",
+  "close_minutes_before": 10.7,
   "close_final": true
  },
  "0c40c8944fbe94a8a297ffc262989589|casumo|h2h|Wimbledon": {
