@@ -4701,9 +4701,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.11,
-  "latest_seen": "2026-10-14T06:17:09.412636+00:00"
+  "latest_seen": "2026-10-14T06:17:09.412636+00:00",
+  "close_attempts": 1,
+  "close": 3.89,
+  "close_books": 18,
+  "close_at": "2026-10-14T12:13:51.492508+00:00",
+  "close_minutes_before": 16.1,
+  "close_final": true
  },
  "ba8233b0baa13926504a380cebe42a12|betway|h2h|Ann Li": {
   "sport": "WTA Wuhan Open",
