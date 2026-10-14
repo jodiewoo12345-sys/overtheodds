@@ -36,10 +36,16 @@
   "book": "Betfred (UK)",
   "odds": 6.0,
   "first_seen": "2026-10-01T19:39:59.899646+00:00",
-  "close": 5.87,
+  "close": 5.83,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 6.21,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close_books": 19,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true,
+  "close_status": "final"
  },
  "164cc0396837d5ff433215ffd3279283|livescorebet|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -84,10 +90,16 @@
   "book": "Betfred (UK)",
   "odds": 6.0,
   "first_seen": "2026-10-01T20:01:18.240657+00:00",
-  "close": 5.87,
+  "close": 5.83,
   "close_seen": "2026-10-02T06:04:59.661601+00:00",
   "latest_fair": 6.21,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close_books": 19,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true,
+  "close_status": "final"
  },
  "c7a60aa94470fe959fbf6b0c68060fc1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -1221,9 +1233,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.98,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 5.24,
+  "close_books": 18,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true
  },
  "c88779b8088f864930fe423c5e0523ce|betfred_uk|h2h|AGF Aarhus": {
   "sport": "UEFA Europa Conference League",
@@ -3675,9 +3693,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.09,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 4.12,
+  "close_books": 19,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true
  },
  "a16736afd506ce5ab2aa4e864db773c2|betway|h2h|Ashlyn Krueger": {
   "sport": "WTA Wuhan Open",
@@ -4565,9 +4589,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.09,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 4.12,
+  "close_books": 19,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true
  },
  "ca87a3874b0eae31b4173ae4a9324957|virginbet|h2h|Bod\u00f8/Glimt": {
   "sport": "UEFA Champions League",
@@ -4633,9 +4663,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.12,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 2.82,
+  "close_books": 19,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 33.5,
+  "close_final": true
  },
  "52fda1c5d2926648da76673e3b2af4d9|betway|h2h|Shi Han": {
   "sport": "WTA Wuhan Open",
@@ -4985,9 +5021,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.1,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 3.9,
+  "close_books": 21,
+  "close_at": "2026-10-14T18:26:30.213724+00:00",
+  "close_minutes_before": 18.5,
+  "close_final": true
  },
  "9c4254cba9944a839b421db27260504d|betfred_uk|h2h|Getafe": {
   "sport": "La Liga - Spain",
