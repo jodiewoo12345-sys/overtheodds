@@ -4107,9 +4107,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.69,
-  "latest_seen": "2026-10-13T13:34:47.556143+00:00"
+  "latest_seen": "2026-10-13T13:34:47.556143+00:00",
+  "close_attempts": 1,
+  "close": 3.75,
+  "close_books": 17,
+  "close_at": "2026-10-14T03:37:34.862398+00:00",
+  "close_minutes_before": 32.4,
+  "close_final": true
  },
  "fe440804f5316f527de78addcd994575|betway|h2h|Yulia Putintseva": {
   "sport": "WTA Wuhan Open",
