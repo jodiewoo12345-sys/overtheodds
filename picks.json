@@ -4181,9 +4181,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.8,
-  "latest_seen": "2026-10-13T13:34:47.556143+00:00"
+  "latest_seen": "2026-10-13T13:34:47.556143+00:00",
+  "close_attempts": 1,
+  "close": 3.77,
+  "close_books": 18,
+  "close_at": "2026-10-14T04:09:54.605384+00:00",
+  "close_minutes_before": 20.1,
+  "close_final": true
  },
  "a16736afd506ce5ab2aa4e864db773c2|betway|h2h|Ashlyn Krueger": {
   "sport": "WTA Wuhan Open",
@@ -4317,8 +4323,14 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.43,
-  "latest_seen": "2026-10-13T13:34:47.556143+00:00"
+  "latest_seen": "2026-10-13T13:34:47.556143+00:00",
+  "close_attempts": 1,
+  "close": 2.29,
+  "close_books": 18,
+  "close_at": "2026-10-14T04:09:54.605384+00:00",
+  "close_minutes_before": 20.1,
+  "close_final": true
  }
 }
