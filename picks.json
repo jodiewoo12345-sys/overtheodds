@@ -3909,9 +3909,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.08,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 2.21,
+  "close_books": 6,
+  "close_at": "2026-10-14T23:20:18.223274+00:00",
+  "close_minutes_before": 19.7,
+  "close_final": true
  },
  "11b474310b2b60cbae546d9c517444c6|ladbrokes_uk|totals|Under 6.5": {
   "sport": "NHL",
@@ -3977,9 +3983,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.93,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 1.82,
+  "close_books": 6,
+  "close_at": "2026-10-14T23:20:18.223274+00:00",
+  "close_minutes_before": 19.7,
+  "close_final": true
  },
  "9604eeafec33b8980e6565c617f04fc6|casumo|spreads|Colorado Avalanche -1.5": {
   "sport": "NHL",
@@ -4953,9 +4965,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.93,
-  "latest_seen": "2026-10-14T11:23:11.747850+00:00"
+  "latest_seen": "2026-10-14T11:23:11.747850+00:00",
+  "close_attempts": 1,
+  "close": 1.82,
+  "close_books": 6,
+  "close_at": "2026-10-14T23:20:18.223274+00:00",
+  "close_minutes_before": 19.7,
+  "close_final": true
  },
  "35d7cc4a96b152b4a31b0b151cb70feb|unibet_uk|h2h|Draw": {
   "sport": "Championship",
