@@ -4057,9 +4057,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 2.73,
-  "latest_seen": "2026-10-14T06:17:09.412636+00:00"
+  "latest_seen": "2026-10-14T06:17:09.412636+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-15T00:23:12.025063+00:00"
  },
  "fbbd46f088071f0f022dce6850bcfa80|casumo|h2h|Cardiff City": {
   "sport": "Championship",
