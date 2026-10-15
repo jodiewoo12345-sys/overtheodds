@@ -1,1 +1,67 @@
-[]
+[
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Grosvenor",
+  "odds": 2.17,
+  "fair": 1.92,
+  "edge": 12.8,
+  "books": 8,
+  "start": "2026-10-15T23:10:00Z",
+  "seen": "2026-10-15T06:18:55.134350+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Virgin Bet",
+  "odds": 2.17,
+  "fair": 1.92,
+  "edge": 12.8,
+  "books": 8,
+  "start": "2026-10-15T23:10:00Z",
+  "seen": "2026-10-15T06:18:55.134380+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Casumo",
+  "odds": 2.17,
+  "fair": 1.92,
+  "edge": 12.8,
+  "books": 8,
+  "start": "2026-10-15T23:10:00Z",
+  "seen": "2026-10-15T06:18:55.134390+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "LiveScore Bet",
+  "odds": 2.17,
+  "fair": 1.92,
+  "edge": 12.8,
+  "books": 8,
+  "start": "2026-10-15T23:10:00Z",
+  "seen": "2026-10-15T06:18:55.134398+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 2.0,
+  "fair": 1.77,
+  "edge": 12.7,
+  "books": 8,
+  "start": "2026-10-15T23:10:00Z",
+  "seen": "2026-10-15T06:18:55.134425+00:00"
+ }
+]
