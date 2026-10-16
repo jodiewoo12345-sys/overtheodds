@@ -3178,11 +3178,11 @@
   "close_status": "final",
   "latest_fair": 2.88,
   "latest_seen": "2026-10-16T11:21:33.772361+00:00",
-  "close_attempts": 1,
-  "close": 2.94,
-  "close_books": 18,
-  "close_at": "2026-10-16T15:51:27.517188+00:00",
-  "close_minutes_before": 38.5,
+  "close_attempts": 2,
+  "close": 3.06,
+  "close_books": 19,
+  "close_at": "2026-10-16T16:23:08.420186+00:00",
+  "close_minutes_before": 6.9,
   "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|betfred_uk|h2h|Real Madrid": {
