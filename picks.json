@@ -4003,9 +4003,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.87,
-  "latest_seen": "2026-10-16T11:21:33.772361+00:00"
+  "latest_seen": "2026-10-16T11:21:33.772361+00:00",
+  "close_attempts": 1,
+  "close": 4.04,
+  "close_books": 21,
+  "close_at": "2026-10-16T17:59:15.069269+00:00",
+  "close_minutes_before": 30.7,
+  "close_final": true
  },
  "1f566f17c50fe5162724ec2863d2207b|grosvenor|h2h|Real Racing Club de Santander": {
   "sport": "La Liga - Spain",
