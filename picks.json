@@ -1883,9 +1883,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.15,
-  "latest_seen": "2026-10-16T11:21:33.772361+00:00"
+  "latest_seen": "2026-10-16T11:21:33.772361+00:00",
+  "close_attempts": 1,
+  "close": 3.44,
+  "close_books": 20,
+  "close_at": "2026-10-16T18:31:54.805614+00:00",
+  "close_minutes_before": 13.1,
+  "close_final": true
  },
  "3ed4d1e775910625c50518a384e9c547|betfred_uk|h2h|Eintracht Frankfurt": {
   "sport": "Bundesliga - Germany",
