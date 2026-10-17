@@ -2217,9 +2217,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.91,
-  "latest_seen": "2026-10-17T06:14:18.446539+00:00"
+  "latest_seen": "2026-10-17T06:14:18.446539+00:00",
+  "close_attempts": 1,
+  "close": 3.98,
+  "close_books": 21,
+  "close_at": "2026-10-17T10:59:16.620280+00:00",
+  "close_minutes_before": 30.7,
+  "close_final": true
  },
  "fcc34b753fc61a0cc0e11d7cb0a0c36b|betfred_uk|h2h|Le Havre": {
   "sport": "Ligue 1 - France",
@@ -2897,9 +2903,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.65,
-  "latest_seen": "2026-10-17T06:14:18.446539+00:00"
+  "latest_seen": "2026-10-17T06:14:18.446539+00:00",
+  "close_attempts": 1,
+  "close": 5.84,
+  "close_books": 21,
+  "close_at": "2026-10-17T10:59:16.620280+00:00",
+  "close_minutes_before": 30.7,
+  "close_final": true
  },
  "86dc4494049b9c113a8d898605eec7a0|betway|h2h|Draw": {
   "sport": "League 1",
@@ -2965,9 +2977,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.06,
-  "latest_seen": "2026-10-17T06:14:18.446539+00:00"
+  "latest_seen": "2026-10-17T06:14:18.446539+00:00",
+  "close_attempts": 1,
+  "close": 4.03,
+  "close_books": 21,
+  "close_at": "2026-10-17T10:59:16.620280+00:00",
+  "close_minutes_before": 30.7,
+  "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|betfred_uk|h2h|Real Madrid": {
   "sport": "La Liga - Spain",
@@ -6167,9 +6185,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.86,
-  "latest_seen": "2026-10-17T06:14:18.446539+00:00"
+  "latest_seen": "2026-10-17T06:14:18.446539+00:00",
+  "close_attempts": 1,
+  "close": 3.75,
+  "close_books": 21,
+  "close_at": "2026-10-17T10:59:16.620280+00:00",
+  "close_minutes_before": 30.7,
+  "close_final": true
  },
  "7895f97f2f9577f3b13287a3d086859d|boylesports|h2h|Hull City": {
   "sport": "EPL",
