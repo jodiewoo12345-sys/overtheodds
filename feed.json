@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-17T06:14:18.446650+00:00",
+ "updated": "2026-10-17T11:16:16.255046+00:00",
  "scanned": {
-  "events": 358,
-  "selections": 1155,
+  "events": 360,
+  "selections": 1069,
   "sports": 25,
   "by_market": {
-   "h2h": 931,
-   "totals": 170,
-   "spreads": 54
+   "h2h": 885,
+   "totals": 154,
+   "spreads": 30
   },
   "stale_dropped": 0
  },
@@ -68,137 +68,48 @@
    "selection": "Milwaukee Bucks",
    "book": "LiveScore Bet",
    "odds": 2.9,
-   "fair": 2.8,
+   "fair": 2.84,
    "books": 13,
-   "detected": "2026-10-17T06:14:14.662127+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.88
-    }
-   ]
+   "detected": "2026-10-17T11:16:12.904370+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-milwaukee-bucks/SBTE_2_1028754206"
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Utah Mammoth v Edmonton Oilers",
-   "start": "2026-10-18T02:10:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.12,
-   "fair": 1.92,
-   "books": 9,
-   "detected": "2026-10-17T06:14:15.321828+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/utah-mammoth-edmonton-oilers/SBTE_2_1028409954",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.12
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.12
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.1
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v Buffalo Sabres",
+   "event": "Detroit Red Wings v San Jose Sharks",
    "start": "2026-10-17T23:10:00Z",
    "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.15,
-   "fair": 2.01,
-   "books": 9,
-   "detected": "2026-10-17T06:14:15.319852+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/montreal-canadiens-buffalo-sabres/SBTE_2_1028409831",
-   "also": [
-    {
-     "book": "Casumo",
-     "odds": 2.15
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.15
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.14
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Tampa Bay Lightning v Vancouver Canucks",
-   "start": "2026-10-17T20:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.25,
-   "fair": 2.11,
-   "books": 9,
-   "detected": "2026-10-17T06:14:15.319315+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/tampa-bay-lightning-vancouver-canucks/SBTE_2_1028409875",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.25
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.25
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.23
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Vegas Golden Knights v Pittsburgh Penguins",
-   "start": "2026-10-18T02:10:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.05,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-17T06:14:15.322104+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/vegas-golden-knights-pittsburgh-penguins/SBTE_2_1028409973",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.05
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.05
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.02
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Handicap",
-   "event": "Montr\u00e9al Canadiens v Buffalo Sabres",
-   "start": "2026-10-17T23:10:00Z",
-   "selection": "Montr\u00e9al Canadiens -1.5",
    "book": "Casumo",
-   "odds": 2.88,
-   "fair": 2.73,
-   "books": 6,
-   "detected": "2026-10-17T06:14:15.319820+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409831"
+   "odds": 2.32,
+   "fair": 2.11,
+   "books": 5,
+   "detected": "2026-10-17T11:16:13.462691+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409828",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 2.3
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Columbus Blue Jackets v New York Rangers",
+   "start": "2026-10-17T23:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Casumo",
+   "odds": 2.3,
+   "fair": 2.11,
+   "books": 5,
+   "detected": "2026-10-17T11:16:13.462540+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409816",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 2.28
+    }
+   ]
   },
   {
    "sport": "NHL",
@@ -208,9 +119,9 @@
    "selection": "Under 6.5",
    "book": "William Hill",
    "odds": 2.0,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-17T06:14:15.321857+00:00",
+   "fair": 1.84,
+   "books": 7,
+   "detected": "2026-10-17T11:16:13.463497+00:00",
    "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544260/edmonton-oilers-utah-mammoth",
    "also": [
     {
@@ -221,93 +132,64 @@
   },
   {
    "sport": "NHL",
-   "market": "Handicap",
-   "event": "Utah Mammoth v Edmonton Oilers",
+   "market": "Totals",
+   "event": "Montr\u00e9al Canadiens v Buffalo Sabres",
+   "start": "2026-10-17T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.77,
+   "books": 7,
+   "detected": "2026-10-17T11:16:13.462260+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500960/buffalo-sabres-montreal-canadiens",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vegas Golden Knights v Pittsburgh Penguins",
    "start": "2026-10-18T02:10:00Z",
-   "selection": "Utah Mammoth -1.5",
-   "book": "Casumo",
-   "odds": 2.8,
-   "fair": 2.73,
-   "books": 6,
-   "detected": "2026-10-17T06:14:15.321794+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409954"
-  },
-  {
-   "sport": "Championship",
-   "market": "Match odds",
-   "event": "Norwich City v Portsmouth",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Portsmouth",
-   "book": "Casumo",
-   "odds": 4.4,
-   "fair": 4.23,
-   "books": 21,
-   "detected": "2026-10-17T06:14:15.509346+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028142922"
-  },
-  {
-   "sport": "League 1",
-   "market": "Match odds",
-   "event": "Sheffield Wednesday v Wimbledon",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Wimbledon",
-   "book": "Betfair Sportsbook",
-   "odds": 5.5,
-   "fair": 5.11,
-   "books": 21,
-   "detected": "2026-10-17T06:14:15.807249+00:00",
-   "link": "https://www.betfair.com/betting/football/english-sky-bet-league-1/sheff-wed-v-afc-wimbledon/e-36175586"
-  },
-  {
-   "sport": "League 1",
-   "market": "Match odds",
-   "event": "Peterborough United v Burton Albion",
-   "start": "2026-10-17T11:30:00Z",
-   "selection": "Burton Albion",
-   "book": "Betfair Sportsbook",
-   "odds": 4.1,
-   "fair": 3.86,
-   "books": 21,
-   "detected": "2026-10-17T06:14:15.804173+00:00",
-   "link": "https://www.betfair.com/betting/football/english-sky-bet-league-1/peterborough-v-burton-albion/e-36175574",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 2.0,
+   "fair": 1.87,
+   "books": 7,
+   "detected": "2026-10-17T11:16:13.463642+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544255/pittsburgh-penguins-vegas-golden-knights",
    "also": [
     {
-     "book": "Paddy Power",
-     "odds": 4.0
+     "book": "888sport",
+     "odds": 2.0
     }
    ]
   },
   {
-   "sport": "EPL",
+   "sport": "NHL",
    "market": "Match odds",
-   "event": "Fulham v Hull City",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Hull City",
-   "book": "BoyleSports",
-   "odds": 5.5,
-   "fair": 5.38,
-   "books": 21,
-   "detected": "2026-10-17T06:14:16.048205+00:00",
-   "link": "https://www.boylesports.com/sports/football/event/england-premier-league/fulham-v-hull",
+   "event": "Tampa Bay Lightning v Vancouver Canucks",
+   "start": "2026-10-17T20:10:00Z",
+   "selection": "Vancouver Canucks",
+   "book": "William Hill",
+   "odds": 4.5,
+   "fair": 4.24,
+   "books": 11,
+   "detected": "2026-10-17T11:16:13.461932+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500963/vancouver-canucks-tampa-bay-lightning",
    "also": [
     {
-     "book": "Betfair Sportsbook",
-     "odds": 5.5
+     "book": "888sport",
+     "odds": 4.5
+    },
+    {
+     "book": "Betano (UK)",
+     "odds": 4.33
     }
    ]
-  },
-  {
-   "sport": "FA Cup",
-   "market": "Match odds",
-   "event": "Bedford Town FC v Cray Wanderers FC",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Cray Wanderers FC",
-   "book": "BoyleSports",
-   "odds": 5.5,
-   "fair": 4.93,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.218956+00:00",
-   "link": "https://www.boylesports.com/sports/football/event/england-fa-cup/bedford-town-v-cray-wanderers"
   },
   {
    "sport": "FA Cup",
@@ -316,19 +198,15 @@
    "start": "2026-10-17T14:00:00Z",
    "selection": "South Shields FC",
    "book": "Betano (UK)",
-   "odds": 3.7,
-   "fair": 3.32,
-   "books": 10,
-   "detected": "2026-10-17T06:14:16.220854+00:00",
+   "odds": 5.0,
+   "fair": 4.51,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122247+00:00",
    "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842843288",
    "also": [
     {
      "book": "Bet Victor",
-     "odds": 3.7
-    },
-    {
-     "book": "Betway",
-     "odds": 3.4
+     "odds": 5.0
     }
    ]
   },
@@ -339,30 +217,63 @@
    "start": "2026-10-17T14:00:00Z",
    "selection": "Draw",
    "book": "Betway",
-   "odds": 4.33,
-   "fair": 3.9,
-   "books": 10,
-   "detected": "2026-10-17T06:14:16.219412+00:00",
+   "odds": 4.2,
+   "fair": 3.88,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.121297+00:00",
    "link": "https://betway.com/en/sports/evt/17352184"
   },
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Chesham United FC v Forest Green Rovers",
+   "event": "AFC Rushden and Diamonds v Morecambe",
    "start": "2026-10-17T14:00:00Z",
-   "selection": "Chesham United FC",
-   "book": "Bet Victor",
-   "odds": 4.8,
-   "fair": 4.41,
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 5.5,
+   "fair": 5.1,
+   "books": 11,
+   "detected": "2026-10-17T11:16:14.120391+00:00",
+   "link": "https://betway.com/en/sports/evt/17341012"
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Macclesfield Town v Anstey Nomads FC",
+   "start": "2026-10-17T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 5.25,
+   "fair": 4.88,
+   "books": 11,
+   "detected": "2026-10-17T11:16:14.120792+00:00",
+   "link": "https://betway.com/en/sports/evt/17319326"
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Bedford Town FC v Cray Wanderers FC",
+   "start": "2026-10-17T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 5.0,
+   "fair": 4.66,
    "books": 9,
-   "detected": "2026-10-17T06:14:16.220256+00:00",
-   "link": "https://www.betvictor.com/en-gb/sports/240/meetings/6228510/events/2842858220",
-   "also": [
-    {
-     "book": "Betano (UK)",
-     "odds": 4.8
-    }
-   ]
+   "detected": "2026-10-17T11:16:14.120983+00:00",
+   "link": "https://betway.com/en/sports/evt/17341018"
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Leatherhead FC v Yeovil Town",
+   "start": "2026-10-17T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 5.5,
+   "fair": 5.16,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122967+00:00",
+   "link": "https://betway.com/en/sports/evt/17314658"
   },
   {
    "sport": "FA Cup",
@@ -372,9 +283,9 @@
    "selection": "Worcester City FC",
    "book": "Bet Victor",
    "odds": 5.25,
-   "fair": 4.83,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.220414+00:00",
+   "fair": 4.94,
+   "books": 11,
+   "detected": "2026-10-17T11:16:14.121944+00:00",
    "link": "https://www.betvictor.com/en-gb/sports/240/meetings/6228510/events/2842858403",
    "also": [
     {
@@ -386,28 +297,15 @@
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Macclesfield Town v Anstey Nomads FC",
+   "event": "Dover Athletic FC v Dorking Wanderers FC",
    "start": "2026-10-17T14:00:00Z",
    "selection": "Draw",
    "book": "Betway",
-   "odds": 5.25,
-   "fair": 4.92,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.218709+00:00",
-   "link": "https://betway.com/en/sports/evt/17319326"
-  },
-  {
-   "sport": "FA Cup",
-   "market": "Match odds",
-   "event": "Leatherhead FC v Yeovil Town",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Draw",
-   "book": "Betway",
-   "odds": 5.5,
-   "fair": 5.16,
-   "books": 10,
-   "detected": "2026-10-17T06:14:16.221763+00:00",
-   "link": "https://betway.com/en/sports/evt/17314658"
+   "odds": 4.33,
+   "fair": 4.09,
+   "books": 11,
+   "detected": "2026-10-17T11:16:14.122060+00:00",
+   "link": "https://betway.com/en/sports/evt/17341017"
   },
   {
    "sport": "FA Cup",
@@ -415,12 +313,25 @@
    "event": "Salisbury FC v Eastbourne Borough FC",
    "start": "2026-10-17T14:00:00Z",
    "selection": "Draw",
-   "book": "Unibet (UK)",
+   "book": "Betway",
    "odds": 5.25,
-   "fair": 4.93,
+   "fair": 4.96,
    "books": 10,
-   "detected": "2026-10-17T06:14:16.220702+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/football/england/fa_cup/salisbury-vs-eastbourne-borough/ca3b5afb40508fcc3af5f618a0244bbf"
+   "detected": "2026-10-17T11:16:14.122154+00:00",
+   "link": "https://betway.com/en/sports/evt/17341010"
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Kidderminster Harriers FC v Solihull Moors FC",
+   "start": "2026-10-17T14:00:00Z",
+   "selection": "Solihull Moors FC",
+   "book": "BoyleSports",
+   "odds": 3.5,
+   "fair": 3.32,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122837+00:00",
+   "link": "https://www.boylesports.com/sports/football/event/england-fa-cup/kidderminster-v-solihull-moors"
   },
   {
    "sport": "FA Cup",
@@ -431,8 +342,8 @@
    "book": "Betano (UK)",
    "odds": 6.0,
    "fair": 5.7,
-   "books": 10,
-   "detected": "2026-10-17T06:14:16.219251+00:00",
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.121161+00:00",
    "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842842274",
    "also": [
     {
@@ -444,46 +355,19 @@
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Bedford Town FC v Cray Wanderers FC",
+   "event": "Hartlepool United FC v Marine FC",
    "start": "2026-10-17T14:00:00Z",
-   "selection": "Draw",
-   "book": "Betway",
-   "odds": 4.75,
-   "fair": 4.53,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.219007+00:00",
-   "link": "https://betway.com/en/sports/evt/17341018",
+   "selection": "Marine FC",
+   "book": "Betano (UK)",
+   "odds": 5.5,
+   "fair": 5.26,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122626+00:00",
+   "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842843529",
    "also": [
     {
      "book": "Bet Victor",
-     "odds": 4.75
-    },
-    {
-     "book": "Betano (UK)",
-     "odds": 4.75
-    }
-   ]
-  },
-  {
-   "sport": "FA Cup",
-   "market": "Match odds",
-   "event": "Kidderminster Harriers FC v Solihull Moors FC",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Kidderminster Harriers FC",
-   "book": "Betway",
-   "odds": 2.2,
-   "fair": 2.1,
-   "books": 10,
-   "detected": "2026-10-17T06:14:16.221572+00:00",
-   "link": "https://betway.com/en/sports/evt/17314609",
-   "also": [
-    {
-     "book": "Betano (UK)",
-     "odds": 2.2
-    },
-    {
-     "book": "Bet Victor",
-     "odds": 2.2
+     "odds": 5.5
     }
    ]
   },
@@ -496,54 +380,49 @@
    "book": "Betway",
    "odds": 3.8,
    "fair": 3.64,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.222160+00:00",
+   "books": 11,
+   "detected": "2026-10-17T11:16:14.123276+00:00",
    "link": "https://betway.com/en/sports/evt/17314611"
   },
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "AFC Rushden and Diamonds v Morecambe",
+   "event": "FC Halifax Town v South Shields FC",
    "start": "2026-10-17T14:00:00Z",
    "selection": "Draw",
    "book": "Betway",
-   "odds": 5.0,
-   "fair": 4.83,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.218216+00:00",
-   "link": "https://betway.com/en/sports/evt/17341012"
+   "odds": 4.5,
+   "fair": 4.33,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122272+00:00",
+   "link": "https://betway.com/en/sports/evt/17314606"
   },
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Sholing FC v SE Dons FC",
+   "event": "Uxbridge FC v Hornchurch FC",
    "start": "2026-10-17T14:00:00Z",
-   "selection": "SE Dons FC",
-   "book": "Betano (UK)",
-   "odds": 3.7,
-   "fair": 3.58,
-   "books": 9,
-   "detected": "2026-10-17T06:14:16.221994+00:00",
-   "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6228510/events/2842858060",
+   "selection": "Uxbridge FC",
+   "book": "Casumo",
+   "odds": 4.6,
+   "fair": 4.5,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.122727+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1029504574",
    "also": [
     {
-     "book": "Bet Victor",
-     "odds": 3.7
+     "book": "LiveScore Bet",
+     "odds": 4.6
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 4.6
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 4.6
     }
    ]
-  },
-  {
-   "sport": "FA Cup",
-   "market": "Match odds",
-   "event": "Eastleigh FC v Brentwood Town FC",
-   "start": "2026-10-17T14:00:00Z",
-   "selection": "Eastleigh FC",
-   "book": "Betway",
-   "odds": 1.38,
-   "fair": 1.35,
-   "books": 8,
-   "detected": "2026-10-17T06:14:16.219506+00:00",
-   "link": "https://betway.com/en/sports/evt/17314654"
   },
   {
    "sport": "Ligue 1 - France",
@@ -553,9 +432,9 @@
    "selection": "Le Havre",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.18,
+   "fair": 5.2,
    "books": 15,
-   "detected": "2026-10-17T06:14:16.362228+00:00",
+   "detected": "2026-10-17T11:16:14.319077+00:00",
    "link": "https://www.betfred.com/sports/football/event/37220245"
   },
   {
@@ -566,27 +445,14 @@
    "selection": "Draw",
    "book": "Betway",
    "odds": 6.0,
-   "fair": 5.56,
+   "fair": 5.68,
    "books": 16,
-   "detected": "2026-10-17T06:14:16.567415+00:00",
-   "link": "https://betway.com/en/sports/evt/17268891"
-  },
-  {
-   "sport": "Bundesliga - Germany",
-   "market": "Match odds",
-   "event": "RB Leipzig v Elversberg",
-   "start": "2026-10-24T13:30:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.83,
-   "books": 16,
-   "detected": "2026-10-17T06:14:16.566088+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220176",
+   "detected": "2026-10-17T11:16:14.445617+00:00",
+   "link": "https://betway.com/en/sports/evt/17268891",
    "also": [
     {
-     "book": "Coral",
-     "odds": 6.0
+     "book": "William Hill",
+     "odds": 5.8
     }
    ]
   },
@@ -598,23 +464,20 @@
    "selection": "Union Berlin",
    "book": "Casumo",
    "odds": 4.0,
-   "fair": 3.89,
+   "fair": 3.86,
    "books": 16,
-   "detected": "2026-10-17T06:14:16.565849+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028230588"
-  },
-  {
-   "sport": "Bundesliga - Germany",
-   "market": "Match odds",
-   "event": "Union Berlin v Borussia Dortmund",
-   "start": "2026-10-17T13:30:00Z",
-   "selection": "Union Berlin",
-   "book": "Betfair Sportsbook",
-   "odds": 5.5,
-   "fair": 5.37,
-   "books": 21,
-   "detected": "2026-10-17T06:14:16.563401+00:00",
-   "link": "https://www.betfair.com/betting/football/german-bundesliga/union-berlin-v-dortmund/e-36099858"
+   "detected": "2026-10-17T11:16:14.444600+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028230588",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 3.95
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 3.95
+    }
+   ]
   },
   {
    "sport": "Bundesliga 2 - Germany",
@@ -624,9 +487,9 @@
    "selection": "VfL Osnabr\u00fcck",
    "book": "Casumo",
    "odds": 4.7,
-   "fair": 4.45,
+   "fair": 4.46,
    "books": 18,
-   "detected": "2026-10-17T06:14:16.721577+00:00",
+   "detected": "2026-10-17T11:16:14.571286+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028231116",
    "also": [
     {
@@ -644,8 +507,8 @@
    "book": "Grosvenor",
    "odds": 3.1,
    "fair": 3.04,
-   "books": 12,
-   "detected": "2026-10-17T06:14:16.722079+00:00",
+   "books": 13,
+   "detected": "2026-10-17T11:16:14.571601+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028231126",
    "also": [
     {
@@ -663,8 +526,8 @@
    "book": "Grosvenor",
    "odds": 4.6,
    "fair": 4.49,
-   "books": 7,
-   "detected": "2026-10-17T06:14:16.880786+00:00",
+   "books": 6,
+   "detected": "2026-10-17T11:16:14.680043+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1028430650",
    "also": [
     {
@@ -680,15 +543,15 @@
   {
    "sport": "Serie A - Italy",
    "market": "Match odds",
-   "event": "AC Milan v Atalanta BC",
-   "start": "2026-10-18T16:00:00Z",
-   "selection": "Atalanta BC",
-   "book": "Betfair Sportsbook",
-   "odds": 4.6,
-   "fair": 4.43,
-   "books": 21,
-   "detected": "2026-10-17T06:14:17.092918+00:00",
-   "link": "https://www.betfair.com/betting/football/italian-serie-a/ac-milan-v-atalanta/e-36099807"
+   "event": "Inter Milan v Fiorentina",
+   "start": "2026-10-25T11:30:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.3,
+   "books": 12,
+   "detected": "2026-10-17T11:16:14.813496+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37221630"
   },
   {
    "sport": "Serie A - Italy",
@@ -700,7 +563,7 @@
    "odds": 4.6,
    "fair": 4.45,
    "books": 21,
-   "detected": "2026-10-17T06:14:17.092223+00:00",
+   "detected": "2026-10-17T11:16:14.811519+00:00",
    "link": "https://www.betfair.com/betting/football/italian-serie-a/udinese-v-lecce/e-36099816"
   },
   {
@@ -711,23 +574,23 @@
    "selection": "Fiorentina",
    "book": "Betfair Sportsbook",
    "odds": 3.6,
-   "fair": 3.5,
+   "fair": 3.52,
    "books": 21,
-   "detected": "2026-10-17T06:14:17.092605+00:00",
+   "detected": "2026-10-17T11:16:14.811782+00:00",
    "link": "https://www.betfair.com/betting/football/italian-serie-a/fiorentina-v-como/e-36099811"
   },
   {
    "sport": "Serie A - Italy",
    "market": "Match odds",
-   "event": "Inter Milan v Fiorentina",
-   "start": "2026-10-25T11:30:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 5.5,
-   "fair": 5.39,
-   "books": 12,
-   "detected": "2026-10-17T06:14:17.095090+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37221630"
+   "event": "AC Milan v Atalanta BC",
+   "start": "2026-10-18T16:00:00Z",
+   "selection": "Atalanta BC",
+   "book": "Betfair Sportsbook",
+   "odds": 4.6,
+   "fair": 4.5,
+   "books": 21,
+   "detected": "2026-10-17T11:16:14.811983+00:00",
+   "link": "https://www.betfair.com/betting/football/italian-serie-a/ac-milan-v-atalanta/e-36099807"
   },
   {
    "sport": "La Liga - Spain",
@@ -738,22 +601,9 @@
    "book": "Casumo",
    "odds": 3.5,
    "fair": 3.38,
-   "books": 14,
-   "detected": "2026-10-17T06:14:17.567400+00:00",
+   "books": 13,
+   "detected": "2026-10-17T11:16:15.399902+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028209232"
-  },
-  {
-   "sport": "La Liga - Spain",
-   "market": "Match odds",
-   "event": "Athletic Bilbao v Getafe",
-   "start": "2026-10-25T13:00:00Z",
-   "selection": "Getafe",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.81,
-   "books": 14,
-   "detected": "2026-10-17T06:14:17.567804+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220334"
   },
   {
    "sport": "La Liga - Spain",
@@ -763,10 +613,23 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.33,
-   "books": 16,
-   "detected": "2026-10-17T06:14:17.568426+00:00",
+   "fair": 5.34,
+   "books": 15,
+   "detected": "2026-10-17T11:16:15.400628+00:00",
    "link": "https://www.betfred.com/sports/football/event/37220271"
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
+   "event": "Athletic Bilbao v Getafe",
+   "start": "2026-10-25T13:00:00Z",
+   "selection": "Getafe",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.83,
+   "books": 13,
+   "detected": "2026-10-17T11:16:15.400259+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37220334"
   },
   {
    "sport": "La Liga - Spain",
@@ -776,9 +639,9 @@
    "selection": "Draw",
    "book": "Betway",
    "odds": 4.0,
-   "fair": 3.88,
-   "books": 14,
-   "detected": "2026-10-17T06:14:17.567843+00:00",
+   "fair": 3.91,
+   "books": 13,
+   "detected": "2026-10-17T11:16:15.400284+00:00",
    "link": "https://betway.com/en/sports/evt/17268079"
   },
   {
@@ -791,7 +654,7 @@
    "odds": 4.75,
    "fair": 4.64,
    "books": 19,
-   "detected": "2026-10-17T06:14:17.707271+00:00",
+   "detected": "2026-10-17T11:16:15.524293+00:00",
    "link": "https://betway.com/en/sports/evt/17352066"
   },
   {
@@ -804,8 +667,21 @@
    "odds": 5.0,
    "fair": 4.89,
    "books": 19,
-   "detected": "2026-10-17T06:14:17.867278+00:00",
+   "detected": "2026-10-17T11:16:15.674448+00:00",
    "link": "https://www.betfred.com/sports/football/event/37256587"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Porto v PSV Eindhoven",
+   "start": "2026-10-20T19:00:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 4.33,
+   "fair": 4.24,
+   "books": 20,
+   "detected": "2026-10-17T11:16:15.673186+00:00",
+   "link": "https://betway.com/en/sports/evt/17354294"
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -815,9 +691,9 @@
    "selection": "KF Egnatia",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.12,
-   "books": 6,
-   "detected": "2026-10-17T06:14:17.999629+00:00",
+   "fair": 5.28,
+   "books": 8,
+   "detected": "2026-10-17T11:16:15.828655+00:00",
    "link": "https://www.betfred.com/sports/football/event/37290029"
   },
   {
@@ -830,7 +706,7 @@
    "odds": 6.0,
    "fair": 5.82,
    "books": 10,
-   "detected": "2026-10-17T06:14:17.999227+00:00",
+   "detected": "2026-10-17T11:16:15.828380+00:00",
    "link": "https://www.betfred.com/sports/football/event/37278039"
   },
   {
@@ -843,7 +719,7 @@
    "odds": 6.0,
    "fair": 5.65,
    "books": 18,
-   "detected": "2026-10-17T06:14:18.148324+00:00",
+   "detected": "2026-10-17T11:16:15.977988+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028946382"
   }
  ],

@@ -102,5 +102,31 @@
   "books": 10,
   "start": "2026-10-17T14:00:00Z",
   "seen": "2026-10-17T06:14:16.220829+00:00"
+ },
+ {
+  "sport": "FA Cup",
+  "event": "Bedford Town FC v Cray Wanderers FC",
+  "market": "Match odds",
+  "selection": "Cray Wanderers FC",
+  "book": "Bet Victor",
+  "odds": 6.0,
+  "fair": 5.17,
+  "edge": 16.1,
+  "books": 9,
+  "start": "2026-10-17T14:00:00Z",
+  "seen": "2026-10-17T11:16:14.120963+00:00"
+ },
+ {
+  "sport": "FA Cup",
+  "event": "Bedford Town FC v Cray Wanderers FC",
+  "market": "Match odds",
+  "selection": "Cray Wanderers FC",
+  "book": "Betano (UK)",
+  "odds": 6.0,
+  "fair": 5.17,
+  "edge": 16.1,
+  "books": 9,
+  "start": "2026-10-17T14:00:00Z",
+  "seen": "2026-10-17T11:16:14.120969+00:00"
  }
 ]
