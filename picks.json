@@ -4367,9 +4367,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-16T08:24:01.134098+00:00"
+  "latest_seen": "2026-10-16T08:24:01.134098+00:00",
+  "close_attempts": 1,
+  "close": 1.98,
+  "close_books": 5,
+  "close_at": "2026-10-17T01:38:20.535248+00:00",
+  "close_minutes_before": 31.7,
+  "close_final": true
  },
  "d253ca726f5d499c2d398b44c16f42d9|betway|h2h|Draw": {
   "sport": "FA Cup",
