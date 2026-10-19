@@ -397,9 +397,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.54,
-  "latest_seen": "2026-10-19T11:23:37.801278+00:00"
+  "latest_seen": "2026-10-19T11:23:37.801278+00:00",
+  "close_attempts": 1,
+  "close": 4.2,
+  "close_books": 15,
+  "close_at": "2026-10-19T23:55:48.807811+00:00",
+  "close_minutes_before": 19.2,
+  "close_final": true
  },
  "f66e4f29c1b7bcfc5ab58c0b88c8850b|betfred_uk|h2h|Draw": {
   "sport": "EPL",
