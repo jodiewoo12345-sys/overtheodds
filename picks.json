@@ -3327,9 +3327,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.12,
-  "latest_seen": "2026-10-19T11:23:37.801278+00:00"
+  "latest_seen": "2026-10-19T11:23:37.801278+00:00",
+  "close_attempts": 1,
+  "close": 2.1,
+  "close_books": 7,
+  "close_at": "2026-10-19T22:56:15.340540+00:00",
+  "close_minutes_before": 33.7,
+  "close_final": true
  },
  "698b49f4f4aa4d8486e987c6e77fb3df|casumo|h2h|Bradford City": {
   "sport": "League 1",
@@ -4279,9 +4285,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.89,
-  "latest_seen": "2026-10-19T11:23:37.801278+00:00"
+  "latest_seen": "2026-10-19T11:23:37.801278+00:00",
+  "close_attempts": 1,
+  "close": 1.91,
+  "close_books": 7,
+  "close_at": "2026-10-19T22:56:15.340540+00:00",
+  "close_minutes_before": 43.7,
+  "close_final": true
  },
  "0e2b3099b25e9827dc4a6abd7fabfa51|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -4418,8 +4430,8 @@
   "close_status": "insufficient_books",
   "latest_fair": 1.71,
   "latest_seen": "2026-10-19T11:23:37.801278+00:00",
-  "close_attempts": 1,
-  "close_checked_at": "2026-10-19T22:25:28.418679+00:00"
+  "close_attempts": 2,
+  "close_checked_at": "2026-10-19T22:56:15.340540+00:00"
  },
  "48ff496c5b9ad78f94388b4b86605144|casumo|h2h|Swansea City": {
   "sport": "Championship",
