@@ -323,9 +323,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.36,
-  "latest_seen": "2026-10-19T11:23:37.801278+00:00"
+  "latest_seen": "2026-10-19T11:23:37.801278+00:00",
+  "close_attempts": 1,
+  "close": 3.12,
+  "close_books": 21,
+  "close_at": "2026-10-19T16:04:57.248170+00:00",
+  "close_minutes_before": 25.0,
+  "close_final": true
  },
  "f122527f003276d3bca19efa48c902c1|betfred_uk|h2h|Washington Commanders": {
   "sport": "NFL",
