@@ -4415,9 +4415,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 1.71,
-  "latest_seen": "2026-10-19T11:23:37.801278+00:00"
+  "latest_seen": "2026-10-19T11:23:37.801278+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-19T22:25:28.418679+00:00"
  },
  "48ff496c5b9ad78f94388b4b86605144|casumo|h2h|Swansea City": {
   "sport": "Championship",
