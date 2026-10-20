@@ -7245,9 +7245,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.38,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 6.48,
+  "close_books": 20,
+  "close_at": "2026-10-20T16:27:03.469417+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "0686ce05e8489734fd66e5ee97fbbfa2|betvictor|h2h|PSV Eindhoven": {
   "sport": "UEFA Champions League",
