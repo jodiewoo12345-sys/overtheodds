@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-20T06:18:41.546197+00:00",
+ "updated": "2026-10-20T11:22:41.666566+00:00",
  "scanned": {
-  "events": 328,
-  "selections": 1031,
+  "events": 332,
+  "selections": 1045,
   "sports": 23,
   "by_market": {
-   "h2h": 841,
-   "totals": 152,
-   "spreads": 38
+   "h2h": 859,
+   "totals": 164,
+   "spreads": 22
   },
   "stale_dropped": 0
  },
@@ -68,9 +68,9 @@
    "selection": "New York Giants",
    "book": "Betway",
    "odds": 5.0,
-   "fair": 4.69,
+   "fair": 4.75,
    "books": 14,
-   "detected": "2026-10-20T06:18:39.392977+00:00",
+   "detected": "2026-10-20T11:22:36.721700+00:00",
    "link": "https://betway.com/en/sports/evt/17374763"
   },
   {
@@ -83,21 +83,21 @@
    "odds": 3.6,
    "fair": 3.48,
    "books": 14,
-   "detected": "2026-10-20T06:18:39.502395+00:00",
+   "detected": "2026-10-20T11:22:36.973564+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/oklahoma-city-thunder-denver-nuggets/SBTE_2_1028736327"
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "New Jersey Devils v Colorado Avalanche",
+   "event": "Columbus Blue Jackets v Toronto Maple Leafs",
    "start": "2026-10-20T23:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.91,
-   "fair": 1.72,
+   "fair": 1.73,
    "books": 7,
-   "detected": "2026-10-20T06:18:39.958282+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/colorado-avalanche-new-jersey-devils-e-7936936/",
+   "detected": "2026-10-20T11:22:37.801422+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-columbus-blue-jackets-e-7936929/",
    "also": [
     {
      "book": "William Hill",
@@ -108,27 +108,38 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v San Jose Sharks",
-   "start": "2026-10-20T23:10:00Z",
+   "event": "Vegas Golden Knights v Tampa Bay Lightning",
+   "start": "2026-10-21T02:40:00Z",
    "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.08,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-20T06:18:39.959230+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/montreal-canadiens-san-jos%C3%A9-sharks/SBTE_2_1028409870",
+   "book": "Casumo",
+   "odds": 2.3,
+   "fair": 2.11,
+   "books": 5,
+   "detected": "2026-10-20T11:22:37.803239+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409863",
    "also": [
     {
-     "book": "Casumo",
-     "odds": 2.08
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.08
-    },
+     "book": "Grosvenor",
+     "odds": 2.28
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "New Jersey Devils v Colorado Avalanche",
+   "start": "2026-10-20T23:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Casumo",
+   "odds": 2.3,
+   "fair": 2.12,
+   "books": 5,
+   "detected": "2026-10-20T11:22:37.801165+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028409868",
+   "also": [
     {
      "book": "Grosvenor",
-     "odds": 2.06
+     "odds": 2.28
     }
    ]
   },
@@ -137,52 +148,17 @@
    "market": "Totals",
    "event": "Vancouver Canucks v Carolina Hurricanes",
    "start": "2026-10-21T02:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.12,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-20T06:18:39.960862+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409866",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.79,
+   "books": 7,
+   "detected": "2026-10-20T11:22:37.802884+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544311/carolina-hurricanes-vancouver-canucks",
    "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 2.12
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.12
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.1
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Columbus Blue Jackets v Toronto Maple Leafs",
-   "start": "2026-10-20T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.15,
-   "fair": 2.06,
-   "books": 9,
-   "detected": "2026-10-20T06:18:39.958578+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/columbus-blue-jackets-toronto-maple-leafs/SBTE_2_1028409821",
-   "also": [
-    {
-     "book": "Casumo",
-     "odds": 2.15
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.15
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.14
+     "book": "888sport",
+     "odds": 1.91
     }
    ]
   },
@@ -191,17 +167,36 @@
    "market": "Totals",
    "event": "Seattle Kraken v Detroit Red Wings",
    "start": "2026-10-21T01:50:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.2,
-   "fair": 2.11,
-   "books": 5,
-   "detected": "2026-10-20T06:18:39.960590+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/seattle-kraken-detroit-red-wings/SBTE_2_1028409874",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.8,
+   "fair": 1.72,
+   "books": 7,
+   "detected": "2026-10-20T11:22:37.802684+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544287/detroit-red-wings-seattle-kraken",
    "also": [
     {
-     "book": "LiveScore Bet",
-     "odds": 2.2
+     "book": "888sport",
+     "odds": 1.8
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Montr\u00e9al Canadiens v San Jose Sharks",
+   "start": "2026-10-20T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.83,
+   "books": 7,
+   "detected": "2026-10-20T11:22:37.801861+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/san-jose-sharks-montreal-canadiens-e-7936938/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
     }
    ]
   },
@@ -215,7 +210,7 @@
    "odds": 1.8,
    "fair": 1.73,
    "books": 7,
-   "detected": "2026-10-20T06:18:39.960344+00:00",
+   "detected": "2026-10-20T11:22:37.802465+00:00",
    "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544288/minnesota-wild-edmonton-oilers",
    "also": [
     {
@@ -227,61 +222,27 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "New Jersey Devils v Colorado Avalanche",
-   "start": "2026-10-20T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.28,
-   "fair": 2.21,
-   "books": 7,
-   "detected": "2026-10-20T06:18:39.958239+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409868",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.28
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.28
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
    "event": "Columbus Blue Jackets v Toronto Maple Leafs",
    "start": "2026-10-20T23:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.91,
-   "fair": 1.86,
-   "books": 9,
-   "detected": "2026-10-20T06:18:39.958624+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-columbus-blue-jackets-e-7936929/",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.25,
+   "fair": 2.17,
+   "books": 7,
+   "detected": "2026-10-20T11:22:37.801386+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/columbus-blue-jackets-toronto-maple-leafs/SBTE_2_1028409821",
    "also": [
     {
-     "book": "William Hill",
-     "odds": 1.91
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v San Jose Sharks",
-   "start": "2026-10-20T23:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 2.0,
-   "fair": 1.95,
-   "books": 9,
-   "detected": "2026-10-20T06:18:39.959277+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/san-jose-sharks-montreal-canadiens-e-7936938/",
-   "also": [
+     "book": "Casumo",
+     "odds": 2.25
+    },
     {
-     "book": "William Hill",
-     "odds": 2.0
+     "book": "LiveScore Bet",
+     "odds": 2.25
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.23
     }
    ]
   },
@@ -295,21 +256,21 @@
    "odds": 5.0,
    "fair": 4.88,
    "books": 21,
-   "detected": "2026-10-20T06:18:40.069345+00:00",
+   "detected": "2026-10-20T11:22:37.985313+00:00",
    "link": "https://www.betfred.com/sports/football/event/37291687"
   },
   {
    "sport": "Championship",
    "market": "Match odds",
-   "event": "Portsmouth v Millwall",
-   "start": "2026-10-24T11:30:00Z",
-   "selection": "Millwall",
-   "book": "Casumo",
-   "odds": 2.9,
-   "fair": 2.84,
+   "event": "Cardiff City v Birmingham City",
+   "start": "2026-10-24T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 4.0,
+   "fair": 3.91,
    "books": 20,
-   "detected": "2026-10-20T06:18:40.070420+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028143042"
+   "detected": "2026-10-20T11:22:37.986633+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37291765"
   },
   {
    "sport": "League 1",
@@ -320,8 +281,8 @@
    "book": "Casumo",
    "odds": 2.8,
    "fair": 2.71,
-   "books": 18,
-   "detected": "2026-10-20T06:18:40.297521+00:00",
+   "books": 19,
+   "detected": "2026-10-20T11:22:38.594318+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028143412",
    "also": [
     {
@@ -333,28 +294,46 @@
   {
    "sport": "League 1",
    "market": "Match odds",
-   "event": "Wimbledon v Mansfield Town",
+   "event": "Cambridge United v Wycombe Wanderers",
    "start": "2026-10-20T18:45:00Z",
    "selection": "Draw",
    "book": "Sky Bet",
    "odds": 3.8,
    "fair": 3.72,
-   "books": 20,
-   "detected": "2026-10-20T06:18:40.293527+00:00",
-   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.390816781"
+   "books": 21,
+   "detected": "2026-10-20T11:22:38.589632+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.390570804"
   },
   {
    "sport": "FA Cup",
    "market": "Match odds",
-   "event": "Forest Green Rovers v Chesham United FC",
+   "event": "Yeovil Town v Leatherhead FC",
    "start": "2026-10-20T18:45:00Z",
    "selection": "Draw",
-   "book": "Betway",
-   "odds": 6.0,
-   "fair": 5.53,
-   "books": 11,
-   "detected": "2026-10-20T06:18:40.462927+00:00",
-   "link": "https://betway.com/en/sports/evt/17368282"
+   "book": "Virgin Bet",
+   "odds": 5.6,
+   "fair": 5.33,
+   "books": 12,
+   "detected": "2026-10-20T11:22:38.938366+00:00",
+   "link": "https://www.virginbet.com/sports/football/england-fa-cup/yeovil-town-leatherhead/SBTE_2_1029562945",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 5.6
+    },
+    {
+     "book": "Casumo",
+     "odds": 5.6
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 5.6
+    },
+    {
+     "book": "Betway",
+     "odds": 5.5
+    }
+   ]
   },
   {
    "sport": "FA Cup",
@@ -363,10 +342,10 @@
    "start": "2026-10-20T18:45:00Z",
    "selection": "Draw",
    "book": "Betway",
-   "odds": 4.33,
+   "odds": 4.2,
    "fair": 4.02,
    "books": 8,
-   "detected": "2026-10-20T06:18:40.462754+00:00",
+   "detected": "2026-10-20T11:22:38.937792+00:00",
    "link": "https://betway.com/en/sports/evt/17369608"
   },
   {
@@ -377,9 +356,9 @@
    "selection": "Draw",
    "book": "Unibet (UK)",
    "odds": 5.0,
-   "fair": 4.8,
+   "fair": 4.79,
    "books": 10,
-   "detected": "2026-10-20T06:18:40.462279+00:00",
+   "detected": "2026-10-20T11:22:38.936925+00:00",
    "link": "https://www.unibet.co.uk/betting/odds/football/england/fa_cup/tadley-calleva-vs-aldershot-town/91a129e54c907cb2b2b22b863f2a1974"
   },
   {
@@ -389,11 +368,62 @@
    "start": "2026-10-20T18:45:00Z",
    "selection": "Draw",
    "book": "Betway",
-   "odds": 3.8,
-   "fair": 3.65,
+   "odds": 3.75,
+   "fair": 3.63,
    "books": 11,
-   "detected": "2026-10-20T06:18:40.463270+00:00",
+   "detected": "2026-10-20T11:22:38.938217+00:00",
    "link": "https://betway.com/en/sports/evt/17368318"
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Harrogate Town AFC v Bury",
+   "start": "2026-10-20T18:45:00Z",
+   "selection": "Bury",
+   "book": "Bet Victor",
+   "odds": 4.4,
+   "fair": 4.29,
+   "books": 8,
+   "detected": "2026-10-20T11:22:38.937748+00:00",
+   "link": "https://www.betvictor.com/en-gb/sports/240/meetings/6228510/events/2842881346",
+   "also": [
+    {
+     "book": "Betano (UK)",
+     "odds": 4.4
+    }
+   ]
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Gloucester City FC v Barrow AFC",
+   "start": "2026-10-20T18:45:00Z",
+   "selection": "Gloucester City FC",
+   "book": "Bet Victor",
+   "odds": 3.9,
+   "fair": 3.81,
+   "books": 11,
+   "detected": "2026-10-20T11:22:38.937479+00:00",
+   "link": "https://www.betvictor.com/en-gb/sports/240/meetings/6228510/events/2842884708",
+   "also": [
+    {
+     "book": "Betano (UK)",
+     "odds": 3.9
+    }
+   ]
+  },
+  {
+   "sport": "FA Cup",
+   "market": "Match odds",
+   "event": "Gloucester City FC v Barrow AFC",
+   "start": "2026-10-20T18:45:00Z",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 4.0,
+   "fair": 3.91,
+   "books": 11,
+   "detected": "2026-10-20T11:22:38.937509+00:00",
+   "link": "https://betway.com/en/sports/evt/17368284"
   },
   {
    "sport": "Ligue 1 - France",
@@ -403,23 +433,10 @@
    "selection": "Troyes",
    "book": "Unibet (UK)",
    "odds": 5.0,
-   "fair": 4.88,
-   "books": 20,
-   "detected": "2026-10-20T06:18:40.532302+00:00",
+   "fair": 4.9,
+   "books": 19,
+   "detected": "2026-10-20T11:22:39.101175+00:00",
    "link": "https://www.unibet.co.uk/betting/odds/football/france/ligue_1/toulouse-vs-troyes/ed6ecf0e7b6c463edd859ebf656a1aac"
-  },
-  {
-   "sport": "Ligue 1 - France",
-   "market": "Match odds",
-   "event": "Marseille v Le Havre",
-   "start": "2026-10-25T16:15:00Z",
-   "selection": "Le Havre",
-   "book": "Betfred (UK)",
-   "odds": 5.5,
-   "fair": 5.38,
-   "books": 20,
-   "detected": "2026-10-20T06:18:40.533860+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220245"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -431,7 +448,7 @@
    "odds": 5.0,
    "fair": 4.76,
    "books": 10,
-   "detected": "2026-10-20T06:18:40.623909+00:00",
+   "detected": "2026-10-20T11:22:39.317706+00:00",
    "link": "https://www.betfred.com/sports/football/event/37304644"
   },
   {
@@ -444,8 +461,21 @@
    "odds": 5.5,
    "fair": 5.35,
    "books": 20,
-   "detected": "2026-10-20T06:18:40.862673+00:00",
+   "detected": "2026-10-20T11:22:39.699724+00:00",
    "link": "https://www.betfred.com/sports/football/event/37221616"
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Genoa v Juventus",
+   "start": "2026-10-28T19:45:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 4.0,
+   "fair": 3.92,
+   "books": 12,
+   "detected": "2026-10-20T11:22:39.701151+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37304622"
   },
   {
    "sport": "Dutch Eredivisie",
@@ -457,8 +487,21 @@
    "odds": 5.5,
    "fair": 5.33,
    "books": 19,
-   "detected": "2026-10-20T06:18:40.933966+00:00",
+   "detected": "2026-10-20T11:22:39.883476+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1027976572"
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
+   "event": "Alav\u00e9s v M\u00e1laga",
+   "start": "2026-10-23T19:00:00Z",
+   "selection": "M\u00e1laga",
+   "book": "Betfair Sportsbook",
+   "odds": 5.0,
+   "fair": 4.89,
+   "books": 19,
+   "detected": "2026-10-20T11:22:40.278869+00:00",
+   "link": "https://www.betfair.com/betting/football/spanish-la-liga/alaves-v-malaga/e-36180903"
   },
   {
    "sport": "La Liga - Spain",
@@ -467,10 +510,10 @@
    "start": "2026-10-25T20:00:00Z",
    "selection": "Draw",
    "book": "Sky Bet",
-   "odds": 5.75,
-   "fair": 5.3,
+   "odds": 5.5,
+   "fair": 5.38,
    "books": 19,
-   "detected": "2026-10-20T06:18:41.090584+00:00",
+   "detected": "2026-10-20T11:22:40.281384+00:00",
    "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.389494178",
    "also": [
     {
@@ -485,25 +528,12 @@
    "event": "Barcelona v Real Madrid",
    "start": "2026-10-25T20:00:00Z",
    "selection": "Real Madrid",
-   "book": "Betfred (UK)",
-   "odds": 5.0,
-   "fair": 4.77,
+   "book": "William Hill",
+   "odds": 4.6,
+   "fair": 4.5,
    "books": 19,
-   "detected": "2026-10-20T06:18:41.090511+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220271"
-  },
-  {
-   "sport": "La Liga - Spain",
-   "market": "Match odds",
-   "event": "Alav\u00e9s v M\u00e1laga",
-   "start": "2026-10-23T19:00:00Z",
-   "selection": "M\u00e1laga",
-   "book": "Betfair Sportsbook",
-   "odds": 5.0,
-   "fair": 4.89,
-   "books": 19,
-   "detected": "2026-10-20T06:18:41.087661+00:00",
-   "link": "https://www.betfair.com/betting/football/spanish-la-liga/alaves-v-malaga/e-36180903"
+   "detected": "2026-10-20T11:22:40.281331+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/football/OB_EV41504016/barcelona-vs-real-madrid"
   },
   {
    "sport": "UEFA Champions League",
@@ -513,10 +543,49 @@
    "selection": "Feyenoord",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.22,
+   "fair": 5.19,
    "books": 19,
-   "detected": "2026-10-20T06:18:41.270258+00:00",
+   "detected": "2026-10-20T11:22:40.635383+00:00",
    "link": "https://www.betfred.com/sports/football/event/37256587"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Napoli v Bod\u00f8/Glimt",
+   "start": "2026-10-20T19:00:00Z",
+   "selection": "Bod\u00f8/Glimt",
+   "book": "Betfair Sportsbook",
+   "odds": 4.6,
+   "fair": 4.48,
+   "books": 20,
+   "detected": "2026-10-20T11:22:40.632846+00:00",
+   "link": "https://www.betfair.com/betting/football/uefa-champions-league/napoli-v-bodo-glimt/e-36194557"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Fenerbahce v Slavia Praha",
+   "start": "2026-10-20T16:45:00Z",
+   "selection": "Slavia Praha",
+   "book": "Betfair Sportsbook",
+   "odds": 5.5,
+   "fair": 5.38,
+   "books": 20,
+   "detected": "2026-10-20T11:22:40.631414+00:00",
+   "link": "https://www.betfair.com/betting/football/uefa-champions-league/fenerbahce-v-slavia-prague/e-36194496"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Porto v PSV Eindhoven",
+   "start": "2026-10-20T19:00:00Z",
+   "selection": "PSV Eindhoven",
+   "book": "Bet Victor",
+   "odds": 6.0,
+   "fair": 5.87,
+   "books": 20,
+   "detected": "2026-10-20T11:22:40.633490+00:00",
+   "link": "https://www.betvictor.com/en-gb/sports/240/meetings/724920510/events/2842844565"
   },
   {
    "sport": "UEFA Europa Conference League",
@@ -528,7 +597,7 @@
    "odds": 5.5,
    "fair": 5.17,
    "books": 14,
-   "detected": "2026-10-20T06:18:41.355169+00:00",
+   "detected": "2026-10-20T11:22:40.825022+00:00",
    "link": "https://www.betfred.com/sports/football/event/37278037"
   },
   {
@@ -539,23 +608,23 @@
    "selection": "Gent",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.33,
+   "fair": 5.35,
    "books": 14,
-   "detected": "2026-10-20T06:18:41.357144+00:00",
+   "detected": "2026-10-20T11:22:40.826893+00:00",
    "link": "https://www.betfred.com/sports/football/event/37278043"
   },
   {
    "sport": "UEFA Europa League",
    "market": "Match odds",
-   "event": "SK Sturm Graz v Marseille",
+   "event": "Union Saint-Gilloise v Hapoel Be'er Sheva",
    "start": "2026-10-22T16:45:00Z",
-   "selection": "SK Sturm Graz",
-   "book": "Casumo",
-   "odds": 3.75,
-   "fair": 3.63,
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.72,
    "books": 19,
-   "detected": "2026-10-20T06:18:41.450116+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028946362"
+   "detected": "2026-10-20T11:22:41.482948+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37276877"
   },
   {
    "sport": "UEFA Europa League",
@@ -565,50 +634,23 @@
    "selection": "NK Celje",
    "book": "Casumo",
    "odds": 5.2,
-   "fair": 5.05,
+   "fair": 5.08,
    "books": 19,
-   "detected": "2026-10-20T06:18:41.452764+00:00",
+   "detected": "2026-10-20T11:22:41.486265+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028946383"
-  },
-  {
-   "sport": "UEFA Europa League",
-   "market": "Match odds",
-   "event": "Viktoria Plze\u0148 v PFC Levski Sofia",
-   "start": "2026-10-22T19:00:00Z",
-   "selection": "PFC Levski Sofia",
-   "book": "Casumo",
-   "odds": 4.7,
-   "fair": 4.57,
-   "books": 19,
-   "detected": "2026-10-20T06:18:41.453458+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028946375"
   },
   {
    "sport": "WTA Ningbo Open",
    "market": "Match odds",
-   "event": "Katarzyna Kawa v Daria Snigur",
-   "start": "2026-10-20T09:30:00Z",
-   "selection": "Katarzyna Kawa",
-   "book": "Virgin Bet",
-   "odds": 3.65,
-   "fair": 3.58,
-   "books": 16,
-   "detected": "2026-10-20T06:18:41.543777+00:00",
-   "link": "https://www.virginbet.com/sports/tennis/wta-ningbo/katarzyna-kawa-daria-snigur/SBTE_2_1029550241",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 3.65
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 3.65
-    },
-    {
-     "book": "Casumo",
-     "odds": 3.65
-    }
-   ]
+   "event": "Sorana Cirstea v Sara Bejlek",
+   "start": "2026-10-21T08:00:00Z",
+   "selection": "Sara Bejlek",
+   "book": "Betway",
+   "odds": 2.75,
+   "fair": 2.67,
+   "books": 10,
+   "detected": "2026-10-20T11:22:41.664049+00:00",
+   "link": "https://betway.com/en/sports/evt/17377892"
   }
  ],
  "results": [
