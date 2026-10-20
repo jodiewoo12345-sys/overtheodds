@@ -1521,9 +1521,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.5,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 5.04,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:42:07.408026+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "f2bd909f25eea6b4ce42d2f52275e5c4|betway|h2h|Draw": {
   "sport": "Bundesliga - Germany",
@@ -2949,9 +2955,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.77,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.87,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:42:07.408026+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "60431a347feac3f1c7ed925b8b769ec5|ladbrokes_uk|h2h|Chicago Bulls": {
   "sport": "NBA",
@@ -4525,9 +4537,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 6.4,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:42:07.408026+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "e342a49042c35c6a3f3e8720324b3f3c|casumo|h2h|NK Celje": {
   "sport": "UEFA Europa League",
@@ -7249,9 +7267,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.5,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 5.04,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:42:07.408026+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "16e237246e9bef441e69998d1ef9536d|betfair_sb_uk|h2h|Slavia Praha": {
   "sport": "UEFA Champions League",
@@ -7391,9 +7415,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 6.4,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:42:07.408026+00:00",
+  "close_minutes_before": 17.9,
+  "close_final": true
  },
  "6a834f4acad379d1b79dc482590a5851|betway|h2h|Sara Bejlek": {
   "sport": "WTA Ningbo Open",
