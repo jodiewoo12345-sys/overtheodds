@@ -3153,9 +3153,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.05,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.68,
+  "close_books": 21,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "b7b81c5b9bbfd3e1ed938347f319f4cd|casumo|h2h|Sheffield Wednesday": {
   "sport": "League 1",
@@ -4105,9 +4111,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.93,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.29,
+  "close_books": 21,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "6a5709e9c094b7f5d089026af10fb820|casumo|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
@@ -5607,9 +5619,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.73,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 3.71,
+  "close_books": 20,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "cc4a23d0f28d2844685ce9787d353c03|betway|h2h|Draw": {
   "sport": "FA Cup",
@@ -5675,9 +5693,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.09,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 6.16,
+  "close_books": 11,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "0e123ffb44ec83d32929082e982ae3aa|betway|h2h|Draw": {
   "sport": "FA Cup",
@@ -5743,9 +5767,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.07,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.16,
+  "close_books": 9,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "b6e858eed391a3ec9bb97b25449e6d18|unibet_uk|h2h|Draw": {
   "sport": "FA Cup",
@@ -5811,9 +5841,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.79,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.68,
+  "close_books": 10,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "8ed809b8c6d77cdbd058165600295946|betway|h2h|Draw": {
   "sport": "FA Cup",
@@ -5879,9 +5915,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.63,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 3.63,
+  "close_books": 10,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "0bbce95e5764e706e6c428bb52dc5536|unibet_uk|h2h|Troyes": {
   "sport": "Ligue 1 - France",
@@ -6701,9 +6743,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.72,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 3.46,
+  "close_books": 21,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "7fc985de961f526f04ba61fa32687deb|virginbet|h2h|Draw": {
   "sport": "FA Cup",
@@ -6769,9 +6817,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.35,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 5.33,
+  "close_books": 11,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "0e123ffb44ec83d32929082e982ae3aa|betvictor|h2h|Bury": {
   "sport": "FA Cup",
@@ -6837,9 +6891,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.29,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.35,
+  "close_books": 9,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "98fd61486aff4a5313487b9e3e71ff50|betvictor|h2h|Gloucester City FC": {
   "sport": "FA Cup",
@@ -6905,9 +6965,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.89,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 3.81,
+  "close_books": 10,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "98fd61486aff4a5313487b9e3e71ff50|betway|h2h|Draw": {
   "sport": "FA Cup",
@@ -6973,9 +7039,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.92,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 4.04,
+  "close_books": 10,
+  "close_at": "2026-10-20T18:06:44.099441+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "34848497b90b1392f6a767fc183d3ac1|betfred_uk|h2h|Draw": {
   "sport": "Serie A - Italy",
