@@ -4753,9 +4753,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.75,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close": 2.91,
+  "close_books": 16,
+  "close_at": "2026-10-21T03:31:29.293806+00:00",
+  "close_minutes_before": 28.5,
+  "close_final": true
  },
  "2bba7fde6f97d0e54403d53676e4ab63|betway|h2h|New York Giants": {
   "sport": "NFL",
