@@ -5315,9 +5315,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 1.73,
-  "latest_seen": "2026-10-20T11:22:41.666465+00:00"
+  "latest_seen": "2026-10-20T11:22:41.666465+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-21T00:39:20.153087+00:00"
  },
  "1ee9e671dfe8ad2d9c73f910baa56e1b|casumo|totals|Over 6.5": {
   "sport": "NHL",
