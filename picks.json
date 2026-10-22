@@ -1541,9 +1541,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.82,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 2.72,
+  "close_books": 18,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "382e017f27a6fbffbc48f736ca1680f2|betfred_uk|h2h|Draw": {
   "sport": "UEFA Europa League",
@@ -1893,9 +1899,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.82,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 3.63,
+  "close_books": 16,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "7a11fc32685c99c9ed6ec787445d8f08|virginbet|h2h|SC Freiburg": {
   "sport": "UEFA Europa Conference League",
@@ -1961,9 +1973,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.45,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 3.04,
+  "close_books": 16,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "9be240eead573e6718f4ba21ed1a6472|casumo|h2h|Lillestrom": {
   "sport": "UEFA Europa League",
@@ -2029,9 +2047,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.85,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 7.27,
+  "close_books": 18,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "13c0a92ee5159d2f1d2e0368811c9421|casumo|h2h|NEC Nijmegen": {
   "sport": "UEFA Europa League",
@@ -2443,9 +2467,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.7,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 6.71,
+  "close_books": 16,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "698b49f4f4aa4d8486e987c6e77fb3df|casumo|h2h|Bradford City": {
   "sport": "League 1",
@@ -3129,9 +3159,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 4.88,
+  "close_books": 14,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "dc02d531f844fa790c5dcae1918efd22|betfred_uk|h2h|Lech Pozna\u0144": {
   "sport": "UEFA Europa League",
@@ -3753,9 +3789,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.16,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 4.85,
+  "close_books": 18,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "2bba7fde6f97d0e54403d53676e4ab63|betway|h2h|New York Giants": {
   "sport": "NFL",
@@ -4161,9 +4203,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 4.88,
+  "close_books": 14,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "fcbdc440ac1bfd04e900e145e84ffaca|casumo|h2h|SK Sturm Graz": {
   "sport": "UEFA Europa League",
@@ -4303,9 +4351,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.89,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 4.89,
+  "close_books": 18,
+  "close_at": "2026-10-22T18:41:12.974431+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "60d0f45831035c374992df8ca58ca380|betfred_uk|h2h|Draw": {
   "sport": "Championship",
