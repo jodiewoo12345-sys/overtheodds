@@ -5055,9 +5055,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.77,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 1.88,
+  "close_books": 7,
+  "close_at": "2026-10-23T00:52:11.248542+00:00",
+  "close_minutes_before": 17.8,
+  "close_final": true
  },
  "d57c3873ab3f113b8b77614edff4cf8f|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -6247,9 +6253,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.29,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 2.14,
+  "close_books": 7,
+  "close_at": "2026-10-23T00:52:11.248542+00:00",
+  "close_minutes_before": 17.8,
+  "close_final": true
  },
  "0fbb2626ed9534b9dcf21d16925f9bd7|betfair_sb_uk|h2h|Coventry City": {
   "sport": "EPL",
