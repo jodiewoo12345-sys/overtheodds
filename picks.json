@@ -4214,11 +4214,11 @@
   "close_status": "final",
   "latest_fair": 3.07,
   "latest_seen": "2026-10-23T11:24:17.751480+00:00",
-  "close_attempts": 1,
-  "close": 3.79,
-  "close_books": 17,
-  "close_at": "2026-10-23T22:35:11.554167+00:00",
-  "close_minutes_before": 34.8,
+  "close_attempts": 2,
+  "close": 3.76,
+  "close_books": 18,
+  "close_at": "2026-10-23T23:04:05.760103+00:00",
+  "close_minutes_before": 5.9,
   "close_final": true
  },
  "1c5ec5a4457e4dc5873f85b1c6cbb07c|boylesports|h2h|Namibia": {
@@ -5042,11 +5042,11 @@
   "close_status": "final",
   "latest_fair": 3.07,
   "latest_seen": "2026-10-23T11:24:17.751480+00:00",
-  "close_attempts": 1,
-  "close": 3.79,
-  "close_books": 17,
-  "close_at": "2026-10-23T22:35:11.554167+00:00",
-  "close_minutes_before": 34.8,
+  "close_attempts": 2,
+  "close": 3.76,
+  "close_books": 18,
+  "close_at": "2026-10-23T23:04:05.760103+00:00",
+  "close_minutes_before": 5.9,
   "close_final": true
  },
  "8664b2167f22c59026d86615421463b1|betfair_sb_uk|h2h|Draw": {
