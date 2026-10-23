@@ -4607,9 +4607,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.05,
-  "latest_seen": "2026-10-23T11:24:17.751480+00:00"
+  "latest_seen": "2026-10-23T11:24:17.751480+00:00",
+  "close_attempts": 1,
+  "close": 6.14,
+  "close_books": 19,
+  "close_at": "2026-10-23T18:06:18.401530+00:00",
+  "close_minutes_before": 23.7,
+  "close_final": true
  },
  "aa24226151f43c2d37f480bbe143ecaa|sport888|h2h|Hamburger SV": {
   "sport": "Frauen-Bundesliga",
