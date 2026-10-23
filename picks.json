@@ -4638,11 +4638,11 @@
   "close_status": "final",
   "latest_fair": 1.7,
   "latest_seen": "2026-10-22T11:23:41.271199+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 1.7,
-  "close_books": 16,
-  "close_at": "2026-10-22T23:45:30.989951+00:00",
-  "close_minutes_before": 29.5,
+  "close_books": 15,
+  "close_at": "2026-10-23T00:08:00.662367+00:00",
+  "close_minutes_before": 7.0,
   "close_final": true
  },
  "b1be064fb52a198a62109c279e7ab24c|boylesports|h2h|San Francisco 49ers": {
