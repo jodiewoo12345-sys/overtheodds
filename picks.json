@@ -1455,9 +1455,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.24,
-  "latest_seen": "2026-10-23T11:24:17.751480+00:00"
+  "latest_seen": "2026-10-23T11:24:17.751480+00:00",
+  "close_attempts": 1,
+  "close": 3.2,
+  "close_books": 19,
+  "close_at": "2026-10-23T15:55:45.586473+00:00",
+  "close_minutes_before": 34.2,
+  "close_final": true
  },
  "0dae715cc56fe201f9e667917c126691|casumo|h2h|Valencia": {
   "sport": "La Liga - Spain",
