@@ -54,10 +54,15 @@ def spent_today(log, today):
     return sum(n for day, n in log.items() if day == today)
 
 
-def fetch(sport):
+def fetch(sport, markets):
+    """
+    Credits are charged per market per region, so asking for three markets when
+    the waiting picks only need one costs three times as much for nothing. Most
+    published selections are Match odds, so this is usually a 3x saving.
+    """
     r = requests.get(
         f"{API}/sports/{sport}/odds",
-        params={"apiKey": KEY, "regions": "uk", "markets": ",".join(sweep.MARKETS),
+        params={"apiKey": KEY, "regions": "uk", "markets": ",".join(sorted(markets)),
                 "oddsFormat": "decimal"},
         timeout=25,
     )
@@ -118,20 +123,40 @@ def main():
     if not due:
         print("Nothing in the closing window.")
         return
-    if budget_left <= 0:
-        print(f"Daily closing budget of {DAILY_BUDGET} credits already spent; skipping.")
-        return
+
+    # Order matters once the budget is finite. A snapshot taken at T-5 is worth
+    # far more than one at T-40, and a sport nobody has snapshotted at all is
+    # worth more than a marginal improvement on one already recorded. So: sports
+    # with an unsnapped pick first, then whichever is closest to the off. What
+    # gets dropped when the money runs out is then the least valuable thing,
+    # instead of whatever happened to sit last in picks.json.
+    def priority(entry):
+        items = entry[1]
+        unsnapped = any(not p.get("close_final") for _, p, _ in items)
+        return (0 if unsnapped else 1, min(m for _, _, m in items))
+
+    ordered = sorted((e for e in due.items() if e[0]), key=priority)
 
     frozen = 0
-    for sport, items in due.items():
-        if not sport or budget_left <= 0:
+    starved = []
+    for sport, items in ordered:
+        markets = {p.get("market_key", "h2h") for _, p, _ in items} or {"h2h"}
+        cost = len(markets)
+        if budget_left < cost:
+            # Say so in the record rather than leaving these indistinguishable
+            # from picks the window never caught. Silent skipping is what made
+            # this invisible for three weeks.
+            for _, pick, _ in items:
+                if not pick.get("close_final"):
+                    pick["close_status"] = "budget_exhausted"
+                    pick["close_checked_at"] = now.isoformat()
+            starved.extend(items)
             continue
         try:
-            events = fetch(sport)
+            events = fetch(sport, markets)
         except Exception as exc:
             print(f"  {sport}: skipped ({exc})")
             continue
-        cost = len(sweep.MARKETS)
         budget_left -= cost
         log[today] = log.get(today, 0) + cost
 
@@ -158,6 +183,10 @@ def main():
             frozen += 1
             print(f"  froze {pick['selection']} at {fair} "
                   f"({books} books, T-{minutes:.0f}m)")
+
+    if starved:
+        print(f"  !! {len(starved)} selections went unchecked: daily budget of "
+              f"{DAILY_BUDGET} credits is too small for this fixture list")
 
     # keep a fortnight of spending history, no more
     cutoff = (now - timedelta(days=14)).date().isoformat()

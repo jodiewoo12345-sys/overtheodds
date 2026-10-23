@@ -99,11 +99,50 @@ def settle_pick(pick, tally):
     return None
 
 
+def identity(row):
+    """
+    What makes a settled selection unique.
+
+    A pick id names one event, one market and one selection, so it is exact.
+    Rows written before pick ids existed fall back to the whole row, which is
+    deliberately conservative: it only ever catches a byte-for-byte repeat.
+
+    The looser key you reach for first - date, market, selection, bookmaker,
+    price - is WRONG and silently destructive. Two NHL games on the same night
+    routinely share "Under 6.5 at William Hill at 1.91", and treating those as
+    one deletes a real selection from the record. Of 26 rows that key flagged in
+    the first three weeks, 18 were separate fixtures.
+    """
+    pid = row.get("pick_id")
+    if pid:
+        return ("pick", pid)
+    return ("row", json.dumps(row, sort_keys=True))
+
+
+def dedupe(rows):
+    """Keep the first of each identity. Returns the clean list and what it dropped."""
+    seen, clean = set(), []
+    for row in rows:
+        key = identity(row)
+        if key in seen:
+            continue
+        seen.add(key)
+        clean.append(row)
+    return clean, len(rows) - len(clean)
+
+
 def main():
     if not KEY:
         sys.exit("Set ODDS_API_KEY first.")
     picks = load("picks.json", {})
     results = load("results.json", [])
+    results, removed = dedupe(results)
+    if removed:
+        # A run that wrote results.json without persisting picks.json re-settles
+        # the same picks next time. Rather than depend on that never happening,
+        # the record cleans itself here and the guard below stops it recurring.
+        print(f"removed {removed} duplicate rows from the record")
+    known = {identity(r) for r in results}
     if not picks:
         print("No picks waiting.")
         return
@@ -140,7 +179,8 @@ def main():
         status = pick.get("close_status", "pending")
         if not verified and status in ("pending", "final"):
             status = "missed_window"      # the event came and went without a usable snapshot
-        results.append({
+        row = {
+            "pick_id": pid,
             "sport": pick["sport"],
             "league": pick.get("sport_key", ""),
             "event": pick.get("event", ""),
@@ -166,7 +206,13 @@ def main():
             "profit": round(STAKE * (pick["odds"] - 1), 2) if result == "win"
                       else (0.0 if result == "void" else -float(STAKE)),
             "won": result == "win",                            # kept for older readers
-        })
+        }
+        if identity(row) in known:
+            # already settled on an earlier run; drop the pick and move on
+            picks.pop(pid)
+            continue
+        known.add(identity(row))
+        results.append(row)
         picks.pop(pid)
         settled += 1
 

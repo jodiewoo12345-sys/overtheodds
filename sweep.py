@@ -25,7 +25,22 @@ OUT = Path(os.getenv("OUT_DIR", "."))
 KEY = os.getenv("ODDS_API_KEY", "")
 
 MIN_EDGE = float(os.getenv("MIN_EDGE", 2.0))       # percent
-MIN_BOOKS = int(os.getenv("MIN_BOOKS", 5))          # ignore thinly priced markets
+MIN_BOOKS = int(os.getenv("MIN_BOOKS", 6))          # ignore thinly priced markets
+
+# Some markets need more depth than others before a consensus means anything.
+# Across the first three weeks, selections priced by exactly 5 bookmakers could
+# be verified against a closing price only 11% of the time, against 33-69% at
+# six or more: a market too thin to check at the off was already too thin to
+# judge. Handicaps are where this bit hardest — 13 published, 11 of them at
+# exactly 5 books, none ever verified — so they carry a higher floor and will
+# reappear on their own if the market ever prices them deeply enough.
+MIN_BOOKS_BY_MARKET = {
+    "spreads": int(os.getenv("MIN_BOOKS_SPREADS", 8)),
+}
+
+
+def min_books_for(market_key):
+    return MIN_BOOKS_BY_MARKET.get(market_key, MIN_BOOKS)
 MIN_HOURS = float(os.getenv("MIN_HOURS", 2.0))      # skip anything starting sooner
 MAX_PER_SPORT = int(os.getenv("MAX_PER_SPORT", 15))
 
@@ -46,6 +61,7 @@ def config_rules():
         "min_edge": MIN_EDGE,
         "max_edge": MAX_EDGE,
         "min_books": MIN_BOOKS,
+        "min_books_by_market": dict(MIN_BOOKS_BY_MARKET),
         "max_odds": MAX_ODDS,
         "min_hours": MIN_HOURS,
         "max_per_sport": MAX_PER_SPORT,
@@ -291,7 +307,7 @@ def find_value(events, sport_label, sport_key):
         views = consensus(ev)
         name = f"{ev.get('home_team','')} v {ev.get('away_team','')}".strip(" v")
         for (market_key, selection), by_book in views.items():
-            if len(by_book) < MIN_BOOKS:
+            if len(by_book) < min_books_for(market_key):
                 continue
             scanned["selections"] += 1
             scanned["by_market"][market_key] = scanned["by_market"].get(market_key, 0) + 1
@@ -304,7 +320,7 @@ def find_value(events, sport_label, sport_key):
                     continue
                 # the market's verdict, excluding the bookmaker being judged
                 others = [p for k, p in by_book.items() if k != book_key]
-                if len(others) < MIN_BOOKS - 1:
+                if len(others) < min_books_for(market_key) - 1:
                     continue
                 fair_prob = statistics.median(others)
                 if not 0 < fair_prob < 1:
