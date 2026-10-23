@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T06:20:14.853142+00:00",
+ "updated": "2026-10-23T11:24:17.751556+00:00",
  "scanned": {
   "events": 261,
-  "selections": 871,
-  "sports": 21,
+  "selections": 879,
+  "sports": 22,
   "by_market": {
-   "h2h": 723,
-   "totals": 140,
-   "spreads": 8
+   "h2h": 721,
+   "totals": 148,
+   "spreads": 10
   },
   "stale_dropped": 0
  },
@@ -63,6 +63,19 @@
   {
    "sport": "NFL",
    "market": "Match odds",
+   "event": "Miami Dolphins v New England Patriots",
+   "start": "2026-11-01T21:25:00Z",
+   "selection": "Miami Dolphins",
+   "book": "Betfred (UK)",
+   "odds": 4.5,
+   "fair": 4.33,
+   "books": 5,
+   "detected": "2026-10-23T11:24:12.823288+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35448773"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
    "event": "Detroit Lions v Green Bay Packers",
    "start": "2026-10-25T20:25:00Z",
    "selection": "Green Bay Packers",
@@ -70,7 +83,7 @@
    "odds": 2.65,
    "fair": 2.58,
    "books": 15,
-   "detected": "2026-10-23T06:20:11.786536+00:00",
+   "detected": "2026-10-23T11:24:12.820909+00:00",
    "link": "https://betway.com/en/sports/evt/17374774"
   },
   {
@@ -79,16 +92,16 @@
    "event": "Washington Wizards v Toronto Raptors",
    "start": "2026-10-23T23:10:00Z",
    "selection": "Washington Wizards",
-   "book": "Virgin Bet",
+   "book": "LiveScore Bet",
    "odds": 3.2,
    "fair": 3.07,
-   "books": 17,
-   "detected": "2026-10-23T06:20:11.930843+00:00",
-   "link": "https://www.virginbet.com/sports/basketball/nba/washington-wizards-toronto-raptors/SBTE_2_1028754205",
+   "books": 18,
+   "detected": "2026-10-23T11:24:13.054406+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/washington-wizards-toronto-raptors/SBTE_2_1028754205",
    "also": [
     {
-     "book": "LiveScore Bet",
-     "odds": 3.2
+     "book": "Virgin Bet",
+     "odds": 3.15
     }
    ]
   },
@@ -99,10 +112,10 @@
    "start": "2026-10-24T07:30:00Z",
    "selection": "Namibia",
    "book": "BoyleSports",
-   "odds": 3.0,
-   "fair": 2.74,
-   "books": 8,
-   "detected": "2026-10-23T06:20:12.244627+00:00",
+   "odds": 2.88,
+   "fair": 2.75,
+   "books": 12,
+   "detected": "2026-10-23T11:24:13.440204+00:00",
    "link": "https://www.boylesports.com/sports/cricket/event/international-odis/namibia-v-ireland"
   },
   {
@@ -112,15 +125,15 @@
    "start": "2026-10-24T01:10:00Z",
    "selection": "Over 6.5",
    "book": "Casumo",
-   "odds": 2.28,
+   "odds": 2.3,
    "fair": 2.11,
    "books": 5,
-   "detected": "2026-10-23T06:20:12.517368+00:00",
+   "detected": "2026-10-23T11:24:13.895537+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028409865",
    "also": [
     {
      "book": "Grosvenor",
-     "odds": 2.25
+     "odds": 2.23
     }
    ]
   },
@@ -133,8 +146,8 @@
    "book": "Betway",
    "odds": 5.75,
    "fair": 5.43,
-   "books": 20,
-   "detected": "2026-10-23T06:20:12.920903+00:00",
+   "books": 21,
+   "detected": "2026-10-23T11:24:14.541797+00:00",
    "link": "https://betway.com/en/sports/evt/17370627"
   },
   {
@@ -147,7 +160,7 @@
    "odds": 4.33,
    "fair": 3.88,
    "books": 5,
-   "detected": "2026-10-23T06:20:13.057476+00:00",
+   "detected": "2026-10-23T11:24:14.799942+00:00",
    "link": "https://www.betfred.com/sports/football/event/37348961",
    "also": [
     {
@@ -163,42 +176,15 @@
   {
    "sport": "Ligue 1 - France",
    "market": "Match odds",
-   "event": "Marseille v Le Havre",
-   "start": "2026-10-25T16:15:00Z",
-   "selection": "Le Havre",
-   "book": "Betfred (UK)",
+   "event": "Paris Saint Germain v Lyon",
+   "start": "2026-10-25T19:45:00Z",
+   "selection": "Draw",
+   "book": "Betfair Sportsbook",
    "odds": 5.5,
-   "fair": 5.37,
-   "books": 19,
-   "detected": "2026-10-23T06:20:13.286994+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220245"
-  },
-  {
-   "sport": "Bundesliga - Germany",
-   "market": "Match odds",
-   "event": "Eintracht Frankfurt v Hamburger SV",
-   "start": "2026-11-01T16:30:00Z",
-   "selection": "Hamburger SV",
-   "book": "Casumo",
-   "odds": 4.9,
-   "fair": 4.59,
-   "books": 14,
-   "detected": "2026-10-23T06:20:13.408181+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028230598",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 4.8
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 4.8
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 4.7
-    }
-   ]
+   "fair": 5.28,
+   "books": 20,
+   "detected": "2026-10-23T11:24:15.132716+00:00",
+   "link": "https://www.betfair.com/betting/football/french-ligue-1/paris-st-g-v-lyon/e-36180829"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -209,16 +195,12 @@
    "book": "Coral",
    "odds": 6.0,
    "fair": 5.83,
-   "books": 20,
-   "detected": "2026-10-23T06:20:13.406372+00:00",
+   "books": 21,
+   "detected": "2026-10-23T11:24:15.387627+00:00",
    "link": "https://sports.coral.co.uk/event/football/football-germany/german-bundesliga/sc-freiburg-v-bayern-munich/46793789/main-markets",
    "also": [
     {
      "book": "Betway",
-     "odds": 6.0
-    },
-    {
-     "book": "Unibet (UK)",
      "odds": 6.0
     },
     {
@@ -230,38 +212,15 @@
   {
    "sport": "Bundesliga - Germany",
    "market": "Match odds",
-   "event": "VfB Stuttgart v Borussia Monchengladbach",
-   "start": "2026-10-23T18:30:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.86,
-   "books": 20,
-   "detected": "2026-10-23T06:20:13.404432+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220225"
-  },
-  {
-   "sport": "Frauen-Bundesliga",
-   "market": "Match odds",
-   "event": "Hamburger SV v Union Berlin",
-   "start": "2026-10-25T16:00:00Z",
+   "event": "Eintracht Frankfurt v Hamburger SV",
+   "start": "2026-11-01T16:30:00Z",
    "selection": "Hamburger SV",
-   "book": "888sport",
-   "odds": 4.0,
-   "fair": 3.77,
-   "books": 6,
-   "detected": "2026-10-23T06:20:13.746992+00:00",
-   "link": "https://www.888sport.com/football/germany/german-bundesliga-women/hamburg-women-vs-union-berlin-women-e-8445836/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 4.0
-    },
-    {
-     "book": "Unibet (UK)",
-     "odds": 4.0
-    }
-   ]
+   "book": "Casumo",
+   "odds": 4.7,
+   "fair": 4.59,
+   "books": 14,
+   "detected": "2026-10-23T11:24:15.390188+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028230598"
   },
   {
    "sport": "Frauen-Bundesliga",
@@ -273,7 +232,7 @@
    "odds": 5.75,
    "fair": 5.59,
    "books": 10,
-   "detected": "2026-10-23T06:20:13.746765+00:00",
+   "detected": "2026-10-23T11:24:15.955832+00:00",
    "link": "https://www.unibet.co.uk/betting/odds/football/germany/women_bundesliga/stuttgart-(w)-vs-eintracht-frankfurt-(w)/ed9daf2c12d9b14f5497f1cdebf82f5a"
   },
   {
@@ -286,33 +245,29 @@
    "odds": 3.6,
    "fair": 3.45,
    "books": 12,
-   "detected": "2026-10-23T06:20:14.078333+00:00",
+   "detected": "2026-10-23T11:24:16.341420+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1027976537"
   },
   {
-   "sport": "La Liga - Spain",
+   "sport": "Primeira Liga - Portugal",
    "market": "Match odds",
-   "event": "Barcelona v Real Madrid",
-   "start": "2026-10-25T20:00:00Z",
-   "selection": "Real Madrid",
-   "book": "Ladbrokes",
-   "odds": 4.2,
-   "fair": 4.08,
-   "books": 19,
-   "detected": "2026-10-23T06:20:14.368975+00:00",
-   "link": "https://sports.ladbrokes.com/event/football/spanish/spanish-la-liga/fc-barcelona-v-real-madrid/259116540/main-markets",
+   "event": "CF Estrela v Casa Pia",
+   "start": "2026-10-24T14:30:00Z",
+   "selection": "Casa Pia",
+   "book": "Virgin Bet",
+   "odds": 4.9,
+   "fair": 4.79,
+   "books": 20,
+   "detected": "2026-10-23T11:24:16.650188+00:00",
+   "link": "https://www.virginbet.com/sports/football/portugal-primeira-liga/cf-estrela-casa-pia/SBTE_2_1028239019",
    "also": [
     {
-     "book": "Coral",
-     "odds": 4.2
+     "book": "Grosvenor",
+     "odds": 4.9
     },
     {
-     "book": "Betano (UK)",
-     "odds": 4.2
-    },
-    {
-     "book": "Bet Victor",
-     "odds": 4.2
+     "book": "Casumo",
+     "odds": 4.9
     }
    ]
   },
@@ -326,7 +281,7 @@
    "odds": 6.0,
    "fair": 5.85,
    "books": 16,
-   "detected": "2026-10-23T06:20:14.490980+00:00",
+   "detected": "2026-10-23T11:24:17.204696+00:00",
    "link": "https://www.unibet.co.uk/betting/odds/football/scotland/premiership/celtic-vs-dundee-united/ea62ade741f79b9cd34c33e0d4a23e40",
    "also": [
     {
@@ -346,37 +301,14 @@
   {
    "sport": "UEFA Champions League",
    "market": "Match odds",
-   "event": "Porto v Napoli",
-   "start": "2026-11-04T20:00:00Z",
-   "selection": "Napoli",
-   "book": "LiveScore Bet",
-   "odds": 3.5,
-   "fair": 3.35,
-   "books": 16,
-   "detected": "2026-10-23T06:20:14.719841+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/football/champions-league/fc-porto-napoli/SBTE_2_1028943213",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 3.5
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 3.5
-    }
-   ]
-  },
-  {
-   "sport": "UEFA Champions League",
-   "market": "Match odds",
    "event": "Viking FK v Sabah FK",
    "start": "2026-11-04T20:00:00Z",
    "selection": "Sabah FK",
    "book": "Virgin Bet",
    "odds": 5.6,
-   "fair": 5.38,
-   "books": 16,
-   "detected": "2026-10-23T06:20:14.720019+00:00",
+   "fair": 5.33,
+   "books": 17,
+   "detected": "2026-10-23T11:24:17.416124+00:00",
    "link": "https://www.virginbet.com/sports/football/champions-league/viking-stavanger-sabah-fk/SBTE_2_1028943222",
    "also": [
     {
@@ -397,23 +329,33 @@
    "selection": "RB Leipzig",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.29,
-   "books": 16,
-   "detected": "2026-10-23T06:20:14.719700+00:00",
+   "fair": 5.25,
+   "books": 17,
+   "detected": "2026-10-23T11:24:17.415595+00:00",
    "link": "https://www.betfred.com/sports/football/event/37339075"
   },
   {
    "sport": "UEFA Champions League",
    "market": "Match odds",
-   "event": "Manchester United v AS Roma",
-   "start": "2026-11-03T20:00:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 4.0,
-   "fair": 3.9,
-   "books": 16,
-   "detected": "2026-10-23T06:20:14.717606+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37339078"
+   "event": "Porto v Napoli",
+   "start": "2026-11-04T20:00:00Z",
+   "selection": "Napoli",
+   "book": "LiveScore Bet",
+   "odds": 3.5,
+   "fair": 3.36,
+   "books": 17,
+   "detected": "2026-10-23T11:24:17.415847+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/football/champions-league/fc-porto-napoli/SBTE_2_1028943213",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.5
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.5
+    }
+   ]
   }
  ],
  "results": [
