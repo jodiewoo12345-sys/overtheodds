@@ -3937,9 +3937,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.8,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 3.69,
+  "close_books": 18,
+  "close_at": "2026-10-23T01:32:55.719291+00:00",
+  "close_minutes_before": 7.1,
+  "close_final": true
  },
  "c4d125854e94f7bef22d7d93a5473a5e|casumo|h2h|Millwall": {
   "sport": "Championship",
@@ -4913,9 +4919,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.79,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 1.78,
+  "close_books": 7,
+  "close_at": "2026-10-23T01:32:55.719291+00:00",
+  "close_minutes_before": 37.1,
+  "close_final": true
  },
  "5ae32c2722f3ff4fa178c253f864b384|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -5277,9 +5289,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.26,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 2.29,
+  "close_books": 7,
+  "close_at": "2026-10-23T01:32:55.719291+00:00",
+  "close_minutes_before": 37.1,
+  "close_final": true
  },
  "5ae32c2722f3ff4fa178c253f864b384|casumo|totals|Over 6.5": {
   "sport": "NHL",
@@ -5419,9 +5437,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.77,
-  "latest_seen": "2026-10-22T11:23:41.271199+00:00"
+  "latest_seen": "2026-10-22T11:23:41.271199+00:00",
+  "close_attempts": 1,
+  "close": 1.76,
+  "close_books": 7,
+  "close_at": "2026-10-23T01:32:55.719291+00:00",
+  "close_minutes_before": 37.1,
+  "close_final": true
  },
  "0fbb2626ed9534b9dcf21d16925f9bd7|betfair_sb_uk|h2h|Draw": {
   "sport": "EPL",
