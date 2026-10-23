@@ -3374,11 +3374,11 @@
   "close_status": "final",
   "latest_fair": 3.81,
   "latest_seen": "2026-10-23T06:20:14.853080+00:00",
-  "close_attempts": 1,
-  "close": 4.03,
+  "close_attempts": 2,
+  "close": 4.28,
   "close_books": 12,
-  "close_at": "2026-10-23T10:50:15.549474+00:00",
-  "close_minutes_before": 39.7,
+  "close_at": "2026-10-23T11:24:43.640577+00:00",
+  "close_minutes_before": 5.3,
   "close_final": true
  },
  "0fbb2626ed9534b9dcf21d16925f9bd7|betfair_sb_uk|h2h|Draw": {
