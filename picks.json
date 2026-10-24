@@ -1867,9 +1867,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.35,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.36,
+  "close_books": 19,
+  "close_at": "2026-10-24T18:06:31.258785+00:00",
+  "close_minutes_before": 23.5,
+  "close_final": true
  },
  "c655584661b81e424d8979da8b040c46|casumo|h2h|Groningen": {
   "sport": "Dutch Eredivisie",
