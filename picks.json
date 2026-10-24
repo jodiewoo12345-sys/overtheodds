@@ -1352,11 +1352,11 @@
   "close_status": "final",
   "latest_fair": 4.92,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
-  "close": 5.09,
+  "close_attempts": 2,
+  "close": 5.54,
   "close_books": 20,
-  "close_at": "2026-10-24T13:55:13.747665+00:00",
-  "close_minutes_before": 34.8,
+  "close_at": "2026-10-24T14:18:52.453544+00:00",
+  "close_minutes_before": 11.1,
   "close_final": true
  },
  "04bb232a2940fcf03abf05b308e27577|casumo|h2h|Union Berlin": {
@@ -4502,11 +4502,11 @@
   "close_status": "final",
   "latest_fair": 4.88,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
-  "close": 4.86,
+  "close_attempts": 2,
+  "close": 4.75,
   "close_books": 20,
-  "close_at": "2026-10-24T13:55:13.747665+00:00",
-  "close_minutes_before": 34.8,
+  "close_at": "2026-10-24T14:18:52.453544+00:00",
+  "close_minutes_before": 11.1,
   "close_final": true
  },
  "efb2248ad964f84921b3e700125e404b|paddypower|h2h|Dallas Mavericks": {
