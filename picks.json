@@ -4815,9 +4815,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.27,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.3,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "4b444895e9b0169627abc9d6df1baae9|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -4957,9 +4963,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.31,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.31,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "bd017af43e74a8d506cdcec368a4c2c0|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -5028,9 +5040,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.09,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.1,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "4b444895e9b0169627abc9d6df1baae9|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -5170,9 +5188,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.79,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 1.77,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "8e704270ddeb2ccdd00196b06cdb3bf6|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -5241,9 +5265,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.76,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 1.76,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "8664b2167f22c59026d86615421463b1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -6099,9 +6129,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.79,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 1.91,
+  "close_books": 7,
+  "close_at": "2026-10-24T22:31:48.900499+00:00",
+  "close_minutes_before": 38.2,
+  "close_final": true
  },
  "fcc34b753fc61a0cc0e11d7cb0a0c36b|paddypower|h2h|Le Havre": {
   "sport": "Ligue 1 - France",
