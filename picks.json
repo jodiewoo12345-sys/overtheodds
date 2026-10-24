@@ -95,9 +95,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.81,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 5.0,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "3ed4d1e775910625c50518a384e9c547|betfred_uk|h2h|Eintracht Frankfurt": {
   "sport": "Bundesliga - Germany",
@@ -917,9 +923,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.47,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 4.59,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 9.6,
+  "close_final": true
  },
  "983440c6e348b558c6a3e10e2061ba55|grosvenor|h2h|FC Schalke 04": {
   "sport": "Bundesliga - Germany",
@@ -985,9 +997,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.49,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.41,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 9.6,
+  "close_final": true
  },
  "04dac5e98ab5fc5564980542ca3fc746|betfred_uk|h2h|Draw": {
   "sport": "Bundesliga - Germany",
@@ -1053,9 +1071,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.55,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 5.16,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 9.6,
+  "close_final": true
  },
  "f2bd909f25eea6b4ce42d2f52275e5c4|betway|h2h|Draw": {
   "sport": "Bundesliga - Germany",
@@ -1393,9 +1417,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.47,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 4.59,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 9.6,
+  "close_final": true
  },
  "0dae715cc56fe201f9e667917c126691|casumo|h2h|Valencia": {
   "sport": "La Liga - Spain",
@@ -1597,9 +1627,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.76,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.78,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "b7b81c5b9bbfd3e1ed938347f319f4cd|casumo|h2h|Sheffield Wednesday": {
   "sport": "League 1",
@@ -1665,9 +1701,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.52,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.7,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "1eb5e1a69ae9dd9edd92fde344308a4e|betfred_uk|h2h|Hamburger SV": {
   "sport": "Bundesliga - Germany",
@@ -2141,9 +2183,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.04,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.02,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "6a5709e9c094b7f5d089026af10fb820|casumo|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
@@ -2691,9 +2739,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.97,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.92,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "34848497b90b1392f6a767fc183d3ac1|betfred_uk|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -3037,9 +3091,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.64,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.67,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "7630f897583f3acc0f483fa2d17d1ac5|betfred_uk|h2h|Draw": {
   "sport": "Bundesliga - Germany",
@@ -3105,9 +3165,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.79,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.83,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 9.6,
+  "close_final": true
  },
  "f2bd909f25eea6b4ce42d2f52275e5c4|coral|h2h|Draw": {
   "sport": "Bundesliga - Germany",
@@ -3513,9 +3579,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.32,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.35,
+  "close_books": 21,
+  "close_at": "2026-10-24T13:20:23.499664+00:00",
+  "close_minutes_before": 39.6,
+  "close_final": true
  },
  "ba82ee37f64a66a30d85f8b90082ec2f|livescorebet|h2h|Napoli": {
   "sport": "UEFA Champions League",
