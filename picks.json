@@ -3705,9 +3705,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.75,
-  "latest_seen": "2026-10-23T11:24:17.751480+00:00"
+  "latest_seen": "2026-10-23T11:24:17.751480+00:00",
+  "close_attempts": 1,
+  "close": 2.7,
+  "close_books": 12,
+  "close_at": "2026-10-24T07:02:42.426403+00:00",
+  "close_minutes_before": 27.3,
+  "close_final": true
  },
  "efe79bde5c4eb41de869c2c24c911b41|betway|h2h|Draw": {
   "sport": "League 1",
