@@ -3321,9 +3321,11 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "insufficient_books",
   "latest_fair": 2.0,
-  "latest_seen": "2026-10-22T08:52:19.805642+00:00"
+  "latest_seen": "2026-10-22T08:52:19.805642+00:00",
+  "close_attempts": 1,
+  "close_checked_at": "2026-10-24T01:27:02.764048+00:00"
  },
  "d642d88020e7ce9d602d0354b3856fec|coral|h2h|Zimbabwe": {
   "sport": "One Day Internationals",
@@ -3939,9 +3941,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.79,
-  "latest_seen": "2026-10-23T11:24:17.751480+00:00"
+  "latest_seen": "2026-10-23T11:24:17.751480+00:00",
+  "close_attempts": 1,
+  "close": 2.71,
+  "close_books": 18,
+  "close_at": "2026-10-24T01:27:02.764048+00:00",
+  "close_minutes_before": 13.0,
+  "close_final": true
  },
  "0fbb2626ed9534b9dcf21d16925f9bd7|betfair_sb_uk|h2h|Coventry City": {
   "sport": "EPL",
