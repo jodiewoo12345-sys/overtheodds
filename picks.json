@@ -4673,9 +4673,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 6.04,
+  "close_books": 17,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 40.3,
+  "close_final": true
  },
  "f187c8a86c1d1676bb45b9b3a6707872|livescorebet|h2h|Brooklyn Nets": {
   "sport": "NBA",
@@ -4744,9 +4750,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.09,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 4.83,
+  "close_books": 17,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 40.3,
+  "close_final": true
  },
  "fbdbed1c7dfbc3b1837fa581ea66b703|casumo|totals|Over 6.5": {
   "sport": "NHL",
@@ -4818,11 +4830,11 @@
   "close_status": "final",
   "latest_fair": 2.27,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 2.3,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "4b444895e9b0169627abc9d6df1baae9|livescorebet|totals|Over 6.5": {
@@ -4966,11 +4978,11 @@
   "close_status": "final",
   "latest_fair": 2.31,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
-  "close": 2.31,
+  "close_attempts": 2,
+  "close": 2.32,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "bd017af43e74a8d506cdcec368a4c2c0|sport888|totals|Under 6.5": {
@@ -5043,11 +5055,11 @@
   "close_status": "final",
   "latest_fair": 2.09,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 2.1,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "4b444895e9b0169627abc9d6df1baae9|sport888|totals|Under 6.5": {
@@ -5191,11 +5203,11 @@
   "close_status": "final",
   "latest_fair": 1.79,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 1.77,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "8e704270ddeb2ccdd00196b06cdb3bf6|sport888|totals|Under 6.5": {
@@ -5268,11 +5280,11 @@
   "close_status": "final",
   "latest_fair": 1.76,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 1.76,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "8664b2167f22c59026d86615421463b1|betfred_uk|h2h|Draw": {
@@ -6058,9 +6070,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 6.04,
+  "close_books": 17,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 40.3,
+  "close_final": true
  },
  "0b8a03e43524a57bae9c25a6c73c9024|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -6132,11 +6150,11 @@
   "close_status": "final",
   "latest_fair": 1.79,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
-  "close": 1.91,
+  "close_attempts": 2,
+  "close": 1.89,
   "close_books": 7,
-  "close_at": "2026-10-24T22:31:48.900499+00:00",
-  "close_minutes_before": 38.2,
+  "close_at": "2026-10-24T22:59:39.631406+00:00",
+  "close_minutes_before": 10.3,
   "close_final": true
  },
  "fcc34b753fc61a0cc0e11d7cb0a0c36b|paddypower|h2h|Le Havre": {
