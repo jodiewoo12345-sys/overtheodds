@@ -2618,8 +2618,8 @@
   "close_status": "unavailable",
   "latest_fair": 4.92,
   "latest_seen": "2026-10-20T11:22:41.666465+00:00",
-  "close_attempts": 1,
-  "close_checked_at": "2026-10-24T14:49:51.562864+00:00"
+  "close_attempts": 2,
+  "close_checked_at": "2026-10-24T15:11:17.346122+00:00"
  },
  "3564688383b255192409c9deb8e526ed|betfred_uk|h2h|Udinese": {
   "sport": "Serie A - Italy",
