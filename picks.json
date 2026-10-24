@@ -169,9 +169,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.92,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 6.61,
+  "close_books": 21,
+  "close_at": "2026-10-24T15:48:11.421531+00:00",
+  "close_minutes_before": 41.8,
+  "close_final": true
  },
  "fcc34b753fc61a0cc0e11d7cb0a0c36b|betfred_uk|h2h|Le Havre": {
   "sport": "Ligue 1 - France",
@@ -645,9 +651,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.56,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.45,
+  "close_books": 20,
+  "close_at": "2026-10-24T15:48:11.421531+00:00",
+  "close_minutes_before": 41.8,
+  "close_final": true
  },
  "9c4254cba9944a839b421db27260504d|betfred_uk|h2h|Getafe": {
   "sport": "La Liga - Spain",
@@ -1497,9 +1509,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.56,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 3.45,
+  "close_books": 20,
+  "close_at": "2026-10-24T15:48:11.421531+00:00",
+  "close_minutes_before": 41.8,
+  "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|betfred_uk|h2h|Draw": {
   "sport": "La Liga - Spain",
