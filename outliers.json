@@ -362,5 +362,31 @@
   "books": 12,
   "start": "2026-10-27T00:15:00Z",
   "seen": "2026-10-22T11:23:38.819369+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Washington Capitals v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Grosvenor",
+  "odds": 2.23,
+  "fair": 1.94,
+  "edge": 14.8,
+  "books": 7,
+  "start": "2026-10-24T23:10:00Z",
+  "seen": "2026-10-24T06:15:57.141774+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Washington Capitals v Buffalo Sabres",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Casumo",
+  "odds": 2.3,
+  "fair": 1.94,
+  "edge": 18.4,
+  "books": 7,
+  "start": "2026-10-24T23:10:00Z",
+  "seen": "2026-10-24T06:15:57.141780+00:00"
  }
 ]
