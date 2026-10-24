@@ -843,9 +843,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.1,
-  "latest_seen": "2026-10-24T06:15:59.349151+00:00"
+  "latest_seen": "2026-10-24T06:15:59.349151+00:00",
+  "close_attempts": 1,
+  "close": 4.83,
+  "close_books": 20,
+  "close_at": "2026-10-24T11:02:33.890632+00:00",
+  "close_minutes_before": 27.4,
+  "close_final": true
  },
  "04bb232a2940fcf03abf05b308e27577|grosvenor|h2h|Union Berlin": {
   "sport": "Bundesliga - Germany",
@@ -2475,9 +2481,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.98,
-  "latest_seen": "2026-10-24T06:15:59.349151+00:00"
+  "latest_seen": "2026-10-24T06:15:59.349151+00:00",
+  "close_attempts": 1,
+  "close": 3.04,
+  "close_books": 21,
+  "close_at": "2026-10-24T11:02:33.890632+00:00",
+  "close_minutes_before": 27.4,
+  "close_final": true
  },
  "0bbce95e5764e706e6c428bb52dc5536|unibet_uk|h2h|Troyes": {
   "sport": "Ligue 1 - France",
@@ -3779,9 +3791,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.69,
-  "latest_seen": "2026-10-24T06:15:59.349151+00:00"
+  "latest_seen": "2026-10-24T06:15:59.349151+00:00",
+  "close_attempts": 1,
+  "close": 5.47,
+  "close_books": 21,
+  "close_at": "2026-10-24T11:02:33.890632+00:00",
+  "close_minutes_before": 27.4,
+  "close_final": true
  },
  "4c08b213ed416e8f41e038f42a42b962|betfred_uk|h2h|Manchester United": {
   "sport": "EPL",
