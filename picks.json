@@ -4069,9 +4069,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.7,
-  "latest_seen": "2026-10-24T06:15:59.349151+00:00"
+  "latest_seen": "2026-10-24T06:15:59.349151+00:00",
+  "close_attempts": 1,
+  "close": 5.7,
+  "close_books": 11,
+  "close_at": "2026-10-24T11:33:35.800236+00:00",
+  "close_minutes_before": 26.4,
+  "close_final": true
  },
  "6277e639c064e641265fcb98a0e200b9|virginbet|h2h|Sabah FK": {
   "sport": "UEFA Champions League",
