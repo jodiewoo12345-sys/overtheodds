@@ -5314,9 +5314,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.07,
-  "latest_seen": "2026-10-24T06:15:59.349151+00:00"
+  "latest_seen": "2026-10-24T06:15:59.349151+00:00",
+  "close_attempts": 1,
+  "close": 5.24,
+  "close_books": 19,
+  "close_at": "2026-10-24T10:33:47.645697+00:00",
+  "close_minutes_before": 26.2,
+  "close_final": true
  },
  "3564688383b255192409c9deb8e526ed|betfair_sb_uk|h2h|Udinese": {
   "sport": "Serie A - Italy",
