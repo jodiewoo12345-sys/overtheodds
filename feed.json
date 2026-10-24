@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-24T06:15:59.349188+00:00",
+ "updated": "2026-10-24T11:18:27.069007+00:00",
  "scanned": {
-  "events": 275,
-  "selections": 799,
-  "sports": 22,
+  "events": 273,
+  "selections": 762,
+  "sports": 21,
   "by_market": {
-   "h2h": 745,
-   "totals": 54
+   "h2h": 710,
+   "totals": 52
   },
   "stale_dropped": 0
  },
@@ -63,34 +63,46 @@
  },
  "bets": [
   {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Miami Dolphins v New England Patriots",
+   "start": "2026-11-01T21:25:00Z",
+   "selection": "Miami Dolphins",
+   "book": "Betfred (UK)",
+   "odds": 4.5,
+   "fair": 4.36,
+   "books": 6,
+   "detected": "2026-10-24T11:18:25.121764+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35448773"
+  },
+  {
    "sport": "NBA",
    "market": "Match odds",
    "event": "Dallas Mavericks v San Antonio Spurs",
    "start": "2026-10-25T00:10:00Z",
    "selection": "Dallas Mavericks",
    "book": "Paddy Power",
-   "odds": 5.5,
-   "fair": 5.07,
-   "books": 18,
-   "detected": "2026-10-24T06:15:56.660183+00:00",
-   "link": "https://www.paddypower.com/basketball/nba/san-antonio-spurs-@-dallas-mavericks-36224425"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Philadelphia 76ers v Milwaukee Bucks",
-   "start": "2026-10-24T23:40:00Z",
-   "selection": "Milwaukee Bucks",
-   "book": "888sport",
    "odds": 6.0,
-   "fair": 5.7,
+   "fair": 5.37,
    "books": 18,
-   "detected": "2026-10-24T06:15:56.659777+00:00",
-   "link": "https://www.888sport.com/basketball/united-states/nba/milwaukee-bucks-philadelphia-76ers-e-8449728/",
+   "detected": "2026-10-24T11:18:25.200765+00:00",
+   "link": "https://www.paddypower.com/basketball/nba/san-antonio-spurs-@-dallas-mavericks-36224425",
    "also": [
     {
-     "book": "William Hill",
-     "odds": 6.0
+     "book": "Sky Bet",
+     "odds": 5.5
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 5.5
+    },
+    {
+     "book": "Betfair Sportsbook",
+     "odds": 5.5
+    },
+    {
+     "book": "Betway",
+     "odds": 5.5
     }
    ]
   },
@@ -101,42 +113,57 @@
    "start": "2026-10-24T23:40:00Z",
    "selection": "Brooklyn Nets",
    "book": "LiveScore Bet",
-   "odds": 5.25,
+   "odds": 5.3,
    "fair": 5.07,
    "books": 18,
-   "detected": "2026-10-24T06:15:56.659537+00:00",
+   "detected": "2026-10-24T11:18:25.198967+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/cleveland-cavaliers-brooklyn-nets/SBTE_2_1028754196",
    "also": [
     {
      "book": "Virgin Bet",
-     "odds": 5.2
+     "odds": 5.25
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Philadelphia 76ers v Milwaukee Bucks",
+   "start": "2026-10-24T23:40:00Z",
+   "selection": "Milwaukee Bucks",
+   "book": "Unibet (UK)",
+   "odds": 6.0,
+   "fair": 5.82,
+   "books": 18,
+   "detected": "2026-10-24T11:18:25.199762+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/basketball/usa/nba/philadelphia-76ers-vs-milwaukee-bucks/371618c6c75d773e8902e7a0c248c115",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 6.0
+    },
+    {
+     "book": "William Hill",
+     "odds": 6.0
     }
    ]
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Boston Bruins v San Jose Sharks",
+   "event": "Washington Capitals v Buffalo Sabres",
    "start": "2026-10-24T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.23,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.141579+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409820",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.79,
+   "books": 7,
+   "detected": "2026-10-24T11:18:25.566116+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/buffalo-sabres-washington-capitals-e-7936880/",
    "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 2.23
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.23
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.17
+     "book": "William Hill",
+     "odds": 2.0
     }
    ]
   },
@@ -145,25 +172,17 @@
    "market": "Totals",
    "event": "Utah Mammoth v Tampa Bay Lightning",
    "start": "2026-10-25T00:10:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.23,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.142478+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/utah-mammoth-tampa-bay-lightning/SBTE_2_1028409862",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.8,
+   "books": 7,
+   "detected": "2026-10-24T11:18:25.567374+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/tampa-bay-lightning-utah-mammoth-e-7953911/",
    "also": [
     {
-     "book": "Casumo",
-     "odds": 2.23
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.23
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.17
+     "book": "William Hill",
+     "odds": 2.0
     }
    ]
   },
@@ -172,25 +191,36 @@
    "market": "Totals",
    "event": "Pittsburgh Penguins v Nashville Predators",
    "start": "2026-10-24T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.2,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.142312+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/pittsburgh-penguins-nashville-predators/SBTE_2_1028409845",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.76,
+   "books": 7,
+   "detected": "2026-10-24T11:18:25.567095+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/nashville-predators-pittsburgh-penguins-e-7936882/",
    "also": [
     {
-     "book": "Casumo",
-     "odds": 2.2
-    },
+     "book": "William Hill",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Boston Bruins v San Jose Sharks",
+   "start": "2026-10-24T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.79,
+   "books": 7,
+   "detected": "2026-10-24T11:18:25.565819+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500917/san-jose-sharks-boston-bruins",
+   "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.14
+     "book": "888sport",
+     "odds": 1.91
     }
    ]
   },
@@ -202,9 +232,9 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.2,
-   "fair": 2.02,
+   "fair": 2.09,
    "books": 7,
-   "detected": "2026-10-24T06:15:57.142167+00:00",
+   "detected": "2026-10-24T11:18:25.566813+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-edmonton-oilers-e-7936876/",
    "also": [
     {
@@ -218,74 +248,21 @@
    "market": "Totals",
    "event": "Utah Mammoth v Tampa Bay Lightning",
    "start": "2026-10-25T00:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 2.0,
-   "fair": 1.86,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.142500+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/tampa-bay-lightning-utah-mammoth-e-7953911/",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.14,
+   "fair": 2.09,
+   "books": 7,
+   "detected": "2026-10-24T11:18:25.567339+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/utah-mammoth-tampa-bay-lightning/SBTE_2_1028409862",
    "also": [
     {
-     "book": "William Hill",
-     "odds": 2.0
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Boston Bruins v San Jose Sharks",
-   "start": "2026-10-24T23:10:00Z",
-   "selection": "Under 6.5",
-   "book": "William Hill",
-   "odds": 1.91,
-   "fair": 1.86,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.141608+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500917/san-jose-sharks-boston-bruins",
-   "also": [
+     "book": "Casumo",
+     "odds": 2.14
+    },
     {
-     "book": "888sport",
-     "odds": 1.91
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Pittsburgh Penguins v Nashville Predators",
-   "start": "2026-10-24T23:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.91,
-   "fair": 1.87,
-   "books": 9,
-   "detected": "2026-10-24T06:15:57.142335+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/nashville-predators-pittsburgh-penguins-e-7936882/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 1.91
-    }
-   ]
-  },
-  {
-   "sport": "Ligue 1 - France",
-   "market": "Match odds",
-   "event": "Paris Saint Germain v Lyon",
-   "start": "2026-10-26T19:30:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 5.5,
-   "fair": 5.36,
-   "books": 20,
-   "detected": "2026-10-24T06:15:57.871877+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220294",
-   "also": [
-    {
-     "book": "Betfair Sportsbook",
-     "odds": 5.5
+     "book": "Virgin Bet",
+     "odds": 2.14
     }
    ]
   },
@@ -295,31 +272,31 @@
    "event": "Marseille v Le Havre",
    "start": "2026-10-25T16:15:00Z",
    "selection": "Le Havre",
+   "book": "Paddy Power",
+   "odds": 6.0,
+   "fair": 5.71,
+   "books": 20,
+   "detected": "2026-10-24T11:18:26.010895+00:00",
+   "link": "https://www.paddypower.com/football/french-ligue-1/marseille-v-le-havre-36180585"
+  },
+  {
+   "sport": "Ligue 1 - France",
+   "market": "Match odds",
+   "event": "Paris Saint Germain v Lyon",
+   "start": "2026-10-26T19:30:00Z",
+   "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.37,
+   "fair": 5.34,
    "books": 20,
-   "detected": "2026-10-24T06:15:57.871226+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220245",
+   "detected": "2026-10-24T11:18:26.012031+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37220294",
    "also": [
     {
      "book": "Betfair Sportsbook",
      "odds": 5.5
     }
    ]
-  },
-  {
-   "sport": "Bundesliga - Germany",
-   "market": "Match odds",
-   "event": "TSG Hoffenheim v Bayer Leverkusen",
-   "start": "2026-10-25T14:30:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 4.2,
-   "fair": 4.09,
-   "books": 21,
-   "detected": "2026-10-24T06:15:58.038605+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37220170"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -331,46 +308,8 @@
    "odds": 4.75,
    "fair": 4.63,
    "books": 16,
-   "detected": "2026-10-24T06:15:58.040248+00:00",
+   "detected": "2026-10-24T11:18:26.162250+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028230598"
-  },
-  {
-   "sport": "Bundesliga 2 - Germany",
-   "market": "Match odds",
-   "event": "1. FC Heidenheim v FC Energie Cottbus",
-   "start": "2026-10-24T11:00:00Z",
-   "selection": "FC Energie Cottbus",
-   "book": "Casumo",
-   "odds": 4.25,
-   "fair": 4.07,
-   "books": 19,
-   "detected": "2026-10-24T06:15:58.208141+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028231111",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 4.25
-    }
-   ]
-  },
-  {
-   "sport": "Bundesliga 2 - Germany",
-   "market": "Match odds",
-   "event": "1. FC N\u00fcrnberg v 1. FC Kaiserslautern",
-   "start": "2026-10-24T18:30:00Z",
-   "selection": "1. FC Kaiserslautern",
-   "book": "Casumo",
-   "odds": 3.55,
-   "fair": 3.47,
-   "books": 19,
-   "detected": "2026-10-24T06:15:58.208682+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028231121",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 3.55
-    }
-   ]
   },
   {
    "sport": "Serie A - Italy",
@@ -382,21 +321,8 @@
    "odds": 5.5,
    "fair": 5.37,
    "books": 21,
-   "detected": "2026-10-24T06:15:58.432583+00:00",
+   "detected": "2026-10-24T11:18:26.413580+00:00",
    "link": "https://www.betfair.com/betting/football/italian-serie-a/udinese-v-ac-milan/e-36209509"
-  },
-  {
-   "sport": "Serie A - Italy",
-   "market": "Match odds",
-   "event": "Torino v Como",
-   "start": "2026-10-27T19:45:00Z",
-   "selection": "Torino",
-   "book": "Betway",
-   "odds": 4.75,
-   "fair": 4.64,
-   "books": 16,
-   "detected": "2026-10-24T06:15:58.433020+00:00",
-   "link": "https://betway.com/en/sports/evt/17319114"
   },
   {
    "sport": "Dutch Eredivisie",
@@ -406,10 +332,42 @@
    "selection": "SC Cambuur",
    "book": "Casumo",
    "odds": 3.6,
-   "fair": 3.44,
+   "fair": 3.43,
    "books": 13,
-   "detected": "2026-10-24T06:15:58.558259+00:00",
+   "detected": "2026-10-24T11:18:26.545568+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1027976537"
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
+   "event": "Barcelona v Real Madrid",
+   "start": "2026-10-25T20:00:00Z",
+   "selection": "Real Madrid",
+   "book": "Betano (UK)",
+   "odds": 4.33,
+   "fair": 4.06,
+   "books": 20,
+   "detected": "2026-10-24T11:18:26.715033+00:00",
+   "link": "https://www.betano.co.uk/en-gb/sports/240/meetings/6320610/events/2842824100",
+   "also": [
+    {
+     "book": "Bet Victor",
+     "odds": 4.33
+    }
+   ]
+  },
+  {
+   "sport": "La Liga - Spain",
+   "market": "Match odds",
+   "event": "Sevilla v CA Osasuna",
+   "start": "2026-10-26T20:00:00Z",
+   "selection": "CA Osasuna",
+   "book": "Betfair Sportsbook",
+   "odds": 4.5,
+   "fair": 4.34,
+   "books": 20,
+   "detected": "2026-10-24T11:18:26.715340+00:00",
+   "link": "https://www.betfair.com/betting/football/spanish-la-liga/sevilla-v-osasuna/e-36180858"
   },
   {
    "sport": "La Liga - Spain",
@@ -419,10 +377,29 @@
    "selection": "Levante",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.32,
+   "fair": 5.34,
    "books": 20,
-   "detected": "2026-10-24T06:15:58.823897+00:00",
+   "detected": "2026-10-24T11:18:26.714606+00:00",
    "link": "https://www.betfred.com/sports/football/event/37220308"
+  },
+  {
+   "sport": "Premiership - Scotland",
+   "market": "Match odds",
+   "event": "Hibernian v Celtic",
+   "start": "2026-10-25T12:00:00Z",
+   "selection": "Hibernian",
+   "book": "Virgin Bet",
+   "odds": 5.3,
+   "fair": 5.13,
+   "books": 19,
+   "detected": "2026-10-24T11:18:26.814934+00:00",
+   "link": "https://www.virginbet.com/sports/football/scotland-premiership/hibernian-celtic/SBTE_2_1028061460",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 5.3
+    }
+   ]
   },
   {
    "sport": "Premiership - Scotland",
@@ -434,7 +411,7 @@
    "odds": 6.0,
    "fair": 5.85,
    "books": 16,
-   "detected": "2026-10-24T06:15:58.965694+00:00",
+   "detected": "2026-10-24T11:18:26.815857+00:00",
    "link": "https://www.unibet.co.uk/betting/odds/football/scotland/premiership/celtic-vs-dundee-united/ea62ade741f79b9cd34c33e0d4a23e40",
    "also": [
     {
@@ -461,7 +438,7 @@
    "odds": 4.8,
    "fair": 4.51,
    "books": 18,
-   "detected": "2026-10-24T06:15:59.099643+00:00",
+   "detected": "2026-10-24T11:18:26.909601+00:00",
    "link": "https://www.virginbet.com/sports/football/champions-league/feyenoord-inter/SBTE_2_1028943215",
    "also": [
     {
@@ -484,7 +461,7 @@
    "odds": 5.6,
    "fair": 5.33,
    "books": 17,
-   "detected": "2026-10-24T06:15:59.101422+00:00",
+   "detected": "2026-10-24T11:18:26.913266+00:00",
    "link": "https://www.virginbet.com/sports/football/champions-league/viking-stavanger-sabah-fk/SBTE_2_1028943222",
    "also": [
     {
@@ -505,36 +482,10 @@
    "selection": "RB Leipzig",
    "book": "Betfred (UK)",
    "odds": 5.5,
-   "fair": 5.26,
+   "fair": 5.25,
    "books": 17,
-   "detected": "2026-10-24T06:15:59.101131+00:00",
+   "detected": "2026-10-24T11:18:26.912713+00:00",
    "link": "https://www.betfred.com/sports/football/event/37339075"
-  },
-  {
-   "sport": "UEFA Champions League",
-   "market": "Match odds",
-   "event": "Manchester United v AS Roma",
-   "start": "2026-11-03T20:00:00Z",
-   "selection": "Draw",
-   "book": "Betfred (UK)",
-   "odds": 4.0,
-   "fair": 3.88,
-   "books": 18,
-   "detected": "2026-10-24T06:15:59.099016+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37339078"
-  },
-  {
-   "sport": "UEFA Champions League",
-   "market": "Match odds",
-   "event": "Slavia Praha v Arsenal",
-   "start": "2026-11-04T20:00:00Z",
-   "selection": "Draw",
-   "book": "Betway",
-   "odds": 6.0,
-   "fair": 5.84,
-   "books": 17,
-   "detected": "2026-10-24T06:15:59.100536+00:00",
-   "link": "https://betway.com/en/sports/evt/17385020"
   },
   {
    "sport": "UEFA Champions League",
@@ -546,7 +497,7 @@
    "odds": 4.33,
    "fair": 4.22,
    "books": 17,
-   "detected": "2026-10-24T06:15:59.100672+00:00",
+   "detected": "2026-10-24T11:18:26.911507+00:00",
    "link": "https://www.boylesports.com/sports/football/event/uefa-champions-league/borussia-dortmund-v-betis"
   },
   {
@@ -557,9 +508,9 @@
    "selection": "Lille",
    "book": "BoyleSports",
    "odds": 3.75,
-   "fair": 3.67,
+   "fair": 3.66,
    "books": 18,
-   "detected": "2026-10-24T06:15:59.099510+00:00",
+   "detected": "2026-10-24T11:18:26.909350+00:00",
    "link": "https://www.boylesports.com/sports/football/event/uefa-champions-league/bodoglimt-v-lille"
   }
  ],
