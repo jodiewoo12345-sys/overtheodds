@@ -4602,9 +4602,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.53,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 6.78,
+  "close_books": 18,
+  "close_at": "2026-10-24T23:47:10.770167+00:00",
+  "close_minutes_before": 22.8,
+  "close_final": true
  },
  "a66da208d3609b028970dfe2b5d7973f|sport888|h2h|Milwaukee Bucks": {
   "sport": "NBA",
@@ -4904,9 +4910,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.25,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 2.26,
+  "close_books": 7,
+  "close_at": "2026-10-24T23:47:10.770167+00:00",
+  "close_minutes_before": 22.8,
+  "close_final": true
  },
  "8e704270ddeb2ccdd00196b06cdb3bf6|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -5129,9 +5141,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.8,
-  "latest_seen": "2026-10-24T11:18:27.068926+00:00"
+  "latest_seen": "2026-10-24T11:18:27.068926+00:00",
+  "close_attempts": 1,
+  "close": 1.79,
+  "close_books": 7,
+  "close_at": "2026-10-24T23:47:10.770167+00:00",
+  "close_minutes_before": 22.8,
+  "close_final": true
  },
  "fbdbed1c7dfbc3b1837fa581ea66b703|williamhill|totals|Under 6.5": {
   "sport": "NHL",
