@@ -4676,11 +4676,11 @@
   "close_status": "final",
   "latest_fair": 5.87,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 6.04,
   "close_books": 17,
-  "close_at": "2026-10-24T22:59:39.631406+00:00",
-  "close_minutes_before": 40.3,
+  "close_at": "2026-10-24T23:23:03.104364+00:00",
+  "close_minutes_before": 16.9,
   "close_final": true
  },
  "f187c8a86c1d1676bb45b9b3a6707872|livescorebet|h2h|Brooklyn Nets": {
@@ -4753,11 +4753,11 @@
   "close_status": "final",
   "latest_fair": 5.09,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 4.83,
   "close_books": 17,
-  "close_at": "2026-10-24T22:59:39.631406+00:00",
-  "close_minutes_before": 40.3,
+  "close_at": "2026-10-24T23:23:03.104364+00:00",
+  "close_minutes_before": 16.9,
   "close_final": true
  },
  "fbdbed1c7dfbc3b1837fa581ea66b703|casumo|totals|Over 6.5": {
@@ -6073,11 +6073,11 @@
   "close_status": "final",
   "latest_fair": 5.87,
   "latest_seen": "2026-10-24T11:18:27.068926+00:00",
-  "close_attempts": 1,
+  "close_attempts": 2,
   "close": 6.04,
   "close_books": 17,
-  "close_at": "2026-10-24T22:59:39.631406+00:00",
-  "close_minutes_before": 40.3,
+  "close_at": "2026-10-24T23:23:03.104364+00:00",
+  "close_minutes_before": 16.9,
   "close_final": true
  },
  "0b8a03e43524a57bae9c25a6c73c9024|sport888|totals|Under 6.5": {
