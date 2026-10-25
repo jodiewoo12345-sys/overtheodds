@@ -1449,9 +1449,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.61,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 4.6,
+  "close_books": 21,
+  "close_at": "2026-10-25T19:03:41.001733+00:00",
+  "close_minutes_before": 41.3,
+  "close_final": true
  },
  "34848497b90b1392f6a767fc183d3ac1|betfred_uk|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -2771,9 +2777,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 5.65,
+  "close_books": 20,
+  "close_at": "2026-10-25T19:03:41.001733+00:00",
+  "close_minutes_before": 41.3,
+  "close_final": true
  },
  "8664b2167f22c59026d86615421463b1|betfred_uk|h2h|Draw": {
   "sport": "Ligue 1 - France",
@@ -2990,9 +3002,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.61,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 4.6,
+  "close_books": 21,
+  "close_at": "2026-10-25T19:03:41.001733+00:00",
+  "close_minutes_before": 41.3,
+  "close_final": true
  },
  "7d989a0a7bae47eb957731e97c5bd9c1|betway|h2h|Torino": {
   "sport": "Serie A - Italy",
