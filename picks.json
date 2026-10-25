@@ -4086,9 +4086,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.92,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 2.24,
+  "close_books": 7,
+  "close_at": "2026-10-25T23:22:30.054223+00:00",
+  "close_minutes_before": 37.5,
+  "close_final": true
  },
  "ccf447f1bbe822d28f87352436f70c7c|virginbet|totals|Over 6.5": {
   "sport": "NHL",
