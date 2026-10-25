@@ -98,11 +98,11 @@
   "close_status": "final",
   "latest_fair": 6.23,
   "latest_seen": "2026-10-25T11:18:13.413541+00:00",
-  "close_attempts": 1,
-  "close": 6.4,
+  "close_attempts": 2,
+  "close": 6.43,
   "close_books": 20,
-  "close_at": "2026-10-25T15:33:42.288556+00:00",
-  "close_minutes_before": 41.3,
+  "close_at": "2026-10-25T16:03:59.622767+00:00",
+  "close_minutes_before": 11.0,
   "close_final": true
  },
  "63aa6e3f679ee4c68de5b4bd8d3361bb|betfred_uk|h2h|Frosinone": {
@@ -595,9 +595,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.28,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 5.32,
+  "close_books": 21,
+  "close_at": "2026-10-25T16:03:59.622767+00:00",
+  "close_minutes_before": 26.0,
+  "close_final": true
  },
  "fd4ff3bc8742ac5c03b6b98cd2779e55|williamhill|h2h|TSG Hoffenheim": {
   "sport": "Frauen-Bundesliga",
@@ -1783,9 +1789,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.28,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 5.32,
+  "close_books": 21,
+  "close_at": "2026-10-25T16:03:59.622767+00:00",
+  "close_minutes_before": 26.0,
+  "close_final": true
  },
  "314c3b27fe569849986fdd2d013d1aca|casumo|h2h|SC Cambuur": {
   "sport": "Dutch Eredivisie",
@@ -3466,11 +3478,11 @@
   "close_status": "final",
   "latest_fair": 6.23,
   "latest_seen": "2026-10-25T11:18:13.413541+00:00",
-  "close_attempts": 1,
-  "close": 6.4,
+  "close_attempts": 2,
+  "close": 6.43,
   "close_books": 20,
-  "close_at": "2026-10-25T15:33:42.288556+00:00",
-  "close_minutes_before": 41.3,
+  "close_at": "2026-10-25T16:03:59.622767+00:00",
+  "close_minutes_before": 11.0,
   "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|betano_uk|h2h|Real Madrid": {
