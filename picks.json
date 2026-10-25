@@ -2260,11 +2260,11 @@
   "close_status": "final",
   "latest_fair": 2.67,
   "latest_seen": "2026-10-25T11:18:13.413541+00:00",
-  "close_attempts": 1,
-  "close": 2.78,
+  "close_attempts": 2,
+  "close": 2.8,
   "close_books": 16,
-  "close_at": "2026-10-25T19:57:31.248597+00:00",
-  "close_minutes_before": 27.5,
+  "close_at": "2026-10-25T20:20:06.990780+00:00",
+  "close_minutes_before": 4.9,
   "close_final": true
  },
  "1c5ec5a4457e4dc5873f85b1c6cbb07c|boylesports|h2h|Namibia": {
