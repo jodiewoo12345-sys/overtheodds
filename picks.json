@@ -1077,9 +1077,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.35,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 5.86,
+  "close_books": 20,
+  "close_at": "2026-10-25T15:02:30.401423+00:00",
+  "close_minutes_before": 42.5,
+  "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|skybet|h2h|Draw": {
   "sport": "La Liga - Spain",
