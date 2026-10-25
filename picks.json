@@ -95,9 +95,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.23,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 6.4,
+  "close_books": 20,
+  "close_at": "2026-10-25T15:33:42.288556+00:00",
+  "close_minutes_before": 41.3,
+  "close_final": true
  },
  "63aa6e3f679ee4c68de5b4bd8d3361bb|betfred_uk|h2h|Frosinone": {
   "sport": "Serie A - Italy",
@@ -1080,11 +1086,11 @@
   "close_status": "final",
   "latest_fair": 6.35,
   "latest_seen": "2026-10-25T11:18:13.413541+00:00",
-  "close_attempts": 1,
-  "close": 5.86,
+  "close_attempts": 2,
+  "close": 5.81,
   "close_books": 20,
-  "close_at": "2026-10-25T15:02:30.401423+00:00",
-  "close_minutes_before": 42.5,
+  "close_at": "2026-10-25T15:33:42.288556+00:00",
+  "close_minutes_before": 11.3,
   "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|skybet|h2h|Draw": {
@@ -2463,9 +2469,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.5,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 3.77,
+  "close_books": 10,
+  "close_at": "2026-10-25T15:33:42.288556+00:00",
+  "close_minutes_before": 26.3,
+  "close_final": true
  },
  "6277e639c064e641265fcb98a0e200b9|virginbet|h2h|Sabah FK": {
   "sport": "UEFA Champions League",
@@ -3451,9 +3463,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.23,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 6.4,
+  "close_books": 20,
+  "close_at": "2026-10-25T15:33:42.288556+00:00",
+  "close_minutes_before": 41.3,
+  "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|betano_uk|h2h|Real Madrid": {
   "sport": "La Liga - Spain",
