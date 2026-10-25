@@ -234,11 +234,11 @@
   "close_status": "final",
   "latest_fair": 5.8,
   "latest_seen": "2026-10-25T06:16:51.409667+00:00",
-  "close_attempts": 1,
-  "close": 5.82,
+  "close_attempts": 2,
+  "close": 5.81,
   "close_books": 21,
-  "close_at": "2026-10-25T10:55:11.435009+00:00",
-  "close_minutes_before": 34.8,
+  "close_at": "2026-10-25T11:19:20.263800+00:00",
+  "close_minutes_before": 10.7,
   "close_final": true
  },
  "63aa6e3f679ee4c68de5b4bd8d3361bb|betfred_uk|h2h|Draw": {
@@ -985,9 +985,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-25T06:16:51.409667+00:00"
+  "latest_seen": "2026-10-25T06:16:51.409667+00:00",
+  "close_attempts": 1,
+  "close": 5.25,
+  "close_books": 20,
+  "close_at": "2026-10-25T11:19:20.263800+00:00",
+  "close_minutes_before": 40.7,
+  "close_final": true
  },
  "6a5709e9c094b7f5d089026af10fb820|casumo|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
@@ -1189,9 +1195,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-25T06:16:51.409667+00:00"
+  "latest_seen": "2026-10-25T06:16:51.409667+00:00",
+  "close_attempts": 1,
+  "close": 5.25,
+  "close_books": 20,
+  "close_at": "2026-10-25T11:19:20.263800+00:00",
+  "close_minutes_before": 40.7,
+  "close_final": true
  },
  "2bba7fde6f97d0e54403d53676e4ab63|betway|h2h|New York Giants": {
   "sport": "NFL",
@@ -3622,9 +3634,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.56,
-  "latest_seen": "2026-10-25T06:16:51.409667+00:00"
+  "latest_seen": "2026-10-25T06:16:51.409667+00:00",
+  "close_attempts": 1,
+  "close": 5.25,
+  "close_books": 20,
+  "close_at": "2026-10-25T11:19:20.263800+00:00",
+  "close_minutes_before": 40.7,
+  "close_final": true
  },
  "2bba7fde6f97d0e54403d53676e4ab63|boylesports|h2h|New York Giants": {
   "sport": "NFL",
