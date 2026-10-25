@@ -849,9 +849,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.09,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 3.32,
+  "close_books": 20,
+  "close_at": "2026-10-25T12:59:06.415047+00:00",
+  "close_minutes_before": 30.9,
+  "close_final": true
  },
  "72089d103a5fe6a922c35e17efba6ffc|paddypower|h2h|Draw": {
   "sport": "La Liga - Spain",
