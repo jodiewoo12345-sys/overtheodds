@@ -1305,9 +1305,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.03,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 4.9,
+  "close_books": 15,
+  "close_at": "2026-10-25T16:34:49.713700+00:00",
+  "close_minutes_before": 25.2,
+  "close_final": true
  },
  "0bbce95e5764e706e6c428bb52dc5536|unibet_uk|h2h|Troyes": {
   "sport": "Ligue 1 - France",
@@ -1647,9 +1653,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.76,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 1.75,
+  "close_books": 16,
+  "close_at": "2026-10-25T16:34:49.713700+00:00",
+  "close_minutes_before": 25.2,
+  "close_final": true
  },
  "d642d88020e7ce9d602d0354b3856fec|coral|h2h|Zimbabwe": {
   "sport": "One Day Internationals",
@@ -3771,9 +3783,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.03,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 4.9,
+  "close_books": 15,
+  "close_at": "2026-10-25T16:34:49.713700+00:00",
+  "close_minutes_before": 25.2,
+  "close_final": true
  },
  "be5dd120ca08b43d647b6caa8953500a|betway|h2h|Miami Dolphins": {
   "sport": "NFL",
@@ -3842,9 +3860,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.86,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 2.79,
+  "close_books": 16,
+  "close_at": "2026-10-25T16:34:49.713700+00:00",
+  "close_minutes_before": 25.2,
+  "close_final": true
  },
  "4bdaabae0c074d48156aaa3e315a5c4d|livescorebet|h2h|Orlando Magic": {
   "sport": "NBA",
