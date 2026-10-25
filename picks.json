@@ -163,9 +163,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.85,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 3.42,
+  "close_books": 21,
+  "close_at": "2026-10-25T13:30:36.961073+00:00",
+  "close_minutes_before": 29.4,
+  "close_final": true
  },
  "c9b6c7048d8dc33dae618f67f462f67a|betfred_uk|h2h|Draw": {
   "sport": "Serie A - Italy",
@@ -305,9 +311,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.24,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 4.32,
+  "close_books": 21,
+  "close_at": "2026-10-25T13:30:36.961073+00:00",
+  "close_minutes_before": 29.4,
+  "close_final": true
  },
  "9c4254cba9944a839b421db27260504d|betway|h2h|Draw": {
   "sport": "La Liga - Spain",
@@ -4711,9 +4723,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.63,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 3.41,
+  "close_books": 21,
+  "close_at": "2026-10-25T13:30:36.961073+00:00",
+  "close_minutes_before": 29.4,
+  "close_final": true
  },
  "961d9c9f07b1f911e211cd6a750cddba|betfred_uk|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
