@@ -4546,9 +4546,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.26,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 5.45,
+  "close_books": 20,
+  "close_at": "2026-10-26T18:34:50.973417+00:00",
+  "close_minutes_before": 10.2,
+  "close_final": true
  },
  "d73afd388efbc6f58d71a2d7856e4c8e|casumo|h2h|BK Hacken": {
   "sport": "UEFA Champions League Women",
