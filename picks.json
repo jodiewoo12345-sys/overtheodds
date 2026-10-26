@@ -4163,9 +4163,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.06,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 2.14,
+  "close_books": 7,
+  "close_at": "2026-10-26T01:43:40.329646+00:00",
+  "close_minutes_before": 16.3,
+  "close_final": true
  },
  "e13d36d055361cb7f59a37b7e5dca489|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -4311,9 +4317,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.94,
-  "latest_seen": "2026-10-25T11:18:13.413541+00:00"
+  "latest_seen": "2026-10-25T11:18:13.413541+00:00",
+  "close_attempts": 1,
+  "close": 1.88,
+  "close_books": 7,
+  "close_at": "2026-10-26T01:43:40.329646+00:00",
+  "close_minutes_before": 16.3,
+  "close_final": true
  },
  "c8684b92092ba2bbe4b31e8d24690a6e|unibet_uk|h2h|Draw": {
   "sport": "League 1",
