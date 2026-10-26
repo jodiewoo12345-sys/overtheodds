@@ -107,33 +107,52 @@ MAX_EDGE = float(os.getenv("MAX_EDGE", 12.0))       # anything above this is a d
 EXCHANGES = tuple(k.strip() for k in os.getenv(
     "EXCHANGES", "betfair_ex_uk,betfair_ex_au,betfair_ex_eu,matchbook,smarkets,betdaq"
 ).split(",") if k.strip())
+# Football came off the board on 26 October 2026.
+#
+# Across 235 settled selections, 128 of them with a verified closing price, football
+# beat the closing line 51.6% of the time and returned +0.94% against it (95% CI
+# -1.34 to +3.22). That is a coin flip. Every other segment cleared zero comfortably
+# over the same period: tennis +7.42%, NFL +5.75%, NHL +2.28%. Football was 56% of
+# everything the board published and contributed none of its edge.
+#
+# Nothing is deleted. Every football selection ever published stays in results.json
+# and on the Record page, because that record is the evidence for this decision.
+# Set INCLUDE_FOOTBALL=1 to put it back, e.g. to re-test it later in the season.
+FOOTBALL_PREFIXES = (
+    "soccer_epl",
+    "soccer_efl_champ",
+    "soccer_england_league1",
+    "soccer_england_efl_cup",
+    "soccer_fa_cup",
+    "soccer_uefa_champs_league",
+    "soccer_uefa_europa",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
+    "soccer_germany_bundesliga",
+    "soccer_france_ligue_one",
+    "soccer_netherlands_eredivisie",
+    "soccer_portugal_primeira_liga",
+    "soccer_spl",
+)
+
+# Competitions where enough UK firms price the same markets for a consensus to mean
+# something, and where the record shows the engine actually finds mispricing.
+CORE_PREFIXES = (
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker",
+)
+
+INCLUDE_FOOTBALL = os.getenv("INCLUDE_FOOTBALL", "") not in ("", "0", "false", "False")
+
 SPORT_PREFIXES = tuple(os.getenv(
-    # Competitions where enough UK firms price the same markets for a consensus to
-    # mean something. Heavily priced leagues first, then the rest of the big five,
-    # then sports with reliable settlement.
     "SPORT_PREFIXES",
-    "soccer_epl,"
-    "soccer_efl_champ,"
-    "soccer_england_league1,"
-    "soccer_england_efl_cup,"
-    "soccer_fa_cup,"
-    "soccer_uefa_champs_league,"
-    "soccer_uefa_europa,"
-    "soccer_spain_la_liga,"
-    "soccer_italy_serie_a,"
-    "soccer_germany_bundesliga,"
-    "soccer_france_ligue_one,"
-    "soccer_netherlands_eredivisie,"
-    "soccer_portugal_primeira_liga,"
-    "soccer_spl,"
-    "tennis_atp,"
-    "tennis_wta,"
-    "basketball_nba,"
-    "icehockey_nhl,"
-    "americanfootball_nfl,"
-    "cricket,"
-    "darts,"
-    "snooker"
+    ",".join(CORE_PREFIXES + (FOOTBALL_PREFIXES if INCLUDE_FOOTBALL else ()))
 ).split(","))
 
 
