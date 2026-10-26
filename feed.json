@@ -1,10 +1,13 @@
 {
- "updated": "2026-10-26T06:23:39.540350+00:00",
+ "updated": "2026-10-26T09:12:10.807519+00:00",
  "scanned": {
-  "events": 0,
-  "selections": 0,
-  "sports": 0,
-  "by_market": {},
+  "events": 308,
+  "selections": 881,
+  "sports": 24,
+  "by_market": {
+   "h2h": 811,
+   "totals": 70
+  },
   "stale_dropped": 0
  },
  "model_version": "1.0",
@@ -58,7 +61,606 @@
    "betdaq"
   ]
  },
- "bets": [],
+ "bets": [
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Jacksonville Jaguars v Indianapolis Colts",
+   "start": "2026-11-01T18:00:00Z",
+   "selection": "Indianapolis Colts",
+   "book": "Betway",
+   "odds": 4.5,
+   "fair": 4.2,
+   "books": 13,
+   "detected": "2026-10-26T09:12:07.496050+00:00",
+   "link": "https://betway.com/en/sports/evt/17403092"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Cincinnati Bengals v Tennessee Titans",
+   "start": "2026-11-01T18:00:00Z",
+   "selection": "Tennessee Titans",
+   "book": "Betway",
+   "odds": 5.5,
+   "fair": 5.27,
+   "books": 13,
+   "detected": "2026-10-26T09:12:07.495612+00:00",
+   "link": "https://betway.com/en/sports/evt/17403089"
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Golden State Warriors v Denver Nuggets",
+   "start": "2026-12-26T03:30:00Z",
+   "selection": "Golden State Warriors",
+   "book": "888sport",
+   "odds": 2.3,
+   "fair": 2.15,
+   "books": 6,
+   "detected": "2026-10-26T09:12:07.616831+00:00",
+   "link": "https://www.888sport.com/basketball/united-states/nba/denver-nuggets-golden-state-warriors-e-8066274/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.3
+    },
+    {
+     "book": "Unibet (UK)",
+     "odds": 2.25
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Oklahoma City Thunder v Phoenix Suns",
+   "start": "2026-10-27T00:10:00Z",
+   "selection": "Phoenix Suns",
+   "book": "Betway",
+   "odds": 4.3,
+   "fair": 4.13,
+   "books": 18,
+   "detected": "2026-10-26T09:12:07.615732+00:00",
+   "link": "https://betway.com/en/sports/evt/17403070"
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Golden State Warriors v Denver Nuggets",
+   "start": "2026-12-26T03:30:00Z",
+   "selection": "Denver Nuggets",
+   "book": "LiveScore Bet",
+   "odds": 1.78,
+   "fair": 1.73,
+   "books": 6,
+   "detected": "2026-10-26T09:12:07.616817+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/golden-state-warriors-denver-nuggets/SBTE_2_1028726111"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Detroit Red Wings",
+   "start": "2026-10-27T01:40:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.1,
+   "fair": 1.92,
+   "books": 9,
+   "detected": "2026-10-26T09:12:08.097585+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/edmonton-oilers-detroit-red-wings/SBTE_2_1028409869",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.1
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.1
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.05
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Calgary Flames v Toronto Maple Leafs",
+   "start": "2026-10-27T00:40:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.12,
+   "fair": 1.94,
+   "books": 9,
+   "detected": "2026-10-26T09:12:08.097394+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/calgary-flames-toronto-maple-leafs/SBTE_2_1028409871",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.12
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.12
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.06
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Calgary Flames v Toronto Maple Leafs",
+   "start": "2026-10-27T00:40:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.93,
+   "books": 9,
+   "detected": "2026-10-26T09:12:08.097433+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-calgary-flames-e-7953933/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Detroit Red Wings",
+   "start": "2026-10-27T01:40:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 2.0,
+   "fair": 1.94,
+   "books": 9,
+   "detected": "2026-10-26T09:12:08.097611+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544342/detroit-red-wings-edmonton-oilers",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "Championship",
+   "market": "Match odds",
+   "event": "Norwich City v Watford",
+   "start": "2026-10-31T12:30:00Z",
+   "selection": "Watford",
+   "book": "Casumo",
+   "odds": 5.4,
+   "fair": 5.27,
+   "books": 20,
+   "detected": "2026-10-26T09:12:08.215952+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028143020"
+  },
+  {
+   "sport": "EFL Cup",
+   "market": "Match odds",
+   "event": "Sunderland v Brentford",
+   "start": "2026-10-28T19:45:00Z",
+   "selection": "Sunderland",
+   "book": "Unibet (UK)",
+   "odds": 3.9,
+   "fair": 3.72,
+   "books": 18,
+   "detected": "2026-10-26T09:12:08.336605+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/football/england/efl_cup/sunderland-vs-brentford/0f2de21f8102b54431b3780c8690781c"
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Plymouth Argyle v Reading",
+   "start": "2026-10-31T12:30:00Z",
+   "selection": "Plymouth Argyle",
+   "book": "Casumo",
+   "odds": 2.48,
+   "fair": 2.4,
+   "books": 16,
+   "detected": "2026-10-26T09:12:08.537486+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028143451"
+  },
+  {
+   "sport": "League 1",
+   "market": "Match odds",
+   "event": "Luton v Doncaster Rovers",
+   "start": "2026-10-27T19:45:00Z",
+   "selection": "Doncaster Rovers",
+   "book": "Betfair Sportsbook",
+   "odds": 6.0,
+   "fair": 5.86,
+   "books": 21,
+   "detected": "2026-10-26T09:12:08.536616+00:00",
+   "link": "https://www.betfair.com/betting/football/english-sky-bet-league-1/luton-v-doncaster/e-36233714"
+  },
+  {
+   "sport": "EPL",
+   "market": "Match odds",
+   "event": "Chelsea v Manchester United",
+   "start": "2026-10-31T12:30:00Z",
+   "selection": "Manchester United",
+   "book": "Paddy Power",
+   "odds": 4.2,
+   "fair": 4.11,
+   "books": 21,
+   "detected": "2026-10-26T09:12:08.700758+00:00",
+   "link": "https://www.paddypower.com/football/english-premier-league/chelsea-v-man-utd-36206188",
+   "also": [
+    {
+     "book": "Sky Bet",
+     "odds": 4.2
+    },
+    {
+     "book": "Betfair Sportsbook",
+     "odds": 4.2
+    }
+   ]
+  },
+  {
+   "sport": "EPL",
+   "market": "Match odds",
+   "event": "Tottenham Hotspur v Crystal Palace",
+   "start": "2026-10-31T17:30:00Z",
+   "selection": "Crystal Palace",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.88,
+   "books": 21,
+   "detected": "2026-10-26T09:12:08.701924+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37292707"
+  },
+  {
+   "sport": "Ligue 1 - France",
+   "market": "Match odds",
+   "event": "Le Mans FC v AS Monaco",
+   "start": "2026-11-08T16:15:00Z",
+   "selection": "Le Mans FC",
+   "book": "Sky Bet",
+   "odds": 4.5,
+   "fair": 4.4,
+   "books": 10,
+   "detected": "2026-10-26T09:12:08.957920+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=269791&bsmId=930.392684792"
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "market": "Match odds",
+   "event": "VfB Stuttgart v Werder Bremen",
+   "start": "2026-11-07T17:30:00Z",
+   "selection": "Werder Bremen",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.52,
+   "books": 12,
+   "detected": "2026-10-26T09:12:09.080056+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37386224"
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "market": "Match odds",
+   "event": "RB Leipzig v Augsburg",
+   "start": "2026-11-07T14:30:00Z",
+   "selection": "Augsburg",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.67,
+   "books": 12,
+   "detected": "2026-10-26T09:12:09.079508+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37386254",
+   "also": [
+    {
+     "book": "Paddy Power",
+     "odds": 6.0
+    },
+    {
+     "book": "Sky Bet",
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "market": "Match odds",
+   "event": "Borussia Monchengladbach v SC Paderborn",
+   "start": "2026-10-31T14:30:00Z",
+   "selection": "SC Paderborn",
+   "book": "Casumo",
+   "odds": 3.85,
+   "fair": 3.71,
+   "books": 21,
+   "detected": "2026-10-26T09:12:09.078334+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028230604",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.8
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.8
+    }
+   ]
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "market": "Match odds",
+   "event": "FC Schalke 04 v RB Leipzig",
+   "start": "2026-10-31T14:30:00Z",
+   "selection": "FC Schalke 04",
+   "book": "Coral",
+   "odds": 4.0,
+   "fair": 3.87,
+   "books": 20,
+   "detected": "2026-10-26T09:12:09.078477+00:00",
+   "link": "https://sports.coral.co.uk/event/football/football-germany/german-bundesliga/schalke-v-rb-leipzig/46960117/main-markets"
+  },
+  {
+   "sport": "Bundesliga - Germany",
+   "market": "Match odds",
+   "event": "Eintracht Frankfurt v Hamburger SV",
+   "start": "2026-11-01T16:30:00Z",
+   "selection": "Hamburger SV",
+   "book": "Casumo",
+   "odds": 4.75,
+   "fair": 4.63,
+   "books": 20,
+   "detected": "2026-10-26T09:12:09.079283+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028230598"
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "market": "Match odds",
+   "event": "Hannover 96 v Dynamo Dresden",
+   "start": "2026-11-01T12:30:00Z",
+   "selection": "Dynamo Dresden",
+   "book": "Casumo",
+   "odds": 3.65,
+   "fair": 3.38,
+   "books": 14,
+   "detected": "2026-10-26T09:12:09.260267+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028231063",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.65
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.5
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.45
+    }
+   ]
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "market": "Match odds",
+   "event": "VfL Wolfsburg v VfL Osnabr\u00fcck",
+   "start": "2026-10-31T12:00:00Z",
+   "selection": "VfL Osnabr\u00fcck",
+   "book": "Casumo",
+   "odds": 6.0,
+   "fair": 5.65,
+   "books": 14,
+   "detected": "2026-10-26T09:12:09.259859+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028231061",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "Bundesliga 2 - Germany",
+   "market": "Match odds",
+   "event": "Greuther F\u00fcrth v Holstein Kiel",
+   "start": "2026-11-01T12:30:00Z",
+   "selection": "Greuther F\u00fcrth",
+   "book": "Casumo",
+   "odds": 2.55,
+   "fair": 2.47,
+   "books": 14,
+   "detected": "2026-10-26T09:12:09.260409+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028231069",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 2.55
+    }
+   ]
+  },
+  {
+   "sport": "Serie A - Italy",
+   "market": "Match odds",
+   "event": "Bologna v Monza",
+   "start": "2026-10-31T14:00:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 4.0,
+   "fair": 3.9,
+   "books": 14,
+   "detected": "2026-10-26T09:12:09.429694+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37384973"
+  },
+  {
+   "sport": "Premiership - Scotland",
+   "market": "Match odds",
+   "event": "Falkirk F.C. v Celtic",
+   "start": "2026-11-01T13:00:00Z",
+   "selection": "Draw",
+   "book": "LeoVegas",
+   "odds": 5.6,
+   "fair": 5.3,
+   "books": 15,
+   "detected": "2026-10-26T09:12:10.008203+00:00",
+   "link": "https://leovegas.co.uk/betting#/events/2579739",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 5.5
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Viking FK v Sabah FK",
+   "start": "2026-11-04T20:00:00Z",
+   "selection": "Sabah FK",
+   "book": "Virgin Bet",
+   "odds": 5.6,
+   "fair": 5.36,
+   "books": 18,
+   "detected": "2026-10-26T09:12:10.146409+00:00",
+   "link": "https://www.virginbet.com/sports/football/champions-league/viking-stavanger-sabah-fk/SBTE_2_1028943222",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 5.6
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 5.6
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "RB Leipzig v Manchester City",
+   "start": "2026-11-04T20:00:00Z",
+   "selection": "RB Leipzig",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.35,
+   "books": 18,
+   "detected": "2026-10-26T09:12:10.146076+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37339075"
+  },
+  {
+   "sport": "UEFA Champions League",
+   "market": "Match odds",
+   "event": "Bod\u00f8/Glimt v Lille",
+   "start": "2026-11-03T20:00:00Z",
+   "selection": "Lille",
+   "book": "BoyleSports",
+   "odds": 3.75,
+   "fair": 3.67,
+   "books": 19,
+   "detected": "2026-10-26T09:12:10.144194+00:00",
+   "link": "https://www.boylesports.com/sports/football/event/uefa-champions-league/bodoglimt-v-lille"
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "Alejandro Tabilo v Rafael Jodar",
+   "start": "2026-10-27T11:00:00Z",
+   "selection": "Alejandro Tabilo",
+   "book": "Grosvenor",
+   "odds": 3.95,
+   "fair": 3.69,
+   "books": 20,
+   "detected": "2026-10-26T09:12:10.540750+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1029614526",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 3.95
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.95
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.95
+    }
+   ]
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "R\u00e9my Bertola v Denis Shapovalo",
+   "start": "2026-10-27T11:00:00Z",
+   "selection": "R\u00e9my Bertola",
+   "book": "Betway",
+   "odds": 4.25,
+   "fair": 4.07,
+   "books": 19,
+   "detected": "2026-10-26T09:12:10.541570+00:00",
+   "link": "https://betway.com/en/sports/evt/17402184"
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "Mika Brunold v Nuno Borges",
+   "start": "2026-10-26T12:30:00Z",
+   "selection": "Mika Brunold",
+   "book": "Unibet (UK)",
+   "odds": 2.85,
+   "fair": 2.76,
+   "books": 20,
+   "detected": "2026-10-26T09:12:10.540030+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/basel/mika-brunold-vs-nuno-borges/b23521f0fbe0e2661ee9c875773ef28a"
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "Novak Djokovic v Ugo Humbert",
+   "start": "2026-10-27T11:00:00Z",
+   "selection": "Ugo Humbert",
+   "book": "Grosvenor",
+   "odds": 3.25,
+   "fair": 3.15,
+   "books": 19,
+   "detected": "2026-10-26T09:12:10.542210+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1029614520",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 3.25
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.25
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.25
+    }
+   ]
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "Stan Wawrinka v Jiri Lehecka",
+   "start": "2026-10-27T11:00:00Z",
+   "selection": "Stan Wawrinka",
+   "book": "BoyleSports",
+   "odds": 5.0,
+   "fair": 4.9,
+   "books": 19,
+   "detected": "2026-10-26T09:12:10.542023+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/stan-wawrinka-v-jiri-lehecka",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 5.0
+    }
+   ]
+  }
+ ],
  "results": [
   {
    "sport": "ATP Japan Open",
@@ -10576,6 +11178,357 @@
    "close_minutes": 27.8,
    "close_status": "final",
    "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-073407ba",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "9c4254cba9944a839b421db27260504d|betway|h2h|Draw",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Athletic Bilbao v Getafe",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-13T13:34:47.556024+00:00",
+   "selection": "Draw",
+   "book": "Betway",
+   "odds": 4.0,
+   "fair": 3.89,
+   "edge": 2.83,
+   "books": 15,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|betfred_uk|h2h|Real Madrid",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-14T06:17:09.412448+00:00",
+   "selection": "Real Madrid",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.12,
+   "edge": 7.42,
+   "books": 17,
+   "close": 4.22,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 45.0,
+   "won": true
+  },
+  {
+   "pick_id": "9c4254cba9944a839b421db27260504d|betfred_uk|h2h|Getafe",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Athletic Bilbao v Getafe",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-14T11:23:11.747805+00:00",
+   "selection": "Getafe",
+   "book": "Betfred (UK)",
+   "odds": 6.0,
+   "fair": 5.8,
+   "edge": 3.45,
+   "books": 15,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|betfred_uk|h2h|Draw",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-17T06:14:18.446410+00:00",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.33,
+   "edge": 3.19,
+   "books": 16,
+   "close": 6.21,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|paddypower|h2h|Draw",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-19T06:46:30.027095+00:00",
+   "selection": "Draw",
+   "book": "Paddy Power",
+   "odds": 5.5,
+   "fair": 5.37,
+   "edge": 2.42,
+   "books": 18,
+   "close": 6.21,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "49cc50062dfcc31e4491b76d20c376cc|ladbrokes_uk|h2h|Hibernian",
+   "sport": "Premiership - Scotland",
+   "league": "soccer_spl",
+   "event": "Hibernian v Celtic",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-19T06:46:30.027145+00:00",
+   "selection": "Hibernian",
+   "book": "Ladbrokes",
+   "odds": 4.6,
+   "fair": 4.46,
+   "edge": 3.14,
+   "books": 12,
+   "close": 5.08,
+   "close_books": 20,
+   "close_minutes": 10.7,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|skybet|h2h|Draw",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-19T11:23:37.801117+00:00",
+   "selection": "Draw",
+   "book": "Sky Bet",
+   "odds": 5.75,
+   "fair": 5.33,
+   "edge": 7.88,
+   "books": 18,
+   "close": 6.21,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "49cc50062dfcc31e4491b76d20c376cc|coral|h2h|Hibernian",
+   "sport": "Premiership - Scotland",
+   "league": "soccer_spl",
+   "event": "Hibernian v Celtic",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-19T11:23:37.801187+00:00",
+   "selection": "Hibernian",
+   "book": "Coral",
+   "odds": 4.6,
+   "fair": 4.29,
+   "edge": 7.23,
+   "books": 16,
+   "close": 5.08,
+   "close_books": 20,
+   "close_minutes": 10.7,
+   "close_status": "final",
+   "close_attempts": 2,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|williamhill|h2h|Real Madrid",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-20T11:22:41.666260+00:00",
+   "selection": "Real Madrid",
+   "book": "William Hill",
+   "odds": 4.6,
+   "fair": 4.5,
+   "edge": 2.22,
+   "books": 19,
+   "close": 4.22,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 36.0,
+   "won": true
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|ladbrokes_uk|h2h|Real Madrid",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-22T08:52:19.805552+00:00",
+   "selection": "Real Madrid",
+   "book": "Ladbrokes",
+   "odds": 4.2,
+   "fair": 4.09,
+   "edge": 2.69,
+   "books": 19,
+   "close": 4.22,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-ddc173fb",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 32.0,
+   "won": true
+  },
+  {
+   "pick_id": "3cb8660cd2375b60e81144a7572cfb89|betfred_uk|h2h|Levante",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Real Sociedad v Levante",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-24T06:15:59.349048+00:00",
+   "selection": "Levante",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.32,
+   "edge": 3.38,
+   "books": 20,
+   "close": 5.68,
+   "close_books": 20,
+   "close_minutes": 25.3,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-073407ba",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "72089d103a5fe6a922c35e17efba6ffc|betano_uk|h2h|Real Madrid",
+   "sport": "La Liga - Spain",
+   "league": "soccer_spain_la_liga",
+   "event": "Barcelona v Real Madrid",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-24T11:18:27.068680+00:00",
+   "selection": "Real Madrid",
+   "book": "Betano (UK)",
+   "odds": 4.33,
+   "fair": 4.06,
+   "edge": 6.65,
+   "books": 20,
+   "close": 4.22,
+   "close_books": 20,
+   "close_minutes": 28.8,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-073407ba",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 33.3,
+   "won": true
+  },
+  {
+   "pick_id": "49cc50062dfcc31e4491b76d20c376cc|virginbet|h2h|Hibernian",
+   "sport": "Premiership - Scotland",
+   "league": "soccer_spl",
+   "event": "Hibernian v Celtic",
+   "market": "Match odds",
+   "date": "2026-10-25",
+   "detected": "2026-10-24T11:18:27.068757+00:00",
+   "selection": "Hibernian",
+   "book": "Virgin Bet",
+   "odds": 5.3,
+   "fair": 5.13,
+   "edge": 3.31,
+   "books": 19,
+   "close": 5.08,
+   "close_books": 20,
+   "close_minutes": 10.7,
+   "close_status": "final",
+   "close_attempts": 2,
    "model_version": "1.0",
    "scanner_config": "cfg-073407ba",
    "min_edge_at_detection": 2.0,
