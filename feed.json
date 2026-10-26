@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-26T09:12:10.807519+00:00",
+ "updated": "2026-10-26T11:31:22.215618+00:00",
  "scanned": {
-  "events": 308,
-  "selections": 881,
+  "events": 307,
+  "selections": 869,
   "sports": 24,
   "by_market": {
-   "h2h": 811,
-   "totals": 70
+   "h2h": 807,
+   "totals": 62
   },
   "stale_dropped": 0
  },
@@ -71,8 +71,8 @@
    "book": "Betway",
    "odds": 4.5,
    "fair": 4.2,
-   "books": 13,
-   "detected": "2026-10-26T09:12:07.496050+00:00",
+   "books": 14,
+   "detected": "2026-10-26T11:31:19.576323+00:00",
    "link": "https://betway.com/en/sports/evt/17403092"
   },
   {
@@ -84,9 +84,22 @@
    "book": "Betway",
    "odds": 5.5,
    "fair": 5.27,
-   "books": 13,
-   "detected": "2026-10-26T09:12:07.495612+00:00",
+   "books": 14,
+   "detected": "2026-10-26T11:31:19.575470+00:00",
    "link": "https://betway.com/en/sports/evt/17403089"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Detroit Lions v Minnesota Vikings",
+   "start": "2026-11-01T18:00:00Z",
+   "selection": "Minnesota Vikings",
+   "book": "Betway",
+   "odds": 2.55,
+   "fair": 2.48,
+   "books": 14,
+   "detected": "2026-10-26T11:31:19.576114+00:00",
+   "link": "https://betway.com/en/sports/evt/17403091"
   },
   {
    "sport": "NBA",
@@ -98,7 +111,7 @@
    "odds": 2.3,
    "fair": 2.15,
    "books": 6,
-   "detected": "2026-10-26T09:12:07.616831+00:00",
+   "detected": "2026-10-26T11:31:19.689092+00:00",
    "link": "https://www.888sport.com/basketball/united-states/nba/denver-nuggets-golden-state-warriors-e-8066274/",
    "also": [
     {
@@ -114,19 +127,6 @@
   {
    "sport": "NBA",
    "market": "Match odds",
-   "event": "Oklahoma City Thunder v Phoenix Suns",
-   "start": "2026-10-27T00:10:00Z",
-   "selection": "Phoenix Suns",
-   "book": "Betway",
-   "odds": 4.3,
-   "fair": 4.13,
-   "books": 18,
-   "detected": "2026-10-26T09:12:07.615732+00:00",
-   "link": "https://betway.com/en/sports/evt/17403070"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
    "event": "Golden State Warriors v Denver Nuggets",
    "start": "2026-12-26T03:30:00Z",
    "selection": "Denver Nuggets",
@@ -134,35 +134,8 @@
    "odds": 1.78,
    "fair": 1.73,
    "books": 6,
-   "detected": "2026-10-26T09:12:07.616817+00:00",
+   "detected": "2026-10-26T11:31:19.689060+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/golden-state-warriors-denver-nuggets/SBTE_2_1028726111"
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Edmonton Oilers v Detroit Red Wings",
-   "start": "2026-10-27T01:40:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.1,
-   "fair": 1.92,
-   "books": 9,
-   "detected": "2026-10-26T09:12:08.097585+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/edmonton-oilers-detroit-red-wings/SBTE_2_1028409869",
-   "also": [
-    {
-     "book": "Casumo",
-     "odds": 2.1
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.1
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.05
-    }
-   ]
   },
   {
    "sport": "NHL",
@@ -174,7 +147,7 @@
    "odds": 2.12,
    "fair": 1.94,
    "books": 9,
-   "detected": "2026-10-26T09:12:08.097394+00:00",
+   "detected": "2026-10-26T11:31:20.072042+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/calgary-flames-toronto-maple-leafs/SBTE_2_1028409871",
    "also": [
     {
@@ -187,7 +160,34 @@
     },
     {
      "book": "Grosvenor",
-     "odds": 2.06
+     "odds": 2.07
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Detroit Red Wings",
+   "start": "2026-10-27T01:40:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.08,
+   "fair": 1.92,
+   "books": 9,
+   "detected": "2026-10-26T11:31:20.072366+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/edmonton-oilers-detroit-red-wings/SBTE_2_1028409869",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.08
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.08
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.02
     }
    ]
   },
@@ -201,7 +201,7 @@
    "odds": 2.0,
    "fair": 1.93,
    "books": 9,
-   "detected": "2026-10-26T09:12:08.097433+00:00",
+   "detected": "2026-10-26T11:31:20.072100+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-calgary-flames-e-7953933/",
    "also": [
     {
@@ -218,9 +218,9 @@
    "selection": "Under 6.5",
    "book": "William Hill",
    "odds": 2.0,
-   "fair": 1.94,
+   "fair": 1.96,
    "books": 9,
-   "detected": "2026-10-26T09:12:08.097611+00:00",
+   "detected": "2026-10-26T11:31:20.072414+00:00",
    "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544342/detroit-red-wings-edmonton-oilers",
    "also": [
     {
@@ -237,36 +237,10 @@
    "selection": "Watford",
    "book": "Casumo",
    "odds": 5.4,
-   "fair": 5.27,
-   "books": 20,
-   "detected": "2026-10-26T09:12:08.215952+00:00",
+   "fair": 5.2,
+   "books": 19,
+   "detected": "2026-10-26T11:31:20.189919+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028143020"
-  },
-  {
-   "sport": "EFL Cup",
-   "market": "Match odds",
-   "event": "Sunderland v Brentford",
-   "start": "2026-10-28T19:45:00Z",
-   "selection": "Sunderland",
-   "book": "Unibet (UK)",
-   "odds": 3.9,
-   "fair": 3.72,
-   "books": 18,
-   "detected": "2026-10-26T09:12:08.336605+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/football/england/efl_cup/sunderland-vs-brentford/0f2de21f8102b54431b3780c8690781c"
-  },
-  {
-   "sport": "League 1",
-   "market": "Match odds",
-   "event": "Plymouth Argyle v Reading",
-   "start": "2026-10-31T12:30:00Z",
-   "selection": "Plymouth Argyle",
-   "book": "Casumo",
-   "odds": 2.48,
-   "fair": 2.4,
-   "books": 16,
-   "detected": "2026-10-26T09:12:08.537486+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028143451"
   },
   {
    "sport": "League 1",
@@ -276,59 +250,23 @@
    "selection": "Doncaster Rovers",
    "book": "Betfair Sportsbook",
    "odds": 6.0,
-   "fair": 5.86,
+   "fair": 5.67,
    "books": 21,
-   "detected": "2026-10-26T09:12:08.536616+00:00",
+   "detected": "2026-10-26T11:31:20.442091+00:00",
    "link": "https://www.betfair.com/betting/football/english-sky-bet-league-1/luton-v-doncaster/e-36233714"
   },
   {
    "sport": "EPL",
    "market": "Match odds",
-   "event": "Chelsea v Manchester United",
-   "start": "2026-10-31T12:30:00Z",
-   "selection": "Manchester United",
-   "book": "Paddy Power",
-   "odds": 4.2,
-   "fair": 4.11,
-   "books": 21,
-   "detected": "2026-10-26T09:12:08.700758+00:00",
-   "link": "https://www.paddypower.com/football/english-premier-league/chelsea-v-man-utd-36206188",
-   "also": [
-    {
-     "book": "Sky Bet",
-     "odds": 4.2
-    },
-    {
-     "book": "Betfair Sportsbook",
-     "odds": 4.2
-    }
-   ]
-  },
-  {
-   "sport": "EPL",
-   "market": "Match odds",
-   "event": "Tottenham Hotspur v Crystal Palace",
-   "start": "2026-10-31T17:30:00Z",
+   "event": "Crystal Palace v Liverpool",
+   "start": "2026-11-08T14:00:00Z",
    "selection": "Crystal Palace",
-   "book": "Betfred (UK)",
-   "odds": 6.0,
-   "fair": 5.88,
-   "books": 21,
-   "detected": "2026-10-26T09:12:08.701924+00:00",
-   "link": "https://www.betfred.com/sports/football/event/37292707"
-  },
-  {
-   "sport": "Ligue 1 - France",
-   "market": "Match odds",
-   "event": "Le Mans FC v AS Monaco",
-   "start": "2026-11-08T16:15:00Z",
-   "selection": "Le Mans FC",
-   "book": "Sky Bet",
-   "odds": 4.5,
-   "fair": 4.4,
-   "books": 10,
-   "detected": "2026-10-26T09:12:08.957920+00:00",
-   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=269791&bsmId=930.392684792"
+   "book": "Casumo",
+   "odds": 4.75,
+   "fair": 4.45,
+   "books": 16,
+   "detected": "2026-10-26T11:31:20.561812+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028072852"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -338,9 +276,9 @@
    "selection": "Werder Bremen",
    "book": "Betfred (UK)",
    "odds": 6.0,
-   "fair": 5.52,
+   "fair": 5.55,
    "books": 12,
-   "detected": "2026-10-26T09:12:09.080056+00:00",
+   "detected": "2026-10-26T11:31:20.789660+00:00",
    "link": "https://www.betfred.com/sports/football/event/37386224"
   },
   {
@@ -353,7 +291,7 @@
    "odds": 6.0,
    "fair": 5.67,
    "books": 12,
-   "detected": "2026-10-26T09:12:09.079508+00:00",
+   "detected": "2026-10-26T11:31:20.788558+00:00",
    "link": "https://www.betfred.com/sports/football/event/37386254",
    "also": [
     {
@@ -369,25 +307,15 @@
   {
    "sport": "Bundesliga - Germany",
    "market": "Match odds",
-   "event": "Borussia Monchengladbach v SC Paderborn",
-   "start": "2026-10-31T14:30:00Z",
-   "selection": "SC Paderborn",
+   "event": "Eintracht Frankfurt v Hamburger SV",
+   "start": "2026-11-01T16:30:00Z",
+   "selection": "Hamburger SV",
    "book": "Casumo",
-   "odds": 3.85,
-   "fair": 3.71,
+   "odds": 4.75,
+   "fair": 4.63,
    "books": 21,
-   "detected": "2026-10-26T09:12:09.078334+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028230604",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 3.8
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 3.8
-    }
-   ]
+   "detected": "2026-10-26T11:31:20.788185+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028230598"
   },
   {
    "sport": "Bundesliga - Germany",
@@ -397,23 +325,23 @@
    "selection": "FC Schalke 04",
    "book": "Coral",
    "odds": 4.0,
-   "fair": 3.87,
-   "books": 20,
-   "detected": "2026-10-26T09:12:09.078477+00:00",
+   "fair": 3.91,
+   "books": 21,
+   "detected": "2026-10-26T11:31:20.786712+00:00",
    "link": "https://sports.coral.co.uk/event/football/football-germany/german-bundesliga/schalke-v-rb-leipzig/46960117/main-markets"
   },
   {
    "sport": "Bundesliga - Germany",
    "market": "Match odds",
-   "event": "Eintracht Frankfurt v Hamburger SV",
-   "start": "2026-11-01T16:30:00Z",
-   "selection": "Hamburger SV",
-   "book": "Casumo",
-   "odds": 4.75,
-   "fair": 4.63,
-   "books": 20,
-   "detected": "2026-10-26T09:12:09.079283+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028230598"
+   "event": "Hamburger SV v Borussia Monchengladbach",
+   "start": "2026-11-06T19:30:00Z",
+   "selection": "Draw",
+   "book": "Betfred (UK)",
+   "odds": 4.0,
+   "fair": 3.91,
+   "books": 12,
+   "detected": "2026-10-26T11:31:20.788421+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37386225"
   },
   {
    "sport": "Bundesliga 2 - Germany",
@@ -425,7 +353,7 @@
    "odds": 3.65,
    "fair": 3.38,
    "books": 14,
-   "detected": "2026-10-26T09:12:09.260267+00:00",
+   "detected": "2026-10-26T11:31:20.948463+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028231063",
    "also": [
     {
@@ -452,31 +380,12 @@
    "odds": 6.0,
    "fair": 5.65,
    "books": 14,
-   "detected": "2026-10-26T09:12:09.259859+00:00",
+   "detected": "2026-10-26T11:31:20.947713+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028231061",
    "also": [
     {
      "book": "Grosvenor",
      "odds": 6.0
-    }
-   ]
-  },
-  {
-   "sport": "Bundesliga 2 - Germany",
-   "market": "Match odds",
-   "event": "Greuther F\u00fcrth v Holstein Kiel",
-   "start": "2026-11-01T12:30:00Z",
-   "selection": "Greuther F\u00fcrth",
-   "book": "Casumo",
-   "odds": 2.55,
-   "fair": 2.47,
-   "books": 14,
-   "detected": "2026-10-26T09:12:09.260409+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028231069",
-   "also": [
-    {
-     "book": "Grosvenor",
-     "odds": 2.55
     }
    ]
   },
@@ -488,10 +397,23 @@
    "selection": "Draw",
    "book": "Betfred (UK)",
    "odds": 4.0,
-   "fair": 3.9,
-   "books": 14,
-   "detected": "2026-10-26T09:12:09.429694+00:00",
+   "fair": 3.91,
+   "books": 15,
+   "detected": "2026-10-26T11:31:21.087538+00:00",
    "link": "https://www.betfred.com/sports/football/event/37384973"
+  },
+  {
+   "sport": "Primeira Liga - Portugal",
+   "market": "Match odds",
+   "event": "Santa Clara v Benfica",
+   "start": "2026-10-26T18:45:00Z",
+   "selection": "Draw",
+   "book": "Sky Bet",
+   "odds": 5.5,
+   "fair": 5.26,
+   "books": 20,
+   "detected": "2026-10-26T11:31:21.342205+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=58805&bsmId=930.389675217"
   },
   {
    "sport": "Premiership - Scotland",
@@ -503,7 +425,7 @@
    "odds": 5.6,
    "fair": 5.3,
    "books": 15,
-   "detected": "2026-10-26T09:12:10.008203+00:00",
+   "detected": "2026-10-26T11:31:21.557018+00:00",
    "link": "https://leovegas.co.uk/betting#/events/2579739",
    "also": [
     {
@@ -520,9 +442,9 @@
    "selection": "Sabah FK",
    "book": "Virgin Bet",
    "odds": 5.6,
-   "fair": 5.36,
+   "fair": 5.32,
    "books": 18,
-   "detected": "2026-10-26T09:12:10.146409+00:00",
+   "detected": "2026-10-26T11:31:21.650814+00:00",
    "link": "https://www.virginbet.com/sports/football/champions-league/viking-stavanger-sabah-fk/SBTE_2_1028943222",
    "also": [
     {
@@ -545,7 +467,7 @@
    "odds": 5.5,
    "fair": 5.35,
    "books": 18,
-   "detected": "2026-10-26T09:12:10.146076+00:00",
+   "detected": "2026-10-26T11:31:21.650242+00:00",
    "link": "https://www.betfred.com/sports/football/event/37339075"
   },
   {
@@ -556,10 +478,55 @@
    "selection": "Lille",
    "book": "BoyleSports",
    "odds": 3.75,
-   "fair": 3.67,
+   "fair": 3.66,
    "books": 19,
-   "detected": "2026-10-26T09:12:10.144194+00:00",
+   "detected": "2026-10-26T11:31:21.646906+00:00",
    "link": "https://www.boylesports.com/sports/football/event/uefa-champions-league/bodoglimt-v-lille"
+  },
+  {
+   "sport": "UEFA Champions League Women",
+   "market": "Match odds",
+   "event": "Paris FC v BK Hacken",
+   "start": "2026-10-29T17:45:00Z",
+   "selection": "BK Hacken",
+   "book": "Casumo",
+   "odds": 4.6,
+   "fair": 4.21,
+   "books": 12,
+   "detected": "2026-10-26T11:31:21.754123+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1029027485",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 4.6
+    }
+   ]
+  },
+  {
+   "sport": "UEFA Champions League Women",
+   "market": "Match odds",
+   "event": "Bayern Munich v Real Madrid",
+   "start": "2026-10-28T17:45:00Z",
+   "selection": "Real Madrid",
+   "book": "Unibet (UK)",
+   "odds": 5.25,
+   "fair": 5.11,
+   "books": 14,
+   "detected": "2026-10-26T11:31:21.753058+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/football/uefa_club/uefa_champions_league_women/bayern-munich-(w)-vs-real-madrid-(w)/ad580d8017dfeae26279eb77bbad8683"
+  },
+  {
+   "sport": "UEFA Europa League",
+   "market": "Match odds",
+   "event": "SK Sturm Graz v NK Celje",
+   "start": "2026-11-05T20:00:00Z",
+   "selection": "NK Celje",
+   "book": "Betfred (UK)",
+   "odds": 5.5,
+   "fair": 5.35,
+   "books": 12,
+   "detected": "2026-10-26T11:31:21.884643+00:00",
+   "link": "https://www.betfred.com/sports/football/event/37362400"
   },
   {
    "sport": "ATP Swiss Indoors Basel",
@@ -569,9 +536,9 @@
    "selection": "Alejandro Tabilo",
    "book": "Grosvenor",
    "odds": 3.95,
-   "fair": 3.69,
+   "fair": 3.73,
    "books": 20,
-   "detected": "2026-10-26T09:12:10.540750+00:00",
+   "detected": "2026-10-26T11:31:21.990355+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1029614526",
    "also": [
     {
@@ -591,28 +558,15 @@
   {
    "sport": "ATP Swiss Indoors Basel",
    "market": "Match odds",
-   "event": "R\u00e9my Bertola v Denis Shapovalo",
+   "event": "Ben Shelton v Aleksandar Kovacevic",
    "start": "2026-10-27T11:00:00Z",
-   "selection": "R\u00e9my Bertola",
-   "book": "Betway",
-   "odds": 4.25,
-   "fair": 4.07,
+   "selection": "Aleksandar Kovacevic",
+   "book": "BoyleSports",
+   "odds": 5.0,
+   "fair": 4.75,
    "books": 19,
-   "detected": "2026-10-26T09:12:10.541570+00:00",
-   "link": "https://betway.com/en/sports/evt/17402184"
-  },
-  {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Mika Brunold v Nuno Borges",
-   "start": "2026-10-26T12:30:00Z",
-   "selection": "Mika Brunold",
-   "book": "Unibet (UK)",
-   "odds": 2.85,
-   "fair": 2.76,
-   "books": 20,
-   "detected": "2026-10-26T09:12:10.540030+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/basel/mika-brunold-vs-nuno-borges/b23521f0fbe0e2661ee9c875773ef28a"
+   "detected": "2026-10-26T11:31:21.990750+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/ben-shelton-v-aleksandar-kovacevic"
   },
   {
    "sport": "ATP Swiss Indoors Basel",
@@ -622,9 +576,9 @@
    "selection": "Ugo Humbert",
    "book": "Grosvenor",
    "odds": 3.25,
-   "fair": 3.15,
+   "fair": 3.12,
    "books": 19,
-   "detected": "2026-10-26T09:12:10.542210+00:00",
+   "detected": "2026-10-26T11:31:21.993014+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1029614520",
    "also": [
     {
@@ -638,27 +592,25 @@
     {
      "book": "Virgin Bet",
      "odds": 3.25
+    },
+    {
+     "book": "Paddy Power",
+     "odds": 3.2
     }
    ]
   },
   {
-   "sport": "ATP Swiss Indoors Basel",
+   "sport": "ATP Vienna Open",
    "market": "Match odds",
-   "event": "Stan Wawrinka v Jiri Lehecka",
-   "start": "2026-10-27T11:00:00Z",
-   "selection": "Stan Wawrinka",
+   "event": "Karen Khachanov v Carlos Alcaraz",
+   "start": "2026-10-27T12:30:00Z",
+   "selection": "Karen Khachanov",
    "book": "BoyleSports",
-   "odds": 5.0,
-   "fair": 4.9,
+   "odds": 4.8,
+   "fair": 4.68,
    "books": 19,
-   "detected": "2026-10-26T09:12:10.542023+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/stan-wawrinka-v-jiri-lehecka",
-   "also": [
-    {
-     "book": "Unibet (UK)",
-     "odds": 5.0
-    }
-   ]
+   "detected": "2026-10-26T11:31:22.103053+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-vienna/karen-khachanov-v-carlos-alcaraz"
   }
  ],
  "results": [
