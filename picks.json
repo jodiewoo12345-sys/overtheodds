@@ -1138,9 +1138,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.96,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 6.13,
+  "close_books": 19,
+  "close_at": "2026-10-26T19:22:43.301617+00:00",
+  "close_minutes_before": 7.3,
+  "close_final": true
  },
  "7d989a0a7bae47eb957731e97c5bd9c1|betway|h2h|Torino": {
   "sport": "Serie A - Italy",
@@ -1564,9 +1570,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.77,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 4.65,
+  "close_books": 19,
+  "close_at": "2026-10-26T19:22:43.301617+00:00",
+  "close_minutes_before": 37.3,
+  "close_final": true
  },
  "c8684b92092ba2bbe4b31e8d24690a6e|unibet_uk|h2h|Draw": {
   "sport": "League 1",
@@ -2345,9 +2357,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.96,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 6.13,
+  "close_books": 19,
+  "close_at": "2026-10-26T19:22:43.301617+00:00",
+  "close_minutes_before": 7.3,
+  "close_final": true
  },
  "159dbf0253dd2038eda2212f84387f0c|betway|h2h|Indianapolis Colts": {
   "sport": "NFL",
