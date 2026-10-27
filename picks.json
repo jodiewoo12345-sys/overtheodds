@@ -3336,9 +3336,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.8,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 3.6,
+  "close_books": 20,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  },
  "622faf457a6ffd6d9effd2bc93280bac|betway|h2h|R\u00e9my Bertola": {
   "sport": "ATP Swiss Indoors Basel",
@@ -3407,9 +3413,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.46,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 3.46,
+  "close_books": 19,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  },
  "af913a4b884253b828e9314e74cfb6b3|grosvenor|h2h|Ugo Humbert": {
   "sport": "ATP Swiss Indoors Basel",
@@ -3478,9 +3490,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.17,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 3.17,
+  "close_books": 19,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  },
  "0ccce6d326e553ba75890585346be8db|boylesports|h2h|Stan Wawrinka": {
   "sport": "ATP Swiss Indoors Basel",
@@ -3549,9 +3567,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.9,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 5.27,
+  "close_books": 20,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  },
  "52e7ee9c42525e6deec02da32dc2fad8|betway|h2h|Minnesota Vikings": {
   "sport": "NFL",
@@ -3975,9 +3999,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.75,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 4.82,
+  "close_books": 20,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  },
  "c79e026be2881d605ce1f181243a44cf|boylesports|h2h|Karen Khachanov": {
   "sport": "ATP Vienna Open",
@@ -4559,8 +4589,14 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.54,
-  "latest_seen": "2026-10-27T06:22:45.089854+00:00"
+  "latest_seen": "2026-10-27T06:22:45.089854+00:00",
+  "close_attempts": 1,
+  "close": 2.63,
+  "close_books": 20,
+  "close_at": "2026-10-27T10:41:51.010862+00:00",
+  "close_minutes_before": 18.1,
+  "close_final": true
  }
 }
