@@ -2795,9 +2795,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.92,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 2.14,
+  "close_books": 7,
+  "close_at": "2026-10-27T01:29:25.390203+00:00",
+  "close_minutes_before": 10.6,
+  "close_final": true
  },
  "20277c97a62bde35c5494acdb5912a68|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -3020,9 +3026,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.08,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 1.88,
+  "close_books": 7,
+  "close_at": "2026-10-27T01:29:25.390203+00:00",
+  "close_minutes_before": 10.6,
+  "close_final": true
  },
  "f1340f4249745bb9c83bf2ddf43195d1|casumo|h2h|Watford": {
   "sport": "Championship",
