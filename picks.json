@@ -1064,9 +1064,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.71,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 4.89,
+  "close_books": 20,
+  "close_at": "2026-10-27T19:07:01.032693+00:00",
+  "close_minutes_before": 38.0,
+  "close_final": true
  },
  "f6f3cf01c2b20b7f746b5a06097a0569|virginbet|h2h|Feyenoord": {
   "sport": "UEFA Champions League",
@@ -2555,9 +2561,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.7,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 6.18,
+  "close_books": 21,
+  "close_at": "2026-10-27T19:07:01.032693+00:00",
+  "close_minutes_before": 38.0,
+  "close_final": true
  },
  "6601f69175a02f03fb7065aacb538e01|paddypower|h2h|Manchester United": {
   "sport": "EPL",
