@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-27T06:22:45.089881+00:00",
+ "updated": "2026-10-27T11:27:52.584549+00:00",
  "scanned": {
   "events": 69,
-  "selections": 172,
+  "selections": 173,
   "sports": 9,
   "by_market": {
-   "h2h": 126,
-   "totals": 46
+   "h2h": 123,
+   "totals": 50
   },
   "stale_dropped": 0
  },
@@ -58,20 +58,20 @@
    "odds": 4.5,
    "fair": 4.2,
    "books": 16,
-   "detected": "2026-10-27T06:22:43.871913+00:00",
+   "detected": "2026-10-27T11:27:51.736478+00:00",
    "link": "https://betway.com/en/sports/evt/17403092"
   },
   {
    "sport": "NBA",
    "market": "Match odds",
    "event": "Golden State Warriors v Denver Nuggets",
-   "start": "2026-12-26T03:30:00Z",
+   "start": "2026-12-26T03:40:00Z",
    "selection": "Golden State Warriors",
    "book": "888sport",
    "odds": 2.3,
    "fair": 2.22,
    "books": 6,
-   "detected": "2026-10-27T06:22:43.990854+00:00",
+   "detected": "2026-10-27T11:27:51.832638+00:00",
    "link": "https://www.888sport.com/basketball/united-states/nba/denver-nuggets-golden-state-warriors-e-8066274/",
    "also": [
     {
@@ -84,112 +84,31 @@
    "sport": "NBA",
    "market": "Match odds",
    "event": "Golden State Warriors v Denver Nuggets",
-   "start": "2026-12-26T03:30:00Z",
+   "start": "2026-12-26T03:40:00Z",
    "selection": "Denver Nuggets",
    "book": "LiveScore Bet",
    "odds": 1.78,
    "fair": 1.73,
    "books": 6,
-   "detected": "2026-10-27T06:22:43.990831+00:00",
+   "detected": "2026-10-27T11:27:51.832611+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/golden-state-warriors-denver-nuggets/SBTE_2_1028726111"
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "San Jose Sharks v Buffalo Sabres",
-   "start": "2026-10-28T02:30:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.12,
-   "fair": 1.92,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656842+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/san-jos%C3%A9-sharks-buffalo-sabres/SBTE_2_1028409810",
-   "also": [
-    {
-     "book": "Casumo",
-     "odds": 2.12
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.12
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.02
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Vegas Golden Knights v Ottawa Senators",
-   "start": "2026-10-28T02:00:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.2,
-   "fair": 2.01,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656677+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409805",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.1
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Anaheim Ducks v Vancouver Canucks",
-   "start": "2026-10-28T02:00:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.08,
-   "fair": 1.92,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656514+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028411386",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.08
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.08
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 1.97
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Carolina Hurricanes v Boston Bruins",
-   "start": "2026-10-28T00:00:00Z",
+   "event": "Utah Mammoth v Minnesota Wild",
+   "start": "2026-10-28T01:10:00Z",
    "selection": "Under 6.5",
-   "book": "William Hill",
-   "odds": 1.8,
-   "fair": 1.73,
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.75,
    "books": 7,
-   "detected": "2026-10-27T06:22:44.655480+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544373/boston-bruins-carolina-hurricanes",
+   "detected": "2026-10-27T11:27:52.173798+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/minnesota-wild-utah-mammoth-e-7954113/",
    "also": [
     {
-     "book": "888sport",
-     "odds": 1.8
+     "book": "William Hill",
+     "odds": 1.91
     }
    ]
   },
@@ -197,13 +116,13 @@
    "sport": "NHL",
    "market": "Totals",
    "event": "San Jose Sharks v Buffalo Sabres",
-   "start": "2026-10-28T02:30:00Z",
+   "start": "2026-10-28T02:40:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.0,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656861+00:00",
+   "fair": 1.87,
+   "books": 7,
+   "detected": "2026-10-27T11:27:52.174589+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/buffalo-sabres-san-jose-sharks-e-7954109/",
    "also": [
     {
@@ -215,14 +134,33 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Vegas Golden Knights v Ottawa Senators",
+   "start": "2026-10-28T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.8,
+   "books": 7,
+   "detected": "2026-10-27T11:27:52.174335+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40547644/ottawa-senators-vegas-golden-knights",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Anaheim Ducks v Vancouver Canucks",
-   "start": "2026-10-28T02:00:00Z",
+   "start": "2026-10-28T02:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.0,
-   "fair": 1.95,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656532+00:00",
+   "fair": 1.91,
+   "books": 7,
+   "detected": "2026-10-27T11:27:52.174052+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/vancouver-canucks-anaheim-ducks-e-7954111/",
    "also": [
     {
@@ -234,87 +172,44 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Vegas Golden Knights v Ottawa Senators",
-   "start": "2026-10-28T02:00:00Z",
+   "event": "Carolina Hurricanes v Boston Bruins",
+   "start": "2026-10-28T00:08:00Z",
    "selection": "Under 6.5",
    "book": "William Hill",
-   "odds": 1.91,
-   "fair": 1.87,
-   "books": 9,
-   "detected": "2026-10-27T06:22:44.656699+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40547644/ottawa-senators-vegas-golden-knights",
+   "odds": 1.8,
+   "fair": 1.73,
+   "books": 7,
+   "detected": "2026-10-27T11:27:52.172250+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544373/boston-bruins-carolina-hurricanes",
    "also": [
     {
      "book": "888sport",
-     "odds": 1.91
+     "odds": 1.8
     }
    ]
   },
   {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Giovanni Mpetshi Perricard v Arthur Fils",
-   "start": "2026-10-27T14:10:00Z",
-   "selection": "Giovanni Mpetshi Perricard",
-   "book": "BoyleSports",
-   "odds": 4.33,
-   "fair": 4.05,
-   "books": 20,
-   "detected": "2026-10-27T06:22:44.763754+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/giovanni-mpetshi-perricard-v-arthur-fils"
-  },
-  {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Ben Shelton v Aleksandar Kovacevic",
-   "start": "2026-10-27T17:00:00Z",
-   "selection": "Aleksandar Kovacevic",
-   "book": "BoyleSports",
-   "odds": 5.0,
-   "fair": 4.75,
-   "books": 20,
-   "detected": "2026-10-27T06:22:44.763882+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/ben-shelton-v-aleksandar-kovacevic"
-  },
-  {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Alejandro Tabilo v Rafael Jodar",
-   "start": "2026-10-27T13:00:00Z",
-   "selection": "Alejandro Tabilo",
-   "book": "Grosvenor",
-   "odds": 3.95,
-   "fair": 3.8,
-   "books": 20,
-   "detected": "2026-10-27T06:22:44.763352+00:00",
-   "link": "https://www.grosvenorcasinos.com/sport#event/1029614526",
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Utah Mammoth v Minnesota Wild",
+   "start": "2026-10-28T01:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.23,
+   "fair": 2.18,
+   "books": 7,
+   "detected": "2026-10-27T11:27:52.173766+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/utah-mammoth-minnesota-wild/SBTE_2_1028409808",
    "also": [
     {
      "book": "Casumo",
-     "odds": 3.95
+     "odds": 2.23
     },
     {
      "book": "LiveScore Bet",
-     "odds": 3.95
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 3.95
+     "odds": 2.23
     }
    ]
-  },
-  {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Hubert Hurkacz v Zizou Bergs",
-   "start": "2026-10-27T11:00:00Z",
-   "selection": "Zizou Bergs",
-   "book": "Betway",
-   "odds": 2.6,
-   "fair": 2.52,
-   "books": 20,
-   "detected": "2026-10-27T06:22:44.763045+00:00",
-   "link": "https://betway.com/en/sports/evt/17401810"
   },
   {
    "sport": "ATP Swiss Indoors Basel",
@@ -326,7 +221,7 @@
    "odds": 3.25,
    "fair": 3.16,
    "books": 19,
-   "detected": "2026-10-27T06:22:44.764598+00:00",
+   "detected": "2026-10-27T11:27:52.311143+00:00",
    "link": "https://www.grosvenorcasinos.com/sport#event/1029614520",
    "also": [
     {
@@ -346,15 +241,42 @@
   {
    "sport": "ATP Swiss Indoors Basel",
    "market": "Match odds",
-   "event": "Stan Wawrinka v Jiri Lehecka",
-   "start": "2026-10-27T18:10:00Z",
-   "selection": "Stan Wawrinka",
-   "book": "BoyleSports",
-   "odds": 5.0,
-   "fair": 4.9,
-   "books": 20,
-   "detected": "2026-10-27T06:22:44.764054+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/stan-wawrinka-v-jiri-lehecka"
+   "event": "R\u00e9my Bertola v Denis Shapovalo",
+   "start": "2026-10-28T11:00:00Z",
+   "selection": "R\u00e9my Bertola",
+   "book": "Betway",
+   "odds": 3.5,
+   "fair": 3.43,
+   "books": 19,
+   "detected": "2026-10-27T11:27:52.310582+00:00",
+   "link": "https://betway.com/en/sports/evt/17402184"
+  },
+  {
+   "sport": "WTA Pan Pacific Open",
+   "market": "Match odds",
+   "event": "Kamilla Rakhimova v Ekaterina Alexandrova",
+   "start": "2026-10-28T01:30:00Z",
+   "selection": "Kamilla Rakhimova",
+   "book": "Casumo",
+   "odds": 3.65,
+   "fair": 3.48,
+   "books": 16,
+   "detected": "2026-10-27T11:27:52.581799+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1029645108",
+   "also": [
+    {
+     "book": "Grosvenor",
+     "odds": 3.65
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.65
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.65
+    }
+   ]
   }
  ],
  "results": [
