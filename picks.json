@@ -2650,11 +2650,11 @@
   "close_status": "final",
   "latest_fair": 4.2,
   "latest_seen": "2026-10-26T11:31:22.215546+00:00",
-  "close_attempts": 1,
-  "close": 3.71,
+  "close_attempts": 2,
+  "close": 3.79,
   "close_books": 17,
-  "close_at": "2026-10-26T23:33:53.627208+00:00",
-  "close_minutes_before": 36.1,
+  "close_at": "2026-10-27T00:03:40.331175+00:00",
+  "close_minutes_before": 6.3,
   "close_final": true
  },
  "85a2379bc49135f2759709e55af0c4c6|livescorebet|h2h|Denver Nuggets": {
@@ -2866,9 +2866,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.94,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 2.19,
+  "close_books": 7,
+  "close_at": "2026-10-27T00:03:40.331175+00:00",
+  "close_minutes_before": 36.3,
+  "close_final": true
  },
  "20277c97a62bde35c5494acdb5912a68|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -2937,9 +2943,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.06,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 1.84,
+  "close_books": 7,
+  "close_at": "2026-10-27T00:03:40.331175+00:00",
+  "close_minutes_before": 36.3,
+  "close_final": true
  },
  "5b70654c977b6cc9a110ad8c04c57cac|williamhill|totals|Under 6.5": {
   "sport": "NHL",
