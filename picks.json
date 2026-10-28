@@ -233,9 +233,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.9,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 3.62,
+  "close_books": 21,
+  "close_at": "2026-10-28T19:39:01.489562+00:00",
+  "close_minutes_before": 6.0,
+  "close_final": true
  },
  "d642d88020e7ce9d602d0354b3856fec|coral|h2h|Zimbabwe": {
   "sport": "One Day Internationals",
@@ -443,9 +449,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 6.35,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 6.57,
+  "close_books": 20,
+  "close_at": "2026-10-28T19:39:01.489562+00:00",
+  "close_minutes_before": 6.0,
+  "close_final": true
  },
  "df7d2d81b9e2f3f11c6aeddaee6b7085|betfred_uk|h2h|RB Leipzig": {
   "sport": "UEFA Champions League",
@@ -1774,9 +1786,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.37,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 5.72,
+  "close_books": 21,
+  "close_at": "2026-10-28T19:39:01.489562+00:00",
+  "close_minutes_before": 6.0,
+  "close_final": true
  },
  "961d9c9f07b1f911e211cd6a750cddba|betfred_uk|h2h|Sparta Rotterdam": {
   "sport": "Dutch Eredivisie",
@@ -2413,9 +2431,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.72,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 5.36,
+  "close_books": 19,
+  "close_at": "2026-10-28T19:39:01.489562+00:00",
+  "close_minutes_before": 6.0,
+  "close_final": true
  },
  "6601f69175a02f03fb7065aacb538e01|paddypower|h2h|Manchester United": {
   "sport": "EPL",
