@@ -3632,9 +3632,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.17,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 5.46,
+  "close_books": 16,
+  "close_at": "2026-10-28T17:18:09.490668+00:00",
+  "close_minutes_before": 26.8,
+  "close_final": true
  },
  "f2a1271ffcfd7c85f51640ebff3b7ddd|betway|h2h|Washington Wizards": {
   "sport": "NBA",
