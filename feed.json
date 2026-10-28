@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-28T06:26:49.398294+00:00",
+ "updated": "2026-10-28T11:30:50.886626+00:00",
  "scanned": {
-  "events": 82,
-  "selections": 173,
+  "events": 81,
+  "selections": 165,
   "sports": 9,
   "by_market": {
-   "h2h": 123,
-   "totals": 50
+   "h2h": 117,
+   "totals": 48
   },
   "stale_dropped": 0
  },
@@ -51,34 +51,28 @@
   {
    "sport": "NBA",
    "market": "Match odds",
+   "event": "Utah Jazz v San Antonio Spurs",
+   "start": "2026-10-29T01:10:00Z",
+   "selection": "Utah Jazz",
+   "book": "Betway",
+   "odds": 6.0,
+   "fair": 5.52,
+   "books": 17,
+   "detected": "2026-10-28T11:30:50.166153+00:00",
+   "link": "https://betway.com/en/sports/evt/17411326"
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
    "event": "Cleveland Cavaliers v Washington Wizards",
    "start": "2026-10-28T23:10:00Z",
    "selection": "Washington Wizards",
    "book": "Betway",
    "odds": 4.3,
-   "fair": 4.1,
-   "books": 17,
-   "detected": "2026-10-28T06:26:48.849001+00:00",
+   "fair": 4.06,
+   "books": 18,
+   "detected": "2026-10-28T11:30:50.163718+00:00",
    "link": "https://betway.com/en/sports/evt/17411299"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Chicago Bulls v New York Knicks",
-   "start": "2026-10-29T00:10:00Z",
-   "selection": "Chicago Bulls",
-   "book": "LiveScore Bet",
-   "odds": 3.2,
-   "fair": 3.07,
-   "books": 17,
-   "detected": "2026-10-28T06:26:48.849777+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/chicago-bulls-new-york-knicks/SBTE_2_1028754142",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 3.15
-    }
-   ]
   },
   {
    "sport": "NBA",
@@ -90,7 +84,7 @@
    "odds": 2.3,
    "fair": 2.22,
    "books": 6,
-   "detected": "2026-10-28T06:26:48.851875+00:00",
+   "detected": "2026-10-28T11:30:50.167579+00:00",
    "link": "https://www.888sport.com/basketball/united-states/nba/denver-nuggets-golden-state-warriors-e-8066274/",
    "also": [
     {
@@ -109,67 +103,8 @@
    "odds": 1.78,
    "fair": 1.73,
    "books": 6,
-   "detected": "2026-10-28T06:26:48.851858+00:00",
+   "detected": "2026-10-28T11:30:50.167554+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/golden-state-warriors-denver-nuggets/SBTE_2_1028726111"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Utah Jazz v San Antonio Spurs",
-   "start": "2026-10-29T01:10:00Z",
-   "selection": "Utah Jazz",
-   "book": "LiveScore Bet",
-   "odds": 5.25,
-   "fair": 5.13,
-   "books": 17,
-   "detected": "2026-10-28T06:26:48.850853+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/utah-jazz-san-antonio-spurs/SBTE_2_1028754129"
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Seattle Kraken v Toronto Maple Leafs",
-   "start": "2026-10-29T02:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.1,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-28T06:26:49.137984+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/seattle-kraken-toronto-maple-leafs/SBTE_2_1028409789",
-   "also": [
-    {
-     "book": "Casumo",
-     "odds": 2.1
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.1
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Edmonton Oilers v Calgary Flames",
-   "start": "2026-10-29T00:40:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.12,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-28T06:26:49.137605+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/edmonton-oilers-calgary-flames/SBTE_2_1028409799",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.12
-    },
-    {
-     "book": "Casumo",
-     "odds": 2.12
-    }
-   ]
   },
   {
    "sport": "NHL",
@@ -179,9 +114,9 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.0,
-   "fair": 1.94,
-   "books": 9,
-   "detected": "2026-10-28T06:26:49.138009+00:00",
+   "fair": 1.84,
+   "books": 7,
+   "detected": "2026-10-28T11:30:50.492223+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/toronto-maple-leafs-seattle-kraken-e-7958308/",
    "also": [
     {
@@ -191,17 +126,46 @@
    ]
   },
   {
-   "sport": "ATP Swiss Indoors Basel",
-   "market": "Match odds",
-   "event": "Daniel Altmaier v Jiri Lehecka",
-   "start": "2026-10-29T10:00:00Z",
-   "selection": "Daniel Altmaier",
-   "book": "Betway",
-   "odds": 5.5,
-   "fair": 5.0,
-   "books": 12,
-   "detected": "2026-10-28T06:26:49.212612+00:00",
-   "link": "https://betway.com/en/sports/evt/17410604"
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Calgary Flames",
+   "start": "2026-10-29T00:40:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.81,
+   "books": 7,
+   "detected": "2026-10-28T11:30:50.491701+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/calgary-flames-edmonton-oilers-e-7958310/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Seattle Kraken v Toronto Maple Leafs",
+   "start": "2026-10-29T02:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.1,
+   "fair": 2.03,
+   "books": 7,
+   "detected": "2026-10-28T11:30:50.492186+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/seattle-kraken-toronto-maple-leafs/SBTE_2_1028409789",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.1
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.08
+    }
+   ]
   },
   {
    "sport": "ATP Swiss Indoors Basel",
@@ -210,67 +174,81 @@
    "start": "2026-10-29T10:00:00Z",
    "selection": "Valentin Vacherot",
    "book": "Casumo",
-   "odds": 3.7,
-   "fair": 3.53,
+   "odds": 3.8,
+   "fair": 3.55,
    "books": 19,
-   "detected": "2026-10-28T06:26:49.212837+00:00",
+   "detected": "2026-10-28T11:30:50.598371+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1029650580",
    "also": [
     {
      "book": "LiveScore Bet",
-     "odds": 3.7
+     "odds": 3.8
     },
     {
      "book": "Grosvenor",
-     "odds": 3.7
+     "odds": 3.8
     },
     {
      "book": "Virgin Bet",
-     "odds": 3.7
+     "odds": 3.8
+    }
+   ]
+  },
+  {
+   "sport": "ATP Swiss Indoors Basel",
+   "market": "Match odds",
+   "event": "Ben Shelton v Jerome Kym",
+   "start": "2026-10-29T10:00:00Z",
+   "selection": "Jerome Kym",
+   "book": "BoyleSports",
+   "odds": 4.0,
+   "fair": 3.75,
+   "books": 19,
+   "detected": "2026-10-28T11:30:50.597812+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/ben-shelton-v-jerome-kym",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.85
     },
     {
-     "book": "Unibet (UK)",
-     "odds": 3.6
+     "book": "Casumo",
+     "odds": 3.85
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 3.85
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 3.85
     }
    ]
   },
   {
    "sport": "ATP Vienna Open",
    "market": "Match odds",
-   "event": "Tommy Paul v Luciano Darderi",
-   "start": "2026-10-29T12:00:00Z",
-   "selection": "Luciano Darderi",
-   "book": "Betway",
-   "odds": 4.25,
-   "fair": 4.06,
-   "books": 19,
-   "detected": "2026-10-28T06:26:49.315422+00:00",
-   "link": "https://betway.com/en/sports/evt/17409188"
-  },
-  {
-   "sport": "ATP Vienna Open",
-   "market": "Match odds",
-   "event": "Daniel Merida Aguilar v Daniil Medvede",
-   "start": "2026-10-28T12:30:00Z",
-   "selection": "Daniel Merida Aguilar",
-   "book": "BoyleSports",
-   "odds": 3.75,
-   "fair": 3.62,
+   "event": "Jakub Mensik v Adrian Mannarino",
+   "start": "2026-10-28T14:50:00Z",
+   "selection": "Adrian Mannarino",
+   "book": "Unibet (UK)",
+   "odds": 4.9,
+   "fair": 4.75,
    "books": 20,
-   "detected": "2026-10-28T06:26:49.314183+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-vienna/daniel-merida-aguilar-v-daniil-medvedev"
+   "detected": "2026-10-28T11:30:50.739078+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/vienna/jakub-mensik-vs-adrian-mannarino/e9c5917d85c466915567cbce98f7134a"
   },
   {
    "sport": "WTA Pan Pacific Open",
    "market": "Match odds",
    "event": "Naomi Osaka v Mia Poh\u00e1nkov\u00e1",
-   "start": "2026-10-29T04:00:00Z",
+   "start": "2026-10-29T05:30:00Z",
    "selection": "Mia Poh\u00e1nkov\u00e1",
    "book": "Betway",
    "odds": 4.25,
-   "fair": 4.0,
-   "books": 18,
-   "detected": "2026-10-28T06:26:49.397243+00:00",
+   "fair": 4.07,
+   "books": 20,
+   "detected": "2026-10-28T11:30:50.884851+00:00",
    "link": "https://betway.com/en/sports/evt/17408138"
   }
  ],

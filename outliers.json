@@ -414,5 +414,57 @@
   "books": 17,
   "start": "2026-10-29T01:10:00Z",
   "seen": "2026-10-28T06:26:48.850868+00:00"
+ },
+ {
+  "sport": "ATP Swiss Indoors Basel",
+  "event": "Daniel Altmaier v Jiri Lehecka",
+  "market": "Match odds",
+  "selection": "Daniel Altmaier",
+  "book": "Coral",
+  "odds": 5.5,
+  "fair": 4.85,
+  "edge": 13.5,
+  "books": 19,
+  "start": "2026-10-29T10:00:00Z",
+  "seen": "2026-10-28T11:30:50.598005+00:00"
+ },
+ {
+  "sport": "ATP Swiss Indoors Basel",
+  "event": "Daniel Altmaier v Jiri Lehecka",
+  "market": "Match odds",
+  "selection": "Daniel Altmaier",
+  "book": "Ladbrokes",
+  "odds": 5.5,
+  "fair": 4.85,
+  "edge": 13.5,
+  "books": 19,
+  "start": "2026-10-29T10:00:00Z",
+  "seen": "2026-10-28T11:30:50.598016+00:00"
+ },
+ {
+  "sport": "ATP Swiss Indoors Basel",
+  "event": "Daniel Altmaier v Jiri Lehecka",
+  "market": "Match odds",
+  "selection": "Daniel Altmaier",
+  "book": "888sport",
+  "odds": 5.5,
+  "fair": 4.85,
+  "edge": 13.5,
+  "books": 19,
+  "start": "2026-10-29T10:00:00Z",
+  "seen": "2026-10-28T11:30:50.598025+00:00"
+ },
+ {
+  "sport": "ATP Swiss Indoors Basel",
+  "event": "Daniel Altmaier v Jiri Lehecka",
+  "market": "Match odds",
+  "selection": "Daniel Altmaier",
+  "book": "William Hill",
+  "odds": 5.5,
+  "fair": 4.85,
+  "edge": 13.5,
+  "books": 19,
+  "start": "2026-10-29T10:00:00Z",
+  "seen": "2026-10-28T11:30:50.598032+00:00"
  }
 ]
