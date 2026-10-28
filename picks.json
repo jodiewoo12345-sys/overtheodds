@@ -4493,8 +4493,14 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.78,
-  "latest_seen": "2026-10-28T11:30:50.886575+00:00"
+  "latest_seen": "2026-10-28T11:30:50.886575+00:00",
+  "close_attempts": 1,
+  "close": 4.9,
+  "close_books": 20,
+  "close_at": "2026-10-28T14:37:05.998937+00:00",
+  "close_minutes_before": 12.9,
+  "close_final": true
  }
 }
