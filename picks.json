@@ -3719,9 +3719,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.1,
-  "latest_seen": "2026-10-28T11:30:50.886575+00:00"
+  "latest_seen": "2026-10-28T11:30:50.886575+00:00",
+  "close_attempts": 1,
+  "close": 4.2,
+  "close_books": 18,
+  "close_at": "2026-10-28T22:31:40.537170+00:00",
+  "close_minutes_before": 38.3,
+  "close_final": true
  },
  "7b9e02686c886a54c9a91dd3f3879326|livescorebet|h2h|Chicago Bulls": {
   "sport": "NBA",
