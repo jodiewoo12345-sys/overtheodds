@@ -4202,9 +4202,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.62,
-  "latest_seen": "2026-10-28T06:26:49.398260+00:00"
+  "latest_seen": "2026-10-28T06:26:49.398260+00:00",
+  "close_attempts": 1,
+  "close": 3.98,
+  "close_books": 20,
+  "close_at": "2026-10-28T11:59:03.803579+00:00",
+  "close_minutes_before": 30.9,
+  "close_final": true
  },
  "d04e7e6ce329fccbd0b365240f807cca|betway|h2h|Mia Poh\u00e1nkov\u00e1": {
   "sport": "WTA Pan Pacific Open",
