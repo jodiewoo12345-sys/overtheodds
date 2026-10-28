@@ -4208,9 +4208,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.25,
-  "latest_seen": "2026-10-27T11:27:52.584501+00:00"
+  "latest_seen": "2026-10-27T11:27:52.584501+00:00",
+  "close_attempts": 1,
+  "close": 2.27,
+  "close_books": 7,
+  "close_at": "2026-10-28T01:39:48.607426+00:00",
+  "close_minutes_before": 20.2,
+  "close_final": true
  },
  "5f16cb74336431221c132f05c0e31d04|casumo|totals|Over 6.5": {
   "sport": "NHL",
@@ -4265,9 +4271,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.09,
-  "latest_seen": "2026-10-27T11:27:52.584501+00:00"
+  "latest_seen": "2026-10-27T11:27:52.584501+00:00",
+  "close_attempts": 1,
+  "close": 2.08,
+  "close_books": 7,
+  "close_at": "2026-10-28T01:39:48.607426+00:00",
+  "close_minutes_before": 20.2,
+  "close_final": true
  },
  "7ca25d591cbdc679a9ad85d1f04811cb|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -4438,9 +4450,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.91,
-  "latest_seen": "2026-10-27T11:27:52.584501+00:00"
+  "latest_seen": "2026-10-27T11:27:52.584501+00:00",
+  "close_attempts": 1,
+  "close": 1.92,
+  "close_books": 7,
+  "close_at": "2026-10-28T01:39:48.607426+00:00",
+  "close_minutes_before": 20.2,
+  "close_final": true
  },
  "66690f3994b21af39301701a52df1d66|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -4495,9 +4513,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.8,
-  "latest_seen": "2026-10-27T11:27:52.584501+00:00"
+  "latest_seen": "2026-10-27T11:27:52.584501+00:00",
+  "close_attempts": 1,
+  "close": 1.79,
+  "close_books": 7,
+  "close_at": "2026-10-28T01:39:48.607426+00:00",
+  "close_minutes_before": 20.2,
+  "close_final": true
  },
  "0fb51999c3020ac1f14f5cebbed40671|boylesports|h2h|Giovanni Mpetshi Perricard": {
   "sport": "ATP Swiss Indoors Basel",
