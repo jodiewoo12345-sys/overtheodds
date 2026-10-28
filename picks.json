@@ -3782,9 +3782,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.2,
-  "latest_seen": "2026-10-28T11:30:50.886575+00:00"
+  "latest_seen": "2026-10-28T11:30:50.886575+00:00",
+  "close_attempts": 1,
+  "close": 3.3,
+  "close_books": 17,
+  "close_at": "2026-10-28T23:51:39.270422+00:00",
+  "close_minutes_before": 18.3,
+  "close_final": true
  },
  "e74d54621abaed183e569394f935c362|livescorebet|h2h|Utah Jazz": {
   "sport": "NBA",
