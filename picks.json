@@ -3420,9 +3420,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 3.81,
+  "close_books": 11,
+  "close_at": "2026-10-29T14:22:44.927232+00:00",
+  "close_minutes_before": 7.3,
+  "close_final": true
  },
  "b8f3c483149e46a5f7c24ea941be8649|sport888|totals|Under 6.5": {
   "sport": "NHL",
