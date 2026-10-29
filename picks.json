@@ -3786,9 +3786,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.76,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 1.84,
+  "close_books": 8,
+  "close_at": "2026-10-29T23:54:09.276995+00:00",
+  "close_minutes_before": 15.8,
+  "close_final": true
  },
  "923b47df7869b8b2c5d758b7f21d4b4a|virginbet|totals|Over 6.5": {
   "sport": "NHL",
@@ -3843,9 +3849,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.32,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 2.19,
+  "close_books": 8,
+  "close_at": "2026-10-29T23:54:09.276995+00:00",
+  "close_minutes_before": 15.8,
+  "close_final": true
  },
  "9da35734a02ec2627cd4034086584157|boylesports|h2h|Denis Shapovalov": {
   "sport": "ATP Swiss Indoors Basel",
