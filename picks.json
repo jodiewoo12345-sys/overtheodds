@@ -29,7 +29,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.75,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "1eb5e1a69ae9dd9edd92fde344308a4e|betfred_uk|h2h|Hamburger SV": {
   "sport": "Bundesliga - Germany",
@@ -859,7 +859,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.71,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "f6f3cf01c2b20b7f746b5a06097a0569|virginbet|h2h|Feyenoord": {
   "sport": "UEFA Champions League",
@@ -1853,7 +1853,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.07,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "9c5d8f57e0ba0fbd9ef436c1f0898f99|betway|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -1924,7 +1924,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.27,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "85a2379bc49135f2759709e55af0c4c6|sport888|h2h|Golden State Warriors": {
   "sport": "NBA",
@@ -1995,7 +1995,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.21,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "85a2379bc49135f2759709e55af0c4c6|livescorebet|h2h|Denver Nuggets": {
   "sport": "NBA",
@@ -2066,7 +2066,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.82,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "f1340f4249745bb9c83bf2ddf43195d1|casumo|h2h|Watford": {
   "sport": "Championship",
@@ -2918,7 +2918,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.58,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "0cfbab01e152f81e34f9014e02c7eb79|casumo|h2h|Crystal Palace": {
   "sport": "EPL",
@@ -3188,7 +3188,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.27,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "f7fa6060659fec573d7a7df3881aff82|casumo|h2h|Valentin Vacherot": {
   "sport": "ATP Swiss Indoors Basel",
@@ -3359,7 +3359,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.79,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "64445235d9c58f413a990f6ff8d91c1c|boylesports|h2h|Zimbabwe": {
   "sport": "International Twenty20",
@@ -3416,7 +3416,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "b8f3c483149e46a5f7c24ea941be8649|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -3472,8 +3472,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 1.92,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_fair": 1.93,
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "b07a2b3d9d717c9eb693422aef404555|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -3530,7 +3530,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.96,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "c8abddd6d4a9c96f45dcdd287f392537|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -3587,7 +3587,7 @@
   },
   "close_status": "pending",
   "latest_fair": 1.88,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  },
  "9744d2cb822ca005f4607e336b1b2b81|paddypower|h2h|Cameron Norrie": {
   "sport": "ATP Vienna Open",
@@ -3701,6 +3701,234 @@
   },
   "close_status": "pending",
   "latest_fair": 2.38,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+ },
+ "923b47df7869b8b2c5d758b7f21d4b4a|sport888|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Nashville Predators v Washington Capitals",
+  "start": "2026-10-30T00:10:00Z",
+  "selection": "Under 6.5",
+  "book": "888sport",
+  "odds": 1.91,
+  "fair": 1.76,
+  "edge": 8.52,
+  "books": 7,
+  "detected": "2026-10-29T11:31:26.078278+00:00",
+  "first_seen": "2026-10-29T11:31:26.078280+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.76,
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+ },
+ "923b47df7869b8b2c5d758b7f21d4b4a|virginbet|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Nashville Predators v Washington Capitals",
+  "start": "2026-10-30T00:10:00Z",
+  "selection": "Over 6.5",
+  "book": "Virgin Bet",
+  "odds": 2.2,
+  "fair": 2.16,
+  "edge": 1.85,
+  "books": 7,
+  "detected": "2026-10-29T11:31:26.078335+00:00",
+  "first_seen": "2026-10-29T11:31:26.078337+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.32,
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+ },
+ "9da35734a02ec2627cd4034086584157|boylesports|h2h|Denis Shapovalov": {
+  "sport": "ATP Swiss Indoors Basel",
+  "sport_key": "tennis_atp_swiss_indoors",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Taylor Fritz v Denis Shapovalo",
+  "start": "2026-10-29T14:10:00Z",
+  "selection": "Denis Shapovalov",
+  "book": "BoyleSports",
+  "odds": 3.0,
+  "fair": 2.93,
+  "edge": 2.39,
+  "books": 20,
+  "detected": "2026-10-29T11:31:26.078367+00:00",
+  "first_seen": "2026-10-29T11:31:26.078368+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.95,
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+ },
+ "97cd96668035a40fb27d5c40998e6fb0|betway|h2h|Leylah Fernandez": {
+  "sport": "WTA Pan Pacific Open",
+  "sport_key": "tennis_wta_pan_pacific_open",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Elena Rybakina v Leylah Fernandez",
+  "start": "2026-10-30T05:30:00Z",
+  "selection": "Leylah Fernandez",
+  "book": "Betway",
+  "odds": 4.25,
+  "fair": 4.07,
+  "edge": 4.42,
+  "books": 10,
+  "detected": "2026-10-29T11:31:26.078397+00:00",
+  "first_seen": "2026-10-29T11:31:26.078398+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.07,
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
  }
 }

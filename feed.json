@@ -1,13 +1,12 @@
 {
- "updated": "2026-10-29T09:51:08.972276+00:00",
+ "updated": "2026-10-29T11:31:26.078469+00:00",
  "scanned": {
-  "events": 69,
-  "selections": 158,
+  "events": 70,
+  "selections": 153,
   "sports": 9,
   "by_market": {
-   "h2h": 100,
-   "totals": 56,
-   "spreads": 2
+   "h2h": 99,
+   "totals": 54
   },
   "stale_dropped": 0
  },
@@ -59,7 +58,7 @@
    "odds": 4.33,
    "fair": 4.23,
    "books": 11,
-   "detected": "2026-10-29T09:51:08.094390+00:00",
+   "detected": "2026-10-29T11:31:25.116991+00:00",
    "link": "https://www.boylesports.com/sports/cricket/event/international-t20s/afghanistan-v-zimbabwe"
   },
   {
@@ -70,14 +69,33 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.1,
-   "fair": 1.92,
+   "fair": 1.93,
    "books": 7,
-   "detected": "2026-10-29T09:51:08.508914+00:00",
+   "detected": "2026-10-29T11:31:25.623181+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/utah-mammoth-pittsburgh-penguins-e-7936808/",
    "also": [
     {
      "book": "William Hill",
      "odds": 2.1
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Nashville Predators v Washington Capitals",
+   "start": "2026-10-30T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.76,
+   "books": 7,
+   "detected": "2026-10-29T11:31:25.624351+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/washington-capitals-nashville-predators-e-7954145/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
     }
    ]
   },
@@ -91,7 +109,7 @@
    "odds": 2.1,
    "fair": 1.96,
    "books": 7,
-   "detected": "2026-10-29T09:51:08.510329+00:00",
+   "detected": "2026-10-29T11:31:25.624920+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/vancouver-canucks-san-jose-sharks-e-7954134/",
    "also": [
     {
@@ -110,12 +128,35 @@
    "odds": 2.0,
    "fair": 1.88,
    "books": 7,
-   "detected": "2026-10-29T09:51:08.510010+00:00",
+   "detected": "2026-10-29T11:31:25.624559+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/buffalo-sabres-anaheim-ducks-e-7954139/",
    "also": [
     {
      "book": "William Hill",
      "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Nashville Predators v Washington Capitals",
+   "start": "2026-10-30T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.2,
+   "fair": 2.16,
+   "books": 7,
+   "detected": "2026-10-29T11:31:25.624329+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/nashville-predators-washington-capitals/SBTE_2_1028450478",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.2
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.2
     }
    ]
   },
@@ -129,35 +170,21 @@
    "odds": 5.5,
    "fair": 5.27,
    "books": 20,
-   "detected": "2026-10-29T09:51:08.704900+00:00",
+   "detected": "2026-10-29T11:31:25.852036+00:00",
    "link": "https://betway.com/en/sports/evt/17410604"
   },
   {
-   "sport": "ATP Vienna Open",
+   "sport": "ATP Swiss Indoors Basel",
    "market": "Match odds",
-   "event": "Cameron Norrie v Daniil Medvede",
-   "start": "2026-10-29T12:30:00Z",
-   "selection": "Cameron Norrie",
-   "book": "Paddy Power",
-   "odds": 5.0,
-   "fair": 4.9,
+   "event": "Taylor Fritz v Denis Shapovalo",
+   "start": "2026-10-29T14:10:00Z",
+   "selection": "Denis Shapovalov",
+   "book": "BoyleSports",
+   "odds": 3.0,
+   "fair": 2.93,
    "books": 20,
-   "detected": "2026-10-29T09:51:08.845750+00:00",
-   "link": "https://www.paddypower.com/tennis/atp-vienna-2026/norrie-v-medvedev-36251547",
-   "also": [
-    {
-     "book": "Sky Bet",
-     "odds": 5.0
-    },
-    {
-     "book": "BoyleSports",
-     "odds": 5.0
-    },
-    {
-     "book": "Betfair Sportsbook",
-     "odds": 5.0
-    }
-   ]
+   "detected": "2026-10-29T11:31:25.851769+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-basel/taylor-fritz-v-denis-shapovalov"
   },
   {
    "sport": "WTA Pan Pacific Open",
@@ -169,8 +196,21 @@
    "odds": 2.5,
    "fair": 2.38,
    "books": 20,
-   "detected": "2026-10-29T09:51:08.971524+00:00",
+   "detected": "2026-10-29T11:31:26.077581+00:00",
    "link": "https://www.boylesports.com/sports/tennis/event/wta-tokyo/alexandra-eala-v-diana-shnaider"
+  },
+  {
+   "sport": "WTA Pan Pacific Open",
+   "market": "Match odds",
+   "event": "Elena Rybakina v Leylah Fernandez",
+   "start": "2026-10-30T05:30:00Z",
+   "selection": "Leylah Fernandez",
+   "book": "Betway",
+   "odds": 4.25,
+   "fair": 4.07,
+   "books": 10,
+   "detected": "2026-10-29T11:31:26.077420+00:00",
+   "link": "https://betway.com/en/sports/evt/17417421"
   }
  ],
  "results": [
