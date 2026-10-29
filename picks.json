@@ -3300,9 +3300,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.23,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T09:51:08.972241+00:00",
+  "close_attempts": 1,
+  "close": 4.2,
+  "close_books": 20,
+  "close_at": "2026-10-29T11:33:02.002940+00:00",
+  "close_minutes_before": 27.0,
+  "close_final": true
  },
  "53d4ccf860436088aa717efdf2c38d25|boylesports|h2h|Jerome Kym": {
   "sport": "ATP Swiss Indoors Basel",
