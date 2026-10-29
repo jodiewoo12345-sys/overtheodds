@@ -3129,9 +3129,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.21,
-  "latest_seen": "2026-10-26T11:31:22.215546+00:00"
+  "latest_seen": "2026-10-26T11:31:22.215546+00:00",
+  "close_attempts": 1,
+  "close": 3.4,
+  "close_books": 16,
+  "close_at": "2026-10-29T17:10:50.180074+00:00",
+  "close_minutes_before": 34.2,
+  "close_final": true
  },
  "381536c46bd1e16a9236502df3f748e5|betway|h2h|Daniel Altmaier": {
   "sport": "ATP Swiss Indoors Basel",
