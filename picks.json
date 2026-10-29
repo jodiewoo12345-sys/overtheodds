@@ -3648,9 +3648,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 4.9,
-  "latest_seen": "2026-10-29T09:51:08.972241+00:00"
+  "latest_seen": "2026-10-29T09:51:08.972241+00:00",
+  "close_attempts": 1,
+  "close": 4.73,
+  "close_books": 20,
+  "close_at": "2026-10-29T12:17:01.151840+00:00",
+  "close_minutes_before": 13.0,
+  "close_final": true
  },
  "d52af5cb645ef831c4dbab0bbaf48dac|boylesports|h2h|Alexandra Eala": {
   "sport": "WTA Pan Pacific Open",
