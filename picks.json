@@ -3178,9 +3178,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.38,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 2.11,
+  "close_books": 20,
+  "close_at": "2026-10-30T07:24:25.798869+00:00",
+  "close_minutes_before": 35.6,
+  "close_final": true
  },
  "97cd96668035a40fb27d5c40998e6fb0|betway|h2h|Leylah Fernandez": {
   "sport": "WTA Pan Pacific Open",
