@@ -3552,9 +3552,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.96,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 2.06,
+  "close_books": 8,
+  "close_at": "2026-10-30T01:39:02.136565+00:00",
+  "close_minutes_before": 31.0,
+  "close_final": true
  },
  "c8abddd6d4a9c96f45dcdd287f392537|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -3609,9 +3615,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.88,
-  "latest_seen": "2026-10-29T11:31:26.078432+00:00"
+  "latest_seen": "2026-10-29T11:31:26.078432+00:00",
+  "close_attempts": 1,
+  "close": 2.0,
+  "close_books": 8,
+  "close_at": "2026-10-30T01:39:02.136565+00:00",
+  "close_minutes_before": 31.0,
+  "close_final": true
  },
  "9744d2cb822ca005f4607e336b1b2b81|paddypower|h2h|Cameron Norrie": {
   "sport": "ATP Vienna Open",
