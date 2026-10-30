@@ -3178,9 +3178,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.48,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 3.71,
+  "close_books": 16,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 41.7,
+  "close_final": true
  },
  "64df299b882ea19ad5f8cb0ed5516a6f|virginbet|totals|Under 221.5": {
   "sport": "NBA",
@@ -3235,9 +3241,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.0,
-  "latest_seen": "2026-10-30T06:28:26.584803+00:00"
+  "latest_seen": "2026-10-30T06:28:26.584803+00:00",
+  "close_attempts": 1,
+  "close": 2.03,
+  "close_books": 9,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 11.7,
+  "close_final": true
  },
  "64df299b882ea19ad5f8cb0ed5516a6f|livescorebet|h2h|Brooklyn Nets": {
   "sport": "NBA",
@@ -3292,9 +3304,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.44,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 3.48,
+  "close_books": 17,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 11.7,
+  "close_final": true
  },
  "a0f5d89a4fc51e52edd0e70d1e4cbaf2|betway|h2h|Orlando Magic": {
   "sport": "NBA",
@@ -3349,9 +3367,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.91,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 2.88,
+  "close_books": 17,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 11.7,
+  "close_final": true
  },
  "cc4564f7b80beae29935d650d1ccb4cb|livescorebet|h2h|Tommy Paul": {
   "sport": "ATP Vienna Open",
@@ -3532,9 +3556,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.25,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 2.02,
+  "close_books": 4,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 41.7,
+  "close_final": true
  },
  "026d37181dd4ace0df7565d9b208ce7e|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -3589,9 +3619,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.8,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 1.98,
+  "close_books": 4,
+  "close_at": "2026-10-30T23:28:15.077576+00:00",
+  "close_minutes_before": 41.7,
+  "close_final": true
  },
  "e01a16acf3ce50a010714d85d5ff6374|unibet_uk|h2h|Jerome Kym": {
   "sport": "ATP Swiss Indoors Basel",
