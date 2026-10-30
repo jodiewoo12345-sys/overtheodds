@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-30T06:28:26.584846+00:00",
+ "updated": "2026-10-30T11:27:45.315413+00:00",
  "scanned": {
-  "events": 61,
-  "selections": 109,
+  "events": 58,
+  "selections": 121,
   "sports": 9,
   "by_market": {
    "h2h": 83,
-   "totals": 26
+   "totals": 38
   },
   "stale_dropped": 0
  },
@@ -55,114 +55,80 @@
    "start": "2026-10-31T00:10:00Z",
    "selection": "Indiana Pacers",
    "book": "LiveScore Bet",
-   "odds": 3.8,
-   "fair": 3.46,
+   "odds": 3.65,
+   "fair": 3.48,
    "books": 17,
-   "detected": "2026-10-30T06:28:25.986405+00:00",
+   "detected": "2026-10-30T11:27:44.197597+00:00",
    "link": "https://www.livescorebet.com/uk/sports/basketball/nba/miami-heat-indiana-pacers/SBTE_2_1028744846",
    "also": [
     {
      "book": "Virgin Bet",
-     "odds": 3.75
-    },
-    {
-     "book": "Betway",
      "odds": 3.6
     }
    ]
   },
   {
-   "sport": "NBA",
+   "sport": "NHL",
    "market": "Totals",
-   "event": "Brooklyn Nets v Detroit Pistons",
-   "start": "2026-10-30T23:40:00Z",
-   "selection": "Under 221.5",
+   "event": "Calgary Flames v Seattle Kraken",
+   "start": "2026-10-31T00:10:00Z",
+   "selection": "Over 6.5",
    "book": "Virgin Bet",
-   "odds": 2.08,
-   "fair": 2.0,
-   "books": 9,
-   "detected": "2026-10-30T06:28:25.985178+00:00",
-   "link": "https://www.virginbet.com/sports/basketball/nba/brooklyn-nets-detroit-pistons/SBTE_2_1028744833",
+   "odds": 2.28,
+   "fair": 2.11,
+   "books": 8,
+   "detected": "2026-10-30T11:27:44.910613+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/calgary-flames-seattle-kraken/SBTE_2_1028409815",
    "also": [
     {
      "book": "LiveScore Bet",
-     "odds": 2.08
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.08
+     "odds": 2.28
     },
     {
      "book": "Casumo",
-     "odds": 2.06
+     "odds": 2.28
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.16
     }
    ]
   },
   {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Brooklyn Nets v Detroit Pistons",
-   "start": "2026-10-30T23:40:00Z",
-   "selection": "Brooklyn Nets",
-   "book": "LiveScore Bet",
-   "odds": 3.6,
-   "fair": 3.48,
-   "books": 17,
-   "detected": "2026-10-30T06:28:25.985036+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/brooklyn-nets-detroit-pistons/SBTE_2_1028744833"
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
-   "event": "Toronto Raptors v Orlando Magic",
-   "start": "2026-10-30T23:40:00Z",
-   "selection": "Orlando Magic",
-   "book": "Betway",
-   "odds": 3.0,
-   "fair": 2.9,
-   "books": 17,
-   "detected": "2026-10-30T06:28:25.985852+00:00",
-   "link": "https://betway.com/en/sports/evt/17420278"
-  },
-  {
-   "sport": "ATP Vienna Open",
-   "market": "Match odds",
-   "event": "Tommy Paul v Carlos Alcaraz",
-   "start": "2026-10-30T14:00:00Z",
-   "selection": "Tommy Paul",
-   "book": "LiveScore Bet",
-   "odds": 4.1,
-   "fair": 3.91,
-   "books": 20,
-   "detected": "2026-10-30T06:28:26.499781+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/tennis/atp-vienna/tommy-paul-carlos-alcaraz/SBTE_2_1029676799",
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Calgary Flames v Seattle Kraken",
+   "start": "2026-10-31T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.8,
+   "fair": 1.71,
+   "books": 8,
+   "detected": "2026-10-30T11:27:44.910634+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/seattle-kraken-calgary-flames-e-7954132/",
    "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 4.1
+     "book": "William Hill",
+     "odds": 1.8
     },
     {
-     "book": "Grosvenor",
-     "odds": 4.1
-    },
-    {
-     "book": "Casumo",
-     "odds": 4.1
+     "book": "LeoVegas",
+     "odds": 1.75
     }
    ]
   },
   {
-   "sport": "ATP Vienna Open",
+   "sport": "ATP Swiss Indoors Basel",
    "market": "Match odds",
-   "event": "Adrian Mannarino v Daniil Medvede",
-   "start": "2026-10-30T12:30:00Z",
-   "selection": "Adrian Mannarino",
+   "event": "Jerome Kym v Jiri Lehecka",
+   "start": "2026-10-30T17:00:00Z",
+   "selection": "Jerome Kym",
    "book": "Unibet (UK)",
-   "odds": 4.3,
-   "fair": 4.2,
+   "odds": 3.6,
+   "fair": 3.46,
    "books": 20,
-   "detected": "2026-10-30T06:28:26.499330+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/vienna/adrian-mannarino-vs-daniil-medvedev/9272d8d04ada856ab54b43f4ac71ef91"
+   "detected": "2026-10-30T11:27:45.055150+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/basel/jerome-kym-vs-jiri-lehecka/592e24d11b3d0bcd4fab08a5a0f167f5"
   }
  ],
  "results": [
@@ -12626,6 +12592,60 @@
    "close_minutes": null,
    "close_status": "missed_window",
    "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "d52af5cb645ef831c4dbab0bbaf48dac|boylesports|h2h|Alexandra Eala",
+   "sport": "WTA Pan Pacific Open",
+   "league": "tennis_wta_pan_pacific_open",
+   "event": "Alexandra Eala v Diana Shnaider",
+   "market": "Match odds",
+   "date": "2026-10-30",
+   "detected": "2026-10-29T09:51:08.972217+00:00",
+   "selection": "Alexandra Eala",
+   "book": "BoyleSports",
+   "odds": 2.5,
+   "fair": 2.38,
+   "edge": 5.04,
+   "books": 20,
+   "close": 2.11,
+   "close_books": 20,
+   "close_minutes": 35.6,
+   "close_status": "final",
+   "close_attempts": 1,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "97cd96668035a40fb27d5c40998e6fb0|betway|h2h|Leylah Fernandez",
+   "sport": "WTA Pan Pacific Open",
+   "league": "tennis_wta_pan_pacific_open",
+   "event": "Elena Rybakina v Leylah Fernandez",
+   "market": "Match odds",
+   "date": "2026-10-30",
+   "detected": "2026-10-29T11:31:26.078397+00:00",
+   "selection": "Leylah Fernandez",
+   "book": "Betway",
+   "odds": 4.25,
+   "fair": 4.07,
+   "edge": 4.42,
+   "books": 10,
+   "close": 3.89,
+   "close_books": 20,
+   "close_minutes": 39.6,
+   "close_status": "final",
+   "close_attempts": 1,
    "model_version": "1.0",
    "scanner_config": "cfg-e8080b68",
    "min_edge_at_detection": 2.0,
