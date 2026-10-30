@@ -3406,9 +3406,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.96,
-  "latest_seen": "2026-10-30T11:27:45.315385+00:00"
+  "latest_seen": "2026-10-30T11:27:45.315385+00:00",
+  "close_attempts": 1,
+  "close": 3.96,
+  "close_books": 20,
+  "close_at": "2026-10-30T13:16:44.254812+00:00",
+  "close_minutes_before": 43.3,
+  "close_final": true
  },
  "7e16ce6f4bf3a1b6f3ecf28768bb8653|unibet_uk|h2h|Adrian Mannarino": {
   "sport": "ATP Vienna Open",
