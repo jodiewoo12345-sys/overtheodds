@@ -3201,9 +3201,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.01,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 2.02,
+  "close_books": 8,
+  "close_at": "2026-10-31T22:33:57.064325+00:00",
+  "close_minutes_before": 36.0,
+  "close_final": true
  },
  "fa8413d05f6c8b2d8f68cc0d17551fa9|casumo|totals|Over 6.5": {
   "sport": "NHL",
@@ -3258,9 +3264,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.06,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 2.06,
+  "close_books": 8,
+  "close_at": "2026-10-31T22:33:57.064325+00:00",
+  "close_minutes_before": 36.0,
+  "close_final": true
  },
  "9655de40a1e110a66923a0cd36e0bd78|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -3720,9 +3732,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.94,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 1.95,
+  "close_books": 8,
+  "close_at": "2026-10-31T22:33:57.064325+00:00",
+  "close_minutes_before": 36.0,
+  "close_final": true
  },
  "9655de40a1e110a66923a0cd36e0bd78|williamhill|totals|Under 6.5": {
   "sport": "NHL",
@@ -3834,9 +3852,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.99,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 1.98,
+  "close_books": 8,
+  "close_at": "2026-10-31T22:33:57.064325+00:00",
+  "close_minutes_before": 36.0,
+  "close_final": true
  },
  "394955492df212637701f4f21464f05f|sport888|totals|Under 6.5": {
   "sport": "NHL",
