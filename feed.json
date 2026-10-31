@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-31T06:28:28.149432+00:00",
+ "updated": "2026-10-31T11:24:36.605127+00:00",
  "scanned": {
-  "events": 70,
-  "selections": 171,
-  "sports": 10,
+  "events": 83,
+  "selections": 208,
+  "sports": 9,
   "by_market": {
-   "h2h": 109,
-   "totals": 62
+   "h2h": 144,
+   "totals": 64
   },
   "stale_dropped": 0
  },
@@ -51,25 +51,6 @@
   {
    "sport": "NBA",
    "market": "Match odds",
-   "event": "Houston Rockets v Oklahoma City Thunder",
-   "start": "2026-11-01T00:40:00Z",
-   "selection": "Oklahoma City Thunder",
-   "book": "LiveScore Bet",
-   "odds": 2.6,
-   "fair": 2.44,
-   "books": 17,
-   "detected": "2026-10-31T06:28:26.732389+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/houston-rockets-oklahoma-city-thunder/SBTE_2_1028754079",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.55
-    }
-   ]
-  },
-  {
-   "sport": "NBA",
-   "market": "Match odds",
    "event": "Memphis Grizzlies v Sacramento Kings",
    "start": "2026-11-01T00:10:00Z",
    "selection": "Sacramento Kings",
@@ -77,7 +58,7 @@
    "odds": 5.0,
    "fair": 4.75,
    "books": 18,
-   "detected": "2026-10-31T06:28:26.731704+00:00",
+   "detected": "2026-10-31T11:24:35.958152+00:00",
    "link": "https://betway.com/en/sports/evt/17425610"
   },
   {
@@ -90,7 +71,7 @@
    "odds": 2.1,
    "fair": 2.01,
    "books": 6,
-   "detected": "2026-10-31T06:28:26.732557+00:00",
+   "detected": "2026-10-31T11:24:35.959060+00:00",
    "link": "https://www.888sport.com/basketball/united-states/nba/san-antonio-spurs-new-york-knicks-e-8066233/",
    "also": [
     {
@@ -100,25 +81,44 @@
    ]
   },
   {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Vancouver Canucks v Toronto Maple Leafs",
-   "start": "2026-10-31T23:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.05,
-   "fair": 1.9,
-   "books": 10,
-   "detected": "2026-10-31T06:28:27.447458+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/vancouver-canucks-toronto-maple-leafs/SBTE_2_1028409812",
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "San Antonio Spurs v Minnesota Timberwolves",
+   "start": "2026-11-01T00:10:00Z",
+   "selection": "Minnesota Timberwolves",
+   "book": "Unibet (UK)",
+   "odds": 5.5,
+   "fair": 5.39,
+   "books": 18,
+   "detected": "2026-10-31T11:24:35.958425+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/basketball/usa/nba/san-antonio-spurs-vs-minnesota-timberwolves/5f723d52125633bcd45abc71e5ee39b8",
    "also": [
     {
-     "book": "LiveScore Bet",
-     "odds": 2.05
+     "book": "Betway",
+     "odds": 5.5
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Montr\u00e9al Canadiens v Pittsburgh Penguins",
+   "start": "2026-10-31T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.84,
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.164843+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/pittsburgh-penguins-montreal-canadiens-e-7936778/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.0
     },
     {
-     "book": "Casumo",
-     "odds": 2.05
+     "book": "LeoVegas",
+     "odds": 1.88
     }
    ]
   },
@@ -129,19 +129,19 @@
    "start": "2026-10-31T23:10:00Z",
    "selection": "Over 6.5",
    "book": "Casumo",
-   "odds": 2.08,
-   "fair": 1.94,
-   "books": 10,
-   "detected": "2026-10-31T06:28:27.447142+00:00",
+   "odds": 2.1,
+   "fair": 1.95,
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.164764+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028409814",
    "also": [
     {
      "book": "Virgin Bet",
-     "odds": 2.08
+     "odds": 2.1
     },
     {
      "book": "LiveScore Bet",
-     "odds": 2.08
+     "odds": 2.1
     }
    ]
   },
@@ -152,38 +152,88 @@
    "start": "2026-10-31T20:10:00Z",
    "selection": "Over 6.5",
    "book": "LiveScore Bet",
-   "odds": 2.12,
+   "odds": 2.15,
    "fair": 2.0,
-   "books": 10,
-   "detected": "2026-10-31T06:28:27.446803+00:00",
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.164113+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/san-jos%C3%A9-sharks-ottawa-senators/SBTE_2_1028450553",
    "also": [
     {
      "book": "Virgin Bet",
-     "odds": 2.12
+     "odds": 2.15
     },
     {
      "book": "Casumo",
-     "odds": 2.12
+     "odds": 2.15
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.04
     }
    ]
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "New York Islanders v Edmonton Oilers",
-   "start": "2026-10-31T18:10:00Z",
+   "event": "San Jose Sharks v Ottawa Senators",
+   "start": "2026-10-31T20:10:00Z",
    "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.8,
-   "fair": 1.71,
+   "book": "William Hill",
+   "odds": 1.91,
+   "fair": 1.79,
    "books": 8,
-   "detected": "2026-10-31T06:28:27.445943+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/edmonton-oilers-new-york-islanders-e-7936786/",
+   "detected": "2026-10-31T11:24:36.164180+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500865/ottawa-senators-san-jose-sharks",
    "also": [
     {
-     "book": "William Hill",
-     "odds": 1.8
+     "book": "888sport",
+     "odds": 1.91
+    },
+    {
+     "book": "LeoVegas",
+     "odds": 1.83
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vancouver Canucks v Toronto Maple Leafs",
+   "start": "2026-10-31T23:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.02,
+   "fair": 1.9,
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.165383+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/vancouver-canucks-toronto-maple-leafs/SBTE_2_1028409812",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.02
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.02
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vancouver Canucks v Toronto Maple Leafs",
+   "start": "2026-10-31T23:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 2.0,
+   "fair": 1.89,
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.165448+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40500868/toronto-maple-leafs-vancouver-canucks",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 2.0
     }
    ]
   },
@@ -196,8 +246,8 @@
    "book": "LiveScore Bet",
    "odds": 2.1,
    "fair": 2.0,
-   "books": 10,
-   "detected": "2026-10-31T06:28:27.448059+00:00",
+   "books": 8,
+   "detected": "2026-10-31T11:24:36.166617+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/colorado-avalanche-calgary-flames/SBTE_2_1028411385",
    "also": [
     {
@@ -213,38 +263,34 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "New York Islanders v Edmonton Oilers",
-   "start": "2026-10-31T18:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.28,
-   "fair": 2.22,
+   "event": "Colorado Avalanche v Calgary Flames",
+   "start": "2026-11-01T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.84,
    "books": 8,
-   "detected": "2026-10-31T06:28:27.445861+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028409790",
+   "detected": "2026-10-31T11:24:36.166703+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/calgary-flames-colorado-avalanche-e-7954149/",
    "also": [
     {
-     "book": "LiveScore Bet",
-     "odds": 2.28
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 2.28
+     "book": "William Hill",
+     "odds": 1.91
     }
    ]
   },
   {
-   "sport": "ATP Vienna Open",
+   "sport": "ATP Paris Masters",
    "market": "Match odds",
-   "event": "Daniil Medvedev v Carlos Alcaraz",
-   "start": "2026-10-31T14:00:00Z",
-   "selection": "Daniil Medvedev",
-   "book": "BoyleSports",
-   "odds": 3.1,
-   "fair": 2.84,
-   "books": 20,
-   "detected": "2026-10-31T06:28:27.997755+00:00",
-   "link": "https://www.boylesports.com/sports/tennis/event/atp-vienna/daniil-medvedev-v-carlos-alcaraz"
+   "event": "Andrey Rublev v Tomas Martin Etcheverry",
+   "start": "2026-11-01T10:00:00Z",
+   "selection": "Tomas Martin Etcheverry",
+   "book": "888sport",
+   "odds": 3.3,
+   "fair": 3.17,
+   "books": 10,
+   "detected": "2026-10-31T11:24:36.313430+00:00",
+   "link": "https://www.888sport.com/tennis/france/atp-paris/andrey-rublev-vs-tomas-martin-etcheverry-e-8495775/"
   },
   {
    "sport": "ATP Vienna Open",
@@ -254,10 +300,23 @@
    "selection": "Alex de Minaur",
    "book": "BoyleSports",
    "odds": 3.4,
-   "fair": 3.15,
+   "fair": 3.21,
    "books": 19,
-   "detected": "2026-10-31T06:28:27.998110+00:00",
+   "detected": "2026-10-31T11:24:36.519363+00:00",
    "link": "https://www.boylesports.com/sports/tennis/event/atp-vienna/alexander-zverev-v-alex-de-minaur"
+  },
+  {
+   "sport": "ATP Vienna Open",
+   "market": "Match odds",
+   "event": "Daniil Medvedev v Carlos Alcaraz",
+   "start": "2026-10-31T14:00:00Z",
+   "selection": "Daniil Medvedev",
+   "book": "BoyleSports",
+   "odds": 3.1,
+   "fair": 2.97,
+   "books": 20,
+   "detected": "2026-10-31T11:24:36.519050+00:00",
+   "link": "https://www.boylesports.com/sports/tennis/event/atp-vienna/daniil-medvedev-v-carlos-alcaraz"
   }
  ],
  "results": [
