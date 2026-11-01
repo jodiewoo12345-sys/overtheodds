@@ -3441,9 +3441,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.09,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 2.08,
+  "close_books": 8,
+  "close_at": "2026-11-01T01:26:56.752535+00:00",
+  "close_minutes_before": 43.1,
+  "close_final": true
  },
  "7da8a99a4ae4ef2ec08b3e4fa37c2485|casumo|totals|Over 6.5": {
   "sport": "NHL",
@@ -3915,9 +3921,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.92,
-  "latest_seen": "2026-10-31T11:24:36.605056+00:00"
+  "latest_seen": "2026-10-31T11:24:36.605056+00:00",
+  "close_attempts": 1,
+  "close": 1.92,
+  "close_books": 8,
+  "close_at": "2026-11-01T01:26:56.752535+00:00",
+  "close_minutes_before": 43.1,
+  "close_final": true
  },
  "d25fdbba0ee28a3bbfa27a1b7bf0310b|sport888|h2h|Tomas Martin Etcheverry": {
   "sport": "ATP Paris Masters",
