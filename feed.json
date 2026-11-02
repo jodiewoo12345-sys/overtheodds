@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-02T14:09:39.519385+00:00",
+ "updated": "2026-11-02T20:37:51.418508+00:00",
  "scanned": {
-  "events": 60,
-  "selections": 159,
+  "events": 72,
+  "selections": 205,
   "sports": 6,
   "by_market": {
-   "h2h": 105,
-   "totals": 54
+   "h2h": 135,
+   "totals": 70
   },
   "stale_dropped": 0
  },
@@ -51,19 +51,199 @@
   {
    "sport": "NFL",
    "market": "Match odds",
-   "event": "Baltimore Ravens v Jacksonville Jaguars",
-   "start": "2026-11-06T01:15:00Z",
-   "selection": "Baltimore Ravens",
-   "book": "Ladbrokes",
-   "odds": 4.5,
-   "fair": 4.39,
+   "event": "Kansas City Chiefs v New York Jets",
+   "start": "2026-11-08T18:00:00Z",
+   "selection": "New York Jets",
+   "book": "Betway",
+   "odds": 5.0,
+   "fair": 4.75,
    "books": 14,
-   "detected": "2026-11-02T14:09:38.570526+00:00",
-   "link": "https://sports.ladbrokes.com/event/american-football/american/nfl/baltimore-ravens-v-jacksonville-jaguars/259592796/main-markets",
+   "detected": "2026-11-02T20:37:50.632915+00:00",
+   "link": "https://betway.com/en/sports/evt/17428446"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Miami Dolphins v Detroit Lions",
+   "start": "2026-11-08T18:00:00Z",
+   "selection": "Miami Dolphins",
+   "book": "Betfred (UK)",
+   "odds": 3.8,
+   "fair": 3.69,
+   "books": 13,
+   "detected": "2026-11-02T20:37:50.632754+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35448763"
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vancouver Canucks v Anaheim Ducks",
+   "start": "2026-11-04T02:10:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.07,
+   "fair": 1.9,
+   "books": 9,
+   "detected": "2026-11-02T20:37:51.278616+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/vancouver-canucks-anaheim-ducks/SBTE_2_1028410255",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.07
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.07
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 1.95
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Pittsburgh Penguins v Vegas Golden Knights",
+   "start": "2026-11-04T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.06,
+   "fair": 1.9,
+   "books": 8,
+   "detected": "2026-11-02T20:37:51.277921+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/pittsburgh-penguins-vegas-golden-knights/SBTE_2_1028410222",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.06
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.06
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 1.94
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Pittsburgh Penguins v Vegas Golden Knights",
+   "start": "2026-11-04T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.86,
+   "books": 8,
+   "detected": "2026-11-02T20:37:51.277950+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/vegas-golden-knights-pittsburgh-penguins-e-7954196/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.0
+    },
+    {
+     "book": "Coral",
+     "odds": 2.0
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Match odds",
+   "event": "Tampa Bay Lightning v Detroit Red Wings",
+   "start": "2026-11-04T00:10:00Z",
+   "selection": "Detroit Red Wings",
+   "book": "Paddy Power",
+   "odds": 3.35,
+   "fair": 3.12,
+   "books": 10,
+   "detected": "2026-11-02T20:37:51.277353+00:00",
+   "link": "https://www.paddypower.com/ice-hockey/nhl/detroit-red-wings-@-tampa-bay-lightning-36260043",
+   "also": [
+    {
+     "book": "Betfair Sportsbook",
+     "odds": 3.35
+    },
+    {
+     "book": "Coral",
+     "odds": 3.25
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 3.25
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Toronto Maple Leafs v Utah Mammoth",
+   "start": "2026-11-04T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.06,
+   "fair": 1.92,
+   "books": 9,
+   "detected": "2026-11-02T20:37:51.278105+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/toronto-maple-leafs-utah-mammoth/SBTE_2_1028409782",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.06
+    },
+    {
+     "book": "Casumo",
+     "odds": 2.06
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "San Jose Sharks v Calgary Flames",
+   "start": "2026-11-03T02:10:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 2.25,
+   "fair": 2.11,
+   "books": 8,
+   "detected": "2026-11-02T20:37:51.276968+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/san-jos%C3%A9-sharks-calgary-flames/SBTE_2_1028409784",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.25
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 2.25
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Vancouver Canucks v Anaheim Ducks",
+   "start": "2026-11-04T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "Ladbrokes",
+   "odds": 2.05,
+   "fair": 1.97,
+   "books": 9,
+   "detected": "2026-11-02T20:37:51.278657+00:00",
+   "link": "https://sports.ladbrokes.com/event/ice-hockey/usa/nhl/vancouver-canucks-v-anaheim-ducks/259610163/main-markets",
    "also": [
     {
      "book": "Coral",
-     "odds": 4.5
+     "odds": 2.05
     }
    ]
   },
@@ -76,9 +256,15 @@
    "book": "888sport",
    "odds": 1.8,
    "fair": 1.73,
-   "books": 7,
-   "detected": "2026-11-02T14:09:39.223829+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/calgary-flames-san-jose-sharks-e-7954170/"
+   "books": 8,
+   "detected": "2026-11-02T20:37:51.276987+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/calgary-flames-san-jose-sharks-e-7954170/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.8
+    }
+   ]
   },
   {
    "sport": "NHL",
@@ -88,9 +274,9 @@
    "selection": "Over 6.5",
    "book": "LiveScore Bet",
    "odds": 2.23,
-   "fair": 2.16,
+   "fair": 2.15,
    "books": 8,
-   "detected": "2026-11-02T14:09:39.223637+00:00",
+   "detected": "2026-11-02T20:37:51.276777+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/chicago-blackhawks-colorado-avalanche/SBTE_2_1028409778",
    "also": [
     {
@@ -113,7 +299,7 @@
    "odds": 1.8,
    "fair": 1.75,
    "books": 8,
-   "detected": "2026-11-02T14:09:39.223666+00:00",
+   "detected": "2026-11-02T20:37:51.276806+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/colorado-avalanche-chicago-blackhawks-e-7954172/",
    "also": [
     {
@@ -125,15 +311,34 @@
   {
    "sport": "ATP Paris Masters",
    "market": "Match odds",
-   "event": "Benjamin Bonzi v Taylor Fritz",
+   "event": "Arthur Rinderknech v Francisco Cerundolo",
    "start": "2026-11-03T10:00:00Z",
-   "selection": "Benjamin Bonzi",
-   "book": "Sky Bet",
-   "odds": 4.33,
-   "fair": 4.2,
-   "books": 19,
-   "detected": "2026-11-02T14:09:39.518084+00:00",
-   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=9632014&bsmId=930.394295732"
+   "selection": "Arthur Rinderknech",
+   "book": "Unibet (UK)",
+   "odds": 2.8,
+   "fair": 2.69,
+   "books": 20,
+   "detected": "2026-11-02T20:37:51.416179+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/tennis/atp/paris/arthur-rinderknech-vs-francisco-cerundolo/9bb3dbf67586a3fd4b5242c9ef418037"
+  },
+  {
+   "sport": "ATP Paris Masters",
+   "market": "Match odds",
+   "event": "Ignacio Buse v Daniil Medvede",
+   "start": "2026-11-04T10:00:00Z",
+   "selection": "Ignacio Buse",
+   "book": "Betway",
+   "odds": 6.0,
+   "fair": 5.82,
+   "books": 17,
+   "detected": "2026-11-02T20:37:51.417797+00:00",
+   "link": "https://betway.com/en/sports/evt/17435364",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 6.0
+    }
+   ]
   }
  ],
  "results": [
