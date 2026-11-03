@@ -1709,9 +1709,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.81,
-  "latest_seen": "2026-11-02T20:37:51.418489+00:00"
+  "latest_seen": "2026-11-02T20:37:51.418489+00:00",
+  "close_attempts": 1,
+  "close": 1.84,
+  "close_books": 8,
+  "close_at": "2026-11-03T01:51:09.826148+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "6c7ab45fd7ba80a0baccb7861cbe0fbe|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -2279,9 +2285,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.23,
-  "latest_seen": "2026-11-02T20:37:51.418489+00:00"
+  "latest_seen": "2026-11-02T20:37:51.418489+00:00",
+  "close_attempts": 1,
+  "close": 2.2,
+  "close_books": 8,
+  "close_at": "2026-11-03T01:51:09.826148+00:00",
+  "close_minutes_before": 18.8,
+  "close_final": true
  },
  "8fe6b339f282707173f0bcff36f112e8|ladbrokes_uk|totals|Under 6.5": {
   "sport": "NHL",
