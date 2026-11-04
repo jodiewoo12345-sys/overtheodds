@@ -2222,9 +2222,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 5.87,
-  "latest_seen": "2026-11-03T18:13:16.556242+00:00"
+  "latest_seen": "2026-11-03T18:13:16.556242+00:00",
+  "close_attempts": 1,
+  "close": 6.33,
+  "close_books": 20,
+  "close_at": "2026-11-04T09:40:47.230940+00:00",
+  "close_minutes_before": 19.2,
+  "close_final": true
  },
  "ac9d38a18d5c92814233a31aa9a48d78|paddypower|h2h|Las Vegas Raiders": {
   "sport": "NFL",
