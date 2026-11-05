@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-05T13:41:50.981200+00:00",
+ "updated": "2026-11-05T18:30:18.542952+00:00",
  "scanned": {
-  "events": 58,
-  "selections": 117,
+  "events": 59,
+  "selections": 130,
   "sports": 7,
   "by_market": {
-   "h2h": 75,
-   "totals": 42
+   "h2h": 84,
+   "totals": 46
   },
   "stale_dropped": 0
  },
@@ -51,27 +51,54 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Calgary Flames v Anaheim Ducks",
+   "start": "2026-11-07T01:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.73,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.023475+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/anaheim-ducks-calgary-flames-e-7954377/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 1.8
+    },
+    {
+     "book": "Coral",
+     "odds": 1.8
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Colorado Avalanche v Nashville Predators",
    "start": "2026-11-06T02:40:00Z",
    "selection": "Over 6.5",
    "book": "Casumo",
-   "odds": 2.25,
+   "odds": 2.23,
    "fair": 2.03,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.818680+00:00",
+   "detected": "2026-11-05T18:30:18.023075+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028410226",
    "also": [
     {
      "book": "LiveScore Bet",
-     "odds": 2.25
+     "odds": 2.23
     },
     {
      "book": "Virgin Bet",
-     "odds": 2.25
+     "odds": 2.23
     },
     {
      "book": "Grosvenor",
-     "odds": 2.14
+     "odds": 2.12
     }
    ]
   },
@@ -83,9 +110,9 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.91,
-   "fair": 1.73,
+   "fair": 1.74,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.818705+00:00",
+   "detected": "2026-11-05T18:30:18.023100+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/nashville-predators-colorado-avalanche-e-7954347/",
    "also": [
     {
@@ -101,6 +128,33 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Calgary Flames v Anaheim Ducks",
+   "start": "2026-11-07T01:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.25,
+   "fair": 2.06,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.023447+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/calgary-flames-anaheim-ducks/SBTE_2_1028410259",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.25
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.25
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.14
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Pittsburgh Penguins v Boston Bruins",
    "start": "2026-11-06T00:10:00Z",
    "selection": "Over 6.5",
@@ -108,7 +162,7 @@
    "odds": 2.18,
    "fair": 2.0,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.816216+00:00",
+   "detected": "2026-11-05T18:30:18.020627+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028410210",
    "also": [
     {
@@ -128,102 +182,15 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Tampa Bay Lightning v Chicago Blackhawks",
-   "start": "2026-11-06T00:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.91,
-   "fair": 1.76,
-   "books": 8,
-   "detected": "2026-11-05T13:41:50.816777+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/chicago-blackhawks-tampa-bay-lightning-e-7954290/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 1.91
-    },
-    {
-     "book": "LeoVegas",
-     "odds": 1.8
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
    "event": "Montr\u00e9al Canadiens v Utah Mammoth",
    "start": "2026-11-06T00:10:00Z",
    "selection": "Under 6.5",
-   "book": "William Hill",
-   "odds": 1.91,
+   "book": "LeoVegas",
+   "odds": 1.9,
    "fair": 1.76,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.817455+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544581/utah-mammoth-montreal-canadiens",
-   "also": [
-    {
-     "book": "888sport",
-     "odds": 1.91
-    },
-    {
-     "book": "LeoVegas",
-     "odds": 1.8
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Tampa Bay Lightning v Chicago Blackhawks",
-   "start": "2026-11-06T00:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.2,
-   "fair": 2.03,
-   "books": 8,
-   "detected": "2026-11-05T13:41:50.816744+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028410176",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.08
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v Utah Mammoth",
-   "start": "2026-11-06T00:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Casumo",
-   "odds": 2.2,
-   "fair": 2.04,
-   "books": 8,
-   "detected": "2026-11-05T13:41:50.817427+00:00",
-   "link": "https://www.casumo.com/en-gb/sports/#event/1028410190",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.2
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.08
-    }
-   ]
+   "detected": "2026-11-05T18:30:18.021825+00:00",
+   "link": "https://leovegas.co.uk/betting#/events/2653745"
   },
   {
    "sport": "NHL",
@@ -233,16 +200,33 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 2.2,
-   "fair": 2.05,
+   "fair": 2.04,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.818318+00:00",
+   "detected": "2026-11-05T18:30:18.022684+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/anaheim-ducks-edmonton-oilers-e-7954340/",
    "also": [
     {
      "book": "William Hill",
      "odds": 2.2
+    },
+    {
+     "book": "LeoVegas",
+     "odds": 2.1
     }
    ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+   "start": "2026-11-06T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Grosvenor",
+   "odds": 2.08,
+   "fair": 1.93,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.021767+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1028410190"
   },
   {
    "sport": "NHL",
@@ -254,7 +238,7 @@
    "odds": 1.91,
    "fair": 1.78,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.816266+00:00",
+   "detected": "2026-11-05T18:30:18.020678+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/boston-bruins-pittsburgh-penguins-e-7954330/",
    "also": [
     {
@@ -270,14 +254,56 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Tampa Bay Lightning v Chicago Blackhawks",
+   "start": "2026-11-06T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Casumo",
+   "odds": 2.16,
+   "fair": 2.02,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.021097+00:00",
+   "link": "https://www.casumo.com/en-gb/sports/#event/1028410176",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 2.16
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.16
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Tampa Bay Lightning v Chicago Blackhawks",
+   "start": "2026-11-06T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.79,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.021145+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/chicago-blackhawks-tampa-bay-lightning-e-7954290/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Edmonton Oilers v Anaheim Ducks",
    "start": "2026-11-06T01:10:00Z",
    "selection": "Over 6.5",
    "book": "Virgin Bet",
    "odds": 1.86,
-   "fair": 1.78,
+   "fair": 1.77,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.818292+00:00",
+   "detected": "2026-11-05T18:30:18.022655+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/edmonton-oilers-anaheim-ducks/SBTE_2_1028410229",
    "also": [
     {
@@ -300,7 +326,7 @@
    "odds": 2.2,
    "fair": 2.11,
    "books": 8,
-   "detected": "2026-11-05T13:41:50.818064+00:00",
+   "detected": "2026-11-05T18:30:18.022441+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028410238",
    "also": [
     {
@@ -316,21 +342,34 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Winnipeg Jets v Vancouver Canucks",
-   "start": "2026-11-06T00:10:00Z",
+   "event": "Buffalo Sabres v Columbus Blue Jackets",
+   "start": "2026-11-07T00:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.8,
-   "fair": 1.76,
-   "books": 8,
-   "detected": "2026-11-05T13:41:50.818100+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/vancouver-canucks-winnipeg-jets-e-7958328/",
+   "fair": 1.73,
+   "books": 6,
+   "detected": "2026-11-05T18:30:18.023291+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/columbus-blue-jackets-buffalo-sabres-e-7954397/",
    "also": [
     {
      "book": "William Hill",
      "odds": 1.8
     }
    ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Match odds",
+   "event": "Buffalo Sabres v Columbus Blue Jackets",
+   "start": "2026-11-07T00:10:00Z",
+   "selection": "Columbus Blue Jackets",
+   "book": "Paddy Power",
+   "odds": 2.5,
+   "fair": 2.43,
+   "books": 8,
+   "detected": "2026-11-05T18:30:18.023267+00:00",
+   "link": "https://www.paddypower.com/ice-hockey/nhl/columbus-blue-jackets-@-buffalo-sabres-36260073"
   }
  ],
  "results": [

@@ -180,5 +180,70 @@
   "books": 8,
   "start": "2026-11-05T00:40:00Z",
   "seen": "2026-11-03T18:13:16.430895+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Casumo",
+  "odds": 2.2,
+  "fair": 1.93,
+  "edge": 13.9,
+  "books": 8,
+  "start": "2026-11-06T00:10:00Z",
+  "seen": "2026-11-05T18:30:18.021776+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "Virgin Bet",
+  "odds": 2.2,
+  "fair": 1.93,
+  "edge": 13.9,
+  "books": 8,
+  "start": "2026-11-06T00:10:00Z",
+  "seen": "2026-11-05T18:30:18.021784+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+  "market": "Totals",
+  "selection": "Over 6.5",
+  "book": "LiveScore Bet",
+  "odds": 2.2,
+  "fair": 1.93,
+  "edge": 13.9,
+  "books": 8,
+  "start": "2026-11-06T00:10:00Z",
+  "seen": "2026-11-05T18:30:18.021789+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+  "market": "Totals",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 2.0,
+  "fair": 1.76,
+  "edge": 13.7,
+  "books": 8,
+  "start": "2026-11-06T00:10:00Z",
+  "seen": "2026-11-05T18:30:18.021799+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Montr\u00e9al Canadiens v Utah Mammoth",
+  "market": "Totals",
+  "selection": "Under 6.5",
+  "book": "888sport",
+  "odds": 2.0,
+  "fair": 1.76,
+  "edge": 13.7,
+  "books": 8,
+  "start": "2026-11-06T00:10:00Z",
+  "seen": "2026-11-05T18:30:18.021805+00:00"
  }
 ]
