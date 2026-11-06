@@ -1601,9 +1601,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.81,
-  "latest_seen": "2026-11-06T17:48:10.309545+00:00"
+  "latest_seen": "2026-11-06T17:48:10.309545+00:00",
+  "close_attempts": 1,
+  "close": 1.81,
+  "close_books": 8,
+  "close_at": "2026-11-06T23:58:34.249305+00:00",
+  "close_minutes_before": 11.4,
+  "close_final": true
  },
  "8094c7dc6557caf1cc19194bf69477bb|paddypower|h2h|Columbus Blue Jackets": {
   "sport": "NHL",
@@ -1658,9 +1664,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.56,
-  "latest_seen": "2026-11-06T17:48:10.309545+00:00"
+  "latest_seen": "2026-11-06T17:48:10.309545+00:00",
+  "close_attempts": 1,
+  "close": 2.57,
+  "close_books": 11,
+  "close_at": "2026-11-06T23:58:34.249305+00:00",
+  "close_minutes_before": 11.4,
+  "close_final": true
  },
  "240e23b02b1e3fef655d04a286b5a623|betway|h2h|Arizona Cardinals": {
   "sport": "NFL",
@@ -1829,9 +1841,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.24,
-  "latest_seen": "2026-11-06T17:48:10.309545+00:00"
+  "latest_seen": "2026-11-06T17:48:10.309545+00:00",
+  "close_attempts": 1,
+  "close": 2.24,
+  "close_books": 8,
+  "close_at": "2026-11-06T23:58:34.249305+00:00",
+  "close_minutes_before": 11.4,
+  "close_final": true
  },
  "94142b31815d8bfcef178b16cadfe92f|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -2000,9 +2018,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 3.85,
-  "latest_seen": "2026-11-06T17:48:10.309545+00:00"
+  "latest_seen": "2026-11-06T17:48:10.309545+00:00",
+  "close_attempts": 1,
+  "close": 4.44,
+  "close_books": 16,
+  "close_at": "2026-11-06T23:58:34.249305+00:00",
+  "close_minutes_before": 11.4,
+  "close_final": true
  },
  "1c60a090180de530cfe273a5d6a381e6|sport888|h2h|Milwaukee Bucks": {
   "sport": "NBA",
