@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T13:26:14.432731+00:00",
+ "updated": "2026-11-06T17:48:10.309572+00:00",
  "scanned": {
-  "events": 56,
-  "selections": 100,
+  "events": 66,
+  "selections": 125,
   "sports": 7,
   "by_market": {
-   "h2h": 68,
-   "totals": 32
+   "h2h": 81,
+   "totals": 44
   },
   "stale_dropped": 0
  },
@@ -54,12 +54,125 @@
    "event": "Seattle Seahawks v Arizona Cardinals",
    "start": "2026-11-08T21:25:00Z",
    "selection": "Arizona Cardinals",
-   "book": "Betway",
+   "book": "888sport",
    "odds": 4.5,
-   "fair": 4.36,
+   "fair": 4.39,
    "books": 15,
-   "detected": "2026-11-06T13:26:13.378772+00:00",
-   "link": "https://betway.com/en/sports/evt/17428869"
+   "detected": "2026-11-06T17:48:09.104322+00:00",
+   "link": "https://www.888sport.com/american-football/united-states/nfl/arizona-cardinals-seattle-seahawks-e-7628085/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 4.5
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Charlotte Hornets v Boston Celtics",
+   "start": "2026-11-07T00:10:00Z",
+   "selection": "Charlotte Hornets",
+   "book": "Virgin Bet",
+   "odds": 4.0,
+   "fair": 3.82,
+   "books": 17,
+   "detected": "2026-11-06T17:48:09.293409+00:00",
+   "link": "https://www.virginbet.com/sports/basketball/nba/charlotte-hornets-boston-celtics/SBTE_2_1028744818",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 4.0
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Milwaukee Bucks v Toronto Raptors",
+   "start": "2026-11-07T01:10:00Z",
+   "selection": "Milwaukee Bucks",
+   "book": "888sport",
+   "odds": 2.9,
+   "fair": 2.8,
+   "books": 17,
+   "detected": "2026-11-06T17:48:09.294418+00:00",
+   "link": "https://www.888sport.com/basketball/united-states/nba/toronto-raptors-milwaukee-bucks-e-8513336/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.9
+    },
+    {
+     "book": "Sky Bet",
+     "odds": 2.88
+    }
+   ]
+  },
+  {
+   "sport": "Test Matches",
+   "market": "Match odds",
+   "event": "Pakistan v Sri Lanka",
+   "start": "2026-11-09T04:30:00Z",
+   "selection": "Pakistan",
+   "book": "Grosvenor",
+   "odds": 2.0,
+   "fair": 1.91,
+   "books": 12,
+   "detected": "2026-11-06T17:48:09.949076+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1029398773",
+   "also": [
+    {
+     "book": "Casumo",
+     "odds": 2.0
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.0
+    },
+    {
+     "book": "Virgin Bet",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "New York Islanders v New Jersey Devils",
+   "start": "2026-11-08T00:10:00Z",
+   "selection": "Under 5.5",
+   "book": "888sport",
+   "odds": 2.15,
+   "fair": 2.01,
+   "books": 6,
+   "detected": "2026-11-06T17:48:10.167648+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/new-jersey-devils-new-york-islanders-e-7954440/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.15
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Match odds",
+   "event": "Dallas Stars v San Jose Sharks",
+   "start": "2026-11-08T01:10:00Z",
+   "selection": "San Jose Sharks",
+   "book": "Ladbrokes",
+   "odds": 3.3,
+   "fair": 3.09,
+   "books": 7,
+   "detected": "2026-11-06T17:48:10.167949+00:00",
+   "link": "https://sports.ladbrokes.com/event/ice-hockey/usa/nhl/dallas-stars-v-san-jose-sharks/259700880/main-markets",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 3.3
+    }
+   ]
   },
   {
    "sport": "NHL",
@@ -68,19 +181,19 @@
    "start": "2026-11-07T01:10:00Z",
    "selection": "Over 6.5",
    "book": "Casumo",
-   "odds": 2.28,
+   "odds": 2.25,
    "fair": 2.11,
    "books": 8,
-   "detected": "2026-11-06T13:26:14.251123+00:00",
+   "detected": "2026-11-06T17:48:10.166977+00:00",
    "link": "https://www.casumo.com/en-gb/sports/#event/1028410232",
    "also": [
     {
      "book": "Virgin Bet",
-     "odds": 2.28
+     "odds": 2.25
     },
     {
      "book": "LiveScore Bet",
-     "odds": 2.28
+     "odds": 2.25
     }
    ]
   },
@@ -92,9 +205,9 @@
    "selection": "Over 6.5",
    "book": "Virgin Bet",
    "odds": 2.25,
-   "fair": 2.11,
+   "fair": 2.13,
    "books": 8,
-   "detected": "2026-11-06T13:26:14.250772+00:00",
+   "detected": "2026-11-06T17:48:10.166561+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/buffalo-sabres-columbus-blue-jackets/SBTE_2_1028410236",
    "also": [
     {
@@ -110,14 +223,52 @@
   {
    "sport": "NHL",
    "market": "Totals",
+   "event": "Toronto Maple Leafs v Montr\u00e9al Canadiens",
+   "start": "2026-11-08T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.81,
+   "books": 6,
+   "detected": "2026-11-06T17:48:10.167514+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/montreal-canadiens-toronto-maple-leafs-e-7954373/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Edmonton Oilers v Vancouver Canucks",
+   "start": "2026-11-08T03:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.15,
+   "fair": 2.04,
+   "books": 6,
+   "detected": "2026-11-06T17:48:10.168345+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/vancouver-canucks-edmonton-oilers-e-7954462/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.15
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
    "event": "Minnesota Wild v San Jose Sharks",
    "start": "2026-11-07T01:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.8,
-   "fair": 1.72,
+   "fair": 1.73,
    "books": 8,
-   "detected": "2026-11-06T13:26:14.251143+00:00",
+   "detected": "2026-11-06T17:48:10.167005+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/san-jose-sharks-minnesota-wild-e-7954383/",
    "also": [
     {
@@ -134,9 +285,9 @@
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.8,
-   "fair": 1.73,
+   "fair": 1.74,
    "books": 8,
-   "detected": "2026-11-06T13:26:14.250807+00:00",
+   "detected": "2026-11-06T17:48:10.166600+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/columbus-blue-jackets-buffalo-sabres-e-7954397/",
    "also": [
     {
@@ -147,20 +298,20 @@
   },
   {
    "sport": "NHL",
-   "market": "Match odds",
-   "event": "Minnesota Wild v San Jose Sharks",
-   "start": "2026-11-07T01:10:00Z",
-   "selection": "San Jose Sharks",
-   "book": "Ladbrokes",
-   "odds": 3.2,
-   "fair": 3.12,
-   "books": 11,
-   "detected": "2026-11-06T13:26:14.251105+00:00",
-   "link": "https://sports.ladbrokes.com/event/ice-hockey/usa/nhl/minnesota-wild-v-san-jose-sharks/259677465/main-markets",
+   "market": "Totals",
+   "event": "Colorado Avalanche v Detroit Red Wings",
+   "start": "2026-11-08T02:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.8,
+   "fair": 1.76,
+   "books": 6,
+   "detected": "2026-11-06T17:48:10.168169+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/detroit-red-wings-colorado-avalanche-e-7954471/",
    "also": [
     {
-     "book": "Coral",
-     "odds": 3.2
+     "book": "William Hill",
+     "odds": 1.8
     }
    ]
   }
