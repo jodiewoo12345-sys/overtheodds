@@ -1,13 +1,10 @@
 {
- "updated": "2026-11-07T12:04:28.096670+00:00",
+ "updated": "2026-11-07T16:43:35.378807+00:00",
  "scanned": {
-  "events": 41,
-  "selections": 92,
-  "sports": 3,
-  "by_market": {
-   "h2h": 64,
-   "totals": 28
-  },
+  "events": 0,
+  "selections": 0,
+  "sports": 0,
+  "by_market": {},
   "stale_dropped": 0
  },
  "model_version": "1.0",
@@ -47,21 +44,7 @@
    "betdaq"
   ]
  },
- "bets": [
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "New York Jets v Buffalo Bills",
-   "start": "2026-11-15T18:00:00Z",
-   "selection": "New York Jets",
-   "book": "Paddy Power",
-   "odds": 4.5,
-   "fair": 4.2,
-   "books": 6,
-   "detected": "2026-11-07T12:04:27.169982+00:00",
-   "link": "https://www.paddypower.com/american-football/nfl/buffalo-bills-@-new-york-jets-36275763"
-  }
- ],
+ "bets": [],
  "results": [
   {
    "sport": "ATP Japan Open",
