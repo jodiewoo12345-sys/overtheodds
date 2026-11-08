@@ -724,63 +724,6 @@
   "latest_fair": 2.03,
   "latest_seen": "2026-11-05T18:30:18.542922+00:00"
  },
- "d25fdbba0ee28a3bbfa27a1b7bf0310b|sport888|h2h|Tomas Martin Etcheverry": {
-  "sport": "ATP Paris Masters",
-  "sport_key": "tennis_atp_paris_masters",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Andrey Rublev v Tomas Martin Etcheverry",
-  "start": "2026-11-01T10:00:00Z",
-  "selection": "Tomas Martin Etcheverry",
-  "book": "888sport",
-  "odds": 3.3,
-  "fair": 3.17,
-  "edge": 4.1,
-  "books": 10,
-  "detected": "2026-10-31T11:24:36.604988+00:00",
-  "first_seen": "2026-10-31T11:24:36.604990+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 3.15,
-  "latest_seen": "2026-11-02T20:37:51.418489+00:00"
- },
  "44d8c37868b700e90f816db7c5df5cdd|betfred_uk|h2h|Miami Dolphins": {
   "sport": "NFL",
   "sport_key": "americanfootball_nfl",
