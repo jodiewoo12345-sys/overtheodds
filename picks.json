@@ -706,8 +706,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.44,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_fair": 4.36,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "1057d50949844ddf483da9c8c20354be|coral|h2h|New York Jets": {
   "sport": "NFL",
@@ -763,8 +763,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.44,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_fair": 4.36,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "28800df7e768ecec14f116454d560f9b|betway|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -821,7 +821,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.75,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "6c932a965110f3f89ec4a5f1a6ac256e|betway|h2h|Arizona Cardinals": {
   "sport": "NFL",
@@ -877,8 +877,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.8,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_fair": 3.93,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "929b863acedecaf614c6312e28a44837|livescorebet|h2h|Washington Wizards": {
   "sport": "NBA",
@@ -934,8 +934,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.9,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_fair": 4.81,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "c0de79c9c801e5fc0d1bb3873b10a164|virginbet|totals|Over 6.5": {
   "sport": "NHL",
@@ -992,7 +992,7 @@
   },
   "close_status": "pending",
   "latest_fair": 2.0,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  },
  "1df5ff8fe9c6d2dbff1d0ae176063b37|sport888|h2h|Charlotte Hornets": {
   "sport": "NBA",
@@ -1048,7 +1048,178 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.91,
-  "latest_seen": "2026-11-09T14:39:53.037957+00:00"
+  "latest_fair": 3.79,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
+ },
+ "54a0d86217b79fbc969d6fca0e1564e8|virginbet|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Toronto Maple Leafs v Colorado Avalanche",
+  "start": "2026-11-11T00:10:00Z",
+  "selection": "Over 6.5",
+  "book": "Virgin Bet",
+  "odds": 2.1,
+  "fair": 1.94,
+  "edge": 8.25,
+  "books": 8,
+  "detected": "2026-11-09T21:17:04.182514+00:00",
+  "first_seen": "2026-11-09T21:17:04.182518+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.95,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
+ },
+ "18d63193c9a696acd715bc27d9fb65f6|virginbet|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Montr\u00e9al Canadiens v Minnesota Wild",
+  "start": "2026-11-11T00:10:00Z",
+  "selection": "Over 6.5",
+  "book": "Virgin Bet",
+  "odds": 2.28,
+  "fair": 2.11,
+  "edge": 8.06,
+  "books": 6,
+  "detected": "2026-11-09T21:17:04.182591+00:00",
+  "first_seen": "2026-11-09T21:17:04.182593+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.25,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
+ },
+ "18d63193c9a696acd715bc27d9fb65f6|sport888|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Montr\u00e9al Canadiens v Minnesota Wild",
+  "start": "2026-11-11T00:10:00Z",
+  "selection": "Under 6.5",
+  "book": "888sport",
+  "odds": 1.8,
+  "fair": 1.71,
+  "edge": 5.26,
+  "books": 6,
+  "detected": "2026-11-09T21:17:04.182644+00:00",
+  "first_seen": "2026-11-09T21:17:04.182646+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.8,
+  "latest_seen": "2026-11-09T21:17:04.182662+00:00"
  }
 }
