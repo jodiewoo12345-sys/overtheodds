@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-09T21:17:04.182677+00:00",
+ "updated": "2026-11-10T13:56:30.098283+00:00",
  "scanned": {
-  "events": 45,
-  "selections": 110,
+  "events": 38,
+  "selections": 82,
   "sports": 6,
   "by_market": {
-   "h2h": 78,
-   "totals": 32
+   "h2h": 64,
+   "totals": 18
   },
   "stale_dropped": 0
  },
@@ -49,20 +49,89 @@
  },
  "bets": [
   {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "New York Jets v Buffalo Bills",
+   "start": "2026-11-15T18:00:00Z",
+   "selection": "New York Jets",
+   "book": "Betfred (UK)",
+   "odds": 4.5,
+   "fair": 4.28,
+   "books": 15,
+   "detected": "2026-11-10T13:56:29.195381+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35459319",
+   "also": [
+    {
+     "book": "Coral",
+     "odds": 4.5
+    },
+    {
+     "book": "Ladbrokes",
+     "odds": 4.5
+    }
+   ]
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Arizona Cardinals v Los Angeles Rams",
+   "start": "2026-11-15T21:05:00Z",
+   "selection": "Arizona Cardinals",
+   "book": "888sport",
+   "odds": 4.8,
+   "fair": 4.61,
+   "books": 14,
+   "detected": "2026-11-10T13:56:29.196465+00:00",
+   "link": "https://www.888sport.com/american-football/united-states/nfl/los-angeles-rams-arizona-cardinals-e-7628064/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 4.8
+    },
+    {
+     "book": "Unibet (UK)",
+     "odds": 4.75
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Portland Trail Blazers v Oklahoma City Thunder",
+   "start": "2026-11-11T04:10:00Z",
+   "selection": "Portland Trail Blazers",
+   "book": "Sky Bet",
+   "odds": 2.2,
+   "fair": 2.16,
+   "books": 18,
+   "detected": "2026-11-10T13:56:29.421807+00:00",
+   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=237480&bsmId=930.395798517",
+   "also": [
+    {
+     "book": "Betfair Sportsbook",
+     "odds": 2.2
+    }
+   ]
+  },
+  {
    "sport": "NHL",
    "market": "Totals",
    "event": "Toronto Maple Leafs v Colorado Avalanche",
    "start": "2026-11-11T00:10:00Z",
    "selection": "Over 6.5",
    "book": "Virgin Bet",
-   "odds": 2.1,
-   "fair": 1.94,
-   "books": 8,
-   "detected": "2026-11-09T21:17:04.181121+00:00",
+   "odds": 2.2,
+   "fair": 2.0,
+   "books": 7,
+   "detected": "2026-11-10T13:56:30.096610+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-colorado-avalanche/SBTE_2_1028410243",
    "also": [
     {
      "book": "LiveScore Bet",
+     "odds": 2.2
+    },
+    {
+     "book": "Grosvenor",
      "odds": 2.1
     }
    ]
@@ -70,61 +139,19 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v Minnesota Wild",
-   "start": "2026-11-11T00:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.28,
-   "fair": 2.11,
-   "books": 6,
-   "detected": "2026-11-09T21:17:04.181326+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/montreal-canadiens-minnesota-wild/SBTE_2_1028410240",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.28
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.16
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Edmonton Oilers v New York Rangers",
-   "start": "2026-11-10T01:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.14,
-   "fair": 2.0,
-   "books": 7,
-   "detected": "2026-11-09T21:17:04.180602+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/edmonton-oilers-new-york-rangers/SBTE_2_1028410223",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.14
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Montr\u00e9al Canadiens v Minnesota Wild",
+   "event": "Toronto Maple Leafs v Colorado Avalanche",
    "start": "2026-11-11T00:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
-   "odds": 1.8,
-   "fair": 1.71,
-   "books": 6,
-   "detected": "2026-11-09T21:17:04.181352+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/minnesota-wild-montreal-canadiens-e-7953046/",
+   "odds": 1.91,
+   "fair": 1.87,
+   "books": 7,
+   "detected": "2026-11-10T13:56:30.096646+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/colorado-avalanche-toronto-maple-leafs-e-7952980/",
    "also": [
     {
      "book": "William Hill",
-     "odds": 1.8
+     "odds": 1.91
     }
    ]
   }
@@ -16214,6 +16241,87 @@
    "status": "win",
    "stake": 10.0,
    "profit": 8.0,
+   "won": true
+  },
+  {
+   "pick_id": "929b863acedecaf614c6312e28a44837|livescorebet|h2h|Washington Wizards",
+   "sport": "NBA",
+   "league": "basketball_nba",
+   "event": "Detroit Pistons v Washington Wizards",
+   "market": "Match odds",
+   "date": "2026-11-10",
+   "detected": "2026-11-09T13:30:38.644903+00:00",
+   "selection": "Washington Wizards",
+   "book": "LiveScore Bet",
+   "odds": 5.3,
+   "fair": 4.9,
+   "edge": 8.16,
+   "books": 18,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "c0de79c9c801e5fc0d1bb3873b10a164|virginbet|totals|Over 6.5",
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Edmonton Oilers v New York Rangers",
+   "market": "Totals",
+   "date": "2026-11-10",
+   "detected": "2026-11-09T13:30:38.644930+00:00",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.14,
+   "fair": 2.0,
+   "edge": 7.0,
+   "books": 7,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "1df5ff8fe9c6d2dbff1d0ae176063b37|sport888|h2h|Charlotte Hornets",
+   "sport": "NBA",
+   "league": "basketball_nba",
+   "event": "Charlotte Hornets v Cleveland Cavaliers",
+   "market": "Match odds",
+   "date": "2026-11-10",
+   "detected": "2026-11-09T14:39:53.037910+00:00",
+   "selection": "Charlotte Hornets",
+   "book": "888sport",
+   "odds": 4.0,
+   "fair": 3.88,
+   "edge": 3.09,
+   "books": 18,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 30.0,
    "won": true
   }
  ]
