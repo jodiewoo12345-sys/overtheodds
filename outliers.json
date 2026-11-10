@@ -245,5 +245,70 @@
   "books": 12,
   "start": "2026-11-13T05:00:00Z",
   "seen": "2026-11-10T13:56:29.912094+00:00"
+ },
+ {
+  "sport": "NBA",
+  "event": "Utah Jazz v Miami Heat",
+  "market": "Match odds",
+  "selection": "Utah Jazz",
+  "book": "Unibet (UK)",
+  "odds": 4.6,
+  "fair": 3.83,
+  "edge": 20.0,
+  "books": 18,
+  "start": "2026-11-11T02:10:00Z",
+  "seen": "2026-11-10T18:27:54.159889+00:00"
+ },
+ {
+  "sport": "NBA",
+  "event": "Utah Jazz v Miami Heat",
+  "market": "Match odds",
+  "selection": "Utah Jazz",
+  "book": "BoyleSports",
+  "odds": 4.33,
+  "fair": 3.83,
+  "edge": 12.9,
+  "books": 18,
+  "start": "2026-11-11T02:10:00Z",
+  "seen": "2026-11-10T18:27:54.159899+00:00"
+ },
+ {
+  "sport": "Test Matches",
+  "event": "Afghanistan v Zimbabwe",
+  "market": "Match odds",
+  "selection": "Draw",
+  "book": "Grosvenor",
+  "odds": 3.75,
+  "fair": 3.1,
+  "edge": 21.0,
+  "books": 12,
+  "start": "2026-11-13T05:00:00Z",
+  "seen": "2026-11-10T18:27:54.616148+00:00"
+ },
+ {
+  "sport": "Test Matches",
+  "event": "Afghanistan v Zimbabwe",
+  "market": "Match odds",
+  "selection": "Draw",
+  "book": "Virgin Bet",
+  "odds": 3.75,
+  "fair": 3.1,
+  "edge": 21.0,
+  "books": 12,
+  "start": "2026-11-13T05:00:00Z",
+  "seen": "2026-11-10T18:27:54.616163+00:00"
+ },
+ {
+  "sport": "Test Matches",
+  "event": "Afghanistan v Zimbabwe",
+  "market": "Match odds",
+  "selection": "Draw",
+  "book": "LiveScore Bet",
+  "odds": 3.75,
+  "fair": 3.1,
+  "edge": 21.0,
+  "books": 12,
+  "start": "2026-11-13T05:00:00Z",
+  "seen": "2026-11-10T18:27:54.616171+00:00"
  }
 ]

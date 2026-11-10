@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T13:56:30.098283+00:00",
+ "updated": "2026-11-10T18:27:54.894249+00:00",
  "scanned": {
-  "events": 38,
-  "selections": 82,
-  "sports": 6,
+  "events": 48,
+  "selections": 100,
+  "sports": 7,
   "by_market": {
-   "h2h": 64,
+   "h2h": 82,
    "totals": 18
   },
   "stale_dropped": 0
@@ -57,8 +57,8 @@
    "book": "Betfred (UK)",
    "odds": 4.5,
    "fair": 4.28,
-   "books": 15,
-   "detected": "2026-11-10T13:56:29.195381+00:00",
+   "books": 16,
+   "detected": "2026-11-10T18:27:54.014174+00:00",
    "link": "https://www.betfred.com/sports/american-football/event/35459319",
    "also": [
     {
@@ -67,6 +67,10 @@
     },
     {
      "book": "Ladbrokes",
+     "odds": 4.5
+    },
+    {
+     "book": "Betway",
      "odds": 4.5
     }
    ]
@@ -80,8 +84,8 @@
    "book": "888sport",
    "odds": 4.8,
    "fair": 4.61,
-   "books": 14,
-   "detected": "2026-11-10T13:56:29.196465+00:00",
+   "books": 15,
+   "detected": "2026-11-10T18:27:54.015704+00:00",
    "link": "https://www.888sport.com/american-football/united-states/nfl/los-angeles-rams-arizona-cardinals-e-7628064/",
    "also": [
     {
@@ -95,21 +99,34 @@
    ]
   },
   {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Las Vegas Raiders v Seattle Seahawks",
+   "start": "2026-11-15T21:05:00Z",
+   "selection": "Las Vegas Raiders",
+   "book": "Paddy Power",
+   "odds": 2.75,
+   "fair": 2.66,
+   "books": 15,
+   "detected": "2026-11-10T18:27:54.015930+00:00",
+   "link": "https://www.paddypower.com/american-football/nfl/seattle-seahawks-@-las-vegas-raiders-36275769"
+  },
+  {
    "sport": "NBA",
    "market": "Match odds",
-   "event": "Portland Trail Blazers v Oklahoma City Thunder",
-   "start": "2026-11-11T04:10:00Z",
-   "selection": "Portland Trail Blazers",
-   "book": "Sky Bet",
-   "odds": 2.2,
-   "fair": 2.16,
+   "event": "Utah Jazz v Miami Heat",
+   "start": "2026-11-11T02:10:00Z",
+   "selection": "Utah Jazz",
+   "book": "Paddy Power",
+   "odds": 4.1,
+   "fair": 3.83,
    "books": 18,
-   "detected": "2026-11-10T13:56:29.421807+00:00",
-   "link": "https://skybet.com/?modules=betslip&action=addAffiliateSelection&bssId=237480&bsmId=930.395798517",
+   "detected": "2026-11-10T18:27:54.159867+00:00",
+   "link": "https://www.paddypower.com/basketball/nba/miami-heat-@-utah-jazz-36295141",
    "also": [
     {
      "book": "Betfair Sportsbook",
-     "odds": 2.2
+     "odds": 4.1
     }
    ]
   },
@@ -120,38 +137,19 @@
    "start": "2026-11-11T00:10:00Z",
    "selection": "Over 6.5",
    "book": "Virgin Bet",
-   "odds": 2.2,
-   "fair": 2.0,
+   "odds": 2.07,
+   "fair": 1.9,
    "books": 7,
-   "detected": "2026-11-10T13:56:30.096610+00:00",
+   "detected": "2026-11-10T18:27:54.749460+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-colorado-avalanche/SBTE_2_1028410243",
    "also": [
     {
      "book": "LiveScore Bet",
-     "odds": 2.2
+     "odds": 2.07
     },
     {
      "book": "Grosvenor",
-     "odds": 2.1
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Toronto Maple Leafs v Colorado Avalanche",
-   "start": "2026-11-11T00:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.91,
-   "fair": 1.87,
-   "books": 7,
-   "detected": "2026-11-10T13:56:30.096646+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/colorado-avalanche-toronto-maple-leafs-e-7952980/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 1.91
+     "odds": 1.96
     }
    ]
   }
