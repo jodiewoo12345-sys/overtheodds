@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-10T18:27:54.894249+00:00",
+ "updated": "2026-11-11T13:10:33.022495+00:00",
  "scanned": {
-  "events": 48,
-  "selections": 100,
+  "events": 59,
+  "selections": 106,
   "sports": 7,
   "by_market": {
-   "h2h": 82,
-   "totals": 18
+   "h2h": 80,
+   "totals": 26
   },
   "stale_dropped": 0
  },
@@ -51,105 +51,185 @@
   {
    "sport": "NFL",
    "market": "Match odds",
-   "event": "New York Jets v Buffalo Bills",
+   "event": "Tennessee Titans v Jacksonville Jaguars",
    "start": "2026-11-15T18:00:00Z",
-   "selection": "New York Jets",
-   "book": "Betfred (UK)",
-   "odds": 4.5,
-   "fair": 4.28,
+   "selection": "Tennessee Titans",
+   "book": "Unibet (UK)",
+   "odds": 5.6,
+   "fair": 5.27,
    "books": 16,
-   "detected": "2026-11-10T18:27:54.014174+00:00",
-   "link": "https://www.betfred.com/sports/american-football/event/35459319",
-   "also": [
-    {
-     "book": "Coral",
-     "odds": 4.5
-    },
-    {
-     "book": "Ladbrokes",
-     "odds": 4.5
-    },
-    {
-     "book": "Betway",
-     "odds": 4.5
-    }
-   ]
-  },
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Arizona Cardinals v Los Angeles Rams",
-   "start": "2026-11-15T21:05:00Z",
-   "selection": "Arizona Cardinals",
-   "book": "888sport",
-   "odds": 4.8,
-   "fair": 4.61,
-   "books": 15,
-   "detected": "2026-11-10T18:27:54.015704+00:00",
-   "link": "https://www.888sport.com/american-football/united-states/nfl/los-angeles-rams-arizona-cardinals-e-7628064/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 4.8
-    },
-    {
-     "book": "Unibet (UK)",
-     "odds": 4.75
-    }
-   ]
-  },
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Las Vegas Raiders v Seattle Seahawks",
-   "start": "2026-11-15T21:05:00Z",
-   "selection": "Las Vegas Raiders",
-   "book": "Paddy Power",
-   "odds": 2.75,
-   "fair": 2.66,
-   "books": 15,
-   "detected": "2026-11-10T18:27:54.015930+00:00",
-   "link": "https://www.paddypower.com/american-football/nfl/seattle-seahawks-@-las-vegas-raiders-36275769"
+   "detected": "2026-11-11T13:10:32.162336+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/americanfootball/nfl/tennessee-titans-vs-jacksonville-jaguars/c0c56727aeb68afd5b35b71a026f8bc1"
   },
   {
    "sport": "NBA",
    "market": "Match odds",
-   "event": "Utah Jazz v Miami Heat",
-   "start": "2026-11-11T02:10:00Z",
-   "selection": "Utah Jazz",
+   "event": "Milwaukee Bucks v Los Angeles Lakers",
+   "start": "2026-11-12T01:10:00Z",
+   "selection": "Milwaukee Bucks",
    "book": "Paddy Power",
-   "odds": 4.1,
-   "fair": 3.83,
+   "odds": 6.0,
+   "fair": 5.82,
    "books": 18,
-   "detected": "2026-11-10T18:27:54.159867+00:00",
-   "link": "https://www.paddypower.com/basketball/nba/miami-heat-@-utah-jazz-36295141",
+   "detected": "2026-11-11T13:10:32.301826+00:00",
+   "link": "https://www.paddypower.com/basketball/nba/los-angeles-lakers-@-milwaukee-bucks-36298493",
    "also": [
     {
      "book": "Betfair Sportsbook",
-     "odds": 4.1
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "Test Matches",
+   "market": "Match odds",
+   "event": "Afghanistan v Zimbabwe",
+   "start": "2026-11-13T05:00:00Z",
+   "selection": "Draw",
+   "book": "Grosvenor",
+   "odds": 3.4,
+   "fair": 3.22,
+   "books": 14,
+   "detected": "2026-11-11T13:10:32.732390+00:00",
+   "link": "https://www.grosvenorcasinos.com/sport#event/1029814332",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 3.4
+    },
+    {
+     "book": "LiveScore Bet",
+     "odds": 3.4
+    },
+    {
+     "book": "888sport",
+     "odds": 3.4
+    },
+    {
+     "book": "BoyleSports",
+     "odds": 3.4
     }
    ]
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Toronto Maple Leafs v Colorado Avalanche",
-   "start": "2026-11-11T00:10:00Z",
+   "event": "Buffalo Sabres v Tampa Bay Lightning",
+   "start": "2026-11-12T00:10:00Z",
    "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.07,
-   "fair": 1.9,
+   "book": "LiveScore Bet",
+   "odds": 2.14,
+   "fair": 1.95,
    "books": 7,
-   "detected": "2026-11-10T18:27:54.749460+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-colorado-avalanche/SBTE_2_1028410243",
+   "detected": "2026-11-11T13:10:32.853047+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/buffalo-sabres-tampa-bay-lightning/SBTE_2_1028410174",
    "also": [
     {
-     "book": "LiveScore Bet",
-     "odds": 2.07
+     "book": "Virgin Bet",
+     "odds": 2.14
     },
     {
      "book": "Grosvenor",
-     "odds": 1.96
+     "odds": 2.02
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "San Jose Sharks v Pittsburgh Penguins",
+   "start": "2026-11-12T03:10:00Z",
+   "selection": "Over 6.5",
+   "book": "LiveScore Bet",
+   "odds": 1.98,
+   "fair": 1.83,
+   "books": 7,
+   "detected": "2026-11-11T13:10:32.853743+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/san-jos%C3%A9-sharks-pittsburgh-penguins/SBTE_2_1028410194",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 1.98
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 1.88
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Anaheim Ducks v Nashville Predators",
+   "start": "2026-11-12T03:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.0,
+   "fair": 1.88,
+   "books": 7,
+   "detected": "2026-11-11T13:10:32.853576+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/anaheim-ducks-nashville-predators/SBTE_2_1028410197",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Buffalo Sabres v Tampa Bay Lightning",
+   "start": "2026-11-12T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.91,
+   "books": 7,
+   "detected": "2026-11-11T13:10:32.853063+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/tampa-bay-lightning-buffalo-sabres-e-7953064/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.0
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Anaheim Ducks v Nashville Predators",
+   "start": "2026-11-12T03:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.1,
+   "fair": 2.01,
+   "books": 7,
+   "detected": "2026-11-11T13:10:32.853592+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/nashville-predators-anaheim-ducks-e-7953441/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.1
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "San Jose Sharks v Pittsburgh Penguins",
+   "start": "2026-11-12T03:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.1,
+   "fair": 2.05,
+   "books": 7,
+   "detected": "2026-11-11T13:10:32.853761+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/pittsburgh-penguins-san-jose-sharks-e-7953437/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.1
     }
    ]
   }
@@ -16321,6 +16401,168 @@
    "stake": 10.0,
    "profit": 30.0,
    "won": true
+  },
+  {
+   "pick_id": "54a0d86217b79fbc969d6fca0e1564e8|virginbet|totals|Over 6.5",
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Toronto Maple Leafs v Colorado Avalanche",
+   "market": "Totals",
+   "date": "2026-11-11",
+   "detected": "2026-11-09T21:17:04.182514+00:00",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.1,
+   "fair": 1.94,
+   "edge": 8.25,
+   "books": 8,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 11.0,
+   "won": true
+  },
+  {
+   "pick_id": "18d63193c9a696acd715bc27d9fb65f6|virginbet|totals|Over 6.5",
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Montr\u00e9al Canadiens v Minnesota Wild",
+   "market": "Totals",
+   "date": "2026-11-11",
+   "detected": "2026-11-09T21:17:04.182591+00:00",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.28,
+   "fair": 2.11,
+   "edge": 8.06,
+   "books": 6,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "18d63193c9a696acd715bc27d9fb65f6|sport888|totals|Under 6.5",
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Montr\u00e9al Canadiens v Minnesota Wild",
+   "market": "Totals",
+   "date": "2026-11-11",
+   "detected": "2026-11-09T21:17:04.182644+00:00",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.8,
+   "fair": 1.71,
+   "edge": 5.26,
+   "books": 6,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 8.0,
+   "won": true
+  },
+  {
+   "pick_id": "f5477c781c94e09e85374bbf9149c0f1|skybet|h2h|Portland Trail Blazers",
+   "sport": "NBA",
+   "league": "basketball_nba",
+   "event": "Portland Trail Blazers v Oklahoma City Thunder",
+   "market": "Match odds",
+   "date": "2026-11-11",
+   "detected": "2026-11-10T13:56:30.098211+00:00",
+   "selection": "Portland Trail Blazers",
+   "book": "Sky Bet",
+   "odds": 2.2,
+   "fair": 2.16,
+   "edge": 1.85,
+   "books": 18,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "win",
+   "stake": 10.0,
+   "profit": 12.0,
+   "won": true
+  },
+  {
+   "pick_id": "54a0d86217b79fbc969d6fca0e1564e8|sport888|totals|Under 6.5",
+   "sport": "NHL",
+   "league": "icehockey_nhl",
+   "event": "Toronto Maple Leafs v Colorado Avalanche",
+   "market": "Totals",
+   "date": "2026-11-11",
+   "detected": "2026-11-10T13:56:30.098250+00:00",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.87,
+   "edge": 2.14,
+   "books": 7,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
+  },
+  {
+   "pick_id": "9ac02cb22adf276b325b1e9c9c6c588e|paddypower|h2h|Utah Jazz",
+   "sport": "NBA",
+   "league": "basketball_nba",
+   "event": "Utah Jazz v Miami Heat",
+   "market": "Match odds",
+   "date": "2026-11-11",
+   "detected": "2026-11-10T18:27:54.894178+00:00",
+   "selection": "Utah Jazz",
+   "book": "Paddy Power",
+   "odds": 4.1,
+   "fair": 3.83,
+   "edge": 7.05,
+   "books": 18,
+   "close": 0,
+   "close_books": 0,
+   "close_minutes": null,
+   "close_status": "missed_window",
+   "close_attempts": 0,
+   "model_version": "1.0",
+   "scanner_config": "cfg-e8080b68",
+   "min_edge_at_detection": 2.0,
+   "status": "loss",
+   "stake": 10.0,
+   "profit": -10.0,
+   "won": false
   }
  ]
 }
