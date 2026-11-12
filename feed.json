@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T14:13:28.797770+00:00",
+ "updated": "2026-11-12T18:40:52.307209+00:00",
  "scanned": {
-  "events": 57,
-  "selections": 112,
+  "events": 59,
+  "selections": 136,
   "sports": 7,
   "by_market": {
-   "h2h": 78,
+   "h2h": 102,
    "totals": 34
   },
   "stale_dropped": 0
@@ -49,6 +49,87 @@
  },
  "bets": [
   {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Chicago Bears v New Orleans Saints",
+   "start": "2026-11-22T18:00:00Z",
+   "selection": "New Orleans Saints",
+   "book": "Paddy Power",
+   "odds": 5.0,
+   "fair": 4.72,
+   "books": 6,
+   "detected": "2026-11-12T18:40:51.295400+00:00",
+   "link": "https://www.paddypower.com/american-football/nfl/new-orleans-saints-@-chicago-bears-36305233"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Dallas Cowboys v Tennessee Titans",
+   "start": "2026-11-22T18:00:00Z",
+   "selection": "Tennessee Titans",
+   "book": "Betfred (UK)",
+   "odds": 4.5,
+   "fair": 4.28,
+   "books": 6,
+   "detected": "2026-11-12T18:40:51.295480+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35662214"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Denver Broncos v Las Vegas Raiders",
+   "start": "2026-11-22T21:25:00Z",
+   "selection": "Las Vegas Raiders",
+   "book": "Unibet (UK)",
+   "odds": 4.5,
+   "fair": 4.39,
+   "books": 6,
+   "detected": "2026-11-12T18:40:51.295761+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/americanfootball/nfl/denver-broncos-vs-las-vegas-raiders/aa1bb5348c1947742dd2efa01b49f611"
+  },
+  {
+   "sport": "Test Matches",
+   "market": "Match odds",
+   "event": "Afghanistan v Zimbabwe",
+   "start": "2026-11-13T06:00:00Z",
+   "selection": "Zimbabwe",
+   "book": "BoyleSports",
+   "odds": 3.5,
+   "fair": 3.25,
+   "books": 13,
+   "detected": "2026-11-12T18:40:51.871442+00:00",
+   "link": "https://www.boylesports.com/sports/cricket/event/international-test-cricket/afghanistan-v-zimbabwe",
+   "also": [
+    {
+     "book": "888sport",
+     "odds": 3.4
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Columbus Blue Jackets v Tampa Bay Lightning",
+   "start": "2026-11-13T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.23,
+   "fair": 2.04,
+   "books": 7,
+   "detected": "2026-11-12T18:40:52.152392+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/columbus-blue-jackets-tampa-bay-lightning/SBTE_2_1028410250",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.23
+    },
+    {
+     "book": "Grosvenor",
+     "odds": 2.12
+    }
+   ]
+  },
+  {
    "sport": "NHL",
    "market": "Totals",
    "event": "Chicago Blackhawks v Buffalo Sabres",
@@ -56,9 +137,9 @@
    "selection": "Over 6.5",
    "book": "LiveScore Bet",
    "odds": 2.2,
-   "fair": 2.03,
+   "fair": 2.02,
    "books": 7,
-   "detected": "2026-11-12T14:13:28.661742+00:00",
+   "detected": "2026-11-12T18:40:52.152958+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/chicago-blackhawks-buffalo-sabres/SBTE_2_1028410247",
    "also": [
     {
@@ -67,7 +148,7 @@
     },
     {
      "book": "Grosvenor",
-     "odds": 2.08
+     "odds": 2.1
     }
    ]
   },
@@ -78,15 +159,15 @@
    "start": "2026-11-13T00:08:00Z",
    "selection": "Over 6.5",
    "book": "Virgin Bet",
-   "odds": 2.23,
-   "fair": 2.07,
+   "odds": 2.28,
+   "fair": 2.12,
    "books": 7,
-   "detected": "2026-11-12T14:13:28.660708+00:00",
+   "detected": "2026-11-12T18:40:52.151907+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/ottawa-senators-colorado-avalanche/SBTE_2_1028410234",
    "also": [
     {
      "book": "LiveScore Bet",
-     "odds": 2.23
+     "odds": 2.28
     }
    ]
   },
@@ -100,7 +181,7 @@
    "odds": 2.25,
    "fair": 2.11,
    "books": 7,
-   "detected": "2026-11-12T14:13:28.661363+00:00",
+   "detected": "2026-11-12T18:40:52.152584+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-minnesota-wild/SBTE_2_1028410225",
    "also": [
     {
@@ -112,38 +193,19 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Ottawa Senators v Colorado Avalanche",
-   "start": "2026-11-13T00:08:00Z",
+   "event": "Columbus Blue Jackets v Tampa Bay Lightning",
+   "start": "2026-11-13T00:10:00Z",
    "selection": "Under 6.5",
    "book": "888sport",
    "odds": 1.91,
-   "fair": 1.83,
+   "fair": 1.84,
    "books": 7,
-   "detected": "2026-11-12T14:13:28.660728+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/colorado-avalanche-ottawa-senators-e-7953604/",
+   "detected": "2026-11-12T18:40:52.152416+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/tampa-bay-lightning-columbus-blue-jackets-e-7953629/",
    "also": [
     {
      "book": "William Hill",
      "odds": 1.91
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Seattle Kraken v Carolina Hurricanes",
-   "start": "2026-11-12T17:00:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.06,
-   "fair": 2.0,
-   "books": 7,
-   "detected": "2026-11-12T14:13:28.660476+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/seattle-kraken-carolina-hurricanes/SBTE_2_1028410191",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.06
     }
    ]
   },
@@ -157,7 +219,7 @@
    "odds": 1.91,
    "fair": 1.86,
    "books": 7,
-   "detected": "2026-11-12T14:13:28.661758+00:00",
+   "detected": "2026-11-12T18:40:52.152972+00:00",
    "link": "https://www.888sport.com/ice-hockey/united-states/nhl/buffalo-sabres-chicago-blackhawks-e-7953616/",
    "also": [
     {
@@ -165,6 +227,19 @@
      "odds": 1.91
     }
    ]
+  },
+  {
+   "sport": "WTA Finals",
+   "market": "Match odds",
+   "event": "Aryna Sabalenka v Elina Svitolina",
+   "start": "2026-11-13T21:30:00Z",
+   "selection": "Elina Svitolina",
+   "book": "Betway",
+   "odds": 2.75,
+   "fair": 2.63,
+   "books": 20,
+   "detected": "2026-11-12T18:40:52.306387+00:00",
+   "link": "https://betway.com/en/sports/evt/17476373"
   }
  ],
  "results": [
