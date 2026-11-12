@@ -1,18 +1,5 @@
 [
  {
-  "sport": "ATP Swiss Indoors Basel",
-  "event": "Novak Djokovic v Jan-Lennard Struff",
-  "market": "Match odds",
-  "selection": "Jan-Lennard Struff",
-  "book": "Sky Bet",
-  "odds": 4.5,
-  "fair": 4.0,
-  "edge": 12.5,
-  "books": 20,
-  "start": "2026-10-29T17:00:00Z",
-  "seen": "2026-10-29T11:31:25.852280+00:00"
- },
- {
   "sport": "NHL",
   "event": "Buffalo Sabres v Ottawa Senators",
   "market": "Totals",
