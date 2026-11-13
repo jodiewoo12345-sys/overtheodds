@@ -409,8 +409,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.58,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.37,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "1057d50949844ddf483da9c8c20354be|coral|h2h|New York Jets": {
   "sport": "NFL",
@@ -466,8 +466,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.58,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.37,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "28800df7e768ecec14f116454d560f9b|betway|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -524,7 +524,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "6c932a965110f3f89ec4a5f1a6ac256e|betway|h2h|Arizona Cardinals": {
   "sport": "NFL",
@@ -580,8 +580,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.9,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.79,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "1057d50949844ddf483da9c8c20354be|betfred_uk|h2h|New York Jets": {
   "sport": "NFL",
@@ -637,8 +637,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.58,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.37,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "6c932a965110f3f89ec4a5f1a6ac256e|sport888|h2h|Arizona Cardinals": {
   "sport": "NFL",
@@ -694,8 +694,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.9,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.79,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "6079a5cbabf99b265a17edfc92a1da60|paddypower|h2h|Las Vegas Raiders": {
   "sport": "NFL",
@@ -751,8 +751,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.48,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 3.5,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "28800df7e768ecec14f116454d560f9b|unibet_uk|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -809,7 +809,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.78,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "4edfdf1f2fb0bb06bd731dd91c12e8c8|grosvenor|h2h|Draw": {
   "sport": "Test Matches",
@@ -922,350 +922,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 5.02,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "fe4c6dbd3b40768336356b2a02966544|virginbet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Toronto Maple Leafs v Minnesota Wild",
-  "start": "2026-11-13T00:00:00Z",
-  "selection": "Over 6.5",
-  "book": "Virgin Bet",
-  "odds": 2.25,
-  "fair": 2.11,
-  "edge": 6.64,
-  "books": 7,
-  "detected": "2026-11-11T18:21:14.075853+00:00",
-  "first_seen": "2026-11-11T18:21:14.075854+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.11,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "5a2820b80e20b69258bd5eb25c18eb78|livescorebet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Seattle Kraken v Carolina Hurricanes",
-  "start": "2026-11-12T17:00:00Z",
-  "selection": "Over 6.5",
-  "book": "LiveScore Bet",
-  "odds": 2.12,
-  "fair": 2.0,
-  "edge": 6.0,
-  "books": 8,
-  "detected": "2026-11-11T18:21:14.075863+00:00",
-  "first_seen": "2026-11-11T18:21:14.075864+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.0,
-  "latest_seen": "2026-11-12T14:13:28.797751+00:00"
- },
- "a25eef409ec7d9f7e872d37603bb0243|livescorebet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Chicago Blackhawks v Buffalo Sabres",
-  "start": "2026-11-13T01:00:00Z",
-  "selection": "Over 6.5",
-  "book": "LiveScore Bet",
-  "odds": 2.16,
-  "fair": 2.11,
-  "edge": 2.37,
-  "books": 7,
-  "detected": "2026-11-11T18:21:14.075892+00:00",
-  "first_seen": "2026-11-11T18:21:14.075893+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.02,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "206230c7db215749b099353074bb5c13|virginbet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Ottawa Senators v Colorado Avalanche",
-  "start": "2026-11-13T00:08:00Z",
-  "selection": "Over 6.5",
-  "book": "Virgin Bet",
-  "odds": 2.23,
-  "fair": 2.07,
-  "edge": 7.73,
-  "books": 7,
-  "detected": "2026-11-12T14:13:28.797664+00:00",
-  "first_seen": "2026-11-12T14:13:28.797666+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.13,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "206230c7db215749b099353074bb5c13|sport888|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Ottawa Senators v Colorado Avalanche",
-  "start": "2026-11-13T00:08:00Z",
-  "selection": "Under 6.5",
-  "book": "888sport",
-  "odds": 1.91,
-  "fair": 1.83,
-  "edge": 4.37,
-  "books": 7,
-  "detected": "2026-11-12T14:13:28.797709+00:00",
-  "first_seen": "2026-11-12T14:13:28.797710+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.89,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "a25eef409ec7d9f7e872d37603bb0243|sport888|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Chicago Blackhawks v Buffalo Sabres",
-  "start": "2026-11-13T01:09:00Z",
-  "selection": "Under 6.5",
-  "book": "888sport",
-  "odds": 1.91,
-  "fair": 1.86,
-  "edge": 2.69,
-  "books": 7,
-  "detected": "2026-11-12T14:13:28.797738+00:00",
-  "first_seen": "2026-11-12T14:13:28.797739+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.98,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.96,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "3ea90704fb576633bd1e2fa5aafd9ea3|paddypower|h2h|New Orleans Saints": {
   "sport": "NFL",
@@ -1321,8 +979,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.81,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.78,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "5e63079b678f8c13419adc169fff02d3|betfred_uk|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -1379,7 +1037,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.33,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "1940706a79cbcbafacdcbf231069716b|unibet_uk|h2h|Las Vegas Raiders": {
   "sport": "NFL",
@@ -1435,8 +1093,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.41,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 4.5,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  },
  "4edfdf1f2fb0bb06bd731dd91c12e8c8|boylesports|h2h|Zimbabwe": {
   "sport": "Test Matches",
@@ -1495,120 +1153,6 @@
   "latest_fair": 3.25,
   "latest_seen": "2026-11-12T18:40:52.307187+00:00"
  },
- "89806a3740a856eb0cb991e427d5dcfa|virginbet|totals|Over 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Columbus Blue Jackets v Tampa Bay Lightning",
-  "start": "2026-11-13T00:10:00Z",
-  "selection": "Over 6.5",
-  "book": "Virgin Bet",
-  "odds": 2.23,
-  "fair": 2.04,
-  "edge": 9.31,
-  "books": 7,
-  "detected": "2026-11-12T18:40:52.307090+00:00",
-  "first_seen": "2026-11-12T18:40:52.307091+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 2.05,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
- "89806a3740a856eb0cb991e427d5dcfa|sport888|totals|Under 6.5": {
-  "sport": "NHL",
-  "sport_key": "icehockey_nhl",
-  "market_key": "totals",
-  "market": "Totals",
-  "event": "Columbus Blue Jackets v Tampa Bay Lightning",
-  "start": "2026-11-13T00:10:00Z",
-  "selection": "Under 6.5",
-  "book": "888sport",
-  "odds": 1.91,
-  "fair": 1.84,
-  "edge": 3.8,
-  "books": 7,
-  "detected": "2026-11-12T18:40:52.307148+00:00",
-  "first_seen": "2026-11-12T18:40:52.307149+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 1.95,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
  "29a6e4e35a3b385e9666473ad68f2084|betway|h2h|Elina Svitolina": {
   "sport": "WTA Finals",
   "sport_key": "tennis_wta_finals",
@@ -1663,7 +1207,292 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.63,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
+  "latest_fair": 2.77,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
+ },
+ "6c932a965110f3f89ec4a5f1a6ac256e|boylesports|h2h|Arizona Cardinals": {
+  "sport": "NFL",
+  "sport_key": "americanfootball_nfl",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Arizona Cardinals v Los Angeles Rams",
+  "start": "2026-11-15T21:05:00Z",
+  "selection": "Arizona Cardinals",
+  "book": "BoyleSports",
+  "odds": 5.0,
+  "fair": 4.75,
+  "edge": 5.26,
+  "books": 16,
+  "detected": "2026-11-13T13:37:24.617019+00:00",
+  "first_seen": "2026-11-13T13:37:24.617023+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 4.79,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
+ },
+ "1fae7f34ec6035dffa74feb148ee26c7|coral|h2h|Golden State Warriors": {
+  "sport": "NBA",
+  "sport_key": "basketball_nba",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "San Antonio Spurs v Golden State Warriors",
+  "start": "2026-11-14T02:40:00Z",
+  "selection": "Golden State Warriors",
+  "book": "Coral",
+  "odds": 6.0,
+  "fair": 5.71,
+  "edge": 5.08,
+  "books": 17,
+  "detected": "2026-11-13T13:37:24.617093+00:00",
+  "first_seen": "2026-11-13T13:37:24.617095+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 5.82,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
+ },
+ "069bea369487ef0cd3017c9ceea68817|livescorebet|totals|Over 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Vancouver Canucks v New York Rangers",
+  "start": "2026-11-14T02:10:00Z",
+  "selection": "Over 6.5",
+  "book": "LiveScore Bet",
+  "odds": 2.23,
+  "fair": 2.11,
+  "edge": 5.69,
+  "books": 6,
+  "detected": "2026-11-13T13:37:24.617119+00:00",
+  "first_seen": "2026-11-13T13:37:24.617121+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 2.22,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
+ },
+ "069bea369487ef0cd3017c9ceea68817|williamhill|totals|Under 6.5": {
+  "sport": "NHL",
+  "sport_key": "icehockey_nhl",
+  "market_key": "totals",
+  "market": "Totals",
+  "event": "Vancouver Canucks v New York Rangers",
+  "start": "2026-11-14T02:10:00Z",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 1.8,
+  "fair": 1.74,
+  "edge": 3.45,
+  "books": 6,
+  "detected": "2026-11-13T13:37:24.617145+00:00",
+  "first_seen": "2026-11-13T13:37:24.617147+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 1.82,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
+ },
+ "6b92a67eab021047017da9d42e1e1fae|livescorebet|h2h|Karolina Muchova": {
+  "sport": "WTA Finals",
+  "sport_key": "tennis_wta_finals",
+  "market_key": "h2h",
+  "market": "Match odds",
+  "event": "Mirra Andreeva v Karolina Muchova",
+  "start": "2026-11-13T20:00:00Z",
+  "selection": "Karolina Muchova",
+  "book": "LiveScore Bet",
+  "odds": 3.55,
+  "fair": 3.44,
+  "edge": 3.2,
+  "books": 19,
+  "detected": "2026-11-13T13:37:24.617168+00:00",
+  "first_seen": "2026-11-13T13:37:24.617170+00:00",
+  "model_version": "1.0",
+  "scanner_config": "cfg-e8080b68",
+  "min_edge_at_detection": 2.0,
+  "config": {
+   "min_edge": 2.0,
+   "max_edge": 12.0,
+   "min_books": 6,
+   "min_books_by_market": {
+    "spreads": 8
+   },
+   "max_odds": 6.0,
+   "min_hours": 2.0,
+   "max_per_sport": 15,
+   "max_price_age_min": 20.0,
+   "markets": [
+    "h2h",
+    "totals",
+    "spreads"
+   ],
+   "competitions": [
+    "tennis_atp",
+    "tennis_wta",
+    "basketball_nba",
+    "icehockey_nhl",
+    "americanfootball_nfl",
+    "cricket",
+    "darts",
+    "snooker"
+   ],
+   "exchanges_excluded": [
+    "betfair_ex_uk",
+    "betfair_ex_au",
+    "betfair_ex_eu",
+    "matchbook",
+    "smarkets",
+    "betdaq"
+   ]
+  },
+  "close_status": "pending",
+  "latest_fair": 3.44,
+  "latest_seen": "2026-11-13T13:37:24.617189+00:00"
  }
 }
