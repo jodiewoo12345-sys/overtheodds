@@ -232,5 +232,31 @@
   "books": 12,
   "start": "2026-11-13T05:00:00Z",
   "seen": "2026-11-10T18:27:54.616171+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Edmonton Oilers",
+  "market": "Totals",
+  "selection": "Under 6.5",
+  "book": "William Hill",
+  "odds": 2.15,
+  "fair": 1.84,
+  "edge": 17.0,
+  "books": 6,
+  "start": "2026-11-15T00:10:00Z",
+  "seen": "2026-11-13T18:21:34.280274+00:00"
+ },
+ {
+  "sport": "NHL",
+  "event": "Toronto Maple Leafs v Edmonton Oilers",
+  "market": "Totals",
+  "selection": "Under 6.5",
+  "book": "888sport",
+  "odds": 2.15,
+  "fair": 1.84,
+  "edge": 17.0,
+  "books": 6,
+  "start": "2026-11-15T00:10:00Z",
+  "seen": "2026-11-13T18:21:34.280281+00:00"
  }
 ]

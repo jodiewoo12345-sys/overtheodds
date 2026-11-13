@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-13T13:37:24.617217+00:00",
+ "updated": "2026-11-13T18:21:34.556100+00:00",
  "scanned": {
-  "events": 55,
-  "selections": 105,
+  "events": 66,
+  "selections": 162,
   "sports": 8,
   "by_market": {
-   "h2h": 83,
-   "totals": 22
+   "h2h": 114,
+   "totals": 48
   },
   "stale_dropped": 0
  },
@@ -56,9 +56,9 @@
    "selection": "New Orleans Saints",
    "book": "Paddy Power",
    "odds": 5.0,
-   "fair": 4.72,
-   "books": 6,
-   "detected": "2026-11-13T13:37:23.923796+00:00",
+   "fair": 4.75,
+   "books": 8,
+   "detected": "2026-11-13T18:21:33.685945+00:00",
    "link": "https://www.paddypower.com/american-football/nfl/new-orleans-saints-@-chicago-bears-36305233"
   },
   {
@@ -69,9 +69,9 @@
    "selection": "Arizona Cardinals",
    "book": "BoyleSports",
    "odds": 5.0,
-   "fair": 4.75,
-   "books": 16,
-   "detected": "2026-11-13T13:37:23.920743+00:00",
+   "fair": 4.79,
+   "books": 17,
+   "detected": "2026-11-13T18:21:33.684687+00:00",
    "link": "https://www.boylesports.com/sports/american-football/event/usa-nfl/arizona-cardinals-v-los-angeles-rams"
   },
   {
@@ -82,10 +82,42 @@
    "selection": "Tennessee Titans",
    "book": "Betfred (UK)",
    "odds": 4.5,
-   "fair": 4.28,
-   "books": 6,
-   "detected": "2026-11-13T13:37:23.923957+00:00",
+   "fair": 4.39,
+   "books": 8,
+   "detected": "2026-11-13T18:21:33.686025+00:00",
    "link": "https://www.betfred.com/sports/american-football/event/35662214"
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Sacramento Kings v Portland Trail Blazers",
+   "start": "2026-11-14T03:10:00Z",
+   "selection": "Sacramento Kings",
+   "book": "LiveScore Bet",
+   "odds": 4.9,
+   "fair": 4.67,
+   "books": 18,
+   "detected": "2026-11-13T18:21:33.850437+00:00",
+   "link": "https://www.livescorebet.com/uk/sports/basketball/nba/sacramento-kings-portland-trail-blazers/SBTE_2_1028744835",
+   "also": [
+    {
+     "book": "Virgin Bet",
+     "odds": 4.8
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "market": "Match odds",
+   "event": "Orlando Magic v Milwaukee Bucks",
+   "start": "2026-11-14T00:10:00Z",
+   "selection": "Milwaukee Bucks",
+   "book": "Unibet (UK)",
+   "odds": 4.25,
+   "fair": 4.12,
+   "books": 18,
+   "detected": "2026-11-13T18:21:33.849195+00:00",
+   "link": "https://www.unibet.co.uk/betting/odds/basketball/usa/nba/orlando-magic-vs-milwaukee-bucks/cdf8643136f3498f786a41b71a6c035c"
   },
   {
    "sport": "NBA",
@@ -93,15 +125,23 @@
    "event": "San Antonio Spurs v Golden State Warriors",
    "start": "2026-11-14T02:40:00Z",
    "selection": "Golden State Warriors",
-   "book": "Coral",
+   "book": "888sport",
    "odds": 6.0,
-   "fair": 5.71,
-   "books": 17,
-   "detected": "2026-11-13T13:37:24.061075+00:00",
-   "link": "https://sports.coral.co.uk/event/basketball/basketball-usa/nba/sa-spurs-v-gs-warriors/47551980/main-markets",
+   "fair": 5.82,
+   "books": 18,
+   "detected": "2026-11-13T18:21:33.850170+00:00",
+   "link": "https://www.888sport.com/basketball/united-states/nba/golden-state-warriors-san-antonio-spurs-e-8556690/",
    "also": [
     {
-     "book": "Ladbrokes",
+     "book": "William Hill",
+     "odds": 6.0
+    },
+    {
+     "book": "Paddy Power",
+     "odds": 6.0
+    },
+    {
+     "book": "Betfair Sportsbook",
      "odds": 6.0
     }
    ]
@@ -115,8 +155,8 @@
    "book": "LiveScore Bet",
    "odds": 2.23,
    "fair": 2.11,
-   "books": 6,
-   "detected": "2026-11-13T13:37:24.416910+00:00",
+   "books": 7,
+   "detected": "2026-11-13T18:21:34.279503+00:00",
    "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/vancouver-canucks-new-york-rangers/SBTE_2_1028410181",
    "also": [
     {
@@ -128,36 +168,19 @@
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Vancouver Canucks v New York Rangers",
-   "start": "2026-11-14T02:10:00Z",
-   "selection": "Under 6.5",
-   "book": "William Hill",
-   "odds": 1.8,
-   "fair": 1.74,
+   "event": "Toronto Maple Leafs v Edmonton Oilers",
+   "start": "2026-11-15T00:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.1,
+   "fair": 2.01,
    "books": 6,
-   "detected": "2026-11-13T13:37:24.416949+00:00",
-   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544176/new-york-rangers-vancouver-canucks"
-  },
-  {
-   "sport": "WTA Finals",
-   "market": "Match odds",
-   "event": "Mirra Andreeva v Karolina Muchova",
-   "start": "2026-11-13T20:00:00Z",
-   "selection": "Karolina Muchova",
-   "book": "LiveScore Bet",
-   "odds": 3.55,
-   "fair": 3.44,
-   "books": 19,
-   "detected": "2026-11-13T13:37:24.615890+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/tennis/wta-world-tour-finals/mirra-andreeva-karolina-muchova/SBTE_2_1029834853",
+   "detected": "2026-11-13T18:21:34.280248+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-edmonton-oilers/SBTE_2_1028410184",
    "also": [
     {
-     "book": "Grosvenor",
-     "odds": 3.55
-    },
-    {
-     "book": "Virgin Bet",
-     "odds": 3.55
+     "book": "LiveScore Bet",
+     "odds": 2.1
     }
    ]
   }
