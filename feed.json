@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-14T12:41:41.719720+00:00",
+ "updated": "2026-11-14T16:50:29.758113+00:00",
  "scanned": {
-  "events": 59,
-  "selections": 166,
+  "events": 64,
+  "selections": 167,
   "sports": 8,
   "by_market": {
-   "h2h": 110,
-   "totals": 56
+   "h2h": 113,
+   "totals": 54
   },
   "stale_dropped": 0
  },
@@ -58,7 +58,7 @@
    "odds": 5.0,
    "fair": 4.75,
    "books": 8,
-   "detected": "2026-11-14T12:41:41.163320+00:00",
+   "detected": "2026-11-14T16:50:28.610791+00:00",
    "link": "https://www.paddypower.com/american-football/nfl/new-orleans-saints-@-chicago-bears-36305233"
   },
   {
@@ -69,10 +69,52 @@
    "selection": "Tennessee Titans",
    "book": "Betfred (UK)",
    "odds": 4.5,
-   "fair": 4.33,
+   "fair": 4.28,
    "books": 7,
-   "detected": "2026-11-14T12:41:41.163421+00:00",
+   "detected": "2026-11-14T16:50:28.610867+00:00",
    "link": "https://www.betfred.com/sports/american-football/event/35662214"
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Tennessee Titans v Jacksonville Jaguars",
+   "start": "2026-11-15T18:00:00Z",
+   "selection": "Tennessee Titans",
+   "book": "888sport",
+   "odds": 6.0,
+   "fair": 5.8,
+   "books": 17,
+   "detected": "2026-11-14T16:50:28.609187+00:00",
+   "link": "https://www.888sport.com/american-football/united-states/nfl/jacksonville-jaguars-tennessee-titans-e-7628065/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 6.0
+    }
+   ]
+  },
+  {
+   "sport": "NFL",
+   "market": "Match odds",
+   "event": "Denver Broncos v Las Vegas Raiders",
+   "start": "2026-11-22T21:25:00Z",
+   "selection": "Las Vegas Raiders",
+   "book": "Betfred (UK)",
+   "odds": 4.5,
+   "fair": 4.36,
+   "books": 7,
+   "detected": "2026-11-14T16:50:28.611245+00:00",
+   "link": "https://www.betfred.com/sports/american-football/event/35662570",
+   "also": [
+    {
+     "book": "Unibet (UK)",
+     "odds": 4.5
+    },
+    {
+     "book": "888sport",
+     "odds": 4.5
+    }
+   ]
   },
   {
    "sport": "NFL",
@@ -82,50 +124,10 @@
    "selection": "Arizona Cardinals",
    "book": "BoyleSports",
    "odds": 5.0,
-   "fair": 4.87,
+   "fair": 4.9,
    "books": 17,
-   "detected": "2026-11-14T12:41:41.161697+00:00",
+   "detected": "2026-11-14T16:50:28.609410+00:00",
    "link": "https://www.boylesports.com/sports/american-football/event/usa-nfl/arizona-cardinals-v-los-angeles-rams"
-  },
-  {
-   "sport": "One Day Internationals",
-   "market": "Match odds",
-   "event": "New Zealand v India",
-   "start": "2026-11-15T02:00:00Z",
-   "selection": "New Zealand",
-   "book": "BoyleSports",
-   "odds": 2.3,
-   "fair": 2.21,
-   "books": 12,
-   "detected": "2026-11-14T12:41:41.373847+00:00",
-   "link": "https://www.boylesports.com/sports/cricket/event/international-odis/new-zealand-v-india"
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Anaheim Ducks v New York Islanders",
-   "start": "2026-11-15T03:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.1,
-   "fair": 1.9,
-   "books": 10,
-   "detected": "2026-11-14T12:41:41.563695+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/anaheim-ducks-new-york-islanders/SBTE_2_1028410224",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.1
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 1.97
-    },
-    {
-     "book": "Casumo",
-     "odds": 1.95
-    }
-   ]
   },
   {
    "sport": "NHL",
@@ -135,37 +137,33 @@
    "selection": "Over 6.5",
    "book": "Virgin Bet",
    "odds": 2.25,
-   "fair": 2.05,
-   "books": 9,
-   "detected": "2026-11-14T12:41:41.563155+00:00",
+   "fair": 2.11,
+   "books": 7,
+   "detected": "2026-11-14T16:50:29.446508+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/pittsburgh-penguins-ottawa-senators/SBTE_2_1028410202",
    "also": [
     {
      "book": "LiveScore Bet",
      "odds": 2.25
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.14
     }
    ]
   },
   {
    "sport": "NHL",
    "market": "Totals",
-   "event": "Carolina Hurricanes v Seattle Kraken",
-   "start": "2026-11-14T18:00:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.23,
-   "fair": 2.11,
-   "books": 7,
-   "detected": "2026-11-14T12:41:41.561335+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/carolina-hurricanes-seattle-kraken/SBTE_2_1028410173",
+   "event": "Toronto Maple Leafs v Edmonton Oilers",
+   "start": "2026-11-15T00:10:00Z",
+   "selection": "Under 6.5",
+   "book": "William Hill",
+   "odds": 2.1,
+   "fair": 1.97,
+   "books": 8,
+   "detected": "2026-11-14T16:50:29.446010+00:00",
+   "link": "https://sports.williamhill.com/betting/en-gb/ice-hockey/OB_EV40544177/edmonton-oilers-toronto-maple-leafs",
    "also": [
     {
-     "book": "Virgin Bet",
-     "odds": 2.23
+     "book": "888sport",
+     "odds": 2.1
     }
    ]
   },
@@ -176,15 +174,99 @@
    "start": "2026-11-15T00:10:00Z",
    "selection": "Over 6.5",
    "book": "Virgin Bet",
-   "odds": 1.91,
-   "fair": 1.82,
-   "books": 10,
-   "detected": "2026-11-14T12:41:41.562557+00:00",
+   "odds": 1.93,
+   "fair": 1.83,
+   "books": 8,
+   "detected": "2026-11-14T16:50:29.445980+00:00",
    "link": "https://www.virginbet.com/sports/ice-hockey/nhl/toronto-maple-leafs-edmonton-oilers/SBTE_2_1028410184",
    "also": [
     {
      "book": "LiveScore Bet",
+     "odds": 1.93
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Anaheim Ducks v New York Islanders",
+   "start": "2026-11-15T03:10:00Z",
+   "selection": "Over 6.5",
+   "book": "Virgin Bet",
+   "odds": 2.0,
+   "fair": 1.9,
+   "books": 8,
+   "detected": "2026-11-14T16:50:29.447090+00:00",
+   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/anaheim-ducks-new-york-islanders/SBTE_2_1028410224",
+   "also": [
+    {
+     "book": "LiveScore Bet",
+     "odds": 2.0
+    },
+    {
+     "book": "Casumo",
+     "odds": 1.95
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Totals",
+   "event": "Anaheim Ducks v New York Islanders",
+   "start": "2026-11-15T03:10:00Z",
+   "selection": "Under 6.5",
+   "book": "888sport",
+   "odds": 2.0,
+   "fair": 1.9,
+   "books": 8,
+   "detected": "2026-11-14T16:50:29.447108+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/new-york-islanders-anaheim-ducks-e-7953707/",
+   "also": [
+    {
+     "book": "William Hill",
+     "odds": 2.0
+    },
+    {
+     "book": "LeoVegas",
+     "odds": 1.95
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "market": "Match odds",
+   "event": "Boston Bruins v Minnesota Wild",
+   "start": "2026-11-15T00:10:00Z",
+   "selection": "Minnesota Wild",
+   "book": "888sport",
+   "odds": 1.91,
+   "fair": 1.85,
+   "books": 12,
+   "detected": "2026-11-14T16:50:29.445397+00:00",
+   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/minnesota-wild-boston-bruins-e-7953656/",
+   "also": [
+    {
+     "book": "William Hill",
      "odds": 1.91
+    }
+   ]
+  },
+  {
+   "sport": "WTA Finals",
+   "market": "Match odds",
+   "event": "Linda Noskova v Elina Svitolina",
+   "start": "2026-11-14T21:30:00Z",
+   "selection": "Elina Svitolina",
+   "book": "Betfair Sportsbook",
+   "odds": 2.5,
+   "fair": 2.45,
+   "books": 20,
+   "detected": "2026-11-14T16:50:29.757342+00:00",
+   "link": "https://www.betfair.com/betting/tennis/wta-finals-indian-wells-2026/l-noskova-v-svitolina/e-36317388",
+   "also": [
+    {
+     "book": "Sky Bet",
+     "odds": 2.5
     }
    ]
   }
