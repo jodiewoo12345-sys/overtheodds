@@ -1377,9 +1377,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.93,
-  "latest_seen": "2026-11-14T16:50:29.758089+00:00"
+  "latest_seen": "2026-11-14T16:50:29.758089+00:00",
+  "close_attempts": 1,
+  "close": 1.98,
+  "close_books": 8,
+  "close_at": "2026-11-15T00:05:18.034170+00:00",
+  "close_minutes_before": 4.7,
+  "close_final": true
  },
  "a9df6e8486f9174c7cc08df31222f666|boylesports|h2h|New Zealand": {
   "sport": "One Day Internationals",
@@ -1548,9 +1554,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.11,
-  "latest_seen": "2026-11-14T16:50:29.758089+00:00"
+  "latest_seen": "2026-11-14T16:50:29.758089+00:00",
+  "close_attempts": 1,
+  "close": 2.28,
+  "close_books": 8,
+  "close_at": "2026-11-15T00:05:18.034170+00:00",
+  "close_minutes_before": 4.7,
+  "close_final": true
  },
  "ccdee466b63a2accb1d804d5ca9e4bdc|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -1776,9 +1788,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 2.08,
-  "latest_seen": "2026-11-14T16:50:29.758089+00:00"
+  "latest_seen": "2026-11-14T16:50:29.758089+00:00",
+  "close_attempts": 1,
+  "close": 2.02,
+  "close_books": 8,
+  "close_at": "2026-11-15T00:05:18.034170+00:00",
+  "close_minutes_before": 4.7,
+  "close_final": true
  },
  "ce4dd515ea49344d4707778f27669fec|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -1890,9 +1908,15 @@
     "betdaq"
    ]
   },
-  "close_status": "pending",
+  "close_status": "final",
   "latest_fair": 1.86,
-  "latest_seen": "2026-11-14T16:50:29.758089+00:00"
+  "latest_seen": "2026-11-14T16:50:29.758089+00:00",
+  "close_attempts": 1,
+  "close": 1.86,
+  "close_books": 12,
+  "close_at": "2026-11-15T00:05:18.034170+00:00",
+  "close_minutes_before": 4.7,
+  "close_final": true
  },
  "57cede457aa62785e8460c5b2a052ac6|betfair_sb_uk|h2h|Elina Svitolina": {
   "sport": "WTA Finals",
