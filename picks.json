@@ -581,7 +581,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.0,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "1057d50949844ddf483da9c8c20354be|betfred_uk|h2h|New York Jets": {
   "sport": "NFL",
@@ -695,7 +695,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.0,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "6079a5cbabf99b265a17edfc92a1da60|paddypower|h2h|Las Vegas Raiders": {
   "sport": "NFL",
@@ -752,7 +752,7 @@
   },
   "close_status": "pending",
   "latest_fair": 3.48,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "28800df7e768ecec14f116454d560f9b|unibet_uk|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -923,7 +923,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.93,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "3ea90704fb576633bd1e2fa5aafd9ea3|paddypower|h2h|New Orleans Saints": {
   "sport": "NFL",
@@ -980,7 +980,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.75,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "5e63079b678f8c13419adc169fff02d3|betfred_uk|h2h|Tennessee Titans": {
   "sport": "NFL",
@@ -1037,7 +1037,7 @@
   },
   "close_status": "pending",
   "latest_fair": 4.39,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "1940706a79cbcbafacdcbf231069716b|unibet_uk|h2h|Las Vegas Raiders": {
   "sport": "NFL",
@@ -1093,8 +1093,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.45,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 4.61,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "4edfdf1f2fb0bb06bd731dd91c12e8c8|boylesports|h2h|Zimbabwe": {
   "sport": "Test Matches",
@@ -1265,7 +1265,7 @@
   },
   "close_status": "pending",
   "latest_fair": 5.0,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "6b92a67eab021047017da9d42e1e1fae|livescorebet|h2h|Karolina Muchova": {
   "sport": "WTA Finals",
@@ -1492,8 +1492,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 4.45,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 4.61,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "57cede457aa62785e8460c5b2a052ac6|betfair_sb_uk|h2h|Elina Svitolina": {
   "sport": "WTA Finals",
@@ -1606,8 +1606,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 1.84,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 1.86,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "e52a5926735bcff42d3d0ce052a21938|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -1663,8 +1663,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.02,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 2.06,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "539a387d9fd0da9af213bf8002fdb0d4|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -1720,8 +1720,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.02,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 1.99,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "539a387d9fd0da9af213bf8002fdb0d4|virginbet|totals|Over 6.5": {
   "sport": "NHL",
@@ -1777,8 +1777,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 1.98,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 2.01,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "c4ac537963707b247ad9e4eab06c15de|livescorebet|totals|Over 6.5": {
   "sport": "NHL",
@@ -1834,8 +1834,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 2.03,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 2.11,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "e52a5926735bcff42d3d0ce052a21938|sport888|totals|Under 6.5": {
   "sport": "NHL",
@@ -1891,8 +1891,8 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 1.98,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 1.94,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  },
  "7ac3bf138012785e65835d1481524d5c|paddypower|h2h|Flavio Cobolli": {
   "sport": "ATP Finals",
@@ -1948,7 +1948,7 @@
    ]
   },
   "close_status": "pending",
-  "latest_fair": 3.92,
-  "latest_seen": "2026-11-15T13:08:11.051141+00:00"
+  "latest_fair": 3.83,
+  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
  }
 }
