@@ -1,13 +1,10 @@
 {
- "updated": "2026-11-15T17:32:46.867664+00:00",
+ "updated": "2026-11-16T14:15:58.285233+00:00",
  "scanned": {
-  "events": 52,
-  "selections": 125,
-  "sports": 8,
-  "by_market": {
-   "h2h": 81,
-   "totals": 44
-  },
+  "events": 0,
+  "selections": 0,
+  "sports": 0,
+  "by_market": {},
   "stale_dropped": 0
  },
  "model_version": "1.0",
@@ -47,131 +44,7 @@
    "betdaq"
   ]
  },
- "bets": [
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Chicago Bears v New Orleans Saints",
-   "start": "2026-11-22T18:00:00Z",
-   "selection": "New Orleans Saints",
-   "book": "Paddy Power",
-   "odds": 5.0,
-   "fair": 4.75,
-   "books": 8,
-   "detected": "2026-11-15T17:32:46.327184+00:00",
-   "link": "https://www.paddypower.com/american-football/nfl/new-orleans-saints-@-chicago-bears-36305233"
-  },
-  {
-   "sport": "NFL",
-   "market": "Match odds",
-   "event": "Houston Texans v Indianapolis Colts",
-   "start": "2026-11-20T01:15:00Z",
-   "selection": "Indianapolis Colts",
-   "book": "Unibet (UK)",
-   "odds": 5.0,
-   "fair": 4.9,
-   "books": 10,
-   "detected": "2026-11-15T17:32:46.326535+00:00",
-   "link": "https://www.unibet.co.uk/betting/odds/americanfootball/nfl/houston-texans-vs-indianapolis-colts/728b11236723cf71230606ef06f2f7d7"
-  },
-  {
-   "sport": "One Day Internationals",
-   "market": "Match odds",
-   "event": "Australia v England",
-   "start": "2026-11-18T03:30:00Z",
-   "selection": "Australia",
-   "book": "BoyleSports",
-   "odds": 1.91,
-   "fair": 1.84,
-   "books": 12,
-   "detected": "2026-11-15T17:32:46.571068+00:00",
-   "link": "https://www.boylesports.com/sports/cricket/event/international-odis/australia-v-england"
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "San Jose Sharks v Nashville Predators",
-   "start": "2026-11-16T02:10:00Z",
-   "selection": "Over 6.5",
-   "book": "LiveScore Bet",
-   "odds": 2.28,
-   "fair": 2.05,
-   "books": 7,
-   "detected": "2026-11-15T17:32:46.716628+00:00",
-   "link": "https://www.livescorebet.com/uk/sports/ice-hockey/nhl/san-jos%C3%A9-sharks-nashville-predators/SBTE_2_1028410060",
-   "also": [
-    {
-     "book": "Virgin Bet",
-     "odds": 2.28
-    },
-    {
-     "book": "Grosvenor",
-     "odds": 2.15
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Anaheim Ducks v Calgary Flames",
-   "start": "2026-11-16T01:10:00Z",
-   "selection": "Over 6.5",
-   "book": "Virgin Bet",
-   "odds": 2.04,
-   "fair": 1.91,
-   "books": 8,
-   "detected": "2026-11-15T17:32:46.715893+00:00",
-   "link": "https://www.virginbet.com/sports/ice-hockey/nhl/anaheim-ducks-calgary-flames/SBTE_2_1029836937",
-   "also": [
-    {
-     "book": "LiveScore Bet",
-     "odds": 2.04
-    },
-    {
-     "book": "Casumo",
-     "odds": 1.95
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "Anaheim Ducks v Calgary Flames",
-   "start": "2026-11-16T01:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 2.0,
-   "fair": 1.89,
-   "books": 8,
-   "detected": "2026-11-15T17:32:46.715924+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/calgary-flames-anaheim-ducks-e-7954482/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 2.0
-    }
-   ]
-  },
-  {
-   "sport": "NHL",
-   "market": "Totals",
-   "event": "San Jose Sharks v Nashville Predators",
-   "start": "2026-11-16T02:10:00Z",
-   "selection": "Under 6.5",
-   "book": "888sport",
-   "odds": 1.91,
-   "fair": 1.82,
-   "books": 7,
-   "detected": "2026-11-15T17:32:46.716671+00:00",
-   "link": "https://www.888sport.com/ice-hockey/united-states/nhl/nashville-predators-san-jose-sharks-e-7954492/",
-   "also": [
-    {
-     "book": "William Hill",
-     "odds": 1.91
-    }
-   ]
-  }
- ],
+ "bets": [],
  "results": [
   {
    "sport": "ATP Japan Open",
