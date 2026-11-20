@@ -754,63 +754,6 @@
   "latest_fair": 5.82,
   "latest_seen": "2026-11-15T13:08:11.051141+00:00"
  },
- "4edfdf1f2fb0bb06bd731dd91c12e8c8|grosvenor|h2h|Draw": {
-  "sport": "Test Matches",
-  "sport_key": "cricket_test_match",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Afghanistan v Zimbabwe",
-  "start": "2026-11-13T05:00:00Z",
-  "selection": "Draw",
-  "book": "Grosvenor",
-  "odds": 3.4,
-  "fair": 3.22,
-  "edge": 5.59,
-  "books": 14,
-  "detected": "2026-11-11T13:10:33.022388+00:00",
-  "first_seen": "2026-11-11T13:10:33.022391+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 3.57,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
- },
  "66f9e83cf025d58acee12bce18661fb3|unibet_uk|h2h|Indianapolis Colts": {
   "sport": "NFL",
   "sport_key": "americanfootball_nfl",
@@ -1038,63 +981,6 @@
   "close_status": "pending",
   "latest_fair": 4.61,
   "latest_seen": "2026-11-15T17:32:46.867635+00:00"
- },
- "4edfdf1f2fb0bb06bd731dd91c12e8c8|boylesports|h2h|Zimbabwe": {
-  "sport": "Test Matches",
-  "sport_key": "cricket_test_match",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Afghanistan v Zimbabwe",
-  "start": "2026-11-13T06:00:00Z",
-  "selection": "Zimbabwe",
-  "book": "BoyleSports",
-  "odds": 3.5,
-  "fair": 3.25,
-  "edge": 7.69,
-  "books": 13,
-  "detected": "2026-11-12T18:40:52.307075+00:00",
-  "first_seen": "2026-11-12T18:40:52.307076+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 3.25,
-  "latest_seen": "2026-11-12T18:40:52.307187+00:00"
  },
  "29a6e4e35a3b385e9666473ad68f2084|betway|h2h|Elina Svitolina": {
   "sport": "WTA Finals",
