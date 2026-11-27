@@ -298,63 +298,6 @@
   "latest_fair": 2.03,
   "latest_seen": "2026-11-05T18:30:18.542922+00:00"
  },
- "66f9e83cf025d58acee12bce18661fb3|unibet_uk|h2h|Indianapolis Colts": {
-  "sport": "NFL",
-  "sport_key": "americanfootball_nfl",
-  "market_key": "h2h",
-  "market": "Match odds",
-  "event": "Houston Texans v Indianapolis Colts",
-  "start": "2026-11-20T01:15:00Z",
-  "selection": "Indianapolis Colts",
-  "book": "Unibet (UK)",
-  "odds": 5.0,
-  "fair": 4.86,
-  "edge": 2.88,
-  "books": 7,
-  "detected": "2026-11-11T18:21:14.075785+00:00",
-  "first_seen": "2026-11-11T18:21:14.075786+00:00",
-  "model_version": "1.0",
-  "scanner_config": "cfg-e8080b68",
-  "min_edge_at_detection": 2.0,
-  "config": {
-   "min_edge": 2.0,
-   "max_edge": 12.0,
-   "min_books": 6,
-   "min_books_by_market": {
-    "spreads": 8
-   },
-   "max_odds": 6.0,
-   "min_hours": 2.0,
-   "max_per_sport": 15,
-   "max_price_age_min": 20.0,
-   "markets": [
-    "h2h",
-    "totals",
-    "spreads"
-   ],
-   "competitions": [
-    "tennis_atp",
-    "tennis_wta",
-    "basketball_nba",
-    "icehockey_nhl",
-    "americanfootball_nfl",
-    "cricket",
-    "darts",
-    "snooker"
-   ],
-   "exchanges_excluded": [
-    "betfair_ex_uk",
-    "betfair_ex_au",
-    "betfair_ex_eu",
-    "matchbook",
-    "smarkets",
-    "betdaq"
-   ]
-  },
-  "close_status": "pending",
-  "latest_fair": 4.93,
-  "latest_seen": "2026-11-15T17:32:46.867635+00:00"
- },
  "3ea90704fb576633bd1e2fa5aafd9ea3|paddypower|h2h|New Orleans Saints": {
   "sport": "NFL",
   "sport_key": "americanfootball_nfl",
